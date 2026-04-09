@@ -14,15 +14,17 @@ import (
 
 // Client represents a single connected player.
 type Client struct {
-	conn         *websocket.Conn
-	send         chan []byte
-	hub          *Hub
-	userID       int64
-	name         string
-	playerID     string
-	state        PlayerState
-	npcCooldowns map[string]time.Time
-	mountedNPCID string // ID of the horse this client is riding, or ""
+	conn          *websocket.Conn
+	send          chan []byte
+	hub           *Hub
+	userID        int64
+	name          string
+	playerID      string
+	state         PlayerState
+	npcCooldowns  map[string]time.Time
+	mountedNPCID  string    // ID of the horse this client is riding, or ""
+	sessionStart  time.Time // when the player connected
+	savedPlaytime int       // playtime seconds accumulated before this session
 }
 
 var upgrader = websocket.Upgrader{
@@ -63,30 +65,34 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 	playerID := fmt.Sprintf("player_%d", user.ID)
 
 	client := &Client{
-		conn:         conn,
-		send:         make(chan []byte, 512),
-		hub:          globalHub,
-		userID:       user.ID,
-		name:         user.Name,
-		playerID:     playerID,
-		npcCooldowns: make(map[string]time.Time),
+		conn:          conn,
+		send:          make(chan []byte, 512),
+		hub:           globalHub,
+		userID:        user.ID,
+		name:          user.Name,
+		playerID:      playerID,
+		npcCooldowns:  make(map[string]time.Time),
+		sessionStart:  time.Now(),
+		savedPlaytime: user.Playtime,
 		state: PlayerState{
-			ID:      playerID,
-			Name:    user.Name,
-			X:       spawnX,
-			Y:       spawnY,
-			Dir:     2,
-			Gralats: user.Gralats,
+			ID:       playerID,
+			Name:     user.Name,
+			X:        spawnX,
+			Y:        spawnY,
+			Dir:      2,
+			Gralats:  user.Gralats,
+			Playtime: user.Playtime,
 		},
 	}
 
 	conn.WriteJSON(map[string]interface{}{
-		"type":     "auth_ok",
-		"id":       playerID,
-		"name":     user.Name,
-		"x":        spawnX,
-		"y":        spawnY,
-		"gralat_n": user.Gralats,
+		"type":      "auth_ok",
+		"id":        playerID,
+		"name":      user.Name,
+		"x":         spawnX,
+		"y":         spawnY,
+		"gralat_n":  user.Gralats,
+		"playtime":  user.Playtime,
 	})
 
 	globalHub.register(client)

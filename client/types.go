@@ -12,6 +12,7 @@ type PlayerState struct {
 	Head      string  `json:"head,omitempty"`
 	Hat       string  `json:"hat,omitempty"`
 	Gralats   int     `json:"gralats,omitempty"`
+	Playtime  int     `json:"playtime,omitempty"`
 	AnimState string  `json:"anim,omitempty"`
 	Mounted   bool    `json:"mounted,omitempty"`
 }
@@ -41,18 +42,19 @@ type GralatPickup struct {
 
 // ServerMessage is a general-purpose struct for unmarshaling server messages.
 type ServerMessage struct {
-	Type    string         `json:"type"`
-	Players []PlayerState  `json:"players,omitempty"`
-	NPCs    []NPCState     `json:"npcs,omitempty"`
-	Gralats []GralatPickup `json:"gralats,omitempty"`
-	From    string         `json:"from,omitempty"`
-	Msg     string         `json:"msg,omitempty"`
-	ID      string         `json:"id,omitempty"`
-	Name    string         `json:"name,omitempty"`
-	X       float64        `json:"x,omitempty"`
-	Y       float64        `json:"y,omitempty"`
-	GralatN int            `json:"gralat_n,omitempty"`
-	NPCID   string         `json:"npc_id,omitempty"`
-	HP      int            `json:"hp"`
-	Killed  bool           `json:"killed,omitempty"`
+	Type     string         `json:"type"`
+	Players  []PlayerState  `json:"players,omitempty"`
+	NPCs     []NPCState     `json:"npcs,omitempty"`
+	Gralats  []GralatPickup `json:"gralats,omitempty"`
+	From     string         `json:"from,omitempty"`
+	Msg      string         `json:"msg,omitempty"`
+	ID       string         `json:"id,omitempty"`
+	Name     string         `json:"name,omitempty"`
+	X        float64        `json:"x,omitempty"`
+	Y        float64        `json:"y,omitempty"`
+	GralatN  int            `json:"gralat_n,omitempty"`
+	Playtime int            `json:"playtime,omitempty"`
+	NPCID    string         `json:"npc_id,omitempty"`
+	HP       int            `json:"hp"`
+	Killed   bool           `json:"killed,omitempty"`
 }

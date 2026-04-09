@@ -83,7 +83,7 @@ func (h *Hub) register(c *Client) {
 	log.Printf("[HUB] %s connected (ID: %s)", c.name, c.playerID)
 }
 
-// unregister removes a client, frees any mount, saves position.
+// unregister removes a client, frees any mount, saves position and playtime.
 func (h *Hub) unregister(c *Client) {
 	h.mu.Lock()
 	delete(h.clients, c)
@@ -96,9 +96,11 @@ func (h *Hub) unregister(c *Client) {
 		}
 	}
 	h.mu.Unlock()
+	elapsed := int(time.Since(c.sessionStart).Seconds())
 	dbUpdatePosition(c.userID, c.state.X, c.state.Y)
+	dbAddPlaytime(c.userID, elapsed)
 	h.broadcastSystem(fmt.Sprintf("%s left the world.", c.name))
-	log.Printf("[HUB] %s disconnected", c.name)
+	log.Printf("[HUB] %s disconnected (session: %ds)", c.name, elapsed)
 }
 
 func (h *Hub) broadcastRaw(data []byte) {
@@ -131,7 +133,9 @@ func (h *Hub) getGameState() ([]PlayerState, []NPCState, []GralatPickup) {
 
 	players := make([]PlayerState, 0, len(h.clients))
 	for c := range h.clients {
-		players = append(players, c.state)
+		ps := c.state
+		ps.Playtime = c.savedPlaytime + int(time.Since(c.sessionStart).Seconds())
+		players = append(players, ps)
 	}
 
 	// Include alive NPCs and briefly-dead NPCs (first 2 s after death for death animation).

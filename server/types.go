@@ -12,6 +12,7 @@ type PlayerState struct {
 	Head      string  `json:"head,omitempty"`
 	Hat       string  `json:"hat,omitempty"`
 	Gralats   int     `json:"gralats,omitempty"`
+	Playtime  int     `json:"playtime,omitempty"` // total seconds played (including current session)
 	AnimState string  `json:"anim,omitempty"`
 	Mounted   bool    `json:"mounted,omitempty"`
 }

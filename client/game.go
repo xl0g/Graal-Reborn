@@ -77,6 +77,11 @@ type Game struct {
 	profileOpen  bool       // local player profile (P key)
 	viewedPlayer *Character // non-nil when inspecting another player's profile
 
+	// Profile
+	localPlaytime int
+	sessionStart  time.Time
+	previewImg    *ebiten.Image // 96×96 offscreen used for character previews
+
 	// Push animation delay
 	pushTimer float64
 
@@ -118,6 +123,9 @@ func NewGame(bodyImg, headImg, tilesImg *ebiten.Image) *Game {
 
 	// Load gralat sprites
 	loadGralatImage()
+
+	// Offscreen image for character previews (reused each frame).
+	g.previewImg = ebiten.NewImage(96, 96)
 
 	return g
 }
@@ -701,6 +709,8 @@ func (g *Game) handleServerMsg(data []byte) {
 	case "auth_ok":
 		g.localID = msg.ID
 		g.localGralats = msg.GralatN
+		g.localPlaytime = msg.Playtime
+		g.sessionStart = time.Now()
 		if g.localChar != nil {
 			g.localChar.X, g.localChar.Y = msg.X, msg.Y
 			g.localChar.TargetX, g.localChar.TargetY = msg.X, msg.Y
@@ -729,6 +739,7 @@ func (g *Game) handleServerMsg(data []byte) {
 				ch.Dir = p.Dir
 				ch.Moving = p.Moving
 				ch.Gralats = p.Gralats
+				ch.Playtime = p.Playtime
 				ch.SetCosmetics(p.Body, p.Head, p.Hat)
 				// Sync mounted / ride state
 				ch.Mounted = p.Mounted
@@ -752,6 +763,7 @@ func (g *Game) handleServerMsg(data []byte) {
 			} else {
 				ch := NewCharacter(g.bodyImg, g.headImg, p.X, p.Y, p.Name, false, 0)
 				ch.Gralats = p.Gralats
+				ch.Playtime = p.Playtime
 				ch.Mounted = p.Mounted
 				if p.Mounted {
 					ch.AnimState = AnimRide
@@ -918,15 +930,15 @@ func (g *Game) drawPlaying(screen *ebiten.Image) {
 	}
 }
 
-// drawViewedProfile shows a read-only profile panel for another player.
+// drawViewedProfile shows a rich read-only profile panel for another player.
 func (g *Game) drawViewedProfile(screen *ebiten.Image) {
 	p := g.viewedPlayer
 	if p == nil {
 		return
 	}
 	const (
-		pw = 280
-		ph = 160
+		pw = 480
+		ph = 300
 		px = screenW/2 - pw/2
 		py = screenH/2 - ph/2
 	)
@@ -935,20 +947,55 @@ func (g *Game) drawViewedProfile(screen *ebiten.Image) {
 	title := "PLAYER PROFILE"
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2+2, py+16, colGoldDim)
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2, py+14, colGold)
-	DrawHDivider(screen, px+10, py+42, pw-20)
+	DrawHDivider(screen, px+10, py+44, pw-20)
 
-	DrawText(screen, "Player: "+p.Name, px+16, py+62, colTextWhite)
+	// ── Left: text info (px+16 … px+240) ────────────────────────
+	infoX := px + 18
+	row := py + 66
 
+	// Name
+	DrawText(screen, "Name", infoX, row, colGoldDim)
+	DrawText(screen, p.Name, infoX, row+fontH+3, colTextWhite)
+	row += fontH*2 + 14
+
+	// Gralats with icon
+	DrawText(screen, "Fortune", infoX, row, colGoldDim)
+	row += fontH + 3
 	spr := gralatSprite(1)
 	if spr != nil {
 		op := &ebiten.DrawImageOptions{}
-		op.GeoM.Scale(0.8, 0.8)
-		op.GeoM.Translate(float64(px+16), float64(py+78))
+		op.GeoM.Scale(0.75, 0.75)
+		op.GeoM.Translate(float64(infoX), float64(row-fontH+1))
 		screen.DrawImage(spr, op)
 	}
-	DrawText(screen, fmt.Sprintf("Gralats: %d", p.Gralats), px+44, py+94, colGold)
+	DrawText(screen, fmt.Sprintf("%d gralats", p.Gralats), infoX+26, row, colGold)
+	row += fontH + 14
 
-	hint := "[Esc] or click elsewhere to close"
+	// Playtime
+	DrawText(screen, "Playtime", infoX, row, colGoldDim)
+	DrawText(screen, formatPlaytime(p.Playtime), infoX, row+fontH+3, colTextWhite)
+	row += fontH*2 + 14
+
+	// Status: Online
+	DrawText(screen, "Status", infoX, row, colGoldDim)
+	DrawRect(screen, infoX, row+fontH+3, 8, 8, color.RGBA{40, 220, 80, 255})
+	DrawText(screen, "Online", infoX+12, row+fontH+11, colTextOK)
+
+	// ── Vertical divider ─────────────────────────────────────────
+	DrawRect(screen, px+248, py+50, 1, ph-70, colBorderMid)
+	DrawRect(screen, px+249, py+50, 1, ph-70, colBorderHL)
+
+	// ── Right: character preview (px+258 … px+476) ───────────────
+	previewScale := 2.5
+	previewW := int(96 * previewScale)
+	previewH := int(96 * previewScale)
+	previewAreaW := pw - 260
+	previewAreaH := ph - 70
+	previewX := float64(px+258) + float64(previewAreaW-previewW)/2
+	previewY := float64(py+54) + float64(previewAreaH-previewH)/2
+	p.DrawPreview(screen, g.previewImg, previewX, previewY, previewScale)
+
+	hint := "[Esc] Close"
 	DrawText(screen, hint, px+(pw-len(hint)*fontW)/2, py+ph-10, colTextDim)
 }
 
@@ -1071,35 +1118,89 @@ func (g *Game) drawDialog(screen *ebiten.Image, msg string, gralatN int) {
 		py+ph-8, colTextDim)
 }
 
-// drawProfile draws the local player profile overlay.
+// drawProfile draws the local player's own profile overlay.
 func (g *Game) drawProfile(screen *ebiten.Image) {
 	const (
-		pw = 280
-		ph = 160
+		pw = 480
+		ph = 300
 		px = screenW/2 - pw/2
 		py = screenH/2 - ph/2
 	)
 	DrawPanel(screen, px, py, pw, ph)
 
-	title := "PROFILE"
+	title := "MY PROFILE"
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2+2, py+16, colGoldDim)
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2, py+14, colGold)
-	DrawHDivider(screen, px+10, py+42, pw-20)
+	DrawHDivider(screen, px+10, py+44, pw-20)
 
-	DrawText(screen, "Player: "+g.localName, px+16, py+62, colTextWhite)
+	// ── Left: text info ───────────────────────────────────────────
+	infoX := px + 18
+	row := py + 66
 
-	// Gralat count with sprite
+	// Name
+	DrawText(screen, "Name", infoX, row, colGoldDim)
+	DrawText(screen, g.localName, infoX, row+fontH+3, colTextWhite)
+	row += fontH*2 + 14
+
+	// Gralats
+	DrawText(screen, "Fortune", infoX, row, colGoldDim)
+	row += fontH + 3
 	spr := gralatSprite(1)
 	if spr != nil {
 		op := &ebiten.DrawImageOptions{}
-		op.GeoM.Scale(0.8, 0.8)
-		op.GeoM.Translate(float64(px+16), float64(py+78))
+		op.GeoM.Scale(0.75, 0.75)
+		op.GeoM.Translate(float64(infoX), float64(row-fontH+1))
 		screen.DrawImage(spr, op)
 	}
-	DrawText(screen, fmt.Sprintf("Gralats: %d", g.localGralats), px+44, py+94, colGold)
+	DrawText(screen, fmt.Sprintf("%d gralats", g.localGralats), infoX+26, row, colGold)
+	row += fontH + 14
+
+	// Live playtime (saved + current session)
+	totalPlaytime := g.localPlaytime + int(time.Since(g.sessionStart).Seconds())
+	DrawText(screen, "Playtime", infoX, row, colGoldDim)
+	DrawText(screen, formatPlaytime(totalPlaytime), infoX, row+fontH+3, colTextWhite)
+	row += fontH*2 + 14
+
+	// Status
+	DrawText(screen, "Status", infoX, row, colGoldDim)
+	DrawRect(screen, infoX, row+fontH+3, 8, 8, color.RGBA{40, 220, 80, 255})
+	DrawText(screen, "Online", infoX+12, row+fontH+11, colTextOK)
+
+	// ── Vertical divider ─────────────────────────────────────────
+	DrawRect(screen, px+248, py+50, 1, ph-70, colBorderMid)
+	DrawRect(screen, px+249, py+50, 1, ph-70, colBorderHL)
+
+	// ── Right: character preview ──────────────────────────────────
+	if g.localChar != nil {
+		previewScale := 2.5
+		previewW := int(96 * previewScale)
+		previewH := int(96 * previewScale)
+		previewAreaW := pw - 260
+		previewAreaH := ph - 70
+		previewX := float64(px+258) + float64(previewAreaW-previewW)/2
+		previewY := float64(py+54) + float64(previewAreaH-previewH)/2
+		g.localChar.DrawPreview(screen, g.previewImg, previewX, previewY, previewScale)
+	}
 
 	hint := "[P] or [Esc] Close"
 	DrawText(screen, hint, px+(pw-len(hint)*fontW)/2, py+ph-10, colTextDim)
+}
+
+// formatPlaytime formats a duration in seconds as "Xh Ym Zs".
+func formatPlaytime(seconds int) string {
+	if seconds <= 0 {
+		return "0s"
+	}
+	h := seconds / 3600
+	m := (seconds % 3600) / 60
+	s := seconds % 60
+	if h > 0 {
+		return fmt.Sprintf("%dh %02dm %02ds", h, m, s)
+	}
+	if m > 0 {
+		return fmt.Sprintf("%dm %02ds", m, s)
+	}
+	return fmt.Sprintf("%ds", s)
 }
 
 func (g *Game) drawHUD(screen *ebiten.Image) {

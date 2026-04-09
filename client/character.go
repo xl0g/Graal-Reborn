@@ -83,10 +83,11 @@ type Character struct {
 	Dir     int
 	Moving  bool
 	Name    string
-	IsNPC   bool
-	NPCType int
-	IsLocal bool
-	Gralats int
+	IsNPC    bool
+	NPCType  int
+	IsLocal  bool
+	Gralats  int
+	Playtime int // total seconds played (from server)
 
 	// Gani animation state machine
 	AnimState string // AnimIdle | AnimWalk | AnimSword | AnimRide
@@ -485,6 +486,49 @@ func (c *Character) drawNameTag(screen *ebiten.Image, sx, sy float64) {
 		DrawText(screen, gs, gx, nameY+fontH+1, color.RGBA{255, 200, 60, 180})
 	}
 	_ = basicfont.Face7x13
+}
+
+// DrawPreview renders the character's idle animation onto dst at screen position
+// (dstX, dstY) scaled by scale. offscreen must be a 96×96 image owned by the caller
+// (reused each frame to avoid allocations).
+func (c *Character) DrawPreview(dst, offscreen *ebiten.Image, dstX, dstY float64, scale float64) {
+	offscreen.Clear()
+
+	c.cosmu.Lock()
+	imgs := c.cosImgs
+	c.cosmu.Unlock()
+
+	gi := &GaniImages{def: GaniDefaultImages()}
+	if imgs.body != nil {
+		gi.Body = imgs.body
+	}
+	if imgs.head != nil {
+		gi.Head = imgs.head
+	}
+	if c.HatFile == "" {
+		gi.NoAttr1 = true
+	} else if imgs.hat != nil {
+		gi.Attr1 = imgs.hat
+	}
+
+	// Place gani origin at (24,24) in the offscreen image so the 48×48 gani box
+	// is centered. Body (at offset +8,+16) lands at (32,40) and hats (48×48
+	// at origin) fit within the 96×96 canvas.
+	p := c.getPlayer("idle.gani")
+	if p != nil && p.Anim != nil {
+		p.Draw(offscreen, gi, 2,
+			float64(ganiOriginDX+24),
+			float64(ganiOriginDY+24),
+			0, 0)
+	} else {
+		// Fallback: simple silhouette
+		DrawRect(offscreen, 28, 20, 32, 48, color.RGBA{100, 150, 200, 200})
+	}
+
+	op := &ebiten.DrawImageOptions{}
+	op.GeoM.Scale(scale, scale)
+	op.GeoM.Translate(dstX, dstY)
+	dst.DrawImage(offscreen, op)
 }
 
 // HatThumbRect returns the source rect for a hat thumbnail (down/front-facing).
