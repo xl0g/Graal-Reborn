@@ -14,6 +14,9 @@ type Hub struct {
 	clients map[*Client]bool
 	npcs    []*NPC
 
+	// Tile collision map (loaded from TMX at startup)
+	collMap *CollisionMap
+
 	// World gralat pickups
 	gralats     []*GralatPickup
 	gralatTimer map[string]time.Time // id → scheduled respawn time
@@ -27,23 +30,31 @@ func newHub() *Hub {
 		gralatTimer: make(map[string]time.Time),
 	}
 
+	// Load tile collision map (path relative to server working directory).
+	if cm, err := LoadCollisionMap("test2.tmx"); err == nil {
+		h.collMap = cm
+		log.Println("[MAP] Collision map loaded from test2.tmx")
+	} else {
+		log.Printf("[MAP] Could not load collision map: %v — NPCs will ignore walls", err)
+	}
+
 	npcDefs := []struct {
 		name    string
 		x, y    float64
 		npcType int
 	}{
 		// Regular NPCs
-		{"Thibaut le Villageois", 300, 200, NPCTypeVillager},
-		{"Marceline la Marchande", 600, 280, NPCTypeMerchant},
-		{"Galaad le Garde", 800, 160, NPCTypeGuard},
-		{"Eleonore la Voyageuse", 420, 480, NPCTypeTraveler},
-		{"Baptiste le Fermier", 680, 520, NPCTypeFarmer},
-		{"Sylvain l'Aubergiste", 180, 400, NPCTypeMerchant},
-		{"Noemie la Sorcierre", 850, 550, NPCTypeVillager},
+		{"Thibaut the Villager", 300, 200, NPCTypeVillager},
+		{"Marceline the Merchant", 600, 280, NPCTypeMerchant},
+		{"Galahad the Guard", 800, 160, NPCTypeGuard},
+		{"Eleanor the Traveller", 420, 480, NPCTypeTraveler},
+		{"Baptiste the Farmer", 680, 520, NPCTypeFarmer},
+		{"Sylvain the Innkeeper", 180, 400, NPCTypeMerchant},
+		{"Noemie the Sorceress", 850, 550, NPCTypeVillager},
 		// Horses (NPCTypeHorse = 5)
-		{"Cheval de Guerre", 240, 360, NPCTypeHorse},
-		{"Jument Grise", 700, 430, NPCTypeHorse},
-		{"Poulain Rapide", 450, 570, NPCTypeHorse},
+		{"War Horse", 240, 360, NPCTypeHorse},
+		{"Grey Mare", 700, 430, NPCTypeHorse},
+		{"Swift Foal", 450, 570, NPCTypeHorse},
 	}
 
 	for i, def := range npcDefs {
@@ -68,8 +79,8 @@ func (h *Hub) register(c *Client) {
 	h.mu.Lock()
 	h.clients[c] = true
 	h.mu.Unlock()
-	h.broadcastSystem(fmt.Sprintf("%s a rejoint le monde!", c.name))
-	log.Printf("[HUB] %s connecte (ID: %s)", c.name, c.playerID)
+	h.broadcastSystem(fmt.Sprintf("%s joined the world!", c.name))
+	log.Printf("[HUB] %s connected (ID: %s)", c.name, c.playerID)
 }
 
 // unregister removes a client, frees any mount, saves position.
@@ -86,8 +97,8 @@ func (h *Hub) unregister(c *Client) {
 	}
 	h.mu.Unlock()
 	dbUpdatePosition(c.userID, c.state.X, c.state.Y)
-	h.broadcastSystem(fmt.Sprintf("%s a quitte le monde.", c.name))
-	log.Printf("[HUB] %s deconnecte", c.name)
+	h.broadcastSystem(fmt.Sprintf("%s left the world.", c.name))
+	log.Printf("[HUB] %s disconnected", c.name)
 }
 
 func (h *Hub) broadcastRaw(data []byte) {
@@ -123,10 +134,10 @@ func (h *Hub) getGameState() ([]PlayerState, []NPCState, []GralatPickup) {
 		players = append(players, c.state)
 	}
 
-	// Only include alive NPCs in broadcast
+	// Include alive NPCs and briefly-dead NPCs (first 2 s after death for death animation).
 	npcs := make([]NPCState, 0, len(h.npcs))
 	for _, n := range h.npcs {
-		if n.alive {
+		if n.alive || n.respawnTimer > npcRespawnTime-2.0 {
 			npcs = append(npcs, n.state)
 		}
 	}
@@ -160,6 +171,7 @@ func (h *Hub) damageNPC(npcID string, dmg int) (newHP int, killed bool) {
 			n.state.HP = 0
 			n.alive = false
 			n.respawnTimer = npcRespawnTime
+			n.state.AnimState = "dead"
 			return 0, true
 		}
 		return n.state.HP, false
@@ -270,7 +282,7 @@ func (h *Hub) runGameLoop() {
 
 		h.mu.Lock()
 		for _, n := range h.npcs {
-			n.update(dt)
+			n.update(dt, h.collMap)
 		}
 		h.mu.Unlock()
 

@@ -45,7 +45,7 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 		Token string `json:"token"`
 	}
 	if err := conn.ReadJSON(&authMsg); err != nil || authMsg.Type != "auth" {
-		conn.WriteJSON(map[string]string{"type": "auth_error", "msg": "Authentification requise"})
+		conn.WriteJSON(map[string]string{"type": "auth_error", "msg": "Authentication required"})
 		conn.Close()
 		return
 	}
@@ -278,7 +278,7 @@ func handleTalkNPC(c *Client, raw []byte) {
 		remaining := int((cooldown - time.Since(last)).Seconds())
 		data, _ := json.Marshal(map[string]interface{}{
 			"type":     "npc_dialog",
-			"msg":      fmt.Sprintf("%s: Je n'ai rien de plus a dire pour l'instant... (%ds)", npc.state.Name, remaining),
+			"msg":      fmt.Sprintf("%s: I have nothing more to say for now... (%ds)", npc.state.Name, remaining),
 			"gralat_n": 0,
 		})
 		select {
@@ -364,9 +364,9 @@ func handleSwordHit(c *Client, raw []byte) {
 	}
 
 	if killed {
-		log.Printf("[COMBAT] %s a tue %s", c.name, msg.NPCID)
+		log.Printf("[COMBAT] %s killed %s", c.name, msg.NPCID)
 	} else {
-		log.Printf("[COMBAT] %s frappe %s → HP %d", c.name, msg.NPCID, newHP)
+		log.Printf("[COMBAT] %s hit %s → HP %d", c.name, msg.NPCID, newHP)
 	}
 }
 
@@ -419,7 +419,7 @@ func handleMountNPC(c *Client, raw []byte) {
 	case c.send <- data:
 	default:
 	}
-	log.Printf("[MOUNT] %s monte sur %s", c.name, msg.NPCID)
+	log.Printf("[MOUNT] %s mounted %s", c.name, msg.NPCID)
 }
 
 func handleDismount(c *Client, raw []byte) {
