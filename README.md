@@ -1,4 +1,4 @@
-# Go Multiplayer
+# Go Multiplayer v0.1
 
 Jeu multijoueur en temps réel écrit en Go avec Ebiten. Fonctionne en natif sur Linux et dans le navigateur (WebAssembly).
 
