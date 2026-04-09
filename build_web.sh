@@ -14,7 +14,7 @@ mkdir -p "$STATIC_DIR"
 
 echo "=== Compilation WASM ==="
 go mod tidy
-GOOS=js GOARCH=wasm go build -o "$STATIC_DIR/game.wasm" .
+GOOS=js GOARCH=wasm go build -o "$STATIC_DIR/game.wasm" ./client/
 echo "    OK: $STATIC_DIR/game.wasm"
 
 echo ""

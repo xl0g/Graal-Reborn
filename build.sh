@@ -18,7 +18,7 @@ echo "    OK: game-server"
 echo ""
 echo "=== Compilation du client natif (Linux) ==="
 go mod tidy
-go build -o game-client .
+go build -o game-client ./client/
 echo "    OK: game-client"
 
 echo ""
