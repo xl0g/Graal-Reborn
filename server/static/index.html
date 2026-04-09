@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Multiplayer</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: #0c0c16;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: monospace;
+            color: #c8d0e8;
+        }
+        h1 {
+            font-size: 1.6rem;
+            color: #50b4ff;
+            margin-bottom: 6px;
+            letter-spacing: 3px;
+        }
+        p { font-size: 0.85rem; color: #6070a0; margin-bottom: 20px; }
+        #game-container {
+            position: relative;
+            border: 2px solid #304080;
+            box-shadow: 0 0 32px #1040a040;
+        }
+        canvas { display: block; }
+        #loading {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0c0c16;
+            color: #50b4ff;
+            font-size: 1rem;
+            letter-spacing: 2px;
+        }
+        #error {
+            display: none;
+            color: #ff6060;
+            margin-top: 12px;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>GO MULTIPLAYER</h1>
+    <p>Jeu multijoueur temps réel &mdash; inscrivez-vous et jouez dans votre navigateur!</p>
+
+    <div id="game-container" style="width:800px;height:600px;">
+        <div id="loading">Chargement du jeu...</div>
+    </div>
+
+    <p id="error"></p>
+
+    <script src="/wasm_exec.js"></script>
+    <script>
+        const go = new Go();
+        WebAssembly.instantiateStreaming(fetch('/game.wasm'), go.importObject)
+            .then(result => {
+                document.getElementById('loading').style.display = 'none';
+                go.run(result.instance);
+            })
+            .catch(err => {
+                const loading = document.getElementById('loading');
+                loading.textContent = 'Erreur de chargement';
+                loading.style.color = '#ff6060';
+                const errEl = document.getElementById('error');
+                errEl.style.display = 'block';
+                errEl.textContent = String(err);
+                console.error(err);
+            });
+    </script>
+</body>
+</html>

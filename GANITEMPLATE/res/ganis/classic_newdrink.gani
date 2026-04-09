@@ -1,0 +1,55 @@
+GANI0001
+SPRITE    0         SPRITES    0    0   24   12 shadow
+SPRITE   42           ATTR1   96    0   48   48 hat down
+SPRITE  102            HEAD    0   64   32   32 head down
+SPRITE  106            HEAD    0  208   32   32 head pulling down
+SPRITE  206            BODY   64   32   32   32 body walking1 down
+SPRITE  210            BODY   64   64   32   32 body walking2 down
+SPRITE  279            BODY   96  608   32   32 body hurted down
+SPRITE  282            BODY   64  640   32   32 body carrying5 down
+SPRITE  286          PARAM1    0    0   32   32 sprite (0)
+SPRITE  287          PARAM1   32    0   32   32 sprite (1)
+SPRITE  288          PARAM1   64    0   32   32 sprite (2)
+SPRITE  289          PARAM1   96    0   32   32 sprite (3)
+SPRITE  290            BODY   96  626   32   16 body hurted down
+SPRITE  291          PARAM1  128    0   32   32 (0)
+SPRITE  292          PARAM1  160    0   32   32 (1)
+SPRITE  293          PARAM1  192    0   32   32 (2)
+
+SINGLEDIRECTION
+DEFAULTPARAM1 food_nexus_retro-barreljuice0.png
+DEFAULTATTR1 hat0.png
+DEFAULTHEAD head19.png
+DEFAULTBODY body.png
+COLOREFFECT 0 0 0 0 0.5
+EFFECTMODE 0 1
+
+ANI
+   0  12  34,  279   8  16,  102   8   1,   42   0 -17,  286   8  26
+WAIT 3
+
+   0  12  34,  210   8  16,  102   8   1,   42   0 -17,  287   8  24
+WAIT 1
+
+   0  12  34,  206   8  17,  290   8  36,  106   8  -3,   42   0 -18,  288   8  17
+WAIT 5
+
+   0  12  34,  206   8  17,  290   8  36,  106   8  -2,   42   0 -17,  289   8  16
+PLAYSOUND PARAM2 1.5 2
+WAIT 1
+
+   0  12  34,  206   8  17,  290   8  36,  106   8  -3,   42   0 -18,  289   8  17
+WAIT 9
+
+   0  12  34,  206   8  17,  290   8  36,  106   8  -2,   42   0 -17,  291   8  16
+PLAYSOUND PARAM2 1.5 2
+WAIT 1
+
+   0  12  34,  206   8  17,  290   8  36,  106   8  -3,   42   0 -18,  291   8  17
+WAIT 5
+
+   0  12  34,  210   8  16,  102   8   1,   42   0 -17,  292   8  24
+WAIT 1
+
+   0  12  34,  279   8  16,  102   8   1,   42   0 -17,  293   8  26
+ANIEND

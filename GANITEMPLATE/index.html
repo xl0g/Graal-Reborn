@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gani Previewer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <style>
+      
+      * {
+        box-sizing: border-box;
+        /* touch-action: none; */
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        /* touch-action: none; */
+      }
+
+      canvas {
+        touch-action: none;
+      }
+      
+      header {
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+
+      nav {
+        float: left;
+        width: auto;
+        padding: 10px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      article {
+        float: left;
+        padding: 10px;
+      }
+      
+      section {
+        max-width: 800px;
+        margin: auto;
+      }
+      
+      section:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      footer {
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+
+      @media (max-width: 600px) {
+        nav, article {
+          width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <section>
+
+      <article>
+        <input type="file" id="upload" name="upload" accept=".gif,.png,.gani"><br>
+        <canvas id="canvas" width="400" height="400"></canvas>
+        
+        <br><select name="animations" id="animations" onchange='onAnimationChanged(this)'>
+        </select> 
+        Direction: <select name="directions" id="directions" onchange='onDirectionChanged(this)'>
+          <option value="0">Up</option>
+          <option value="1">Left</option>
+          <option value="2">Down</option>
+          <option value="3">Right</option>
+        </select> 
+        Zoom: <select name="zoom" id="zoom" onchange='onZoomChange(this)'>
+          <option value="1">1x</option>
+          <option value="2">2x</option>
+          <option value="3">3x</option>
+          <option value="4">4x</option>
+        </select> 
+        
+      </article>
+      
+      <nav>
+        <ul>
+          <li><input type="checkbox" id="vis_head"      name="vis_head"      value="HEAD"   checked onchange='onToggleVisibility(this)'> <label for="vis_head">Head</label></li>
+          <li><input type="checkbox" id="vis_hat"       name="vis_hat"       value="ATTR1"  checked onchange='onToggleVisibility(this)'> <label for="vis_hat">Hat</label></li>
+          <li><input type="checkbox" id="vis_accessory" name="vis_accessory" value="ATTR4"  checked onchange='onToggleVisibility(this)'> <label for="vis_accessory">Accessory</label></li>
+          <li><input type="checkbox" id="vis_body"      name="vis_body"      value="BODY"   checked onchange='onToggleVisibility(this)'> <label for="vis_body">Body</label></li>
+          <li><input type="checkbox" id="vis_shield"    name="vis_shield"    value="SHIELD" checked onchange='onToggleVisibility(this)'> <label for="vis_shield">Shield</label></li>
+          <li><input type="checkbox" id="vis_sword"     name="vis_sword"     value="SWORD"  checked onchange='onToggleVisibility(this)'> <label for="vis_sword">Sword</label></li>
+          <li><input type="checkbox" id="vis_horse"     name="vis_horse"     value="HORSE"  checked onchange='onToggleVisibility(this)'> <label for="vis_horse">Horse</label></li>
+          <li><input type="checkbox" id="vis_param"     name="vis_param"     value="PARAM1" checked onchange='onToggleVisibility(this)'> <label for="vis_param">Param</label></li>
+        </ul>
+      </nav>
+
+    </section>
+
+    <footer>
+    </footer>
+
+    <script type="text/javascript" src="defaultGanis.js?random=311"></script>
+    <script type="text/javascript" src="main.js?random=311"></script>
+        
+  </body>
+
+</html>

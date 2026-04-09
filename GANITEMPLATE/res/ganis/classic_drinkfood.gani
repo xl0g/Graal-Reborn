@@ -1,0 +1,64 @@
+GANI0001
+SPRITE    0         SPRITES    0    0   24   12 shadow
+SPRITE   42           ATTR1   96    0   48   48 hat down
+SPRITE  102            HEAD    0   64   32   32 head down
+SPRITE  106            HEAD    0  208   32   32 head pulling down
+SPRITE  206            BODY   64   32   32   32 body walking1 down
+SPRITE  210            BODY   64   64   32   32 body walking2 down
+SPRITE  279            BODY   96  608   32   32 body hurted down
+SPRITE  282            BODY   64  640   32   32 body carrying5 down
+SPRITE  290            BODY   96  626   32   16 body hurted down
+SPRITE  300          PARAM1    0    0   48   32 sprite (0)
+SPRITE  301          PARAM1   48    0   48   32 sprite (1)
+SPRITE  302          PARAM1   96    0   48   32 sprite (2)
+SPRITE  303          PARAM1  144    0   48   32 sprite (3)
+SPRITE  304          PARAM1  192    0   48   32 sprite (4)
+SPRITE  305          PARAM1  240    0   48   32 sprite (5)
+SPRITE  306          PARAM1  288    0   48   32 sprite (6)
+SPRITE  307          PARAM1  336    0   48   32 sprite (7)
+
+SINGLEDIRECTION
+SETBACKTO iidle
+DEFAULTPARAM1 classic_nexusj_foodsprite_ramen.png
+DEFAULTPARAM2 classic_gulp.wav
+DEFAULTATTR1 hat0.png
+DEFAULTHEAD head19.png
+DEFAULTBODY body.png
+COLOREFFECT 0 0 0 0 0.5
+EFFECTMODE 0 1
+
+ANI
+   0  12  34,  279   8  16,  102   8   3,   42   0 -15,  301  -1  23
+WAIT 3
+
+   0  12  34,  210   8  16,  102   8   3,   42   0 -15,  302  -1  16
+
+   0  12  34,  282   8  12,  290   8  36,  106   8  -2,   42   0 -17,  303  -1  11
+
+   0  12  34,  206   8  17,  290   8  36,  106   8  -3,   42   0 -18,  304  -1  10
+WAIT 4
+
+   0  12  34,  206   8  17,  290   8  36,  106   8  -2,   42   0 -17,  304  -1  11
+PLAYSOUND PARAM2 1.5 2
+WAIT 4
+
+   0  12  34,  206   8  17,  290   8  36,  106   8  -3,   42   0 -18,  304  -1  10
+WAIT 4
+
+   0  12  34,  206   8  17,  290   8  36,  106   8  -2,   42   0 -17,  304  -1  11
+PLAYSOUND PARAM2 1.5 2
+WAIT 4
+
+   0  12  34,  206   8  17,  290   8  36,  106   8  -3,   42   0 -18,  304  -1  10
+WAIT 4
+
+   0  12  34,  206   8  17,  290   8  36,  106   8  -2,   42   0 -17,  304  -1  11
+PLAYSOUND PARAM2 1.5 2
+WAIT 4
+
+   0  12  34,  206   8  17,  102   8   2,   42   0 -16,  305  -1  11
+
+   0  12  34,  210   8  16,  102   8   3,   42   0 -15,  305  -1  16
+
+   0  12  34,  279   8  16,  102   8   3,   42   0 -15,  307  -1  23
+ANIEND

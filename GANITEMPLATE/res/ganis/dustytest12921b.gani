@@ -1,0 +1,77 @@
+GANI0001
+SPRITE    0         SPRITES    0    0   24   16 shadow
+SPRITE    1          PARAM1    0    0   80   80 sprite (0)
+SPRITE    2          PARAM1   80    0   80   80 sprite (1)
+SPRITE    3          PARAM1  160    0   80   80 sprite (2)
+SPRITE    4          PARAM1  240    0   80   80 sprite (3)
+SPRITE    5          PARAM1  320    0   80   80 sprite (4)
+
+LOOP
+SINGLEDIRECTION
+DEFAULTHEAD head19.png
+DEFAULTBODY body.png
+
+ANI
+   0  12  34,    4 -16 -24
+WAIT 1
+
+   0  12  34,    2 -16 -22
+WAIT 1
+
+   0  12  34,    5 -16 -17
+WAIT 1
+
+   0  12  34,    3 -16 -19
+WAIT 1
+
+   0  12  34,    4 -16 -24
+WAIT 1
+
+   0  12  34,    2 -16 -22
+WAIT 1
+
+   0  12  34,    5 -16 -16
+WAIT 1
+
+   0  12  34,    3 -16 -19
+WAIT 1
+
+   0  12  34,    4 -16 -24
+WAIT 1
+
+   0  12  34,    2 -16 -22
+WAIT 1
+
+   0  12  34,    5 -16 -17
+WAIT 1
+
+   0  12  34,    3 -16 -18
+WAIT 1
+
+   0  12  34,    3 -16 -18
+WAIT 1
+
+   0  12  34,    2 -16 -18
+WAIT 1
+
+   0  12  34,    3 -16 -18
+WAIT 1
+
+   0  12  34,    2 -16 -18
+WAIT 1
+
+   0  12  34,    3 -16 -18
+WAIT 1
+
+   0  12  34,    4 -16 -23
+WAIT 1
+
+   0  12  34,    2 -16 -22
+WAIT 1
+
+   0  12  34,    5 -16 -17
+WAIT 1
+
+   0  12  34,    3 -16 -19
+WAIT 1
+ANIEND

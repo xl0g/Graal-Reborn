@@ -1,0 +1,122 @@
+GANI0001
+SPRITE    0         SPRITES    0    0   24   12 shadow
+SPRITE    1          ATTR1    0   16   32   32 head front (0, 0)
+SPRITE    2          ATTR1   32   16   32   32 head front (1, 0)
+SPRITE    4          ATTR1    0   48   32   32 head front (0, 1)
+SPRITE    5          ATTR1   32   48   32   32 head front (1, 1)
+SPRITE    7          ATTR1    0   80   32   32 head front (0, 2)
+SPRITE    8          ATTR1   32   80   32   32 head front (1, 2)
+SPRITE    9          ATTR1  128   16   32   32 head left (0, 0)
+SPRITE   10          ATTR1  160   16   32   32 head left (1, 0)
+SPRITE   11          ATTR1  128   48   32   32 head left (0, 1)
+SPRITE   12          ATTR1  160   48   32   32 head left (1, 1)
+SPRITE   13          ATTR1  128   80   32   32 head left (0, 2)
+SPRITE   14          ATTR1  160   80   32   32 head left (1, 2)
+SPRITE   15          ATTR1  192   16   32   32 head right (0, 0)
+SPRITE   16          ATTR1  224   16   32   32 head right (1, 0)
+SPRITE   17          ATTR1  192   48   32   32 head right (0, 1)
+SPRITE   18          ATTR1  224   48   32   32 head right (1, 1)
+SPRITE   19          ATTR1  192   80   32   32 head right (0, 2)
+SPRITE   20          ATTR1  224   80   32   32 head right (1, 2)
+SPRITE   22          ATTR1   96   16   32   32 head back (1, 0)
+SPRITE   25          ATTR1   64   16   32   32 head special (0, 0)
+SPRITE   26          ATTR1   64   48   32   32 head special (0, 0) (0)
+SPRITE   27          ATTR1   96   48   32   32 head special (0, 0) (1)
+SPRITE   29          ATTR1   64   80   32   32 head special (0, 2)
+SPRITE   30          ATTR1   96   80   32   32 head special (1, 2)
+SPRITE   31          ATTR1    0  112   32   32 body stand front
+SPRITE   33          ATTR1   64  112   32   32 body stand back
+SPRITE   35          ATTR1  128  112   32   32 body stand left
+SPRITE   37          ATTR1  192  112   32   32 body stand right
+SPRITE   38          ATTR1    0  160   32   32 body sit front
+SPRITE   40          ATTR1   64  160   32   32 body sit back
+SPRITE   42          ATTR1  128  160   32   32 body up left
+SPRITE   43          ATTR1  160  160   32   32 body sit left
+SPRITE   44          ATTR1  192  160   32   32 body sit right
+SPRITE   45          ATTR1  224  160   32   32 body up right
+SPRITE   48          ATTR1   32  112   16   16 tail front
+SPRITE   49          ATTR1   48  112   16   16 tail front lay
+SPRITE   52          ATTR1   96  112   16   16 tail back
+SPRITE   53          ATTR1  112  112   16   16 tail back sit
+SPRITE   56          ATTR1  160  112   16   16 tail left
+SPRITE   57          ATTR1  176  112   16   16 tail left sit
+SPRITE   60          ATTR1  224  112   16   16 tail right
+SPRITE   61          ATTR1  240  112   16   16 tail right sit
+SPRITE   64          ATTR1   32  128   16   16 paw front 1
+SPRITE   65          ATTR1   48  128   16   16 paw front 2
+SPRITE   68          ATTR1   96  128   16   16 paw back 1
+SPRITE   69          ATTR1  112  128   16   16 paw back 2
+SPRITE   72          ATTR1  160  128   16   16 paw left 1
+SPRITE   73          ATTR1  176  128   16   16 paw left 2
+SPRITE   76          ATTR1  224  128   16   16 paw right 2
+SPRITE   77          ATTR1  240  128   16   16 paw right 1
+SPRITE   78          ATTR1    0  144   16   16 lay leg front 1
+SPRITE   79          ATTR1   16  144   16   16 lay leg front 2
+SPRITE   80          ATTR1   32  144   16   16 paw front walk 1
+SPRITE   81          ATTR1   48  144   16   16 paw front walk 2
+SPRITE   82          ATTR1   64  144   16   16 leg lay back 1
+SPRITE   83          ATTR1   80  144   16   16 leg lay back 2
+SPRITE   84          ATTR1   96  144   16   16 paw back walk 1
+SPRITE   85          ATTR1  112  144   16   16 paw back walk 2
+SPRITE   86          ATTR1  128  144   16   16 paws front lay
+SPRITE   87          ATTR1  144  144   16   16 leg left sit
+SPRITE   88          ATTR1  160  144   16   16 paw left walk 1
+SPRITE   89          ATTR1  176  144   16   16 paw left walk 2
+SPRITE   90          ATTR1  192  144   16   16 leg right sit
+SPRITE   91          ATTR1  208  144   16   16 tongue
+SPRITE   92          ATTR1  224  144   16   16 paw right walk 2
+SPRITE   93          ATTR1  240  144   16   16 paw right walk 1
+SPRITE  126          ATTR1    0  192   16   16 paw front up 1
+SPRITE  127          ATTR1   16  192   16   16 tail front wag (0)
+SPRITE  128          ATTR1   32  192   16   16 tail front wag (0) (0)
+SPRITE  129          ATTR1   48  192   16   16 tail front wag (0) (1)
+SPRITE  130          ATTR1   64  192   16   16 tail sway back 1
+SPRITE  131          ATTR1   80  192   16   16 tail sway back 2
+SPRITE  134          ATTR1  128  192   16   16 tail sway left 1
+SPRITE  135          ATTR1  144  192   16   16 tail sway left 2
+SPRITE  136          ATTR1  160  192   16   16 paw left up
+SPRITE  137          ATTR1  176  192   16   16 paw left dig
+SPRITE  138          ATTR1  192  192   16   16 paw right dig
+SPRITE  139          ATTR1  208  192   16   16 paw right up
+SPRITE  140          ATTR1  224  192   16   16 tail sway right 2
+SPRITE  141          ATTR1  240  192   16   16 tail sway right 1
+SPRITE  142          ATTR1   96  160   16   16 tail wag (0, 0)
+SPRITE  143          ATTR1  112  160   16   16 tail wag (1, 0)
+SPRITE  144          ATTR1   96  176   16   16 tail wag (0, 1)
+SPRITE  145          ATTR1  112  176   16   16 tail wag (1, 1)
+SPRITE  146          ATTR1   96  192   16   16 tail wag back
+SPRITE  147          ATTR1  112  192   16   16 tail wag back
+SPRITE  200          ATTR3    0    0   48   48 hat (0)
+SPRITE  201          ATTR3   48    0   48   48 hat (1)
+SPRITE  202          ATTR3   96    0   48   48 hat (2)
+SPRITE  203          ATTR3  144    0   48   48 hat (3)
+SPRITE  250          ATTR4    0    0   48   48 accessory (0, 0)
+SPRITE  251          ATTR4   48    0   48   48 accessory (1, 0)
+SPRITE  252          ATTR4   96    0   48   48 accessory (2, 0)
+SPRITE  253          ATTR4  144    0   48   48 accessory (3, 0)
+SPRITE  254          ATTR4    0   48   48   48 accessory (0, 1)
+SPRITE  255          ATTR4   48   48   48   48 accessory (1, 1)
+SPRITE  256          ATTR4   96   48   48   48 accessory (2, 1)
+SPRITE  257          ATTR4  144   48   48   48 accessory (3, 1)
+
+LOOP
+CONTINUOUS
+DEFAULTATTR1 newpet_largedog0.png
+DEFAULTATTR2 newpet_hat-baseballcap.png
+DEFAULTATTR3 newpet_accessory-test.png
+DEFAULTHEAD head19.png
+DEFAULTBODY body.png
+
+ANI
+   0  12  34,   22   8  -5,  254   0  -4,   33   8  10,   85  24  29,   84   8  29,  250   0  -2,  200   0 -22,   52  16  15
+   0  12  34,   88   5  19,   35   8   7,   88   6  22,   89  27  23,   56  31   5,  255  -3  -6,    9  -1  -3,  251  -3  -7,  201  -4 -19
+   0  12  34,   48  16  -5,   31   8   8,   81  26  30,   80   6  30,  256   0  -5,    1   8   3,  252   0  -6,  202   0 -14
+   0  12  34,   93  27  19,   37   8   7,   93  26  22,   92   5  23,   60   1   5,  257   3  -6,   15  17  -3,  253   3  -7,  203   5 -19
+WAIT 2
+
+   0  12  34,   22   8  -3,  254   0  -2,   33   8  12,   68  11  32,   69  21  32,  250   0   0,  200   0 -20,   52  16  17
+   0  12  34,   73  21  25,   72   7  25,   35   8   9,   73  24  27,   56  31   7,   72  10  27,  255  -3  -4,    9  -1  -1,  251  -3  -5,  201  -4 -17
+   0  12  34,   48  16  -3,   31   8  10,   65  21  32,   64  11  32,  256   0  -3,    1   8   5,  252   0  -4,  202   0 -12
+   0  12  34,   77  25  25,   76  11  25,   37   8   9,   60   1   7,   77  22  27,   76   8  27,  257   3  -4,   15  17  -1,  253   3  -5,  203   5 -17
+WAIT 2
+ANIEND

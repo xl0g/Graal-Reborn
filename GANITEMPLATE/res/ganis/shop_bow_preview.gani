@@ -1,0 +1,21 @@
+GANI0001
+SPRITE    0         SPRITES    0    0   24   16 shadow
+SPRITE    1          PARAM1    0    0   32   32 sprite (0)
+SPRITE    2          PARAM1    0   32   32   32 sprite (1)
+SPRITE    3          PARAM1   32    0   32   16 sprite (0)
+SPRITE    4          PARAM1   32   16   32   16 sprite (1)
+SPRITE    5          PARAM1   64    0   16   32 sprite (1) (0)
+SPRITE    6          PARAM1   80    0   16   32 sprite (1) (1)
+SPRITE    7          PARAM1   32   32   32   16 sprite (1) (1) (0)
+SPRITE    8          PARAM1   32   48   32   16 sprite (1) (1) (1)
+SPRITE    9          PARAM1   64   32   16   32 sprite (1) (1) (1) (0)
+SPRITE   10          PARAM1   80   32   16   32 sprite (1) (1) (1) (1)
+
+SINGLEDIRECTION
+DEFAULTPARAM1 classiciphone_custombow_default.png
+DEFAULTHEAD head19.png
+DEFAULTBODY body.png
+
+ANI
+   1  -7   8,    9  27  11,    9  45  11,    9  36   4
+ANIEND

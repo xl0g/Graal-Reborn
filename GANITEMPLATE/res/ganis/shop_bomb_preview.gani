@@ -1,0 +1,152 @@
+GANI0001
+SPRITE    1          PARAM1    0    0   32   32 bomb 1
+SPRITE    2          PARAM1   32    0   32   32 bomb 2
+SPRITE   20          PARAM1    0    0   32   32 explosions (0, 0)
+SPRITE   21          PARAM1   32    0   32   32 explosions (1, 0)
+SPRITE   22          PARAM1   64    0   32   32 explosions (2, 0)
+SPRITE   23          PARAM1   96    0   32   32 explosions (3, 0)
+SPRITE   24          PARAM1    0   32   32   32 explosions (0, 1)
+SPRITE   25          PARAM1   32   32   32   32 explosions (1, 1)
+SPRITE   26          PARAM1   64   32   32   32 explosions (2, 1)
+SPRITE   27          PARAM1   96   32   32   32 explosions (3, 1)
+SPRITE   28          PARAM1    0   64   32   32 explosions (0, 2)
+SPRITE   29          PARAM1   32   64   32   32 explosions (1, 2)
+SPRITE   30          PARAM1   64   64   32   32 explosions (2, 2)
+SPRITE   31          PARAM1   96   64   32   32 explosions (3, 2)
+SPRITE   32          PARAM1    0   96   32   32 explosions (0, 3)
+SPRITE   33          PARAM1   32   96   32   32 explosions (1, 3)
+SPRITE   34          PARAM1   64   96   32   32 explosions (2, 3)
+SPRITE   35          PARAM1   96   96   32   32 explosions (3, 3)
+SPRITE   36          PARAM1    0  128   32   32 explosions (0, 4)
+SPRITE   37          PARAM1   32  128   32   32 explosions (1, 4)
+SPRITE   38          PARAM1   64  128   32   32 explosions (2, 4)
+SPRITE   39          PARAM1   96  128   32   32 explosions (3, 4)
+SPRITE   40          PARAM1    0  160   32   32 explosions (0, 5)
+SPRITE   41          PARAM1   32  160   32   32 explosions (1, 5)
+SPRITE   42          PARAM1   64  160   32   32 explosions (2, 5)
+SPRITE   43          PARAM1   96  160   32   32 explosions (3, 5)
+SPRITE   44          PARAM1    0  192   32   32 explosions (0, 6)
+SPRITE   45          PARAM1   32  192   32   32 explosions (1, 6)
+SPRITE   46          PARAM1   64  192   32   32 explosions (2, 6)
+SPRITE   47          PARAM1   96  192   32   32 explosions (3, 6)
+SPRITE   48          PARAM1    0  224   32   32 explosions (0, 7)
+SPRITE   49          PARAM1   32  224   32   32 explosions (1, 7)
+SPRITE   50          PARAM1   64  224   32   32 explosions (2, 7)
+SPRITE   51          PARAM1   96  224   32   32 explosions (3, 7)
+SPRITE   52          PARAM1    0  256   32   32 explosions (0, 8)
+SPRITE   53          PARAM1   32  256   32   32 explosions (1, 8)
+SPRITE   54          PARAM1   64  256   32   32 explosions (2, 8)
+SPRITE   55          PARAM1   96  256   32   32 explosions (3, 8)
+SPRITE   56          PARAM1    0  288   32   32 explosions (0, 9)
+SPRITE   57          PARAM1   32  288   32   32 explosions (1, 9)
+SPRITE   58          PARAM1   64  288   32   32 explosions (2, 9)
+SPRITE   59          PARAM1   96  288   32   32 explosions (3, 9)
+
+LOOP
+SINGLEDIRECTION
+DEFAULTPARAM1 bomb1.png
+DEFAULTHEAD 
+DEFAULTBODY 
+
+ANI
+   1   0   0
+
+   1   0   0
+WAIT 18
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+   1   0   0
+
+   2   0   0
+
+  32   0   0,   28   0 -32,   24   0 -64,   36   0  32,   40   0  64,   45 -32   0,   44 -64   0,   46  32   0,   47  64   0
+PLAYSOUND bomb.wav 1.5 2
+WAIT 1
+
+  33   0   0,   29   0 -32,   25   0 -64,   37   0  32,   41   0  64,   49 -32   0,   48 -64   0,   50  32   0,   51  64   0
+WAIT 1
+
+  34   0   0,   30   0 -32,   26   0 -64,   38   0  32,   42   0  64,   53 -32   0,   52 -64   0,   54  32   0,   55  64   0
+WAIT 1
+
+  35   0   0,   31   0 -32,   27   0 -64,   39   0  32,   43   0  64,   57 -32   0,   56 -64   0,   58  32   0,   59  64   0
+WAIT 1
+
+  23   0   0
+WAIT 11
+ANIEND

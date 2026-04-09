@@ -1,0 +1,34 @@
+GANI0001
+SPRITE    0         SPRITES    0    0   24   12 shadow
+SPRITE    1          PARAM1    0    0  100   32 classic_batwings
+SPRITE    2          PARAM1    0   32  100   28 classic_batwings
+SPRITE    3          PARAM1    0   60  100   22 classic_batwings
+SPRITE    4          PARAM1    0   83  100   27 classic_batwings
+SPRITE   42           ATTR1   96    0   48   48 hat down
+SPRITE  102            HEAD    0   64   32   32 head down
+SPRITE  202            BODY   64    0   32   32 body down
+SPRITE 5002           ATTR4   96    0   48   48 head accessory down
+SPRITE 5010           ATTR4   96   96   48   48 head accessory down drawunder
+
+LOOP
+CONTINUOUS
+SINGLEDIRECTION
+DEFAULTPARAM1 classic_batwings.png
+DEFAULTATTR1 hat0.png
+DEFAULTATTR4 ci_accessory_test0.png
+DEFAULTHEAD head19.png
+DEFAULTBODY body.png
+
+ANI
+   1 -26   1,    0  12  34,  202   8   3, 5010   0 -13,  102   8 -11, 5002   0 -13,   42   0 -29
+WAIT 3
+
+   2 -26  -2,    0  12  34,  202   8   1, 5010   0 -15,  102   8 -13, 5002   0 -15,   42   0 -31
+WAIT 3
+
+   3 -26  -4,    0  12  34,  202   8   0, 5010   0 -16,  102   8 -14, 5002   0 -16,   42   0 -32
+WAIT 3
+
+   4 -26  -1,    0  12  34,  202   8   2, 5010   0 -14,  102   8 -12, 5002   0 -14,   42   0 -30
+WAIT 3
+ANIEND

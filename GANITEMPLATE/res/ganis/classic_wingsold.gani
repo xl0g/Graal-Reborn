@@ -1,0 +1,47 @@
+GANI0001
+SPRITE    0         SPRITES    0    0   24   12 shadow
+SPRITE   20          PARAM1    0    0   72   20 wings (0)
+SPRITE   21          PARAM1   72    0   72   20 wings (1)
+SPRITE   22          PARAM1  144    0   72   20 wings (2)
+SPRITE   23          PARAM1  216    0   72   20 wings (3)
+SPRITE   24          PARAM1  288    0   72   20 wings (4)
+SPRITE   42           ATTR1   96    0   48   48 hat down
+SPRITE  102            HEAD    0   64   32   32 head down
+SPRITE  202            BODY   64    0   32   32 body down
+SPRITE 5002           ATTR4   96    0   48   48 head accessory down
+SPRITE 5010           ATTR4   96   96   48   48 head accessory down drawunder
+
+LOOP
+CONTINUOUS
+SINGLEDIRECTION
+DEFAULTPARAM1 classic_object_wings.gif
+DEFAULTATTR1 hat0.png
+DEFAULTATTR4 ci_accessory_test0.png
+DEFAULTHEAD head19.png
+DEFAULTBODY body.png
+
+ANI
+  20 -12   6,    0  12  34,  202   8   6, 5010   0 -10,  102   8  -8, 5002   0 -10,   42   0 -26
+WAIT 2
+
+  21 -12   9,    0  12  34,  202   8   9, 5010   0  -7,  102   8  -5, 5002   0  -7,   42   0 -23
+WAIT 1
+
+  20 -12  10,    0  12  34,  202   8  10, 5010   0  -6,  102   8  -4, 5002   0  -6,   42   0 -22
+WAIT 1
+
+  22 -12   9,    0  12  34,  202   8   9, 5010   0  -7,  102   8  -5, 5002   0  -7,   42   0 -23
+WAIT 1
+
+  23 -12   7,    0  12  34,  202   8   7, 5010   0  -9,  102   8  -7, 5002   0  -9,   42   0 -25
+WAIT 1
+
+  24 -12   6,    0  12  34,  202   8   4, 5010   0 -12,  102   8 -10, 5002   0 -12,   42   0 -28
+WAIT 1
+
+  23 -12   6,    0  12  34,  202   8   6, 5010   0 -10,  102   8  -8, 5002   0 -10,   42   0 -26
+WAIT 2
+
+  22 -12   7,    0  12  34,  202   8   7, 5010   0  -9,  102   8  -7, 5002   0  -9,   42   0 -25
+WAIT 2
+ANIEND

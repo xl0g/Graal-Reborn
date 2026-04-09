@@ -1,0 +1,21 @@
+GANI0001
+SPRITE    0         SPRITES    0    0   24   12 shadow
+SPRITE    1          PARAM1    0    0   64   80 sprite (0, 0)
+SPRITE    2          PARAM1   64    0   64   80 sprite (1, 0)
+SPRITE    3          PARAM1  128    0   64   80 sprite (2, 0)
+SPRITE    4          PARAM1  192    0   64   80 sprite (3, 0)
+SPRITE    5          PARAM1    0   80   64   80 sprite (0, 1)
+SPRITE    6          PARAM1   64   80   64   80 sprite (1, 1)
+SPRITE    7          PARAM1  128   80   64   80 sprite (2, 1)
+SPRITE    8          PARAM1  192   80   64   80 sprite (3, 1)
+
+DEFAULTATTR1 cc_castle_chair0.png
+DEFAULTHEAD 
+DEFAULTBODY 
+
+ANI
+   2   0 -16,    6   0   1
+   3   0 -16,    7  16 -16
+   1   0 -16,    5   0 -16
+   4  -1 -16,    8 -16 -16
+ANIEND

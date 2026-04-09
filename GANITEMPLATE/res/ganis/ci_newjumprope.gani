@@ -1,0 +1,48 @@
+GANI0001
+SPRITE    0         SPRITES    0    0   24   12 shadow
+SPRITE   20    jumprope.png    0    0   48   33 sprite (0, 0)
+SPRITE   21          PARAM1   48    0   48   33 sprite (1, 0)
+SPRITE   22          PARAM1   96    0   48   33 sprite (2, 0)
+SPRITE   23          PARAM1    0   33   48   33 sprite (0, 1)
+SPRITE   24          PARAM1   48   33   48   33 sprite (1, 1)
+SPRITE   25          PARAM1   96   33   48   33 sprite (2, 1)
+SPRITE   42           ATTR1   96    0   48   48 hat down
+SPRITE  102            HEAD    0   64   32   32 head down
+SPRITE  202            BODY   64    0   32   32 body down
+SPRITE  260            BODY    0  480   32   32 body hands up
+SPRITE  262            BODY   64  480   32   32 body hands down
+SPRITE  266            BODY   64  512   32   32 body carrying1 down
+SPRITE  330            BODY   32  330    8    8 Made by Raven D
+SPRITE  348            BODY  120  330    8    8 Account: Dark_Zeratul101
+
+LOOP
+CONTINUOUS
+SINGLEDIRECTION
+DEFAULTPARAM1 jumprope.png
+DEFAULTATTR1 hat0.png
+DEFAULTHEAD head19.png
+DEFAULTBODY body.png
+
+ANI
+   0  12  34,  266   8  16,  102   8   2,   42   0 -16,   25   0  -9,  260   8   2
+PLAYSOUND jump.wav 6.5625 2
+
+   0  12  34,  266   8  10,  102   8  -4,   42   0 -22,   24   0 -10,  260   8  -1
+
+   0  12  34,  266   8   5,  102   8  -9,   42   0 -27,   23   0 -14,  260   8  -2
+
+   0  12  34,  202   8   3,   22   0  15,  102   8 -13,   42   0 -31
+
+   0  12  34,  202   8   1,  102   8 -15,   42   0 -33,   21   0  14
+
+   0  12  34,  202   8   0,  102   8 -16,   42   0 -34,   20   0  15
+WAIT 1
+
+  21   0   9,    0  12  34,  266   8  -1,  102   8 -15,   42   0 -33,  348  32  12,  330   8  12
+
+  22   0   9,    0  12  34,  266   8   1,  102   8 -13,   42   0 -31,  330   8  11,  348  32  11
+
+  23   0 -12,    0  12  34,  266   8   5,  102   8  -9,   42   0 -27,  330   8  13,  348  32  13
+
+  25   0 -17,  262   8  -7,    0  12  34,  266   8  10,  102   8  -4,   42   0 -22
+ANIEND
