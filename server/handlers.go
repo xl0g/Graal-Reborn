@@ -31,32 +31,32 @@ func handleRegister(w http.ResponseWriter, r *http.Request) {
 		Email    string `json:"email"`
 	}
 	if err := json.NewDecoder(r.Body).Decode(&body); err != nil {
-		writeJSON(w, http.StatusBadRequest, map[string]string{"error": "JSON invalide"})
+		writeJSON(w, http.StatusBadRequest, map[string]string{"error": "Invalid JSON"})
 		return
 	}
 	body.Username = strings.TrimSpace(body.Username)
 	if len(body.Username) < 3 || len(body.Username) > 20 {
-		writeJSON(w, http.StatusBadRequest, map[string]string{"error": "Nom d'utilisateur: 3-20 caracteres"})
+		writeJSON(w, http.StatusBadRequest, map[string]string{"error": "Username: 3-20 characters"})
 		return
 	}
 	if len(body.Password) < 6 {
-		writeJSON(w, http.StatusBadRequest, map[string]string{"error": "Mot de passe: minimum 6 caracteres"})
+		writeJSON(w, http.StatusBadRequest, map[string]string{"error": "Password: minimum 6 characters"})
 		return
 	}
 	if err := dbCreateUser(body.Username, body.Password, body.Email); err != nil {
-		writeJSON(w, http.StatusConflict, map[string]string{"error": "Ce nom d'utilisateur est deja pris"})
+		writeJSON(w, http.StatusConflict, map[string]string{"error": "Username already taken"})
 		return
 	}
-	log.Printf("[AUTH] Nouvel utilisateur: %s", body.Username)
+	log.Printf("[AUTH] New user: %s", body.Username)
 
 	user, err := dbAuthenticate(body.Username, body.Password)
 	if err != nil {
-		writeJSON(w, http.StatusInternalServerError, map[string]string{"error": "Erreur interne"})
+		writeJSON(w, http.StatusInternalServerError, map[string]string{"error": "Internal error"})
 		return
 	}
 	token, err := dbCreateSession(user.ID, user.Name)
 	if err != nil {
-		writeJSON(w, http.StatusInternalServerError, map[string]string{"error": "Erreur interne"})
+		writeJSON(w, http.StatusInternalServerError, map[string]string{"error": "Internal error"})
 		return
 	}
 	writeJSON(w, http.StatusOK, map[string]interface{}{"token": token, "username": user.Name})
@@ -72,7 +72,7 @@ func handleLogin(w http.ResponseWriter, r *http.Request) {
 		Password string `json:"password"`
 	}
 	if err := json.NewDecoder(r.Body).Decode(&body); err != nil {
-		writeJSON(w, http.StatusBadRequest, map[string]string{"error": "JSON invalide"})
+		writeJSON(w, http.StatusBadRequest, map[string]string{"error": "Invalid JSON"})
 		return
 	}
 	user, err := dbAuthenticate(strings.TrimSpace(body.Username), body.Password)
@@ -82,10 +82,10 @@ func handleLogin(w http.ResponseWriter, r *http.Request) {
 	}
 	token, err := dbCreateSession(user.ID, user.Name)
 	if err != nil {
-		writeJSON(w, http.StatusInternalServerError, map[string]string{"error": "Erreur interne"})
+		writeJSON(w, http.StatusInternalServerError, map[string]string{"error": "Internal error"})
 		return
 	}
-	log.Printf("[AUTH] Connexion: %s", user.Name)
+	log.Printf("[AUTH] Login: %s", user.Name)
 	writeJSON(w, http.StatusOK, map[string]interface{}{"token": token, "username": user.Name})
 }
 

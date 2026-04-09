@@ -22,9 +22,9 @@ package main
 
 import (
 	"bufio"
+	"bytes"
 	"fmt"
 	"image"
-	"os"
 	"strconv"
 	"strings"
 	"sync"
@@ -128,13 +128,12 @@ type GaniAnim struct {
 // Parser
 // ──────────────────────────────────────────────────────────────
 
-// ParseGani reads and parses a .gani file from disk.
+// ParseGani reads and parses a .gani file (disk on native, HTTP fetch on WASM).
 func ParseGani(path string) (*GaniAnim, error) {
-	f, err := os.Open(path)
+	data, err := ReadGameFile(path)
 	if err != nil {
 		return nil, err
 	}
-	defer f.Close()
 
 	anim := &GaniAnim{
 		sprites: make(map[int]*ganiSprite),
@@ -149,7 +148,7 @@ func ParseGani(path string) (*GaniAnim, error) {
 		newFrame   [][]ganiEntry // accumulates 4 dir-lines → 1 frame
 	)
 
-	scanner := bufio.NewScanner(f)
+	scanner := bufio.NewScanner(bytes.NewReader(data))
 	for scanner.Scan() {
 		origLine := scanner.Text()
 		line := strings.TrimSpace(origLine)
@@ -366,9 +365,10 @@ type GaniImages struct {
 
 	// When true, the corresponding sprite type is suppressed entirely
 	// (returns nil instead of falling back to the default image).
-	NoBody  bool
-	NoHead  bool
-	NoAttr1 bool
+	NoBody   bool
+	NoHead   bool
+	NoAttr1  bool
+	NoShield bool
 
 	// Shared defaults (singletons loaded by GaniDefaults)
 	def *ganiDefaults
@@ -440,6 +440,9 @@ func (gi *GaniImages) resolve(src ganiSource, fileSrc string, anim *GaniAnim) *e
 	case srcHorse:
 		return d.horse
 	case srcShield:
+		if gi.NoShield {
+			return nil
+		}
 		return d.shield
 	case srcAttr4:
 		return nil // accessories not implemented

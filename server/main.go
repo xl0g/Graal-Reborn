@@ -18,26 +18,33 @@ func main() {
 	}
 
 	if err := initDB(dbPath); err != nil {
-		log.Fatalf("[DB] Erreur initialisation: %v", err)
+		log.Fatalf("[DB] Initialization error: %v", err)
 	}
-	log.Println("[DB] Base de donnees initialisee:", dbPath)
+	log.Println("[DB] Database initialized:", dbPath)
 
 	globalHub = newHub()
 	go globalHub.runGameLoop()
-	log.Println("[HUB] Boucle de jeu demarree (60 Hz)")
+	log.Println("[HUB] Game loop started (60 Hz)")
 
 	mux := http.NewServeMux()
 	mux.HandleFunc("/api/register", handleRegister)
 	mux.HandleFunc("/api/login", handleLogin)
 	mux.HandleFunc("/ws", handleWebSocket)
+	// Game asset directories (served relative to the project root where the
+	// server binary is expected to run).
 	mux.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
+	mux.Handle("/Assets/", http.StripPrefix("/Assets/", http.FileServer(http.Dir("Assets"))))
+	mux.Handle("/GANITEMPLATE/", http.StripPrefix("/GANITEMPLATE/", http.FileServer(http.Dir("GANITEMPLATE"))))
+	mux.HandleFunc("/test2.tmx", func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, "test2.tmx")
+	})
 
 	staticDir := "server/static"
 	if _, err := os.Stat(staticDir); err == nil {
 		mux.Handle("/", http.FileServer(http.Dir(staticDir)))
 	} else {
 		mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-			fmt.Fprintln(w, "Go Multiplayer Server — lancez le client natif ou compilez en WASM.")
+			fmt.Fprintln(w, "Go Multiplayer Server — run the native client or compile to WASM.")
 		})
 	}
 

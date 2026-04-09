@@ -82,10 +82,10 @@ func dbAuthenticate(username, password string) (*UserRecord, error) {
 		 FROM users WHERE username = ?`, username,
 	).Scan(&u.ID, &u.Name, &hash, &u.LastX, &u.LastY, &u.Gralats)
 	if err != nil {
-		return nil, fmt.Errorf("identifiants invalides")
+		return nil, fmt.Errorf("invalid credentials")
 	}
 	if err := bcrypt.CompareHashAndPassword([]byte(hash), []byte(password)); err != nil {
-		return nil, fmt.Errorf("identifiants invalides")
+		return nil, fmt.Errorf("invalid credentials")
 	}
 	return &u, nil
 }
@@ -109,7 +109,7 @@ func dbValidateSession(token string) (*UserRecord, error) {
 		 WHERE s.token = ?`, token,
 	).Scan(&u.ID, &u.Name, &u.LastX, &u.LastY, &u.Gralats)
 	if err != nil {
-		return nil, fmt.Errorf("session invalide")
+		return nil, fmt.Errorf("invalid session")
 	}
 	return &u, nil
 }

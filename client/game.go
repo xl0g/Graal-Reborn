@@ -77,6 +77,9 @@ type Game struct {
 	profileOpen  bool       // local player profile (P key)
 	viewedPlayer *Character // non-nil when inspecting another player's profile
 
+	// Push animation delay
+	pushTimer float64
+
 	// Cached last-sent state to reduce message rate
 	lastSentX, lastSentY   float64
 	lastSentDir            int
@@ -211,12 +214,12 @@ func (g *Game) startGame(token, name string) {
 	g.localChar.IsLocal = true
 
 	g.chat = NewChat()
-	g.chat.AddMessage("", "Bienvenue! [ZQSD] deplacer  [X] epee  [R] monture  [F] interagir  [P] profil", true)
+	g.chat.AddMessage("", "Welcome! [WASD] move  [X] sword  [R] mount  [F] interact  [P] profile", true)
 
 	go func() {
 		conn, err := Dial(getWSURL())
 		if err != nil {
-			g.chat.AddMessage("", "Erreur connexion: "+err.Error(), true)
+			g.chat.AddMessage("", "Connection error: "+err.Error(), true)
 			return
 		}
 		g.conn = conn
@@ -360,12 +363,10 @@ func (g *Game) updatePlaying(dt float64) error {
 		g.chat.IsOpen = true
 	}
 	if msg, ok := g.chat.Update(); ok {
-		if g.conn != nil {
-			g.conn.SendJSON(map[string]string{"type": "chat", "msg": msg})
-		}
+		g.handleChatMessage(msg)
 	}
 
-	// Movement (blocked while dialogs / chat are open)
+	// Movement (blocked while dialogs / chat / sitting are open)
 	if !g.chat.IsOpen && g.signDialog == "" && g.npcDialog == "" {
 		g.handleMovement(dt)
 	}
@@ -425,11 +426,27 @@ func (g *Game) updatePlaying(dt float64) error {
 
 func (g *Game) handleMovement(dt float64) {
 	c := g.localChar
-	// Block all movement while swinging sword.
-	if c.AnimState == AnimSword {
+	// Block all movement while swinging sword or dead.
+	if c.AnimState == AnimSword || c.AnimState == AnimDead {
 		c.Moving = false
 		return
 	}
+
+	anyKey := ebiten.IsKeyPressed(ebiten.KeyUp) || ebiten.IsKeyPressed(ebiten.KeyW) ||
+		ebiten.IsKeyPressed(ebiten.KeyDown) || ebiten.IsKeyPressed(ebiten.KeyS) ||
+		ebiten.IsKeyPressed(ebiten.KeyLeft) || ebiten.IsKeyPressed(ebiten.KeyA) ||
+		ebiten.IsKeyPressed(ebiten.KeyRight) || ebiten.IsKeyPressed(ebiten.KeyD)
+
+	// Cancel sit when any movement key is pressed.
+	if c.AnimState == AnimSit && anyKey {
+		c.AnimState = AnimIdle
+	}
+	// Sitting blocks movement.
+	if c.AnimState == AnimSit {
+		c.Moving = false
+		return
+	}
+
 	c.Moving = false
 	dx, dy := 0.0, 0.0
 
@@ -461,16 +478,46 @@ func (g *Game) handleMovement(dt float64) {
 	newY := c.Y + dy*speed*dt
 
 	// Tile collision: move axes independently (wall sliding).
+	// Track whether the primary movement direction is blocked for push anim.
+	pushedIntoWall := false
 	if g.gameMap != nil {
-		if !g.gameMap.IsBlocked(newX, c.Y, float64(frameW), float64(frameH)) {
+		blockedX := dx != 0 && g.gameMap.IsBlocked(newX, c.Y, float64(frameW), float64(frameH))
+		blockedY := dy != 0 && g.gameMap.IsBlocked(c.X, newY, float64(frameW), float64(frameH))
+
+		if !blockedX {
 			c.X = newX
 		}
-		if !g.gameMap.IsBlocked(c.X, newY, float64(frameW), float64(frameH)) {
+		if !blockedY {
 			c.Y = newY
+		}
+
+		// Push animation: primary direction is blocked.
+		// Primary direction is whichever axis has more input (or the only one).
+		if c.Moving {
+			if math.Abs(dx) >= math.Abs(dy) {
+				pushedIntoWall = blockedX
+			} else {
+				pushedIntoWall = blockedY
+			}
 		}
 	} else {
 		c.X = newX
 		c.Y = newY
+	}
+
+	// Update push/walk state (don't touch AnimSword or AnimRide).
+	if c.AnimState != AnimRide {
+		if pushedIntoWall {
+			g.pushTimer += dt
+			if g.pushTimer >= 1.5 {
+				c.AnimState = AnimPush
+			}
+		} else {
+			g.pushTimer = 0
+			if c.AnimState == AnimPush {
+				c.AnimState = AnimIdle
+			}
+		}
 	}
 
 	// Clamp to world bounds
@@ -661,10 +708,10 @@ func (g *Game) handleServerMsg(data []byte) {
 		// Apply and broadcast cosmetics immediately so the local character
 		// never falls back to raw GANI defaults.
 		g.sendCosmetics()
-		g.chat.AddMessage("", fmt.Sprintf("Connecte en tant que %s", msg.Name), true)
+		g.chat.AddMessage("", fmt.Sprintf("Connected as %s", msg.Name), true)
 
 	case "auth_error":
-		g.chat.AddMessage("", "Erreur d'auth: "+msg.Msg, true)
+		g.chat.AddMessage("", "Auth error: "+msg.Msg, true)
 		g.disconnect()
 		g.state = StateMainMenu
 
@@ -696,6 +743,12 @@ func (g *Game) handleServerMsg(data []byte) {
 				if p.AnimState == AnimSword && ch.AnimState != AnimSword {
 					ch.StartSword()
 				}
+				// Sync sit state
+				if p.AnimState == AnimSit {
+					ch.AnimState = AnimSit
+				} else if ch.AnimState == AnimSit && p.AnimState != AnimSit {
+					ch.AnimState = AnimIdle
+				}
 			} else {
 				ch := NewCharacter(g.bodyImg, g.headImg, p.X, p.Y, p.Name, false, 0)
 				ch.Gralats = p.Gralats
@@ -722,10 +775,19 @@ func (g *Game) handleServerMsg(data []byte) {
 				ch.Moving = n.Moving
 				ch.HP = n.HP
 				ch.MaxHP = n.MaxHP
+				if n.AnimState == "dead" && ch.AnimState != AnimDead {
+					ch.AnimState = AnimDead
+				} else if n.AnimState == "" && ch.AnimState == AnimDead {
+					// Respawned — reset to idle.
+					ch.AnimState = AnimIdle
+				}
 			} else {
 				ch := NewCharacter(g.bodyImg, g.headImg, n.X, n.Y, n.Name, true, n.NPCType)
 				ch.HP = n.HP
 				ch.MaxHP = n.MaxHP
+				if n.AnimState == "dead" {
+					ch.AnimState = AnimDead
+				}
 				g.npcs[n.ID] = ch
 			}
 		}
@@ -743,6 +805,15 @@ func (g *Game) handleServerMsg(data []byte) {
 
 	case "chat":
 		g.chat.AddMessage(msg.From, msg.Msg, false)
+		// Show bubble above the sender's head.
+		g.mu.Lock()
+		for _, p := range g.otherPlayers {
+			if p.Name == msg.From {
+				p.SetChatMsg(msg.Msg)
+				break
+			}
+		}
+		g.mu.Unlock()
 
 	case "system":
 		g.chat.AddMessage("", msg.Msg, true)
@@ -762,10 +833,13 @@ func (g *Game) handleServerMsg(data []byte) {
 		g.mu.Lock()
 		if npc, ok := g.npcs[msg.NPCID]; ok {
 			npc.HP = msg.HP
+			if msg.Killed {
+				npc.AnimState = AnimDead
+			}
 		}
 		g.mu.Unlock()
 		if msg.Killed {
-			g.chat.AddMessage("", fmt.Sprintf("Vous avez vaincu un ennemi!", ), true)
+			g.chat.AddMessage("", "You defeated an enemy!", true)
 		}
 
 	case "mount_ok":
@@ -789,7 +863,7 @@ func (g *Game) handleServerMsg(data []byte) {
 func (g *Game) drawPlaying(screen *ebiten.Image) {
 	if g.localChar == nil {
 		screen.Fill(color.RGBA{12, 12, 22, 255})
-		text.Draw(screen, "Connexion au serveur...", basicfont.Face7x13, 300, 300, color.White)
+		text.Draw(screen, "Connecting to server...", basicfont.Face7x13, 300, 300, color.White)
 		return
 	}
 
@@ -858,12 +932,12 @@ func (g *Game) drawViewedProfile(screen *ebiten.Image) {
 	)
 	DrawPanel(screen, px, py, pw, ph)
 
-	title := "PROFIL JOUEUR"
+	title := "PLAYER PROFILE"
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2+2, py+16, colGoldDim)
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2, py+14, colGold)
 	DrawHDivider(screen, px+10, py+42, pw-20)
 
-	DrawText(screen, "Joueur: "+p.Name, px+16, py+62, colTextWhite)
+	DrawText(screen, "Player: "+p.Name, px+16, py+62, colTextWhite)
 
 	spr := gralatSprite(1)
 	if spr != nil {
@@ -874,7 +948,7 @@ func (g *Game) drawViewedProfile(screen *ebiten.Image) {
 	}
 	DrawText(screen, fmt.Sprintf("Gralats: %d", p.Gralats), px+44, py+94, colGold)
 
-	hint := "[Echap] ou clic ailleurs Fermer"
+	hint := "[Esc] or click elsewhere to close"
 	DrawText(screen, hint, px+(pw-len(hint)*fontW)/2, py+ph-10, colTextDim)
 }
 
@@ -932,7 +1006,7 @@ func (g *Game) drawWorldGralats(screen *ebiten.Image, camX, camY float64) {
 func (g *Game) drawNPCPrompt(screen *ebiten.Image, camX, camY float64) {
 	// Mounted player: show dismount hint in HUD area instead
 	if g.localChar != nil && g.localChar.Mounted {
-		lbl := "[R] Descendre"
+		lbl := "[R] Dismount"
 		bw := len(lbl)*fontW + 12
 		bx := screenW/2 - bw/2
 		DrawRect(screen, bx, screenH-44, bw, 16, color.RGBA{0, 0, 0, 160})
@@ -956,9 +1030,9 @@ func (g *Game) drawNPCPrompt(screen *ebiten.Image, camX, camY float64) {
 
 	var lbl string
 	if npcType == NPCTypeHorse {
-		lbl = "[R] Monter"
+		lbl = "[R] Mount"
 	} else {
-		lbl = "[F] Parler"
+		lbl = "[F] Talk"
 	}
 	DrawText(screen, lbl,
 		int(sx)+frameW/2-len(lbl)*fontW/2,
@@ -991,7 +1065,7 @@ func (g *Game) drawDialog(screen *ebiten.Image, msg string, gralatN int) {
 		DrawText(screen, reward, px+12, py+ph-22, colGold)
 	}
 
-	hint := "[F] ou [Echap] pour fermer"
+	hint := "[F] or [Esc] to close"
 	DrawText(screen, hint,
 		px+pw-len(hint)*fontW-10,
 		py+ph-8, colTextDim)
@@ -1007,12 +1081,12 @@ func (g *Game) drawProfile(screen *ebiten.Image) {
 	)
 	DrawPanel(screen, px, py, pw, ph)
 
-	title := "PROFIL"
+	title := "PROFILE"
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2+2, py+16, colGoldDim)
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2, py+14, colGold)
 	DrawHDivider(screen, px+10, py+42, pw-20)
 
-	DrawText(screen, "Joueur: "+g.localName, px+16, py+62, colTextWhite)
+	DrawText(screen, "Player: "+g.localName, px+16, py+62, colTextWhite)
 
 	// Gralat count with sprite
 	spr := gralatSprite(1)
@@ -1024,21 +1098,21 @@ func (g *Game) drawProfile(screen *ebiten.Image) {
 	}
 	DrawText(screen, fmt.Sprintf("Gralats: %d", g.localGralats), px+44, py+94, colGold)
 
-	hint := "[P] ou [Echap] Fermer"
+	hint := "[P] or [Esc] Close"
 	DrawText(screen, hint, px+(pw-len(hint)*fontW)/2, py+ph-10, colTextDim)
 }
 
 func (g *Game) drawHUD(screen *ebiten.Image) {
 	// Top-left: player name
 	DrawRect(screen, 0, 0, 230, 20, color.RGBA{0, 0, 0, 150})
-	DrawText(screen, "Joueur: "+g.localName, 5, 14, color.RGBA{200, 220, 255, 255})
+	DrawText(screen, "Player: "+g.localName, 5, 14, color.RGBA{200, 220, 255, 255})
 
 	// Top-right: player/NPC count
 	g.mu.Lock()
 	pCount := len(g.otherPlayers) + 1
 	nCount := len(g.npcs)
 	g.mu.Unlock()
-	info := fmt.Sprintf("Joueurs: %d  NPCs: %d", pCount, nCount)
+	info := fmt.Sprintf("Players: %d  NPCs: %d", pCount, nCount)
 	DrawRect(screen, screenW-len(info)*fontW-12, 0, len(info)*fontW+12, 20, color.RGBA{0, 0, 0, 150})
 	DrawText(screen, info, screenW-len(info)*fontW-7, 14, color.RGBA{200, 220, 255, 255})
 
@@ -1063,14 +1137,14 @@ func (g *Game) drawHUD(screen *ebiten.Image) {
 	}
 
 	// Bottom centre: controls
-	hint := "[ZQSD] Deplacer  [X] Epee  [R] Monture  [T] Chat  [F] Interagir  [P] Profil  [C] Look  [Echap] Menu"
+	hint := "[WASD] Move  [X] Sword  [R] Mount  [T] Chat  [F] Interact  [P] Profile  [C] Look  [Esc] Menu"
 	DrawText(screen, hint, screenW/2-utf8.RuneCountInString(hint)*fontW/2, screenH-8,
 		color.RGBA{90, 95, 130, 160})
 
 	// Connection indicator
 	if g.conn == nil || g.conn.IsClosed() {
 		DrawRect(screen, screenW/2-60, 0, 120, 20, color.RGBA{180, 0, 0, 200})
-		DrawText(screen, "DECONNECTE", screenW/2-5*fontW, 14, color.RGBA{255, 200, 200, 255})
+		DrawText(screen, "DISCONNECTED", screenW/2-6*fontW, 14, color.RGBA{255, 200, 200, 255})
 	}
 }
 
@@ -1084,7 +1158,7 @@ func loadAssets() (body, head, tiles *ebiten.Image) {
 		img, _, e := ebitenutil.NewImageFromFile(path)
 		err = e
 		if e != nil {
-			fmt.Println("[ASSETS]", path, "non trouve, rendu de secours actif")
+			fmt.Println("[ASSETS]", path, "not found, fallback rendering active")
 		}
 		return img
 	}
@@ -1098,6 +1172,40 @@ func loadAssets() (body, head, tiles *ebiten.Image) {
 // ──────────────────────────────────────────────────────────────
 // Helpers
 // ──────────────────────────────────────────────────────────────
+
+// handleChatMessage processes a submitted chat line.
+// Commands start with "/" or ":"; everything else is sent to the server.
+func (g *Game) handleChatMessage(msg string) {
+	lower := strings.ToLower(strings.TrimSpace(msg))
+
+	// /sit or :sit — toggle sit animation
+	if lower == "/sit" || lower == ":sit" {
+		if g.localChar == nil {
+			return
+		}
+		if g.localChar.AnimState == AnimSit {
+			g.localChar.AnimState = AnimIdle
+		} else {
+			g.localChar.AnimState = AnimSit
+		}
+		if g.conn != nil {
+			g.conn.SendJSON(map[string]interface{}{
+				"type": "anim_state",
+				"anim": g.localChar.AnimState,
+			})
+		}
+		return
+	}
+
+	// Regular chat message
+	if g.conn == nil {
+		return
+	}
+	g.conn.SendJSON(map[string]string{"type": "chat", "msg": msg})
+	if g.localChar != nil {
+		g.localChar.SetChatMsg(msg)
+	}
+}
 
 // wordWrap splits text into lines of at most maxChars characters.
 func wordWrap(s string, maxChars int) []string {

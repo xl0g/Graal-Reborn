@@ -34,6 +34,9 @@ const (
 	AnimWalk  = "walk"
 	AnimSword = "sword"
 	AnimRide  = "ride"
+	AnimSit   = "sit"
+	AnimPush  = "push"
+	AnimDead  = "dead"
 )
 
 // ganiFile maps animation state → .gani filename.
@@ -97,6 +100,10 @@ type Character struct {
 	// HP / MaxHP for damageable NPCs (0 = immortal)
 	HP    int
 	MaxHP int
+
+	// Chat bubble above head (replaces name tag while active).
+	ChatMsg   string
+	chatTimer float64 // counts down from 7s to 0
 
 	// Cosmetic filenames
 	BodyFile string
@@ -196,6 +203,12 @@ func (c *Character) SwordJustActivated() bool {
 // MarkSwordHitDone prevents duplicate hit detection for the current swing.
 func (c *Character) MarkSwordHitDone() { c.swordHitDone = true }
 
+// SetChatMsg shows msg in a speech bubble above the character for 7 seconds.
+func (c *Character) SetChatMsg(msg string) {
+	c.ChatMsg = msg
+	c.chatTimer = 7.0
+}
+
 // ──────────────────────────────────────────────────────────────
 // Internal helpers
 // ──────────────────────────────────────────────────────────────
@@ -251,6 +264,15 @@ func (c *Character) Update(dt float64) {
 		}()
 	}
 
+	// Chat bubble countdown.
+	if c.chatTimer > 0 {
+		c.chatTimer -= dt
+		if c.chatTimer <= 0 {
+			c.ChatMsg = ""
+			c.chatTimer = 0
+		}
+	}
+
 	// Position interpolation (remote entities only)
 	if !c.IsLocal {
 		factor := 1 - math.Exp(-interpK*dt)
@@ -258,23 +280,27 @@ func (c *Character) Update(dt float64) {
 		c.Y += (c.TargetY - c.Y) * factor
 	}
 
-	// Determine target gani based on animation state
+	// Determine target gani based on animation state.
+	// Horse NPCs always use mount.gani (they are never in any other state).
 	var targetGani string
-	switch c.AnimState {
-	case AnimSword:
+	isHorseNPC := c.IsNPC && c.NPCType == NPCTypeHorse
+	switch {
+	case isHorseNPC:
+		targetGani = "mount.gani"
+	case c.AnimState == AnimDead:
+		targetGani = "dead.gani"
+	case c.AnimState == AnimSword:
 		targetGani = "sword.gani"
-	case AnimRide:
-		if c.Moving {
-			targetGani = "mount.gani"
-		} else {
-			targetGani = "mount.gani" // mount.gani handles both still and moving
-		}
+	case c.AnimState == AnimSit:
+		targetGani = "sit.gani"
+	case c.AnimState == AnimPush:
+		targetGani = "push.gani"
+	case c.AnimState == AnimRide:
+		targetGani = "mount.gani"
+	case c.Moving:
+		targetGani = "walk.gani"
 	default:
-		if c.Moving {
-			targetGani = "walk.gani"
-		} else {
-			targetGani = "idle.gani"
-		}
+		targetGani = "idle.gani"
 	}
 
 	// Activate gani (resets if switched)
@@ -283,17 +309,28 @@ func (c *Character) Update(dt float64) {
 		return
 	}
 
-	// Advance the gani player.
-	// When mounted and standing still, freeze the animation on frame 0
-	// so the horse shows a still pose rather than cycling walk frames.
-	if targetGani == "mount.gani" && !c.Moving {
+	switch {
+	case targetGani == "mount.gani" && !c.Moving:
+		// Freeze horse on still pose when not moving.
 		p.Frame = 0
 		p.Timer = 0
-	} else {
+	case targetGani == "sit.gani":
+		// sit.gani is 1 frame — hold it indefinitely.
+		p.Frame = 0
+		p.Timer = 0
+	case targetGani == "dead.gani" && p.Done:
+		// Stay frozen on last death frame.
+	default:
 		p.Update(dt)
 	}
 
-	// Sword completion: when the sword gani finishes, return to idle/walk
+	// Sword: skip the WAIT-14 recovery frame (frame 5) so the player can
+	// move again immediately after the last active swing frame.
+	if c.AnimState == AnimSword && p.Frame >= 5 {
+		p.Done = true
+	}
+
+	// Sword completion: return to idle/walk
 	if c.AnimState == AnimSword && p.Done {
 		c.swordHitDone = false
 		if c.Moving {
@@ -303,8 +340,9 @@ func (c *Character) Update(dt float64) {
 		}
 	}
 
-	// Idle/walk transitions (outside sword/ride)
-	if c.AnimState != AnimSword && c.AnimState != AnimRide {
+	// Idle/walk transitions (outside sword/ride/sit/push/dead)
+	if c.AnimState != AnimSword && c.AnimState != AnimRide &&
+		c.AnimState != AnimSit && c.AnimState != AnimPush && c.AnimState != AnimDead {
 		if c.Moving {
 			c.AnimState = AnimWalk
 		} else {
@@ -337,12 +375,13 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 		def: GaniDefaultImages(),
 	}
 
-	// Horse NPCs: hide the rider sprites, only the HORSE layer shows.
+	// Horse NPCs: hide all rider sprites, only the HORSE layer shows.
 	isHorse := c.IsNPC && c.NPCType == NPCTypeHorse
 	if isHorse {
 		gi.NoBody = true
 		gi.NoHead = true
 		gi.NoAttr1 = true
+		gi.NoShield = true
 	} else {
 		if imgs.body != nil {
 			gi.Body = imgs.body
@@ -409,14 +448,35 @@ func (c *Character) drawHPBar(screen *ebiten.Image, sx, sy float64) {
 	}
 }
 
-// drawNameTag renders the name label (and gralat count) above the character.
+// drawNameTag renders the name (or chat bubble) above the character.
+// When the character has an active chat message it replaces the name for 7s.
 func (c *Character) drawNameTag(screen *ebiten.Image, sx, sy float64) {
+	nameY := int(sy) - 26
+
+	if c.ChatMsg != "" {
+		// Speech bubble: white text, slightly fades in the last second.
+		alpha := uint8(220)
+		if c.chatTimer < 1.0 {
+			alpha = uint8(220 * c.chatTimer)
+		}
+		chatClr := color.RGBA{255, 255, 255, alpha}
+		msg := c.ChatMsg
+		// Clamp display width to ~30 chars (single line).
+		if len([]rune(msg)) > 30 {
+			msg = string([]rune(msg)[:27]) + "..."
+		}
+		cx := int(sx) + frameW/2 - len([]rune(msg))*fontW/2
+		DrawText(screen, msg, cx, nameY, chatClr)
+		_ = basicfont.Face7x13
+		return
+	}
+
+	// Normal name tag.
 	nameClr := color.RGBA{240, 240, 255, 220}
 	if c.IsNPC {
 		nameClr = color.RGBA{255, 215, 70, 220}
 	}
 	nameX := int(sx) + frameW/2 - len([]rune(c.Name))*fontW/2
-	nameY := int(sy) - 26
 	DrawText(screen, c.Name, nameX, nameY, nameClr)
 
 	if !c.IsNPC && c.Gralats > 0 {

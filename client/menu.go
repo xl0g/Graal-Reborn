@@ -41,9 +41,9 @@ type MainMenu struct {
 func NewMainMenu() *MainMenu {
 	return &MainMenu{
 		items: []menuItem{
-			{label: "JOUER",           target: StateLogin},
-			{label: "CREER UN COMPTE", target: StateRegister},
-			{label: "QUITTER",         isQuit: true},
+			{label: "PLAY",            target: StateLogin},
+			{label: "CREATE ACCOUNT",  target: StateRegister},
+			{label: "QUIT",            isQuit: true},
 		},
 	}
 }
@@ -108,7 +108,7 @@ func (m *MainMenu) Draw(screen *ebiten.Image) {
 	DrawBigText(screen, title, tx+2, 64, colGoldDim)   // shadow
 	DrawBigText(screen, title, tx, 62, colGold)
 
-	sub := "Jeu multijoueur en temps reel"
+	sub := "Real-time multiplayer game"
 	DrawText(screen, sub, screenW/2-len(sub)*fontW/2, 130, colTextDim)
 
 	// ── Menu items ────────────────────────────────────────
@@ -142,7 +142,7 @@ func (m *MainMenu) Draw(screen *ebiten.Image) {
 	}
 
 	// ── Footer ────────────────────────────────────────────
-	hint := "Fleches + Entree   ou   clic pour naviguer"
+	hint := "Arrows + Enter   or   click to navigate"
 	DrawText(screen, hint, screenW/2-len(hint)*fontW/2, screenH-14, colTextDim)
 }
 
@@ -187,10 +187,10 @@ type LoginMenu struct {
 
 func NewLoginMenu() *LoginMenu {
 	m := &LoginMenu{}
-	m.username = NewTextInput(loginFieldX, loginUserY, loginFieldW, loginBoxH, "Identifiant", false)
-	m.password = NewTextInput(loginFieldX, loginPassY, loginFieldW, loginBoxH, "Mot de passe", true)
-	m.loginBtn = NewButton(loginBtnX1, loginBtnY, loginBtnW, loginBtnH, "SE CONNECTER")
-	m.backBtn  = NewButton(loginBtnX2, loginBtnY, loginBtnW, loginBtnH, "RETOUR")
+	m.username = NewTextInput(loginFieldX, loginUserY, loginFieldW, loginBoxH, "Username", false)
+	m.password = NewTextInput(loginFieldX, loginPassY, loginFieldW, loginBoxH, "Password", true)
+	m.loginBtn = NewButton(loginBtnX1, loginBtnY, loginBtnW, loginBtnH, "LOG IN")
+	m.backBtn  = NewButton(loginBtnX2, loginBtnY, loginBtnW, loginBtnH, "BACK")
 	m.username.IsFocused = true
 	return m
 }
@@ -255,12 +255,12 @@ func (m *LoginMenu) submit() {
 	user := strings.TrimSpace(m.username.Value)
 	pass := m.password.Value
 	if user == "" || pass == "" {
-		m.message = "Veuillez remplir tous les champs"
+		m.message = "Please fill in all fields"
 		m.msgOK = false
 		return
 	}
 	m.loading = true
-	m.message = "Connexion en cours..."
+	m.message = "Logging in..."
 	m.msgOK = true
 	go func() {
 		token, name, err := authHTTP(getAPIURL()+"/api/login",
@@ -281,7 +281,7 @@ func (m *LoginMenu) Draw(screen *ebiten.Image) {
 	DrawPanel(screen, loginPanelX, loginPanelY, loginPanelW, loginPanelH)
 
 	// Title
-	title := "CONNEXION"
+	title := "LOGIN"
 	tx := loginPanelX + (loginPanelW-BigTextW(title))/2
 	DrawBigText(screen, title, tx+2, loginPanelY+18, colGoldDim)
 	DrawBigText(screen, title, tx, loginPanelY+16, colGold)
@@ -304,7 +304,7 @@ func (m *LoginMenu) Draw(screen *ebiten.Image) {
 	}
 
 	// Footer hint
-	hint := "Tab  changer de champ    Entree  valider    Echap  retour"
+	hint := "Tab  switch field    Enter  confirm    Esc  back"
 	DrawText(screen, hint, screenW/2-len(hint)*fontW/2, screenH-10, colTextDim)
 }
 
@@ -350,11 +350,11 @@ type RegisterMenu struct {
 
 func NewRegisterMenu() *RegisterMenu {
 	m := &RegisterMenu{}
-	m.username = NewTextInput(regFieldX, regUserY,  regFieldW, regBoxH, "Identifiant  (3-20 car.)", false)
-	m.password = NewTextInput(regFieldX, regPassY,  regFieldW, regBoxH, "Mot de passe (6+ car.)", true)
-	m.email    = NewTextInput(regFieldX, regEmailY, regFieldW, regBoxH, "Email (optionnel)", false)
-	m.regBtn   = NewButton(regBtnX1, regBtnY, regBtnW, regBtnH, "S'INSCRIRE")
-	m.backBtn  = NewButton(regBtnX2, regBtnY, regBtnW, regBtnH, "RETOUR")
+	m.username = NewTextInput(regFieldX, regUserY,  regFieldW, regBoxH, "Username  (3-20 chars)", false)
+	m.password = NewTextInput(regFieldX, regPassY,  regFieldW, regBoxH, "Password (6+ chars)", true)
+	m.email    = NewTextInput(regFieldX, regEmailY, regFieldW, regBoxH, "Email (optional)", false)
+	m.regBtn   = NewButton(regBtnX1, regBtnY, regBtnW, regBtnH, "REGISTER")
+	m.backBtn  = NewButton(regBtnX2, regBtnY, regBtnW, regBtnH, "BACK")
 	m.username.IsFocused = true
 	return m
 }
@@ -423,12 +423,12 @@ func (m *RegisterMenu) submit() {
 	pass  := m.password.Value
 	email := strings.TrimSpace(m.email.Value)
 	if user == "" || pass == "" {
-		m.message = "Identifiant et mot de passe requis"
+		m.message = "Username and password are required"
 		m.msgOK = false
 		return
 	}
 	m.loading = true
-	m.message = "Creation du compte..."
+	m.message = "Creating account..."
 	m.msgOK = true
 	go func() {
 		token, name, err := authHTTP(getAPIURL()+"/api/register",
@@ -439,7 +439,7 @@ func (m *RegisterMenu) submit() {
 		} else {
 			m.Token = token
 			m.Name = name
-			m.message = "Compte cree!"
+			m.message = "Account created!"
 			m.msgOK = true
 		}
 		m.loading = false
@@ -450,7 +450,7 @@ func (m *RegisterMenu) Draw(screen *ebiten.Image) {
 	DrawStarBg(screen)
 	DrawPanel(screen, regPanelX, regPanelY, regPanelW, regPanelH)
 
-	title := "INSCRIPTION"
+	title := "REGISTER"
 	tx := regPanelX + (regPanelW-BigTextW(title))/2
 	DrawBigText(screen, title, tx+2, regPanelY+18, colGoldDim)
 	DrawBigText(screen, title, tx, regPanelY+16, colGold)
@@ -470,7 +470,7 @@ func (m *RegisterMenu) Draw(screen *ebiten.Image) {
 		DrawText(screen, m.message, regFieldX, regBtnY+regBtnH+28, clr)
 	}
 
-	hint := "Tab  changer de champ    Entree  valider    Echap  retour"
+	hint := "Tab  switch field    Enter  confirm    Esc  back"
 	DrawText(screen, hint, screenW/2-len(hint)*fontW/2, screenH-10, colTextDim)
 }
 
@@ -488,7 +488,7 @@ func authHTTP(url string, body map[string]string) (token, name string, err error
 	b, _ := json.Marshal(body)
 	resp, httpErr := http.Post(url, "application/json", bytes.NewReader(b))
 	if httpErr != nil {
-		return "", "", fmt.Errorf("Impossible de contacter le serveur")
+		return "", "", fmt.Errorf("Cannot reach server")
 	}
 	defer resp.Body.Close()
 	var result authResp
@@ -497,7 +497,7 @@ func authHTTP(url string, body map[string]string) (token, name string, err error
 		if result.Error != "" {
 			return "", "", fmt.Errorf(result.Error)
 		}
-		return "", "", fmt.Errorf("Erreur serveur (%d)", resp.StatusCode)
+		return "", "", fmt.Errorf("Server error (%d)", resp.StatusCode)
 	}
 	return result.Token, result.Username, nil
 }

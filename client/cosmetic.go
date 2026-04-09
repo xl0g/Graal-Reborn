@@ -360,13 +360,13 @@ func (m *CosmeticMenu) Draw(screen *ebiten.Image) {
 	DrawPanel(screen, panelX, panelY, panelW, panelH)
 
 	// Title
-	title := "PERSONNALISATION"
+	title := "CUSTOMIZE"
 	tx := panelX + (panelW-BigTextW(title))/2
 	DrawBigText(screen, title, tx+2, panelY+16, colGoldDim)
 	DrawBigText(screen, title, tx, panelY+14, colGold)
 
 	// Tabs
-	tabs := []string{"CORPS", "TETE", "CHAPEAU"}
+	tabs := []string{"BODY", "HEAD", "HAT"}
 	txPositions := cosTabRects()
 	for i, label := range tabs {
 		selected := CosmeticTab(i) == m.tab
@@ -387,9 +387,9 @@ func (m *CosmeticMenu) Draw(screen *ebiten.Image) {
 
 	files := m.currentFiles()
 	if len(files) == 0 {
-		msg := "Aucun fichier dans Assets/offline/levels/"
+		msg := "No files found in Assets/offline/levels/"
 		DrawText(screen, msg, screenW/2-len(msg)*fontW/2, 200, colTextErr)
-		hint := "[C / Echap] Fermer"
+		hint := "[C / Esc] Close"
 		DrawText(screen, hint, screenW/2-len(hint)*fontW/2, screenH-40, colTextDim)
 		return
 	}
@@ -427,7 +427,7 @@ func (m *CosmeticMenu) Draw(screen *ebiten.Image) {
 			if selected {
 				noHatClr = colGoldBright
 			}
-			label := "AUCUN"
+			label := "NONE"
 			DrawText(screen, label, cx+(cosItemSize-len(label)*fontW)/2, cy+cosItemSize/2+fontH/2, noHatClr)
 		} else if thumb != nil {
 			op := &ebiten.DrawImageOptions{}
@@ -464,10 +464,10 @@ func (m *CosmeticMenu) Draw(screen *ebiten.Image) {
 	}
 	if m.page < totalPages-1 {
 		DrawRectBorder(screen, nextX, gridBottom+6, btnW, btnH, colPanelBg, colBorderMid)
-		DrawText(screen, "SUIV >", nextX+8, gridBottom+6+btnH-5, colGoldBright)
+		DrawText(screen, "NEXT >", nextX+8, gridBottom+6+btnH-5, colGoldBright)
 	}
 
 	// Footer hint
-	hint := "[Q/E] Changer categorie   [Haut/Bas] Page   [Clic] Selectionner   [C/Echap] Fermer"
+	hint := "[Q/E] Switch category   [Up/Down] Page   [Click] Select   [C/Esc] Close"
 	DrawText(screen, hint, screenW/2-len(hint)*fontW/2, screenH-26, colTextDim)
 }

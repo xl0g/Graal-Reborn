@@ -28,6 +28,7 @@ type NPCState struct {
 	HP        int     `json:"hp"`
 	MaxHP     int     `json:"maxHp"`
 	MountedBy string  `json:"mountedBy,omitempty"`
+	AnimState string  `json:"anim,omitempty"`
 }
 
 // GralatPickup is a collectable coin in the world.

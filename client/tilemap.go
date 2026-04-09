@@ -4,7 +4,6 @@ import (
 	"encoding/xml"
 	"image"
 	"image/color"
-	"os"
 	"strconv"
 	"strings"
 
@@ -61,7 +60,7 @@ type GameMap struct {
 
 // LoadTMX parses a .tmx file (external TSX assumed to be classiciphone_pics4).
 func LoadTMX(path string) (*GameMap, error) {
-	raw, err := os.ReadFile(path)
+	raw, err := ReadGameFile(path)
 	if err != nil {
 		return nil, err
 	}
