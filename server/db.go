@@ -51,6 +51,9 @@ func initDB(path string) error {
 	// Non-fatal migrations for existing databases.
 	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN gralats INTEGER DEFAULT 0`)
 	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN playtime INTEGER DEFAULT 0`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN body TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN head TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN hat  TEXT DEFAULT ''`)
 	return nil
 }
 
@@ -62,6 +65,9 @@ type UserRecord struct {
 	LastY    float64
 	Gralats  int
 	Playtime int // total seconds played
+	Body     string
+	Head     string
+	Hat      string
 }
 
 func dbCreateUser(username, password, email string) error {
@@ -80,9 +86,10 @@ func dbAuthenticate(username, password string) (*UserRecord, error) {
 	var u UserRecord
 	var hash string
 	err := database.QueryRow(
-		`SELECT id, username, password_hash, last_x, last_y, gralats, COALESCE(playtime,0)
+		`SELECT id, username, password_hash, last_x, last_y, gralats, COALESCE(playtime,0),
+		        COALESCE(body,''), COALESCE(head,''), COALESCE(hat,'')
 		 FROM users WHERE username = ?`, username,
-	).Scan(&u.ID, &u.Name, &hash, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime)
+	).Scan(&u.ID, &u.Name, &hash, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat)
 	if err != nil {
 		return nil, fmt.Errorf("invalid credentials")
 	}
@@ -106,14 +113,19 @@ func dbCreateSession(userID int64, username string) (string, error) {
 func dbValidateSession(token string) (*UserRecord, error) {
 	var u UserRecord
 	err := database.QueryRow(
-		`SELECT u.id, u.username, u.last_x, u.last_y, u.gralats, COALESCE(u.playtime,0)
+		`SELECT u.id, u.username, u.last_x, u.last_y, u.gralats, COALESCE(u.playtime,0),
+		        COALESCE(u.body,''), COALESCE(u.head,''), COALESCE(u.hat,'')
 		 FROM sessions s JOIN users u ON s.user_id = u.id
 		 WHERE s.token = ?`, token,
-	).Scan(&u.ID, &u.Name, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime)
+	).Scan(&u.ID, &u.Name, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat)
 	if err != nil {
 		return nil, fmt.Errorf("invalid session")
 	}
 	return &u, nil
+}
+
+func dbSaveCosmetics(userID int64, body, head, hat string) {
+	database.Exec(`UPDATE users SET body = ?, head = ?, hat = ? WHERE id = ?`, body, head, hat, userID)
 }
 
 func dbUpdatePosition(userID int64, x, y float64) {

@@ -106,6 +106,10 @@ type Character struct {
 	ChatMsg   string
 	chatTimer float64 // counts down from 7s to 0
 
+	// Emoticon thought bubble
+	emojiImg   *ebiten.Image
+	emojiTimer float64 // counts down from emojiBubbleDuration to 0
+
 	// Cosmetic filenames
 	BodyFile string
 	HeadFile string
@@ -210,6 +214,60 @@ func (c *Character) SetChatMsg(msg string) {
 	c.chatTimer = 7.0
 }
 
+// SetEmoji triggers a thought-bubble emoticon above the character.
+func (c *Character) SetEmoji(img *ebiten.Image) {
+	c.emojiImg = img
+	c.emojiTimer = emojiBubbleDuration
+}
+
+// drawEmojiBubble renders the thought bubble to the right of the character.
+//
+// Rise phase (0 → emojiRiseDuration):
+//   The image is revealed bottom-to-top: at t=0 nothing shows, at t=1s the
+//   full image is visible.  This is done by drawing a growing sub-image that
+//   starts at the bottom of the image and expands upward.
+//
+// Hold phase (emojiRiseDuration → emojiBubbleDuration):
+//   The full image stays fixed.
+func (c *Character) drawEmojiBubble(screen *ebiten.Image, sx, sy float64) {
+	if c.emojiTimer <= 0 || c.emojiImg == nil {
+		return
+	}
+
+	age := emojiBubbleDuration - c.emojiTimer // 0 at start of life
+
+	iw := c.emojiImg.Bounds().Dx()
+	ih := c.emojiImg.Bounds().Dy()
+
+	// Final position: to the right of the character, aligned at head level.
+	finalBx := sx + float64(frameW) + 4
+	finalBy := sy - float64(ih) - 2
+
+	var srcRect image.Rectangle
+	var dstY float64
+
+	if age < emojiRiseDuration {
+		// How many rows of the image are visible (grows bottom→top).
+		progress := age / emojiRiseDuration
+		visH := int(float64(ih)*progress) + 1
+		if visH > ih {
+			visH = ih
+		}
+		// Source: the bottom `visH` rows.
+		srcRect = image.Rect(0, ih-visH, iw, ih)
+		// Destination: aligned so the bottom of the visible slice sits at
+		// finalBy+ih (the bottom of the final image position).
+		dstY = finalBy + float64(ih-visH)
+	} else {
+		srcRect = image.Rect(0, 0, iw, ih)
+		dstY = finalBy
+	}
+
+	op := &ebiten.DrawImageOptions{}
+	op.GeoM.Translate(finalBx, dstY)
+	screen.DrawImage(c.emojiImg.SubImage(srcRect).(*ebiten.Image), op)
+}
+
 // ──────────────────────────────────────────────────────────────
 // Internal helpers
 // ──────────────────────────────────────────────────────────────
@@ -263,6 +321,14 @@ func (c *Character) Update(dt float64) {
 			c.cosImgs = imgs
 			c.cosmu.Unlock()
 		}()
+	}
+
+	// Emoji bubble countdown.
+	if c.emojiTimer > 0 {
+		c.emojiTimer -= dt
+		if c.emojiTimer <= 0 {
+			c.emojiImg = nil
+		}
 	}
 
 	// Chat bubble countdown.
@@ -406,6 +472,7 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 	p := c.getPlayer(ganiName)
 	if p == nil || p.Anim == nil {
 		c.drawFallback(screen, camX, camY, imgs)
+		c.drawEmojiBubble(screen, sx, sy)
 		c.drawNameTag(screen, sx, sy)
 		return
 	}
@@ -418,6 +485,7 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 		c.drawHPBar(screen, sx, sy)
 	}
 
+	c.drawEmojiBubble(screen, sx, sy)
 	c.drawNameTag(screen, sx, sy)
 }
 

@@ -4,6 +4,7 @@ import (
 	"encoding/xml"
 	"image"
 	"image/color"
+	"math"
 	"strconv"
 	"strings"
 
@@ -52,6 +53,8 @@ type GameMap struct {
 	layers    [][][]int         // all layers [layer][row][col]
 	collision [][]bool          // solid tiles
 	signs     map[[2]int]string // (col,row) → panneau text
+	switchmap map[[2]int]string // (col,row) → target map filename
+	exitTiles [][2]int          // tiles marked exitmap=true
 
 	tileImg  *ebiten.Image
 	tileCols int
@@ -72,15 +75,18 @@ func LoadTMX(path string) (*GameMap, error) {
 	gm := &GameMap{
 		TileW: mx.TileW, TileH: mx.TileH,
 		Cols: mx.Cols, Rows: mx.Rows,
-		signs: make(map[[2]int]string),
+		signs:     make(map[[2]int]string),
+		switchmap: make(map[[2]int]string),
 	}
 
 	if len(mx.Tilesets) > 0 {
 		gm.firstGID = mx.Tilesets[0].FirstGID
-		gm.tileCols = 64
 		img, _, _ := ebitenutil.NewImageFromFile(
 			"Assets/offline/levels/tiles/classiciphone_pics4.png")
 		gm.tileImg = img
+		if img != nil && gm.TileW > 0 {
+			gm.tileCols = img.Bounds().Dx() / gm.TileW
+		}
 	}
 
 	gm.collision = make([][]bool, mx.Rows)
@@ -94,12 +100,20 @@ func LoadTMX(path string) (*GameMap, error) {
 
 		isCollision := false
 		signText := ""
+		switchTarget := ""
+		isExitmap := false
 		for _, p := range layer.Props {
 			if p.Name == "collision" && p.Value == "true" {
 				isCollision = true
 			}
 			if p.Name == "panneau" {
 				signText = p.Value
+			}
+			if p.Name == "switchmap" {
+				switchTarget = p.Value
+			}
+			if p.Name == "exitmap" && p.Value == "true" {
+				isExitmap = true
 			}
 		}
 		if isCollision {
@@ -120,6 +134,24 @@ func LoadTMX(path string) (*GameMap, error) {
 				}
 			}
 		}
+		if switchTarget != "" {
+			for r := 0; r < layer.Rows; r++ {
+				for c := 0; c < layer.Cols; c++ {
+					if tiles[r][c] != 0 {
+						gm.switchmap[[2]int{c, r}] = switchTarget
+					}
+				}
+			}
+		}
+		if isExitmap {
+			for r := 0; r < layer.Rows; r++ {
+				for c := 0; c < layer.Cols; c++ {
+					if tiles[r][c] != 0 {
+						gm.exitTiles = append(gm.exitTiles, [2]int{c, r})
+					}
+				}
+			}
+		}
 	}
 	return gm, nil
 }
@@ -135,8 +167,8 @@ func parseTileCSV(raw string, cols, rows int) [][]int {
 	i := 0
 	for r := 0; r < rows && i < len(fields); r++ {
 		for c := 0; c < cols && i < len(fields); c++ {
-			v, _ := strconv.Atoi(strings.TrimSpace(fields[i]))
-			grid[r][c] = v
+			v, _ := strconv.ParseInt(strings.TrimSpace(fields[i]), 10, 64)
+			grid[r][c] = int(v)
 			i++
 		}
 	}
@@ -159,6 +191,50 @@ func (gm *GameMap) IsBlocked(x, y, w, h float64) bool {
 			if gm.collision[row][col] {
 				return true
 			}
+		}
+	}
+	return false
+}
+
+// WorldW returns the total world width in pixels.
+func (gm *GameMap) WorldW() int { return gm.Cols * gm.TileW }
+
+// WorldH returns the total world height in pixels.
+func (gm *GameMap) WorldH() int { return gm.Rows * gm.TileH }
+
+// ExitPos returns the centre of the exitmap tiles as a spawn position.
+// Returns (0,0,false) if no exitmap tiles are defined.
+func (gm *GameMap) ExitPos() (float64, float64, bool) {
+	if len(gm.exitTiles) == 0 {
+		return 0, 0, false
+	}
+	var sumX, sumY float64
+	for _, t := range gm.exitTiles {
+		sumX += float64(t[0])*float64(gm.TileW) + float64(gm.TileW)/2
+		sumY += float64(t[1])*float64(gm.TileH) + float64(gm.TileH)/2
+	}
+	n := float64(len(gm.exitTiles))
+	return sumX / n, sumY / n, true
+}
+
+// SwitchmapAt returns the target map name if the rect (x,y,w,h) overlaps a switchmap tile,
+// or "" if there is no trigger.
+func (gm *GameMap) SwitchmapAt(x, y, w, h float64) string {
+	cx := int(x+w/2) / gm.TileW
+	cy := int(y+h/2) / gm.TileH
+	if target, ok := gm.switchmap[[2]int{cx, cy}]; ok {
+		return target
+	}
+	return ""
+}
+
+// OnExitTile reports whether the rect centre is on an exitmap tile.
+func (gm *GameMap) OnExitTile(x, y, w, h float64) bool {
+	cx := int(x+w/2) / gm.TileW
+	cy := int(y+h/2) / gm.TileH
+	for _, t := range gm.exitTiles {
+		if t[0] == cx && t[1] == cy {
+			return true
 		}
 	}
 	return false
@@ -215,13 +291,31 @@ func (gm *GameMap) DrawSignPrompts(screen *ebiten.Image, camX, camY float64) {
 	}
 }
 
+// tileFlipH, tileFlipV, tileFlipD are the Tiled flip flag bits in a GID.
+const (
+	tileFlipH = 0x80000000
+	tileFlipV = 0x40000000
+	tileFlipD = 0x20000000
+	tileGIDMask = 0x1FFFFFFF
+)
+
 func (gm *GameMap) drawTile(screen *ebiten.Image, tileID int, sx, sy float64) {
+	// Strip Tiled flip flags from the GID.
+	flipH := (tileID & tileFlipH) != 0
+	flipV := (tileID & tileFlipV) != 0
+	flipD := (tileID & tileFlipD) != 0
+	rawID := tileID & tileGIDMask
+
+	if rawID == 0 {
+		return
+	}
+
 	if gm.tileImg == nil {
 		DrawRect(screen, int(sx), int(sy), gm.TileW, gm.TileH,
 			color.RGBA{60, 60, 80, 255})
 		return
 	}
-	idx := tileID - gm.firstGID
+	idx := rawID - gm.firstGID
 	if idx < 0 {
 		return
 	}
@@ -233,7 +327,25 @@ func (gm *GameMap) drawTile(screen *ebiten.Image, tileID int, sx, sy float64) {
 	if src.Max.X > b.Max.X || src.Max.Y > b.Max.Y {
 		return
 	}
+
 	op := &ebiten.DrawImageOptions{}
+	tw := float64(gm.TileW)
+	th := float64(gm.TileH)
+
+	// Apply flip transformations around the tile centre.
+	if flipD {
+		// Anti-diagonal flip = transpose then flip horizontally.
+		op.GeoM.Scale(1, -1)
+		op.GeoM.Rotate(math.Pi / 2)
+	}
+	if flipH {
+		op.GeoM.Scale(-1, 1)
+		op.GeoM.Translate(tw, 0)
+	}
+	if flipV {
+		op.GeoM.Scale(1, -1)
+		op.GeoM.Translate(0, th)
+	}
 	op.GeoM.Translate(sx, sy)
 	screen.DrawImage(gm.tileImg.SubImage(src).(*ebiten.Image), op)
 }

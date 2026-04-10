@@ -1,8 +1,8 @@
 {
     "activeFile": "",
     "expandedProjectPaths": [
-        "server",
-        "server/static"
+        "server/static",
+        "server"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {

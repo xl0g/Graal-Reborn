@@ -57,4 +57,7 @@ type ServerMessage struct {
 	NPCID    string         `json:"npc_id,omitempty"`
 	HP       int            `json:"hp"`
 	Killed   bool           `json:"killed,omitempty"`
+	Body     string         `json:"body,omitempty"`
+	Head     string         `json:"head,omitempty"`
+	Hat      string         `json:"hat,omitempty"`
 }

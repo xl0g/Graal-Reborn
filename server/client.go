@@ -82,6 +82,9 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 			Dir:      2,
 			Gralats:  user.Gralats,
 			Playtime: user.Playtime,
+			Body:     user.Body,
+			Head:     user.Head,
+			Hat:      user.Hat,
 		},
 	}
 
@@ -93,6 +96,9 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 		"y":         spawnY,
 		"gralat_n":  user.Gralats,
 		"playtime":  user.Playtime,
+		"body":      user.Body,
+		"head":      user.Head,
+		"hat":       user.Hat,
 	})
 
 	globalHub.register(client)
@@ -210,6 +216,7 @@ func handleCosmetic(c *Client, raw []byte) {
 	c.state.Head = msg.Head
 	c.state.Hat = msg.Hat
 	globalHub.mu.Unlock()
+	dbSaveCosmetics(c.userID, msg.Body, msg.Head, msg.Hat)
 }
 
 func handleChat(c *Client, raw []byte) {

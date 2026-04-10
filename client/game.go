@@ -62,7 +62,10 @@ type Game struct {
 	chat *Chat
 
 	// TMX map
-	gameMap *GameMap
+	gameMap        *GameMap
+	currentMapName string
+	prevMapName    string
+	mapSwitchCooldown float64 // seconds before next map switch allowed
 
 	// World gralat pickups (replicated from server)
 	worldGralats []GralatPickup
@@ -84,6 +87,12 @@ type Game struct {
 
 	// Push animation delay
 	pushTimer float64
+
+	// Noclip mode (disables tile collision for local player)
+	noclip bool
+
+	// Main panel menu (slides from top)
+	panelMenu *PanelMenu
 
 	// Cached last-sent state to reduce message rate
 	lastSentX, lastSentY   float64
@@ -115,11 +124,13 @@ func NewGame(bodyImg, headImg, tilesImg *ebiten.Image) *Game {
 	}
 
 	// Load TMX map
-	if gm, err := LoadTMX("test2.tmx"); err == nil {
-		g.gameMap = gm
-	} else {
-		fmt.Println("[MAP] test2.tmx:", err)
-	}
+	g.loadMap("GraalRebornMap.tmx", false)
+
+	// Panel menu
+	g.panelMenu = NewPanelMenu()
+
+	// Emoji images
+	loadEmojiImages()
 
 	// Load gralat sprites
 	loadGralatImage()
@@ -197,6 +208,52 @@ func (g *Game) Layout(_, _ int) (int, int) {
 }
 
 // ──────────────────────────────────────────────────────────────
+// Map helpers
+// ──────────────────────────────────────────────────────────────
+
+// worldSize returns current map dimensions in pixels.
+func (g *Game) worldSize() (int, int) {
+	if g.gameMap != nil {
+		return g.gameMap.WorldW(), g.gameMap.WorldH()
+	}
+	return worldW, worldH
+}
+
+// loadMap loads a TMX file by name. If spawnAtExit is true and the map has
+// exitmap tiles, the local player is teleported there; otherwise the player
+// is placed at the world centre.
+func (g *Game) loadMap(name string, spawnAtExit bool) {
+	filename := name
+	// append .tmx if missing
+	if len(filename) < 4 || filename[len(filename)-4:] != ".tmx" {
+		filename += ".tmx"
+	}
+	gm, err := LoadTMX(filename)
+	if err != nil {
+		fmt.Println("[MAP] failed to load", filename, ":", err)
+		return
+	}
+	g.prevMapName = g.currentMapName
+	g.currentMapName = filename
+	g.gameMap = gm
+	g.mapSwitchCooldown = 1.0 // 1 second grace period
+
+	if g.localChar == nil {
+		return
+	}
+	ww, wh := g.worldSize()
+	if spawnAtExit {
+		if ex, ey, ok := gm.ExitPos(); ok {
+			g.localChar.X = ex - float64(frameW)/2
+			g.localChar.Y = ey - float64(frameH)/2
+			return
+		}
+	}
+	g.localChar.X = float64(ww)/2 - float64(frameW)/2
+	g.localChar.Y = float64(wh)/2 - float64(frameH)/2
+}
+
+// ──────────────────────────────────────────────────────────────
 // Game start / stop
 // ──────────────────────────────────────────────────────────────
 
@@ -216,8 +273,9 @@ func (g *Game) startGame(token, name string) {
 	g.worldGralats = nil
 	g.grMu.Unlock()
 
+	ww, wh := g.worldSize()
 	g.localChar = NewCharacter(g.bodyImg, g.headImg,
-		float64(worldW)/2, float64(worldH)/2,
+		float64(ww)/2, float64(wh)/2,
 		name, false, 0)
 	g.localChar.IsLocal = true
 
@@ -266,6 +324,9 @@ func (g *Game) updatePlaying(dt float64) error {
 	if g.localChar == nil {
 		return nil
 	}
+
+	// Panel menu update — consumes mouse clicks when active.
+	g.panelMenu.Update(dt)
 
 	g.processNetwork()
 
@@ -406,8 +467,12 @@ func (g *Game) updatePlaying(dt float64) error {
 		}
 	}
 
-	// Detect nearest NPC for interaction prompt
-	g.nearNPCID, g.nearNPCType = g.nearestNPC()
+	// Detect nearest NPC only on the main map
+	if g.currentMapName == "GraalRebornMap.tmx" || g.currentMapName == "" {
+		g.nearNPCID, g.nearNPCType = g.nearestNPC()
+	} else {
+		g.nearNPCID, g.nearNPCType = "", -1
+	}
 
 	// Sword hit detection: fires once when the active phase begins
 	if !g.swordHitSent && g.localChar.SwordJustActivated() {
@@ -418,6 +483,22 @@ func (g *Game) updatePlaying(dt float64) error {
 
 	// Auto-collect gralats by walking over them
 	g.checkGralatPickup()
+
+	// Map transition cooldown
+	if g.mapSwitchCooldown > 0 {
+		g.mapSwitchCooldown -= dt
+	}
+
+	// Map switch triggers
+	if g.mapSwitchCooldown <= 0 && g.gameMap != nil && g.localChar != nil {
+		c := g.localChar
+		if target := g.gameMap.SwitchmapAt(c.X, c.Y, float64(frameW), float64(frameH)); target != "" {
+			g.loadMap(target, true)
+		} else if g.gameMap.OnExitTile(c.X, c.Y, float64(frameW), float64(frameH)) && g.prevMapName != "" {
+			prev := g.prevMapName
+			g.loadMap(prev, true)
+		}
+	}
 
 	// Sync AnimState changes to server (e.g. sword swing while standing still)
 	if g.conn != nil && g.localChar.AnimState != g.lastSentAnim {
@@ -488,7 +569,7 @@ func (g *Game) handleMovement(dt float64) {
 	// Tile collision: move axes independently (wall sliding).
 	// Track whether the primary movement direction is blocked for push anim.
 	pushedIntoWall := false
-	if g.gameMap != nil {
+	if g.gameMap != nil && !g.noclip {
 		blockedX := dx != 0 && g.gameMap.IsBlocked(newX, c.Y, float64(frameW), float64(frameH))
 		blockedY := dy != 0 && g.gameMap.IsBlocked(c.X, newY, float64(frameW), float64(frameH))
 
@@ -535,11 +616,12 @@ func (g *Game) handleMovement(dt float64) {
 	if c.Y < 0 {
 		c.Y = 0
 	}
-	if c.X > float64(worldW-frameW) {
-		c.X = float64(worldW - frameW)
+	ww, wh := g.worldSize()
+	if c.X > float64(ww-frameW) {
+		c.X = float64(ww - frameW)
 	}
-	if c.Y > float64(worldH-frameH) {
-		c.Y = float64(worldH - frameH)
+	if c.Y > float64(wh-frameH) {
+		c.Y = float64(wh - frameH)
 	}
 
 	if g.conn != nil && (c.X != g.lastSentX || c.Y != g.lastSentY ||
@@ -715,8 +797,10 @@ func (g *Game) handleServerMsg(data []byte) {
 			g.localChar.X, g.localChar.Y = msg.X, msg.Y
 			g.localChar.TargetX, g.localChar.TargetY = msg.X, msg.Y
 		}
-		// Apply and broadcast cosmetics immediately so the local character
-		// never falls back to raw GANI defaults.
+		// Restore saved cosmetics from server, then broadcast.
+		if msg.Body != "" || msg.Head != "" || msg.Hat != "" {
+			g.cosmeticMenu.SetByFilenames(msg.Body, msg.Head, msg.Hat)
+		}
 		g.sendCosmetics()
 		g.chat.AddMessage("", fmt.Sprintf("Connected as %s", msg.Name), true)
 
@@ -817,11 +901,16 @@ func (g *Game) handleServerMsg(data []byte) {
 
 	case "chat":
 		g.chat.AddMessage(msg.From, msg.Msg, false)
-		// Show bubble above the sender's head.
+		// Show chat + emoji bubble above the sender's head.
 		g.mu.Lock()
 		for _, p := range g.otherPlayers {
 			if p.Name == msg.From {
 				p.SetChatMsg(msg.Msg)
+				if code := containsEmoji(msg.Msg); code != "" {
+					if img := emojiImageFor(code); img != nil {
+						p.SetEmoji(img)
+					}
+				}
 				break
 			}
 		}
@@ -891,10 +980,15 @@ func (g *Game) drawPlaying(screen *ebiten.Image) {
 	// World gralat pickups
 	g.drawWorldGralats(screen, camX, camY)
 
+	// NPCs only exist on the main world map.
+	onMainMap := g.currentMapName == "GraalRebornMap.tmx" || g.currentMapName == ""
+
 	// Entities
 	g.mu.Lock()
-	for _, n := range g.npcs {
-		n.Draw(screen, camX, camY)
+	if onMainMap {
+		for _, n := range g.npcs {
+			n.Draw(screen, camX, camY)
+		}
 	}
 	for _, p := range g.otherPlayers {
 		p.Draw(screen, camX, camY)
@@ -908,12 +1002,15 @@ func (g *Game) drawPlaying(screen *ebiten.Image) {
 		if g.gameMap != nil {
 			g.gameMap.DrawSignPrompts(screen, camX, camY)
 		}
-		g.drawNPCPrompt(screen, camX, camY)
+		if onMainMap {
+			g.drawNPCPrompt(screen, camX, camY)
+		}
 	}
 
 	// HUD
 	g.drawHUD(screen)
 	g.chat.Draw(screen)
+	g.panelMenu.Draw(screen)
 
 	// Overlays
 	if g.signDialog != "" {
@@ -1000,22 +1097,30 @@ func (g *Game) drawViewedProfile(screen *ebiten.Image) {
 }
 
 func (g *Game) camera() (camX, camY float64) {
-	camX = g.localChar.X + float64(frameW)/2 - float64(screenW)/2
-	camY = g.localChar.Y + float64(frameH)/2 - float64(screenH)/2
+	cww, cwh := g.worldSize()
 
-	maxX := float64(worldW - screenW)
-	maxY := float64(worldH - screenH)
-	if camX < 0 {
-		camX = 0
+	// If the map is narrower/shorter than the screen, centre it.
+	if cww <= screenW {
+		camX = -(float64(screenW) - float64(cww)) / 2
+	} else {
+		camX = g.localChar.X + float64(frameW)/2 - float64(screenW)/2
+		if camX < 0 {
+			camX = 0
+		}
+		if camX > float64(cww-screenW) {
+			camX = float64(cww - screenW)
+		}
 	}
-	if camY < 0 {
-		camY = 0
-	}
-	if camX > maxX {
-		camX = maxX
-	}
-	if camY > maxY {
-		camY = maxY
+	if cwh <= screenH {
+		camY = -(float64(screenH) - float64(cwh)) / 2
+	} else {
+		camY = g.localChar.Y + float64(frameH)/2 - float64(screenH)/2
+		if camY < 0 {
+			camY = 0
+		}
+		if camY > float64(cwh-screenH) {
+			camY = float64(cwh - screenH)
+		}
 	}
 	return
 }
@@ -1234,13 +1339,8 @@ func (g *Game) drawHUD(screen *ebiten.Image) {
 	// Bottom-left: position
 	if g.localChar != nil {
 		posStr := fmt.Sprintf("X:%.0f Y:%.0f", g.localChar.X, g.localChar.Y)
-		DrawText(screen, posStr, 5, screenH-22, colTextDim)
+		DrawText(screen, posStr, 5, screenH-8, colTextDim)
 	}
-
-	// Bottom centre: controls
-	hint := "[WASD] Move  [X] Sword  [R] Mount  [T] Chat  [F] Interact  [P] Profile  [C] Look  [Esc] Menu"
-	DrawText(screen, hint, screenW/2-utf8.RuneCountInString(hint)*fontW/2, screenH-8,
-		color.RGBA{90, 95, 130, 160})
 
 	// Connection indicator
 	if g.conn == nil || g.conn.IsClosed() {
@@ -1279,6 +1379,17 @@ func loadAssets() (body, head, tiles *ebiten.Image) {
 func (g *Game) handleChatMessage(msg string) {
 	lower := strings.ToLower(strings.TrimSpace(msg))
 
+	// /noclip — toggle collision
+	if lower == "/noclip" {
+		g.noclip = !g.noclip
+		status := "OFF"
+		if g.noclip {
+			status = "ON"
+		}
+		g.chat.AddMessage("", "Noclip "+status, true)
+		return
+	}
+
 	// /sit or :sit — toggle sit animation
 	if lower == "/sit" || lower == ":sit" {
 		if g.localChar == nil {
@@ -1305,6 +1416,12 @@ func (g *Game) handleChatMessage(msg string) {
 	g.conn.SendJSON(map[string]string{"type": "chat", "msg": msg})
 	if g.localChar != nil {
 		g.localChar.SetChatMsg(msg)
+		// Trigger emoji bubble if the message contains an emoji shortcode.
+		if code := containsEmoji(msg); code != "" {
+			if img := emojiImageFor(code); img != nil {
+				g.localChar.SetEmoji(img)
+			}
+		}
 	}
 }
 

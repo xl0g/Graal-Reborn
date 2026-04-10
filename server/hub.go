@@ -31,9 +31,9 @@ func newHub() *Hub {
 	}
 
 	// Load tile collision map (path relative to server working directory).
-	if cm, err := LoadCollisionMap("test2.tmx"); err == nil {
+	if cm, err := LoadCollisionMap("GraalRebornMap.tmx"); err == nil {
 		h.collMap = cm
-		log.Println("[MAP] Collision map loaded from test2.tmx")
+		log.Println("[MAP] Collision map loaded from GraalRebornMap.tmx")
 	} else {
 		log.Printf("[MAP] Could not load collision map: %v — NPCs will ignore walls", err)
 	}
@@ -58,16 +58,25 @@ func newHub() *Hub {
 	}
 
 	for i, def := range npcDefs {
+		x, y := def.x, def.y
+		if h.collMap != nil && !h.collMap.IsFreePoint(x+8, y+8) {
+			x, y = findFreeGralatPos(h.collMap, x, y)
+		}
 		h.npcs = append(h.npcs, newNPC(
 			fmt.Sprintf("npc_%d", i),
-			def.name, def.x, def.y, def.npcType,
+			def.name, x, y, def.npcType,
 		))
 	}
 
 	for i := range gralatSpawnDefs {
 		d := gralatSpawnDefs[i]
+		x, y := d.x, d.y
+		// If the hardcoded position is in a wall, nudge it to a free tile.
+		if h.collMap != nil && !h.collMap.IsFreePoint(x+8, y+8) {
+			x, y = findFreeGralatPos(h.collMap, x, y)
+		}
 		h.gralats = append(h.gralats, &GralatPickup{
-			ID: d.id, X: d.x, Y: d.y, Value: d.value,
+			ID: d.id, X: x, Y: y, Value: d.value,
 		})
 	}
 

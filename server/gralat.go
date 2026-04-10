@@ -1,23 +1,44 @@
 package main
 
-import "time"
+import (
+	"math"
+	"time"
+)
 
 // respawnDelay is how long after collection before a gralat reappears.
 const respawnDelay = 45 * time.Second
 
 // gralatSpawnDefs defines the fixed world positions and values of gralat pickups.
-// Positions are in pixels; the world is 960×640 (30×20 tiles at 32 px each).
+// Positions are in pixels for the 1120×1120 world (70×70 tiles at 16 px each).
 var gralatSpawnDefs = []struct {
 	id    string
 	x, y  float64
 	value int
 }{
-	{"g0", 160, 100, 1},
-	{"g1", 480, 160, 5},
-	{"g2", 820, 200, 1},
-	{"g3", 200, 400, 30},
-	{"g4", 650, 440, 5},
-	{"g5", 880, 120, 1},
-	{"g6", 340, 550, 100},
-	{"g7", 560, 500, 5},
+	{"g0", 160, 200, 1},
+	{"g1", 560, 240, 5},
+	{"g2", 900, 300, 1},
+	{"g3", 250, 600, 30},
+	{"g4", 720, 500, 5},
+	{"g5", 1000, 180, 1},
+	{"g6", 400, 800, 100},
+	{"g7", 650, 750, 5},
+}
+
+// findFreeGralatPos searches outward from (x,y) in a spiral for a non-blocked tile.
+func findFreeGralatPos(cm *CollisionMap, x, y float64) (float64, float64) {
+	step := 16.0
+	for radius := step; radius <= 200; radius += step {
+		for angle := 0.0; angle < 2*math.Pi; angle += math.Pi / 8 {
+			nx := x + math.Cos(angle)*radius
+			ny := y + math.Sin(angle)*radius
+			if nx < 0 || ny < 0 || nx >= mapWidth || ny >= mapHeight {
+				continue
+			}
+			if cm.IsFreePoint(nx+8, ny+8) {
+				return nx, ny
+			}
+		}
+	}
+	return x, y // fallback: original position
 }

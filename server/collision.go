@@ -7,6 +7,8 @@ import (
 	"strings"
 )
 
+const tileGIDMaskServer = 0x1FFFFFFF // strip Tiled flip flags
+
 // CollisionMap holds a 2-D grid of solid tiles parsed from a TMX file.
 // It is used server-side to prevent NPCs from walking through walls.
 type CollisionMap struct {
@@ -95,12 +97,25 @@ func parseCollCSV(raw string, cols, rows int) [][]int {
 	i := 0
 	for r := 0; r < rows && i < len(fields); r++ {
 		for c := 0; c < cols && i < len(fields); c++ {
-			v, _ := strconv.Atoi(strings.TrimSpace(fields[i]))
-			grid[r][c] = v
+			v, _ := strconv.ParseInt(strings.TrimSpace(fields[i]), 10, 64)
+			grid[r][c] = int(v) & tileGIDMaskServer
 			i++
 		}
 	}
 	return grid
+}
+
+// IsFreePoint returns true if the single world-space point (x,y) is not blocked.
+func (cm *CollisionMap) IsFreePoint(x, y float64) bool {
+	if cm == nil {
+		return true
+	}
+	col := int(x) / cm.tileW
+	row := int(y) / cm.tileH
+	if col < 0 || col >= cm.cols || row < 0 || row >= cm.rows {
+		return false
+	}
+	return !cm.solid[row][col]
 }
 
 // IsBlocked returns true if the axis-aligned box (x,y,w,h) in world-space

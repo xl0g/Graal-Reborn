@@ -1,0 +1,50 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "GraalRebornMap.tmx": {
+            "scale": 3,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 157,
+                "y": 276.5
+            }
+        },
+        "interior1.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 137.375,
+                "y": 165.625
+            }
+        },
+        "test2.tmx": {
+            "scale": 1.8713020833333331,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480.14695649753685,
+                "y": -286.16437974894933
+            }
+        }
+    },
+    "last.imagePath": "/home/x0g/Downloads/Go-Multiplayer-Template-main/Assets/offline/levels/tiles",
+    "map.height": 20,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 20,
+    "openFiles": [
+    ],
+    "project": "GraalReborn.tiled-project",
+    "property.type": "string",
+    "recentFiles": [
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
