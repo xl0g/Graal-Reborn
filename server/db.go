@@ -51,9 +51,11 @@ func initDB(path string) error {
 	// Non-fatal migrations for existing databases.
 	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN gralats INTEGER DEFAULT 0`)
 	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN playtime INTEGER DEFAULT 0`)
-	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN body TEXT DEFAULT ''`)
-	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN head TEXT DEFAULT ''`)
-	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN hat  TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN body   TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN head   TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN hat    TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN shield TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN sword  TEXT DEFAULT ''`)
 	return nil
 }
 
@@ -68,6 +70,8 @@ type UserRecord struct {
 	Body     string
 	Head     string
 	Hat      string
+	Shield   string
+	Sword    string
 }
 
 func dbCreateUser(username, password, email string) error {
@@ -87,9 +91,10 @@ func dbAuthenticate(username, password string) (*UserRecord, error) {
 	var hash string
 	err := database.QueryRow(
 		`SELECT id, username, password_hash, last_x, last_y, gralats, COALESCE(playtime,0),
-		        COALESCE(body,''), COALESCE(head,''), COALESCE(hat,'')
+		        COALESCE(body,''), COALESCE(head,''), COALESCE(hat,''),
+		        COALESCE(shield,''), COALESCE(sword,'')
 		 FROM users WHERE username = ?`, username,
-	).Scan(&u.ID, &u.Name, &hash, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat)
+	).Scan(&u.ID, &u.Name, &hash, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat, &u.Shield, &u.Sword)
 	if err != nil {
 		return nil, fmt.Errorf("invalid credentials")
 	}
@@ -114,18 +119,20 @@ func dbValidateSession(token string) (*UserRecord, error) {
 	var u UserRecord
 	err := database.QueryRow(
 		`SELECT u.id, u.username, u.last_x, u.last_y, u.gralats, COALESCE(u.playtime,0),
-		        COALESCE(u.body,''), COALESCE(u.head,''), COALESCE(u.hat,'')
+		        COALESCE(u.body,''), COALESCE(u.head,''), COALESCE(u.hat,''),
+		        COALESCE(u.shield,''), COALESCE(u.sword,'')
 		 FROM sessions s JOIN users u ON s.user_id = u.id
 		 WHERE s.token = ?`, token,
-	).Scan(&u.ID, &u.Name, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat)
+	).Scan(&u.ID, &u.Name, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat, &u.Shield, &u.Sword)
 	if err != nil {
 		return nil, fmt.Errorf("invalid session")
 	}
 	return &u, nil
 }
 
-func dbSaveCosmetics(userID int64, body, head, hat string) {
-	database.Exec(`UPDATE users SET body = ?, head = ?, hat = ? WHERE id = ?`, body, head, hat, userID)
+func dbSaveCosmetics(userID int64, body, head, hat, shield, sword string) {
+	database.Exec(`UPDATE users SET body = ?, head = ?, hat = ?, shield = ?, sword = ? WHERE id = ?`,
+		body, head, hat, shield, sword, userID)
 }
 
 func dbUpdatePosition(userID int64, x, y float64) {

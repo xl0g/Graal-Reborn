@@ -7,6 +7,7 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+	"strings"
 	"sync"
 
 	"github.com/hajimehoshi/ebiten/v2"
@@ -30,6 +31,8 @@ const (
 	TabBody CosmeticTab = iota
 	TabHead
 	TabHat
+	TabShield
+	TabSword
 )
 
 // thumbKey uniquely identifies a thumbnail.
@@ -44,14 +47,18 @@ type CosmeticMenu struct {
 	tab     CosmeticTab
 	page    int
 
-	bodyFiles []string
-	headFiles []string
-	hatFiles  []string
+	bodyFiles   []string
+	headFiles   []string
+	hatFiles    []string
+	shieldFiles []string
+	swordFiles  []string
 
 	// Selected indices (survive tab switches)
-	BodyIdx int
-	HeadIdx int
-	HatIdx  int
+	BodyIdx   int
+	HeadIdx   int
+	HatIdx    int
+	ShieldIdx int
+	SwordIdx  int
 
 	// Thumbnail cache
 	mu      sync.Mutex
@@ -61,29 +68,38 @@ type CosmeticMenu struct {
 	changed bool // true after a selection change — read with TakeChanged
 }
 
-// noHatSentinel is the special first entry meaning "no hat equipped".
+// noHatSentinel is the special first entry meaning "no hat/shield/sword equipped".
 const noHatSentinel = ""
+
+const numTabs = 5
 
 func NewCosmeticMenu() *CosmeticMenu {
 	m := &CosmeticMenu{
 		thumbs:  make(map[thumbKey]*ebiten.Image),
 		pending: make(map[thumbKey]bool),
 	}
-	m.bodyFiles = listPNGs(filepath.Join(cosBase, "bodies"))
-	m.headFiles = listPNGs(filepath.Join(cosBase, "heads"))
-	// Prepend empty string = "no hat"
-	m.hatFiles = append([]string{noHatSentinel}, listPNGs(filepath.Join(cosBase, "hats"))...)
+	m.bodyFiles = listImages(filepath.Join(cosBase, "bodies"))
+	m.headFiles = listImages(filepath.Join(cosBase, "heads"))
+	// Prepend empty string = "no hat/shield/sword"
+	m.hatFiles = append([]string{noHatSentinel}, listImages(filepath.Join(cosBase, "hats"))...)
+	m.shieldFiles = append([]string{noHatSentinel}, listImages(filepath.Join(cosBase, "shields"))...)
+	m.swordFiles = append([]string{noHatSentinel}, listImages(filepath.Join(cosBase, "swords"))...)
 	return m
 }
 
-func listPNGs(dir string) []string {
+// listImages returns all .png and .gif files in dir, sorted alphabetically.
+func listImages(dir string) []string {
 	entries, err := os.ReadDir(dir)
 	if err != nil {
 		return nil
 	}
 	var files []string
 	for _, e := range entries {
-		if !e.IsDir() && filepath.Ext(e.Name()) == ".png" {
+		if e.IsDir() {
+			continue
+		}
+		ext := strings.ToLower(filepath.Ext(e.Name()))
+		if ext == ".png" || ext == ".gif" {
 			files = append(files, e.Name())
 		}
 	}
@@ -108,13 +124,15 @@ func (m *CosmeticMenu) TakeChanged() bool {
 	return c
 }
 
-func (m *CosmeticMenu) BodyFile() string { return safeFile(m.bodyFiles, m.BodyIdx) }
-func (m *CosmeticMenu) HeadFile() string { return safeFile(m.headFiles, m.HeadIdx) }
-func (m *CosmeticMenu) HatFile() string  { return safeFile(m.hatFiles, m.HatIdx) }
+func (m *CosmeticMenu) BodyFile() string   { return safeFile(m.bodyFiles, m.BodyIdx) }
+func (m *CosmeticMenu) HeadFile() string   { return safeFile(m.headFiles, m.HeadIdx) }
+func (m *CosmeticMenu) HatFile() string    { return safeFile(m.hatFiles, m.HatIdx) }
+func (m *CosmeticMenu) ShieldFile() string { return safeFile(m.shieldFiles, m.ShieldIdx) }
+func (m *CosmeticMenu) SwordFile() string  { return safeFile(m.swordFiles, m.SwordIdx) }
 
 // SetByFilenames restores the selected indices from saved filenames.
 // Unknown filenames are silently ignored (index stays at 0).
-func (m *CosmeticMenu) SetByFilenames(body, head, hat string) {
+func (m *CosmeticMenu) SetByFilenames(body, head, hat, shield, sword string) {
 	if i := indexOfFile(m.bodyFiles, body); i >= 0 {
 		m.BodyIdx = i
 	}
@@ -123,6 +141,12 @@ func (m *CosmeticMenu) SetByFilenames(body, head, hat string) {
 	}
 	if i := indexOfFile(m.hatFiles, hat); i >= 0 {
 		m.HatIdx = i
+	}
+	if i := indexOfFile(m.shieldFiles, shield); i >= 0 {
+		m.ShieldIdx = i
+	}
+	if i := indexOfFile(m.swordFiles, sword); i >= 0 {
+		m.SwordIdx = i
 	}
 }
 
@@ -150,6 +174,10 @@ func (m *CosmeticMenu) currentFiles() []string {
 		return m.headFiles
 	case TabHat:
 		return m.hatFiles
+	case TabShield:
+		return m.shieldFiles
+	case TabSword:
+		return m.swordFiles
 	}
 	return nil
 }
@@ -162,6 +190,10 @@ func (m *CosmeticMenu) currentIdx() int {
 		return m.HeadIdx
 	case TabHat:
 		return m.HatIdx
+	case TabShield:
+		return m.ShieldIdx
+	case TabSword:
+		return m.SwordIdx
 	}
 	return 0
 }
@@ -174,6 +206,10 @@ func (m *CosmeticMenu) setIdx(idx int) {
 		m.HeadIdx = idx
 	case TabHat:
 		m.HatIdx = idx
+	case TabShield:
+		m.ShieldIdx = idx
+	case TabSword:
+		m.SwordIdx = idx
 	}
 }
 
@@ -203,6 +239,10 @@ func (m *CosmeticMenu) getThumb(tab CosmeticTab, idx int) *ebiten.Image {
 		subdir, files = "heads", m.headFiles
 	case TabHat:
 		subdir, files = "hats", m.hatFiles
+	case TabShield:
+		subdir, files = "shields", m.shieldFiles
+	case TabSword:
+		subdir, files = "swords", m.swordFiles
 	}
 	if idx >= len(files) {
 		return nil
@@ -241,8 +281,10 @@ func extractThumb(img *ebiten.Image, tab CosmeticTab) *ebiten.Image {
 		// dir=2 (down): x=0, y=64
 		r = image.Rect(0, 64, 32, 96)
 	case TabHat:
-		// HatThumbRect uses row=1 (down), col=0 (stand)
 		r = HatThumbRect()
+	case TabShield, TabSword:
+		// Use the full image; caller scales it to fit
+		r = b
 	}
 	// Safety clamp
 	if r.Max.X > b.Max.X {
@@ -281,7 +323,7 @@ func (m *CosmeticMenu) Update() bool {
 		m.tab--
 		m.page = m.currentIdx() / cosPageSize
 	}
-	if inpututil.IsKeyJustPressed(ebiten.KeyE) && int(m.tab) < 2 {
+	if inpututil.IsKeyJustPressed(ebiten.KeyE) && int(m.tab) < numTabs-1 {
 		m.tab++
 		m.page = m.currentIdx() / cosPageSize
 	}
@@ -300,6 +342,9 @@ func (m *CosmeticMenu) Update() bool {
 
 		// Tab clicks
 		for i, tx := range cosTabRects() {
+			if i >= numTabs {
+				break
+			}
 			if mx >= tx && mx < tx+tabW && my >= tabY && my < tabY+tabH {
 				newTab := CosmeticTab(i)
 				if newTab != m.tab {
@@ -343,8 +388,8 @@ func (m *CosmeticMenu) Update() bool {
 const (
 	tabY    = 62
 	tabH    = 28
-	tabW    = 160
-	tabGap  = 20
+	tabW    = 120
+	tabGap  = 8
 
 	pageNavY = 0 // set in Draw based on grid height
 	pageNavH = 28
@@ -353,10 +398,14 @@ const (
 	nextBtnX = 0
 )
 
-func cosTabRects() [3]int {
-	total := 3*tabW + 2*tabGap
+func cosTabRects() [numTabs]int {
+	total := numTabs*tabW + (numTabs-1)*tabGap
 	startX := (screenW - total) / 2
-	return [3]int{startX, startX + tabW + tabGap, startX + 2*(tabW+tabGap)}
+	var out [numTabs]int
+	for i := 0; i < numTabs; i++ {
+		out[i] = startX + i*(tabW+tabGap)
+	}
+	return out
 }
 
 func cosGridOrigin() (int, int) {
@@ -389,7 +438,7 @@ func (m *CosmeticMenu) Draw(screen *ebiten.Image) {
 	DrawBigText(screen, title, tx, panelY+14, colGold)
 
 	// Tabs
-	tabs := []string{"BODY", "HEAD", "HAT"}
+	tabs := []string{"BODY", "HEAD", "HAT", "SHIELD", "SWORD"}
 	txPositions := cosTabRects()
 	for i, label := range tabs {
 		selected := CosmeticTab(i) == m.tab
@@ -444,7 +493,7 @@ func (m *CosmeticMenu) Draw(screen *ebiten.Image) {
 
 		thumb := m.getThumb(m.tab, fileIdx)
 		// "no hat" slot
-		isNoHat := m.tab == TabHat && files[fileIdx] == noHatSentinel
+		isNoHat := (m.tab == TabHat || m.tab == TabShield || m.tab == TabSword) && files[fileIdx] == noHatSentinel
 		if isNoHat {
 			noHatClr := colTextDim
 			if selected {
@@ -491,6 +540,6 @@ func (m *CosmeticMenu) Draw(screen *ebiten.Image) {
 	}
 
 	// Footer hint
-	hint := "[Q/E] Switch category   [Up/Down] Page   [Click] Select   [C/Esc] Close"
+	hint := "[Q/E] Catégorie   [Up/Down] Page   [Click] Sélectionner   [C/Esc] Fermer"
 	DrawText(screen, hint, screenW/2-len(hint)*fontW/2, screenH-26, colTextDim)
 }

@@ -89,6 +89,8 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 			Body:     user.Body,
 			Head:     user.Head,
 			Hat:      user.Hat,
+			Shield:   user.Shield,
+			Sword:    user.Sword,
 		},
 	}
 
@@ -103,6 +105,8 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 		"body":      user.Body,
 		"head":      user.Head,
 		"hat":       user.Hat,
+		"shield":    user.Shield,
+		"sword":     user.Sword,
 	})
 
 	globalHub.register(client)
@@ -168,6 +172,8 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 			handleTalkNPC(client, raw)
 		case "sword_hit":
 			handleSwordHit(client, raw)
+		case "pvp_hit":
+			handlePvPHit(client, raw)
 		case "mount_npc":
 			handleMountNPC(client, raw)
 		case "dismount":
@@ -222,9 +228,11 @@ func handleChangeMap(c *Client, raw []byte) {
 
 func handleCosmetic(c *Client, raw []byte) {
 	var msg struct {
-		Body string `json:"body"`
-		Head string `json:"head"`
-		Hat  string `json:"hat"`
+		Body   string `json:"body"`
+		Head   string `json:"head"`
+		Hat    string `json:"hat"`
+		Shield string `json:"shield"`
+		Sword  string `json:"sword"`
 	}
 	if json.Unmarshal(raw, &msg) != nil {
 		return
@@ -233,8 +241,10 @@ func handleCosmetic(c *Client, raw []byte) {
 	c.state.Body = msg.Body
 	c.state.Head = msg.Head
 	c.state.Hat = msg.Hat
+	c.state.Shield = msg.Shield
+	c.state.Sword = msg.Sword
 	globalHub.mu.Unlock()
-	dbSaveCosmetics(c.userID, msg.Body, msg.Head, msg.Hat)
+	dbSaveCosmetics(c.userID, msg.Body, msg.Head, msg.Hat, msg.Shield, msg.Sword)
 }
 
 func handleChat(c *Client, raw []byte) {
@@ -399,6 +409,46 @@ func handleSwordHit(c *Client, raw []byte) {
 	} else {
 		log.Printf("[COMBAT] %s hit %s → HP %d", c.name, msg.NPCID, newHP)
 	}
+}
+
+func handlePvPHit(attacker *Client, raw []byte) {
+	var msg struct {
+		TargetID string `json:"target_id"`
+	}
+	if json.Unmarshal(raw, &msg) != nil || msg.TargetID == "" {
+		return
+	}
+
+	// Proximity validation (within 120px)
+	const maxReach = 120.0
+	var target *Client
+	globalHub.mu.RLock()
+	for c := range globalHub.clients {
+		if c.playerID == msg.TargetID {
+			dx := c.state.X - attacker.state.X
+			dy := c.state.Y - attacker.state.Y
+			if dx*dx+dy*dy <= maxReach*maxReach {
+				target = c
+			}
+			break
+		}
+	}
+	globalHub.mu.RUnlock()
+
+	if target == nil {
+		return
+	}
+
+	data, _ := json.Marshal(map[string]interface{}{
+		"type":   "pvp_damage",
+		"from":   attacker.name,
+		"damage": 1,
+	})
+	select {
+	case target.send <- data:
+	default:
+	}
+	log.Printf("[PVP] %s hit %s", attacker.name, target.name)
 }
 
 // ──────────────────────────────────────────────────────────────

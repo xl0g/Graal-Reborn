@@ -104,6 +104,11 @@ type Game struct {
 	// Sword hit tracking (reset each new swing)
 	swordHitSent bool
 
+	// Player HP (PvP)
+	localHP    int
+	localMaxHP int
+	hpCircles  [3]*ebiten.Image // full, half, empty circle sprites (pre-rendered)
+
 	lastUpdate time.Time
 }
 
@@ -137,6 +142,9 @@ func NewGame(bodyImg, headImg, tilesImg *ebiten.Image) *Game {
 
 	// Offscreen image for character previews (reused each frame).
 	g.previewImg = ebiten.NewImage(96, 96)
+
+	// Pre-render HP circle sprites (full, half, empty).
+	g.hpCircles = makeHPCircles()
 
 	return g
 }
@@ -284,6 +292,9 @@ func (g *Game) startGame(token, name string) {
 		name, false, 0)
 	g.localChar.IsLocal = true
 
+	g.localHP = 6
+	g.localMaxHP = 6
+
 	g.chat = NewChat()
 	g.chat.AddMessage("", "Welcome! [WASD] move  [X] sword  [R] mount  [F] interact  [P] profile", true)
 
@@ -311,13 +322,15 @@ func (g *Game) sendCosmetics() {
 	}
 	cm := g.cosmeticMenu
 	if g.localChar != nil {
-		g.localChar.SetCosmetics(cm.BodyFile(), cm.HeadFile(), cm.HatFile())
+		g.localChar.SetCosmetics(cm.BodyFile(), cm.HeadFile(), cm.HatFile(), cm.ShieldFile(), cm.SwordFile())
 	}
 	g.conn.SendJSON(map[string]string{
-		"type": "cosmetic",
-		"body": cm.BodyFile(),
-		"head": cm.HeadFile(),
-		"hat":  cm.HatFile(),
+		"type":   "cosmetic",
+		"body":   cm.BodyFile(),
+		"head":   cm.HeadFile(),
+		"hat":    cm.HatFile(),
+		"shield": cm.ShieldFile(),
+		"sword":  cm.SwordFile(),
 	})
 }
 
@@ -332,6 +345,12 @@ func (g *Game) updatePlaying(dt float64) error {
 
 	// Panel menu update — consumes mouse clicks when active.
 	g.panelMenu.Update(dt)
+	if req := g.panelMenu.RequestMap; req != "" {
+		g.panelMenu.RequestMap = ""
+		g.prevMapName = "" // prevent exit tile from bouncing back
+		g.loadMap(req, false)
+		g.mapSwitchCooldown = 3.0 // long grace period after manual map select
+	}
 
 	g.processNetwork()
 
@@ -486,6 +505,11 @@ func (g *Game) updatePlaying(dt float64) error {
 		g.checkSwordHit()
 	}
 
+	// Advance animated tiles
+	if g.gameMap != nil {
+		g.gameMap.Update(dt)
+	}
+
 	// Auto-collect gralats by walking over them
 	g.checkGralatPickup()
 
@@ -520,8 +544,21 @@ func (g *Game) updatePlaying(dt float64) error {
 
 func (g *Game) handleMovement(dt float64) {
 	c := g.localChar
-	// Block all movement while swinging sword or dead.
-	if c.AnimState == AnimSword || c.AnimState == AnimDead {
+	// Block movement while swinging sword.
+	if c.AnimState == AnimSword {
+		c.Moving = false
+		return
+	}
+	// Dead: any movement key respawns the player.
+	if c.AnimState == AnimDead {
+		anyKey := ebiten.IsKeyPressed(ebiten.KeyUp) || ebiten.IsKeyPressed(ebiten.KeyW) ||
+			ebiten.IsKeyPressed(ebiten.KeyDown) || ebiten.IsKeyPressed(ebiten.KeyS) ||
+			ebiten.IsKeyPressed(ebiten.KeyLeft) || ebiten.IsKeyPressed(ebiten.KeyA) ||
+			ebiten.IsKeyPressed(ebiten.KeyRight) || ebiten.IsKeyPressed(ebiten.KeyD)
+		if anyKey {
+			g.localHP = g.localMaxHP
+			c.AnimState = AnimIdle
+		}
 		c.Moving = false
 		return
 	}
@@ -717,8 +754,7 @@ func (g *Game) nearestNPC() (id string, npcType int) {
 	return bestID, bestType
 }
 
-// checkSwordHit tests the local player's sword hitbox against all NPCs and sends
-// a sword_hit message to the server for each overlapping target.
+// checkSwordHit tests the local player's sword hitbox against NPCs and other players.
 func (g *Game) checkSwordHit() {
 	if g.conn == nil || g.localChar == nil {
 		return
@@ -729,22 +765,38 @@ func (g *Game) checkSwordHit() {
 	}
 
 	g.mu.Lock()
-	var hits []string
+	var npcHits []string
+	var pvpHits []string
 	for id, npc := range g.npcs {
 		if npc.NPCType == NPCTypeHorse || npc.HP <= 0 {
 			continue
 		}
 		npcRect := image.Rect(int(npc.X), int(npc.Y), int(npc.X)+frameW, int(npc.Y)+frameH)
 		if hitbox.Overlaps(npcRect) {
-			hits = append(hits, id)
+			npcHits = append(npcHits, id)
+		}
+	}
+	for id, p := range g.otherPlayers {
+		if p.AnimState == AnimDead {
+			continue
+		}
+		pRect := image.Rect(int(p.X), int(p.Y), int(p.X)+frameW, int(p.Y)+frameH)
+		if hitbox.Overlaps(pRect) {
+			pvpHits = append(pvpHits, id)
 		}
 	}
 	g.mu.Unlock()
 
-	for _, id := range hits {
+	for _, id := range npcHits {
 		g.conn.SendJSON(map[string]string{
 			"type":   "sword_hit",
 			"npc_id": id,
+		})
+	}
+	for _, id := range pvpHits {
+		g.conn.SendJSON(map[string]string{
+			"type":      "pvp_hit",
+			"target_id": id,
 		})
 	}
 }
@@ -817,8 +869,8 @@ func (g *Game) handleServerMsg(data []byte) {
 			g.localChar.TargetX, g.localChar.TargetY = msg.X, msg.Y
 		}
 		// Restore saved cosmetics from server, then broadcast.
-		if msg.Body != "" || msg.Head != "" || msg.Hat != "" {
-			g.cosmeticMenu.SetByFilenames(msg.Body, msg.Head, msg.Hat)
+		if msg.Body != "" || msg.Head != "" || msg.Hat != "" || msg.Shield != "" || msg.Sword != "" {
+			g.cosmeticMenu.SetByFilenames(msg.Body, msg.Head, msg.Hat, msg.Shield, msg.Sword)
 		}
 		g.sendCosmetics()
 		// Tell the server which map we're currently on.
@@ -847,7 +899,7 @@ func (g *Game) handleServerMsg(data []byte) {
 				ch.Moving = p.Moving
 				ch.Gralats = p.Gralats
 				ch.Playtime = p.Playtime
-				ch.SetCosmetics(p.Body, p.Head, p.Hat)
+				ch.SetCosmetics(p.Body, p.Head, p.Hat, p.Shield, p.Sword)
 				// Sync mounted / ride state
 				ch.Mounted = p.Mounted
 				if p.Mounted || p.AnimState == AnimRide {
@@ -875,7 +927,7 @@ func (g *Game) handleServerMsg(data []byte) {
 				if p.Mounted {
 					ch.AnimState = AnimRide
 				}
-				ch.SetCosmetics(p.Body, p.Head, p.Hat)
+				ch.SetCosmetics(p.Body, p.Head, p.Hat, p.Shield, p.Sword)
 				g.otherPlayers[p.ID] = ch
 			}
 		}
@@ -977,6 +1029,18 @@ func (g *Game) handleServerMsg(data []byte) {
 			g.localChar.Mounted = false
 			g.localChar.AnimState = AnimIdle
 		}
+
+	case "pvp_damage":
+		if g.localChar != nil && g.localChar.AnimState != AnimDead {
+			g.localHP -= msg.Damage
+			if g.localHP < 0 {
+				g.localHP = 0
+			}
+			if g.localHP == 0 {
+				g.localChar.AnimState = AnimDead
+				g.chat.AddMessage("", "Vous avez été tué !", true)
+			}
+		}
 	}
 }
 
@@ -1047,6 +1111,10 @@ func (g *Game) drawPlaying(screen *ebiten.Image) {
 	}
 	if g.viewedPlayer != nil {
 		g.drawViewedProfile(screen)
+	}
+	// Dead overlay (drawn last so it covers everything)
+	if g.localChar != nil && g.localChar.AnimState == AnimDead {
+		g.drawDeadOverlay(screen)
 	}
 }
 
@@ -1345,6 +1413,9 @@ func (g *Game) drawHUD(screen *ebiten.Image) {
 	DrawRect(screen, screenW-len(info)*fontW-12, 0, len(info)*fontW+12, 20, color.RGBA{0, 0, 0, 150})
 	DrawText(screen, info, screenW-len(info)*fontW-7, 14, color.RGBA{200, 220, 255, 255})
 
+	// HP circles (top-right, below count bar)
+	g.drawHPCircles(screen)
+
 	// Gralat count (top-centre)
 	gralatStr := fmt.Sprintf("G: %d", g.localGralats)
 	gw := len(gralatStr)*fontW + 28
@@ -1370,6 +1441,95 @@ func (g *Game) drawHUD(screen *ebiten.Image) {
 		DrawRect(screen, screenW/2-60, 0, 120, 20, color.RGBA{180, 0, 0, 200})
 		DrawText(screen, "DISCONNECTED", screenW/2-6*fontW, 14, color.RGBA{255, 200, 200, 255})
 	}
+}
+
+// ──────────────────────────────────────────────────────────────
+// HP circles
+// ──────────────────────────────────────────────────────────────
+
+const hpCircleR = 10 // circle radius in pixels
+
+// makeHPCircles pre-renders 3 circle sprites: full (red), half (orange split), empty (dark).
+func makeHPCircles() [3]*ebiten.Image {
+	size := hpCircleR*2 + 2
+	var imgs [3]*ebiten.Image
+	for k := 0; k < 3; k++ {
+		img := ebiten.NewImage(size, size)
+		// Draw filled circle pixel by pixel
+		for py := 0; py < size; py++ {
+			for px := 0; px < size; px++ {
+				dx := float64(px) - float64(hpCircleR)
+				dy := float64(py) - float64(hpCircleR)
+				dist := math.Sqrt(dx*dx + dy*dy)
+				if dist > float64(hpCircleR) {
+					continue
+				}
+				// border ring
+				if dist > float64(hpCircleR)-1.5 {
+					img.Set(px, py, color.RGBA{20, 20, 20, 220})
+					continue
+				}
+				var c color.RGBA
+				switch k {
+				case 0: // full — red
+					c = color.RGBA{220, 50, 50, 255}
+				case 1: // half — left half red, right half dark
+					if dx < 0 {
+						c = color.RGBA{220, 50, 50, 255}
+					} else {
+						c = color.RGBA{60, 20, 20, 200}
+					}
+				case 2: // empty — dark
+					c = color.RGBA{60, 20, 20, 200}
+				}
+				img.Set(px, py, c)
+			}
+		}
+		imgs[k] = img
+	}
+	return imgs
+}
+
+// drawHPCircles draws 3 HP circles in the top-right corner.
+// Each circle represents 2 HP: full=2, half=1, empty=0.
+func (g *Game) drawHPCircles(screen *ebiten.Image) {
+	if g.hpCircles[0] == nil {
+		return
+	}
+	const gap = 4
+	size := hpCircleR*2 + 2
+	numCircles := g.localMaxHP / 2
+	totalW := numCircles*(size+gap) - gap
+	startX := screenW - totalW - 8
+	startY := 26 // below count bar
+
+	hp := g.localHP
+	for i := 0; i < numCircles; i++ {
+		circleHP := hp - i*2
+		var idx int
+		switch {
+		case circleHP >= 2:
+			idx = 0 // full
+		case circleHP == 1:
+			idx = 1 // half
+		default:
+			idx = 2 // empty
+		}
+		op := &ebiten.DrawImageOptions{}
+		op.GeoM.Translate(float64(startX+i*(size+gap)), float64(startY))
+		screen.DrawImage(g.hpCircles[idx], op)
+	}
+}
+
+// drawDeadOverlay draws a semi-transparent "DEAD" screen.
+func (g *Game) drawDeadOverlay(screen *ebiten.Image) {
+	DrawRect(screen, 0, 0, screenW, screenH, color.RGBA{0, 0, 0, 140})
+	msg := "DEAD"
+	x := screenW/2 - BigTextW(msg)/2
+	DrawBigText(screen, msg, x+2, screenH/2+2, color.RGBA{180, 0, 0, 255})
+	DrawBigText(screen, msg, x, screenH/2, color.RGBA{255, 60, 60, 255})
+	hint := "Appuyer une touche pour respawn"
+	DrawText(screen, hint, screenW/2-len(hint)*fontW/2, screenH/2+30, color.RGBA{200, 200, 200, 200})
 }
 
 // ──────────────────────────────────────────────────────────────

@@ -11,6 +11,8 @@ type PlayerState struct {
 	Body      string  `json:"body,omitempty"`
 	Head      string  `json:"head,omitempty"`
 	Hat       string  `json:"hat,omitempty"`
+	Shield    string  `json:"shield,omitempty"`
+	Sword     string  `json:"sword,omitempty"`
 	Gralats   int     `json:"gralats,omitempty"`
 	Playtime  int     `json:"playtime,omitempty"`
 	AnimState string  `json:"anim,omitempty"`
@@ -60,4 +62,7 @@ type ServerMessage struct {
 	Body     string         `json:"body,omitempty"`
 	Head     string         `json:"head,omitempty"`
 	Hat      string         `json:"hat,omitempty"`
+	Shield   string         `json:"shield,omitempty"`
+	Sword    string         `json:"sword,omitempty"`
+	Damage   int            `json:"damage,omitempty"`
 }

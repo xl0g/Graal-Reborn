@@ -5,6 +5,8 @@ import (
 	"image"
 	"image/color"
 	"math"
+	"os"
+	"path/filepath"
 	"strconv"
 	"strings"
 
@@ -24,7 +26,8 @@ type tmxMap struct {
 }
 
 type tmxTileset struct {
-	FirstGID int `xml:"firstgid,attr"`
+	FirstGID int    `xml:"firstgid,attr"`
+	Source   string `xml:"source,attr"` // external .tsx path, empty for inline
 }
 
 type tmxLayer struct {
@@ -43,6 +46,21 @@ type tmxProperty struct {
 	Value string `xml:"value,attr"`
 }
 
+// ── TSX (image-collection tileset) structures ─────────────────
+
+type tsxFile struct {
+	Tiles []tsxTile `xml:"tile"`
+}
+
+type tsxTile struct {
+	ID    int `xml:"id,attr"`
+	Image struct {
+		Source string `xml:"source,attr"`
+		Width  int    `xml:"width,attr"`
+		Height int    `xml:"height,attr"`
+	} `xml:"image"`
+}
+
 // ── GameMap ───────────────────────────────────────────────────
 
 // GameMap holds the parsed TMX map and provides collision/sign queries.
@@ -56,9 +74,22 @@ type GameMap struct {
 	switchmap map[[2]int]string // (col,row) → target map filename
 	exitTiles [][2]int          // tiles marked exitmap=true
 
-	tileImg  *ebiten.Image
-	tileCols int
-	firstGID int
+	// Spritesheet tileset
+	tileImg     *ebiten.Image
+	tileCols    int
+	firstGID    int
+
+	// Image-collection tileset (e.g. Test.tsx)
+	imageTiles    map[int]*AnimImage // GID → animated image
+	imageFirstGID int               // first GID of the image-collection tileset
+
+	// Elapsed time for animated tiles (updated by Update)
+	mapTime float64
+}
+
+// Update advances animated tile timers. Call once per game frame.
+func (gm *GameMap) Update(dt float64) {
+	gm.mapTime += dt
 }
 
 // LoadTMX parses a .tmx file (external TSX assumed to be classiciphone_pics4).
@@ -79,13 +110,20 @@ func LoadTMX(path string) (*GameMap, error) {
 		switchmap: make(map[[2]int]string),
 	}
 
-	if len(mx.Tilesets) > 0 {
-		gm.firstGID = mx.Tilesets[0].FirstGID
-		img, _, _ := ebitenutil.NewImageFromFile(
-			"Assets/offline/levels/tiles/classiciphone_pics4.png")
-		gm.tileImg = img
-		if img != nil && gm.TileW > 0 {
-			gm.tileCols = img.Bounds().Dx() / gm.TileW
+	for _, ts := range mx.Tilesets {
+		if ts.Source == "" {
+			// Inline spritesheet tileset — use classiciphone_pics4.
+			gm.firstGID = ts.FirstGID
+			img, _, _ := ebitenutil.NewImageFromFile(
+				"Assets/offline/levels/tiles/classiciphone_pics4.png")
+			gm.tileImg = img
+			if img != nil && gm.TileW > 0 {
+				gm.tileCols = img.Bounds().Dx() / gm.TileW
+			}
+		} else {
+			// External TSX — load as image-collection tileset.
+			gm.imageFirstGID = ts.FirstGID
+			gm.imageTiles = loadTSXImageTiles(ts.Source, ts.FirstGID)
 		}
 	}
 
@@ -119,7 +157,8 @@ func LoadTMX(path string) (*GameMap, error) {
 		if isCollision {
 			for r := 0; r < layer.Rows; r++ {
 				for c := 0; c < layer.Cols; c++ {
-					if tiles[r][c] != 0 {
+					rawID := tiles[r][c] & tileGIDMask
+					if rawID != 0 {
 						gm.collision[r][c] = true
 					}
 				}
@@ -154,6 +193,59 @@ func LoadTMX(path string) (*GameMap, error) {
 		}
 	}
 	return gm, nil
+}
+
+// loadTSXImageTiles parses a TSX image-collection tileset and returns a
+// GID→AnimImage map.  Missing files are silently skipped.
+func loadTSXImageTiles(tsxPath string, firstGID int) map[int]*AnimImage {
+	data, err := ReadGameFile(tsxPath)
+	if err != nil {
+		return nil
+	}
+	var tsx tsxFile
+	if err := xml.Unmarshal(data, &tsx); err != nil {
+		return nil
+	}
+	tiles := make(map[int]*AnimImage)
+	for _, t := range tsx.Tiles {
+		if t.Image.Source == "" {
+			continue
+		}
+		fname := filepath.Base(t.Image.Source)
+		assetPath := findAssetFile(fname)
+		if assetPath == "" {
+			continue
+		}
+		anim := loadAnimImage(assetPath)
+		if anim == nil {
+			continue
+		}
+		gid := firstGID + t.ID
+		tiles[gid] = anim
+	}
+	return tiles
+}
+
+// findAssetFile searches for a file by base name across common asset dirs.
+func findAssetFile(name string) string {
+	dirs := []string{
+		"Assets/offline/levels/images/classic",
+		"Assets/offline/levels/images/classiciphone",
+		"Assets/offline/levels/images/dc",
+		"Assets/offline/levels/images/downloads",
+		"Assets/offline/levels/images/ce",
+		"Assets/offline/levels/images/light4",
+		"Assets/offline/levels/images/dcvip",
+		"Assets/offline/levels/images",
+		"Assets/offline/levels/tiles",
+	}
+	for _, d := range dirs {
+		p := filepath.Join(d, name)
+		if _, err := os.Stat(p); err == nil {
+			return p
+		}
+	}
+	return ""
 }
 
 func parseTileCSV(raw string, cols, rows int) [][]int {
@@ -265,6 +357,22 @@ func (gm *GameMap) Draw(screen *ebiten.Image, camX, camY float64) {
 				}
 				sx := float64(col*gm.TileW) - camX
 				sy := float64(row*gm.TileH) - camY
+				rawID := id & tileGIDMask
+				// Frustum cull: account for potentially large image tiles
+				cullW := float64(gm.TileW * 16)
+				cullH := float64(gm.TileH * 16)
+				if sx+cullW < 0 || sx-cullW > float64(screenW) ||
+					sy+cullH < 0 || sy-cullH > float64(screenH) {
+					continue
+				}
+				// Image-collection tile?
+				if gm.imageTiles != nil {
+					if anim, ok := gm.imageTiles[rawID]; ok {
+						gm.drawImageTile(screen, id, anim, sx, sy)
+						continue
+					}
+				}
+				// Regular spritesheet tile.
 				if sx+float64(gm.TileW) < 0 || sx > float64(screenW) ||
 					sy+float64(gm.TileH) < 0 || sy > float64(screenH) {
 					continue
@@ -293,9 +401,9 @@ func (gm *GameMap) DrawSignPrompts(screen *ebiten.Image, camX, camY float64) {
 
 // tileFlipH, tileFlipV, tileFlipD are the Tiled flip flag bits in a GID.
 const (
-	tileFlipH = 0x80000000
-	tileFlipV = 0x40000000
-	tileFlipD = 0x20000000
+	tileFlipH   = 0x80000000
+	tileFlipV   = 0x40000000
+	tileFlipD   = 0x20000000
 	tileGIDMask = 0x1FFFFFFF
 )
 
@@ -348,4 +456,35 @@ func (gm *GameMap) drawTile(screen *ebiten.Image, tileID int, sx, sy float64) {
 	}
 	op.GeoM.Translate(sx, sy)
 	screen.DrawImage(gm.tileImg.SubImage(src).(*ebiten.Image), op)
+}
+
+// drawImageTile draws a tile from an image-collection tileset at its natural size.
+func (gm *GameMap) drawImageTile(screen *ebiten.Image, tileID int, anim *AnimImage, sx, sy float64) {
+	flipH := (tileID & tileFlipH) != 0
+	flipV := (tileID & tileFlipV) != 0
+	flipD := (tileID & tileFlipD) != 0
+
+	frame := anim.Frame(gm.mapTime)
+	if frame == nil {
+		return
+	}
+	b := frame.Bounds()
+	tw := float64(b.Dx())
+	th := float64(b.Dy())
+
+	op := &ebiten.DrawImageOptions{}
+	if flipD {
+		op.GeoM.Scale(1, -1)
+		op.GeoM.Rotate(math.Pi / 2)
+	}
+	if flipH {
+		op.GeoM.Scale(-1, 1)
+		op.GeoM.Translate(tw, 0)
+	}
+	if flipV {
+		op.GeoM.Scale(1, -1)
+		op.GeoM.Translate(0, th)
+	}
+	op.GeoM.Translate(sx, sy)
+	screen.DrawImage(frame, op)
 }

@@ -37,6 +37,7 @@ const (
 	AnimSit   = "sit"
 	AnimPush  = "push"
 	AnimDead  = "dead"
+	AnimHurt  = "hurt"
 )
 
 // ganiFile maps animation state → .gani filename.
@@ -64,9 +65,11 @@ const interpK = 20.0
 // ──────────────────────────────────────────────────────────────
 
 type cosmeticImgs struct {
-	body *ebiten.Image
-	head *ebiten.Image
-	hat  *ebiten.Image
+	body   *ebiten.Image
+	head   *AnimImage // may be animated GIF
+	hat    *AnimImage // may be animated GIF
+	shield *AnimImage // may be animated GIF
+	sword  *ebiten.Image
 }
 
 // ──────────────────────────────────────────────────────────────
@@ -111,14 +114,30 @@ type Character struct {
 	emojiTimer float64 // counts down from emojiBubbleDuration to 0
 
 	// Cosmetic filenames
-	BodyFile string
-	HeadFile string
-	HatFile  string
+	BodyFile   string
+	HeadFile   string
+	HatFile    string
+	ShieldFile string
+	SwordFile  string
 
 	// Loaded cosmetic images (swapped under mutex)
 	cosmu    sync.Mutex
 	cosImgs  cosmeticImgs
 	cosDirty bool
+
+	// Animation time counter for animated cosmetics (GIFs).
+	cosTime float64
+
+	// Hurt / knockback state
+	hurtTimer   float64 // counts down; >0 means blinking
+	knockVX     float64 // knockback velocity X (pixels/s)
+	knockVY     float64 // knockback velocity Y (pixels/s)
+	knockTimer  float64 // remaining knockback time
+
+	// Floating damage number above head
+	dmgText  string
+	dmgTimer float64
+	dmgRiseY float64 // accumulated upward offset in pixels
 
 	// Gani players — one per gani file, lazily loaded.
 	players map[string]*GaniPlayer
@@ -141,13 +160,16 @@ func NewCharacter(_ *ebiten.Image, _ *ebiten.Image, x, y float64, name string, i
 }
 
 // SetCosmetics updates filenames and triggers async image loading.
-func (c *Character) SetCosmetics(bodyFile, headFile, hatFile string) {
-	if c.BodyFile == bodyFile && c.HeadFile == headFile && c.HatFile == hatFile {
+func (c *Character) SetCosmetics(bodyFile, headFile, hatFile, shieldFile, swordFile string) {
+	if c.BodyFile == bodyFile && c.HeadFile == headFile && c.HatFile == hatFile &&
+		c.ShieldFile == shieldFile && c.SwordFile == swordFile {
 		return
 	}
 	c.BodyFile = bodyFile
 	c.HeadFile = headFile
 	c.HatFile = hatFile
+	c.ShieldFile = shieldFile
+	c.SwordFile = swordFile
 	c.cosDirty = true
 }
 
@@ -207,6 +229,31 @@ func (c *Character) SwordJustActivated() bool {
 
 // MarkSwordHitDone prevents duplicate hit detection for the current swing.
 func (c *Character) MarkSwordHitDone() { c.swordHitDone = true }
+
+// SetHurt triggers the hurt animation and knockback away from (fromX, fromY).
+// Call this whenever the character takes a hit.
+func (c *Character) SetHurt(fromX, fromY float64) {
+	dx := c.X - fromX
+	dy := c.Y - fromY
+	dist := math.Sqrt(dx*dx + dy*dy)
+	const knockSpeed = 140.0
+	if dist > 0 {
+		c.knockVX = dx / dist * knockSpeed
+		c.knockVY = dy / dist * knockSpeed
+	} else {
+		c.knockVX = 0
+		c.knockVY = -knockSpeed
+	}
+	c.knockTimer = 0.18
+	c.hurtTimer = 0.7 // blink duration
+	c.AnimState = AnimHurt
+	c.dmgText = "2.5"
+	c.dmgTimer = 1.4
+	c.dmgRiseY = 0
+	if p := c.getPlayer("hurt.gani"); p != nil {
+		p.Reset()
+	}
+}
 
 // SetChatMsg shows msg in a speech bubble above the character for 7 seconds.
 func (c *Character) SetChatMsg(msg string) {
@@ -302,7 +349,7 @@ func (c *Character) Update(dt float64) {
 	// Async cosmetic loading
 	if c.cosDirty {
 		c.cosDirty = false
-		body, head, hat := c.BodyFile, c.HeadFile, c.HatFile
+		body, head, hat, shield, sword := c.BodyFile, c.HeadFile, c.HatFile, c.ShieldFile, c.SwordFile
 		go func() {
 			var imgs cosmeticImgs
 			if body != "" {
@@ -310,17 +357,49 @@ func (c *Character) Update(dt float64) {
 					filepath.Join("Assets/offline/levels/bodies", body))
 			}
 			if head != "" {
-				imgs.head, _, _ = ebitenutil.NewImageFromFile(
-					filepath.Join("Assets/offline/levels/heads", head))
+				imgs.head = loadAnimImage(filepath.Join("Assets/offline/levels/heads", head))
 			}
 			if hat != "" {
-				imgs.hat, _, _ = ebitenutil.NewImageFromFile(
-					filepath.Join("Assets/offline/levels/hats", hat))
+				imgs.hat = loadAnimImage(filepath.Join("Assets/offline/levels/hats", hat))
+			}
+			if shield != "" {
+				imgs.shield = loadAnimImage(filepath.Join("Assets/offline/levels/shields", shield))
+			}
+			if sword != "" {
+				imgs.sword, _, _ = ebitenutil.NewImageFromFile(
+					filepath.Join("Assets/offline/levels/swords", sword))
 			}
 			c.cosmu.Lock()
 			c.cosImgs = imgs
 			c.cosmu.Unlock()
 		}()
+	}
+
+	// Advance GIF animation timer.
+	c.cosTime += dt
+
+	// Knockback
+	if c.knockTimer > 0 {
+		c.knockTimer -= dt
+		c.X += c.knockVX * dt
+		c.Y += c.knockVY * dt
+		if c.knockTimer <= 0 {
+			c.knockVX = 0
+			c.knockVY = 0
+		}
+	}
+
+	// Hurt blink + damage text counters
+	if c.hurtTimer > 0 {
+		c.hurtTimer -= dt
+	}
+	if c.dmgTimer > 0 {
+		c.dmgTimer -= dt
+		c.dmgRiseY += 28.0 * dt // float upward
+		if c.dmgTimer <= 0 {
+			c.dmgText = ""
+			c.dmgRiseY = 0
+		}
 	}
 
 	// Emoji bubble countdown.
@@ -358,6 +437,8 @@ func (c *Character) Update(dt float64) {
 		targetGani = "dead.gani"
 	case c.AnimState == AnimSword:
 		targetGani = "sword.gani"
+	case c.AnimState == AnimHurt:
+		targetGani = "hurt.gani"
 	case c.AnimState == AnimSit:
 		targetGani = "sit.gani"
 	case c.AnimState == AnimPush:
@@ -407,9 +488,21 @@ func (c *Character) Update(dt float64) {
 		}
 	}
 
-	// Idle/walk transitions (outside sword/ride/sit/push/dead)
+	// Hurt completion or interrupted by movement: return to walk/idle
+	if c.AnimState == AnimHurt {
+		if c.Moving || p.Done {
+			if c.Moving {
+				c.AnimState = AnimWalk
+			} else {
+				c.AnimState = AnimIdle
+			}
+		}
+	}
+
+	// Idle/walk transitions (outside sword/ride/sit/push/dead/hurt)
 	if c.AnimState != AnimSword && c.AnimState != AnimRide &&
-		c.AnimState != AnimSit && c.AnimState != AnimPush && c.AnimState != AnimDead {
+		c.AnimState != AnimSit && c.AnimState != AnimPush &&
+		c.AnimState != AnimDead && c.AnimState != AnimHurt {
 		if c.Moving {
 			c.AnimState = AnimWalk
 		} else {
@@ -437,6 +530,11 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 	imgs := c.cosImgs
 	c.cosmu.Unlock()
 
+	// Resolve animated frames at the current cosTime.
+	headFrame := imgs.head.Frame(c.cosTime)
+	hatFrame := imgs.hat.Frame(c.cosTime)
+	shieldFrame := imgs.shield.Frame(c.cosTime)
+
 	// Build GaniImages for this draw call
 	gi := &GaniImages{
 		def: GaniDefaultImages(),
@@ -453,14 +551,24 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 		if imgs.body != nil {
 			gi.Body = imgs.body
 		}
-		if imgs.head != nil {
-			gi.Head = imgs.head
+		if headFrame != nil {
+			gi.Head = headFrame
 		}
 		// No hat selected (empty string) → suppress ATTR1 entirely.
 		if c.HatFile == "" {
 			gi.NoAttr1 = true
-		} else if imgs.hat != nil {
-			gi.Attr1 = imgs.hat
+		} else if hatFrame != nil {
+			gi.Attr1 = hatFrame
+		}
+		// Shield: empty string → suppress, otherwise use custom or default.
+		if c.ShieldFile == "" {
+			gi.NoShield = true
+		} else if shieldFrame != nil {
+			gi.Shield = shieldFrame
+		}
+		// Sword: empty string → use default, otherwise use custom.
+		if imgs.sword != nil {
+			gi.Sword = imgs.sword
 		}
 	}
 
@@ -475,6 +583,18 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 		c.drawEmojiBubble(screen, sx, sy)
 		c.drawNameTag(screen, sx, sy)
 		return
+	}
+
+	// Blink during hurt: skip draw every other ~8-frame window
+	if c.hurtTimer > 0 {
+		// Toggle visibility ~8 times per second using hurtTimer oscillation
+		phase := int(c.hurtTimer*16) % 2
+		if phase == 0 {
+			// Skip rendering this frame — blink effect
+			c.drawEmojiBubble(screen, sx, sy)
+			c.drawNameTag(screen, sx, sy)
+			return
+		}
 	}
 
 	// Draw gani frame at character body position
@@ -517,20 +637,31 @@ func (c *Character) drawHPBar(screen *ebiten.Image, sx, sy float64) {
 	}
 }
 
-// drawNameTag renders the name (or chat bubble) above the character.
-// When the character has an active chat message it replaces the name for 7s.
+// drawNameTag renders NPC names, chat bubbles, and floating damage text.
+// Player names are no longer shown permanently.
 func (c *Character) drawNameTag(screen *ebiten.Image, sx, sy float64) {
 	nameY := int(sy) - 26
 
+	// Floating damage text (rises upward, fades out).
+	if c.dmgText != "" && c.dmgTimer > 0 {
+		alpha := uint8(255)
+		if c.dmgTimer < 0.5 {
+			alpha = uint8(255 * c.dmgTimer / 0.5)
+		}
+		dmgX := int(sx) + frameW/2 - len(c.dmgText)*fontW/2
+		dmgY := nameY - int(c.dmgRiseY)
+		DrawText(screen, c.dmgText, dmgX+1, dmgY+1, color.RGBA{0, 0, 0, alpha / 2})
+		DrawText(screen, c.dmgText, dmgX, dmgY, color.RGBA{255, 80, 80, alpha})
+	}
+
+	// Chat bubble (always shown, for players and NPCs).
 	if c.ChatMsg != "" {
-		// Speech bubble: white text, slightly fades in the last second.
 		alpha := uint8(220)
 		if c.chatTimer < 1.0 {
 			alpha = uint8(220 * c.chatTimer)
 		}
 		chatClr := color.RGBA{255, 255, 255, alpha}
 		msg := c.ChatMsg
-		// Clamp display width to ~30 chars (single line).
 		if len([]rune(msg)) > 30 {
 			msg = string([]rune(msg)[:27]) + "..."
 		}
@@ -540,19 +671,12 @@ func (c *Character) drawNameTag(screen *ebiten.Image, sx, sy float64) {
 		return
 	}
 
-	// Normal name tag.
-	nameClr := color.RGBA{240, 240, 255, 220}
+	// NPC name tag (yellow).
 	if c.IsNPC {
-		nameClr = color.RGBA{255, 215, 70, 220}
+		nameX := int(sx) + frameW/2 - len([]rune(c.Name))*fontW/2
+		DrawText(screen, c.Name, nameX, nameY, color.RGBA{255, 215, 70, 220})
 	}
-	nameX := int(sx) + frameW/2 - len([]rune(c.Name))*fontW/2
-	DrawText(screen, c.Name, nameX, nameY, nameClr)
-
-	if !c.IsNPC && c.Gralats > 0 {
-		gs := fmt.Sprintf("G:%d", c.Gralats)
-		gx := int(sx) + frameW/2 - len(gs)*fontW/2
-		DrawText(screen, gs, gx, nameY+fontH+1, color.RGBA{255, 200, 60, 180})
-	}
+	// Player names are not shown permanently.
 	_ = basicfont.Face7x13
 }
 
@@ -570,13 +694,18 @@ func (c *Character) DrawPreview(dst, offscreen *ebiten.Image, dstX, dstY float64
 	if imgs.body != nil {
 		gi.Body = imgs.body
 	}
-	if imgs.head != nil {
-		gi.Head = imgs.head
+	if headFrame := imgs.head.Frame(c.cosTime); headFrame != nil {
+		gi.Head = headFrame
 	}
 	if c.HatFile == "" {
 		gi.NoAttr1 = true
-	} else if imgs.hat != nil {
-		gi.Attr1 = imgs.hat
+	} else if hatPreview := imgs.hat.Frame(c.cosTime); hatPreview != nil {
+		gi.Attr1 = hatPreview
+	}
+	if c.ShieldFile == "" {
+		gi.NoShield = true
+	} else if shieldFrame := imgs.shield.Frame(c.cosTime); shieldFrame != nil {
+		gi.Shield = shieldFrame
 	}
 
 	// Place gani origin at (24,24) in the offscreen image so the 48×48 gani box

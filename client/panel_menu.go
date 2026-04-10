@@ -12,51 +12,69 @@ import (
 // ── Layout constants ──────────────────────────────────────────────────────────
 
 const (
-	pmW        = 700 // panel width
-	pmH        = 300 // panel height
-	pmTitleH   = 30  // title bar height
-	pmBotH     = 28  // bottom bar height
-	pmCols     = 6   // icon columns
-	pmIconSize = 64  // icon image size (scaled)
-	pmIconPad  = 16  // horizontal gap between icons
-	pmAnimSpd  = 6.0 // slide animation speed
+	pmW      = screenW     // full screen width
+	pmH      = screenH / 3 // top third of screen = 200px
+	pmX      = 0
+	pmY      = 0
+	pmTitleH = 22
+	pmBotH   = 22
 
-	// derived
-	pmX = (screenW - pmW) / 2
-	pmY = (screenH - pmH) / 2
+	pmCols     = 10                    // 10 icons in one row
+	pmMarginH  = 20                    // left/right margin inside panel
+	pmSlotW    = (pmW - 2*pmMarginH) / pmCols // ~76px per slot
+	pmIconSize = 46                    // icon image size
+	pmAnimSpd  = 10.0
 )
 
 // menuEntry defines one slot in the grid.
 type menuEntry struct {
 	label   string
 	imgPath string
-	action  func(*PanelMenu) // nil = placeholder
 }
 
 var menuEntries = []menuEntry{
-	{"News", "Assets/offline/levels/images/dc/dc_virtualkey_news_blue.png", nil},
-	{"Shop", "Assets/offline/levels/images/dc/dc_virtualkey_shop_blue.png", nil},
-	{"Friends", "Assets/offline/levels/images/dc/dc_virtualkey_friends_blue.png", nil},
-	{"Guilds", "Assets/offline/levels/images/dc/dc_virtualkey_guilds_blue.png", nil},
-	{"Housing", "Assets/offline/levels/images/dc/dc_virtualkey_housing_blue.png", nil},
-	{"Scores", "Assets/offline/levels/images/dc/dc_virtualkey_leaderboards_blue.png", nil},
-	{"PM History", "Assets/offline/levels/images/dc/dc_virtualkey_pmhistory_blue.png", nil},
-	{"Feedback", "Assets/offline/levels/images/dc/dc_virtualkey_feedback_blue.png", nil},
-	{"Keys", "", nil}, // shortcuts — no icon, drawn as text button
+	{"Maps", "Assets/offline/levels/images/dc/dc_menuicons_zoom.png"},
+	{"News", "Assets/offline/levels/images/dc/dc_menuicons_news.png"},
+	{"Shop", "Assets/offline/levels/images/dc/dc_menuicons_shop.png"},
+	{"Friends", "Assets/offline/levels/images/dc/dc_menuicons_friends.png"},
+	{"Guilds", "Assets/offline/levels/images/dc/dc_menuicons_guilds.png"},
+	{"Housing", "Assets/offline/levels/images/dc/dc_menuicons_housing.png"},
+	{"Scores", "Assets/offline/levels/images/dc/dc_menuicons_leaderboards.png"},
+	{"PM", "Assets/offline/levels/images/dc/dc_menuicons_pmhistory.png"},
+	{"Feedback", "Assets/offline/levels/images/dc/dc_menuicons_feedback.png"},
+	{"Keys", ""},
+}
+
+// ── Map entries ──────────────────────────────────────────────────────────────
+
+type mapEntry struct {
+	name string
+	file string
+	desc string
+}
+
+var mapEntries = []mapEntry{
+	{"GraalReborn City", "GraalRebornMap.tmx", "Map principal"},
+	{"City Entry", "GraalCityEntry.tmx", "Entrée de la ville"},
+	{"Interior", "interior1.tmx", "Intérieur"},
 }
 
 // ── PanelMenu ─────────────────────────────────────────────────────────────────
 
-// PanelMenu is the GraalOnline-style slide-down overlay menu.
+// PanelMenu is the GraalOnline-style slide-down overlay (full width, top third).
 type PanelMenu struct {
 	progress float64 // 0 = hidden, 1 = fully open
 	isOpen   bool
 
 	openBtnImg *ebiten.Image
-	icons      []*ebiten.Image // one per menuEntries slot (nil = not loaded)
+	icons      []*ebiten.Image // one per menuEntries slot
 
-	// Active sub-panel: "" | "News" | "Keys"
+	// Active sub-panel: "" | "News" | "Keys" | "Maps" | ...
 	activeSub string
+
+	// RequestMap is set when the player selects a map.
+	// The Game reads and clears this each frame.
+	RequestMap string
 }
 
 func NewPanelMenu() *PanelMenu {
@@ -75,7 +93,8 @@ func NewPanelMenu() *PanelMenu {
 	return m
 }
 
-// Update handles animation and mouse input.
+// ── Update ────────────────────────────────────────────────────────────────────
+
 func (m *PanelMenu) Update(dt float64) {
 	// Animate slide
 	target := 0.0
@@ -83,11 +102,10 @@ func (m *PanelMenu) Update(dt float64) {
 		target = 1.0
 	}
 	diff := target - m.progress
-	if math.Abs(diff) < 0.01 {
+	if math.Abs(diff) < 0.005 {
 		m.progress = target
 	} else {
-		m.progress += diff * dt * pmAnimSpd * 60 * dt
-		// Clamp
+		m.progress += diff * pmAnimSpd * dt
 		if m.progress < 0 {
 			m.progress = 0
 		}
@@ -101,7 +119,7 @@ func (m *PanelMenu) Update(dt float64) {
 	}
 	mx, my := ebiten.CursorPosition()
 
-	// Open button
+	// ── Open/close button (always active) ────────────────────────
 	obx, oby, obw, obh := m.openBtnRect()
 	if mx >= obx && mx < obx+obw && my >= oby && my < oby+obh {
 		m.isOpen = !m.isOpen
@@ -111,112 +129,107 @@ func (m *PanelMenu) Update(dt float64) {
 		return
 	}
 
-	if m.progress < 0.8 {
+	if m.progress < 0.5 {
 		return
 	}
 
-	// Translate my into panel-relative coords
 	panelTop := m.panelTop()
-	rel := my - panelTop
+	panelBot := panelTop + pmH
 
-	// Title bar click: drag (ignore) / close on double — skip for now
-	if rel < 0 || rel > pmH {
+	// ── Sub-panel clicks (BELOW main panel) ──────────────────────
+	// Must be checked before the main-panel bounds guard.
+	if m.activeSub != "" && my >= panelBot {
+		m.handleSubClick(mx, my, panelBot)
 		return
 	}
 
-	// Bottom bar: Back button
+	// ── Main panel bounds guard ───────────────────────────────────
+	if my < panelTop || my >= panelBot {
+		return
+	}
+
+	// ── Back / close button ───────────────────────────────────────
 	backX := pmX + 10
-	backY := panelTop + pmH - pmBotH + 4
-	if mx >= backX && mx < backX+80 && my >= backY && my < backY+20 {
+	backY := panelBot - pmBotH + 3
+	if mx >= backX && mx < backX+70 && my >= backY && my < backY+pmBotH-6 {
 		m.isOpen = false
 		m.activeSub = ""
 		return
 	}
 
-	// Icon grid
-	contentTop := panelTop + pmTitleH
+	// ── Icon grid ─────────────────────────────────────────────────
 	for i := range menuEntries {
-		bx, by := m.iconPos(i, contentTop)
-		if mx >= bx && mx < bx+pmIconSize && my >= by && my < by+pmIconSize {
-			m.handleClick(i)
+		ix, iy := m.iconPos(i)
+		if mx >= ix && mx < ix+pmIconSize && my >= iy && my < iy+pmIconSize {
+			label := menuEntries[i].label
+			if m.activeSub == label {
+				m.activeSub = ""
+			} else {
+				m.activeSub = label
+			}
 			return
 		}
 	}
 }
 
-func (m *PanelMenu) handleClick(i int) {
-	label := menuEntries[i].label
-	switch label {
-	case "Keys":
-		if m.activeSub == "Keys" {
+func (m *PanelMenu) handleSubClick(mx, my, subY int) {
+	if m.activeSub != "Maps" {
+		return
+	}
+	for idx := range mapEntries {
+		bx, by, bw, bh := mapBtnRect(subY, idx)
+		if mx >= bx && mx < bx+bw && my >= by && my < by+bh {
+			m.RequestMap = mapEntries[idx].file
+			m.isOpen = false
 			m.activeSub = ""
-		} else {
-			m.activeSub = "Keys"
-		}
-	case "News":
-		if m.activeSub == "News" {
-			m.activeSub = ""
-		} else {
-			m.activeSub = "News"
-		}
-	default:
-		// Placeholder: toggle a generic info sub-panel
-		if m.activeSub == label {
-			m.activeSub = ""
-		} else {
-			m.activeSub = label
+			return
 		}
 	}
 }
 
+// ── Draw ──────────────────────────────────────────────────────────────────────
+
 func (m *PanelMenu) Draw(screen *ebiten.Image) {
 	m.drawOpenButton(screen)
 
-	if m.progress <= 0 {
+	if m.progress <= 0.01 {
 		return
 	}
 
 	panelTop := m.panelTop()
-	contentTop := panelTop + pmTitleH
-	alpha := uint8(math.Min(255, m.progress*300))
+	alpha := uint8(math.Min(255, m.progress*400))
 
-	// ── Shadow ────────────────────────────────────────────────────
-	DrawRect(screen, pmX+4, panelTop+4, pmW, pmH, color.RGBA{0, 0, 0, uint8(float64(alpha) * 0.4)})
+	// Shadow
+	DrawRect(screen, pmX+3, panelTop+3, pmW, pmH, color.RGBA{0, 0, 0, uint8(float64(alpha) * 0.35)})
 
-	// ── Background (light blue-white gradient simulated in two bands) ─
-	DrawRect(screen, pmX, panelTop, pmW, pmH, color.RGBA{200, 218, 240, alpha})
-	// slightly lighter upper third
-	DrawRect(screen, pmX, panelTop+pmTitleH, pmW, pmH/3, color.RGBA{220, 235, 250, alpha})
+	// Background
+	DrawRect(screen, pmX, panelTop, pmW, pmH, color.RGBA{195, 215, 240, alpha})
+	DrawRect(screen, pmX, panelTop+pmTitleH, pmW, pmH/3, color.RGBA{215, 232, 252, alpha})
 
-	// ── Title bar ─────────────────────────────────────────────────
-	DrawRect(screen, pmX, panelTop, pmW, pmTitleH, color.RGBA{60, 100, 180, alpha})
-	// highlight line at top of title bar
-	DrawRect(screen, pmX, panelTop, pmW, 2, color.RGBA{130, 170, 230, alpha})
+	// Title bar
+	DrawRect(screen, pmX, panelTop, pmW, pmTitleH, color.RGBA{55, 95, 175, alpha})
+	DrawRect(screen, pmX, panelTop, pmW, 2, color.RGBA{120, 165, 230, alpha})
 	DrawText(screen, "GraalReborn",
-		pmX+10, panelTop+pmTitleH-8,
+		pmX+10, panelTop+pmTitleH-6,
 		color.RGBA{255, 255, 255, alpha})
 
-	if m.progress < 0.8 {
+	if m.progress < 0.5 {
 		return
 	}
 
-	// ── Icon grid ─────────────────────────────────────────────────
+	// Icons
 	for i, e := range menuEntries {
-		bx, by := m.iconPos(i, contentTop)
+		ix, iy := m.iconPos(i)
 		active := m.activeSub == e.label
 
-		// Icon background (rounded-square look)
-		bg := color.RGBA{100, 140, 200, 200}
+		bg := color.RGBA{90, 130, 195, 200}
 		if active {
-			bg = color.RGBA{60, 100, 220, 230}
+			bg = color.RGBA{50, 95, 215, 230}
 		}
-		// draw a slightly inset rounded rect (approximated with 2 rects)
-		DrawRect(screen, bx+2, by, pmIconSize-4, pmIconSize, bg)
-		DrawRect(screen, bx, by+2, pmIconSize, pmIconSize-4, bg)
-		// highlight edge
-		DrawRect(screen, bx+2, by, pmIconSize-4, 2, color.RGBA{180, 210, 255, 200})
+		DrawRect(screen, ix+2, iy, pmIconSize-4, pmIconSize, bg)
+		DrawRect(screen, ix, iy+2, pmIconSize, pmIconSize-4, bg)
+		DrawRect(screen, ix+2, iy, pmIconSize-4, 2, color.RGBA{170, 205, 255, 200})
 
-		// Icon image
 		if m.icons[i] != nil {
 			iw := m.icons[i].Bounds().Dx()
 			ih := m.icons[i].Bounds().Dy()
@@ -224,90 +237,84 @@ func (m *PanelMenu) Draw(screen *ebiten.Image) {
 			op := &ebiten.DrawImageOptions{}
 			op.GeoM.Scale(scale, scale)
 			op.GeoM.Translate(
-				float64(bx)+float64(pmIconSize)/2-float64(iw)*scale/2,
-				float64(by)+float64(pmIconSize)/2-float64(ih)*scale/2,
+				float64(ix)+float64(pmIconSize)/2-float64(iw)*scale/2,
+				float64(iy)+float64(pmIconSize)/2-float64(ih)*scale/2,
 			)
 			op.ColorScale.ScaleAlpha(float32(alpha) / 255)
 			screen.DrawImage(m.icons[i], op)
 		} else {
-			// Text fallback (Keys button)
 			DrawText(screen, "?",
-				bx+pmIconSize/2-fontW/2,
-				by+pmIconSize/2+fontH/2,
+				ix+pmIconSize/2-fontW/2, iy+pmIconSize/2+fontH/2,
 				color.RGBA{255, 255, 255, alpha})
 		}
 
-		// Label below icon
 		lbl := e.label
-		lblX := bx + pmIconSize/2 - len(lbl)*fontW/2
-		lblY := by + pmIconSize + fontH + 2
-		DrawText(screen, lbl, lblX, lblY, color.RGBA{30, 40, 80, alpha})
+		lblX := ix + pmSlotW/2 - len(lbl)*fontW/2
+		lblY := iy + pmIconSize + fontH
+		DrawText(screen, lbl, lblX, lblY, color.RGBA{25, 35, 75, alpha})
 	}
 
-	// ── Bottom bar ────────────────────────────────────────────────
+	// Bottom bar
 	botY := panelTop + pmH - pmBotH
-	DrawRect(screen, pmX, botY, pmW, pmBotH, color.RGBA{50, 80, 160, alpha})
-	DrawRect(screen, pmX, botY, pmW, 2, color.RGBA{110, 150, 220, alpha})
-	// Back bullet
-	DrawRect(screen, pmX+10, botY+9, 8, 8, color.RGBA{220, 60, 60, alpha})
-	DrawText(screen, "Back", pmX+22, botY+pmBotH-8, color.RGBA{255, 255, 255, alpha})
+	DrawRect(screen, pmX, botY, pmW, pmBotH, color.RGBA{45, 75, 155, alpha})
+	DrawRect(screen, pmX, botY, pmW, 2, color.RGBA{100, 145, 215, alpha})
+	DrawRect(screen, pmX+10, botY+8, 8, 8, color.RGBA{220, 55, 55, alpha})
+	DrawText(screen, "Fermer", pmX+22, botY+pmBotH-6, color.RGBA{255, 255, 255, alpha})
 
-	// ── Active sub-panel ─────────────────────────────────────────
+	// Sub-panel
 	subY := panelTop + pmH
 	switch m.activeSub {
 	case "Keys":
-		m.drawSubPanel(screen, subY, "Controls", []string{
-			"ZQSD / Arrows   Move",
-			"X               Sword",
-			"R               Mount / Dismount",
-			"F               Interact / Read sign",
-			"T               Chat",
-			"C               Change look",
-			"P               Profile",
-			"Esc             Menu",
-			"/sit            Sit down",
-			"/noclip         Toggle noclip",
+		m.drawSubPanel(screen, subY, "Contrôles", []string{
+			"ZQSD / Flèches   Déplacer",
+			"X                Epée",
+			"R                Monter / Descendre",
+			"F                Interagir / Lire panneau",
+			"T                Chat",
+			"C                Changer look",
+			"P                Profil",
+			"Esc              Menu",
+			"/sit             S'asseoir",
+			"/noclip          Noclip",
 		})
 	case "News":
-		m.drawSubPanel(screen, subY, "News", []string{
-			"Welcome to GraalReborn!",
+		m.drawSubPanel(screen, subY, "Actualités", []string{
+			"Bienvenue sur GraalReborn !",
 			"",
-			"No updates yet — check back later.",
+			"Pas de mise à jour pour l'instant.",
 		})
+	case "Maps":
+		m.drawMapsPanel(screen, subY, alpha)
 	default:
 		if m.activeSub != "" {
-			m.drawSubPanel(screen, subY, m.activeSub, []string{
-				"Coming soon...",
-			})
+			m.drawSubPanel(screen, subY, m.activeSub, []string{"Bientôt disponible..."})
 		}
 	}
 }
 
-// ── helpers ──────────────────────────────────────────────────────────────────
+// ── Helpers ───────────────────────────────────────────────────────────────────
 
-// panelTop returns the Y of the panel top based on slide progress.
-// The panel slides in from the top of the screen.
+// panelTop returns the Y coordinate of the panel top based on slide progress.
+// Slides from -pmH (above screen) to 0 (top of screen).
 func (m *PanelMenu) panelTop() int {
-	// Fully closed: top edge is at -(pmH) above screen.
-	// Fully open: panel is centred vertically.
-	startY := -pmH
-	endY := pmY
-	return startY + int(float64(endY-startY)*m.progress)
+	return int(float64(-pmH) * (1 - m.progress))
 }
 
-// iconPos returns the top-left pixel of icon slot i.
-func (m *PanelMenu) iconPos(i, contentTop int) (x, y int) {
+// iconPos returns the top-left pixel of icon slot i (absolute screen coords).
+func (m *PanelMenu) iconPos(i int) (x, y int) {
 	col := i % pmCols
 	row := i / pmCols
 
-	contentW := pmCols*pmIconSize + (pmCols-1)*pmIconPad
-	startX := pmX + (pmW-contentW)/2
+	panelTop := m.panelTop()
+	contentTop := panelTop + pmTitleH + 6
 
-	labelH := fontH + 4
-	rowH := pmIconSize + labelH + 10
-	startY := contentTop + 8
+	// Centre icon within its slot
+	slotX := pmX + pmMarginH + col*pmSlotW
+	iconOffX := (pmSlotW - pmIconSize) / 2
 
-	return startX + col*(pmIconSize+pmIconPad), startY + row*rowH
+	labelH := fontH + 3
+	rowH := pmIconSize + labelH + 6
+	return slotX + iconOffX, contentTop + row*rowH
 }
 
 func (m *PanelMenu) openBtnRect() (x, y, w, h int) {
@@ -339,17 +346,48 @@ func (m *PanelMenu) drawOpenButton(screen *ebiten.Image) {
 }
 
 func (m *PanelMenu) drawSubPanel(screen *ebiten.Image, topY int, title string, lines []string) {
-	pw := 380
-	ph := 18 + len(lines)*(fontH+4) + 12
-	px := screenW/2 - pw/2
-
-	DrawRect(screen, px, topY, pw, ph, color.RGBA{180, 200, 240, 240})
-	DrawRect(screen, px, topY, pw, 18, color.RGBA{60, 100, 180, 240})
-	DrawRect(screen, px, topY, pw, 2, color.RGBA{130, 170, 230, 240})
-	DrawText(screen, title, px+pw/2-len(title)*fontW/2, topY+13, color.RGBA{255, 255, 255, 255})
-
+	pw := pmW
+	ph := 18 + len(lines)*(fontH+4) + 10
+	DrawRect(screen, 0, topY, pw, ph, color.RGBA{175, 198, 238, 245})
+	DrawRect(screen, 0, topY, pw, 18, color.RGBA{55, 95, 175, 245})
+	DrawRect(screen, 0, topY, pw, 2, color.RGBA{120, 165, 230, 245})
+	DrawText(screen, title, pw/2-len(title)*fontW/2, topY+13, color.RGBA{255, 255, 255, 255})
 	for i, l := range lines {
-		DrawText(screen, l, px+10, topY+18+i*(fontH+4)+fontH, color.RGBA{30, 40, 80, 255})
+		DrawText(screen, l, 14, topY+18+i*(fontH+4)+fontH, color.RGBA{25, 35, 75, 255})
+	}
+}
+
+// ── Maps sub-panel ────────────────────────────────────────────────────────────
+
+const (
+	mapBtnW   = 360
+	mapBtnH   = 34
+	mapBtnGap = 6
+)
+
+func mapBtnRect(subY, idx int) (x, y, w, h int) {
+	titleH := 20
+	bx := screenW/2 - mapBtnW/2
+	by := subY + titleH + 8 + idx*(mapBtnH+mapBtnGap)
+	return bx, by, mapBtnW, mapBtnH
+}
+
+func (m *PanelMenu) drawMapsPanel(screen *ebiten.Image, subY int, alpha uint8) {
+	ph := 20 + len(mapEntries)*(mapBtnH+mapBtnGap) + 14
+	DrawRect(screen, 0, subY, pmW, ph, color.RGBA{175, 198, 238, alpha})
+	DrawRect(screen, 0, subY, pmW, 20, color.RGBA{55, 95, 175, alpha})
+	DrawRect(screen, 0, subY, pmW, 2, color.RGBA{120, 165, 230, alpha})
+	title := "Choisir une map"
+	DrawText(screen, title, pmW/2-len(title)*fontW/2, subY+14, color.RGBA{255, 255, 255, alpha})
+
+	for i, entry := range mapEntries {
+		bx, by, bw, bh := mapBtnRect(subY, i)
+		DrawRect(screen, bx, by, bw, bh, color.RGBA{75, 115, 195, alpha})
+		DrawRect(screen, bx, by, bw, 2, color.RGBA{145, 185, 240, alpha})
+		DrawText(screen, ">>", bx+8, by+bh-7, color.RGBA{255, 215, 70, alpha})
+		DrawText(screen, entry.name, bx+28, by+bh-7, color.RGBA{255, 255, 255, alpha})
+		descX := bx + bw - len(entry.desc)*fontW - 8
+		DrawText(screen, entry.desc, descX, by+bh-7, color.RGBA{195, 215, 255, alpha})
 	}
 }
 

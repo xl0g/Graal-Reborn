@@ -357,11 +357,13 @@ func ganiLoadImg(filename string) *ebiten.Image {
 // ──────────────────────────────────────────────────────────────
 
 // GaniImages holds the resolved source images for one draw call.
-// Callers override Body/Head/Attr1 with the character's cosmetics.
+// Callers override Body/Head/Attr1/Shield/Sword with the character's cosmetics.
 type GaniImages struct {
-	Body  *ebiten.Image // overrides BODY source
-	Head  *ebiten.Image // overrides HEAD source
-	Attr1 *ebiten.Image // overrides ATTR1 source
+	Body   *ebiten.Image // overrides BODY source
+	Head   *ebiten.Image // overrides HEAD source
+	Attr1  *ebiten.Image // overrides ATTR1 source
+	Shield *ebiten.Image // overrides SHIELD source
+	Sword  *ebiten.Image // overrides SWORD/PARAM1 source
 
 	// When true, the corresponding sprite type is suppressed entirely
 	// (returns nil instead of falling back to the default image).
@@ -436,12 +438,18 @@ func (gi *GaniImages) resolve(src ganiSource, fileSrc string, anim *GaniAnim) *e
 		}
 		return d.attr1
 	case srcSword:
+		if gi.Sword != nil {
+			return gi.Sword
+		}
 		return d.sword
 	case srcHorse:
 		return d.horse
 	case srcShield:
 		if gi.NoShield {
 			return nil
+		}
+		if gi.Shield != nil {
+			return gi.Shield
 		}
 		return d.shield
 	case srcAttr4:
