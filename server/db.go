@@ -48,18 +48,26 @@ func initDB(path string) error {
 	if err != nil {
 		return err
 	}
-	// Non-fatal migration: add gralats column to existing databases.
+	// Non-fatal migrations for existing databases.
 	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN gralats INTEGER DEFAULT 0`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN playtime INTEGER DEFAULT 0`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN body TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN head TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN hat  TEXT DEFAULT ''`)
 	return nil
 }
 
 // UserRecord carries the fields we need from the users table at login.
 type UserRecord struct {
-	ID      int64
-	Name    string
-	LastX   float64
-	LastY   float64
-	Gralats int
+	ID       int64
+	Name     string
+	LastX    float64
+	LastY    float64
+	Gralats  int
+	Playtime int // total seconds played
+	Body     string
+	Head     string
+	Hat      string
 }
 
 func dbCreateUser(username, password, email string) error {
@@ -78,9 +86,10 @@ func dbAuthenticate(username, password string) (*UserRecord, error) {
 	var u UserRecord
 	var hash string
 	err := database.QueryRow(
-		`SELECT id, username, password_hash, last_x, last_y, gralats
+		`SELECT id, username, password_hash, last_x, last_y, gralats, COALESCE(playtime,0),
+		        COALESCE(body,''), COALESCE(head,''), COALESCE(hat,'')
 		 FROM users WHERE username = ?`, username,
-	).Scan(&u.ID, &u.Name, &hash, &u.LastX, &u.LastY, &u.Gralats)
+	).Scan(&u.ID, &u.Name, &hash, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat)
 	if err != nil {
 		return nil, fmt.Errorf("invalid credentials")
 	}
@@ -104,14 +113,19 @@ func dbCreateSession(userID int64, username string) (string, error) {
 func dbValidateSession(token string) (*UserRecord, error) {
 	var u UserRecord
 	err := database.QueryRow(
-		`SELECT u.id, u.username, u.last_x, u.last_y, u.gralats
+		`SELECT u.id, u.username, u.last_x, u.last_y, u.gralats, COALESCE(u.playtime,0),
+		        COALESCE(u.body,''), COALESCE(u.head,''), COALESCE(u.hat,'')
 		 FROM sessions s JOIN users u ON s.user_id = u.id
 		 WHERE s.token = ?`, token,
-	).Scan(&u.ID, &u.Name, &u.LastX, &u.LastY, &u.Gralats)
+	).Scan(&u.ID, &u.Name, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat)
 	if err != nil {
 		return nil, fmt.Errorf("invalid session")
 	}
 	return &u, nil
+}
+
+func dbSaveCosmetics(userID int64, body, head, hat string) {
+	database.Exec(`UPDATE users SET body = ?, head = ?, hat = ? WHERE id = ?`, body, head, hat, userID)
 }
 
 func dbUpdatePosition(userID int64, x, y float64) {
@@ -132,6 +146,11 @@ func dbAddGralats(userID int64, n int) (int, error) {
 		database.QueryRow(`SELECT gralats FROM users WHERE id = ?`, userID).Scan(&total)
 	}
 	return total, nil
+}
+
+// dbAddPlaytime adds seconds to the playtime total for userID.
+func dbAddPlaytime(userID int64, seconds int) {
+	database.Exec(`UPDATE users SET playtime = COALESCE(playtime,0) + ? WHERE id = ?`, seconds, userID)
 }
 
 func dbSaveChat(username, message string) {

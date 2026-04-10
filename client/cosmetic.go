@@ -112,6 +112,29 @@ func (m *CosmeticMenu) BodyFile() string { return safeFile(m.bodyFiles, m.BodyId
 func (m *CosmeticMenu) HeadFile() string { return safeFile(m.headFiles, m.HeadIdx) }
 func (m *CosmeticMenu) HatFile() string  { return safeFile(m.hatFiles, m.HatIdx) }
 
+// SetByFilenames restores the selected indices from saved filenames.
+// Unknown filenames are silently ignored (index stays at 0).
+func (m *CosmeticMenu) SetByFilenames(body, head, hat string) {
+	if i := indexOfFile(m.bodyFiles, body); i >= 0 {
+		m.BodyIdx = i
+	}
+	if i := indexOfFile(m.headFiles, head); i >= 0 {
+		m.HeadIdx = i
+	}
+	if i := indexOfFile(m.hatFiles, hat); i >= 0 {
+		m.HatIdx = i
+	}
+}
+
+func indexOfFile(files []string, name string) int {
+	for i, f := range files {
+		if f == name {
+			return i
+		}
+	}
+	return -1
+}
+
 func safeFile(files []string, idx int) string {
 	if idx < 0 || idx >= len(files) {
 		return ""

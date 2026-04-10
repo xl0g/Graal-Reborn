@@ -14,16 +14,21 @@ import (
 
 // Client represents a single connected player.
 type Client struct {
-	conn         *websocket.Conn
-	send         chan []byte
-	hub          *Hub
-	userID       int64
-	name         string
-	playerID     string
-	state        PlayerState
-	npcCooldowns map[string]time.Time
-	mountedNPCID string // ID of the horse this client is riding, or ""
+	conn          *websocket.Conn
+	send          chan []byte
+	hub           *Hub
+	userID        int64
+	name          string
+	playerID      string
+	state         PlayerState
+	npcCooldowns  map[string]time.Time
+	mountedNPCID  string    // ID of the horse this client is riding, or ""
+	sessionStart  time.Time // when the player connected
+	savedPlaytime int       // playtime seconds accumulated before this session
+	currentMap    string    // which map this client is currently on
 }
+
+const defaultMap = "GraalRebornMap.tmx"
 
 var upgrader = websocket.Upgrader{
 	ReadBufferSize:  1024,
@@ -63,30 +68,41 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 	playerID := fmt.Sprintf("player_%d", user.ID)
 
 	client := &Client{
-		conn:         conn,
-		send:         make(chan []byte, 512),
-		hub:          globalHub,
-		userID:       user.ID,
-		name:         user.Name,
-		playerID:     playerID,
-		npcCooldowns: make(map[string]time.Time),
+		conn:          conn,
+		send:          make(chan []byte, 512),
+		hub:           globalHub,
+		userID:        user.ID,
+		name:          user.Name,
+		playerID:      playerID,
+		npcCooldowns:  make(map[string]time.Time),
+		sessionStart:  time.Now(),
+		savedPlaytime: user.Playtime,
+		currentMap:    defaultMap,
 		state: PlayerState{
-			ID:      playerID,
-			Name:    user.Name,
-			X:       spawnX,
-			Y:       spawnY,
-			Dir:     2,
-			Gralats: user.Gralats,
+			ID:       playerID,
+			Name:     user.Name,
+			X:        spawnX,
+			Y:        spawnY,
+			Dir:      2,
+			Gralats:  user.Gralats,
+			Playtime: user.Playtime,
+			Body:     user.Body,
+			Head:     user.Head,
+			Hat:      user.Hat,
 		},
 	}
 
 	conn.WriteJSON(map[string]interface{}{
-		"type":     "auth_ok",
-		"id":       playerID,
-		"name":     user.Name,
-		"x":        spawnX,
-		"y":        spawnY,
-		"gralat_n": user.Gralats,
+		"type":      "auth_ok",
+		"id":        playerID,
+		"name":      user.Name,
+		"x":         spawnX,
+		"y":         spawnY,
+		"gralat_n":  user.Gralats,
+		"playtime":  user.Playtime,
+		"body":      user.Body,
+		"head":      user.Head,
+		"hat":       user.Hat,
 	})
 
 	globalHub.register(client)
@@ -140,6 +156,8 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 		switch base.Type {
 		case "move":
 			handleMove(client, raw)
+		case "change_map":
+			handleChangeMap(client, raw)
 		case "cosmetic":
 			handleCosmetic(client, raw)
 		case "chat":
@@ -190,6 +208,18 @@ func handleMove(c *Client, raw []byte) {
 	globalHub.mu.Unlock()
 }
 
+func handleChangeMap(c *Client, raw []byte) {
+	var msg struct {
+		Map string `json:"map"`
+	}
+	if json.Unmarshal(raw, &msg) != nil || msg.Map == "" {
+		return
+	}
+	globalHub.mu.Lock()
+	c.currentMap = msg.Map
+	globalHub.mu.Unlock()
+}
+
 func handleCosmetic(c *Client, raw []byte) {
 	var msg struct {
 		Body string `json:"body"`
@@ -204,6 +234,7 @@ func handleCosmetic(c *Client, raw []byte) {
 	c.state.Head = msg.Head
 	c.state.Hat = msg.Hat
 	globalHub.mu.Unlock()
+	dbSaveCosmetics(c.userID, msg.Body, msg.Head, msg.Hat)
 }
 
 func handleChat(c *Client, raw []byte) {

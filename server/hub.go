@@ -31,9 +31,9 @@ func newHub() *Hub {
 	}
 
 	// Load tile collision map (path relative to server working directory).
-	if cm, err := LoadCollisionMap("test2.tmx"); err == nil {
+	if cm, err := LoadCollisionMap("GraalRebornMap.tmx"); err == nil {
 		h.collMap = cm
-		log.Println("[MAP] Collision map loaded from test2.tmx")
+		log.Println("[MAP] Collision map loaded from GraalRebornMap.tmx")
 	} else {
 		log.Printf("[MAP] Could not load collision map: %v — NPCs will ignore walls", err)
 	}
@@ -45,29 +45,38 @@ func newHub() *Hub {
 	}{
 		// Regular NPCs
 		{"Thibaut the Villager", 300, 200, NPCTypeVillager},
-		{"Marceline the Merchant", 600, 280, NPCTypeMerchant},
-		{"Galahad the Guard", 800, 160, NPCTypeGuard},
-		{"Eleanor the Traveller", 420, 480, NPCTypeTraveler},
-		{"Baptiste the Farmer", 680, 520, NPCTypeFarmer},
-		{"Sylvain the Innkeeper", 180, 400, NPCTypeMerchant},
-		{"Noemie the Sorceress", 850, 550, NPCTypeVillager},
+		// {"Marceline the Merchant", 600, 280, NPCTypeMerchant},
+		// {"Galahad the Guard", 800, 160, NPCTypeGuard},
+		// {"Eleanor the Traveller", 420, 480, NPCTypeTraveler},
+		// {"Baptiste the Farmer", 680, 520, NPCTypeFarmer},
+		// {"Sylvain the Innkeeper", 180, 400, NPCTypeMerchant},
+		// {"Noemie the Sorceress", 850, 550, NPCTypeVillager},
 		// Horses (NPCTypeHorse = 5)
-		{"War Horse", 240, 360, NPCTypeHorse},
-		{"Grey Mare", 700, 430, NPCTypeHorse},
-		{"Swift Foal", 450, 570, NPCTypeHorse},
+		// {"War Horse", 240, 360, NPCTypeHorse},
+		// {"Grey Mare", 700, 430, NPCTypeHorse},
+		// {"Swift Foal", 450, 570, NPCTypeHorse},
 	}
 
 	for i, def := range npcDefs {
+		x, y := def.x, def.y
+		if h.collMap != nil && !h.collMap.IsFreePoint(x+8, y+8) {
+			x, y = findFreeGralatPos(h.collMap, x, y)
+		}
 		h.npcs = append(h.npcs, newNPC(
 			fmt.Sprintf("npc_%d", i),
-			def.name, def.x, def.y, def.npcType,
+			def.name, x, y, def.npcType,
 		))
 	}
 
 	for i := range gralatSpawnDefs {
 		d := gralatSpawnDefs[i]
+		x, y := d.x, d.y
+		// If the hardcoded position is in a wall, nudge it to a free tile.
+		if h.collMap != nil && !h.collMap.IsFreePoint(x+8, y+8) {
+			x, y = findFreeGralatPos(h.collMap, x, y)
+		}
 		h.gralats = append(h.gralats, &GralatPickup{
-			ID: d.id, X: d.x, Y: d.y, Value: d.value,
+			ID: d.id, X: x, Y: y, Value: d.value,
 		})
 	}
 
@@ -83,7 +92,7 @@ func (h *Hub) register(c *Client) {
 	log.Printf("[HUB] %s connected (ID: %s)", c.name, c.playerID)
 }
 
-// unregister removes a client, frees any mount, saves position.
+// unregister removes a client, frees any mount, saves position and playtime.
 func (h *Hub) unregister(c *Client) {
 	h.mu.Lock()
 	delete(h.clients, c)
@@ -96,9 +105,11 @@ func (h *Hub) unregister(c *Client) {
 		}
 	}
 	h.mu.Unlock()
+	elapsed := int(time.Since(c.sessionStart).Seconds())
 	dbUpdatePosition(c.userID, c.state.X, c.state.Y)
+	dbAddPlaytime(c.userID, elapsed)
 	h.broadcastSystem(fmt.Sprintf("%s left the world.", c.name))
-	log.Printf("[HUB] %s disconnected", c.name)
+	log.Printf("[HUB] %s disconnected (session: %ds)", c.name, elapsed)
 }
 
 func (h *Hub) broadcastRaw(data []byte) {
@@ -124,29 +135,78 @@ func (h *Hub) broadcastSystem(msg string) {
 	h.broadcast(map[string]string{"type": "system", "msg": msg})
 }
 
-// getGameState snapshots current players, alive NPCs, and world gralats.
-func (h *Hub) getGameState() ([]PlayerState, []NPCState, []GralatPickup) {
+// sendPerClientState sends each client a state snapshot containing only the
+// players/NPCs/gralats that are on the same map as that client.
+func (h *Hub) sendPerClientState() {
 	h.mu.RLock()
 	defer h.mu.RUnlock()
 
-	players := make([]PlayerState, 0, len(h.clients))
+	// Snapshot all player states and their current maps.
+	type playerEntry struct {
+		state PlayerState
+		cmap  string
+	}
+	allPlayers := make([]playerEntry, 0, len(h.clients))
 	for c := range h.clients {
-		players = append(players, c.state)
+		ps := c.state
+		ps.Playtime = c.savedPlaytime + int(time.Since(c.sessionStart).Seconds())
+		m := c.currentMap
+		if m == "" {
+			m = defaultMap
+		}
+		allPlayers = append(allPlayers, playerEntry{ps, m})
 	}
 
-	// Include alive NPCs and briefly-dead NPCs (first 2 s after death for death animation).
-	npcs := make([]NPCState, 0, len(h.npcs))
+	// Snapshot NPCs (main map only).
+	mainNPCs := make([]NPCState, 0, len(h.npcs))
 	for _, n := range h.npcs {
 		if n.alive || n.respawnTimer > npcRespawnTime-2.0 {
-			npcs = append(npcs, n.state)
+			mainNPCs = append(mainNPCs, n.state)
 		}
 	}
 
+	// Snapshot gralats (main map only).
 	gralats := make([]GralatPickup, len(h.gralats))
 	for i, g := range h.gralats {
 		gralats[i] = *g
 	}
-	return players, npcs, gralats
+
+	for c := range h.clients {
+		myMap := c.currentMap
+		if myMap == "" {
+			myMap = defaultMap
+		}
+
+		// Only include players on the same map.
+		filtered := make([]PlayerState, 0)
+		for _, pe := range allPlayers {
+			if pe.cmap == myMap {
+				filtered = append(filtered, pe.state)
+			}
+		}
+
+		// NPCs and gralats only exist on the main map.
+		var sendNPCs []NPCState
+		var sendGralats []GralatPickup
+		if myMap == defaultMap {
+			sendNPCs = mainNPCs
+			sendGralats = gralats
+		}
+
+		data, err := json.Marshal(map[string]interface{}{
+			"type":    "state",
+			"players": filtered,
+			"npcs":    sendNPCs,
+			"gralats": sendGralats,
+		})
+		if err != nil {
+			continue
+		}
+		select {
+		case c.send <- data:
+		default:
+		}
+	}
 }
 
 // ──────────────────────────────────────────────────────────────
@@ -292,12 +352,6 @@ func (h *Hub) runGameLoop() {
 			h.checkRespawns()
 		}
 
-		players, npcs, gralats := h.getGameState()
-		h.broadcast(map[string]interface{}{
-			"type":    "state",
-			"players": players,
-			"npcs":    npcs,
-			"gralats": gralats,
-		})
+		h.sendPerClientState()
 	}
 }

@@ -62,7 +62,10 @@ type Game struct {
 	chat *Chat
 
 	// TMX map
-	gameMap *GameMap
+	gameMap        *GameMap
+	currentMapName string
+	prevMapName    string
+	mapSwitchCooldown float64 // seconds before next map switch allowed
 
 	// World gralat pickups (replicated from server)
 	worldGralats []GralatPickup
@@ -77,8 +80,19 @@ type Game struct {
 	profileOpen  bool       // local player profile (P key)
 	viewedPlayer *Character // non-nil when inspecting another player's profile
 
+	// Profile
+	localPlaytime int
+	sessionStart  time.Time
+	previewImg    *ebiten.Image // 96×96 offscreen used for character previews
+
 	// Push animation delay
 	pushTimer float64
+
+	// Noclip mode (disables tile collision for local player)
+	noclip bool
+
+	// Main panel menu (slides from top)
+	panelMenu *PanelMenu
 
 	// Cached last-sent state to reduce message rate
 	lastSentX, lastSentY   float64
@@ -110,14 +124,19 @@ func NewGame(bodyImg, headImg, tilesImg *ebiten.Image) *Game {
 	}
 
 	// Load TMX map
-	if gm, err := LoadTMX("test2.tmx"); err == nil {
-		g.gameMap = gm
-	} else {
-		fmt.Println("[MAP] test2.tmx:", err)
-	}
+	g.loadMap("GraalRebornMap.tmx", false)
+
+	// Panel menu
+	g.panelMenu = NewPanelMenu()
+
+	// Emoji images
+	loadEmojiImages()
 
 	// Load gralat sprites
 	loadGralatImage()
+
+	// Offscreen image for character previews (reused each frame).
+	g.previewImg = ebiten.NewImage(96, 96)
 
 	return g
 }
@@ -189,6 +208,57 @@ func (g *Game) Layout(_, _ int) (int, int) {
 }
 
 // ──────────────────────────────────────────────────────────────
+// Map helpers
+// ──────────────────────────────────────────────────────────────
+
+// worldSize returns current map dimensions in pixels.
+func (g *Game) worldSize() (int, int) {
+	if g.gameMap != nil {
+		return g.gameMap.WorldW(), g.gameMap.WorldH()
+	}
+	return worldW, worldH
+}
+
+// loadMap loads a TMX file by name. If spawnAtExit is true and the map has
+// exitmap tiles, the local player is teleported there; otherwise the player
+// is placed at the world centre.
+func (g *Game) loadMap(name string, spawnAtExit bool) {
+	filename := name
+	// append .tmx if missing
+	if len(filename) < 4 || filename[len(filename)-4:] != ".tmx" {
+		filename += ".tmx"
+	}
+	gm, err := LoadTMX(filename)
+	if err != nil {
+		fmt.Println("[MAP] failed to load", filename, ":", err)
+		return
+	}
+	g.prevMapName = g.currentMapName
+	g.currentMapName = filename
+	g.gameMap = gm
+	g.mapSwitchCooldown = 1.0 // 1 second grace period
+
+	// Notify the server which map we're on so it can filter the state broadcast.
+	if g.conn != nil {
+		g.conn.SendJSON(map[string]string{"type": "change_map", "map": filename})
+	}
+
+	if g.localChar == nil {
+		return
+	}
+	ww, wh := g.worldSize()
+	if spawnAtExit {
+		if ex, ey, ok := gm.ExitPos(); ok {
+			g.localChar.X = ex - float64(frameW)/2
+			g.localChar.Y = ey - float64(frameH)/2
+			return
+		}
+	}
+	g.localChar.X = float64(ww)/2 - float64(frameW)/2
+	g.localChar.Y = float64(wh)/2 - float64(frameH)/2
+}
+
+// ──────────────────────────────────────────────────────────────
 // Game start / stop
 // ──────────────────────────────────────────────────────────────
 
@@ -208,8 +278,9 @@ func (g *Game) startGame(token, name string) {
 	g.worldGralats = nil
 	g.grMu.Unlock()
 
+	ww, wh := g.worldSize()
 	g.localChar = NewCharacter(g.bodyImg, g.headImg,
-		float64(worldW)/2, float64(worldH)/2,
+		float64(ww)/2, float64(wh)/2,
 		name, false, 0)
 	g.localChar.IsLocal = true
 
@@ -258,6 +329,9 @@ func (g *Game) updatePlaying(dt float64) error {
 	if g.localChar == nil {
 		return nil
 	}
+
+	// Panel menu update — consumes mouse clicks when active.
+	g.panelMenu.Update(dt)
 
 	g.processNetwork()
 
@@ -398,8 +472,12 @@ func (g *Game) updatePlaying(dt float64) error {
 		}
 	}
 
-	// Detect nearest NPC for interaction prompt
-	g.nearNPCID, g.nearNPCType = g.nearestNPC()
+	// Detect nearest NPC only on the main map
+	if g.currentMapName == "GraalRebornMap.tmx" || g.currentMapName == "" {
+		g.nearNPCID, g.nearNPCType = g.nearestNPC()
+	} else {
+		g.nearNPCID, g.nearNPCType = "", -1
+	}
 
 	// Sword hit detection: fires once when the active phase begins
 	if !g.swordHitSent && g.localChar.SwordJustActivated() {
@@ -410,6 +488,22 @@ func (g *Game) updatePlaying(dt float64) error {
 
 	// Auto-collect gralats by walking over them
 	g.checkGralatPickup()
+
+	// Map transition cooldown
+	if g.mapSwitchCooldown > 0 {
+		g.mapSwitchCooldown -= dt
+	}
+
+	// Map switch triggers
+	if g.mapSwitchCooldown <= 0 && g.gameMap != nil && g.localChar != nil {
+		c := g.localChar
+		if target := g.gameMap.SwitchmapAt(c.X, c.Y, float64(frameW), float64(frameH)); target != "" {
+			g.loadMap(target, true)
+		} else if g.gameMap.OnExitTile(c.X, c.Y, float64(frameW), float64(frameH)) && g.prevMapName != "" {
+			prev := g.prevMapName
+			g.loadMap(prev, true)
+		}
+	}
 
 	// Sync AnimState changes to server (e.g. sword swing while standing still)
 	if g.conn != nil && g.localChar.AnimState != g.lastSentAnim {
@@ -480,7 +574,7 @@ func (g *Game) handleMovement(dt float64) {
 	// Tile collision: move axes independently (wall sliding).
 	// Track whether the primary movement direction is blocked for push anim.
 	pushedIntoWall := false
-	if g.gameMap != nil {
+	if g.gameMap != nil && !g.noclip {
 		blockedX := dx != 0 && g.gameMap.IsBlocked(newX, c.Y, float64(frameW), float64(frameH))
 		blockedY := dy != 0 && g.gameMap.IsBlocked(c.X, newY, float64(frameW), float64(frameH))
 
@@ -527,11 +621,12 @@ func (g *Game) handleMovement(dt float64) {
 	if c.Y < 0 {
 		c.Y = 0
 	}
-	if c.X > float64(worldW-frameW) {
-		c.X = float64(worldW - frameW)
+	ww, wh := g.worldSize()
+	if c.X > float64(ww-frameW) {
+		c.X = float64(ww - frameW)
 	}
-	if c.Y > float64(worldH-frameH) {
-		c.Y = float64(worldH - frameH)
+	if c.Y > float64(wh-frameH) {
+		c.Y = float64(wh - frameH)
 	}
 
 	if g.conn != nil && (c.X != g.lastSentX || c.Y != g.lastSentY ||
@@ -554,6 +649,7 @@ func (g *Game) handleMovement(dt float64) {
 }
 
 // handlePlayerClick converts the cursor to world coords and selects the clicked player.
+// Clicking own character opens own profile; clicking another player opens their profile.
 func (g *Game) handlePlayerClick() {
 	if g.localChar == nil {
 		return
@@ -563,11 +659,24 @@ func (g *Game) handlePlayerClick() {
 	wx := float64(mx) + camX
 	wy := float64(my) + camY
 
+	// Hitbox is slightly larger than the sprite for easier clicking.
+	const pad = 8.0
+
+	// Check own character first.
+	lx, ly := g.localChar.X, g.localChar.Y
+	if wx >= lx-pad && wx < lx+float64(frameW)+pad &&
+		wy >= ly-pad && wy < ly+float64(frameH)+pad {
+		g.profileOpen = true
+		g.viewedPlayer = nil
+		return
+	}
+
+	// Check other players.
 	g.mu.Lock()
 	var hit *Character
 	for _, p := range g.otherPlayers {
-		if wx >= p.X && wx < p.X+float64(frameW) &&
-			wy >= p.Y && wy < p.Y+float64(frameH) {
+		if wx >= p.X-pad && wx < p.X+float64(frameW)+pad &&
+			wy >= p.Y-pad && wy < p.Y+float64(frameH)+pad {
 			hit = p
 			break
 		}
@@ -701,13 +810,21 @@ func (g *Game) handleServerMsg(data []byte) {
 	case "auth_ok":
 		g.localID = msg.ID
 		g.localGralats = msg.GralatN
+		g.localPlaytime = msg.Playtime
+		g.sessionStart = time.Now()
 		if g.localChar != nil {
 			g.localChar.X, g.localChar.Y = msg.X, msg.Y
 			g.localChar.TargetX, g.localChar.TargetY = msg.X, msg.Y
 		}
-		// Apply and broadcast cosmetics immediately so the local character
-		// never falls back to raw GANI defaults.
+		// Restore saved cosmetics from server, then broadcast.
+		if msg.Body != "" || msg.Head != "" || msg.Hat != "" {
+			g.cosmeticMenu.SetByFilenames(msg.Body, msg.Head, msg.Hat)
+		}
 		g.sendCosmetics()
+		// Tell the server which map we're currently on.
+		if g.currentMapName != "" && g.conn != nil {
+			g.conn.SendJSON(map[string]string{"type": "change_map", "map": g.currentMapName})
+		}
 		g.chat.AddMessage("", fmt.Sprintf("Connected as %s", msg.Name), true)
 
 	case "auth_error":
@@ -729,6 +846,7 @@ func (g *Game) handleServerMsg(data []byte) {
 				ch.Dir = p.Dir
 				ch.Moving = p.Moving
 				ch.Gralats = p.Gralats
+				ch.Playtime = p.Playtime
 				ch.SetCosmetics(p.Body, p.Head, p.Hat)
 				// Sync mounted / ride state
 				ch.Mounted = p.Mounted
@@ -752,6 +870,7 @@ func (g *Game) handleServerMsg(data []byte) {
 			} else {
 				ch := NewCharacter(g.bodyImg, g.headImg, p.X, p.Y, p.Name, false, 0)
 				ch.Gralats = p.Gralats
+				ch.Playtime = p.Playtime
 				ch.Mounted = p.Mounted
 				if p.Mounted {
 					ch.AnimState = AnimRide
@@ -805,11 +924,16 @@ func (g *Game) handleServerMsg(data []byte) {
 
 	case "chat":
 		g.chat.AddMessage(msg.From, msg.Msg, false)
-		// Show bubble above the sender's head.
+		// Show chat + emoji bubble above the sender's head.
 		g.mu.Lock()
 		for _, p := range g.otherPlayers {
 			if p.Name == msg.From {
 				p.SetChatMsg(msg.Msg)
+				if code := containsEmoji(msg.Msg); code != "" {
+					if img := emojiImageFor(code); img != nil {
+						p.SetEmoji(img)
+					}
+				}
 				break
 			}
 		}
@@ -879,10 +1003,15 @@ func (g *Game) drawPlaying(screen *ebiten.Image) {
 	// World gralat pickups
 	g.drawWorldGralats(screen, camX, camY)
 
+	// NPCs only exist on the main world map.
+	onMainMap := g.currentMapName == "GraalRebornMap.tmx" || g.currentMapName == ""
+
 	// Entities
 	g.mu.Lock()
-	for _, n := range g.npcs {
-		n.Draw(screen, camX, camY)
+	if onMainMap {
+		for _, n := range g.npcs {
+			n.Draw(screen, camX, camY)
+		}
 	}
 	for _, p := range g.otherPlayers {
 		p.Draw(screen, camX, camY)
@@ -896,12 +1025,15 @@ func (g *Game) drawPlaying(screen *ebiten.Image) {
 		if g.gameMap != nil {
 			g.gameMap.DrawSignPrompts(screen, camX, camY)
 		}
-		g.drawNPCPrompt(screen, camX, camY)
+		if onMainMap {
+			g.drawNPCPrompt(screen, camX, camY)
+		}
 	}
 
 	// HUD
 	g.drawHUD(screen)
 	g.chat.Draw(screen)
+	g.panelMenu.Draw(screen)
 
 	// Overlays
 	if g.signDialog != "" {
@@ -918,15 +1050,15 @@ func (g *Game) drawPlaying(screen *ebiten.Image) {
 	}
 }
 
-// drawViewedProfile shows a read-only profile panel for another player.
+// drawViewedProfile shows a rich read-only profile panel for another player.
 func (g *Game) drawViewedProfile(screen *ebiten.Image) {
 	p := g.viewedPlayer
 	if p == nil {
 		return
 	}
 	const (
-		pw = 280
-		ph = 160
+		pw = 480
+		ph = 300
 		px = screenW/2 - pw/2
 		py = screenH/2 - ph/2
 	)
@@ -935,40 +1067,83 @@ func (g *Game) drawViewedProfile(screen *ebiten.Image) {
 	title := "PLAYER PROFILE"
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2+2, py+16, colGoldDim)
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2, py+14, colGold)
-	DrawHDivider(screen, px+10, py+42, pw-20)
+	DrawHDivider(screen, px+10, py+44, pw-20)
 
-	DrawText(screen, "Player: "+p.Name, px+16, py+62, colTextWhite)
+	// ── Left: text info (px+16 … px+240) ────────────────────────
+	infoX := px + 18
+	row := py + 66
 
+	// Name
+	DrawText(screen, "Name", infoX, row, colGoldDim)
+	DrawText(screen, p.Name, infoX, row+fontH+3, colTextWhite)
+	row += fontH*2 + 14
+
+	// Gralats with icon
+	DrawText(screen, "Fortune", infoX, row, colGoldDim)
+	row += fontH + 3
 	spr := gralatSprite(1)
 	if spr != nil {
 		op := &ebiten.DrawImageOptions{}
-		op.GeoM.Scale(0.8, 0.8)
-		op.GeoM.Translate(float64(px+16), float64(py+78))
+		op.GeoM.Scale(0.75, 0.75)
+		op.GeoM.Translate(float64(infoX), float64(row-fontH+1))
 		screen.DrawImage(spr, op)
 	}
-	DrawText(screen, fmt.Sprintf("Gralats: %d", p.Gralats), px+44, py+94, colGold)
+	DrawText(screen, fmt.Sprintf("%d gralats", p.Gralats), infoX+26, row, colGold)
+	row += fontH + 14
 
-	hint := "[Esc] or click elsewhere to close"
+	// Playtime
+	DrawText(screen, "Playtime", infoX, row, colGoldDim)
+	DrawText(screen, formatPlaytime(p.Playtime), infoX, row+fontH+3, colTextWhite)
+	row += fontH*2 + 14
+
+	// Status: Online
+	DrawText(screen, "Status", infoX, row, colGoldDim)
+	DrawRect(screen, infoX, row+fontH+3, 8, 8, color.RGBA{40, 220, 80, 255})
+	DrawText(screen, "Online", infoX+12, row+fontH+11, colTextOK)
+
+	// ── Vertical divider ─────────────────────────────────────────
+	DrawRect(screen, px+248, py+50, 1, ph-70, colBorderMid)
+	DrawRect(screen, px+249, py+50, 1, ph-70, colBorderHL)
+
+	// ── Right: character preview (px+258 … px+476) ───────────────
+	previewScale := 2.5
+	previewW := int(96 * previewScale)
+	previewH := int(96 * previewScale)
+	previewAreaW := pw - 260
+	previewAreaH := ph - 70
+	previewX := float64(px+258) + float64(previewAreaW-previewW)/2
+	previewY := float64(py+54) + float64(previewAreaH-previewH)/2
+	p.DrawPreview(screen, g.previewImg, previewX, previewY, previewScale)
+
+	hint := "[Esc] Close"
 	DrawText(screen, hint, px+(pw-len(hint)*fontW)/2, py+ph-10, colTextDim)
 }
 
 func (g *Game) camera() (camX, camY float64) {
-	camX = g.localChar.X + float64(frameW)/2 - float64(screenW)/2
-	camY = g.localChar.Y + float64(frameH)/2 - float64(screenH)/2
+	cww, cwh := g.worldSize()
 
-	maxX := float64(worldW - screenW)
-	maxY := float64(worldH - screenH)
-	if camX < 0 {
-		camX = 0
+	// If the map is narrower/shorter than the screen, centre it.
+	if cww <= screenW {
+		camX = -(float64(screenW) - float64(cww)) / 2
+	} else {
+		camX = g.localChar.X + float64(frameW)/2 - float64(screenW)/2
+		if camX < 0 {
+			camX = 0
+		}
+		if camX > float64(cww-screenW) {
+			camX = float64(cww - screenW)
+		}
 	}
-	if camY < 0 {
-		camY = 0
-	}
-	if camX > maxX {
-		camX = maxX
-	}
-	if camY > maxY {
-		camY = maxY
+	if cwh <= screenH {
+		camY = -(float64(screenH) - float64(cwh)) / 2
+	} else {
+		camY = g.localChar.Y + float64(frameH)/2 - float64(screenH)/2
+		if camY < 0 {
+			camY = 0
+		}
+		if camY > float64(cwh-screenH) {
+			camY = float64(cwh - screenH)
+		}
 	}
 	return
 }
@@ -1071,35 +1246,89 @@ func (g *Game) drawDialog(screen *ebiten.Image, msg string, gralatN int) {
 		py+ph-8, colTextDim)
 }
 
-// drawProfile draws the local player profile overlay.
+// drawProfile draws the local player's own profile overlay.
 func (g *Game) drawProfile(screen *ebiten.Image) {
 	const (
-		pw = 280
-		ph = 160
+		pw = 480
+		ph = 300
 		px = screenW/2 - pw/2
 		py = screenH/2 - ph/2
 	)
 	DrawPanel(screen, px, py, pw, ph)
 
-	title := "PROFILE"
+	title := "MY PROFILE"
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2+2, py+16, colGoldDim)
 	DrawBigText(screen, title, px+(pw-BigTextW(title))/2, py+14, colGold)
-	DrawHDivider(screen, px+10, py+42, pw-20)
+	DrawHDivider(screen, px+10, py+44, pw-20)
 
-	DrawText(screen, "Player: "+g.localName, px+16, py+62, colTextWhite)
+	// ── Left: text info ───────────────────────────────────────────
+	infoX := px + 18
+	row := py + 66
 
-	// Gralat count with sprite
+	// Name
+	DrawText(screen, "Name", infoX, row, colGoldDim)
+	DrawText(screen, g.localName, infoX, row+fontH+3, colTextWhite)
+	row += fontH*2 + 14
+
+	// Gralats
+	DrawText(screen, "Fortune", infoX, row, colGoldDim)
+	row += fontH + 3
 	spr := gralatSprite(1)
 	if spr != nil {
 		op := &ebiten.DrawImageOptions{}
-		op.GeoM.Scale(0.8, 0.8)
-		op.GeoM.Translate(float64(px+16), float64(py+78))
+		op.GeoM.Scale(0.75, 0.75)
+		op.GeoM.Translate(float64(infoX), float64(row-fontH+1))
 		screen.DrawImage(spr, op)
 	}
-	DrawText(screen, fmt.Sprintf("Gralats: %d", g.localGralats), px+44, py+94, colGold)
+	DrawText(screen, fmt.Sprintf("%d gralats", g.localGralats), infoX+26, row, colGold)
+	row += fontH + 14
+
+	// Live playtime (saved + current session)
+	totalPlaytime := g.localPlaytime + int(time.Since(g.sessionStart).Seconds())
+	DrawText(screen, "Playtime", infoX, row, colGoldDim)
+	DrawText(screen, formatPlaytime(totalPlaytime), infoX, row+fontH+3, colTextWhite)
+	row += fontH*2 + 14
+
+	// Status
+	DrawText(screen, "Status", infoX, row, colGoldDim)
+	DrawRect(screen, infoX, row+fontH+3, 8, 8, color.RGBA{40, 220, 80, 255})
+	DrawText(screen, "Online", infoX+12, row+fontH+11, colTextOK)
+
+	// ── Vertical divider ─────────────────────────────────────────
+	DrawRect(screen, px+248, py+50, 1, ph-70, colBorderMid)
+	DrawRect(screen, px+249, py+50, 1, ph-70, colBorderHL)
+
+	// ── Right: character preview ──────────────────────────────────
+	if g.localChar != nil {
+		previewScale := 2.5
+		previewW := int(96 * previewScale)
+		previewH := int(96 * previewScale)
+		previewAreaW := pw - 260
+		previewAreaH := ph - 70
+		previewX := float64(px+258) + float64(previewAreaW-previewW)/2
+		previewY := float64(py+54) + float64(previewAreaH-previewH)/2
+		g.localChar.DrawPreview(screen, g.previewImg, previewX, previewY, previewScale)
+	}
 
 	hint := "[P] or [Esc] Close"
 	DrawText(screen, hint, px+(pw-len(hint)*fontW)/2, py+ph-10, colTextDim)
+}
+
+// formatPlaytime formats a duration in seconds as "Xh Ym Zs".
+func formatPlaytime(seconds int) string {
+	if seconds <= 0 {
+		return "0s"
+	}
+	h := seconds / 3600
+	m := (seconds % 3600) / 60
+	s := seconds % 60
+	if h > 0 {
+		return fmt.Sprintf("%dh %02dm %02ds", h, m, s)
+	}
+	if m > 0 {
+		return fmt.Sprintf("%dm %02ds", m, s)
+	}
+	return fmt.Sprintf("%ds", s)
 }
 
 func (g *Game) drawHUD(screen *ebiten.Image) {
@@ -1133,13 +1362,8 @@ func (g *Game) drawHUD(screen *ebiten.Image) {
 	// Bottom-left: position
 	if g.localChar != nil {
 		posStr := fmt.Sprintf("X:%.0f Y:%.0f", g.localChar.X, g.localChar.Y)
-		DrawText(screen, posStr, 5, screenH-22, colTextDim)
+		DrawText(screen, posStr, 5, screenH-8, colTextDim)
 	}
-
-	// Bottom centre: controls
-	hint := "[WASD] Move  [X] Sword  [R] Mount  [T] Chat  [F] Interact  [P] Profile  [C] Look  [Esc] Menu"
-	DrawText(screen, hint, screenW/2-utf8.RuneCountInString(hint)*fontW/2, screenH-8,
-		color.RGBA{90, 95, 130, 160})
 
 	// Connection indicator
 	if g.conn == nil || g.conn.IsClosed() {
@@ -1178,6 +1402,17 @@ func loadAssets() (body, head, tiles *ebiten.Image) {
 func (g *Game) handleChatMessage(msg string) {
 	lower := strings.ToLower(strings.TrimSpace(msg))
 
+	// /noclip — toggle collision
+	if lower == "/noclip" {
+		g.noclip = !g.noclip
+		status := "OFF"
+		if g.noclip {
+			status = "ON"
+		}
+		g.chat.AddMessage("", "Noclip "+status, true)
+		return
+	}
+
 	// /sit or :sit — toggle sit animation
 	if lower == "/sit" || lower == ":sit" {
 		if g.localChar == nil {
@@ -1204,6 +1439,12 @@ func (g *Game) handleChatMessage(msg string) {
 	g.conn.SendJSON(map[string]string{"type": "chat", "msg": msg})
 	if g.localChar != nil {
 		g.localChar.SetChatMsg(msg)
+		// Trigger emoji bubble if the message contains an emoji shortcode.
+		if code := containsEmoji(msg); code != "" {
+			if img := emojiImageFor(code); img != nil {
+				g.localChar.SetEmoji(img)
+			}
+		}
 	}
 }
 

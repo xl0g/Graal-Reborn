@@ -6,8 +6,8 @@ import (
 )
 
 const (
-	mapWidth  = 960.0
-	mapHeight = 640.0
+	mapWidth  = 1120.0 // 70 tiles × 16 px
+	mapHeight = 1120.0
 
 	// NPC type constants (must match client-side NPCTypeHorse)
 	NPCTypeVillager = 0
