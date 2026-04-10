@@ -7,8 +7,8 @@ import (
 
 const (
 	emojiBubbleDuration = 4.0  // total seconds visible
-	emojiRiseDuration   = 1.0  // seconds the bubble takes to rise
-	emojiRisePixels     = 28.0 // pixels the bubble travels upward
+	emojiRiseDuration   = 0.3  // seconds the bubble takes to reveal (bottom→top)
+	emojiRisePixels     = 28.0 // unused vertical travel kept for compat
 )
 
 var (

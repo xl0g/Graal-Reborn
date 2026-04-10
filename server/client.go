@@ -25,7 +25,10 @@ type Client struct {
 	mountedNPCID  string    // ID of the horse this client is riding, or ""
 	sessionStart  time.Time // when the player connected
 	savedPlaytime int       // playtime seconds accumulated before this session
+	currentMap    string    // which map this client is currently on
 }
+
+const defaultMap = "GraalRebornMap.tmx"
 
 var upgrader = websocket.Upgrader{
 	ReadBufferSize:  1024,
@@ -74,6 +77,7 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 		npcCooldowns:  make(map[string]time.Time),
 		sessionStart:  time.Now(),
 		savedPlaytime: user.Playtime,
+		currentMap:    defaultMap,
 		state: PlayerState{
 			ID:       playerID,
 			Name:     user.Name,
@@ -152,6 +156,8 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 		switch base.Type {
 		case "move":
 			handleMove(client, raw)
+		case "change_map":
+			handleChangeMap(client, raw)
 		case "cosmetic":
 			handleCosmetic(client, raw)
 		case "chat":
@@ -199,6 +205,18 @@ func handleMove(c *Client, raw []byte) {
 	if c.mountedNPCID != "" {
 		globalHub.updateHorsePos(c.playerID, c.state.X, c.state.Y)
 	}
+	globalHub.mu.Unlock()
+}
+
+func handleChangeMap(c *Client, raw []byte) {
+	var msg struct {
+		Map string `json:"map"`
+	}
+	if json.Unmarshal(raw, &msg) != nil || msg.Map == "" {
+		return
+	}
+	globalHub.mu.Lock()
+	c.currentMap = msg.Map
 	globalHub.mu.Unlock()
 }
 

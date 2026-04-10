@@ -238,6 +238,11 @@ func (g *Game) loadMap(name string, spawnAtExit bool) {
 	g.gameMap = gm
 	g.mapSwitchCooldown = 1.0 // 1 second grace period
 
+	// Notify the server which map we're on so it can filter the state broadcast.
+	if g.conn != nil {
+		g.conn.SendJSON(map[string]string{"type": "change_map", "map": filename})
+	}
+
 	if g.localChar == nil {
 		return
 	}
@@ -644,6 +649,7 @@ func (g *Game) handleMovement(dt float64) {
 }
 
 // handlePlayerClick converts the cursor to world coords and selects the clicked player.
+// Clicking own character opens own profile; clicking another player opens their profile.
 func (g *Game) handlePlayerClick() {
 	if g.localChar == nil {
 		return
@@ -653,11 +659,24 @@ func (g *Game) handlePlayerClick() {
 	wx := float64(mx) + camX
 	wy := float64(my) + camY
 
+	// Hitbox is slightly larger than the sprite for easier clicking.
+	const pad = 8.0
+
+	// Check own character first.
+	lx, ly := g.localChar.X, g.localChar.Y
+	if wx >= lx-pad && wx < lx+float64(frameW)+pad &&
+		wy >= ly-pad && wy < ly+float64(frameH)+pad {
+		g.profileOpen = true
+		g.viewedPlayer = nil
+		return
+	}
+
+	// Check other players.
 	g.mu.Lock()
 	var hit *Character
 	for _, p := range g.otherPlayers {
-		if wx >= p.X && wx < p.X+float64(frameW) &&
-			wy >= p.Y && wy < p.Y+float64(frameH) {
+		if wx >= p.X-pad && wx < p.X+float64(frameW)+pad &&
+			wy >= p.Y-pad && wy < p.Y+float64(frameH)+pad {
 			hit = p
 			break
 		}
@@ -802,6 +821,10 @@ func (g *Game) handleServerMsg(data []byte) {
 			g.cosmeticMenu.SetByFilenames(msg.Body, msg.Head, msg.Hat)
 		}
 		g.sendCosmetics()
+		// Tell the server which map we're currently on.
+		if g.currentMapName != "" && g.conn != nil {
+			g.conn.SendJSON(map[string]string{"type": "change_map", "map": g.currentMapName})
+		}
 		g.chat.AddMessage("", fmt.Sprintf("Connected as %s", msg.Name), true)
 
 	case "auth_error":

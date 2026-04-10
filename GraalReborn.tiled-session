@@ -1,5 +1,5 @@
 {
-    "activeFile": "",
+    "activeFile": "interior1.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -13,11 +13,15 @@
                 "y": 276.5
             }
         },
+        "classiciphone_pics4.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
         "interior1.tmx": {
             "scale": 4,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 137.375,
+                "x": 16.625,
                 "y": 165.625
             }
         },
@@ -37,10 +41,18 @@
     "map.tileWidth": 16,
     "map.width": 20,
     "openFiles": [
+        "classiciphone_pics4.tsx",
+        "GraalRebornMap.tmx",
+        "test2.tmx",
+        "interior1.tmx"
     ],
     "project": "GraalReborn.tiled-project",
     "property.type": "string",
     "recentFiles": [
+        "classiciphone_pics4.tsx",
+        "GraalRebornMap.tmx",
+        "test2.tmx",
+        "interior1.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

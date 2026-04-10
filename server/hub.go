@@ -45,16 +45,16 @@ func newHub() *Hub {
 	}{
 		// Regular NPCs
 		{"Thibaut the Villager", 300, 200, NPCTypeVillager},
-		{"Marceline the Merchant", 600, 280, NPCTypeMerchant},
-		{"Galahad the Guard", 800, 160, NPCTypeGuard},
-		{"Eleanor the Traveller", 420, 480, NPCTypeTraveler},
-		{"Baptiste the Farmer", 680, 520, NPCTypeFarmer},
-		{"Sylvain the Innkeeper", 180, 400, NPCTypeMerchant},
-		{"Noemie the Sorceress", 850, 550, NPCTypeVillager},
+		// {"Marceline the Merchant", 600, 280, NPCTypeMerchant},
+		// {"Galahad the Guard", 800, 160, NPCTypeGuard},
+		// {"Eleanor the Traveller", 420, 480, NPCTypeTraveler},
+		// {"Baptiste the Farmer", 680, 520, NPCTypeFarmer},
+		// {"Sylvain the Innkeeper", 180, 400, NPCTypeMerchant},
+		// {"Noemie the Sorceress", 850, 550, NPCTypeVillager},
 		// Horses (NPCTypeHorse = 5)
-		{"War Horse", 240, 360, NPCTypeHorse},
-		{"Grey Mare", 700, 430, NPCTypeHorse},
-		{"Swift Foal", 450, 570, NPCTypeHorse},
+		// {"War Horse", 240, 360, NPCTypeHorse},
+		// {"Grey Mare", 700, 430, NPCTypeHorse},
+		// {"Swift Foal", 450, 570, NPCTypeHorse},
 	}
 
 	for i, def := range npcDefs {
@@ -135,31 +135,78 @@ func (h *Hub) broadcastSystem(msg string) {
 	h.broadcast(map[string]string{"type": "system", "msg": msg})
 }
 
-// getGameState snapshots current players, alive NPCs, and world gralats.
-func (h *Hub) getGameState() ([]PlayerState, []NPCState, []GralatPickup) {
+// sendPerClientState sends each client a state snapshot containing only the
+// players/NPCs/gralats that are on the same map as that client.
+func (h *Hub) sendPerClientState() {
 	h.mu.RLock()
 	defer h.mu.RUnlock()
 
-	players := make([]PlayerState, 0, len(h.clients))
+	// Snapshot all player states and their current maps.
+	type playerEntry struct {
+		state PlayerState
+		cmap  string
+	}
+	allPlayers := make([]playerEntry, 0, len(h.clients))
 	for c := range h.clients {
 		ps := c.state
 		ps.Playtime = c.savedPlaytime + int(time.Since(c.sessionStart).Seconds())
-		players = append(players, ps)
+		m := c.currentMap
+		if m == "" {
+			m = defaultMap
+		}
+		allPlayers = append(allPlayers, playerEntry{ps, m})
 	}
 
-	// Include alive NPCs and briefly-dead NPCs (first 2 s after death for death animation).
-	npcs := make([]NPCState, 0, len(h.npcs))
+	// Snapshot NPCs (main map only).
+	mainNPCs := make([]NPCState, 0, len(h.npcs))
 	for _, n := range h.npcs {
 		if n.alive || n.respawnTimer > npcRespawnTime-2.0 {
-			npcs = append(npcs, n.state)
+			mainNPCs = append(mainNPCs, n.state)
 		}
 	}
 
+	// Snapshot gralats (main map only).
 	gralats := make([]GralatPickup, len(h.gralats))
 	for i, g := range h.gralats {
 		gralats[i] = *g
 	}
-	return players, npcs, gralats
+
+	for c := range h.clients {
+		myMap := c.currentMap
+		if myMap == "" {
+			myMap = defaultMap
+		}
+
+		// Only include players on the same map.
+		filtered := make([]PlayerState, 0)
+		for _, pe := range allPlayers {
+			if pe.cmap == myMap {
+				filtered = append(filtered, pe.state)
+			}
+		}
+
+		// NPCs and gralats only exist on the main map.
+		var sendNPCs []NPCState
+		var sendGralats []GralatPickup
+		if myMap == defaultMap {
+			sendNPCs = mainNPCs
+			sendGralats = gralats
+		}
+
+		data, err := json.Marshal(map[string]interface{}{
+			"type":    "state",
+			"players": filtered,
+			"npcs":    sendNPCs,
+			"gralats": sendGralats,
+		})
+		if err != nil {
+			continue
+		}
+		select {
+		case c.send <- data:
+		default:
+		}
+	}
 }
 
 // ──────────────────────────────────────────────────────────────
@@ -305,12 +352,6 @@ func (h *Hub) runGameLoop() {
 			h.checkRespawns()
 		}
 
-		players, npcs, gralats := h.getGameState()
-		h.broadcast(map[string]interface{}{
-			"type":    "state",
-			"players": players,
-			"npcs":    npcs,
-			"gralats": gralats,
-		})
+		h.sendPerClientState()
 	}
 }
