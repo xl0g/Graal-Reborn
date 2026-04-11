@@ -4,10 +4,8 @@ import (
 	"fmt"
 	"image"
 	"image/color"
-	"os"
 	"path/filepath"
 	"sort"
-	"strings"
 	"sync"
 
 	"github.com/hajimehoshi/ebiten/v2"
@@ -88,21 +86,9 @@ func NewCosmeticMenu() *CosmeticMenu {
 }
 
 // listImages returns all .png and .gif files in dir, sorted alphabetically.
+// On native it reads the local filesystem; on WASM it calls the server API.
 func listImages(dir string) []string {
-	entries, err := os.ReadDir(dir)
-	if err != nil {
-		return nil
-	}
-	var files []string
-	for _, e := range entries {
-		if e.IsDir() {
-			continue
-		}
-		ext := strings.ToLower(filepath.Ext(e.Name()))
-		if ext == ".png" || ext == ".gif" {
-			files = append(files, e.Name())
-		}
-	}
+	files := ListGameDir(dir)
 	sort.Strings(files)
 	return files
 }

@@ -12,6 +12,8 @@ import (
 	"github.com/gorilla/websocket"
 )
 
+const playerMaxHP = 6
+
 // Client represents a single connected player.
 type Client struct {
 	conn          *websocket.Conn
@@ -91,6 +93,8 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 			Hat:      user.Hat,
 			Shield:   user.Shield,
 			Sword:    user.Sword,
+			HP:       playerMaxHP,
+			MaxHP:    playerMaxHP,
 		},
 	}
 
@@ -439,16 +443,27 @@ func handlePvPHit(attacker *Client, raw []byte) {
 		return
 	}
 
+	// Apply damage server-side.
+	globalHub.mu.Lock()
+	if target.state.HP > 0 {
+		target.state.HP--
+	}
+	targetHP := target.state.HP
+	globalHub.mu.Unlock()
+
 	data, _ := json.Marshal(map[string]interface{}{
 		"type":   "pvp_damage",
 		"from":   attacker.name,
 		"damage": 1,
+		"atk_x":  attacker.state.X,
+		"atk_y":  attacker.state.Y,
+		"hp":     targetHP,
 	})
 	select {
 	case target.send <- data:
 	default:
 	}
-	log.Printf("[PVP] %s hit %s", attacker.name, target.name)
+	log.Printf("[PVP] %s hit %s → HP %d", attacker.name, target.name, targetHP)
 }
 
 // ──────────────────────────────────────────────────────────────
@@ -531,6 +546,10 @@ func handleAnimState(c *Client, raw []byte) {
 		return
 	}
 	globalHub.mu.Lock()
+	// Respawn: restore HP when transitioning out of dead state.
+	if c.state.AnimState == "dead" && msg.Anim != "dead" {
+		c.state.HP = playerMaxHP
+	}
 	c.state.AnimState = msg.Anim
 	globalHub.mu.Unlock()
 }

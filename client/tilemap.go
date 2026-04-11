@@ -46,10 +46,20 @@ type tmxProperty struct {
 	Value string `xml:"value,attr"`
 }
 
-// ── TSX (image-collection tileset) structures ─────────────────
+// ── TSX (image-collection or spritesheet tileset) structures ──
 
 type tsxFile struct {
-	Tiles []tsxTile `xml:"tile"`
+	Columns int       `xml:"columns,attr"`
+	TileW   int       `xml:"tilewidth,attr"`
+	TileH   int       `xml:"tileheight,attr"`
+	Image   *tsxImage `xml:"image"` // set for spritesheet tilesets
+	Tiles   []tsxTile `xml:"tile"`  // set for image-collection tilesets
+}
+
+type tsxImage struct {
+	Source string `xml:"source,attr"`
+	Width  int    `xml:"width,attr"`
+	Height int    `xml:"height,attr"`
 }
 
 type tsxTile struct {
@@ -121,9 +131,71 @@ func LoadTMX(path string) (*GameMap, error) {
 				gm.tileCols = img.Bounds().Dx() / gm.TileW
 			}
 		} else {
-			// External TSX — load as image-collection tileset.
-			gm.imageFirstGID = ts.FirstGID
-			gm.imageTiles = loadTSXImageTiles(ts.Source, ts.FirstGID)
+			// External TSX — parse to determine type.
+			data, err := ReadGameFile(ts.Source)
+			if err == nil {
+				var tsx tsxFile
+				if xml.Unmarshal(data, &tsx) == nil {
+					if tsx.Image != nil && tsx.Image.Source != "" {
+						// Spritesheet TSX: single image with columns.
+						gm.firstGID = ts.FirstGID
+						imgPath := tsx.Image.Source
+						img, _, _ := ebitenutil.NewImageFromFile(imgPath)
+						if img == nil {
+							// Try by basename in asset dirs.
+							if found := findAssetFile(filepath.Base(imgPath)); found != "" {
+								img, _, _ = ebitenutil.NewImageFromFile(found)
+							}
+						}
+						gm.tileImg = img
+						tw := tsx.TileW
+						if tw == 0 {
+							tw = gm.TileW
+						}
+						if tw == 0 {
+							tw = 16
+						}
+						if tsx.Columns > 0 {
+							gm.tileCols = tsx.Columns
+						} else if img != nil && tw > 0 {
+							gm.tileCols = img.Bounds().Dx() / tw
+						}
+						// Override tile dimensions from TSX if map default is 0.
+						if gm.TileW == 0 {
+							gm.TileW = tw
+						}
+						if gm.TileH == 0 && tsx.TileH > 0 {
+							gm.TileH = tsx.TileH
+						}
+					} else if len(tsx.Tiles) > 0 {
+						// Image-collection TSX: per-tile images.
+						gm.imageFirstGID = ts.FirstGID
+						tiles := make(map[int]*AnimImage)
+						for _, t := range tsx.Tiles {
+							if t.Image.Source == "" {
+								continue
+							}
+							fname := filepath.Base(t.Image.Source)
+							assetPath := findAssetFile(fname)
+							if assetPath == "" {
+								continue
+							}
+							anim := loadAnimImage(assetPath)
+							if anim == nil {
+								continue
+							}
+							tiles[ts.FirstGID+t.ID] = anim
+						}
+						if gm.imageTiles == nil {
+							gm.imageTiles = tiles
+						} else {
+							for k, v := range tiles {
+								gm.imageTiles[k] = v
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -195,36 +267,6 @@ func LoadTMX(path string) (*GameMap, error) {
 	return gm, nil
 }
 
-// loadTSXImageTiles parses a TSX image-collection tileset and returns a
-// GID→AnimImage map.  Missing files are silently skipped.
-func loadTSXImageTiles(tsxPath string, firstGID int) map[int]*AnimImage {
-	data, err := ReadGameFile(tsxPath)
-	if err != nil {
-		return nil
-	}
-	var tsx tsxFile
-	if err := xml.Unmarshal(data, &tsx); err != nil {
-		return nil
-	}
-	tiles := make(map[int]*AnimImage)
-	for _, t := range tsx.Tiles {
-		if t.Image.Source == "" {
-			continue
-		}
-		fname := filepath.Base(t.Image.Source)
-		assetPath := findAssetFile(fname)
-		if assetPath == "" {
-			continue
-		}
-		anim := loadAnimImage(assetPath)
-		if anim == nil {
-			continue
-		}
-		gid := firstGID + t.ID
-		tiles[gid] = anim
-	}
-	return tiles
-}
 
 // findAssetFile searches for a file by base name across common asset dirs.
 func findAssetFile(name string) string {

@@ -9,7 +9,6 @@ import (
 	"sync"
 
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"golang.org/x/image/font/basicfont"
 )
 
@@ -35,6 +34,7 @@ const (
 	AnimSword = "sword"
 	AnimRide  = "ride"
 	AnimSit   = "sit"
+	AnimJuggle = "juggle",
 	AnimPush  = "push"
 	AnimDead  = "dead"
 	AnimHurt  = "hurt"
@@ -65,11 +65,11 @@ const interpK = 20.0
 // ──────────────────────────────────────────────────────────────
 
 type cosmeticImgs struct {
-	body   *ebiten.Image
+	body   *AnimImage // static PNG wrapped as single-frame AnimImage (safe for WASM goroutines)
 	head   *AnimImage // may be animated GIF
 	hat    *AnimImage // may be animated GIF
 	shield *AnimImage // may be animated GIF
-	sword  *ebiten.Image
+	sword  *AnimImage // static PNG
 }
 
 // ──────────────────────────────────────────────────────────────
@@ -231,12 +231,15 @@ func (c *Character) SwordJustActivated() bool {
 func (c *Character) MarkSwordHitDone() { c.swordHitDone = true }
 
 // SetHurt triggers the hurt animation and knockback away from (fromX, fromY).
-// Call this whenever the character takes a hit.
-func (c *Character) SetHurt(fromX, fromY float64) {
+// damage is the HP amount lost (shown as floating text).
+func (c *Character) SetHurt(fromX, fromY float64, damage int) {
+	if c.AnimState == AnimDead {
+		return // already dead, ignore hits
+	}
 	dx := c.X - fromX
 	dy := c.Y - fromY
 	dist := math.Sqrt(dx*dx + dy*dy)
-	const knockSpeed = 140.0
+	const knockSpeed = 120.0
 	if dist > 0 {
 		c.knockVX = dx / dist * knockSpeed
 		c.knockVY = dy / dist * knockSpeed
@@ -244,11 +247,15 @@ func (c *Character) SetHurt(fromX, fromY float64) {
 		c.knockVX = 0
 		c.knockVY = -knockSpeed
 	}
-	c.knockTimer = 0.18
-	c.hurtTimer = 0.7 // blink duration
+	c.knockTimer = 0.12  // knockback duration
+	c.hurtTimer = 0.30   // blink duration
 	c.AnimState = AnimHurt
-	c.dmgText = "2.5"
-	c.dmgTimer = 1.4
+	if damage > 0 {
+		c.dmgText = fmt.Sprintf("%d", damage)
+	} else {
+		c.dmgText = "1"
+	}
+	c.dmgTimer = 1.2
 	c.dmgRiseY = 0
 	if p := c.getPlayer("hurt.gani"); p != nil {
 		p.Reset()
@@ -351,10 +358,11 @@ func (c *Character) Update(dt float64) {
 		c.cosDirty = false
 		body, head, hat, shield, sword := c.BodyFile, c.HeadFile, c.HatFile, c.ShieldFile, c.SwordFile
 		go func() {
+			// All loading via ReadGameFile+image.Decode — safe from goroutines in WASM.
+			// Ebiten image creation is deferred to the main thread inside AnimImage.Frame().
 			var imgs cosmeticImgs
 			if body != "" {
-				imgs.body, _, _ = ebitenutil.NewImageFromFile(
-					filepath.Join("Assets/offline/levels/bodies", body))
+				imgs.body = loadAnimImage(filepath.Join("Assets/offline/levels/bodies", body))
 			}
 			if head != "" {
 				imgs.head = loadAnimImage(filepath.Join("Assets/offline/levels/heads", head))
@@ -366,8 +374,7 @@ func (c *Character) Update(dt float64) {
 				imgs.shield = loadAnimImage(filepath.Join("Assets/offline/levels/shields", shield))
 			}
 			if sword != "" {
-				imgs.sword, _, _ = ebitenutil.NewImageFromFile(
-					filepath.Join("Assets/offline/levels/swords", sword))
+				imgs.sword = loadAnimImage(filepath.Join("Assets/offline/levels/swords", sword))
 			}
 			c.cosmu.Lock()
 			c.cosImgs = imgs
@@ -378,11 +385,14 @@ func (c *Character) Update(dt float64) {
 	// Advance GIF animation timer.
 	c.cosTime += dt
 
-	// Knockback
+	// Knockback position — applied only for remote/NPC entities.
+	// Local player knockback is applied in game.go with collision checking.
 	if c.knockTimer > 0 {
 		c.knockTimer -= dt
-		c.X += c.knockVX * dt
-		c.Y += c.knockVY * dt
+		if !c.IsLocal {
+			c.X += c.knockVX * dt
+			c.Y += c.knockVY * dt
+		}
 		if c.knockTimer <= 0 {
 			c.knockVX = 0
 			c.knockVY = 0
@@ -441,6 +451,8 @@ func (c *Character) Update(dt float64) {
 		targetGani = "hurt.gani"
 	case c.AnimState == AnimSit:
 		targetGani = "sit.gani"
+	case c.AnimState == AnimJuggle:
+		targetGani = "juggle.gani"
 	case c.AnimState == AnimPush:
 		targetGani = "push.gani"
 	case c.AnimState == AnimRide:
@@ -466,6 +478,9 @@ func (c *Character) Update(dt float64) {
 		// sit.gani is 1 frame — hold it indefinitely.
 		p.Frame = 0
 		p.Timer = 0
+	case targetGani == "juggle.gani":
+		p.Frame = 0
+		p.Timer = 0
 	case targetGani == "dead.gani" && p.Done:
 		// Stay frozen on last death frame.
 	default:
@@ -488,9 +503,9 @@ func (c *Character) Update(dt float64) {
 		}
 	}
 
-	// Hurt completion or interrupted by movement: return to walk/idle
+	// Hurt completion: exit when gani done, blink timer expired, or player moves
 	if c.AnimState == AnimHurt {
-		if c.Moving || p.Done {
+		if c.Moving || p.Done || c.hurtTimer <= 0 {
 			if c.Moving {
 				c.AnimState = AnimWalk
 			} else {
@@ -502,7 +517,7 @@ func (c *Character) Update(dt float64) {
 	// Idle/walk transitions (outside sword/ride/sit/push/dead/hurt)
 	if c.AnimState != AnimSword && c.AnimState != AnimRide &&
 		c.AnimState != AnimSit && c.AnimState != AnimPush &&
-		c.AnimState != AnimDead && c.AnimState != AnimHurt {
+		c.AnimState != AnimDead && c.AnimState != AnimHurt && AnimJuggle && c.AnimState != {
 		if c.Moving {
 			c.AnimState = AnimWalk
 		} else {
@@ -530,10 +545,12 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 	imgs := c.cosImgs
 	c.cosmu.Unlock()
 
-	// Resolve animated frames at the current cosTime.
+	// Resolve animated frames at the current cosTime (all via AnimImage.Frame — main-thread safe).
+	bodyFrame := imgs.body.Frame(c.cosTime)
 	headFrame := imgs.head.Frame(c.cosTime)
 	hatFrame := imgs.hat.Frame(c.cosTime)
 	shieldFrame := imgs.shield.Frame(c.cosTime)
+	swordFrame := imgs.sword.Frame(c.cosTime)
 
 	// Build GaniImages for this draw call
 	gi := &GaniImages{
@@ -548,8 +565,8 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 		gi.NoAttr1 = true
 		gi.NoShield = true
 	} else {
-		if imgs.body != nil {
-			gi.Body = imgs.body
+		if bodyFrame != nil {
+			gi.Body = bodyFrame
 		}
 		if headFrame != nil {
 			gi.Head = headFrame
@@ -567,8 +584,8 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 			gi.Shield = shieldFrame
 		}
 		// Sword: empty string → use default, otherwise use custom.
-		if imgs.sword != nil {
-			gi.Sword = imgs.sword
+		if swordFrame != nil {
+			gi.Sword = swordFrame
 		}
 	}
 
@@ -600,8 +617,8 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 	// Draw gani frame at character body position
 	p.Draw(screen, gi, c.Dir, c.X, c.Y, camX, camY)
 
-	// HP bar for damageable NPCs
-	if c.IsNPC && c.MaxHP > 0 && c.HP > 0 {
+	// HP bar for damageable NPCs and damaged players.
+	if c.MaxHP > 0 && c.HP > 0 && c.HP < c.MaxHP {
 		c.drawHPBar(screen, sx, sy)
 	}
 
@@ -613,11 +630,19 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 func (c *Character) drawFallback(screen *ebiten.Image, camX, camY float64, imgs cosmeticImgs) {
 	sx := c.X - camX
 	sy := c.Y - camY
-	if imgs.body != nil {
+
+	// Try custom body first, then fall back to the GANI default body image.
+	bodyImg := imgs.body.Frame(c.cosTime)
+	if bodyImg == nil {
+		if def := GaniDefaultImages(); def != nil {
+			bodyImg = def.body
+		}
+	}
+	if bodyImg != nil {
 		bodyRect := image.Rect(frameW*c.Dir, 0, frameW*(c.Dir+1), frameH)
 		op := &ebiten.DrawImageOptions{}
 		op.GeoM.Translate(sx, sy)
-		screen.DrawImage(imgs.body.SubImage(bodyRect).(*ebiten.Image), op)
+		screen.DrawImage(bodyImg.SubImage(bodyRect).(*ebiten.Image), op)
 	}
 }
 
@@ -691,8 +716,8 @@ func (c *Character) DrawPreview(dst, offscreen *ebiten.Image, dstX, dstY float64
 	c.cosmu.Unlock()
 
 	gi := &GaniImages{def: GaniDefaultImages()}
-	if imgs.body != nil {
-		gi.Body = imgs.body
+	if bodyFrame := imgs.body.Frame(c.cosTime); bodyFrame != nil {
+		gi.Body = bodyFrame
 	}
 	if headFrame := imgs.head.Frame(c.cosTime); headFrame != nil {
 		gi.Head = headFrame

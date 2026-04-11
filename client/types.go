@@ -17,6 +17,8 @@ type PlayerState struct {
 	Playtime  int     `json:"playtime,omitempty"`
 	AnimState string  `json:"anim,omitempty"`
 	Mounted   bool    `json:"mounted,omitempty"`
+	HP        int     `json:"hp,omitempty"`
+	MaxHP     int     `json:"maxHp,omitempty"`
 }
 
 // NPCState represents an NPC's synchronized state.
@@ -65,4 +67,7 @@ type ServerMessage struct {
 	Shield   string         `json:"shield,omitempty"`
 	Sword    string         `json:"sword,omitempty"`
 	Damage   int            `json:"damage,omitempty"`
+	AtkX     float64        `json:"atk_x,omitempty"`
+	AtkY     float64        `json:"atk_y,omitempty"`
+	MaxHP    int            `json:"maxHp,omitempty"`
 }

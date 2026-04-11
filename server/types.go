@@ -17,6 +17,8 @@ type PlayerState struct {
 	Playtime  int     `json:"playtime,omitempty"` // total seconds played (including current session)
 	AnimState string  `json:"anim,omitempty"`
 	Mounted   bool    `json:"mounted,omitempty"`
+	HP        int     `json:"hp,omitempty"`
+	MaxHP     int     `json:"maxHp,omitempty"`
 }
 
 // NPCState is the synchronized state of an NPC.

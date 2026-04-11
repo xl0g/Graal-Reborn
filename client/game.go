@@ -544,6 +544,30 @@ func (g *Game) updatePlaying(dt float64) error {
 
 func (g *Game) handleMovement(dt float64) {
 	c := g.localChar
+
+	// Apply knockback with tile collision (local player only).
+	if c.knockTimer > 0 && (c.knockVX != 0 || c.knockVY != 0) {
+		kx := c.knockVX * dt
+		ky := c.knockVY * dt
+		if g.gameMap != nil && !g.noclip {
+			if !g.gameMap.IsBlocked(c.X+kx, c.Y, float64(frameW), float64(frameH)) {
+				c.X += kx
+			}
+			if !g.gameMap.IsBlocked(c.X, c.Y+ky, float64(frameW), float64(frameH)) {
+				c.Y += ky
+			}
+		} else {
+			c.X += kx
+			c.Y += ky
+		}
+	}
+
+	// Block movement input while being knocked back.
+	if c.knockTimer > 0 {
+		c.Moving = false
+		return
+	}
+
 	// Block movement while swinging sword.
 	if c.AnimState == AnimSword {
 		c.Moving = false
@@ -899,6 +923,10 @@ func (g *Game) handleServerMsg(data []byte) {
 				ch.Moving = p.Moving
 				ch.Gralats = p.Gralats
 				ch.Playtime = p.Playtime
+				if p.MaxHP > 0 {
+					ch.MaxHP = p.MaxHP
+					ch.HP = p.HP
+				}
 				ch.SetCosmetics(p.Body, p.Head, p.Hat, p.Shield, p.Sword)
 				// Sync mounted / ride state
 				ch.Mounted = p.Mounted
@@ -919,11 +947,34 @@ func (g *Game) handleServerMsg(data []byte) {
 				} else if ch.AnimState == AnimSit && p.AnimState != AnimSit {
 					ch.AnimState = AnimIdle
 				}
+				// Sync dead state
+				if p.AnimState == AnimDead && ch.AnimState != AnimDead {
+					ch.AnimState = AnimDead
+					ch.hurtTimer = 0
+					ch.knockTimer = 0
+				} else if ch.AnimState == AnimDead && p.AnimState != AnimDead {
+					ch.AnimState = AnimIdle
+				}
+				// Sync push state
+				if p.AnimState == AnimPush && ch.AnimState != AnimPush && ch.AnimState != AnimDead {
+					ch.AnimState = AnimPush
+				} else if ch.AnimState == AnimPush && p.AnimState != AnimPush {
+					ch.AnimState = AnimIdle
+				}
+				// Sync hurt state (no knockback for remote — just visual blink)
+				if p.AnimState == AnimHurt && ch.AnimState != AnimHurt && ch.AnimState != AnimDead {
+					ch.hurtTimer = 0.30
+					ch.AnimState = AnimHurt
+				}
 			} else {
 				ch := NewCharacter(g.bodyImg, g.headImg, p.X, p.Y, p.Name, false, 0)
 				ch.Gralats = p.Gralats
 				ch.Playtime = p.Playtime
 				ch.Mounted = p.Mounted
+				if p.MaxHP > 0 {
+					ch.MaxHP = p.MaxHP
+					ch.HP = p.HP
+				}
 				if p.Mounted {
 					ch.AnimState = AnimRide
 				}
@@ -1032,13 +1083,24 @@ func (g *Game) handleServerMsg(data []byte) {
 
 	case "pvp_damage":
 		if g.localChar != nil && g.localChar.AnimState != AnimDead {
-			g.localHP -= msg.Damage
+			// Server sends authoritative HP in pvp_damage; fall back to local decrement.
+			if msg.Damage > 0 {
+				g.localHP -= msg.Damage
+			} else {
+				g.localHP--
+			}
 			if g.localHP < 0 {
 				g.localHP = 0
 			}
 			if g.localHP == 0 {
 				g.localChar.AnimState = AnimDead
+				g.localChar.hurtTimer = 0  // stop blinking so dead anim shows cleanly
+				g.localChar.knockTimer = 0 // stop knockback
+				g.localChar.knockVX = 0
+				g.localChar.knockVY = 0
 				g.chat.AddMessage("", "Vous avez été tué !", true)
+			} else {
+				g.localChar.SetHurt(msg.AtkX, msg.AtkY, msg.Damage)
 			}
 		}
 	}
