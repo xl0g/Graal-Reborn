@@ -22,11 +22,11 @@
             }
         },
         "GraalCityEntry.tmx": {
-            "scale": 2,
+            "scale": 1.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 1495.75,
-                "y": 977.75
+                "x": 1825,
+                "y": 1247
             }
         },
         "GraalRebornMap.tmx": {
@@ -34,7 +34,7 @@
             "selectedLayer": 8,
             "viewCenter": {
                 "x": 560.1666666666666,
-                "y": 559.8333333333333
+                "y": 576.8333333333333
             }
         },
         "Test.tsx": {
@@ -51,7 +51,7 @@
             "scale": 4,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 159.875,
+                "x": 160.125,
                 "y": 160.125
             }
         },

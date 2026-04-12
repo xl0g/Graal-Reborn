@@ -526,6 +526,6 @@ func (m *CosmeticMenu) Draw(screen *ebiten.Image) {
 	}
 
 	// Footer hint
-	hint := "[Q/E] Catégorie   [Up/Down] Page   [Click] Sélectionner   [C/Esc] Fermer"
+	hint := "[Q/E] Category   [Up/Down] Page   [Click] Select   [C/Esc] Close"
 	DrawText(screen, hint, screenW/2-len(hint)*fontW/2, screenH-26, colTextDim)
 }

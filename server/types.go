@@ -43,3 +43,22 @@ type GralatPickup struct {
 	Y     float64 `json:"y"`
 	Value int     `json:"value"` // 1 | 5 | 30 | 100
 }
+
+// InventoryItem represents a usable item in a player's inventory.
+type InventoryItem struct {
+	ID       string `json:"id"`
+	Name     string `json:"name"`
+	Gani     string `json:"gani"`
+	Quantity int    `json:"quantity"`
+}
+
+// WorldSpawnItem is an admin-spawned decorative/shop item visible to all players.
+type WorldSpawnItem struct {
+	ID         string  `json:"id"`
+	Name       string  `json:"name"`
+	SpritePath string  `json:"sprite"`
+	X          float64 `json:"x"`
+	Y          float64 `json:"y"`
+	Price      int     `json:"price"`
+	ItemID     string  `json:"item_id,omitempty"`
+}

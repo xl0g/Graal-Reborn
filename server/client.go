@@ -28,6 +28,7 @@ type Client struct {
 	sessionStart  time.Time // when the player connected
 	savedPlaytime int       // playtime seconds accumulated before this session
 	currentMap    string    // which map this client is currently on
+	isAdmin       bool      // whether this player has admin privileges
 }
 
 const defaultMap = "GraalRebornMap.tmx"
@@ -80,6 +81,7 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 		sessionStart:  time.Now(),
 		savedPlaytime: user.Playtime,
 		currentMap:    defaultMap,
+		isAdmin:       dbIsAdmin(user.ID),
 		state: PlayerState{
 			ID:       playerID,
 			Name:     user.Name,
@@ -111,9 +113,12 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 		"hat":       user.Hat,
 		"shield":    user.Shield,
 		"sword":     user.Sword,
+		"is_admin":  client.isAdmin,
 	})
 
 	globalHub.register(client)
+	// Send current inventory after registration.
+	go sendInventoryTo(client)
 	defer func() {
 		globalHub.unregister(client)
 		conn.Close()
@@ -184,6 +189,15 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 			handleDismount(client, raw)
 		case "anim_state":
 			handleAnimState(client, raw)
+		// ── New handlers ──────────────────────────────────────
+		case "use_item":
+			handleUseItem(client, raw)
+		case "buy_world_item":
+			handleBuyWorldItem(client, raw)
+		case "admin_spawn_world_item":
+			handleAdminSpawnWorldItem(client, raw)
+		case "admin_remove_world_item":
+			handleAdminRemoveWorldItem(client, raw)
 		}
 	}
 }
@@ -262,6 +276,26 @@ func handleChat(c *Client, raw []byte) {
 	if len(txt) == 0 || len(txt) > 200 {
 		return
 	}
+
+	// Server-side commands (not broadcast as chat).
+	lower := strings.ToLower(txt)
+	if strings.HasPrefix(lower, "/giveitem ") {
+		handleGiveItemCommand(c, txt)
+		return
+	}
+	if strings.HasPrefix(lower, "/removeitem ") {
+		handleRemoveItemCommand(c, txt)
+		return
+	}
+	if lower == "/itemlist" {
+		var names []string
+		for id := range allItemDefs {
+			names = append(names, id)
+		}
+		sendDirectMsg(c, "Items disponibles: "+strings.Join(names, ", "))
+		return
+	}
+
 	dbSaveChat(c.name, txt)
 	globalHub.broadcast(map[string]interface{}{
 		"type": "chat",
@@ -552,4 +586,275 @@ func handleAnimState(c *Client, raw []byte) {
 	}
 	c.state.AnimState = msg.Anim
 	globalHub.mu.Unlock()
+}
+
+// ──────────────────────────────────────────────────────────────
+// Inventory / Item helpers
+// ──────────────────────────────────────────────────────────────
+
+// sendDirectMsg sends a system message only to one client.
+func sendDirectMsg(c *Client, msg string) {
+	data, _ := json.Marshal(map[string]string{"type": "system", "msg": msg})
+	select {
+	case c.send <- data:
+	default:
+	}
+}
+
+// sendInventoryTo builds and sends the player's current inventory.
+func sendInventoryTo(c *Client) {
+	rows := dbGetInventory(c.userID)
+	items := make([]InventoryItem, 0, len(rows))
+	for _, r := range rows {
+		if def, ok := allItemDefs[r.ItemID]; ok {
+			items = append(items, inventoryItemFromDef(def, r.Quantity))
+		}
+	}
+	data, _ := json.Marshal(map[string]interface{}{
+		"type":      "inventory_data",
+		"inventory": items,
+	})
+	select {
+	case c.send <- data:
+	default:
+	}
+}
+
+// handleGiveItemCommand processes "/giveitem <player> <item_id>" (admin only).
+func handleGiveItemCommand(c *Client, txt string) {
+	if !c.isAdmin {
+		sendDirectMsg(c, "Permission refusée.")
+		return
+	}
+	parts := strings.Fields(txt)
+	if len(parts) < 3 {
+		sendDirectMsg(c, "Usage: /giveitem <joueur> <item_id>")
+		return
+	}
+	targetName := parts[1]
+	itemID := parts[2]
+
+	def, ok := allItemDefs[itemID]
+	if !ok {
+		sendDirectMsg(c, "Item inconnu: "+itemID)
+		return
+	}
+	targetUserID, err := dbGetPlayerIDByName(targetName)
+	if err != nil {
+		sendDirectMsg(c, "Joueur introuvable: "+targetName)
+		return
+	}
+	dbGiveItem(targetUserID, itemID, 1)
+
+	// Refresh inventory for target if online.
+	globalHub.mu.RLock()
+	for cl := range globalHub.clients {
+		if strings.EqualFold(cl.name, targetName) {
+			go sendInventoryTo(cl)
+			break
+		}
+	}
+	globalHub.mu.RUnlock()
+
+	sendDirectMsg(c, fmt.Sprintf("Item '%s' donné à %s.", def.Name, targetName))
+	globalHub.broadcastSystem(fmt.Sprintf("%s a reçu %s !", targetName, def.Name))
+	log.Printf("[ADMIN] %s gave '%s' to %s", c.name, itemID, targetName)
+}
+
+// handleRemoveItemCommand processes "/removeitem <player> <item_id>" (admin only).
+func handleRemoveItemCommand(c *Client, txt string) {
+	if !c.isAdmin {
+		sendDirectMsg(c, "Permission denied.")
+		return
+	}
+	parts := strings.Fields(txt)
+	if len(parts) < 3 {
+		sendDirectMsg(c, "Usage: /removeitem <player> <item_id>")
+		return
+	}
+	targetName := parts[1]
+	itemID := parts[2]
+
+	if _, ok := allItemDefs[itemID]; !ok {
+		sendDirectMsg(c, "Unknown item: "+itemID)
+		return
+	}
+	targetUserID, err := dbGetPlayerIDByName(targetName)
+	if err != nil {
+		sendDirectMsg(c, "Player not found: "+targetName)
+		return
+	}
+	if !dbRemoveItem(targetUserID, itemID) {
+		sendDirectMsg(c, targetName+" does not have item: "+itemID)
+		return
+	}
+
+	// Refresh inventory for target if online.
+	globalHub.mu.RLock()
+	for cl := range globalHub.clients {
+		if strings.EqualFold(cl.name, targetName) {
+			go sendInventoryTo(cl)
+			break
+		}
+	}
+	globalHub.mu.RUnlock()
+
+	sendDirectMsg(c, fmt.Sprintf("Removed '%s' from %s.", itemID, targetName))
+	log.Printf("[ADMIN] %s removed '%s' from %s", c.name, itemID, targetName)
+}
+
+// ──────────────────────────────────────────────────────────────
+// Item use
+// ──────────────────────────────────────────────────────────────
+
+func handleUseItem(c *Client, raw []byte) {
+	var msg struct {
+		ItemID string `json:"item_id"`
+	}
+	if json.Unmarshal(raw, &msg) != nil || msg.ItemID == "" {
+		return
+	}
+	def, ok := allItemDefs[msg.ItemID]
+	if !ok {
+		return
+	}
+	// Verify the player actually owns the item.
+	rows := dbGetInventory(c.userID)
+	hasItem := false
+	for _, r := range rows {
+		if r.ItemID == msg.ItemID && r.Quantity > 0 {
+			hasItem = true
+			break
+		}
+	}
+	if !hasItem {
+		return
+	}
+	// Update server anim state.
+	globalHub.mu.Lock()
+	c.state.AnimState = def.AnimState
+	globalHub.mu.Unlock()
+
+	// Broadcast immediately so other clients react without waiting for the
+	// next 60 Hz state tick.
+	globalHub.broadcast(map[string]interface{}{
+		"type":      "use_item_ok",
+		"player_id": c.playerID,
+		"item_id":   msg.ItemID,
+		"anim":      def.AnimState,
+	})
+	log.Printf("[ITEM] %s uses %s", c.name, def.Name)
+}
+
+// ──────────────────────────────────────────────────────────────
+// Shop / world items
+// ──────────────────────────────────────────────────────────────
+
+func handleBuyWorldItem(c *Client, raw []byte) {
+	var msg struct {
+		ID string `json:"id"`
+	}
+	if json.Unmarshal(raw, &msg) != nil || msg.ID == "" {
+		return
+	}
+
+	globalHub.mu.RLock()
+	var item *WorldSpawnItem
+	for _, wi := range globalHub.worldItems {
+		if wi.ID == msg.ID {
+			item = wi
+			break
+		}
+	}
+	globalHub.mu.RUnlock()
+
+	if item == nil || item.Price <= 0 {
+		return
+	}
+
+	newTotal, err := dbDeductGralats(c.userID, item.Price)
+	if err != nil {
+		data, _ := json.Marshal(map[string]interface{}{
+			"type":    "buy_result",
+			"success": false,
+			"msg":     "Pas assez de gralats !",
+		})
+		select {
+		case c.send <- data:
+		default:
+		}
+		return
+	}
+
+	globalHub.mu.Lock()
+	c.state.Gralats = newTotal
+	globalHub.mu.Unlock()
+
+	if item.ItemID != "" {
+		dbGiveItem(c.userID, item.ItemID, 1)
+		go sendInventoryTo(c)
+	}
+
+	data, _ := json.Marshal(map[string]interface{}{
+		"type":     "buy_result",
+		"success":  true,
+		"msg":      fmt.Sprintf("Acheté '%s' pour %d gralats !", item.Name, item.Price),
+		"gralat_n": newTotal,
+		"item_id":  item.ItemID,
+	})
+	select {
+	case c.send <- data:
+	default:
+	}
+	log.Printf("[SHOP] %s bought '%s' for %d G (balance: %d)", c.name, item.Name, item.Price, newTotal)
+}
+
+func handleAdminSpawnWorldItem(c *Client, raw []byte) {
+	if !c.isAdmin {
+		return
+	}
+	var msg struct {
+		Name       string  `json:"name"`
+		SpritePath string  `json:"sprite"`
+		X          float64 `json:"x"`
+		Y          float64 `json:"y"`
+		Price      int     `json:"price"`
+		ItemID     string  `json:"item_id"`
+	}
+	if json.Unmarshal(raw, &msg) != nil || strings.TrimSpace(msg.Name) == "" {
+		return
+	}
+
+	id := fmt.Sprintf("wi_%d", time.Now().UnixMilli())
+	wi := &WorldSpawnItem{
+		ID:         id,
+		Name:       strings.TrimSpace(msg.Name),
+		SpritePath: msg.SpritePath,
+		X:          msg.X,
+		Y:          msg.Y,
+		Price:      msg.Price,
+		ItemID:     msg.ItemID,
+	}
+	globalHub.addWorldItem(wi)
+	dbSaveWorldItem(worldItemDB{
+		ID: id, Name: wi.Name, SpritePath: wi.SpritePath,
+		X: wi.X, Y: wi.Y, Price: wi.Price, ItemID: wi.ItemID,
+		MapName: defaultMap,
+	})
+	log.Printf("[ADMIN] %s spawned world item '%s' at (%.0f,%.0f)", c.name, wi.Name, wi.X, wi.Y)
+}
+
+func handleAdminRemoveWorldItem(c *Client, raw []byte) {
+	if !c.isAdmin {
+		return
+	}
+	var msg struct {
+		ID string `json:"id"`
+	}
+	if json.Unmarshal(raw, &msg) != nil || msg.ID == "" {
+		return
+	}
+	globalHub.removeWorldItem(msg.ID)
+	dbRemoveWorldItem(msg.ID)
+	log.Printf("[ADMIN] %s removed world item %s", c.name, msg.ID)
 }

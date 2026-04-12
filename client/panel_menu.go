@@ -41,7 +41,7 @@ var menuEntries = []menuEntry{
 	{"Housing", "Assets/offline/levels/images/dc/dc_menuicons_housing.png"},
 	{"Scores", "Assets/offline/levels/images/dc/dc_menuicons_leaderboards.png"},
 	{"PM", "Assets/offline/levels/images/dc/dc_menuicons_pmhistory.png"},
-	{"Feedback", "Assets/offline/levels/images/dc/dc_menuicons_feedback.png"},
+	{"Inventory", ""},
 	{"Keys", ""},
 }
 
@@ -54,9 +54,9 @@ type mapEntry struct {
 }
 
 var mapEntries = []mapEntry{
-	{"GraalReborn City", "GraalRebornMap.tmx", "Map principal"},
-	{"City Entry", "GraalCityEntry.tmx", "Entrée de la ville"},
-	{"Interior", "interior1.tmx", "Intérieur"},
+	{"GraalReborn City", "GraalRebornMap.tmx", "Main map"},
+	{"City Entry", "GraalCityEntry.tmx", "City entrance"},
+	{"Interior", "interior1.tmx", "Interior"},
 }
 
 // ── PanelMenu ─────────────────────────────────────────────────────────────────
@@ -69,12 +69,16 @@ type PanelMenu struct {
 	openBtnImg *ebiten.Image
 	icons      []*ebiten.Image // one per menuEntries slot
 
-	// Active sub-panel: "" | "News" | "Keys" | "Maps" | ...
+	// Active sub-panel: "" | "News" | "Keys" | "Maps" | "Inventory" | ...
 	activeSub string
 
 	// RequestMap is set when the player selects a map.
 	// The Game reads and clears this each frame.
 	RequestMap string
+
+	// RequestInventory is set when the player clicks the Inventory icon.
+	// The Game reads and clears this each frame.
+	RequestInventory bool
 }
 
 func NewPanelMenu() *PanelMenu {
@@ -162,6 +166,12 @@ func (m *PanelMenu) Update(dt float64) {
 		ix, iy := m.iconPos(i)
 		if mx >= ix && mx < ix+pmIconSize && my >= iy && my < iy+pmIconSize {
 			label := menuEntries[i].label
+			if label == "Inventory" {
+				m.RequestInventory = true
+				m.isOpen = false
+				m.activeSub = ""
+				return
+			}
 			if m.activeSub == label {
 				m.activeSub = ""
 			} else {
@@ -259,35 +269,41 @@ func (m *PanelMenu) Draw(screen *ebiten.Image) {
 	DrawRect(screen, pmX, botY, pmW, pmBotH, color.RGBA{45, 75, 155, alpha})
 	DrawRect(screen, pmX, botY, pmW, 2, color.RGBA{100, 145, 215, alpha})
 	DrawRect(screen, pmX+10, botY+8, 8, 8, color.RGBA{220, 55, 55, alpha})
-	DrawText(screen, "Fermer", pmX+22, botY+pmBotH-6, color.RGBA{255, 255, 255, alpha})
+	DrawText(screen, "Close", pmX+22, botY+pmBotH-6, color.RGBA{255, 255, 255, alpha})
 
 	// Sub-panel
 	subY := panelTop + pmH
 	switch m.activeSub {
 	case "Keys":
-		m.drawSubPanel(screen, subY, "Contrôles", []string{
-			"ZQSD / Flèches   Déplacer",
-			"X                Epée",
-			"R                Monter / Descendre",
-			"F                Interagir / Lire panneau",
+		m.drawSubPanel(screen, subY, "Controls", []string{
+			"ZQSD / Arrows    Move",
+			"X                Sword",
+			"A (AZERTY)       Grab (hold)",
+			"R                Mount / Dismount",
+			"F                Interact / Read sign / Buy",
 			"T                Chat",
-			"C                Changer look",
-			"P                Profil",
-			"Esc              Menu",
-			"/sit             S'asseoir",
+			"C                Change look",
+			"P                Profile",
+			"I                Inventory",
+			"Tab              Admin menu (admins only)",
+			"Esc              Close / Main menu",
+			"/sit             Sit down",
 			"/noclip          Noclip",
+			"/giveitem        Give item (admin)",
+			"/itemlist        List items",
+			"/removeitem      Remove item from player (admin)",
 		})
 	case "News":
-		m.drawSubPanel(screen, subY, "Actualités", []string{
-			"Bienvenue sur GraalReborn !",
+		m.drawSubPanel(screen, subY, "News", []string{
+			"Welcome to GraalReborn!",
 			"",
-			"Pas de mise à jour pour l'instant.",
+			"No updates yet.",
 		})
 	case "Maps":
 		m.drawMapsPanel(screen, subY, alpha)
 	default:
 		if m.activeSub != "" {
-			m.drawSubPanel(screen, subY, m.activeSub, []string{"Bientôt disponible..."})
+			m.drawSubPanel(screen, subY, m.activeSub, []string{"Coming soon..."})
 		}
 	}
 }
@@ -377,7 +393,7 @@ func (m *PanelMenu) drawMapsPanel(screen *ebiten.Image, subY int, alpha uint8) {
 	DrawRect(screen, 0, subY, pmW, ph, color.RGBA{175, 198, 238, alpha})
 	DrawRect(screen, 0, subY, pmW, 20, color.RGBA{55, 95, 175, alpha})
 	DrawRect(screen, 0, subY, pmW, 2, color.RGBA{120, 165, 230, alpha})
-	title := "Choisir une map"
+	title := "Choose a map"
 	DrawText(screen, title, pmW/2-len(title)*fontW/2, subY+14, color.RGBA{255, 255, 255, alpha})
 
 	for i, entry := range mapEntries {

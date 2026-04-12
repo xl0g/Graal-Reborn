@@ -29,15 +29,18 @@ const (
 
 // Gani animation states
 const (
-	AnimIdle  = "idle"
-	AnimWalk  = "walk"
-	AnimSword = "sword"
-	AnimRide  = "ride"
-	AnimSit   = "sit"
-	AnimJuggle = "juggle",
-	AnimPush  = "push"
-	AnimDead  = "dead"
-	AnimHurt  = "hurt"
+	AnimIdle          = "idle"
+	AnimWalk          = "walk"
+	AnimSword         = "sword"
+	AnimRide          = "ride"
+	AnimSit           = "sit"
+	AnimGrab          = "grab"          // grab.gani — hold A to grab a wall
+	AnimJuggle        = "juggle"        // juggle.gani (original)
+	AnimClassicJuggle = "classic_juggle" // classic_new_juggle.gani (inventory item)
+	AnimPompoms       = "pompoms"       // ci_pompoms.gani (inventory item)
+	AnimPush          = "push"
+	AnimDead          = "dead"
+	AnimHurt          = "hurt"
 )
 
 // ganiFile maps animation state → .gani filename.
@@ -453,6 +456,12 @@ func (c *Character) Update(dt float64) {
 		targetGani = "sit.gani"
 	case c.AnimState == AnimJuggle:
 		targetGani = "juggle.gani"
+	case c.AnimState == AnimClassicJuggle:
+		targetGani = "classic_new_juggle.gani"
+	case c.AnimState == AnimPompoms:
+		targetGani = "ci_pompoms.gani"
+	case c.AnimState == AnimGrab:
+		targetGani = "grab.gani"
 	case c.AnimState == AnimPush:
 		targetGani = "push.gani"
 	case c.AnimState == AnimRide:
@@ -478,7 +487,8 @@ func (c *Character) Update(dt float64) {
 		// sit.gani is 1 frame — hold it indefinitely.
 		p.Frame = 0
 		p.Timer = 0
-	case targetGani == "juggle.gani":
+	case targetGani == "grab.gani":
+		// Grab is a held pose — freeze on first frame per direction.
 		p.Frame = 0
 		p.Timer = 0
 	case targetGani == "dead.gani" && p.Done:
@@ -514,10 +524,24 @@ func (c *Character) Update(dt float64) {
 		}
 	}
 
-	// Idle/walk transitions (outside sword/ride/sit/push/dead/hurt)
+	// Item animations: loop until cancelled by movement (handled in game.go
+	// for local player; remote players cancel when server anim state changes).
+	if (c.AnimState == AnimClassicJuggle || c.AnimState == AnimPompoms || c.AnimState == AnimJuggle) && p.Done {
+		// Gani finished a non-looping cycle — reset to idle/walk.
+		if c.Moving {
+			c.AnimState = AnimWalk
+		} else {
+			c.AnimState = AnimIdle
+		}
+	}
+
+	// Idle/walk transitions (outside special states)
 	if c.AnimState != AnimSword && c.AnimState != AnimRide &&
 		c.AnimState != AnimSit && c.AnimState != AnimPush &&
-		c.AnimState != AnimDead && c.AnimState != AnimHurt && AnimJuggle && c.AnimState != {
+		c.AnimState != AnimDead && c.AnimState != AnimHurt &&
+		c.AnimState != AnimGrab &&
+		c.AnimState != AnimJuggle && c.AnimState != AnimClassicJuggle &&
+		c.AnimState != AnimPompoms {
 		if c.Moving {
 			c.AnimState = AnimWalk
 		} else {

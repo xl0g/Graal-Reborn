@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"log"
 	"net/http"
@@ -9,6 +10,9 @@ import (
 )
 
 func main() {
+	setAdmin := flag.String("setadmin", "", "Set a user as admin by username and exit")
+	flag.Parse()
+
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
@@ -22,6 +26,20 @@ func main() {
 		log.Fatalf("[DB] Initialization error: %v", err)
 	}
 	log.Println("[DB] Database initialized:", dbPath)
+
+	// -setadmin: grant admin rights to a user and exit immediately.
+	if *setAdmin != "" {
+		res, err := database.Exec(`UPDATE users SET is_admin=1 WHERE username=?`, *setAdmin)
+		if err != nil {
+			log.Fatalf("[setadmin] DB error: %v", err)
+		}
+		n, _ := res.RowsAffected()
+		if n == 0 {
+			log.Fatalf("[setadmin] User %q not found in database", *setAdmin)
+		}
+		log.Printf("[setadmin] User %q is now an admin.", *setAdmin)
+		return
+	}
 
 	globalHub = newHub()
 	go globalHub.runGameLoop()
