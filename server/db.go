@@ -49,11 +49,34 @@ func initDB(path string) error {
 		return err
 	}
 	// Non-fatal migrations for existing databases.
-	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN gralats INTEGER DEFAULT 0`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN gralats  INTEGER DEFAULT 0`)
 	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN playtime INTEGER DEFAULT 0`)
-	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN body TEXT DEFAULT ''`)
-	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN head TEXT DEFAULT ''`)
-	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN hat  TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN body     TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN head     TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN hat      TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN shield   TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN sword    TEXT DEFAULT ''`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN is_admin INTEGER DEFAULT 0`)
+
+	// Inventory and world items tables.
+	_, _ = database.Exec(`
+		CREATE TABLE IF NOT EXISTS inventory (
+			user_id  INTEGER NOT NULL,
+			item_id  TEXT    NOT NULL,
+			quantity INTEGER NOT NULL DEFAULT 1,
+			PRIMARY KEY (user_id, item_id)
+		)`)
+	_, _ = database.Exec(`
+		CREATE TABLE IF NOT EXISTS world_items (
+			id          TEXT    PRIMARY KEY,
+			name        TEXT    NOT NULL,
+			sprite_path TEXT    NOT NULL DEFAULT '',
+			x           REAL    NOT NULL DEFAULT 0,
+			y           REAL    NOT NULL DEFAULT 0,
+			price       INTEGER NOT NULL DEFAULT 0,
+			item_id     TEXT    NOT NULL DEFAULT '',
+			map_name    TEXT    NOT NULL DEFAULT 'GraalRebornMap.tmx'
+		)`)
 	return nil
 }
 
@@ -68,6 +91,8 @@ type UserRecord struct {
 	Body     string
 	Head     string
 	Hat      string
+	Shield   string
+	Sword    string
 }
 
 func dbCreateUser(username, password, email string) error {
@@ -87,9 +112,10 @@ func dbAuthenticate(username, password string) (*UserRecord, error) {
 	var hash string
 	err := database.QueryRow(
 		`SELECT id, username, password_hash, last_x, last_y, gralats, COALESCE(playtime,0),
-		        COALESCE(body,''), COALESCE(head,''), COALESCE(hat,'')
+		        COALESCE(body,''), COALESCE(head,''), COALESCE(hat,''),
+		        COALESCE(shield,''), COALESCE(sword,'')
 		 FROM users WHERE username = ?`, username,
-	).Scan(&u.ID, &u.Name, &hash, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat)
+	).Scan(&u.ID, &u.Name, &hash, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat, &u.Shield, &u.Sword)
 	if err != nil {
 		return nil, fmt.Errorf("invalid credentials")
 	}
@@ -114,18 +140,20 @@ func dbValidateSession(token string) (*UserRecord, error) {
 	var u UserRecord
 	err := database.QueryRow(
 		`SELECT u.id, u.username, u.last_x, u.last_y, u.gralats, COALESCE(u.playtime,0),
-		        COALESCE(u.body,''), COALESCE(u.head,''), COALESCE(u.hat,'')
+		        COALESCE(u.body,''), COALESCE(u.head,''), COALESCE(u.hat,''),
+		        COALESCE(u.shield,''), COALESCE(u.sword,'')
 		 FROM sessions s JOIN users u ON s.user_id = u.id
 		 WHERE s.token = ?`, token,
-	).Scan(&u.ID, &u.Name, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat)
+	).Scan(&u.ID, &u.Name, &u.LastX, &u.LastY, &u.Gralats, &u.Playtime, &u.Body, &u.Head, &u.Hat, &u.Shield, &u.Sword)
 	if err != nil {
 		return nil, fmt.Errorf("invalid session")
 	}
 	return &u, nil
 }
 
-func dbSaveCosmetics(userID int64, body, head, hat string) {
-	database.Exec(`UPDATE users SET body = ?, head = ?, hat = ? WHERE id = ?`, body, head, hat, userID)
+func dbSaveCosmetics(userID int64, body, head, hat, shield, sword string) {
+	database.Exec(`UPDATE users SET body = ?, head = ?, hat = ?, shield = ?, sword = ? WHERE id = ?`,
+		body, head, hat, shield, sword, userID)
 }
 
 func dbUpdatePosition(userID int64, x, y float64) {
@@ -158,4 +186,123 @@ func dbSaveChat(username, message string) {
 		`INSERT INTO chat_history (username, message) VALUES (?, ?)`,
 		username, message,
 	)
+}
+
+// ──────────────────────────────────────────────────────────────
+// Admin helpers
+// ──────────────────────────────────────────────────────────────
+
+func dbIsAdmin(userID int64) bool {
+	var v int
+	database.QueryRow(`SELECT COALESCE(is_admin,0) FROM users WHERE id=?`, userID).Scan(&v)
+	return v != 0
+}
+
+func dbGetPlayerIDByName(name string) (int64, error) {
+	var id int64
+	err := database.QueryRow(`SELECT id FROM users WHERE username=?`, name).Scan(&id)
+	return id, err
+}
+
+// dbDeductGralats removes amount from userID's gralats if sufficient.
+// Returns new total or an error if insufficient.
+func dbDeductGralats(userID int64, amount int) (int, error) {
+	var newTotal int
+	err := database.QueryRow(
+		`UPDATE users SET gralats = gralats - ? WHERE id = ? AND gralats >= ? RETURNING gralats`,
+		amount, userID, amount,
+	).Scan(&newTotal)
+	if err != nil {
+		return -1, fmt.Errorf("insufficient gralats")
+	}
+	return newTotal, nil
+}
+
+// ──────────────────────────────────────────────────────────────
+// Inventory
+// ──────────────────────────────────────────────────────────────
+
+type inventoryRow struct {
+	ItemID   string
+	Quantity int
+}
+
+func dbGetInventory(userID int64) []inventoryRow {
+	rows, err := database.Query(`SELECT item_id, quantity FROM inventory WHERE user_id=?`, userID)
+	if err != nil {
+		return nil
+	}
+	defer rows.Close()
+	var result []inventoryRow
+	for rows.Next() {
+		var r inventoryRow
+		if rows.Scan(&r.ItemID, &r.Quantity) == nil {
+			result = append(result, r)
+		}
+	}
+	return result
+}
+
+func dbGiveItem(userID int64, itemID string, qty int) {
+	database.Exec(`
+		INSERT INTO inventory (user_id, item_id, quantity) VALUES (?,?,?)
+		ON CONFLICT(user_id, item_id) DO UPDATE SET quantity = quantity + ?`,
+		userID, itemID, qty, qty)
+}
+
+// dbRemoveItem removes one copy of itemID from a player's inventory.
+// Returns false if the player didn't have the item.
+func dbRemoveItem(userID int64, itemID string) bool {
+	row := database.QueryRow(
+		`SELECT quantity FROM inventory WHERE user_id=? AND item_id=?`, userID, itemID)
+	var qty int
+	if row.Scan(&qty) != nil || qty <= 0 {
+		return false
+	}
+	if qty == 1 {
+		database.Exec(`DELETE FROM inventory WHERE user_id=? AND item_id=?`, userID, itemID)
+	} else {
+		database.Exec(`UPDATE inventory SET quantity=quantity-1 WHERE user_id=? AND item_id=?`, userID, itemID)
+	}
+	return true
+}
+
+// ──────────────────────────────────────────────────────────────
+// World items (admin-spawned)
+// ──────────────────────────────────────────────────────────────
+
+type worldItemDB struct {
+	ID, Name, SpritePath, ItemID, MapName string
+	X, Y                                  float64
+	Price                                 int
+}
+
+func dbLoadWorldItems() []worldItemDB {
+	rows, err := database.Query(
+		`SELECT id, name, sprite_path, x, y, price, item_id, map_name FROM world_items`)
+	if err != nil {
+		return nil
+	}
+	defer rows.Close()
+	var result []worldItemDB
+	for rows.Next() {
+		var w worldItemDB
+		if rows.Scan(&w.ID, &w.Name, &w.SpritePath, &w.X, &w.Y,
+			&w.Price, &w.ItemID, &w.MapName) == nil {
+			result = append(result, w)
+		}
+	}
+	return result
+}
+
+func dbSaveWorldItem(w worldItemDB) {
+	database.Exec(
+		`INSERT OR REPLACE INTO world_items
+		 (id, name, sprite_path, x, y, price, item_id, map_name)
+		 VALUES (?,?,?,?,?,?,?,?)`,
+		w.ID, w.Name, w.SpritePath, w.X, w.Y, w.Price, w.ItemID, w.MapName)
+}
+
+func dbRemoveWorldItem(id string) {
+	database.Exec(`DELETE FROM world_items WHERE id=?`, id)
 }

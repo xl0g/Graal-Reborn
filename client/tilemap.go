@@ -5,6 +5,8 @@ import (
 	"image"
 	"image/color"
 	"math"
+	"os"
+	"path/filepath"
 	"strconv"
 	"strings"
 
@@ -24,7 +26,8 @@ type tmxMap struct {
 }
 
 type tmxTileset struct {
-	FirstGID int `xml:"firstgid,attr"`
+	FirstGID int    `xml:"firstgid,attr"`
+	Source   string `xml:"source,attr"` // external .tsx path, empty for inline
 }
 
 type tmxLayer struct {
@@ -43,6 +46,31 @@ type tmxProperty struct {
 	Value string `xml:"value,attr"`
 }
 
+// ── TSX (image-collection or spritesheet tileset) structures ──
+
+type tsxFile struct {
+	Columns int       `xml:"columns,attr"`
+	TileW   int       `xml:"tilewidth,attr"`
+	TileH   int       `xml:"tileheight,attr"`
+	Image   *tsxImage `xml:"image"` // set for spritesheet tilesets
+	Tiles   []tsxTile `xml:"tile"`  // set for image-collection tilesets
+}
+
+type tsxImage struct {
+	Source string `xml:"source,attr"`
+	Width  int    `xml:"width,attr"`
+	Height int    `xml:"height,attr"`
+}
+
+type tsxTile struct {
+	ID    int `xml:"id,attr"`
+	Image struct {
+		Source string `xml:"source,attr"`
+		Width  int    `xml:"width,attr"`
+		Height int    `xml:"height,attr"`
+	} `xml:"image"`
+}
+
 // ── GameMap ───────────────────────────────────────────────────
 
 // GameMap holds the parsed TMX map and provides collision/sign queries.
@@ -56,9 +84,22 @@ type GameMap struct {
 	switchmap map[[2]int]string // (col,row) → target map filename
 	exitTiles [][2]int          // tiles marked exitmap=true
 
-	tileImg  *ebiten.Image
-	tileCols int
-	firstGID int
+	// Spritesheet tileset
+	tileImg     *ebiten.Image
+	tileCols    int
+	firstGID    int
+
+	// Image-collection tileset (e.g. Test.tsx)
+	imageTiles    map[int]*AnimImage // GID → animated image
+	imageFirstGID int               // first GID of the image-collection tileset
+
+	// Elapsed time for animated tiles (updated by Update)
+	mapTime float64
+}
+
+// Update advances animated tile timers. Call once per game frame.
+func (gm *GameMap) Update(dt float64) {
+	gm.mapTime += dt
 }
 
 // LoadTMX parses a .tmx file (external TSX assumed to be classiciphone_pics4).
@@ -79,13 +120,82 @@ func LoadTMX(path string) (*GameMap, error) {
 		switchmap: make(map[[2]int]string),
 	}
 
-	if len(mx.Tilesets) > 0 {
-		gm.firstGID = mx.Tilesets[0].FirstGID
-		img, _, _ := ebitenutil.NewImageFromFile(
-			"Assets/offline/levels/tiles/classiciphone_pics4.png")
-		gm.tileImg = img
-		if img != nil && gm.TileW > 0 {
-			gm.tileCols = img.Bounds().Dx() / gm.TileW
+	for _, ts := range mx.Tilesets {
+		if ts.Source == "" {
+			// Inline spritesheet tileset — use classiciphone_pics4.
+			gm.firstGID = ts.FirstGID
+			img, _, _ := ebitenutil.NewImageFromFile(
+				"Assets/offline/levels/tiles/classiciphone_pics4.png")
+			gm.tileImg = img
+			if img != nil && gm.TileW > 0 {
+				gm.tileCols = img.Bounds().Dx() / gm.TileW
+			}
+		} else {
+			// External TSX — parse to determine type.
+			data, err := ReadGameFile(ts.Source)
+			if err == nil {
+				var tsx tsxFile
+				if xml.Unmarshal(data, &tsx) == nil {
+					if tsx.Image != nil && tsx.Image.Source != "" {
+						// Spritesheet TSX: single image with columns.
+						gm.firstGID = ts.FirstGID
+						imgPath := tsx.Image.Source
+						img, _, _ := ebitenutil.NewImageFromFile(imgPath)
+						if img == nil {
+							// Try by basename in asset dirs.
+							if found := findAssetFile(filepath.Base(imgPath)); found != "" {
+								img, _, _ = ebitenutil.NewImageFromFile(found)
+							}
+						}
+						gm.tileImg = img
+						tw := tsx.TileW
+						if tw == 0 {
+							tw = gm.TileW
+						}
+						if tw == 0 {
+							tw = 16
+						}
+						if tsx.Columns > 0 {
+							gm.tileCols = tsx.Columns
+						} else if img != nil && tw > 0 {
+							gm.tileCols = img.Bounds().Dx() / tw
+						}
+						// Override tile dimensions from TSX if map default is 0.
+						if gm.TileW == 0 {
+							gm.TileW = tw
+						}
+						if gm.TileH == 0 && tsx.TileH > 0 {
+							gm.TileH = tsx.TileH
+						}
+					} else if len(tsx.Tiles) > 0 {
+						// Image-collection TSX: per-tile images.
+						gm.imageFirstGID = ts.FirstGID
+						tiles := make(map[int]*AnimImage)
+						for _, t := range tsx.Tiles {
+							if t.Image.Source == "" {
+								continue
+							}
+							fname := filepath.Base(t.Image.Source)
+							assetPath := findAssetFile(fname)
+							if assetPath == "" {
+								continue
+							}
+							anim := loadAnimImage(assetPath)
+							if anim == nil {
+								continue
+							}
+							tiles[ts.FirstGID+t.ID] = anim
+						}
+						if gm.imageTiles == nil {
+							gm.imageTiles = tiles
+						} else {
+							for k, v := range tiles {
+								gm.imageTiles[k] = v
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -119,7 +229,8 @@ func LoadTMX(path string) (*GameMap, error) {
 		if isCollision {
 			for r := 0; r < layer.Rows; r++ {
 				for c := 0; c < layer.Cols; c++ {
-					if tiles[r][c] != 0 {
+					rawID := tiles[r][c] & tileGIDMask
+					if rawID != 0 {
 						gm.collision[r][c] = true
 					}
 				}
@@ -154,6 +265,29 @@ func LoadTMX(path string) (*GameMap, error) {
 		}
 	}
 	return gm, nil
+}
+
+
+// findAssetFile searches for a file by base name across common asset dirs.
+func findAssetFile(name string) string {
+	dirs := []string{
+		"Assets/offline/levels/images/classic",
+		"Assets/offline/levels/images/classiciphone",
+		"Assets/offline/levels/images/dc",
+		"Assets/offline/levels/images/downloads",
+		"Assets/offline/levels/images/ce",
+		"Assets/offline/levels/images/light4",
+		"Assets/offline/levels/images/dcvip",
+		"Assets/offline/levels/images",
+		"Assets/offline/levels/tiles",
+	}
+	for _, d := range dirs {
+		p := filepath.Join(d, name)
+		if _, err := os.Stat(p); err == nil {
+			return p
+		}
+	}
+	return ""
 }
 
 func parseTileCSV(raw string, cols, rows int) [][]int {
@@ -265,6 +399,22 @@ func (gm *GameMap) Draw(screen *ebiten.Image, camX, camY float64) {
 				}
 				sx := float64(col*gm.TileW) - camX
 				sy := float64(row*gm.TileH) - camY
+				rawID := id & tileGIDMask
+				// Frustum cull: account for potentially large image tiles
+				cullW := float64(gm.TileW * 16)
+				cullH := float64(gm.TileH * 16)
+				if sx+cullW < 0 || sx-cullW > float64(screenW) ||
+					sy+cullH < 0 || sy-cullH > float64(screenH) {
+					continue
+				}
+				// Image-collection tile?
+				if gm.imageTiles != nil {
+					if anim, ok := gm.imageTiles[rawID]; ok {
+						gm.drawImageTile(screen, id, anim, sx, sy)
+						continue
+					}
+				}
+				// Regular spritesheet tile.
 				if sx+float64(gm.TileW) < 0 || sx > float64(screenW) ||
 					sy+float64(gm.TileH) < 0 || sy > float64(screenH) {
 					continue
@@ -293,9 +443,9 @@ func (gm *GameMap) DrawSignPrompts(screen *ebiten.Image, camX, camY float64) {
 
 // tileFlipH, tileFlipV, tileFlipD are the Tiled flip flag bits in a GID.
 const (
-	tileFlipH = 0x80000000
-	tileFlipV = 0x40000000
-	tileFlipD = 0x20000000
+	tileFlipH   = 0x80000000
+	tileFlipV   = 0x40000000
+	tileFlipD   = 0x20000000
 	tileGIDMask = 0x1FFFFFFF
 )
 
@@ -348,4 +498,35 @@ func (gm *GameMap) drawTile(screen *ebiten.Image, tileID int, sx, sy float64) {
 	}
 	op.GeoM.Translate(sx, sy)
 	screen.DrawImage(gm.tileImg.SubImage(src).(*ebiten.Image), op)
+}
+
+// drawImageTile draws a tile from an image-collection tileset at its natural size.
+func (gm *GameMap) drawImageTile(screen *ebiten.Image, tileID int, anim *AnimImage, sx, sy float64) {
+	flipH := (tileID & tileFlipH) != 0
+	flipV := (tileID & tileFlipV) != 0
+	flipD := (tileID & tileFlipD) != 0
+
+	frame := anim.Frame(gm.mapTime)
+	if frame == nil {
+		return
+	}
+	b := frame.Bounds()
+	tw := float64(b.Dx())
+	th := float64(b.Dy())
+
+	op := &ebiten.DrawImageOptions{}
+	if flipD {
+		op.GeoM.Scale(1, -1)
+		op.GeoM.Rotate(math.Pi / 2)
+	}
+	if flipH {
+		op.GeoM.Scale(-1, 1)
+		op.GeoM.Translate(tw, 0)
+	}
+	if flipV {
+		op.GeoM.Scale(1, -1)
+		op.GeoM.Translate(0, th)
+	}
+	op.GeoM.Translate(sx, sy)
+	screen.DrawImage(frame, op)
 }

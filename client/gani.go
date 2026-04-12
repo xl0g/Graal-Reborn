@@ -115,6 +115,7 @@ type GaniAnim struct {
 	sprites   map[int]*ganiSprite
 	frames    []ganiFrame
 	loop      bool
+	singleDir bool   // SINGLEDIRECTION: each ANI line is a full frame (all dirs same)
 	setBackTo string // e.g. "idle.gani"
 
 	// Default image filenames (resolved from ganiImageDir)
@@ -191,10 +192,16 @@ func ParseGani(path string) (*GaniAnim, error) {
 			}
 			entries := parseAniLine(line)
 			if entries != nil {
-				newFrame = append(newFrame, entries)
-				if len(newFrame) >= 4 {
-					pushFrame(anim, newFrame)
+				if anim.singleDir {
+					// SINGLEDIRECTION: one line = complete frame (all dirs same)
+					pushFrame(anim, [][]ganiEntry{entries, entries, entries, entries})
 					newFrame = nil
+				} else {
+					newFrame = append(newFrame, entries)
+					if len(newFrame) >= 4 {
+						pushFrame(anim, newFrame)
+						newFrame = nil
+					}
 				}
 			}
 			continue
@@ -246,6 +253,11 @@ func ParseGani(path string) (*GaniAnim, error) {
 				sp.under = append(sp.under, [3]int{child, dx, dy})
 			}
 
+		case "CONTINUOUS":
+			// CONTINUOUS means "stay on last frame when done" — not the same as LOOP.
+			// Non-looping animations already freeze on the last frame, so this is a no-op.
+		case "SINGLEDIRECTION":
+			anim.singleDir = true
 		case "LOOP":
 			anim.loop = true
 		case "SETBACKTO":
@@ -343,7 +355,8 @@ func ganiLoadImg(filename string) *ebiten.Image {
 
 	img, _, err := ebitenutil.NewImageFromFile(path)
 	if err != nil {
-		img = nil
+		// Don't cache nil — retry next time (handles transient WASM network errors).
+		return nil
 	}
 
 	ganiImgCacheMu.Lock()
@@ -357,11 +370,13 @@ func ganiLoadImg(filename string) *ebiten.Image {
 // ──────────────────────────────────────────────────────────────
 
 // GaniImages holds the resolved source images for one draw call.
-// Callers override Body/Head/Attr1 with the character's cosmetics.
+// Callers override Body/Head/Attr1/Shield/Sword with the character's cosmetics.
 type GaniImages struct {
-	Body  *ebiten.Image // overrides BODY source
-	Head  *ebiten.Image // overrides HEAD source
-	Attr1 *ebiten.Image // overrides ATTR1 source
+	Body   *ebiten.Image // overrides BODY source
+	Head   *ebiten.Image // overrides HEAD source
+	Attr1  *ebiten.Image // overrides ATTR1 source
+	Shield *ebiten.Image // overrides SHIELD source
+	Sword  *ebiten.Image // overrides SWORD/PARAM1 source
 
 	// When true, the corresponding sprite type is suppressed entirely
 	// (returns nil instead of falling back to the default image).
@@ -384,25 +399,38 @@ type ganiDefaults struct {
 	shield  *ebiten.Image
 }
 
-var (
-	globalGaniDef     *ganiDefaults
-	globalGaniDefOnce sync.Once
-)
+var globalGaniDef *ganiDefaults
 
 // GaniDefaultImages returns the shared singleton default images.
+// Retries any images that failed to load on a previous call (handles
+// transient WASM network errors on the first frames).
 func GaniDefaultImages() *ganiDefaults {
-	globalGaniDefOnce.Do(func() {
-		globalGaniDef = &ganiDefaults{
-			sprites: ganiLoadImg("sprites.png"),
-			body:    ganiLoadImg("body.png"),
-			head:    ganiLoadImg("head0.png"),
-			attr1:   ganiLoadImg("hat0.png"),
-			sword:   ganiLoadImg("sword1.png"),
-			horse:   ganiLoadImg("ride.png"),
-			shield:  ganiLoadImg("shield1.png"),
-		}
-	})
-	return globalGaniDef
+	if globalGaniDef == nil {
+		globalGaniDef = &ganiDefaults{}
+	}
+	d := globalGaniDef
+	if d.sprites == nil {
+		d.sprites = ganiLoadImg("sprites.png")
+	}
+	if d.body == nil {
+		d.body = ganiLoadImg("body.png")
+	}
+	if d.head == nil {
+		d.head = ganiLoadImg("head0.png")
+	}
+	if d.attr1 == nil {
+		d.attr1 = ganiLoadImg("hat0.png")
+	}
+	if d.sword == nil {
+		d.sword = ganiLoadImg("sword1.png")
+	}
+	if d.horse == nil {
+		d.horse = ganiLoadImg("ride.png")
+	}
+	if d.shield == nil {
+		d.shield = ganiLoadImg("shield1.png")
+	}
+	return d
 }
 
 // resolve returns the image for a given ganiSource.
@@ -436,12 +464,18 @@ func (gi *GaniImages) resolve(src ganiSource, fileSrc string, anim *GaniAnim) *e
 		}
 		return d.attr1
 	case srcSword:
+		if gi.Sword != nil {
+			return gi.Sword
+		}
 		return d.sword
 	case srcHorse:
 		return d.horse
 	case srcShield:
 		if gi.NoShield {
 			return nil
+		}
+		if gi.Shield != nil {
+			return gi.Shield
 		}
 		return d.shield
 	case srcAttr4:
@@ -584,7 +618,8 @@ func LoadGani(name string) *GaniAnim {
 	a, err := ParseGani(ganiDir + name)
 	if err != nil {
 		fmt.Printf("[GANI] %s: %v\n", name, err)
-		a = nil
+		// Don't cache nil — allows a retry next frame (e.g. transient WASM network error).
+		return nil
 	}
 
 	ganiCacheMu.Lock()

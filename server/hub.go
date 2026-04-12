@@ -20,6 +20,9 @@ type Hub struct {
 	// World gralat pickups
 	gralats     []*GralatPickup
 	gralatTimer map[string]time.Time // id → scheduled respawn time
+
+	// Admin-spawned world items (persisted in world_items table)
+	worldItems []*WorldSpawnItem
 }
 
 var globalHub *Hub
@@ -66,6 +69,14 @@ func newHub() *Hub {
 			fmt.Sprintf("npc_%d", i),
 			def.name, x, y, def.npcType,
 		))
+	}
+
+	// Load persisted world items from DB.
+	for _, w := range dbLoadWorldItems() {
+		h.worldItems = append(h.worldItems, &WorldSpawnItem{
+			ID: w.ID, Name: w.Name, SpritePath: w.SpritePath,
+			X: w.X, Y: w.Y, Price: w.Price, ItemID: w.ItemID,
+		})
 	}
 
 	for i := range gralatSpawnDefs {
@@ -171,6 +182,12 @@ func (h *Hub) sendPerClientState() {
 		gralats[i] = *g
 	}
 
+	// Snapshot world items (main map only).
+	worldItems := make([]WorldSpawnItem, len(h.worldItems))
+	for i, wi := range h.worldItems {
+		worldItems[i] = *wi
+	}
+
 	for c := range h.clients {
 		myMap := c.currentMap
 		if myMap == "" {
@@ -185,19 +202,22 @@ func (h *Hub) sendPerClientState() {
 			}
 		}
 
-		// NPCs and gralats only exist on the main map.
+		// NPCs, gralats and world items only exist on the main map.
 		var sendNPCs []NPCState
 		var sendGralats []GralatPickup
+		var sendWorldItems []WorldSpawnItem
 		if myMap == defaultMap {
 			sendNPCs = mainNPCs
 			sendGralats = gralats
+			sendWorldItems = worldItems
 		}
 
 		data, err := json.Marshal(map[string]interface{}{
-			"type":    "state",
-			"players": filtered,
-			"npcs":    sendNPCs,
-			"gralats": sendGralats,
+			"type":        "state",
+			"players":     filtered,
+			"npcs":        sendNPCs,
+			"gralats":     sendGralats,
+			"world_items": sendWorldItems,
 		})
 		if err != nil {
 			continue
@@ -320,6 +340,27 @@ func (h *Hub) checkRespawns() {
 			}
 		}
 	}
+}
+
+// ──────────────────────────────────────────────────────────────
+// World items (admin-spawned)
+// ──────────────────────────────────────────────────────────────
+
+func (h *Hub) addWorldItem(wi *WorldSpawnItem) {
+	h.mu.Lock()
+	h.worldItems = append(h.worldItems, wi)
+	h.mu.Unlock()
+}
+
+func (h *Hub) removeWorldItem(id string) {
+	h.mu.Lock()
+	for i, wi := range h.worldItems {
+		if wi.ID == id {
+			h.worldItems = append(h.worldItems[:i], h.worldItems[i+1:]...)
+			break
+		}
+	}
+	h.mu.Unlock()
 }
 
 // ──────────────────────────────────────────────────────────────

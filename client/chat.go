@@ -115,11 +115,14 @@ func (c *Chat) Draw(screen *ebiten.Image) {
 	if start < 0 {
 		start = 0
 	}
+	numVisible := len(c.Messages) - start
 
-	// Vertical start for messages (bottom of message list)
-	baseY := screenH - 65
+	// Bottom anchor of the message area.
+	// When open: just above the input box (which is at screenH-40).
+	// When closed: just above the hint line (screenH-20).
+	bottomY := screenH - 62
 	if c.IsOpen {
-		baseY = screenH - 85
+		bottomY = screenH - 82
 	}
 
 	for i := start; i < len(c.Messages); i++ {
@@ -147,7 +150,9 @@ func (c *Chat) Draw(screen *ebiten.Image) {
 		}
 
 		lineW := len([]rune(line))*fontW + 12
-		lineY := baseY + (i-start)*(fontH+4)
+		// Newest message at bottomY, older messages stacked upward.
+		idx := i - start
+		lineY := bottomY - (numVisible-1-idx)*(fontH+4)
 
 		DrawRect(screen, 6, lineY-fontH+1, lineW, fontH+4, color.RGBA{0, 0, 0, alpha / 3})
 		DrawText(screen, line, 12, lineY, txtClr)
@@ -155,15 +160,15 @@ func (c *Chat) Draw(screen *ebiten.Image) {
 
 	// Input box
 	if c.IsOpen {
-		iy := screenH - 38
-		DrawRectBorder(screen, 5, iy, screenW-10, 28, color.RGBA{18, 18, 28, 215}, color.RGBA{80, 150, 255, 255})
+		iy := screenH - 40
+		DrawRectBorder(screen, 5, iy, screenW-10, 26, color.RGBA{18, 18, 28, 215}, color.RGBA{80, 150, 255, 255})
 
 		prompt := "> " + c.Input
 		if (now.UnixMilli()/500)%2 == 0 {
 			prompt += "_"
 		}
-		DrawText(screen, prompt, 10, iy+19, color.RGBA{255, 255, 255, 255})
+		DrawText(screen, prompt, 10, iy+18, color.RGBA{255, 255, 255, 255})
 	} else {
-		DrawText(screen, "[T] Chat  [Echap] Menu", 10, screenH-6, color.RGBA{120, 120, 160, 160})
+		DrawText(screen, "[T] Chat  [I] Inventory", 10, screenH-6, color.RGBA{120, 120, 160, 160})
 	}
 }

@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
+	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -93,4 +95,37 @@ func writeJSON(w http.ResponseWriter, code int, v interface{}) {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(code)
 	json.NewEncoder(w).Encode(v)
+}
+
+// handleAssetsList lists .png/.gif files in a subdirectory of Assets/offline/levels/.
+// Query param: dir = "bodies" | "heads" | "hats" | "shields" | "swords"
+// Returns a JSON array of filenames (no path prefix).
+func handleAssetsList(w http.ResponseWriter, r *http.Request) {
+	dir := r.URL.Query().Get("dir")
+	// Whitelist allowed subdirectories — prevent path traversal.
+	allowed := map[string]bool{
+		"bodies": true, "heads": true, "hats": true,
+		"shields": true, "swords": true,
+	}
+	if !allowed[dir] {
+		http.Error(w, "invalid dir", http.StatusBadRequest)
+		return
+	}
+	base := filepath.Join("Assets", "offline", "levels", dir)
+	entries, err := os.ReadDir(base)
+	if err != nil {
+		writeJSON(w, http.StatusOK, []string{})
+		return
+	}
+	var files []string
+	for _, e := range entries {
+		if e.IsDir() {
+			continue
+		}
+		ext := strings.ToLower(filepath.Ext(e.Name()))
+		if ext == ".png" || ext == ".gif" {
+			files = append(files, e.Name())
+		}
+	}
+	writeJSON(w, http.StatusOK, files)
 }
