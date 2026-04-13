@@ -7,16 +7,16 @@ A real-time multiplayer game written in Go with Ebiten inspired by Graal Online 
 ## Features
 
 - Account registration and login with persistent storage (SQLite)
-- Real-time multiplayer — positions synchronized at 60 Hz
-- Client-side interpolation — smooth movement without teleportation
+- Real-time multiplayer - positions synchronized at 60 Hz
+- Client-side interpolation - smooth movement without teleportation
 - In-game chat broadcast to all connected players
 - NPCs system (villagers, merchants, guards, horses) with wandering AI
-- Sword combat system — hit NPCs, collect gralats
+- Sword combat system - hit NPCs, collect gralats
 - Gani animation system (idle, walk, sword, ride, sit, push, dead, grab, dance..)
 - TMX tile map with collision and interactive signs
-- Gralat currency — collect coins, earn rewards from NPCs
+- Gralat currency - collect coins, earn rewards from NPCs
 - Full player profile panel with character preview and playtime tracking
-- Cosmetic picker — body, head, and hat customization
+- Cosmetic picker - body, head, and hat customization
 - Linux native and browser (WASM) support
 - PoC for shops
 
@@ -78,11 +78,11 @@ Open **http://localhost:8080** in your browser.
 
 Clicking on another player opens a full profile panel showing:
 
-- **Name** — their account username
-- **Fortune** — total gralats accumulated
-- **Playtime** — total time played (live, updated each second)
-- **Status** — Online badge
-- **Character preview** — their cosmetic appearance rendered at 2.5× scale on the right side of the panel
+- **Name** - their account username
+- **Fortune** - total gralats accumulated
+- **Playtime** - total time played (live, updated each second)
+- **Status** - Online badge
+- **Character preview** - their cosmetic appearance rendered at 2.5× scale on the right side of the panel
 
 Press **P** to open your own profile with the same information.
 ---
