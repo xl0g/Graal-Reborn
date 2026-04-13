@@ -1,4 +1,4 @@
-# Go Multiplayer Template
+# Graal Reborn
 
 A real-time multiplayer game written in Go with Ebiten. Runs natively on Linux and in the browser (WebAssembly).
 
