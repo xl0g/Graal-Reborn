@@ -53,6 +53,7 @@ or the web version :
 Open **http://localhost:8080** in your browser.
 
 For more information please check [ARCHITECTURE.MD](ARCHITECTURE.MD)
+
 ---
 
 ## Controls
