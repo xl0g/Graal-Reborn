@@ -5,8 +5,7 @@ A real-time multiplayer game written in Go with Ebiten inspired by Graal Online 
 ---
 
 ## Demonstration 
-![Demo](assets/showcase.gif)
-
+[Showcase](https://www.youtube.com/watch?v=VySwpsBMfQg)
 ## Features
 
 - Account registration and login with persistent storage (SQLite)
