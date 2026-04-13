@@ -94,6 +94,7 @@ Press **P** to open your own profile with the same information.
 - [x] Shops POC
 - [x] AI NPCs
 - [x] Improving Sync
+- [x] Add Lua scripting & expose bindings (cf [Resources documentation](resources/README.md))
 - [ ] Guild / Friends
 - [ ] Improve Inventory
 - [ ] Interactions with world
@@ -104,7 +105,6 @@ Press **P** to open your own profile with the same information.
 - [ ] Rework the UI
 - [ ] Rework the backend to add TLS/WSS and rate limit, support loadbalancing
 - [ ] Add Map Chunk loading through CDN
-- [ ] Add a scripting language (Lua ?) & expose bindings
 - [ ] Support for IOS, Android & Windows
 
 For more information please check [ARCHITECTURE.MD](ARCHITECTURE.MD)
