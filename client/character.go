@@ -38,6 +38,7 @@ const (
 	AnimJuggle        = "juggle"        // juggle.gani (original)
 	AnimClassicJuggle = "classic_juggle" // classic_new_juggle.gani (inventory item)
 	AnimPompoms       = "pompoms"       // ci_pompoms.gani (inventory item)
+	AnimHatTrick      = "hattrick"
 	AnimPush          = "push"
 	AnimDead          = "dead"
 	AnimHurt          = "hurt"
@@ -130,6 +131,10 @@ type Character struct {
 
 	// Animation time counter for animated cosmetics (GIFs).
 	cosTime float64
+
+	// Dead reckoning velocity for remote entities (pixels/s).
+	// Set from Dir+Moving on each server update; advances TargetX/Y each frame.
+	velX, velY float64
 
 	// Hurt / knockback state
 	hurtTimer   float64 // counts down; >0 means blinking
@@ -432,11 +437,42 @@ func (c *Character) Update(dt float64) {
 		}
 	}
 
-	// Position interpolation (remote entities only)
+	// Position update for remote entities: dead reckoning + interpolation.
 	if !c.IsLocal {
-		factor := 1 - math.Exp(-interpK*dt)
-		c.X += (c.TargetX - c.X) * factor
-		c.Y += (c.TargetY - c.Y) * factor
+		// Advance the authoritative target position by the last known velocity.
+		// This predicts where the player is NOW rather than where they were when
+		// the server snapshot was sent, eliminating most of the network-latency
+		// positional error.
+		if c.Moving {
+			c.TargetX += c.velX * dt
+			c.TargetY += c.velY * dt
+			// Clamp to world bounds
+			if c.TargetX < 0 {
+				c.TargetX = 0
+			}
+			if c.TargetY < 0 {
+				c.TargetY = 0
+			}
+			if c.TargetX > float64(worldW-frameW) {
+				c.TargetX = float64(worldW - frameW)
+			}
+			if c.TargetY > float64(worldH-frameH) {
+				c.TargetY = float64(worldH - frameH)
+			}
+		}
+
+		// Large desync (teleport / map change): snap instantly.
+		dx := c.TargetX - c.X
+		dy := c.TargetY - c.Y
+		if dx*dx+dy*dy > 200*200 {
+			c.X = c.TargetX
+			c.Y = c.TargetY
+		} else {
+			// Exponential smoothing toward predicted target.
+			factor := 1 - math.Exp(-interpK*dt)
+			c.X += dx * factor
+			c.Y += dy * factor
+		}
 	}
 
 	// Determine target gani based on animation state.
@@ -456,6 +492,8 @@ func (c *Character) Update(dt float64) {
 		targetGani = "sit.gani"
 	case c.AnimState == AnimJuggle:
 		targetGani = "juggle.gani"
+	case c.AnimState == AnimHatTrick:
+		targetGani = "classic_hattrick_test.gani"
 	case c.AnimState == AnimClassicJuggle:
 		targetGani = "classic_new_juggle.gani"
 	case c.AnimState == AnimPompoms:
@@ -526,7 +564,7 @@ func (c *Character) Update(dt float64) {
 
 	// Item animations: loop until cancelled by movement (handled in game.go
 	// for local player; remote players cancel when server anim state changes).
-	if (c.AnimState == AnimClassicJuggle || c.AnimState == AnimPompoms || c.AnimState == AnimJuggle) && p.Done {
+	if (c.AnimState == AnimClassicJuggle || c.AnimState == AnimPompoms || c.AnimState == AnimJuggle || c.AnimState == AnimHatTrick) && p.Done {
 		// Gani finished a non-looping cycle — reset to idle/walk.
 		if c.Moving {
 			c.AnimState = AnimWalk
@@ -541,7 +579,7 @@ func (c *Character) Update(dt float64) {
 		c.AnimState != AnimDead && c.AnimState != AnimHurt &&
 		c.AnimState != AnimGrab &&
 		c.AnimState != AnimJuggle && c.AnimState != AnimClassicJuggle &&
-		c.AnimState != AnimPompoms {
+		c.AnimState != AnimPompoms && c.AnimState != AnimHatTrick {
 		if c.Moving {
 			c.AnimState = AnimWalk
 		} else {

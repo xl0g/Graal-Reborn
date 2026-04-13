@@ -13,12 +13,12 @@ const (
 	screenW = 800
 	screenH = 600
 
-	tileSize  = 32
-	mapTilesW = 30
-	mapTilesH = 20
+	tileSize  = 16 // GraalRebornMap.tmx tile size in pixels
+	mapTilesW = 70 // map width in tiles
+	mapTilesH = 70 // map height in tiles
 
-	worldW = mapTilesW * tileSize // 960
-	worldH = mapTilesH * tileSize // 640
+	worldW = mapTilesW * tileSize // 1120
+	worldH = mapTilesH * tileSize // 1120
 )
 
 // Game implements ebiten.Game and acts as the top-level state machine.

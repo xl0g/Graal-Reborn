@@ -6,6 +6,27 @@ import (
 	"time"
 )
 
+// remoteVel returns the dead-reckoning velocity (px/s) for a remote entity
+// based on its current direction and moving flag.
+// This is used to predict where the entity will be between server snapshots,
+// compensating for the one-way network latency.
+func remoteVel(dir int, moving bool, speed float64) (vx, vy float64) {
+	if !moving {
+		return 0, 0
+	}
+	switch dir {
+	case 0: // up
+		return 0, -speed
+	case 1: // left
+		return -speed, 0
+	case 2: // down
+		return 0, speed
+	case 3: // right
+		return speed, 0
+	}
+	return 0, 0
+}
+
 // ──────────────────────────────────────────────────────────────
 // Network message processing
 // ──────────────────────────────────────────────────────────────
@@ -65,9 +86,17 @@ func (g *Game) handleServerMsg(data []byte) {
 			}
 			seen[p.ID] = true
 			if ch, ok := g.otherPlayers[p.ID]; ok {
+				// Correct to server-authoritative position and update dead reckoning.
 				ch.TargetX, ch.TargetY = p.X, p.Y
 				ch.Dir = p.Dir
 				ch.Moving = p.Moving
+				// Recompute velocity from authoritative state so the next
+				// dead-reckoning frame starts from the corrected baseline.
+				drSpeed := moveSpeed
+				if p.Mounted {
+					drSpeed = mountedMoveSpeed
+				}
+				ch.velX, ch.velY = remoteVel(p.Dir, p.Moving, drSpeed)
 				ch.Gralats = p.Gralats
 				ch.Playtime = p.Playtime
 				if p.MaxHP > 0 {
@@ -123,7 +152,7 @@ func (g *Game) handleServerMsg(data []byte) {
 				}
 				// Item anims
 				itemAnims := map[string]bool{
-					AnimClassicJuggle: true, AnimPompoms: true, AnimJuggle: true,
+					AnimClassicJuggle: true, AnimPompoms: true, AnimJuggle: true, AnimHatTrick: true,
 				}
 				if itemAnims[p.AnimState] && !itemAnims[ch.AnimState] {
 					ch.AnimState = p.AnimState
@@ -142,6 +171,11 @@ func (g *Game) handleServerMsg(data []byte) {
 				if p.Mounted {
 					ch.AnimState = AnimRide
 				}
+				drSpeed := moveSpeed
+				if p.Mounted {
+					drSpeed = mountedMoveSpeed
+				}
+				ch.velX, ch.velY = remoteVel(p.Dir, p.Moving, drSpeed)
 				ch.SetCosmetics(p.Body, p.Head, p.Hat, p.Shield, p.Sword)
 				g.otherPlayers[p.ID] = ch
 			}
@@ -153,6 +187,8 @@ func (g *Game) handleServerMsg(data []byte) {
 		}
 
 		// NPCs
+		// Mid-range NPC wander speed estimate (server: 70–120 px/s).
+		const npcDRSpeed = 95.0
 		seenNPC := make(map[string]bool)
 		for _, n := range msg.NPCs {
 			seenNPC[n.ID] = true
@@ -160,6 +196,7 @@ func (g *Game) handleServerMsg(data []byte) {
 				ch.TargetX, ch.TargetY = n.X, n.Y
 				ch.Dir = n.Dir
 				ch.Moving = n.Moving
+				ch.velX, ch.velY = remoteVel(n.Dir, n.Moving, npcDRSpeed)
 				ch.HP = n.HP
 				ch.MaxHP = n.MaxHP
 				if n.AnimState == "dead" && ch.AnimState != AnimDead {
@@ -174,6 +211,7 @@ func (g *Game) handleServerMsg(data []byte) {
 				if n.AnimState == "dead" {
 					ch.AnimState = AnimDead
 				}
+				ch.velX, ch.velY = remoteVel(n.Dir, n.Moving, npcDRSpeed)
 				g.npcs[n.ID] = ch
 			}
 		}

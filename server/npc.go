@@ -6,8 +6,8 @@ import (
 )
 
 const (
-	mapWidth  = 960.0 // 30 tiles × 32 px — matches client worldW
-	mapHeight = 640.0 // 20 tiles × 32 px — matches client worldH
+	mapWidth  = 1120.0 // 70 tiles × 16 px — matches GraalRebornMap.tmx
+	mapHeight = 1120.0 // 70 tiles × 16 px — matches GraalRebornMap.tmx
 
 	// NPC type constants (must match client-side NPCTypeHorse)
 	NPCTypeVillager = 0

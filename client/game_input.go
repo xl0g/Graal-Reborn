@@ -660,7 +660,7 @@ func (g *Game) checkSwordHit() {
 		nr := image.Rect(int(npc.X), int(npc.Y), int(npc.X)+frameW, int(npc.Y)+frameH)
 		if hitbox.Overlaps(nr) {
 			g.conn.SendJSON(map[string]interface{}{
-				"type":   "attack_npc",
+				"type":   "sword_hit",
 				"npc_id": nid,
 			})
 			break
@@ -670,7 +670,7 @@ func (g *Game) checkSwordHit() {
 		pr := image.Rect(int(p.X), int(p.Y), int(p.X)+frameW, int(p.Y)+frameH)
 		if hitbox.Overlaps(pr) {
 			g.conn.SendJSON(map[string]interface{}{
-				"type":      "pvp_attack",
+				"type":      "pvp_hit",
 				"target_id": pid,
 				"x":         g.localChar.X,
 				"y":         g.localChar.Y,
@@ -793,6 +793,8 @@ func (g *Game) useInventoryItem(itemID string) {
 			switch itemID {
 			case "juggle":
 				anim = AnimClassicJuggle
+			case "hattrick":
+				anim = AnimHatTrick
 			case "pompoms":
 				anim = AnimPompoms
 			default:
