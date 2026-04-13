@@ -1,3 +1,6 @@
 game-client
 game-server
 server/MultiTestServer
+game.db
+game-server
+game-client

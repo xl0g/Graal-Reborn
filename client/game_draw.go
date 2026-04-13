@@ -133,7 +133,8 @@ func (g *Game) drawHUD(screen *ebiten.Image) {
 	pCount := len(g.otherPlayers) + 1
 	nCount := len(g.npcs)
 	g.mu.Unlock()
-	info := fmt.Sprintf("Players: %d  NPCs: %d", pCount, nCount)
+	fps := ebiten.CurrentFPS()
+	info := fmt.Sprintf("FPS: %.0f  Players: %d  NPCs: %d", fps, pCount, nCount)
 	DrawRect(screen, screenW-len(info)*fontW-12, 0, len(info)*fontW+12, 20, color.RGBA{0, 0, 0, 150})
 	DrawText(screen, info, screenW-len(info)*fontW-7, 14, color.RGBA{200, 220, 255, 255})
 
