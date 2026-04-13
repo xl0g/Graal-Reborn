@@ -387,6 +387,11 @@ func (h *Hub) runGameLoop() {
 		}
 		h.mu.Unlock()
 
+		// Tick Lua resources (timers + queued events).
+		if globalLuaManager != nil {
+			globalLuaManager.Tick(dt)
+		}
+
 		respawnTick++
 		if respawnTick >= 300 {
 			respawnTick = 0
@@ -395,4 +400,68 @@ func (h *Hub) runGameLoop() {
 
 		h.sendPerClientState()
 	}
+}
+
+// ── Lua NPC helpers ──────────────────────────────────────────────────────────
+
+// addLuaNPC adds a Lua-spawned NPC to the hub.
+func (h *Hub) addLuaNPC(npc *NPC) {
+	h.mu.Lock()
+	h.npcs = append(h.npcs, npc)
+	h.mu.Unlock()
+}
+
+// removeLuaNPC removes an NPC by ID (used when a resource stops).
+func (h *Hub) removeLuaNPC(id string) {
+	h.mu.Lock()
+	for i, n := range h.npcs {
+		if n.state.ID == id {
+			h.npcs = append(h.npcs[:i], h.npcs[i+1:]...)
+			break
+		}
+	}
+	h.mu.Unlock()
+}
+
+// setLuaNPCPos teleports an NPC to a new position.
+func (h *Hub) setLuaNPCPos(id string, x, y float64) {
+	h.mu.Lock()
+	for _, n := range h.npcs {
+		if n.state.ID == id {
+			n.state.X = x
+			n.state.Y = y
+			n.homeX = x
+			n.homeY = y
+			n.targetX = x
+			n.targetY = y
+			break
+		}
+	}
+	h.mu.Unlock()
+}
+
+// setLuaNPCDialog sets a custom dialog for an NPC.
+func (h *Hub) setLuaNPCDialog(id, msg string, gMin, gMax int) {
+	h.mu.Lock()
+	for _, n := range h.npcs {
+		if n.state.ID == id {
+			n.customDialog = msg
+			n.customGMin = gMin
+			n.customGMax = gMax
+			break
+		}
+	}
+	h.mu.Unlock()
+}
+
+// getLuaNPCPos returns the current position of an NPC.
+func (h *Hub) getLuaNPCPos(id string) (x, y float64, ok bool) {
+	h.mu.RLock()
+	defer h.mu.RUnlock()
+	for _, n := range h.npcs {
+		if n.state.ID == id {
+			return n.state.X, n.state.Y, true
+		}
+	}
+	return 0, 0, false
 }

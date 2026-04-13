@@ -93,7 +93,7 @@ Press **P** to open your own profile with the same information.
 
 - [x] Shops POC
 - [x] AI NPCs
-- [ ] Improving Sync
+- [x] Improving Sync
 - [ ] Guild / Friends
 - [ ] Improve Inventory
 - [ ] Interactions with world

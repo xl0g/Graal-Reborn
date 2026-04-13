@@ -42,6 +42,7 @@ func main() {
 	}
 
 	globalHub = newHub()
+	newLuaManager(globalHub)
 	go globalHub.runGameLoop()
 	log.Println("[HUB] Game loop started (60 Hz)")
 

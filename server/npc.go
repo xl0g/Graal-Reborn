@@ -41,6 +41,11 @@ type NPC struct {
 
 	// Anti-stuck: time spent continuously blocked against a wall
 	stuckTimer float64
+
+	// Optional Lua-defined dialog override (empty = use npcDialogDefs[type]).
+	customDialog string
+	customGMin   int
+	customGMax   int
 }
 
 func newNPC(id, name string, x, y float64, npcType int) *NPC {

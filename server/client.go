@@ -119,7 +119,14 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 	globalHub.register(client)
 	// Send current inventory after registration.
 	go sendInventoryTo(client)
+	// Notify Lua resources.
+	if globalLuaManager != nil {
+		globalLuaManager.TriggerEvent("onPlayerConnect", playerID, user.Name)
+	}
 	defer func() {
+		if globalLuaManager != nil {
+			globalLuaManager.TriggerEvent("onPlayerDisconnect", playerID, client.name)
+		}
 		globalHub.unregister(client)
 		conn.Close()
 	}()
@@ -295,6 +302,14 @@ func handleChat(c *Client, raw []byte) {
 		sendDirectMsg(c, "Items disponibles: "+strings.Join(names, ", "))
 		return
 	}
+	// Lua resource management commands (admin only).
+	if lower == "/resources" ||
+		strings.HasPrefix(lower, "/start ") ||
+		strings.HasPrefix(lower, "/stop ") ||
+		strings.HasPrefix(lower, "/restart ") {
+		handleLuaCommand(c, txt, lower)
+		return
+	}
 
 	dbSaveChat(c.name, txt)
 	globalHub.broadcast(map[string]interface{}{
@@ -302,6 +317,56 @@ func handleChat(c *Client, raw []byte) {
 		"from": c.name,
 		"msg":  txt,
 	})
+	// Notify Lua resources of the chat message.
+	if globalLuaManager != nil {
+		globalLuaManager.TriggerEvent("onPlayerChat", c.playerID, c.name, txt)
+	}
+}
+
+// handleLuaCommand processes /start, /stop, /restart, /resources (admin only).
+func handleLuaCommand(c *Client, txt, lower string) {
+	if !c.isAdmin {
+		sendDirectMsg(c, "Permission denied.")
+		return
+	}
+	if globalLuaManager == nil {
+		sendDirectMsg(c, "Lua manager not initialized.")
+		return
+	}
+
+	if lower == "/resources" {
+		names := globalLuaManager.List()
+		if len(names) == 0 {
+			sendDirectMsg(c, "[LUA] No resources running.")
+		} else {
+			sendDirectMsg(c, "[LUA] Running resources: "+strings.Join(names, ", "))
+		}
+		return
+	}
+
+	parts := strings.Fields(txt)
+	if len(parts) < 2 {
+		sendDirectMsg(c, "Usage: /start|stop|restart <resource>")
+		return
+	}
+	cmd := strings.ToLower(parts[0])
+	name := parts[1]
+
+	var err error
+	switch cmd {
+	case "/start":
+		err = globalLuaManager.Start(name)
+	case "/stop":
+		err = globalLuaManager.Stop(name)
+	case "/restart":
+		err = globalLuaManager.Restart(name)
+	}
+
+	if err != nil {
+		sendDirectMsg(c, "[LUA] Error: "+err.Error())
+	} else {
+		sendDirectMsg(c, "[LUA] "+cmd+" "+name+" OK")
+	}
 }
 
 func handleCollectGralat(c *Client, raw []byte) {
@@ -367,8 +432,25 @@ func handleTalkNPC(c *Client, raw []byte) {
 		return
 	}
 
-	def := npcDialogDefs[npc.state.NPCType%len(npcDialogDefs)]
-	gralatN := def.minG + mrand.Intn(def.maxG-def.minG+1)
+	// Resolve dialog: Lua custom dialog takes priority over the type-based default.
+	var dialogText string
+	var gMin, gMax int
+	if npc.customDialog != "" {
+		dialogText = npc.customDialog
+		gMin, gMax = npc.customGMin, npc.customGMax
+	} else {
+		def := npcDialogDefs[npc.state.NPCType%len(npcDialogDefs)]
+		dialogText = def.msg
+		gMin, gMax = def.minG, def.maxG
+	}
+	if gMax < gMin {
+		gMax = gMin
+	}
+	gralatN := gMin
+	if gMax > gMin {
+		gralatN = gMin + mrand.Intn(gMax-gMin+1)
+	}
+
 	newTotal, _ := dbAddGralats(c.userID, gralatN)
 
 	globalHub.mu.Lock()
@@ -377,7 +459,7 @@ func handleTalkNPC(c *Client, raw []byte) {
 
 	c.npcCooldowns[msg.NPCID] = time.Now()
 
-	dialog := fmt.Sprintf("%s: %s", npc.state.Name, def.msg)
+	dialog := fmt.Sprintf("%s: %s", npc.state.Name, dialogText)
 	data, _ := json.Marshal(map[string]interface{}{
 		"type":     "npc_dialog",
 		"msg":      dialog,
