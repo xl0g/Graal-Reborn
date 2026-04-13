@@ -92,7 +92,8 @@ Press **P** to open your own profile with the same information.
 # To-do 
 
 - [x] Shops POC
-- [ ] Improving PvP Sync
+- [x] AI NPCs
+- [ ] Improving Sync
 - [ ] Guild / Friends
 - [ ] Improve Inventory
 - [ ] Interactions with world
