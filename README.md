@@ -52,8 +52,6 @@ or the web version :
 
 Open **http://localhost:8080** in your browser.
 
-For more information please check [ARCHITECTURE.MD](ARCHITECTURE.MD)
-
 ---
 
 ## Controls
@@ -105,3 +103,5 @@ Press **P** to open your own profile with the same information.
 - [ ] Add Map Chunk loading through CDN
 - [ ] Add a scripting language (Lua ?) & expose bindings
 - [ ] Support for IOS, Android & Windows
+
+For more information please check [ARCHITECTURE.MD](ARCHITECTURE.MD)
