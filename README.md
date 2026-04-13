@@ -1,6 +1,6 @@
 # Graal Reborn
 
-A real-time multiplayer game written in Go with Ebiten. Runs natively on Linux and in the browser (WebAssembly).
+A real-time multiplayer game written in Go with Ebiten inspired by Graal Online Classic. Runs natively on Linux and in the browser (WebAssembly).
 
 ---
 
@@ -10,16 +10,15 @@ A real-time multiplayer game written in Go with Ebiten. Runs natively on Linux a
 - Real-time multiplayer — positions synchronized at 60 Hz
 - Client-side interpolation — smooth movement without teleportation
 - In-game chat broadcast to all connected players
-- 10 NPCs (villagers, merchants, guards, horses) with wandering AI
+- NPCs system (villagers, merchants, guards, horses) with wandering AI
 - Sword combat system — hit NPCs, collect gralats
-- Horse riding — mount and dismount horses
-- Gani animation system (idle, walk, sword, ride, sit, push, dead)
+- Gani animation system (idle, walk, sword, ride, sit, push, dead, grab, dance..)
 - TMX tile map with collision and interactive signs
 - Gralat currency — collect coins, earn rewards from NPCs
 - Full player profile panel with character preview and playtime tracking
-- Zelda-style UI — star background, gold-bordered panels
 - Cosmetic picker — body, head, and hat customization
 - Linux native and browser (WASM) support
+- PoC for shops
 
 ---
 
@@ -180,3 +179,20 @@ Playtime is accumulated in seconds. Each session's elapsed time is added to the 
 **Server** — `github.com/gorilla/websocket` · `modernc.org/sqlite` · `golang.org/x/crypto`
 
 **Client** — `github.com/hajimehoshi/ebiten/v2` · `github.com/gorilla/websocket`
+
+# To-do 
+
+- [x] Shops POC
+- [ ] Improving PvP Sync
+- [ ] Guild / Friends
+- [ ] Improve Inventory
+- [ ] Interactions with world
+- [ ] AI monsters
+- [ ] Mounts
+- [ ] Quests 
+- [ ] Body color
+- [ ] Rework the UI
+- [ ] Rework the backend to add TLS/WSS and rate limit, support loadbalancing
+- [ ] Add Map Chunk loading through CDN
+- [ ] Add a scripting language (Lua ?) & expose bindings
+- [ ] Support for IOS, Android & Windows
