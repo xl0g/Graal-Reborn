@@ -98,7 +98,7 @@ Press **P** to open your own profile with the same information.
 - [ ] Guild / Friends
 - [ ] Improve Inventory
 - [ ] Interactions with world
-- [ ] AI monsters
+- [ ] Improve AI overall and add behavior (agressive, passive, roaming..)
 - [ ] Mounts
 - [ ] Quests 
 - [ ] Body color
