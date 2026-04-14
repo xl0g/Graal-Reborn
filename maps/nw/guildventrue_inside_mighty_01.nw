@@ -1,0 +1,379 @@
+GLEVNW01
+BOARD 0 0 64 0 gkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegXgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgXgVgGgegYgXgPgZglgegYgXgPgd
+BOARD 0 1 64 0 gogngogngogNgogngogngogXgVgXgVgngogNgogngogngogNgogXgZgngogngogNgogngogngogXgVgXgVgngogNgogngogngogXgZglglgngogngogNgogngogngogX
+BOARD 0 2 64 0 gkgJgKgJgKgJgkgJgKgJgKgZglgZglgJgKgJgkgJgKgJgKgJgkgZgXgJgKgJgKgJgkgJgKgJgKgZglgZglgJgKgJgkgJgKgJgKgZgXgVgGgJgKgJgKgJgkgJgKgJgKgZ
+BOARD 0 3 64 0 gUgGgagZgOgXgVgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgXgVgGgZgGgagZgOgXgVgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgXgZglglgGgagZgOgXgVgGgagZgOgX
+BOARD 0 4 64 0 gkglgmgpgcgZglglgmgpgcgZglglgmgpgcgdgkglgmgpgcgZglglgXglgmgpgcgZglglgmgpgcgZglglgmgpgcgdgkglgmgpgcgZglglgXgVgGgpgcgZglglgmgpgcgZ
+BOARD 0 5 64 0 gUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgXgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgXglglgHgMgNgUgVgIgHgMgN
+BOARD 0 6 64 0 gkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegZgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegZgegYgXgPgdgkgegYgXgPgd
+BOARD 0 7 64 0 gVgngogngogXgVgngogngogNgogngogngogXgVgngogXgVgNgogXgVgngogngogXgVgngogngogNgogngogngogXgVgngogXgVgNgogXgVgngogngogXgVgngogngogN
+BOARD 0 8 64 0 glgJgKgJgKgZglgJgKgJgKgJgkgJgKgJgKgZglgJgKgZglgJgkgZglgJgKgJgKgZglgJgKgJgKgJgkgJgKgJgKgZglgJgKgZglgJgkgZglgJgKgJgKgZglgJgKgJgKgJ
+BOARD 0 9 64 0 gUgGgagZgOgNgUgGgagZgOgXgVgXgVgXgVgNgUgGgagZgOgXgVgGgXgVgagZgOgNgUgGgagZgOgXgVgXgVgXgVgNgUgGgagZgOgXgVgGgXgGgagZgOgNgUgGgagZgOgX
+BOARD 0 10 64 0 gkglgmgpgcgdgkglgXgVgcgZglgXgXgVgVgdgkglgmgpgcgZgegYgZgegmgpgcgdgkglgXgVgcgZglgXgXgVgVgdgkglgmgpgcgZglglgZglgmgpgcgdgkglgXgVgcgZ
+BOARD 0 11 64 0 gUgVgIgHgMgNgUgVgZglgMgNgUgVgZglgMgNgUgVgIgHgMgXgngogVgVgIgHgngogVgVgngogMgNgUgVgZglgMgNgUgVgIgHgegYgXgVgXgVgIgHgMgNgUgVgZglgMgN
+BOARD 0 12 64 0 gkgegYgXgPgdgkgegYgXgPgdgkgXgXgXgPgdgkgXgXgegYgZgJgKgngogYgXgJgKgngogJgKgPgdgkgegegYgPgdgkgegYgXgngogZglgMgNgUgVgVgdgkglgXgVgcgd
+BOARD 0 13 64 0 gogVglgXgVgXgVglgXgVgcgNgogVgZgXgVgNgogVgZgngogXgGgagJgKgngogZgagJgKgZgagngogegYgngogVgNgogngogngJgKgngogPgdgkgeglgXgVgVgZglgMgN
+BOARD 0 14 64 0 gkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgJgKgMgNgUgZgagJgKgpgqgZgagpgqgJgKgngogJgKgngogkgegngogZgagJgKgMgNgUgVgVgZglgegYgXgPgd
+BOARD 0 15 64 0 gogngogngogNgogngogngogXgVgXgVgngogNgogngogGgagcgdgkgpgqgZgadpdogpgqdpdpgZgagJgKgZgagJgKgngogJgKgpgqgZgagPgdgkgeglgNgogngogngogX
+BOARD 0 16 64 0 gkgJgKgJgKgJgkgJgKgJgKgZglgZglgJgKgJgkgJgKgMgNgUgVgWdodpgpgqdndodpdodndngpgqgZgagpgqgZgagJgKgZgadodngpgqgLgMgNgUgVgJgkgJgKgJgKgZ
+BOARD 0 17 64 0 gUgGgagZgOgXgVgGgagZgOgXgVgGgagZgOgNgUgGgagcgdgkglgmdndododpdodndoaVaWaXaY797+7+7/aVaWaXaYgagpgqdodpdodngbgPgdgkgegXgVgGgagZgOgX
+BOARD 0 18 64 0 gkglgmgpgcgZglglgmgpgcgZglglgmgpgcgdgkgMgNgUgVgWdpdpdodndodp797/dnalamanao8N8O8O8Palamanaogq797/dodpdpdodngLgMgNgUgVglglgmgpgcgZ
+BOARD 0 19 64 0 gUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgcgdgkglgmdndndodpdodn8d8fdpalanU7a48d565q8fa1U6bpaodn8d8fdodndndodpgbgPgdgkgegUgVgIgHgMgN
+BOARD 0 20 64 0 gkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgMgNgUgVgWdndododp8t8vdoa1a2a4jJ8t8d8f8vjKa1a3a4do8t8vdodpdodndodogLgMgNgUgVgegYgXgPgd
+BOARD 0 21 64 0 gVgngogngogXgVgngogngogNgogngogngogXgVgngogcgdgkglgmdodndodpdodndnLfLeLfhpLe1g1hLehqLfLeLfdpdodpdodpdpdodndogbgPgdgkgegngogngogN
+BOARD 0 22 64 0 glgJgKgJgKgZglgJgKgJgKgJgkgJgKgJgKgZglgJgKgNgUgVgWdndodpdodndndodpdodndndodpdodndndodpdodndndodpdodndndogLgMgNgUgVgXgVgJgKgJgKgJ
+BOARD 0 23 64 0 gUgGgagZgOgNgUgGgagZgOgXgVgXgVgXgVgNgUgGgagdgkglgmdodndododpdodndododpdodndododpdodndododpdodndododpdodngbgPgdgkgegZglgGgagZgOgX
+BOARD 0 24 64 0 gkglgmgpgcgdgkglgXgVgcgZglgXgXgVgVgdgkglgNUPcAcBp4k2dodndodpdpdodndodpdpdodndodpdpdodndodpdpdodndodpdpdodndogLgMgNgUgVglgXgVgcgZ
+BOARD 0 25 64 0 gUgVgIgHgMgNgUgVgZglgMgNgUgVgZglgMgNgUgVgdUfNFjxp4p4k2dpdodndndodpdodndndoUcUedndndodpdodndndodpdodndndodpdogbgPgdgkgegVgZglgMgN
+BOARD 0 26 64 0 gkgegYgXgPgdgkgegYgXgPgdgkgXgXgXgPgdgkgegNUvNFjxp4p4k2dododpdodndododpdoUcU+U8UedodndododpdodndododpdodngLgMgNgUgVgXgVglgXgVgcgd
+BOARD 0 27 64 0 gogVglgXgVgXgVglgXgVgcgNgogVgZgXgVgNgogngdU/cwcxp4k2dodndodpdpdoUcUdUdKpKqUtUtKpKqUdUdUedpdpdodndodpdpdogbgPgdgkgegZglgVgZglgMgN
+BOARD 0 28 64 0 gkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgNgUgVk2dndodpdodndndoUsUtUtK5K6UtUtK5K6UtUtUudndndodpdodngLgMgNgUgYgXgPgZglgegYgXgPgd
+BOARD 0 29 64 0 gogngogngogNgogngogngogXgVgXgVgXgPgZglgZglgdgkglgmdodndododpdoUcU+UtLILJLKLJLKLJLKKrUtU8UedodndododpgbgcgdgkgZgXgVgJgKgngogngogX
+BOARD 0 30 64 0 gkgJgKgJgKgJgkgJgKgJgKgZglgZglgngogNgogXgVgVgNgUgVgWdodndodpUcU+KpKqLYLZLaLZLaLZLaK7KpKqU8UedodndogLgMgNgUgXgVgNgogngogJgKgJgKgZ
+BOARD 0 31 64 0 gUgGgagZgOgXgVgGgagZgOgXgVgGgagJgKgJgkgZglglgdgkglgmdodpdodnU8UeK5K6LYLZLaLZLaLZLaK7K5K6UcU+dodpdogbgcgdgkgZglgJgkgJgKgGgagZgOgX
+BOARD 0 32 64 0 gkglgmgpgcgZglglgmgpgcgZglglgmgZgOgNgUgXgVgNgUgVgWdodndododpdoU8UeUtLoLpLqLpLqLpLqLLUtUcU+dodndododpgLgMgNgUgXgVgVgXgVglgmgpgcgZ
+BOARD 0 33 64 0 gUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgpgcgdgkgXgVgdgkglgmdpdodndodpdpdoUsUtUtKpKqUtUtKpKqUtUtUudpdpdodndodpgbgcgdgkgZglglgZglgVgIgHgMgN
+BOARD 0 34 64 0 gkgegYgXgPgdgkgegYgXgPgdgkgegYgHgMgNgUgZglgNgUgVgWdndodpdodndndoU8U9U9K5K6UtUtK5K6U9U9U+dndndodpdogLgMgNgUgngogXgVgXgVgegYgXgPgd
+BOARD 0 35 64 0 gVgngogngogXgVgngogngogNgogngogXgPgdgkgZglgdgkglgmdodndododpdodndododpdoU8UeUcU+dodndododpdodndodogbgcgdgkgJgKgZglgZglgngogngogN
+BOARD 0 36 64 0 glgJgKgJgKgZglgJgKgJgKgJgkgJgKgngogXgVgVgNgUgVgWdodndodndodpdpdodndodpdpdoU8U+dpdpdodndodpdpdodngLgMgNgUgXgVgXgXgVgngogJgKgJgKgJ
+BOARD 0 37 64 0 gUgGgagZgOgNgUgGgagZgOgXgVgXgVgJgKgZgZglgdgkglgmdodndododpdodndododpdodndododpdodndododpdodndodogbgcgdgkgXgVgZgZglgJgKgGgagZgOgX
+BOARD 0 38 64 0 gkglgmgpgcgdgkglgXgVgcgZglgXgXgZgOgXgVgNgUgVgWgLgWdodndodpdpdodndodpdpdodndodpdpdodndodpdpdodngLgMgNgUgXgVgXgGgXgVgZgOglgXgVgcgZ
+BOARD 0 39 64 0 gUgVgIgHgMgNgUgVgZglgMgNgUgVgZgpgcgZglgdgkglgmgbgmdodpdodndndodpdodndndodpdodndndodpdodndndodpgbgcgdgkgZglgZglgZgXgVgcgVgZglgMgN
+BOARD 0 40 64 0 gkgegYgXgPgdgkgegYgXgPgdgkgXgXgHgMgNgGgXgVgNgUgVgWdndododpdodndododndpdodododpdodndododpdodngNgUgLgMgNgUgVgMgNgUgVgVgZglgXgVgcgd
+BOARD 0 41 64 0 gogVglgXgVgXgVglgXgVgcgNgogVgZgXgPgdglgZglgdgkglgmdodndodpdpdodnkoipiqkodndodpdpgHgIdodpdodogdgkgbgPgdgkgegPgdgkgegegYgVgZglgMgN
+BOARD 0 42 64 0 gkgegYgXgPgZglgegYgXgPgdgkgegYgngogNgVgXgVgMgNgUgVgWdpdoxyxzdodpk4i5i6k4dpdoxyxzgXgYdodndodogLgMgNgUgXgMgNgUgVgVgZgngogegYgXgPgd
+BOARD 0 43 64 0 gogngogngogNgogngogngogXgVgXgVgJgKgJgegZglgPgdgkglgmgHgIyCyDgHgIk4jJjKk4gHgIyCyDgXgYdodpgHgIgbgcgdgkgZgPgdgkgegegYgJgKgngogngogX
+BOARD 0 44 64 0 gkgJgKgJgKgJgkgJgKgJgKgZglgZglgJgngogXgVgngogNgogNgUgXgYgHgIgXgYkoknidkogXgYgHgIgngogHgIgXgYgMgNgUgVgXgVgNgogNgUgNgUgagJgKgJgKgZ
+BOARD 0 45 64 0 gUgGgagZgOgXgVgGgagZgOgXgVgGgagZgJgKgZglgJgKgJgkgdgkgngogXgYgngogngogngogngogXgYgJgKgXgYgngogPgdgkgegZglgJgkgdgkgdgkgVgGgagZgOgX
+BOARD 0 46 64 0 gkglgmgpgcgZglglgmgpgcgZglglgmgpgngogJgKgngogngogngogJgKgngogJgKgJgKgJgKgJgKgngogngogngogJgKgMgNgUgVgMgNgUgVgmgGgagZglglgmgpgcgZ
+BOARD 0 47 64 0 gUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgJgKgGgagJgKgJgKgJgKgUgVgJgKgMgNgUgVgIgVgIgHgJgKgJgKgJgKgMgNgUgdgkgHgPgdgkgegIgHgMgNgUgVgIgHgMgN
+BOARD 0 48 64 0 gkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdglgmgpgegYgXgPgdgkgegYgXgPgdgkgegYgegYgXgPgNgUgegYgXgPgdgkgegYgXgVgZglgmgYgXgPgdgkgegYgXgPgd
+BOARD 0 49 64 0 gVgngogngogXgVgngogngogNgogngogngogXgVgngogngogngogXgVgngogngogNgogngogngogngogdgkgngogngogNgogngogNgUgYgMgNgUgngogXgVgngogngogN
+BOARD 0 50 64 0 glgJgKgJgKgZglgJgKgJgKgJgkgJgKgJgKgZglgJgKgJgKgJgKgZglgJgKgJgKgJgkgJgKgJgKgJgKgZglgJgKgJgKgJgkgJgKgdgkgogPgdgkgJgKgZglgJgKgJgKgJ
+BOARD 0 51 64 0 gUgGgagZgOgNgUgGgagZgOgXgVgXgVgXgVgNgUgGgagGgagZgOgNgUgGgagZgOgXgVgXgVgGgagZgOgNgUgGgagZgOgXgVgXgVgXgJgKgVgNgUgGgagNgUgGgagZgOgX
+BOARD 0 52 64 0 gkglgmgpgcgdgkglgXgVgcgZglgXgXgVgVgdgkglgmglgmgpgcgdgkglgXgVgcgZglgXgXglgmgpgcgdgkglgXgVgcgZglgXgXgVgGgagVgdgkglgmgdgkglgXgVgcgZ
+BOARD 0 53 64 0 gUgVgIgHgMgNgUgVgZglgMgNgUgVgZglgMgNgUgVgIgVgIgHgMgNgUgVgZglgMgNgUgVgZgVgIgHgMgNgUgVgZglgMgNgUgVgZglgcglgMgNgUgVglgNgUgVgZglgMgN
+BOARD 0 54 64 0 gkgegYgXgPgdgkgegYgXgPgdgkgXgXgXgPgdgkgegcgegYgXgPgdgkgegYgXgPgdgkgXgXgegYgXgPgdgkgegYgXgPgdgkgXgXgXgcgXgPgdgkgegVgdgkglgXgVgcgd
+BOARD 0 55 64 0 gogVglgXgVgXgVglgXgVgcgNgogVgZgXgMgNgUgVgMgVglgXgVgXgVglgXgVgcgNgogVgZgVglgXgVgXgVglgXgVgcgNgogVgZgXgMgXgVgNgUgGgVgXgVgVgZglgMgN
+BOARD 0 56 64 0 gkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegPgegYgXgPgZglgegYgXgPgdgkgegYgegYgXgPgZglgegYgXgPgdgkgegYgXgYgXgPgdgkglglgZglgegYgXgPgd
+BOARD 0 57 64 0 gogngogngogNgogngogngogXgVgXgVgngogNgogngogngogngogNgogngogngogXgVgXgVgngogngogNgogngogngogXgVgXgVgngVgngogNgogngogNgogngogngogX
+BOARD 0 58 64 0 gkgJgKgJgKgJgkgJgKgJgKgZglgZglgJgKgJgKgJgKgJgKgJgKgJgkgJgKgJgKgZglgZglgJgKgJgKgJgkgJgKgJgKgZglgZglgJglgJgKgJgkgJgKgJgkgJgKgJgKgZ
+BOARD 0 59 64 0 gUgGgagZgOgXgVgGgagZgOgXgVgGgagZgMgNgUgVgOgGgagZgOgXgVgGgagZgOgXgVgGgagGgagZgOgXgVgGgagZgOgXgVgGgagZgagZgOgNgUgGgagXgVgGgagZgOgX
+BOARD 0 60 64 0 gkglgmgpgcgZglglgmgpgcgZglglgmgpgPgdgkgegcgZglgXgXgVgVgdgkgpgcgZglglgmgpgcgZglglgmgpgcgdgkglgmgpglglgmgpgcgdgkglgmgZglglgmgpgcgZ
+BOARD 0 61 64 0 gUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgMgNgUgVgZglgMgNgUgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgHgVgIgHgMgNgUgVgIgHgMgN
+BOARD 0 62 64 0 gkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegPgdgkgegYgXgPgdgkgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegXgegYgXgPgdgkgegYgXgPgd
+BOARD 0 63 64 0 gVgngogngogXgVgngogngogNgogngogngogXgogngogNgogngogXgVgNgogngogXgVgngogngogNgogngogngogXgVgngogXgVgNgogXgVgngogngogXgVgngogngogN
+LINK guildventrue_catacomb_18.nw 21 25 1 2 38 28
+LINK guildventrue_inside_mighty_02.nw 33 44 2 1 40.5 8
+LINK guildventrue_inside_mighty_pr.nw 42 44 2 1 31.5 13
+SIGN 38 21
+
+        #i(vvwallbanner.png)   Mighty Coterie   #i(vvwallbanner.png)
+SIGNEND
+NPC stonetable3.png 34 29
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 42 30
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 39 27
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 35 27
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 32 30
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 35 33
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 39 33
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC kcavelamp.mng 46 15
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  setimgpart kcavelamp.mng,32,0,32,62;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC kcavelamp.mng 30 15
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  setimgpart kcavelamp.mng,32,0,32,62;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC light2.png 27 13
+// NPC made by Mighty
+if (created) {
+  dontblock;
+  drawunderplayer;
+  changeimgzoom 1,3;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,0.35,0.6;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 43 13
+// NPC made by Mighty
+if (created) {
+  dontblock;
+  drawunderplayer;
+  changeimgzoom 1,3;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,0.35,0.6;
+  drawaslight;
+}
+NPCEND
+NPC pottedplant.png 37 30
+// NPC made by Mighty
+NPCEND
+NPC bottle.png 35 29
+// NPC made by Mighty
+NPCEND
+NPC bottle.png 35 30
+// NPC made by Mighty
+if (created) {
+  x+=0.5;
+}
+NPCEND
+NPC halloweenc-fog.png 39 20
+// NPC made by Mighty
+if (created) {
+  setimg halloweenc-fog.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.33;
+  setzoomeffect 2;
+  drawaslight;
+}
+NPCEND
+NPC halloweenc-fog.png 20 28
+// NPC made by Mighty
+if (created) {
+  setimg halloweenc-fog.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setcoloreffect 1,1,1,0.4;
+}
+NPCEND
+NPC halloweenc-fog2.png 21 26
+// NPC made by Mighty
+if (created) {
+  setimg halloweenc-fog2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setcoloreffect 1,1,1,0.4;
+}
+NPCEND
+NPC vvwallbanner.png 41 20
+// NPC made by Mighty
+function onActionPush(0) {
+  setTimer(5);
+  x += vecx(0);
+  y += vecy(0);
+  for (a = 0;a < npcs.size();a++) {
+    if (npcs[a].pushTarget) {
+      npcs[a].trigger("PushMove",0);
+      break;
+    }
+  }
+}
+function onTimeOut(){
+  y +=1;
+}
+//#CLIENTSIDE
+if (created) setshape 1,16,32;
+NPCEND
+NPC vvwallbanner.png 36 20
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC - 56 29
+// NPC made by Mighty
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  seteffect 0,0,0,0.5;
+  timeout = .05;
+}
+NPCEND
+NPC - 54 32
+// NPC made by Mighty
+join("level_nopk");
+NPCEND
+NPC rockdoorl.png 21 24
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC - 38 42
+// NPC made by Mighty
+join("healthpot");
+NPCEND
+NPC - 28 42
+// NPC made by Mighty
+join("healthpot");
+NPCEND
+NPC rockleftgate.png 22 25
+// NPC made by Mighty
+//#CLIENTSIDE
+if (playertouchsme) {
+  hide;
+  sleep 2;
+  show;
+}
+NPCEND
+NPC darkflower.png 24 24
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darkflower.png 25 25
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darkflower.png 24 25
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darkflower.png 25 26
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darkflower.png 24 26
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darkflower.png 24 27
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC vvbanner.png 36 14
+// NPC made by Mighty
+NPCEND
+NPC classic_hellbush.png 42 37
+// NPC made by Mighty
+function onCreated() {
+  this.pushTarget = 1;
+}
+function onPushMove() {
+  move(2.5,0,1,0);
+  setTimer(5);
+}
+function onTimeOut(){
+  move(-2.5,0,1,8);
+}
+//#CLIENTSIDE
+function onCreated() {
+  setshape(1,64,64);
+  drawoverplayer();
+}
+NPCEND
+NPC bottle.png 40 29
+// NPC made by Mighty
+NPCEND
+NPC - 37 16
+// NPC made by Mighty
+function onCreated()
+  {
+  join("statue");
+  this.acc = "Mighty";
+  this.sprite = 0;
+}
+
+function onPlayerChats()
+  {
+  if(player.account == this.acc && player.chat.starts("copy"))
+    {
+    copyPlayer(findplayer(player.account));
+    this.nick = "";
+    this.sprite = 0;
+    updateLook();
+  }
+}
+NPCEND

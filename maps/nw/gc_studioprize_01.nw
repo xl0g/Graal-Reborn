@@ -1,0 +1,863 @@
+GLEVNW01
+BOARD 0 0 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 1 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 2 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 3 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 4 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 5 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 6 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 7 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 8 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 9 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 10 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 11 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 12 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 13 64 0 IdIdIdIdIdIdIdIdIdIdIdId5MBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5NIdIdIdIdIdIdIdIdIdId
+BOARD 0 14 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBTCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBTBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 15 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXmWmWmWmWmWnCngnhYv7f7f7f7f7f7f7f7fYvngnhYv7f7f7f7f7f7f7f7fYvngnhnDmWmWmWmWmWBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 16 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXmWmWmWmWmWmWnCnDYv7v7v7v7v7v7v7v7vYvnCnDYv7v7v7v7v7v7v7v7vYvnCnDmWmWmWmWmWmWBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 17 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQ5M5NnZnYnJnYnJcdnYnJnYnJnInZnInZcdnInZnInJnYnJcdnYnJnYnJnInZnInZcdnInZnInZnY5M5NBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 18 64 0 IdIdIdIdIdIdIdIdIdIdIdIdCQBQ+jBB5NnYnJnYnJcdnYnJnYnZnInZcdnInZnInZnYnJnYnJcdnYnJnYnZnInZcdnInZnInZ5MBB+xBXBzIdIdIdIdIdIdIdIdIdId
+BOARD 0 19 64 0 IdIdIdIdIdIdIdIdIdIdIdIdmWCQCRBTBXcdnYnJnYnJcdnYnJnInZcdnInZnInZcdcdnYnJnYnJcdnYnJnInZcdnInZnInZcdBQBXCRBzmWIdIdIdIdIdIdIdIdIdId
+BOARD 0 20 64 0 IdIdIdIdIdIdIdIdIdIdIdIdmWmWmWBQBXnJcdnYnJnYnJcdnYnZcdnInZnInZcdnInJcdnYnJnYnJcdnYnZcdnInZnInZcdnIBQBXmWmWmWIdIdIdIdIdIdIdIdIdId
+BOARD 0 21 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdmWmWBQBXnYnJcdnYnJnYnJcdcdnInZnInZcdnInZnYnJcdnYnJnYnJcdcdnInZnInZcdnInZBQBXmWmWIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 22 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEBQBXIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 23 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUBQBXIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 24 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkBQBXIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 25 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXnZnInZcdnInZnInZnYnJnYnJcdnYnJnYnZnInZcdnInZnInZnYnJnYnJcdnYnJnYBQBXIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 26 64 0 IdIdIdIdIdIdIdIdIdIdIdIdId5MBBBDBXnInZcdnInZnInZcdcdnYnJnYnJcdnYnJnInZcdnInZnInZcdcdnYnJnYnJcdnYnJ5MBBBB5NIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 27 64 0 IdIdIdIdIdIdIdIdIdIdIdId5M5N5NCRBznZcdnInZnInZcdnInJcdnYnJnYnJcdnYnZcdnInZnInZcdnInJcdnYnJnYnJcdnYCQCR5M5M5NIdIdIdIdIdIdIdIdIdId
+BOARD 0 28 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXBzmWmWcdnInZnInZcdnInZnYnJcdnYnJnYnJcdcdnInZnInZcdnInZnYnJcdnYnJnYnJcdmWmWCQBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 29 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXmWmWmWnInZnInZcdnInZnInJnYnJnJnYnJnYnJnInZnInZcdnInZnInJnYnJcdnYnJnYnJmWmWmWBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 30 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXmWdDdGdEdEdEdEdEdEdEdEdEdEdEdEdGnYnJnYnZnInZdDdEdEdEdEdEdEdEdEdEdEdEdEdDdGmWBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 31 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXdEc/dmdUdUdUdUdUdUdUdUdUdUdUdUdWnInZnInJnYnJdTdUdUdUdUdUdUdUdUdUdUdUdUdlc/c/BQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 32 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXdUdUdWdkdkdkdkdkdkdkdkdkdkdkdkdXnZnInZnYnJnYdjdkdkdkdkdkdkdkdkdkdkdkdkdTdUdUBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 33 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQ+j5NdkdXcdnYnJnYnJcdnYnJnInZcdnInZnInZcdcdnYnJnYnJcdnYnJnInZcdnInZnInZcddjdk5M+xBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 34 64 0 IdIdIdIdIdIdIdIdIdIdIdIdCQCRBz5NnInJcdnYnJnYnJcdnYnZcdnInZnInZcdnInJcdnYnJnYnJcdnYnZcdnInZnInZcdnInJ5MCQCRBzIdIdIdIdIdIdIdIdIdId
+BOARD 0 35 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBRBRBXnZnYnJcdnYnJnYnJcdcdnInZnInZcdnInZnYnJcdnYnJnYnJcdcdnInZnInZcdnInZnYBQBRBRBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 36 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBTCRBznInJnYnJcdnYnJnYnJnInZnInZcdnInZnInJnYnJcdnYnJnYnJnInZnInZcdnInZnInJCQCRBTBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 37 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXmWmWnZnYnJnYnJcdnYnJnYnZnInZcdnInZnInZnYnJnYnJcdnYnJnYnZnInZcdnInZnInZnYmWmWBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 38 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXmWnYnJnInZnInZcdnInZnInJnYnJcdnYnJnYnJnInZnInZcdnInZnInJnYnJcdnYnJnYnJnInZmWBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 39 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXnYnJnYnZnInZcdnInZnInZnYnJnYnJcdnYnJnYnZnInZcdnInZnInZnYnJnYnJcdnYnJnYnZnInZBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 40 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXdDdEdEdEdEdEdEdEdEdEdEdEdEdEdEdGcdnYnJnInZcddDdEdEdEdEdEdEdEdEdEdEdEdEdEdEdGBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 41 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQ5M5NdTdUdUdUdUdUdUdUdUdUdUdUdUdUdWnJcdnYnZcdnIdTdUdUdUdUdUdUdUdUdUdUdUdUdUdW5M5NBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 42 64 0 IdIdIdIdIdIdIdIdIdIdIdIdCQBQ+j5M5NdkdkdkdkdkdkdkdkdkdkdkdkdXnYnJcdcdnInZdjdkdkdkdkdkdkdkdkdkdkdkdk5M5N+xBXBzIdIdIdIdIdIdIdIdIdId
+BOARD 0 43 64 0 IdIdIdIdIdIdIdIdIdIdIdIdmWCQCRBQBXnInZnInZcdnInZnInJnYnJcdnYnJnYnJnInZnInZcdnInZnInJnYnJcdnYnJnYnJBQBXCRBzmWIdIdIdIdIdIdIdIdIdId
+BOARD 0 44 64 0 IdIdIdIdIdIdIdIdIdIdIdIdmWmWmWBQBXnZnInZcdnInZnInZnYnJnYnJcdnYnJnYnZnInZcdnInZnInZnYnJnYnJcdnYnJnYBQBXmWmWmWIdIdIdIdIdIdIdIdIdId
+BOARD 0 45 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdmWmWBQBXnJnYnJcdnYnJnYnJnInZnInZcdnInZnInJnYnJcdnYnJnYnJnInZnInZcdnInZnIBQBXmWmWIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 46 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXnYnJnYnJcdnYnJnYnZnInZcdnInZnInZnYnJnYnJcdnYnJnYnZnInZcdnInZnInZBQBXIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 47 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXdEdEdEdEdEdEdEdEdEdEdEdEdGnInZcdcdnYnJdDdEdEdEdEdEdEdEdEdEdEdEdEBQBXIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 48 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXdUdUdUdUdUdUdUdUdUdUdUdUdWnZcdnInJcdnYdTdUdUdUdUdUdUdUdUdUdUdUdUBQBXIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 49 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXdkdkdkdkdkdkdkdkdkdkdkdkdXcdnInZnYnJcddjdkdkdkdkdkdkdkdkdkdkdkdkBQBXIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 50 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdId5MBB5NnJnYnJcdnYnJnYnJnInZnInZcdnInZnInJnYnJcdnYnJnYnJnInZnInZcdnInZnI5MBB5NIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 51 64 0 IdIdIdIdIdIdIdIdIdIdIdIdId5M5NCRBznYnJnYnJcdnYnJnYnZnInZcdnInZnInZnYnJnYnJcdnYnJnYnZnInZcdnInZnInZCQCR5M5NIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 52 64 0 IdIdIdIdIdIdIdIdIdIdIdId5M5NBXmWmWnInZnInZcdnInZnInJnYnJcdnYnJnYnJnInZnInZcdnInZnInJnYnJcdnYnJnYnJmWmWBQ5M5NIdIdIdIdIdIdIdIdIdId
+BOARD 0 53 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXBzmWmWnZnInZcdnInZnInZnYnJnYnJcdnYnJnYnZnInZcdnInZnInZnYnJnYnJcdnYnJnYmWmWCQBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 54 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQBXmWnYnJnInZcdnInZnInZcdcdnYnJnYnJ5M5NnJnI5M5NnInZnInZcdcdnYnJnYnJcdnYnJnInZmWBQBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 55 64 0 IdIdIdIdIdIdIdIdIdIdIdIdBQ+jBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB+xBXIdIdIdIdIdIdIdIdIdId
+BOARD 0 56 64 0 IdIdIdIdIdIdIdIdIdIdIdIdCQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzIdIdIdIdIdIdIdIdIdId
+BOARD 0 57 64 0 IdIdIdIdIdIdIdIdIdIdIdIdmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWIdIdIdIdIdIdIdIdIdId
+BOARD 0 58 64 0 IdIdIdIdIdIdIdIdIdIdIdIdmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWIdIdIdIdIdIdIdIdIdId
+BOARD 0 59 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 60 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 61 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 62 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 63 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+LINK gc_studios_05.nw 32 55 2 1 14.5 3
+NPC classic_gc_rpsicon.png 37 29
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+NPCEND
+NPC classic_healbook.png 40 46
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_angel","wings21.png");
+}
+NPCEND
+NPC classic_coinico1.png 43 46
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_coinani","");
+}
+NPCEND
+NPC classic_gcp_dicei_0.png 18 29
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+NPCEND
+NPC classic_sack.png 27 46
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_jellybean","red.png");
+}
+NPCEND
+NPC classic_chair.png 37 46
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_chair");
+}
+NPCEND
+NPC classic_gc_skullsummonicon.png 27 29
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","skullchant");
+}
+NPCEND
+NPC classic_sworddance.png 46 46
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_dadude_sworddance","");
+}
+NPCEND
+NPC - 32 32
+join level_nopk;
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  movement_handlesword = 0.1;
+  movement_handlegui = 0.1;
+  timeout = 0.05;
+}
+NPCEND
+NPC - 32 19
+function onCreated(){
+  this.items = {"Portable Chair","Jellybeans","Sword Dance","Skull Storm","Dice","Fake Dagger","Coin","Angel","Jump Rope","Fireworks","Poly Trail","Sword Thrower","Stone Form","Studios Pass","Neo Poly Trail","Entertainer","Aura","Freak","Self Destruct","Shack on Demand","3rd Degree Burn","Time Distort","Astral Projection","12-Pack","Skull Summon","RPS"};
+  this.itemv = {20,15,20,25,25,30,20,20,10,25,25,30,25,10,25,15,25,20,20,30,20,20,30,1,25,25};
+
+  x = 31.5;
+}
+function onPlayerChats(){
+  if (player.chat.starts("buy") && player.chat != "buy 12-Pack"){
+    temp.product = player.chat.substring(3).trim();
+    temp.productpos = this.items.index(temp.product);
+    if (temp.productpos => 0){
+      if (player.clientr.stat_gctickets => this.itemv[temp.productpos]){
+        player.addweapon("GC/"@temp.product);
+        player.clientr.stat_gctickets -= this.itemv[temp.productpos];
+        player.clientr.("stat_gcitemct_" @ temp.product)++;
+        player.chat = "You got " @ temp.product @ "!";
+        player.setani("classic_holdup",findweapon("GC/"@temp.product).image);
+      }
+      else {
+        player.chat = "You don't have enough GC Tickets!";
+      }
+    }
+    else {
+      player.chat = "That item's not valid!";
+    }
+  }
+}
+/*
+Portable chair - 20
+Jelly beans - 20
+Sword Dance -15
+Skull - 30
+Dice - 30
+Fake Dagger - 35
+Coin - 20
+Angel - 20
+Focus - 25
+Throwing Sword - 40
+Stone Form - 35
+GC Studio Pass - 10
+Neo Poly Trail - 30
+Entertainer - 15
+Aura - 25
+Freak - 25
+Self Destruct - 30
+Shack on Demand - 35
+3rd Degree Burn - 25
+GC Time Distort - 20
+12-Pack - 1
+Skull Summon - 25
+RPS - 25
+ */
+if (playerenters || timeout) {
+  if (playerscount > 0) {
+    if (this.pos == 0) message Hi there!  Welcome to the GC Prize Room.;
+    if (this.pos == 1) message Here you may use the GC tickets you've earned to purchase items.;
+    if (this.pos == 2) message If you click on an item I'll demonstrate what it does. Unfortunately I can't show them all off.;
+    if (this.pos == 3) message Come up and touch the counter and I'll tell you more.;
+    this.pos = (this.pos + 1) % 4;
+    timeout = 5;
+  }
+}
+
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,32,48);
+  showcharacter();
+  setcharani("classic_idle","");
+
+  shieldimg = "no-shield.png";
+  headimg = "head30.png";
+  bodyimg = "body.png";
+  colors[0] = "orange";
+  colors[1] = "gray";
+  colors[2] = "blue";
+  colors[3] = "black";
+  colors[4] = "black";
+  attr[1] = "hat90.png";
+}
+function onActionGani(){
+  if(this.delay == 0){
+    if(this.ani == "classic_skullsummon" || this.ani == "skullchant"){
+      setcharani("classic_idle","");
+    }
+    setTimer(5);
+    this.delay = 1;
+    setcharani(params[0],params[1],params[2]);
+  }
+}
+
+function onTimeout(){
+  this.delay = 0;
+
+}
+NPCEND
+NPC - 40 42
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 25) setstring this.s,need #v(25-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(stone.png) Stone Form#b25 tickets (#s(this.s))#bRock on!;
+}
+NPCEND
+NPC - 40 49
+//#CLIENTSIDE
+if (created) {
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 20) setstring this.s,need #v(20-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_healbook.png) Angel#b20 tickets (#s(this.s))#bFloat like an angel!;
+}
+NPCEND
+NPC - 43 49
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 20) setstring this.s,need #v(20-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_coinico1.png) Coin#b20 tickets (#s(this.s))#bFor those tough decisions.;
+}
+NPCEND
+NPC - 18 32
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 25) setstring this.s,need #v(25-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_gcp_dicei_0.png) Dice#b25 tickets (#s(this.s))#bFor those really tough decisions.;
+}
+NPCEND
+NPC - 27 49
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 15) setstring this.s,need #v(15-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_sack.png) Jellybeans#b15 tickets (#s(this.s))#bEat jellybeans - whenever!;
+}
+NPCEND
+NPC - 37 49
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 20) setstring this.s,need #v(20-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_chair.png) Portable Chair#b20 tickets (#s(this.s))#bTake a chair with you!;
+}
+NPCEND
+NPC - 37 32
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 25) setstring this.s,need #v(25-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_gc_rpsicon.png) RPS#b25 tickets (#s(this.s))#bRock, Paper, or Scissors?#bYou decide!#b(Press A to switch between#bplayer and computer Vs. modes.#bPress S to select your choice#bduring play.);
+}
+NPCEND
+NPC - 46 49
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 20) setstring this.s,need #v(20-lc) more;
+ else setstring this.s,purchasable;
+ say2 #i(classic_sworddance.png) Sword Dance#b20 tickets (#s(this.s))#bDo the sword dance!;
+}
+NPCEND
+NPC - 32 24
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ say2 To buy one of our great prizes,#bjust say "buy prizename" without#bquotes. For example: buy Dice#bPrize names are case sensitive,#bso watch the capital letters.#b#bYou can now buy more than one#bof an item, to trade with other#bplayers! Maybe. Probably. Later.;
+}
+NPCEND
+NPC classic_gcp_neopolytraili1.png 46 39
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+NPCEND
+NPC classic_fireworks-icon.png 27 39
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+NPCEND
+NPC - 27 42
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 25) setstring this.s,need #v(25-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_fireworks-icon.png) Fireworks#b25 tickets (#s(this.s))#bSummon colorful bursts!;
+}
+NPCEND
+NPC classic_gcp_polytraili1.png 43 39
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+NPCEND
+NPC - 43 42
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 25) setstring this.s,need #v(25-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_gcp_polytraili1.png) Poly Trail#b25 tickets (#s(this.s))#bLeave polygon footprints!#bCommands:#bred 0-1#bgreen 0-1#bblue 0-1#bUse them each seperately.;
+}
+NPCEND
+NPC classic_swordicon.png 36 21
+//#CLIENTSIDE
+if (created) dontblock;
+NPCEND
+NPC - 36 24
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 30) setstring this.s,need #v(30-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_swordicon.png) Sword Thrower#b30 tickets (#s(this.s))#bThrow your sword!;
+}
+NPCEND
+NPC skip_icon.png 18 46
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","skip");
+}
+NPCEND
+NPC - 18 49
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 10) setstring this.s,need #v(10-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(skip_icon.png) Jump Rope#b10 tickets (#s(this.s))#bSkip endlessly with a Jumprope!;
+}
+NPCEND
+NPC - 43 32
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 30) setstring this.s,need #v(30-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_s_vampsword.png) Fake Dagger#b30 tickets (#s(this.s))#bFake your own death!;
+}
+NPCEND
+NPC gc_note.png 21 46
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+NPCEND
+NPC - 46 42
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 25) setstring this.s,need #v(25-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_gcp_neopolytraili1.png) Neo Poly Trail#b25 tickets (#s(this.s))#bPolygon up a rainbow!#bCommands:#bred 0-1#bgreen 0-1#bblue 0-1#bUse them each seperately.;
+}
+NPCEND
+NPC stone.png 40 39
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_gc_stoneform");
+}
+NPCEND
+NPC - 21 49
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 10) setstring this.s,need #v(10-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(note.png) Studios Pass#b10 tickets (#s(this.s))#bUnlimited Studio Tickets!;
+}
+NPCEND
+NPC gc_book.png 24 46
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+this.carryopts = {"icemateria.png","grayorb.png","ballboy.png","vdskull.png","firemateria.png","aball.mng","cannonball_stoped.png","watermateria.png","boltmateria.png","wshuri.png","heart.png","jaysbananadrink.png"}
+}
+
+
+
+function onActionLeftmouse(){
+this.selector = int(random(1,3));
+if(this.selector == 1){
+triggeraction(32,20,"Gani","juggle","icemateria.png",266);
+}
+else{
+triggeraction(32,20,"Gani","carrypeople");
+}
+
+}
+NPCEND
+NPC - 24 49
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 15) setstring this.s,need #v(15-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(gc_book.png) Entertainer#b15 tickets (#s(this.s))#bEntertain your friends with a #btrick.;
+}
+NPCEND
+NPC classic_gcburn.png 18 39
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_gc_onfiretest");
+}
+NPCEND
+NPC snowpal.png 21 29
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+NPCEND
+NPC - 18 42
+//#CLIENTSIDE
+if (created){
+  setshape 1,32,16;
+}
+if (playertouchsme){
+  lc = strtofloat(#s(clientr.stat_gctickets));
+  if (lc < 20) setstring this.s,need #v(20-lc) more;
+  else setstring this.s,purchasable;
+  say2 #i(classic_gcburn.png) 3rd Degree Burn#b20 tickets (#s(this.s))#bThe roof won't be the only thing#bon fire anymore!;
+}
+NPCEND
+NPC - 47 22
+function onPlayerChats(){
+  if (player.chat == "buy 12-Pack"){
+    if (player.clientr.stat_gctickets => 1){
+      player.clientr.stat_gctickets -= 1;
+      player.clientr.("stat_gcitemct_beer")++;
+      player.chat = "You got a 12-Pack!";
+      player.addweapon("Beer");
+player.setani("classic_holdup","beer.png");
+   clientr.stat_ammo_beer+=12;
+    }else player.chat = "You don't have enough GC Tickets!";
+  }
+}
+NPCEND
+NPC kubol_bombx.png 24 39
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_gc_sd2");
+}
+NPCEND
+NPC - 24 42
+//#CLIENTSIDE
+if (created){
+  setshape 1,32,16;
+}
+if (playertouchsme){
+  lc = strtofloat(#s(clientr.stat_gctickets));
+  if (lc < 20) setstring this.s,need #v(20-lc) more;
+  else setstring this.s,purchasable;
+  say2 #i(kubol_bombx.png) Self Destruct#b20 ticket (#s(this.s))#bOops, I went boom. :(;
+}
+NPCEND
+NPC - 37 42
+//#CLIENTSIDE
+if (created){
+  setshape 1,32,16;
+}
+if (playertouchsme){
+  lc = strtofloat(#s(clientr.stat_gctickets));
+  if (lc < 25) setstring this.s,need #v(25-lc) more;
+  else setstring this.s,purchasable;
+  say2 #i(crystalorb.png) Aura#b25 ticket (#s(this.s))#bGives a small colored glow to#byour character,to set it say#b/aura redvalue(0-1)#bgreenvalue(0-1) bluevalue(0-1).#bEX: Purple=/aura 1 0 1.;
+}
+NPCEND
+NPC crystalorb.mng 37 39
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+NPCEND
+NPC funghead.png 21 39
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_gc_gurfon");
+}
+NPCEND
+NPC - 21 42
+//#CLIENTSIDE
+if (created){
+  setshape 1,32,16;
+}
+if (playertouchsme){
+  lc = strtofloat(#s(clientr.stat_gctickets));
+  if (lc < 20) setstring this.s,need #v(20-lc) more;
+  else setstring this.s,purchasable;
+  say2 #i(funghead.png) Freak#b20 ticket (#s(this.s))#bGet your freak on!;
+}
+NPCEND
+NPC beer.png 28 21
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,16,16);
+}
+NPCEND
+NPC classic_gchousebuild.png 40 29
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_gc_hb2");
+}
+NPCEND
+NPC - 28 24
+//#CLIENTSIDE
+if (created){
+  setshape 1,32,16;
+}
+if (playertouchsme){
+  lc = strtofloat(#s(clientr.stat_gctickets));
+  if (lc < 1) setstring this.s,need #v(1-lc) more;
+  else setstring this.s,purchasable;
+  say2 #i(beer.png) 12-Pack#b1 ticket (#s(this.s))#bA 12-Pack of beers!;
+}
+NPCEND
+NPC - 40 32
+//#CLIENTSIDE
+if (created){
+  setshape 1,32,16;
+}
+if (playertouchsme){
+  lc = strtofloat(#s(clientr.stat_gctickets));
+  if (lc < 30) setstring this.s,need #v(30-lc) more;
+  else setstring this.s,purchasable;
+  say2 #i(classic_gchousebuild.png) Shack on Demand#b30 tickets (#s(this.s))#bHome is where your shack is!;
+}
+NPCEND
+NPC - 21 32
+//#CLIENTSIDE
+if (created){
+  setshape 1,32,16;
+}
+if (playertouchsme){
+  lc = strtofloat(#s(clientr.stat_gctickets));
+  if (lc < 25) setstring this.s,need #v(25-lc) more;
+  else setstring this.s,purchasable;
+  say2 #i(snowpal.png) Time Distort#b25 tickets (#s(this.s))#bDistort time for crazy motion#beffects.;
+}
+NPCEND
+NPC - 46 32
+//#CLIENTSIDE
+if (created){
+  setshape 1,32,16;
+}
+if (playertouchsme){
+  lc = strtofloat(#s(clientr.stat_gctickets));
+  if (lc < 30) setstring this.s,need #v(30-lc) more;
+  else setstring this.s,purchasable;
+  say2 #i(sardonmael.png) Astral Projection#b30 tickets (#s(this.s))#bOut of body experience anyone?;
+}
+NPCEND
+NPC sardonmael.png 46 29
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_projection");
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 13 36
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 14 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 13 55
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 14 18
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 13 14
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 13 33
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 14 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 15 26
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 52 33
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 51 36
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 50 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 51 18
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 51 14
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 51 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 52 55
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_skullsummon.png 24 29
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_skullsummon");
+}
+NPCEND
+NPC - 24 32
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 25) setstring this.s,need #v(25-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_skullsummon.png) Skull Storm#b25 tickets (#s(this.s))#bA storm of skulls?#bBut there's not a cloud#bin the sky!;
+}
+NPCEND
+NPC classic_s_vampsword.png 43 29
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+setshape(1,32,32);
+}
+
+function onActionLeftmouse(){
+triggeraction(32,20,"Gani","classic_dead");
+}
+NPCEND
+NPC - 27 32
+//#CLIENTSIDE
+if (created){
+ setshape 1,32,16;
+}
+if (playertouchsme){
+ lc = strtofloat(#s(clientr.stat_gctickets));
+ if (lc < 25) setstring this.s,need #v(25-lc) more;
+  else setstring this.s,purchasable;
+ say2 #i(classic_skullsummon.png) Skull Summon#b25 tickets (#s(this.s))#bFrighten your foes!;
+}
+NPCEND

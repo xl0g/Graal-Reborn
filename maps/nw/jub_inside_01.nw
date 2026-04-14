@@ -1,0 +1,1050 @@
+GLEVNW01
+BOARD 0 0 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 1 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p45MBBBBBBBBBBBBBBBBBBBBBBBBBBBB5Np4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 2 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXCRCRCRCRCRCRCRCRCRCRCRCRBQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 3 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p45MBBBBBQBXYcYcYcYcYcYcYcYcYcYcYcYcBQBXBBBB5Np4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 4 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBRBRBQBXP6P7aQaRSfSfSfSfaQaRP8P9BQBXBRBRBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 5 64 0 p4p4p4p4p45MBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBQBXSNSOJ4J4J4J4J4J4J4J4SNSOBQBXBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5Np4p4p4
+BOARD 0 6 64 0 p4p4p4p4p4BQBRBRBXCRCRCRCRBQBXCRCRCRCRBQBXCRCRCRCRBQBXSdSeJ4J4J4J4J4J4J4J4SdSeBQBXCRCRCRCRBQBXCRCRCRCRBQBXCRCRCRCRBQBRBRBXp4p4p4
+BOARD 0 7 64 0 p4p4p4p4p4BQBRBRBXYcYcYcYcBQBXYcYcYcYcBQBXYcYcYcYcBQBXStSuLmLmLmLmLmLmLmLmStSuBQBXNBNCNBNCBQBXNBNCNBNCBQBXNBNCNBNCBQBRBRBXp4p4p4
+BOARD 0 8 64 0 p4p4p4p4p4BQBRBRBXG3H3HHK1BQBXAYAZAaAbBQBXAeAfAQpqBQBXYcYcYcYcYcYcYcYcYcYcYcYcBQBXNRNSNRNSBQBXNRNSNRNSBQBXNRNSNRNSBQBRBRBXp4p4p4
+BOARD 0 9 64 0 p4p4p4p4p4BQBXCRBzHHAQKnKoCQBzAoApAqArCQBzAuAvpqFpBQBXcdnmnXnXn1k5k5n0nXnXnnk2CQBzNhNiNhNiCQBzNhNiNhNiCQBzNhNiNhNiCQCRBQBXp4p4p4
+BOARD 0 10 64 0 p4p4p4p4p4BQBXYKYLYKYcYcYLmImJYKYcYcYLmImJYKYcYcYLBQBXnmn1k5k5k5k5k5k5k5k5n0nnYKYLNxNyNxNyYKYLNxNyNxNyYKYLNxNyNxNyYKYLBQBXp4p4p4
+BOARD 0 11 64 0 p4p4p4p4p4BQBX5c5dZ2Z3Z3Z4mYmZZ2Z3Z3Z4mYmZZ2Z3Z3Z4BQBXLIKrKrKqKpKqKpKpKqKrk5n0dldmk2cdk2cd5c5dk2cdk2cd5c5dk2cdk2cddldmBQBXp4p4p4
+BOARD 0 12 64 0 p4p4p4p4p4BQBXnnk2aGaHaHaIm4m5aGaHaHaIm4m5aGaHaHaICQBzLYK7KrKqKpKqKpKpKqKrk5k5dldmcdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2dldmBQBXp4p4p4
+BOARD 0 13 64 0 p4p4p4p4p4BQBXn0nXnncdk2cdk2cdk2cdk2cdk2cdk2cdk2cdYKYLLYK7KrK6K5K6K5K5K6Krk5k5dldmk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cddldmBQBXp4p4p4
+BOARD 0 14 64 0 p4p4p4p4p4BQBXk5k5n0nncdk2cdk2cdk2cdk2cdk2cdk2cdk25c5dLoLLk5KrKrKrKrKrKrk5k5k5dlc/dEdFdEdEdEdEdEdFdFdEdEdEdEdFdEdFc/dmBQBXp4p4p4
+BOARD 0 15 64 0 p4p4p4p4p4BQBXk5KpKqn0nncdk2cdk2cdk2cdk2cdk2cdk2cdn2nlk5k5nknWnlk5k5k5k5k5k5nkdTdUdUdVdUdUdUdUdUdVdVdUdUdUdUdVdUdVdUdWBQBXp4p4p4
+BOARD 0 16 64 0 p4p4p4p4p4BQBXk5K5K6k5n0nncdk2cdk2cdk2cdk2cdk2cdk2cdn2nWnWn3k2n2nWnWnlk5k5nkn3KpKqN6N6N6N6KpKqN6N6N6N6KpKqN6N6N6N6KpKqBQBXp4p4p4
+BOARD 0 17 64 0 p4p4p4p4p4BQBXLILJLJKrk5n0nncdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2n2nWnWn3cdK5K6k2cdk2cdK5K6k2cdk2cdK5K6k2cdk2cdK5K6BQBXp4p4p4
+BOARD 0 18 64 0 p4p4p4p4p4BQBXLYLZLZK7KpKqn0nncdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2kYkZcdk2cdk2kYkZcdk2cdk2kYkZcdk2cdk2kYkZBQBXp4p4p4
+BOARD 0 19 64 0 p4p4p4p4p4BQBXLYLZLZK7K5K6k5nGk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2nHBQBXp4p4p4
+BOARD 0 20 64 0 p4p4p4p4p4BQBXLoLpLpLLk5k5nkn3cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2nmnXnXnXnXnXnXnXnXnXnXn1BQBXp4p4p4
+BOARD 0 21 64 0 p4p4p4p4p4BQBXBBBBBBBBBBBB5NdDdEdEdEdGnncdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdnH5MBBBBBBBBBBBBBBBBBBBBBQBXp4p4p4
+BOARD 0 22 64 0 p4p4p4p4p4BQBXCRCRCRCRCRBQBXdTdUdUc/dmn0nncdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2nHBQBXCRBQBXCRCRCRBQBXCRBQBXp4p4p4
+BOARD 0 23 64 0 p4p4p4p4p4CQBzYcYcYcYcYcBQBX5cN6N6dldmk5n0nncdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2nmnXnXn1BQBXYcCQBzYKYcYLCQBzYcBQBXp4p4p4
+BOARD 0 24 64 0 p4p4p4p4p4YKYLNrChCiCjNrBQBXnGk5k5dldmk5k5nGk2cdk2cdk2cdk2cd797+7+7+7+7/k2cdk2cdk2cdk2cdnHk5k5nHBQBXNrYKYLChCiCjYKYLNrCQBzp4p4p4
+BOARD 0 25 64 0 p4p4p4p4p4UpUqN6CxCyCzN6BQBXnGk5k5dldmk5k5n0nnk2cdk2cd797+7+8OnmnXnXnn8O7+7+7/k2cdk2cdnmn1KpKqnHBQBXN6UpUqCxCyCzUpUqN6YKYLp4p4p4
+BOARD 0 26 64 0 p4p4p4p4p45c5dp4p4p4p4p4BQBXnGk5k5dldmk5k5k5nGcdk2cd798OnmnXnXn1FCFCn0nXnXnn8O7/k2cdnmn1k5K5K6nHBQBXp45c5dp4p4p45c5dp4UpUqp4p4p4
+BOARD 0 27 64 0 p4p4p4p4p4p4p4p4p4p4p4p4BQBXnGk5k5dldmk5k5k5nGk2cdk28Nnmn1FCFCFCFCFCFCFCFCn0nn8Pcdnmn1k5LILJLJKrBQBXp4p4p4p4p4p4p4p4p45c5dp4p4p4
+BOARD 0 28 64 0 p4p4p4p4p4p4p4p4p4p4p4p4BQBXnGk5k5dldmk5k5k5nGcdk2cd8NnHFCFCFCFCFCFCFCFCFCFCnG8Pk2nHKpKqLYLZLZK7BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 29 64 0 p4p4p4p4p4p4p4p4p4p45MBBBQBXnGk5k5dldmk5k5nkn3k2cdk28NnHFCFCFCFCFCFCFCFCFCFCnG8PcdnHK5K6LYLZLZK7BQBXJ4J4J4J4J4J4p4p4p4p4p4p4p4p4
+BOARD 0 30 64 0 p4p4p4p4p4p4p4p45MBBBQBXCRBznGk5k5dldmk5k5nGk2cdk2cd8Nn2nlFCFCFCFCFCFCFCFCnkn38Pk2n2nlk5LoLpLpLLBQBXBBBBBBBBBB5Np4p4p4p4p4p4p4p4
+BOARD 0 31 64 0 p4p4p4p4p4p45MBBBQBXCRBzYKYLdDdEdEc/dmk5nkn3cdk2cdk28d56n2nWnWnlFCFCnknWnWn35q8fcdk2n2nlk5KpKqnHBQBXBRBRBRBRBRBXp4p4p4p4p4p4p4p4
+BOARD 0 32 64 0 p4p4p4p4p4p4BQBXCRBzYKYLUpUqdTdUdUdUdWnkn3cdk2cdk2cd8t8d568O8On2nWnWn38O8O5q8f8vk2cdk2n2nlK5K6nHBQBRBBBBBBBBBBBBBBBBBB5Np4p4p4p4
+BOARD 0 33 64 0 p4p4p4p4p4p4BQBXYKYLUpUqmImJ5cN6N6N65dn3cdk2cdk2cdk2cd8t8d8e8e568O8O5q8e8e8f8vk2cdk2cdk2nHk5k5nHCQCRCRCRCRCRCRCRCRCRBQBXJ4p4p4p4
+BOARD 0 34 64 0 p4p4p4p4p4p4BQBXUpUqmImJmYmZnncdk2cdk2cdk2cdk2cdk2cdk2cd8t8u8u8d8e8e8f8u8u8vk2cdk2cdk2cdn2nWnWnlYKYcYcYcYcYcYcYcYcYcBQBXJ4p4p4p4
+BOARD 0 35 64 0 p4p4p4p4p4p4BQBXmImJmYmZm4m5n0nXnnk2cdk2cdk2cdk2cdk2cdk2cdk2cd8t8u8u8vk2cdk2cdk2cdk2cdk2cdk2cdnHlYFCFClZB0B1B2B3BQBXBQBXJ4p4p4p4
+BOARD 0 36 64 0 p4p4p4p4p4p4BQBXmYmZm4m5k5k5k5k5n0nXnncdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2nHlYFCFClZCEiLiLCHCQBzBQBXJ4p4p4p4
+BOARD 0 37 64 0 p4p4p4p4p4p4BQBXm4m5k5k5k5k5k5k5k5k5n0nncdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdnHlYFCFClZCUibibCX5c5dBQBXp4p4p4p4
+BOARD 0 38 64 0 p4p4p4p4p4p4BQBXnHk5k5k5KpKqKpKqk5k5k5n0nncdk2cdk2cdk2cdk2cdk2nkmImJnncdk2cdk2cdk2cdk2cdk2cdk2nHlYFCFClZTfbQbQbRBQBXBQBXp4p4p4p4
+BOARD 0 39 64 0 p4p4p4p4p4p4BQBXnHk5k5k5K5K6K5K6k5k5k5k5nGk2cdk2cdk2cdk2cdk2cdnHmYmZnHk2cdk2cdk2cdk2cdk2cdk2cdnHlYFCFClZT/bwbwbxBQBXBQBXp4p4p4p4
+BOARD 0 40 64 0 p4p4p4p4p4p4BQBXnHk5k5LILJLKLJLKKrk5k5k5nGcdk2cdk2cdk2cdk2cdk2nGm4m5nGcdk2cdk2cdk2cdk2cdk2cdk2nHl4lJlJl57f7f7f7fCQBzBQBXp4p4p4p4
+BOARD 0 41 64 0 p4p4p4p4p4p4BQBXnHKpKqLYLZLaLZLaK7KpKqk5nGk2cdk2cdk2cdk2cdk2cdn2nXnWn1k2cdk2cdk2cdk2cdk2cdk2cdnH5cN6N65d7v7v7v7v5c5dBQBXp4p4p4p4
+BOARD 0 42 64 0 p4p4p4p4p4p4BQBXnHK5K6LYLZLaLZLaK7K5K6k5nGcdk2cdnkmImJnnk2cdk2cdk2cdk2cdk2cdnkmImJnnk2cdk2cdk2n2nWnWnlk5k5k5k5k5k5nGBQBXp4p4p4p4
+BOARD 0 43 64 0 p4p4p4p4p4p4BQBXnHk5k5LoLpLqLpLqLLk5k5k5nGk2cdk2nHmYmZnHcdk2cdk2cdk2cdk2cdk2nHmYmZnHcdk2cdk2cdk2cdk2n2nlk5k5k5k5k5nGBQBXp4p4p4p4
+BOARD 0 44 64 0 p4p4p4p4p4p4BQBXnHk5k5k5KpKqKpKqk5k5k5nkn3cdk2cdnGm4m5nGk2cdk2cdk2cdk2cdk2cdnGm4m5nGk2cdk2cdk2cdk2cdk2nHk5k5k5k5k5nGBQBXp4p4p4p4
+BOARD 0 45 64 0 p4p4p4p4p4p4BQBXnHk5k5k5K5K6K5K6k5k5k5nGcdk2cdk2n2nXnWn1cdk2cdk2cdk2cdk2cdk2n2nXnWn1cdk2cdk2cdk2cdk2cdn2nlk5k5k5mImJBQBXp4p4p4p4
+BOARD 0 46 64 0 p4p4p4p4p4p4BQBXnHk5k5k5k5k5k5k5k5k5nkn3k2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdn2nlk5k5mYmZBQBXp4p4p4p4
+BOARD 0 47 64 0 p4p4p4p4p4p4BQBXn2nWnWnWnWnWnWnWnWnWn3k2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdnmnXnXnXnXnXnXnXn2nWnWm4m5BQBXp4p4p4p4
+BOARD 0 48 64 0 p4p4p4p4p4p4BQBXBBBB5NZ2Z3Z3Z45MBBBBBB5N7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P5MBBBBBB5NZ2Z3Z3Z45MBBBBBQBXp4p4p4p4
+BOARD 0 49 64 0 p4p4p4p4p4p4BQBXCRBQBXaGaHaHaIBQBXCRBQBX7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7fBQBXCRBQBXaGaHaHaIBQBXCRBQBXp4p4p4p4
+BOARD 0 50 64 0 p4p4p4p4p4p4BQBXYcBQBXBBBBBBBBBQBXYcBQBX7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7vBQBXYcBQBXBBBBBBBBBQBXYcBQBXp4p4p4p4
+BOARD 0 51 64 0 p4p4p4p4p4p4BQBXNrCQBzCRCRCRCRCQBzNrBQBRBB5Nnnk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdnm5MBBBRBXNrCQBzCRCRCRCRCQBzNrBQBXp4p4p4p4
+BOARD 0 52 64 0 p4p4p4p4p4p4CQBzNrYKYcYcYcYcYcYcYLNrCQBQBRBXn0nnk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdnmn1BQBRBXBzNrYKYcYcYcYcYcYcYLNrCQBzp4p4p4p4
+BOARD 0 53 64 0 p4p4p4p4p4p4YKYLN6UpCEChCiCiCjCHUqN6YKBQBRBXnGn0nXnncdk2cdk2cdk2cdk2cdk2cdk2cdk2nmnXn1nHBQBRBXYLN6UpCEChCiCiCjCHUqN6YKYLp4p4p4p4
+BOARD 0 54 64 0 p4p4p4p4p4p4UpUqp45cCHCxCyCyCzCE5dp4UpCQBQBXnGk5k5n0nXnnk2cdk2cdk2cdk2cdk2cdnmnXn1k5k5nHBQBXBzUqp45cCHCxCyCyCzCE5dp4UpUqp4p4p4p4
+BOARD 0 55 64 0 p4p4p4p4p4p4UpUqp4p4p4p4p4p4p4p4p4p4UpYKBQBXmImJk5k5k5n0mImJcdk2cdk2cdk2mImJn1k5k5k5mImJBQBXYLUqp4p4p4p4p4p4p4p4p4p4UpUqp4p4p4p4
+BOARD 0 56 64 0 p4p4p4p4p4p45c5dp4p4p4p4p4p4p4p4p4p45cUpBQBXmYmZZ2Z3Z3Z4mYmZk2cdk2cdk2cdmYmZZ2Z3Z3Z4mYmZBQBXUq5dp4p4p4p4p4p4p4p4p4p45c5dp4p4p4p4
+BOARD 0 57 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p45cBQBXm4m5aGaHaHaIm4m5nXnXnXnXnXnXm4m5aGaHaHaIm4m5BQBX5dp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 58 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4CQBQBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBXBzp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 59 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4YKCQBQBXCRCRCRCRBQBXCRCRCRCRCRCRBQBXCRCRCRCRBQBXBzYLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 60 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4UpYKBQBXYKYcYcYLCQBzYcB0B1B2B3YcCQBzYKYcYcYLBQBXYLUqp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 61 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4UpUpCQBzChCiCiCjYKYLNrCECFCGCHNrYKYLChCiCiCjCQBzUqUqp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 62 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p45cUpYKYLCxCyCyCzUpUqNrCUCVCWCXNrUpUqCxCyCyCzYKYLUq5dp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 63 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p45cUpUqp4p4p4p45c5dN6p4p4p4p4N65c5dp4p4p4p4UpUq5dp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+LINK jub_inside_02.nw 53 35 2 1 54.5 44
+LINK graalcity_outside_18.nw 32 58 2 1 33.5 43
+NPC - 58 27
+//#CLIENTSIDE
+if (playerenters) {seteffect 0,0,0,0.5;
+}
+if (created) {
+
+  dontblock;
+}
+NPCEND
+NPC beerhost.png 48 12
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 39 10
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 14 31
+//#CLIENTSIDE
+NPCEND
+NPC fire.mng 29 4
+//#CLIENTSIDE
+if(created){
+  this.a = 0.20;
+  this.b = 1;
+  this.g = 1;
+  this.at = 0;
+  this.bt = 0;
+  this.gt = 0;
+  drawaslight;
+}
+if (playerenters || timeout) {
+  if(this.a >= .39) this.at = 1;
+  if(this.b >= .99) this.bt = 1;
+  if(this.g >= .99) this.gt = 1;
+  if(this.a <= .25) this.at = 0;
+  if(this.b <= .25) this.bt = 0;
+  if(this.g <= .05) this.gt = 0;
+  if(this.gt = 0) this.g += 0.005;
+  else this.g -= 0.005;
+  if(this.bt = 0) this.b += 0.01;
+  else this.b -= 0.01;
+  if(this.at = 0) this.a += 0.01;
+  else this.a -= 0.01;
+  setcoloreffect 1,this.b,this.g,this.a;
+  timeout = 0.05;}
+NPCEND
+NPC fire.mng 35 4
+//#CLIENTSIDE
+if(created){
+  this.a = 0.20;
+  this.b = 1;
+  this.g = 1;
+  this.at = 0;
+  this.bt = 0;
+  this.gt = 0;
+  drawaslight;
+}
+if (playerenters || timeout) {
+  if(this.a >= .39) this.at = 1;
+  if(this.b >= .99) this.bt = 1;
+  if(this.g >= .99) this.gt = 1;
+  if(this.a <= .25) this.at = 0;
+  if(this.b <= .25) this.bt = 0;
+  if(this.g <= .05) this.gt = 0;
+  if(this.gt = 0) this.g += 0.005;
+  else this.g -= 0.005;
+  if(this.bt = 0) this.b += 0.01;
+  else this.b -= 0.01;
+  if(this.at = 0) this.a += 0.01;
+  else this.a -= 0.01;
+  setcoloreffect 1,this.b,this.g,this.a;
+  timeout = 0.05;}
+NPCEND
+NPC fire.mng 31 4
+//#CLIENTSIDE
+if(created){
+  this.a = 0.20;
+  this.b = 1;
+  this.g = 1;
+  this.at = 0;
+  this.bt = 0;
+  this.gt = 0;
+  drawaslight;
+}
+if (playerenters || timeout) {
+  if(this.a >= .39) this.at = 1;
+  if(this.b >= .99) this.bt = 1;
+  if(this.g >= .99) this.gt = 1;
+  if(this.a <= .25) this.at = 0;
+  if(this.b <= .25) this.bt = 0;
+  if(this.g <= .05) this.gt = 0;
+  if(this.gt = 0) this.g += 0.005;
+  else this.g -= 0.005;
+  if(this.bt = 0) this.b += 0.01;
+  else this.b -= 0.01;
+  if(this.at = 0) this.a += 0.01;
+  else this.a -= 0.01;
+  setcoloreffect 1,this.b,this.g,this.a;
+  timeout = 0.05;}
+NPCEND
+NPC light2.png 39 5
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 0,.7,1,0.5;
+  drawaslight;
+  setzoomeffect 2;
+}
+NPCEND
+NPC light2.png 51 5
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 0,.7,1,0.5;
+  drawaslight;
+  setzoomeffect 2;
+}
+NPCEND
+NPC classic_cult_chair.png 39 16
+//#CLIENTSIDE
+// NPC made by jub
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_cult_chair.png 57 16
+//#CLIENTSIDE
+// NPC made by jub
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_cult_chair.png 51 16
+//#CLIENTSIDE
+// NPC made by jub
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_cult_chair.png 45 16
+//#CLIENTSIDE
+// NPC made by jub
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC beer.png 57 14
+
+if (created) {
+  hide;
+}
+if (playerchats && strequals(#c,Beer)) show;
+if (playertouchsme) {
+  setstring clientr.stat_hp,#s(clientr.stat_maxhp);
+  hide;
+}
+NPCEND
+NPC beer.png 39 14
+
+if (created) {
+  hide;
+}
+if (playerchats && strequals(#c,Beer)) show;
+if (playertouchsme) {
+  setstring clientr.stat_hp,#s(clientr.stat_maxhp);
+  hide;
+}
+NPCEND
+NPC beer.png 45 14
+
+if (created) {
+  hide;
+}
+if (playerchats && strequals(#c,Beer))show;
+if (playertouchsme) {
+  setstring clientr.stat_hp,#s(clientr.stat_maxhp);
+  hide;
+}
+NPCEND
+NPC beer.png 51 14
+
+if (created) {
+  hide;
+}
+if (playerchats && strequals(#c,Beer))show;
+if (playertouchsme) {
+  setstring clientr.stat_hp,#s(clientr.stat_maxhp);
+  hide;
+}
+NPCEND
+NPC light4.png 29 2
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,.5,.1,0.6;
+  drawaslight;
+  this.zoom = 2;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=2) {
+this.ds=1;
+}
+else if (this.zoom>=2.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC candle.mng 13 40
+//#CLIENTSIDE
+NPCEND
+NPC candle.mng 27 11
+//#CLIENTSIDE
+NPCEND
+NPC light2.png 45 5
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 0,.7,1,0.5;
+  drawaslight;
+  setzoomeffect 2;
+}
+NPCEND
+NPC fire.mng 33 4
+//#CLIENTSIDE
+if(created){
+  this.a = 0.20;
+  this.b = 1;
+  this.g = 1;
+  this.at = 0;
+  this.bt = 0;
+  this.gt = 0;
+  drawaslight;
+}
+if (playerenters || timeout) {
+  if(this.a >= .39) this.at = 1;
+  if(this.b >= .99) this.bt = 1;
+  if(this.g >= .99) this.gt = 1;
+  if(this.a <= .25) this.at = 0;
+  if(this.b <= .25) this.bt = 0;
+  if(this.g <= .05) this.gt = 0;
+  if(this.gt = 0) this.g += 0.005;
+  else this.g -= 0.005;
+  if(this.bt = 0) this.b += 0.01;
+  else this.b -= 0.01;
+  if(this.at = 0) this.a += 0.01;
+  else this.a -= 0.01;
+  setcoloreffect 1,this.b,this.g,this.a;
+  timeout = 0.05;}
+NPCEND
+NPC pottedplant.png 22 55
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 32 38
+//#CLIENTSIDE
+NPCEND
+NPC water32.mng 28 28
+//#CLIENTSIDE
+// NPC made by jub
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC light4.png 29 25
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 0,0.7,1,0.5;
+  drawaslight;
+  this.zoom = 2;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=2) {
+this.ds=1;
+}
+else if (this.zoom>=2.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC pottedplant.png 10 34
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 56 45
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 36 55
+//#CLIENTSIDE
+NPCEND
+NPC light2.png 24 8
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,0.6,0,0.5;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC pottedplant.png 8 35
+//#CLIENTSIDE
+NPCEND
+NPC light4.png 46 35
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 0,0.7,1,0.5;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC pottedplant.png 12 33
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 17 31
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 17 21
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 14 21
+//#CLIENTSIDE
+NPCEND
+NPC water32.mng 32 28
+//#CLIENTSIDE
+// NPC made by jub
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC water32.mng 32 30
+//#CLIENTSIDE
+// NPC made by jub
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC water32.mng 30 28
+//#CLIENTSIDE
+// NPC made by jub
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC water32.mng 36 28
+//#CLIENTSIDE
+// NPC made by jub
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC water32.mng 34 28
+//#CLIENTSIDE
+// NPC made by jub
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_window.png 9 8
+//#CLIENTSIDE
+NPCEND
+NPC classic_window.png 23 8
+//#CLIENTSIDE
+NPCEND
+NPC classic_window.png 15 8
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 28 55
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 25 42
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 42 55
+//#CLIENTSIDE
+NPCEND
+NPC light2.png 10 37
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,0.6,0,0.5;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC classic_sofa_3.png 29 11
+//#CLIENTSIDE
+// NPC made by jub (NBK)
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 17 23
+//#CLIENTSIDE
+NPCEND
+NPC light2.png 14 26
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,0.6,0,0.5;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC bookopen.png 17 27
+if (created){ x = 17.3;}
+
+//#CLIENTSIDE
+if (created) setstring this.text,
+Welcome to Jub's House;
+NPCEND
+NPC book6.png 17 25
+//#CLIENTSIDE
+NPCEND
+NPC candle.mng 8 17
+//#CLIENTSIDE
+NPCEND
+NPC candle.mng 17 29
+//#CLIENTSIDE
+NPCEND
+NPC light2.png 4 6
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,0.6,0,0.5;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC light2.png 14 20
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,0.6,0,0.5;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC candle.mng 51 9
+//#CLIENTSIDE
+NPCEND
+NPC light2.png 42 6
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,0.6,0,0.5;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC light2.png 29 9
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 0,.7,1,0.1;
+  drawaslight;
+  setzoomeffect 3;
+}
+NPCEND
+NPC candle.mng 45 27
+//#CLIENTSIDE
+NPCEND
+NPC candle.mng 45 9
+//#CLIENTSIDE
+NPCEND
+NPC light2.png 42 24
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,0.6,0,0.5;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC light2.png 48 6
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,0.6,0,0.5;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC pottedplant.png 19 10
+//#CLIENTSIDE
+NPCEND
+NPC water32.mng 32 26
+//#CLIENTSIDE
+// NPC made by jub
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC pottedplant.png 39 42
+//#CLIENTSIDE
+NPCEND
+NPC - 14 26
+
+
+ { showcharacter;
+  setcharprop #3,classichead-twindragons2.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,darkred;
+  setcharprop #C3,black;
+  setcharprop #8,bodyc-suit.png;
+  setcharprop #2, nbk-shield.mng;
+  setcharprop #C4,red;
+  setcharprop #n, jub (NBK);
+  shieldpower = 1;
+  dir = 3;
+  ap = 86;
+
+}
+NPCEND
+NPC classic_window.png 21 8
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 13 10
+//#CLIENTSIDE
+NPCEND
+NPC classic_window.png 17 8
+//#CLIENTSIDE
+NPCEND
+NPC classic_window.png 11 8
+//#CLIENTSIDE
+NPCEND
+NPC light2.png 5 14
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,0.6,0,0.5;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC candle.mng 7 9
+//#CLIENTSIDE
+NPCEND
+NPC light2.png 38 35
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 0,0,0,0.3;
+  drawaslight;
+}
+NPCEND
+NPC pottedplant.png 57 10
+//#CLIENTSIDE
+NPCEND
+NPC light4.png 10 10
+//#CLIENTSIDE
+if (playerenters){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light4.png,50,65,32,70;
+  dontblock;
+setzoomeffect 2
+}
+NPCEND
+NPC light4.png 25 53
+//#CLIENTSIDE
+if (playerenters){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light4.png,50,2,32,53;
+  dontblock;
+setzoomeffect 2;
+}
+NPCEND
+NPC light4.png 16 10
+//#CLIENTSIDE
+if (playerenters){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light4.png,50,65,32,70;
+  dontblock;
+setzoomeffect 2
+}
+NPCEND
+NPC light4.png 22 10
+//#CLIENTSIDE
+if (playerenters){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light4.png,50,65,32,70;
+  dontblock;
+setzoomeffect 2
+}
+NPCEND
+NPC light4.png 32 51
+//#CLIENTSIDE
+if (playerenters){
+  drawaslight;
+  setcoloreffect 1,1,1,0.3;
+  setimgpart light4.png,50,0,32,55;
+  dontblock;
+setzoomeffect 3;
+}
+NPCEND
+NPC light4.png 39 53
+//#CLIENTSIDE
+if (playerenters){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light4.png,50,2,32,53;
+  dontblock;
+setzoomeffect 2;
+}
+NPCEND
+NPC light4.png 52 45
+//#CLIENTSIDE
+if (playerenters){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light4.png,50,2,32,53;
+  dontblock;
+setzoomeffect 2;
+}
+NPCEND
+NPC light4.png 12 45
+//#CLIENTSIDE
+if (playerenters){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light4.png,50,2,32,53;
+  dontblock;
+setzoomeffect 2;
+}
+NPCEND
+NPC waterani.mng 49 35
+//#CLIENTSIDE
+if (created) {setimgpart waterani.mng, 0,0,32,24932;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC door.png 53 36
+//#CLIENTSIDE
+// NPC made by Stefan Knorr
+if (created) {
+  setimg door.png;
+  setshape 1,32,32;
+}
+if (playertouchsme) {
+  hide;
+  sleep 3;
+  show;
+}
+NPCEND
+NPC - 10 25
+join level_nopk;
+NPCEND
+NPC - 33 29
+// NPC made by MASTER STORM OK NOT REV TENJIN
+//#CLIENTSIDE
+if (playerenters) {drawaslight;
+  this.flames_maximumx = -5;              //Maximum horizontal movement
+  this.flames_minimumx = 5;             //Minimum horizontal movement
+  this.flames_maximumy = -17;              //Maximum vertical movement
+  this.flames_minimumy = -22;             //Minimum vertical movement
+  this.flames_gravityx = 0;              //Horizontal gravity pull per refresh
+  this.flames_gravityy = 0.075;              //Vertical gravity pull per refresh
+  this.flames_maincolor_red = 0.0;         //Main colour red amount
+  this.flames_maincolor_green = 0.2;       //Main colour green amount
+  this.flames_maincolor_blue = 1;        //Main colour blue amount
+  this.flames_tintcolor_red = 0.2;         //Tint colour red amount
+  this.flames_tintcolor_green = 0.2;     //Tint colour green amount
+  this.flames_tintcolor_blue = 1;        //Tint colour blue amount
+  this.flames_glowcolor_red = 0;         //NPC glow red amount
+  this.flames_glowcolor_green = 0;     //NPC glow green amount
+  this.flames_glowcolor_blue = 0;        //NPC glow blue amount
+  this.flames_zoom = 0.17;                //Particle Density
+  this.flames_alpha = 0.5;               //Particle Opacity
+  this.flames_multiplyer = 185;            //Particle Complexity (Use only whole numbers)
+  this.flames_recycletime = 20;           //Refreshes before a particle is recycled (Use only whole numbers)
+  setarray this.flames_randomx,this.flames_multiplyer;
+  setarray this.flames_randomy,this.flames_multiplyer;
+  setarray this.flames_changevar,this.flames_multiplyer;
+  this.flames_setupvar = 0;
+  for (this.flames_setup = 0;this.flames_setup < this.flames_multiplyer;this.flames_setup ++){
+    this.flames_randomx[this.flames_setup] = random(this.flames_minimumx,this.flames_maximumx);
+    this.flames_randomy[this.flames_setup] = random(this.flames_minimumy,this.flames_maximumy);
+    this.flames_changevar[this.flames_setup] = this.flames_setupvar;
+    this.flames_setupvar ++;
+    if (this.flames_setupvar > this.flames_recycletime){
+      this.flames_setupvar = 0;
+    }
+  }
+  showimg 205,light2.png,x - 4,y - 4;
+  changeimgcolors 205,this.flames_glowcolor_red,this.flames_glowcolor_green,this.flames_glowcolor_blue,0.99;
+  changeimgvis 205,3;
+  timeout = 0.05;
+}
+if (timeout){
+  this.flames_colourswitch = 0;
+  for (this.flames_drawtime = 0;this.flames_drawtime < this.flames_multiplyer;this.flames_drawtime ++){
+    showimg 210 + this.flames_drawtime,light2.png,x - 4 + (this.flames_randomx[this.flames_drawtime] / this.flames_recycletime)*this.flames_changevar[this.flames_drawtime] + ((this.flames_changevar[this.flames_drawtime]^2)/2 + this.flames_changevar[this.flames_drawtime]/2)*this.flames_gravityx,y - 4 + (this.flames_randomy[this.flames_drawtime] / this.flames_recycletime)*this.flames_changevar[this.flames_drawtime] + ((this.flames_changevar[this.flames_drawtime]^2)/2 + this.flames_changevar[this.flames_drawtime]/2)*this.flames_gravityy;
+    if (this.flames_colourswitch > 1){
+      changeimgcolors 210 + this.flames_drawtime,this.flames_tintcolor_red,this.flames_tintcolor_green,this.flames_tintcolor_blue,this.flames_alpha;
+      this.flames_colourswitch = 0;
+    }
+    else {
+      changeimgcolors 210 + this.flames_drawtime,this.flames_maincolor_red,this.flames_maincolor_green,this.flames_maincolor_blue,this.flames_alpha;
+      this.flames_colourswitch ++;
+    }
+    changeimgvis 210 + this.flames_drawtime,3;
+    changeimgzoom 210 + this.flames_drawtime,this.flames_zoom;
+    this.flames_changevar[this.flames_drawtime] ++;
+    if (this.flames_changevar[this.flames_drawtime] > this.flames_recycletime){
+      this.flames_changevar[this.flames_drawtime] = 0;
+      this.flames_randomx[this.flames_drawtime] = random(this.flames_minimumx,this.flames_maximumx);
+      this.flames_randomy[this.flames_drawtime] = random(this.flames_minimumy,this.flames_maximumy);
+    }
+  }
+  timeout = 0.05;
+}
+NPCEND

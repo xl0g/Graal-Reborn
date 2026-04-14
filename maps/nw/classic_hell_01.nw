@@ -1,0 +1,283 @@
+GLEVNW01
+BOARD 0 0 64 0 sjv/v/v/v/v/sQsRsSsTrSrTrUrVv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/oAoBv/v/v/rwqfqeqfqeqfqerxryrzr0r1v/v/v/v/v/v/rsr8q7rerbrfv/v/v/v/
+BOARD 0 1 64 0 sTv/v/v/v/v/sQshsisjrirjrkrVv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/rwrWquqvquqvquqvryrzr0r1v/v/v/v/v/v/rsr8q7rLrurvr/v/v/v/v/
+BOARD 0 2 64 0 sjv/v/v/v/v/sQsRsSsTrSrTrUrVv/v/v/oAoBv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/rwrWryrzq/q+q/q+q/q+r0r1v/v/v/v/v/v/rsr8q7rerbrvr/v/v/v/v/v/
+BOARD 0 3 64 0 sTv/v/v/v/v/sQshsisjrirjrkrVv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/rwrWryrzr0qoqoqoqoqoqor1v/v/v/v/v/v/v/r8q7rLrurvr/v/v/v/v/v/v/
+BOARD 0 4 64 0 sjv/v/v/v/v/sQsRsSsTrSrTrUrVv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/rwrWryrzr0r1v/v/v/v/v/v/v/v/v/v/v/v/v/sQsRs3rbrvr/v/v/v/v/v/v/v/
+BOARD 0 5 64 0 sTv/v/v/v/v/sQshsisjrirjrkrVv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/rwqfqerxryrzr0r1v/v/v/v/v/v/v/v/v/v/v/v/v/v/sQshsis3r/v/v/v/v/v/v/v/v/
+BOARD 0 6 64 0 sjv/v/v/v/v/sQsRsSsTrSrTrUrVv/v/v/v/v/v/v/v/v/oAoBv/v/v/rwrWquqvryrzr0r1v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/sAsBsCsDrdsFv/v/v/v/v/v/v/
+BOARD 0 7 64 0 sTv/v/v/v/v/sQshsisjrirjrkrVv/v/v/v/v/v/v/v/v/v/v/v/v/rwrxryrzq/q+r0r1v/v/v/v/v/v/v/v/rwqfqeqfqesFv/v/v/sAsBsCsDrdsFv/v/v/v/v/v/
+BOARD 0 8 64 0 sjsFv/v/v/v/sQsRsSsTtgthq4r3rnv/v/v/v/v/v/v/v/v/v/v/rwrxryrzr0qoqor1v/v/v/v/v/v/v/v/rwrWquqvquqvrdsFv/v/v/sAsBsCsDrdqfqeqfqesFv/
+BOARD 0 9 64 0 sDrdsFv/v/v/sQshsisjtwrYrIq4r3rnv/v/v/v/v/v/v/v/v/rwrxryrzr0r1v/v/v/v/rwqfqeqfqeqfqerxryrzq/q+sCsDrdsFv/v/v/sAsBsCsDquqvquqvrdsF
+BOARD 0 10 64 0 sCsDrdsFv/v/sQsRsSsTuQuArYrIq4r3rnv/v/v/v/v/v/v/v/rxryrzr0r1v/v/v/v/rwrWquqvquqvquqvryrzr0qoqosBsCsDrdv/v/v/v/sAsBq/q+q/q+sCsDrd
+BOARD 0 11 64 0 sBsCsDrdsFv/sQshsisjsFuQuArYrIq4r3rnv/v/v/v/v/v/v/rSrTrUrVv/v/v/v/rwrxryrzq/q+q/q+q/q+r0r1v/v/sQsRsSsTv/v/v/v/v/sAqoqoqoqosBsCsD
+BOARD 0 12 64 0 sAsBsCsDrdv/sAsBsCsDrdsFuQuArYrIq4r3rnv/v/v/v/v/v/rirjrkrVv/v/v/rwrxryrzr0qoqoqoqoqoqor1v/v/v/sQshsisjv/v/v/v/v/v/v/v/v/v/sAsBq/
+BOARD 0 13 64 0 v/sQsRsSsTv/v/sAsBsCsDrdsFuQuArYrIq4r3rnv/v/v/v/v/rSrTrUrVv/v/rwrxryrzr0r1v/v/v/v/v/v/v/v/v/v/sQsRsSsTv/v/v/oAoBv/v/v/v/v/v/sAqo
+BOARD 0 14 64 0 v/sQshsisjv/v/v/sAsBsCsDrdsFuQuArYuNrUrVv/v/v/v/v/rirjrkrVv/v/rxryrzr0r1v/v/v/v/v/v/v/v/v/v/v/sQshsisjsFv/v/v/v/v/v/v/v/v/v/v/v/
+BOARD 0 15 64 0 rsr8q7rOrPv/v/v/v/sAsBsCsDrdsFuQuNrjrkrVv/v/v/v/v/rSrTrUrVv/v/rSrTrUrVv/v/v/v/v/v/v/v/v/v/v/v/sAsBsCsDrdsFv/v/v/v/v/v/v/v/v/rsqp
+BOARD 0 16 64 0 r8q7rLrbrfv/v/v/v/v/sAsBsCsDrdsFrSrTrUrVv/v/v/v/v/rirjrkrVv/v/rirjrkrVv/v/v/v/v/v/v/v/v/v/v/v/v/sAsBsCsDrdsFv/v/v/v/v/v/v/v/r8q5
+BOARD 0 17 64 0 sRs3rbrvr/v/v/v/v/v/p4sAsBsCsDrdrirjrkrVv/v/v/v/v/rSrTrUrVv/v/tgthq4r3rnv/v/v/v/v/v/rGqeqfrNv/v/v/sAsBsCsDrdsFv/v/v/v/v/rsr8q7rJ
+BOARD 0 18 64 0 shsis3r/v/v/v/v/v/v/v/v/sQsRsSsTrSrTrUrVv/v/v/v/v/rirjrkrVv/v/twrYtxq4r3rnv/v/v/v/rwrxquqvrdsFv/v/v/sAsBsCsDrdv/v/v/v/rsr8q7rerZ
+BOARD 0 19 64 0 sRsSsTv/v/v/v/v/v/v/v/v/sQshsisjrirjrkrVv/v/v/v/v/tgthq4r3rnv/uQuAuBrIq4r3rnv/v/v/rxryzQzRsDrdv/v/v/v/sQsRsSsTv/v/v/rsr8q7rLrurp
+BOARD 0 20 64 0 shsisjv/v/v/v/v/v/v/v/v/sQsRsSsTrSrTrUrVv/oAoBv/v/twrYtxq4r3rnv/uQuArYtxq4r3rnv/v/tgthzgzhrOrPv/v/v/v/sQshsisjv/v/v/sQsRs3rbrvr5
+BOARD 0 21 64 0 q7rOrPv/v/v/v/v/v/oAoBv/sQshsisjrirjrkrVv/v/v/v/v/uQuAuBrIq4r3rnv/uQuAuBrIq4r3rnv/twrYrZrarbrfv/v/v/v/sQsRsSsTv/v/v/sQshsis3r/v/
+BOARD 0 22 64 0 rLrbrfv/v/v/v/v/v/v/v/v/sQsRsSsTrSrTrUrVv/v/v/v/v/v/uQuArYtxq4r3rnv/uQuArYuNrUrVv/uQuArprqrvr/v/v/v/v/sQshsisjv/v/v/sQsRsSsTv/v/
+BOARD 0 23 64 0 rbrvr/v/v/v/v/v/v/v/v/v/sQshsisjrirjrkrVv/v/v/v/v/v/v/uQuAuBrIq4r3rnv/uQuNrjrkrVv/v/uQr5r6r/v/v/v/v/rsr8q7rOrPv/v/v/sQshsisjv/v/
+BOARD 0 24 64 0 s3r/v/v/v/v/v/v/v/v/v/v/sQsRsSsTrSrTrUrVv/v/v/v/v/v/v/v/uQuArYuNrUrVv/v/rSrTrUrVv/v/v/v/v/v/v/v/v/rsr8q7rerbrfv/v/v/sQsRsSsTv/v/
+BOARD 0 25 64 0 sTv/v/v/v/v/v/v/v/v/v/v/sQshsisjrirjrkrVv/v/v/v/v/v/v/v/v/uQuNrjrkrVv/v/rirjrkrVv/v/v/v/v/v/v/v/rsr8q7rLrurvr/v/v/v/sQshsisjv/v/
+BOARD 0 26 64 0 sjv/v/v/v/v/v/v/v/v/v/v/sQsRsSsTtgthq4r3qprnv/v/v/v/v/v/v/v/rSrTrUrVv/v/tgthq4r3rnv/v/v/v/v/v/rsr8q7rerbrvr/v/v/v/rsr8q7rOrPv/v/
+BOARD 0 27 64 0 sTv/v/v/v/v/v/v/v/v/v/v/sQshsisjtwrYrIq4rzwmv/v/v/v/v/v/v/v/rirjrkrVv/v/twrYtxq4r3qpqpqpqpqpqpr8q7rLrurvr/v/v/v/rsr8q7rerbrfv/v/
+BOARD 0 28 64 0 sjv/v/v/v/v/v/v/v/v/v/v/sQsRsSsTuQuArYuNrUxbv/v/v/v/v/v/v/v/rSrTrUrVv/v/uQuAuBrIq4q5q6q5q6q5q6q7rerbrvr/v/v/v/rsr8q7rLrurvr/v/v/
+BOARD 0 29 64 0 sTv/v/v/v/v/v/v/v/v/v/v/sQshsisjsFuQuNrjrkxrv/v/v/v/v/v/v/v/rirjrkrVv/v/v/uQuArYtxrJrKrJrKrJrKrLrurvr/v/v/v/v/sQsRs3rbrvr/v/v/v/
+BOARD 0 30 64 0 sjv/v/v/v/v/v/v/v/v/v/v/sAsBsCsDrdsFrSrTrUxbv/v/v/v/v/v/v/v/tgthq4r3rnv/v/v/uQuAuBrZrarZrarZrarbrvr/v/v/v/v/v/sQshsis3r/v/v/v/v/
+BOARD 0 31 64 0 sTv/v/v/v/v/v/v/v/v/v/v/p4sAsBsCsDrdrirjrkxrv/v/v/v/v/v/v/v/twrYtxq4r3qpqprnv/uQuArprqrprqrprqrvr/v/v/v/rsqpqpr8q7rOrPv/v/v/v/v/
+BOARD 0 32 64 0 sjsFv/v/v/v/v/oAoBv/v/v/v/v/sQsRsSsTrSrTrUxbv/v/v/v/v/v/v/v/uQuAuBrIq4q5q6r3rnv/uQr5r6r5r6r5r6r/v/v/v/rsr8q5q6q7rerbrfv/v/v/v/v/
+BOARD 0 33 64 0 sDrdsFv/v/v/v/v/v/v/v/v/v/v/sQshsisjrirjrkxrv/v/v/v/v/v/v/v/v/uQuArYtxrJrKq4r3qpqpqpqprnv/v/v/v/v/v/rsr8q7rJrKrLrurvr/v/v/v/v/v/
+BOARD 0 34 64 0 sCsDrdsFv/v/v/v/v/v/v/v/v/v/sQsRsSsTrSrTrUxbv/v/v/v/v/v/v/v/v/v/uQuAuBrZrarIq4q5q6q5q6r3rnv/v/v/v/rsr8q7rerZrarbrvr/v/v/v/v/v/v/
+BOARD 0 35 64 0 sBsCsDrdqfqeqfqesFv/v/v/v/v/sQshsisjrirjrkxrv/v/v/v/v/v/v/v/v/v/v/uQuArprqrYtxrJrKrJrKq4r3qpqpqpqpr8q7rLrurprqrvr/v/v/v/v/v/v/v/
+BOARD 0 36 64 0 sAsBsCsDquqvquqvrdsFv/v/v/v/sQsRsSsTrSrTrUxbv/v/v/v/v/v/v/v/v/v/v/v/uQr5r6uAuBrZrarZrarIq4q5q6q5q6q7rerbrvr5r6r/v/v/v/v/v/v/v/v/
+BOARD 0 37 64 0 v/sAsBq/q+q/q+sCsDrdsFv/v/v/sQshsisjrirjrkxrv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/uQuArprqrprqrYtxrJrKrJrKrLrurvr/v/v/v/v/v/v/v/v/v/v/v/
+BOARD 0 38 64 0 sFv/sAqoqoqoqosBsCsDrdsFv/v/sQsRsSsTrSrTrUxbp4v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/uQr5r6r5r6uAuBrZrarZrarbrvr/v/v/v/v/v/v/v/v/v/oAoBv/
+BOARD 0 39 64 0 rdsFv/v/v/v/v/sAsBsCsDrdsFv/sQshsisjrirjrkxrwnp4v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/uQuArprqrprqrvr/v/v/v/v/v/v/v/v/v/v/v/v/v/
+BOARD 0 40 64 0 sDrdqfqeqfqesFv/sAsBsCsDrdv/sQsRsSsTtgthq4wlwmwnp4v/v/v/v/oAoBv/v/v/v/v/v/v/v/v/v/v/v/v/uQr5r6r5r6r/v/v/v/v/v/v/v/v/v/v/v/v/v/v/
+BOARD 0 41 64 0 sCsDquqvquqvrdsFv/sQsRsSsTv/sQshsisjtwrYrIq4wlwmwnp4v/v/v/v/v/v/v/v/v/s0xoxpxoxpwnp4p4p4p4v/v/v/v/v/v/v/v/v/v/v/v/v/v/p4v/v/v/v/
+BOARD 0 42 64 0 sBq/q+q/q+sCsDrdsFsQshsisjv/sQsRsSsTuQuArYrIq4wlwmwnp4v/v/v/v/v/v/v/s0s1x4x5x4x5wmwnp4p4p4v/v/v/v/v/v/v/v/v/s0xoxpxoxpwnv/v/v/v/
+BOARD 0 43 64 0 sAqoqoqoqosBsCsDrdsQsRsSsTv/sQshsisjrNuQuArYrIq4wlwmwnp4v/v/v/v/v/s0s1s2q5q6q5q6wlwmwnp4p4v/v/v/v/v/v/v/v/s0s1x4x5x4x5wmwnp4p4p4
+BOARD 0 44 64 0 v/v/v/v/v/sQsRsSsTsQshsisjsFsAsBsCsDrdsFuQuArYrIq4wlwmwnv/v/v/v/s0s1s2q7rJrKrJrKq4wlwmwnp4v/v/v/v/v/s0xoxps1s2q5q6q5q6wlwmwnp4p4
+BOARD 0 45 64 0 v/v/v/v/v/sQshsisjsAsBsCsDrdv/sAsBsCsDrdsFuQuArYrIq4wlwmxoxpxoxps1s2q7rerZrarZrarIq4wlwmwnv/v/v/v/s0s1x4x5s2q7rJrKrJrKq4wlwmwnp4
+BOARD 0 46 64 0 v/v/v/v/v/sQsRsSsTv/sQsRsSsTv/v/sAsBsCsDrdsFuQuArYrIq4wlx4x5x4x5s2q7rLrurprqrprqrYtxq4wlwmxoxpxoxps1s2q5q6q7rerZrarZratxq4wlwmwn
+BOARD 0 47 64 0 qpqprnv/v/sQshsisjv/sQshsisjsFv/v/sAsBsCsDrdsFuQuArYrIq4q5q6q5q6q7rerbrvyIyJyIyJuAuBrIq4wlx4x5x4x5s2q7rJrKrLrurprqrprquBrIq4wlwm
+BOARD 0 48 64 0 q5q6r3qpqpr8q7rOrPv/sAsBsCsDrdsFv/p4sAsBsCsDrdv/uQuArYrIrJrKrJrKrLrur+smyYyZyYyZwkuArYtxq4q5q6q5q6q7rerZrarbrvyIyJyIyJuArYtxq4wl
+BOARD 0 49 64 0 rJrKq4q5q6q7rLrbrfv/v/sAsBsCsDrdv/v/v/sQsRsSsTv/v/uQuArYrZrarZrarbrvsmsnyoypyoypwjwkuAuBrIrJrKrJrKrLrurprqr+smyYyZyYyZwkuAuBrIq4
+BOARD 0 50 64 0 rZrarIrJrKrLrbrvr/v/v/v/sQsRsSsTv/v/v/sQshsisjv/v/v/uQuArprqrprqr+smsnsotDtEtCtCwiwjwkuArYrZrarZrarbrvyIyJsmsnyoypyoypwjwkuArYtx
+BOARD 0 51 64 0 rprqrYrZrarbrvr/v/v/v/v/sQshsisjv/v/rsr8q7rOrPvXv/v/vkwkyIyJyIyJsmsnsotCtCtCtCtCtCwiwjwkuArprqrprqr+smyYyZsnsotDtEtCtCwiwjwkuAuB
+BOARD 0 52 64 0 r5r6uArprqrvr/v/v/v/v/rsr8q7rOrPv/rsr8q7rLrbrfvnvXu2vGvdyYyZyYyZsnsotCtCtCtCtStCtCtCwiwjwkyIyJyIyJsmsnyoypsotCtCtCtCtStCwiwjwkuA
+BOARD 0 53 64 0 v/v/uQr5r6r/v/v/v/v/rsr8q7rLrbrfv/sQsRs3rbrvsmv6vnvGvIwiyoypyoypsotCtCtCtCtCtCtCtCtCtCwiwjyYyZyYyZsnsotCtCtCtCtCtCtCtCtCtCwiwjwk
+BOARD 0 54 64 0 qpqprnv/v/v/v/rsqpqpr8q7rLrbrvr/v/sQshsis3smsZtSvYvZtCtCtCtCtCtCzHsOsPsOsPsztCtCtCtCtCtCwiyoypyoypsozHsOsPsOsPsOsPsOsPsztCtCwiwj
+BOARD 0 55 64 0 q5q6r3rnv/v/rsr8q5q6q7rLrbrvr/v/v/sQsRsSsHsIsJtCtCtCtCtCtCtCtCzHzIsesfsesfsysztCtCtCtDtEtCtCtCtCtCzHzIsesfsesfsesfsesfsysztDtEwi
+BOARD 0 56 64 0 rJrKq4r3qpqpr8q7rJrKrLrbrvr/v/v/v/sQshsisXsYsZtCtCtStCtCtCtCzHzIwosusvsusvsxsysztCtCtCtCzHsOsPsOsPzIwosusvsusvsusvsusvsxsysztCtC
+BOARD 0 57 64 0 rZrarIq4q5q6q7rLrZrarbrvr/v/v/v/v/sQsRsSsHsIsJtCtCtCtCtCtCzHzIwosVq+q/q+q/sDsxsysztCtCzHzIsesfsesfwosVq+q/q+q/q+q/q+q/sDsxsysztC
+BOARD 0 58 64 0 rprqrYrIrJrKrLrbrprqrvr/v/v/v/v/v/sQshsisXsYsZtCtCtCtCtCzHzIwosVrzw6sqspswsCsDsxsysOsPzIwosusvsusvsVrzw6sqspsqspsqspswsCsDsxsysz
+BOARD 0 59 64 0 r5r6uArYrZrarbrvr5r6r/v/v/v/v/v/v/sQsRsSsHsIsJtDtEtCtCzHzIwosVrzw6xKs6s5sKswsCsDsxsesfwosVq+q/q+q/rzw6xKs6s5s6s5s6s5sKswsCsDsxsy
+BOARD 0 60 64 0 v/v/uQuArprqrvr/v/v/v/v/v/v/v/v/v/sQshsisXsYsZtCtCtCzHzIwosVrzw6xKxav/v/sasKswsCsvsusvsVrzw6sqspsqspxKxav/v/v/v/v/v/sasKswsCsDsx
+BOARD 0 61 64 0 v/v/v/uQr5r6r/v/v/v/v/v/v/v/v/v/rsr8q7rOsHsIsJtCtCzHzIwosVrzw6xKxav/v/v/p4sasKswq/q+q/rzw6xKs6s5s6s5xav/v/v/v/v/v/v/p4sasKswsCsD
+BOARD 0 62 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/r8q7rLrbsXsYsZtCtCvNvOvPrTrUxKxav/v/v/v/v/p4sasKsqspsqspxKxav/v/v/v/v/v/v/v/v/v/v/v/v/p4sasKswsC
+BOARD 0 63 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/sQsRs3rbrvsmsnsotCtCvdvevfrjrkyXv/v/v/v/v/v/v/v/sas6s5s6s5xav/v/v/v/v/v/v/v/v/v/v/v/v/v/v/p4sasKsw
+LINK classic_hell_02.nw 0 0 64 1 playerx 61
+NPC classic_hellthorne.png 1 39
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellthorne.png 54 55
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellthorne.png 58 29
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellthorne.png 59 -1
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellthorne.png 8 19
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellbush.png 34 25
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellbush.png 36 12
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellbush.png 42 9
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellbush.png 33 57
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellbush.png 8 47
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellbush.png 1 21
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellbush.png 14 2
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_hellthorne.png 28 33
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 43 17
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 36 15
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 39 14
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 41 11
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 43 12
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 44 11
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 42 53
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 18 41
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 3 45
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 0 11
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 42 18
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 43 19
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 44 18
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC smoke.mng 42 17
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC smoke.mng 41 17
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC smoke.mng 41 16
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC smoke.mng 35 13
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC smoke.mng 41 11
+// NPC made by Cappa (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND

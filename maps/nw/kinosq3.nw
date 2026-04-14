@@ -1,0 +1,432 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlBJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lElglllklllklllklllklllklllklllklllllklllklllklllklllklllklllklllklllhlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0mAmlmkjojpmkmlmkmlmkmlmkmlmkmlmkmkmlmkmlmkmlmkmlmkmlmkjojpmkmlmBl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEmEm0nAmWj4j5mWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWj4j5mWnBm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0nEmGngkIkJmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWkIkJnhmHnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEmEm0mGmGkYkZmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3kYkZmHmHm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0nEmGmGmmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mHmHnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEmEm0mGmGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mHmHm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 17 64 0 J4lAlUlUlUlUlUlUlUlUlUlUlUlUlCl0m0lmmGmmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mHlXm1l1lDlUlUlUlUlUlUlUlUlUlUlUlUlBJ4
+BOARD 0 18 64 0 J4lElglllklllklllklllklllklllklinElWmGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mHlnnFljlllklllklllklllklllklllllhlFJ4
+BOARD 0 19 64 0 J4lEl0mAmlmkmlmkmlmkmlmkmlmkmlmkmClmmGmmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mHlXmDmlmkmlmkmlmkmlmkmlmkmkmlmBl1lFJ4
+BOARD 0 20 64 0 J4lEl0m0nAmWmWmWmWmWmWmWmWmWlHlGlHmimGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mHmjlHlGlHmWmWmWmWmWmWmWmWmWnBnFl1lFJ4
+BOARD 0 21 64 0 J4lEmEnEmGngmWmWmWmWmWmWmWmWmWmWmWmWnimmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2njmWmWmWmWmWmWmWmWmWmWmWmWnhmHm1mFlFJ4
+BOARD 0 22 64 0 J4lEl0jqjrjsjtmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3bqbrbqbrbqbrbqbrbqbrbqbrkKkLkMkNl1lFJ4
+BOARD 0 23 64 0 J4lEmEj6j7j8j9mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2b6b7b6b7b6b7b6b7b6b7b6b7kakbkckdmFlFJ4
+BOARD 0 24 64 0 J4lEl0nEmGmGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnbqbrmHmHnFl1lFJ4
+BOARD 0 25 64 0 J4lEmEm0mGmGm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmb6b7mHmHm1mFlFJ4
+BOARD 0 26 64 0 J4lEl0nEmGmGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3cem3mncemnm3mnm3mnm3mnm3mnm3cem3mncemnm3mnm3mnm3mnm3mnm3mnm3mnm3mnbqbrmHmHnFl1lFJ4
+BOARD 0 27 64 0 J4lEmEm0mGmGm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmbqbrm2mmm2mmm2mmm2mmm2mmm2mmbqbrm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmb6b7mHmHm1mFlFJ4
+BOARD 0 28 64 0 J4lEkqnEmGmGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnb6b7m3mnm3mnm3mnm3mnm3mnm3mnb6b7m3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnbqbrmHmHnFl1lFJ4
+BOARD 0 29 64 0 J4lEk6jqjrjsjtmmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2cem2mmcemmm2mmm2mmm2mmm2mmm2cem2mmcemmm2mmm2mmm2mmm2mmm2mmm2mmm2mmb6b7mHmHm1mFlFJ4
+BOARD 0 30 64 0 J4lEkEj6j7j8j9mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3cecemnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnbqbrmHmHnFl1lFJ4
+BOARD 0 31 64 0 J4lEkUk5k5jdm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmcemmm2cem2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmb6b7mHmHm1mFlFJ4
+BOARD 0 32 64 0 J4lEkkk5k5jdm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3cem3mnm3mncemnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnbqbrmHmHnFl1lFJ4
+BOARD 0 33 64 0 J4lEk0jqjrjsjtmmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2cem2mmm2mmcemmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmb6b7mHmHm1mFlFJ4
+BOARD 0 34 64 0 J4lEkqj6j7j8j9mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mncemnm3cem3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnbqbrmHmHm1l1lFJ4
+BOARD 0 35 64 0 J4lEk6m0mGmGm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2cecemmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmb6b7mHmHnFmFlFJ4
+BOARD 0 36 64 0 J4lEl0nEmGmGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3cem3mncemnm3mnm3mnm3mnm3mnm3cem3mncemnm3mnm3mnm3mnm3mnm3mnm3mnm3mnbqbrmHmHm1l1lFJ4
+BOARD 0 37 64 0 J4lEmEm0mGmGm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmbqbrm2mmm2mmm2mmm2mmm2mmm2mmbqbrm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmb6b7mHmHnFmFlFJ4
+BOARD 0 38 64 0 J4lEl0nEmGmGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnb6b7m3mnm3mnm3mnm3mnm3mnm3mnb6b7m3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnbqbrmHmHm1l1lFJ4
+BOARD 0 39 64 0 J4lEmEm0mGmGm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2cem2mmcemmm2mmm2mmm2mmm2mmm2cem2mmcemmm2mmm2mmm2mmm2mmm2mmm2mmm2mmb6b7mHmHnFmFlFJ4
+BOARD 0 40 64 0 J4lEl0jqjrjsjtmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3bqbrbqbrbqbrbqbrbqbrbqbrkKkLkMkNl1lFJ4
+BOARD 0 41 64 0 J4lEmEj6j7j8j9mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2b6b7b6b7b6b7b6b7b6b7b6b7kakbkckdmFlFJ4
+BOARD 0 42 64 0 J4lEl0m0mGnwmXmXmXmXmXmXmXmXmXmXmXmXnymnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nzmXmXmXmXmXmXmXmXmXmXmXmXnxmHm1l1lFJ4
+BOARD 0 43 64 0 J4lEmEnEnQmXmXmXmXmXmXmXmXmXl3l2l3mymGmmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mHmzl3l2l3mXmXmXmXmXmXmXmXmXnRnFmFlFJ4
+BOARD 0 44 64 0 J4lEl0mQnVnUnVnUnVnUnVnUnVnUnUnVmSlWmGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mHlXmTnVnUnVnUnVnUnVnUnUnVnUnVmRl1lFJ4
+BOARD 0 45 64 0 J4lElwmUmVmUmVmUmVmUmVmUmVmUmVlym0lmmGmmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mHlnm1lzmVmUmVmUmVmUmVmUmVmUmVmVlxlFJ4
+BOARD 0 46 64 0 J4lQlVlVlVlVlVlVlVlVlVlVlVlVlSl0nElWmGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mHlXnFl1lTlVlVlVlVlVlVlVlVlVlVlVlVlRJ4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0mGmGmmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mHmHnFmFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEmEnEmGmGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mHmHm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0mGmGmmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mHmHm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEmEnEmGmGjmjnmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3jmjnmHmHnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0mGnwj2j3mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXj2j3nxmHm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEmEnEnQmXkGkHmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXkGkHmXnRnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0mQnVnUkWkXnVnUnVnUnVnUnVnVnVnVnVnVnVnVnVnUnVnUnVnUnVnUkWkXnUnVmRmFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lElwmUmVmUmVmUmVmUmVmUmVmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmVlxlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4lQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlRJ4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK kinosq1.nw 3 31 1 2 57 30
+NPC kyellowkey1.gif 31 32
+//#CLIENTSIDE
+
+function onCreated()
+  {
+  setimg("kyellowkey1.gif");
+  hide();
+  kinokey2 = this;
+  this.isShown = 0;
+  if (client.kinos_quest_getkey2 && !client.kinos_quest_key2) {
+    showKey();
+    this.isShown = 1;
+  }
+}
+public function reset() {
+  hide();
+  this.isShown = 0;
+}
+public function showKey() {
+  if (this.isShown == 0) {
+    show();
+    x = x+.5;
+    this.isShown = 1;
+  }
+}
+function onPlayerTouchsMe()
+{
+  if (this.isShown) {
+    hide();
+    client.kinos_quest_key2 = 1;
+    say2("You found a key!");
+  }
+}
+NPCEND
+NPC kqdoorleft.gif 3 31
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+
+function onCreated(){
+setimg("kqdoorleft.gif");
+}
+
+function onPlayertouchsme(){
+if (client.kinos_quest_key2 == 1){
+say2("The key fits!");
+hide();
+sleep(3);
+show();
+}
+if (client.kinos_quest_key2 == NULL){
+say2("It's locked!");
+}
+}
+NPCEND
+NPC - 31 11
+//#CLIENTSIDE
+function onCreated()
+{
+  onTimeout();
+}
+
+function onTimeout() {
+
+  setTimer(0.05);
+
+  if (client.kinos_quest_pot1 && client.kinos_quest_pot2 && client.kinos_quest_pot3 && client.kinos_quest_pot4 && !client.kinos_quest_getkey2)
+  {
+    client.kinos_quest_getkey2 = 1;
+    say2("You win this time...");
+    kinokey2.showKey();
+  }
+}
+NPCEND
+NPC deathorbrot1.gif 21 24
+// NPC made by Kino (LAT)
+//# CLIENTSIDE
+function onCreated(){
+  setimg("deathorbrot1.gif");
+  show();
+}
+function onPlayerTouchsMe(){
+  disabledefmovement();
+  hurt = .5;
+}
+function onPlayerhurt() {
+  enabledefmovement();
+}
+NPCEND
+NPC classic_healthpot.png 26 27
+join("obj_pullable");
+join("obj_pushable");
+// NPC made by Kino (LAT)
+//#CLIENTSIDE
+function onCreated()
+  {
+  setimg("classic_healthpot.png");
+  show();
+  chat = "";
+  pot1 = this;
+  this.initx = x;
+  this.inity = y;
+  if (client.kinos_quest_pot1) {
+    x = 24;
+    y = 27;
+  }
+  onTimeout();
+
+}
+
+public function reset() {
+  setimg("classic_healthpot.png");
+  x = this.initx;
+  y = this.inity;
+}
+
+function onTimeout()
+  {
+  setTimer(0.05);
+  if (x == 24 && y == 27)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot1 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 38 && y == 27)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot2 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 24 && y == 37)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot3 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 38 && y == 37)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot4 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+}
+NPCEND
+NPC deathorbrot1.gif 21 24
+// NPC made by Kino (LAT)
+//# CLIENTSIDE
+function onCreated(){
+  setimg("deathorbrot1.gif");
+  show();
+}
+function onPlayerTouchsMe(){
+  disabledefmovement();
+  hurt = .5;
+}
+function onPlayerhurt() {
+  enabledefmovement();
+}
+NPCEND
+NPC wallunder1.gif 46 30
+// NPC made by Kino (Levels)
+//#CLIENTSIDE
+function onCreated() {
+  setimg("wallunder1.gif");
+}
+
+function onPlayertouchsme() {
+  pot1.reset();
+  pot2.reset();
+  pot3.reset();
+  pot4.reset();
+  kinoskey.reset();
+
+  unset("client.kinos_quest_pot1");
+  unset("client.kinos_quest_pot2");
+  unset("client.kinos_quest_pot3");
+  unset("client.kinos_quest_pot4");
+  unset("client.kinos_quest_getkey2");
+  unset("client.kinos_quest_key2");
+  say2("I lost all pots!");
+}
+NPCEND
+NPC classic_healthpot.png 36 27
+join("obj_pullable");
+join("obj_pushable");
+// NPC made by Kino (LAT)
+//#CLIENTSIDE
+function onCreated()
+  {
+  setimg("classic_healthpot.png");
+  show();
+  chat = "";
+  pot1 = this;
+  this.initx = x;
+  this.inity = y;
+  if (client.kinos_quest_pot1) {
+    x = 24;
+    y = 27;
+  }
+  onTimeout();
+
+}
+
+public function reset() {
+  setimg("classic_healthpot.png");
+  x = this.initx;
+  y = this.inity;
+}
+
+function onTimeout()
+  {
+  setTimer(0.05);
+  if (x == 24 && y == 27)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot1 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 38 && y == 27)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot2 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 24 && y == 37)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot3 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 38 && y == 37)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot4 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+}
+NPCEND
+NPC classic_healthpot.png 36 37
+join("obj_pullable");
+join("obj_pushable");
+// NPC made by Kino (LAT)
+//#CLIENTSIDE
+function onCreated()
+  {
+  setimg("classic_healthpot.png");
+  show();
+  chat = "";
+  pot1 = this;
+  this.initx = x;
+  this.inity = y;
+  if (client.kinos_quest_pot1) {
+    x = 24;
+    y = 27;
+  }
+  onTimeout();
+
+}
+
+public function reset() {
+  setimg("classic_healthpot.png");
+  x = this.initx;
+  y = this.inity;
+}
+
+function onTimeout()
+  {
+  setTimer(0.05);
+  if (x == 24 && y == 27)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot1 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 38 && y == 27)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot2 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 24 && y == 37)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot3 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 38 && y == 37)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot4 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+}
+NPCEND
+NPC classic_healthpot.png 26 37
+join("obj_pullable");
+join("obj_pushable");
+// NPC made by Kino (LAT)
+//#CLIENTSIDE
+function onCreated()
+  {
+  setimg("classic_healthpot.png");
+  show();
+  chat = "";
+  pot1 = this;
+  this.initx = x;
+  this.inity = y;
+  if (client.kinos_quest_pot1) {
+    x = 24;
+    y = 27;
+  }
+  onTimeout();
+
+}
+
+public function reset() {
+  setimg("classic_healthpot.png");
+  x = this.initx;
+  y = this.inity;
+}
+
+function onTimeout()
+  {
+  setTimer(0.05);
+  if (x == 24 && y == 27)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot1 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 38 && y == 27)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot2 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 24 && y == 37)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot3 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+  if (x == 38 && y == 37)
+    {
+    setimg("classic_fakehealthpot.png");
+    client.kinos_quest_pot4 = 1;
+    cannotbepulled();
+    cannotbepushed();
+  }
+}
+NPCEND

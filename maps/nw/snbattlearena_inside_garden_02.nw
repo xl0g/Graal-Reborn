@@ -1,0 +1,78 @@
+GLEVNW01
+BOARD 0 0 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/
+BOARD 0 1 64 0 v/v/p4p4p4p4p4p4v/v/v/v/p4p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4v/v/p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 2 64 0 p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 3 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 4 64 0 p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4v/p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4v/v/p4
+BOARD 0 5 64 0 v/p4p4p4p4p4v/v/p4p4v/p4p4p4p4p4v/v/v/p4p4v/p4p4p4p4p4v/v/p4p4p4p4p4v/v/v/v/p4p4p4p4p4v/v/v/p4v/p4p4p4p4p4v/v/v/p4p4p4p4p4v/v/v/
+BOARD 0 6 64 0 v/v/p4p4p4v/v/v/v/p4v/v/p4p4p4v/v/v/v/p4p4v/v/p4p4p4v/v/v/v/p4p4p4v/v/v/v/v/v/p4p4p4v/v/v/v/p4v/v/p4p4p4v/v/v/v/p4p4p4p4v/v/v/v/
+BOARD 0 7 64 0 v/v/v/v/v/v/p4p4v/v/v/v/v/v/v/v/p4p4p4v/v/v/v/v/v/v/v/p4v/v/v/v/v/v/p4p4p4v/v/v/v/v/v/p4p4p4v/v/v/v/v/v/v/p4p4p4v/v/v/v/v/p4p4p4
+BOARD 0 8 64 0 p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 9 64 0 v/v/v/v/v/v/v/v/p4p4v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/
+BOARD 0 10 64 0 v/v/p4p4p4p4p4p4v/v/v/v/p4p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4v/v/p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 11 64 0 p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 12 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 13 64 0 p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4v/p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4v/v/p4
+BOARD 0 14 64 0 v/p4p4p4p4p4v/v/p4p4v/p4p4p4p4p4v/v/v/p4p4v/p4p4p4p4p4v/v/p4p4p4p4p4v/v/v/v/p4p4p4p4p4v/v/v/p4v/p4p4p4p4p4v/v/v/p4p4p4p4p4v/v/v/
+BOARD 0 15 64 0 v/v/p4p4p4v/v/v/v/p4v/v/p4p4p4v/v/v/v/p4p4v/v/p4p4p4v/v/v/v/p4p4p4v/v/v/v/v/v/p4p4p4v/v/v/v/p4v/v/p4p4p4v/v/v/v/p4p4p4p4v/v/v/v/
+BOARD 0 16 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/
+BOARD 0 17 64 0 v/v/p4p4p4p4p4p4v/v/v/v/p4p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4v/v/p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 18 64 0 p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 19 64 0 p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 20 64 0 p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4v/p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4v/v/p4
+BOARD 0 21 64 0 v/p4p4p4p4p4v/v/p4p4v/p4p4p4p4p4v/v/v/p4p4v/p4p4p4p4p4v/v/p4p4p4p4p4v/v/v/v/p4p4p4p4p4v/v/v/p4v/p4p4p4p4p4v/v/v/p4p4p4p4p4v/v/v/
+BOARD 0 22 64 0 v/v/p4p4p4v/v/v/v/p4v/v/p4p4p4v/v/v/v/p4p4v/v/p4p4p4v/v/v/v/p4p4p4v/v/v/v/v/v/p4p4p4v/v/v/v/p4v/v/p4p4p4v/v/v/v/p4p4p4p4v/v/v/v/
+BOARD 0 23 64 0 v/v/v/v/v/v/p4p4v/v/v/v/v/v/v/v/p4p4p4v/v/v/v/v/v/v/v/p4v/v/v/v/v/v/p4p4p4v/v/v/v/v/v/p4p4p4v/v/v/v/v/v/v/p4p4p4v/v/v/v/v/p4p4p4
+BOARD 0 24 64 0 p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 25 64 0 p4p4p4p4p4p4p4p4p4v/v/v/v/v/v/v/v/v/v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 26 64 0 p4p4v/v/v/v/v/v/p4v/v/gHgIgHgIgHgIgHgIgHgIgHgIgHgIgHgIgHgIgHgIv/v/v/v/v/v/v/v/v/v/p4p4v/v/v/v/v/v/v/v/v/v/v/p4p4p4p4p4p4p4p4p4p4
+BOARD 0 27 64 0 v/v/v/v/v/v/v/v/v/p4p4gXgYgXgYgXgYgXgYgXgYgXgYgXgYgXgYgXgYgXgYp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 28 64 0 v/p4p4p4p4p4p4p4p4p4p4gngogngogngogngogngogngogngogngogngogngogUgVgWp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/p4p4
+BOARD 0 29 64 0 p4p4p4p4p4p4p4p4p4v/gLgMgNKpKqdnKpKqdyKpKqdpKpKqdnKpKqdyKpKqdpgkglgmp4p4p4p4p4p4p4v/p4p4p4p4p4p4p4p4p4p4p4p4v/p4p4p4p4p4v/v/v/p4
+BOARD 0 30 64 0 p4p4p4p4p4p4p4p4p4v/gbgcgdK5K6dyK5K6dnK5K6dnK5K6dyK5K6dnK5K6dygUgVgWv/p4p4v/v/p4p4v/v/p4p4v/v/p4p4p4v/v/p4p4v/v/p4p4p4v/v/v/v/p4
+BOARD 0 31 64 0 p4p4p4p4p4v/v/p4p4v/gLgMgNdndndpdndndndndndpdndndydndndpdndndygkglgmv/p4p4v/v/v/p4v/v/p4p4v/v/v/p4p4v/v/v/p4v/v/v/v/v/v/p4p4p4v/
+BOARD 0 32 64 0 p4p4p4p4p4v/v/v/p4v/gbgcgddpdndndndydndydndpdndpdndydndpdnKpKqgUgVgWp4p4v/v/v/v/p4p4p4p4v/v/v/v/p4v/v/v/v/p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 33 64 0 v/p4p4p4v/v/v/v/p4p4gLgMgNdpdndydydndndndndndndpdndndndndyK5K6gkglgmp4v/v/p4p4p4v/p4p4v/v/p4p4p4v/v/p4p4p4v/p4p4p4p4p4p4p4p4p4p4
+BOARD 0 34 64 0 v/v/v/v/v/p4p4p4v/p4gbgcgddpdpdndndpdpdpdpdpdpdpdpdpdpdpdndndygUgVgWp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/v/v/v/v/v/v/
+BOARD 0 35 64 0 p4p4p4p4p4p4p4p4p4p4gLgMgNdydndydydpdndndpdpdndndpdndndpdndpdngkglgmp4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4p4p4v/v/v/v/v/v/p4p4p4v/
+BOARD 0 36 64 0 p4p4p4p4p4p4p4p4p4v/gbgcgddndndydndndndydndndndydndndydndyKpKqgUgVgWp4v/v/v/v/v/v/p4p4v/v/v/v/v/v/v/v/v/v/v/p4p4p4p4p4p4p4p4p4p4
+BOARD 0 37 64 0 p4v/v/v/v/v/v/v/v/p4gLgMgNdndydndydndndydndpdndndndydndpdnK5K6gkglgmp4v/v/v/v/v/v/p4p4v/v/v/v/v/v/v/v/v/v/v/p4p4p4p4p4p4p4p4p4p4
+BOARD 0 38 64 0 v/v/v/v/v/v/v/v/v/p4gbgcgddydndydydndydndpdndndydndpdndndndndngUgVgWv/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/v/v/v/v/v/v/
+BOARD 0 39 64 0 v/v/p4p4p4p4p4p4p4p4gLgMgNdndndydndpdndngUgVgWgJgKgJgKgJgKgJgKgkglgmp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/
+BOARD 0 40 64 0 p4p4p4p4p4p4p4p4p4p4gbgcgddydndydydndydngkglgmgZgagZgagZgagZgav/v/v/p4p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4v/v/p4p4p4p4p4p4p4v/v/p4p4p4
+BOARD 0 41 64 0 p4p4p4p4p4p4p4p4p4p4gLgMgNdndndydndpdndpgUgVgWgpgqgpgqgpgqgpgqp4p4p4p4v/v/v/v/v/v/p4p4v/v/v/p4p4p4p4v/v/v/p4p4p4p4p4p4v/v/v/p4p4
+BOARD 0 42 64 0 p4p4p4p4p4p4v/v/p4p4gbgcgddpdpdndndndydngkglgmv/v/v/v/v/v/v/v/v/v/v/v/v/v/p4p4p4v/p4v/v/v/v/p4p4p4v/v/v/v/p4p4p4p4p4v/v/v/v/p4p4
+BOARD 0 43 64 0 v/p4p4p4p4p4v/v/v/p4gLgMgNdydndydydndndygUgVgWp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4
+BOARD 0 44 64 0 p4p4p4p4p4p4p4p4p4p4gbgcgddndndydndpdydngkglgmp4p4p4p4p4v/p4p4p4v/p4p4v/v/v/p4p4v/p4p4p4v/p4p4v/v/v/v/v/v/p4p4v/v/v/v/v/v/v/v/v/
+BOARD 0 45 64 0 p4p4p4p4p4p4p4p4p4v/gLgMgNdndydndydndndngUgVgWv/v/p4p4p4v/v/p4p4v/p4p4v/v/v/p4p4v/v/p4p4v/p4p4v/v/v/v/v/v/p4p4v/v/v/v/v/v/v/v/v/
+BOARD 0 46 64 0 p4v/v/v/v/v/v/v/v/p4gbgcgddydndydydndydngkglgmp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/p4v/v/v/p4v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 47 64 0 v/v/v/v/v/v/v/v/v/p4gLgMgNdndndydndpdndpgUgVgWv/v/p4v/v/v/p4v/v/v/v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 48 64 0 v/v/p4p4p4p4p4p4p4p4gbgcgddydndydydndydngkglgmv/v/v/v/v/v/v/v/v/v/v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4v/v/
+BOARD 0 49 64 0 p4p4p4p4p4p4p4p4p4p4gLgMgNdndndydndpdydngUgVgWp4p4p4p4p4p4p4p4p4p4p4p4v/v/v/v/v/v/p4v/v/v/v/v/v/v/v/v/v/v/p4p4v/v/v/p4p4p4p4v/v/
+BOARD 0 50 64 0 p4p4p4p4p4p4p4p4p4p4gbgcgddndndydndpdndpgkglgmp4p4p4p4p4v/p4p4p4v/p4p4v/v/p4v/v/v/v/v/v/v/v/v/v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/
+BOARD 0 51 64 0 p4p4p4p4p4p4v/v/p4p4gLgMgNdndydndydndydngUgVgWp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/v/v/v/v/v/v/v/p4p4
+BOARD 0 52 64 0 v/p4p4p4p4p4v/v/v/p4gbgcgddydndydydndndpgkglgmp4p4p4v/v/v/p4v/v/v/v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/v/v/v/v/v/v/p4p4p4p4
+BOARD 0 53 64 0 p4p4p4p4p4p4p4p4p4p4gLgMgNdndndydndpdydngUgVgWp4p4v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/p4v/v/v/v/v/v/v/v/v/v/p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 54 64 0 p4p4p4p4p4p4p4p4p4v/gbgcgddydndydydndndygkglgmp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 55 64 0 p4v/v/v/v/v/v/v/v/p4gLgMgNdndndydndpdpdngUgVgWp4p4p4p4p4v/p4p4p4v/p4p4p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4v/v/p4v/v/v/v/v/v/v/v/v/v/v/
+BOARD 0 56 64 0 v/v/v/v/v/v/v/v/v/p4gbgcgddndndpdpdndndygkglgmv/v/p4p4p4v/v/p4p4v/p4p4v/v/v/v/v/v/p4p4v/v/v/p4p4p4p4v/v/p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 57 64 0 v/v/p4p4p4p4p4p4p4p4gLgMgNdndndpdpdndndygUgVgWp4p4p4v/v/p4v/v/v/p4v/v/v/v/p4p4p4v/p4v/v/v/v/p4p4p4v/v/v/p4p4v/v/p4p4p4p4p4p4p4p4
+BOARD 0 58 64 0 p4p4p4p4p4p4p4p4p4p4gbgcgdFCdndpdpdndnFCgkglgmp4p4p4p4p4v/p4p4p4v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/v/v/v/v/v/v/v/v/
+BOARD 0 59 64 0 p4p4p4p4p4p4p4p4p4p4gLgMgNFCH1H1H1H1H1FCgUgVgWp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/p4p4v/v/v/v/v/v/p4v/v/v/v/p4p4p4p4p4p4p4
+BOARD 0 60 64 0 p4p4p4p4p4p4v/v/p4p4gbgcgdFCH1H0H1H0GOFCgkglgmv/p4v/v/v/p4p4v/v/v/p4v/v/v/p4v/v/v/v/v/v/p4p4v/v/v/v/v/v/p4p4p4p4p4p4v/v/p4p4p4p4
+BOARD 0 61 64 0 v/p4p4p4p4p4v/v/v/p4gLgMgNFCGPH1H0GOHIFCgUgVgWv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/p4v/v/p4p4p4p4p4p4p4p4p4p4p4p4v/v/v/p4p4p4
+BOARD 0 62 64 0 v/v/p4p4p4v/v/v/v/p4gbgcgdFCFCGPH0HIFCFCgkglgmp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/v/v/p4p4p4
+BOARD 0 63 64 0 v/v/v/v/v/v/p4p4p4v/gLgMgNFCFCFCFCFCFCFCgUgVgWp4p4p4p4v/p4p4p4p4p4p4p4p4v/p4p4p4v/p4p4p4p4p4p4p4p4p4p4p4p4p4v/v/p4p4p4p4p4p4p4p4
+LINK snbattlearena_inside_garden_01.nw 13 63 7 1 50.05 46
+SIGN 0 0
+Hello son.
+I need a great deal of money.
+You see, I am blind.
+There will be great prizes
+for you if you help a feeble man
+SIGNEND
+SIGN 0 0
+Thank you.
+Look to the desert for 
+a secret.
+SIGNEND

@@ -1,0 +1,127 @@
+GLEVNW01
+BOARD 0 0 64 0 AZAaAbAcAdAeAff/BoBpBqBrDADBALAMDCDDDADBALAMDCDDDADBALAMANAOf/f/f/f/f/f/AJAKALAMDCDDDADBALAMDCDDBsBtBuBvf/f/H/H/EGERESETf/a8a9a+
+BOARD 0 1 64 0 ApAqArAsAtAuAvf/B4B5B6DQAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAfasatauavAYAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B/f/f/H/E0EWEhEiEjf/bMbNbO
+BOARD 0 2 64 0 A5A6A7A8A9A+A/f/f/CJCKDgApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuAva8a9a+a/AoApAqArAsAtAuApAqArAsAtAuDhCNCOf/f/f/E0E1E2C7DOETf/bcbdbe
+BOARD 0 3 64 0 BJBKBLBMBNBOBPf/f/f/CaA4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/bMbNbObPA4A5A6A7A8A9A+A5A6A7A8A9A+A/Cdf/f/f/f/E1E2C7DeDbDff/AAZ2Z4
+BOARD 0 4 64 0 BZBaBbBcBdBeBff/f/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPbcbdbebfBIBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/f/f/EGERE3DuDvF/f/f/aGaI
+BOARD 0 5 64 0 BpBqBrBsBtBuBvf/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/E0EWEhEiD+F/f/f/f/f/f/
+BOARD 0 6 64 0 B5B6B7B8B9B+B/f/f/f/f/BoBpBqBrBsBtBuBpBqBrDADBALAMDCDDDADBALAMANAOAJAKALAMDCDDDADBALAMDCDDBsBtBuBvf/f/f/E0E1E2C7DOETH/f/f/f/f/f/
+BOARD 0 7 64 0 CJCKCLCMCNCOf/f/f/f/f/B4B5B6B7B8B9B+B5B6DQAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B/f/f/f/E1E2C7DeDbDfH/H/f/AJAKAL
+BOARD 0 8 64 0 f/CaCbCcCdf/AEAFAGAHf/f/CJCKCLCMCNCOCJCKDgApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuDhCNCOAEAFAGAHEGERE3DuDvF/f/f/AYAZAaAb
+BOARD 0 9 64 0 f/f/f/f/f/f/AUAVAWAXf/f/f/CaCbCcCdKlKmCaA4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/Cdf/AUAVAWAXEWEhEiD+F/H/AAABAoApAqAr
+BOARD 0 10 64 0 f/asatauavf/AkAlAmAnf/f/f/f/f/KlKmK1K2f/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/AkAlAmAnEGERESETH/AAABf/A4A5A6A7
+BOARD 0 11 64 0 f/a8a9a+a/f/A0A1A2A3f/f/f/f/f/K1K2f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBff/f/A0A1A2A3EWEhEiEjH/H/g2ABBIBJBKBL
+BOARD 0 12 64 0 f/bMbNbObPf/KlKmf/f/f/f/f/f/f/f/f/f/AJAKALAMDCDDBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBvf/f/KnKoK3KoEGERESETAAf/f/f/BYBZBaBb
+BOARD 0 13 64 0 f/bcbdbebff/K1K2f/f/f/asatauatauavAYAZAaAbAcAdAeDRB9B+B5B6B7B8B9B+B5B6B7B8B9B+B5B6B7B8B9B+B/f/KnK4HoGkHpEWEhEiEjEFf/AAABBoBpBqBr
+BOARD 0 14 64 0 f/KlKmf/f/f/f/KlKmKlKma8a9a+a9a+a/AoApAqArAsAtAuDhCNCOCJCKCLCMCNCOCJCKCLCMCNCOCJCKCLCMCNCOf/f/K3GkGlGkGlEKEwECEDEEEFf/f/B4B5B6B7
+BOARD 0 15 64 0 f/K1K2f/f/KlKmK1K2K1K2bMbNbObNbObPA4A5A6A7A8A9A+A/Cdf/f/CaCbCcCdf/f/CaCbCcCdf/f/CaCbCcCdf/f/KnKoG0G1G0G1EaEKEwECEDEEEFf/f/CJCKCL
+BOARD 0 16 64 0 f/f/KlKmf/K1K2f/KlKmf/bcbdbebdbebfBIBJBKBLBMBNBOBPf/AJAKALAMANAOf/f/f/f/f/f/f/f/f/f/AJAKALAMANAOH4GkGlGkGlEaEKEwECEDEEEFf/f/CaCb
+BOARD 0 17 64 0 f/f/K1K2f/f/f/f/K1K2f/f/f/f/f/f/f/BYBZBaBbBcBdBeBfAYAZAaAbAcAdAeAff/f/f/f/AEAFAGAHAYAZAaAbAcAdAeAfG0G1G0G1ABEaEKEwECEDEEEFf/f/f/
+BOARD 0 18 64 0 f/f/f/AJAKALAMANAOAJAKALAMANAOf/f/BoBpBqBrBsBtBuBvAoApAqArAsAtAuAvf/f/f/f/AUAVAWAXAoApAqArAsAtAuAvGkGlH5KlKmAAEaEKEwECEDEEf/f/f/
+BOARD 0 19 64 0 f/f/AYAZAaAbAcAdAeAZAaAbAcAdAeAff/B4B5B6B7B8B9B+B/A4A5A6A7A8A9A+A/f/f/f/f/AkAlAmAnA4A5A6A7A8A9A+A/G0G1AQK1K2K3KoEaEGERESETH/f/f/
+BOARD 0 20 64 0 f/f/AoApAqArAsAtAuApAqArAsAtAuAvf/f/CJCKCLCMCNCOf/BIBJBKBLBMBNBOBPf/f/f/f/A0A1A2A3BIBJBKBLBMBNBOBPKnK4K3KoKlKmKnK4EWEhEiEjEFf/f/
+BOARD 0 21 64 0 f/f/A4A5A6A7A8A9A+A5A6A7A8A9A+A/f/f/f/CaCbCcCdf/f/BYBZBaBbBcBdBeBff/f/f/f/f/f/f/f/BYBZBaBbBcBdBeBfK3AAABKnK1K2K4AQEKEwECEDEEf/f/
+BOARD 0 22 64 0 f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/f/f/f/f/f/f/BoBpBqBrBsBtBuBvf/f/f/f/f/f/AJAKALAMDCDDBsBtBuBvGkG0HpK3KoKnKoK4EaEGERESETAAAB
+BOARD 0 23 64 0 f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/AJAKALAMANAOB4B5B6B7B8B9B+B/f/f/f/f/f/AYAZAaAbAcAdAeDRB9B+B/H4GkGlGkGlGkGlK3KnEWEhEiEjf/f/
+BOARD 0 24 64 0 f/f/BoBpBqBrDADBALAMDCDDBsBtBuBvf/f/AYAZAaAbAcAdAeAfCJCKCLCMCNCOf/f/f/f/f/f/AoApAqArAsAtAuDhCNCOKnHoG0G1G0G1G0G1HpK3EGERESETf/AA
+BOARD 0 25 64 0 f/f/B4B5B6DQAZAaAbAcAdAeDRB9B+B/f/f/AoApAqArAsAtAuAvf/CaCbCcCdf/f/f/f/f/f/f/A4A5A6A7A8A9A+A/CdKnHoGkGlGkGlGkGlGkGlKoEWEhEiEjAAAB
+BOARD 0 26 64 0 f/f/f/CJCKDgApAqArAsAtAuDhCNCOf/f/f/A4A5A6A7A8A9A+A/asatauavf/f/f/f/f/f/f/f/BIBJBKBLBMBNBOBPf/K3H4G0G1G0G1G0G1G0G1K4EGERESETf/AQ
+BOARD 0 27 64 0 ALAMANAOCaA4A5A6A7A8A9A+A/CdHoGlHpf/BIBJBKBLBMBNBOBPa8a9a+a/f/f/f/f/f/f/f/f/BYBZBaBbBcBdBeBff/KnKoH4GkGlGkGlH5KoKnE0EWEhEiEjf/f/
+BOARD 0 28 64 0 AbAcAdAeAfBIBJBKBLBMBNBOBPGkGlGkGlKoBYBZBaBbBcBdBeBfbMbNbObPf/f/f/f/f/f/f/f/BoBpBqBrBsBtBuBvf/f/K3KnG0G1G0G1K3K4E0E1E2C7DOETf/f/
+BOARD 0 29 64 0 ArAsAtAuAvBYBZBaBbBcBdBeBfG0G1G0G1HpBoBpBqBrBsBtBuBvbcbdbebff/f/f/f/f/f/f/f/B4B5B6B7B8B9B+B/f/f/f/KnKoH4G1H5Knf/E1E2C7DeDbDff/f/
+BOARD 0 30 64 0 A7A8A9A+A/BoBpBqBrBsBtBuBvH4GkGlGkGlB4B5B6B7B8B9B+B/f/f/f/f/S4S5S6S6S7S7S8S9f/CJCKCLCMCNCOf/f/f/f/f/K3K4KnKoK3f/EGERE3DuDvF/f/f/
+BOARD 0 31 64 0 BLBMBNBOBPB4B5B6B7B8B9B+B/KnG0G1G0G1f/CJCKCLCMCNCOf/f/f/f/f/TIBRTJTKTLTMBRTNf/f/CaCbCcCdf/f/f/f/f/f/f/f/f/f/f/f/EWEhEiD+F/H/f/f/
+BOARD 0 32 64 0 BbBcBdBeBff/CJCKCLCMCNCOf/f/H4GkGlH5Kof/CaCbCcCdf/f/f/f/f/f/BQBRTZTaTbTcBRBXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EGERESETH/H/f/AJ
+BOARD 0 33 64 0 BrDADBALAMANAOCaCbCcCdf/f/f/K3G0G1K4f/f/f/f/f/f/f/f/f/f/f/f/BQBRTpTqTrTsBRBXf/f/f/f/f/f/f/f/f/AJAKALAMANAOf/H/E0EWEhEiEjH/H/AYAZ
+BOARD 0 34 64 0 DQAZAaAbAcAdAeAff/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BQT5T6T7T8TdTeBXf/f/f/f/f/f/f/f/AYAZAaAbAcAdAeAfE0E1E2C7DOETf/f/AoAp
+BOARD 0 35 64 0 DgApAqArAsAtAuAvf/f/f/AJAKALAMANAOAJAKALAMANAOf/f/f/f/f/f/f/UIUJUKULUMTtTuS+f/f/f/f/f/f/f/f/AoApAqArAsAtAuAvE1E2C7DeDbDff/f/A4A5
+BOARD 0 36 64 0 A4A5A6A7A8A9A+A/f/f/AYAZAaAbAcAdAeAZAaAbAcAdAeAff/f/f/f/f/f/UYUZB0B1B2B3UaUbf/f/f/f/f/f/f/f/A4A5A6A7A8A9A+A/EGERE3DuDvF/f/f/BIBJ
+BOARD 0 37 64 0 BIBJBKBLBMBNBOBPf/f/AoApAqArAsAtAuApAqArAsAtAuAvf/f/f/f/f/f/UoUpCEIdIdCHUqUrf/f/f/f/f/f/f/f/BIBJBKBLBMBNBOBPEWEhEiD+F/H/f/f/BYBZ
+BOARD 0 38 64 0 BYBZBaBbBcBdBeBff/f/A4A5A6A7A8A9A+A5A6A7A8A9A+A/f/f/f/f/f/f/BoTYCUItItCXTOBvf/f/f/f/f/f/f/f/BYBZBaBbBcBdBeBfEGERESETH/H/f/f/BoBp
+BOARD 0 39 64 0 BoBpBqBrBsBtBuBvf/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/f/f/ARB4B5B6SpSqB9B+B/ARf/f/f/f/f/f/f/BoBpBqBrBsBtBuBvEWEhEiEjEFH/f/f/B4B5
+BOARD 0 40 64 0 B4B5B6B7B8B9B+B/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/ARAhf/CJCKTnToCNCOf/AhARf/f/f/f/f/f/B4B5B6B7B8B9B+B/EKEwECEDEEf/f/ABf/CJ
+BOARD 0 41 64 0 f/CJCKCLCMCNCOf/f/f/BoBpBqBrBsBtBuBpBqBrBsBtBuBvf/f/f/ARAhf/G0G1CaT3T4CdWwWxG0Agf/f/f/f/f/f/f/CJCKCLCMCNCOf/EaEGERESETf/ABf/AAAB
+BOARD 0 42 64 0 f/f/CaCbCcCdf/f/f/f/B4B5B6B7B8B9B+B5B6B7B8B9B+B/f/f/f/AgIAIBAQAwQLQMGkAwXAXBGkARf/f/f/f/f/f/f/f/CaCbCcCdf/f/H/EWEhEiEjf/f/f/ABAA
+BOARD 0 43 64 0 f/f/f/f/f/f/f/f/f/f/f/CJCKCLCMCNCOCJCKCLCMCNCOf/f/f/f/ARIQIRG0G1QbQcQLQMXQXRG0Agf/f/f/f/f/f/f/f/f/f/f/f/DsNsEbEGERESETH/AAABf/AQ
+BOARD 0 44 64 0 f/f/AJAKALAMANAOf/f/f/f/CaCbCcCdf/f/CaCbCcCdf/f/f/f/ARAhKnGlGkQLQMAQQbQcGkGlGkARf/f/f/f/f/f/f/f/f/f/f/DsE4EgELEWEhEiEjEFDwCfCeEF
+BOARD 0 45 64 0 f/AYAZAaAbAcAdAeAff/f/f/f/f/f/GgGhGiGjf/f/f/f/f/f/f/Ahf/K3G1G0QbQcG1G0G1G0G1K3AhARf/f/f/f/f/f/f/f/f/f/EsEtAICqO8EwECEDEEDxCuCvEE
+BOARD 0 46 64 0 f/AoApAqArAsAtAuAvf/f/f/f/KoKnGwGxGyGzcqcrf/f/f/f/f/KlKmKnGlGkGlQLQMAQAwAxGlKnf/Ahf/f/f/f/f/f/f/f/f/E/E8CqCqCqPKO8EwECEDDyCYCZED
+BOARD 0 47 64 0 f/A4A5A6A7A8A9A+A/f/f/f/K3K4H4HAHBHCHDc6c7K4f/f/f/f/K1K2K3K4K3G1QbQcG0QLQMK4KlKmf/f/f/f/f/f/f/f/f/E/E4C1CqCrCqEgPKO8EwECDzC/C+EC
+BOARD 0 48 64 0 f/BIBJBKBLBMBNBOBPf/KnKoKnAQGkHQHRHSHTGlAQKoKnKof/f/f/f/f/f/KnKoKnKoKnQbQcKoK1K2f/f/f/f/f/f/f/f/f/EcEMCrCqCqEtCqHaEaEKEwQAEqEpEw
+BOARD 0 49 64 0 f/BYBZBaBbBcBdBeBfK4K3G1G0AwQyHgIdIdHjQzG0G1G0K4f/f/f/f/f/KlKmf/KlKmK3K4K3K4f/f/f/f/f/f/f/f/f/f/f/f/EcFAEMCrCqEtHqH/EaEKQQE6E5EK
+BOARD 0 50 64 0 f/BoBpBqBrBsBtBuBvKoHoGlGgGjRCHwj0j0HzRDGgGjGkKof/f/f/f/f/K1K2f/K1K2KlKmf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EcCoFAE+D1H/H/EaQgH/H/Ea
+BOARD 0 51 64 0 f/B4B5B6B7B8B9B+B/K4K3G1GwGzRSQLQMG1AwRTGwGzG0K4f/f/f/f/f/f/f/KlKmf/K1K2f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 52 64 0 f/f/CJCKCLCMCNCOf/f/KnGlHAHDAQQbQcQLQMGlHAHDGkKof/f/f/f/f/f/f/K1K2f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AJAKALAMANAOf/f/f/
+BOARD 0 53 64 0 f/f/f/CaCbCcCdf/QwQxQyQzHQHTQLQMG0QbQcG1HQHTQyQzQwQxf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AYAZAaAbAcAdAeAff/f/
+BOARD 0 54 64 0 f/f/f/f/f/f/f/f/RARBRCRDHgHjQbQcAwAxGkGlHgHjRCRDRARBf/f/f/f/f/f/f/f/f/f/f/f/f/f/F2F3f/f/f/f/f/f/f/f/f/f/f/f/AoApAqArAsAtAuAvf/f/
+BOARD 0 55 64 0 AKALAMANAOf/f/f/RQRRRSRTHwHzG0K4QLQMAwAxHwHzRSRTRQRRf/f/f/f/f/f/f/f/f/f/f/F2F3F2GGGHF3f/f/f/f/f/f/f/f/f/f/f/A4A5A6A7A8A9A+A/f/f/
+BOARD 0 56 64 0 AaAbAcAdAeAff/f/RgRhf/f/GkGlAwAxQbQcAQQLQMGlGkf/RgRhf/f/f/f/f/f/f/f/f/f/f/GnGHGGEtEtGXf/f/f/f/f/f/f/f/f/f/f/BIBJBKBLBMBNBOBPf/f/
+BOARD 0 57 64 0 AqArAsAtAuAvf/f/f/f/f/K4K3K4K3K4f/f/K3QbQcK4K3f/f/f/f/f/f/f/f/f/f/f/f/F2F3GIGJCqEtEtGHFnF3f/f/f/f/f/f/f/f/f/BYBZBaBbBcBdBeBff/f/
+BOARD 0 58 64 0 A6A7A8A9A+A/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/F2GGGXF2GGCqCqFoF4GJGHF3f/f/f/f/f/f/f/f/BoBpBqBrBsBtBuBvf/f/
+BOARD 0 59 64 0 BKBLBMBNBOBPf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/GIGJGHGGCrCqCqGXAQGIGJGHF3f/f/f/f/f/f/f/B4B5B6B7B8B9B+B/f/f/
+BOARD 0 60 64 0 BaBbBcBdBeBff/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/GIGJEtEtEtCqGHFmFnGGFoFpf/f/f/f/f/f/f/f/CJCKCLCMCNCOf/AJAK
+BOARD 0 61 64 0 BqBrDADBALAMANAOf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/F2GGEtCqCqCqCrCqCqEtGHF3f/f/f/f/f/f/f/f/f/CaCbCcCdf/AYAZAa
+BOARD 0 62 64 0 B6DQAZAaAbAcAdAeAff/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/GIGJEtCqEtEtCrEtCqEtFoFpf/f/f/f/f/f/f/f/f/f/f/f/f/f/AoApAq
+BOARD 0 63 64 0 CKDgApAqArAsAtAuAvf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/GIGJCqCqEtCrEtEtFoFpf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/A4A5A6
+LINK guildrommiel_tunnel_02.nw 16 49 2 1 25.5 60
+LINK guildrommiel_libary.nw 33 37 2 1 30.5 60
+SIGN 28 43
+Rommiel Libary!
+SIGNEND
+NPC classic_bush.png 38 47
+join("bush");
+NPCEND
+NPC classic_bush.png 34 50
+join("bush");
+NPCEND
+NPC classic_bush.png 26 46
+join("bush");
+NPCEND
+NPC classic_bush.png 32 49
+join("bush");
+NPCEND
+NPC classic_bush.png 31 51
+join("bush");
+NPCEND
+NPC classic_bush.png 29 49
+join("bush");
+NPCEND
+NPC classic_sign-grass.png 28 42
+join("sign");
+NPCEND
+NPC classic_bush.png 7 14
+join("bush");
+NPCEND
+NPC classic_bush.png 5 15
+join("bush");
+NPCEND
+NPC classic_bush.png 6 12
+join("bush");
+NPCEND
+NPC classic_bush.png 1 14
+join("bush");
+NPCEND
+NPC classic_bush.png 2 16
+join("bush");
+NPCEND
+NPC - 19 46
+join("rock_2");
+NPCEND
+NPC classic_bush.png 9 14
+join("bush");
+NPCEND
+NPC classic_bush.png 8 16
+join("bush");
+NPCEND
+NPC classic_bush.png 15 10
+join("bush");
+NPCEND
+NPC classic_bush.png 17 9
+join("bush");
+NPCEND
+NPC classic_bush.png 52 18
+join("bush");
+NPCEND
+NPC classic_bush.png 53 20
+join("bush");
+NPCEND

@@ -1,0 +1,588 @@
+GLEVNW01
+BOARD 0 30 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdqdqiLiLdqdqiLiLdqdqiLiLdqdqiLiLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 31 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdqdqiLiLdqdqiLiLdqdqiLiLdqdqiLiLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 32 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiLiLdqdqiLiLdqdqiLiLdqdqiLiLdqdqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 33 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiLiLdqdqiLiLdqdqiLiLdqdqiLiLdqdqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 34 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdqdqiLiLdqdqiLiLdqdqiLiLdqdqiLiLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 35 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdqdqiLiLdqdqiLiLdqdqiLiLdqdqiLiLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 36 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiLiLdqdqiLiLdqdqiLiLdqdqiLiLdqdqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 37 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiLiLdqdqiLiLdqdqiLiLdqdqiLiLdqdqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 38 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdqdqiLiLdqdqiLiLdqdqiLiLdqdqiLiLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 39 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdqdqiLiLdqdqiLiLdqdqiLiLdqdqiLiLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 40 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiLiLdqdqiLiLdqdqiLiLdqdqiLiLdqdqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 41 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiLiLdqdqiLiLdqdqiLiLdqdqiLiLdqdqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 42 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdqdqiLiLdqdqiLiLdqdqiLiLdqdqiLiLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 43 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdqdqiLiLdqdqiLiLdqdqiLiLdqdqiLiLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 44 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiLiLdqdqiLiLdqdqiLiLdqdqiLiLdqdqAAAAf/f/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BOARD 0 45 64 0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiLiLdqdqiLiLdqdqiLiLdqdqiLiLdqdqAAAAf/f/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+NPC - 38 40
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 34 28
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1132.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #8,body10.png;
+  setcharprop #n,B;
+  setcharprop #2,skullstaff-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 32 43
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1034.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,white;
+  setcharprop #C3,white;
+  setcharprop #C4,white;
+  setcharprop #n,Q;
+  setcharprop #P1,hat20.png;
+  setcharprop #8,body15.png;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 28 43
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head639.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,white;
+  setcharprop #C3,white;
+  setcharprop #C4,white;
+  setcharprop #8,body10.png;
+  setcharprop #n,B;
+  setcharprop #2,fortis-staff-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 38 28
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head155.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #8,body.png;
+  setcharprop #n,R;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 24 28
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head155.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #8,body.png;
+  setcharprop #n,R;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 28 28
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1132.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #8,body10.png;
+  setcharprop #n,B;
+  setcharprop #2,skullstaff-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 34 43
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head639.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,white;
+  setcharprop #C3,white;
+  setcharprop #C4,white;
+  setcharprop #8,body10.png;
+  setcharprop #n,B;
+  setcharprop #2,fortis-staff-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 24 43
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1161.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,white;
+  setcharprop #C3,white;
+  setcharprop #C4,white;
+  setcharprop #8,body.png;
+  setcharprop #n,R;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 36 28
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head235.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #8,body11.png;
+  setcharprop #n,Kn;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  setcharprop #5,dblackhorse.png;
+  setcharani ridestill,;
+  dir = 2;
+}
+NPCEND
+NPC - 30 43
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head13.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,white;
+  setcharprop #C3,white;
+  setcharprop #C4,white;
+  setcharprop #P1,hat79.png;
+  setcharprop #n,K;
+  setcharprop #8,bodyc-sage2.mng;
+  setcharprop #2,staff-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 30 28
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head803.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #n,K;
+  setcharprop #8,bodyc-sage2.mng;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 32 28
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head984.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #n,Q;
+  setcharprop #P1,hat20.png;
+  setcharprop #8,body15.png;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 38 43
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1161.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,white;
+  setcharprop #C3,white;
+  setcharprop #C4,white;
+  setcharprop #8,body.png;
+  setcharprop #n,R;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 36 43
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1222.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,white;
+  setcharprop #C3,white;
+  setcharprop #C4,white;
+  setcharprop #8,body11.png;
+  setcharprop #n,Kn;
+  setcharprop #2,no-shield.png;
+  setcharprop #5,ride4.png;
+  setcharani ridestill,;
+  dir = 2;
+  shieldpower = 1;
+}
+NPCEND
+NPC - 26 28
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head235.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #8,body11.png;
+  setcharprop #n,Kn;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  setcharprop #5,dblackhorse.png;
+  setcharani ridestill,;
+  dir = 2;
+}
+NPCEND
+NPC - 26 43
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1222.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,white;
+  setcharprop #C3,white;
+  setcharprop #C4,white;
+  setcharprop #8,body11.png;
+  setcharprop #n,Kn;
+  setcharprop #2,no-shield.png;
+  setcharprop #5,ride4.png;
+  setcharani ridestill,;
+  dir = 2;
+  shieldpower = 1;
+}
+NPCEND
+NPC - 38 31
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,white;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 24 31
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,white;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 26 31
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,white;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 28 31
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,white;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 30 31
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,white;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 32 31
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,white;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 34 31
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,white;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 36 31
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,white;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 24 40
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 26 40
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 28 40
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 30 40
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 32 40
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 34 40
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 36 40
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #n,P;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND

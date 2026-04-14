@@ -1,0 +1,535 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J45MBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5NJ4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4CQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzJ4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J45M5NlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlH5M5NJ4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4J4CQBzlGlHjojplGlHlGlHlGhqhrhohphqhrhohphqhrhohphqhphqhrhohphqhrhohphqhrhohplHlGlHlGlHjojplGlHCQBzJ4J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J45M5NlGlHlGlHlGlHlGlHlGlHlGlHiKdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqiMlGlHlGlHlGlHlGlHlGlHlGlH5M5NJ4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4CQBzlGlHjojplGlHlGlHlGlHlGlHiKdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqiMlGlHlGlHlGlHlGlHjojplGlHCQBzJ4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J45M5NlGlHlGlHlGlHlGlHlGlHlGlHlGlHiKdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqiMlGlHlGlHlGlHlGlHlGlHlGlHlGlH5M5NJ4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4CQBzlGlHjojplGlHlGlHlGlHlGlHlGlHiKdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqiMlGlHlGlHlGlHlGlHlGlHjojplGlHCQBzJ4J4J4J4
+BOARD 0 12 64 0 J4J45M5NlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHiKdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqiMlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlH5M5NJ4J4
+BOARD 0 13 64 0 J4J4CQBzlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHiadqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqdqiclGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHCQBzJ4J4
+BOARD 0 14 64 0 J4J4BQBXlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGhqhrhohphqhrhohphqhrhohphqhphqhrhohphqhrhohphqhrhohplHlGlHlGlHlGlHlGlHlGlHlGlHlGlHBQBXJ4J4
+BOARD 0 15 64 0 J4J4BQBXYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcBQBXJ4J4
+BOARD 0 16 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnlp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 17 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nkn3cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdn2nlp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 18 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nkn3cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdn2nlp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 19 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nkn3cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdn2nlp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 20 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nGcdcdcdcdnknWnWnWnWnWnWnWnWnWnWnWnlcdcdcdcdn2nHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 21 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nGcdcdcdnkn3p4p4p4p4p4p4p4p4p4p4p4n2nlcdcdcdcdnHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 22 64 0 J4J4BQBXJSKpKqI8KpKqJSKpKqI8KpKqJSKpKqI8nGcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnHJSKpKqI8KpKqJSKpKqI8KpKqJSKpKqI8BQBXJ4J4
+BOARD 0 23 64 0 J4J4BQBXKCK5K6JEK5K6JEK5K6JEK5K6JEK5K6JcnGcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnHKCK5K6JEK5K6JEK5K6JEK5K6JEK5K6JcBQBXJ4J4
+BOARD 0 24 64 0 J4J4BQBXKSK5K6KTK5K6KTK5K6KTK5K6KTK5K6KUnGcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnHKSK5K6KTK5K6KTK5K6KTK5K6KTK5K6KUBQBXJ4J4
+BOARD 0 25 64 0 J4J4BQBXp4KzKzKzKzKzKzKzKzKzKzKzKzKzKzp4nGcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnHp4KzKzKzKzKzKzKzKzKzKzKzKzKzKzp4BQBXJ4J4
+BOARD 0 26 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nGcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 27 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nGcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 28 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nGcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 29 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nGcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 30 64 0 J4J4BQBXJSKpKqI8KpKqJSKpKqI8KpKqJSKpKqI8nGcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnHJSKpKqI8KpKqJSKpKqI8KpKqJSKpKqI8BQBXJ4J4
+BOARD 0 31 64 0 J4J4BQBXKCK5K6JEK5K6JEK5K6JEK5K6JEK5K6JcnGcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnHKCK5K6JEK5K6JEK5K6JEK5K6JEK5K6JcBQBXJ4J4
+BOARD 0 32 64 0 J4J4BQBXKSK5K6KTK5K6KTK5K6KTK5K6KTK5K6KUnGcdcdcdn0nnp4p4p4p4p4p4p4p4p4p4p4nmn1cdcdcdcdnHKSK5K6KTK5K6KTK5K6KTK5K6KTK5K6KUBQBXJ4J4
+BOARD 0 33 64 0 J4J4BQBXp4KzKzKzKzKzKzKzKzKzKzKzKzKzKzp4nGcdcdcdcdn0nXnXnXnXnXnXnXnXnXnXnXn1cdcdcdcdcdnHp4KzKzKzKzKzKzKzKzKzKzKzKzKzKzp4BQBXJ4J4
+BOARD 0 34 64 0 J4J4BQBXBBBBBBBBBBBBBBBBBBBBBBBBBBBB5M5Nn0nncdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnmn15M5NBBBBBBBBBBBBBBBBBBBBBBBBBBBBBQBXJ4J4
+BOARD 0 35 64 0 J4J4BQBXCRCRCRCRCRCRCRCRCRCRCRCRCRCRCQBzp4n0nncdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnmn1p4CQBzCRCRCRCRCRCRCRCRCRCRCRCRCRCRBQBXJ4J4
+BOARD 0 36 64 0 J4J4BQBXlGlHlGlHlGlHlGlHlGlHlGlHlGlHCECH5M5Nn0nncdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnmn15M5NCECHlGlHlGlHlGlHlGlHlGlHlGlHlGlHBQBXJ4J4
+BOARD 0 37 64 0 J4J4BQBXlGlHlGlHlGlHlGlHlGlHlGlHlGlHCHCECQBzp4n0nncdcdcdcdcdcdcdcdcdcdcdcdcdcdnmn1p4CQBzCHCElGlHlGlHlGlHlGlHlGlHlGlHlGlHBQBXJ4J4
+BOARD 0 38 64 0 J4J4BQBXlGlHlGlHlGlHlGlHlGlHlGlHlGlHCHCECECH5M5Nn0nncdcdcdcdcdcdcdcdcdcdcdcdnmn15M5NCECHCHCElGlHlGlHlGlHlGlHlGlHlGlHlGlHBQBXJ4J4
+BOARD 0 39 64 0 J4J4BQBXlGlHlGlHlGlHlGlHlGlHlGlHlGlHCECHjojpCQBzp4n0nncdcdcdcdcdcdcdcdcdcdnmn1p4CQBzjojpdDdEdEdEdEdEdEdEdEdEdEdEdEdEdEdGBQBXJ4J4
+BOARD 0 40 64 0 J4J4BQBXYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcCHCECECH5M5Nn0nncdcdcdcdcdcdcdcdnmn15M5NCECHCHCEdlc/dUdUdUdUdUdUdUdUdUdUdUdUdUdWBQBXJ4J4
+BOARD 0 41 64 0 J4J4BQBXdDdEdEdEdEdEdEdGKpKqp4p4p4p4p4p4CECHjojpCQBzp4nGcdcdcdcdcdcdcdcdnHp4CQBzjojpCECHdldmm5p4p4p4p4p4p4p4p4p4p4p4m4m5BQBXJ4J4
+BOARD 0 42 64 0 J4J4BQBXdlc/c/c/c/c/c/dmK5K6p4p4p4p4p4p4YKYLCHCECECHp4nGcdcdcdcdcdcdcdcdnHp4CECHCHCEYKYLdldmp4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 43 64 0 J4J4BQBXdTdUdUdUdUdUdUdWm4m5p4p4p4p4p4p4p4p4CECHjojpp4nGcdcdcdcdcdcdcdcdnHp4jojpCECHp4p4dldmp4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 44 64 0 J4J4BQBXdjKpKqdkdkKpKqdXp4p4p4p4p4p4p4p4p4p4YKYLCHCEp4nGcdcdcdcdcdcdcdcdnHp4CHCEYKYLp4p4dlc/dEdEdEdEdEdEdEdEdEdEdEdEdEdGBQBXJ4J4
+BOARD 0 45 64 0 J4J4BQBXp4K5K6p4p4K5K6p4p4p4p4p4p4p4p4p4p4p4p4p4CECHp4nGcdcdcdcdcdcdcdcdnHp4CECHp4p4p4p4dTdUdUdUdUdUdUdUdUdUdUdUdUdUdUdWBQBXJ4J4
+BOARD 0 46 64 0 J4J4BQBXp4m4m5p4p4m4m5p4p4p4p4p4p4p4p4p4p4p4p4p4YKYLp4nGcdcdcdcdcdcdcdcdnHp4YKYLp4p4p4p4m4m5p4p4p4m4m5p4p4m4m5p4p4p4m4m5BQBXJ4J4
+BOARD 0 47 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nGcdcdcdcdcdcdcdcdnHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 48 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4n0nncdcdcdcdcdcdnmn1p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 49 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4n0nncdcdcdcdnmn1p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 50 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nGcdcdcdcdnHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 51 64 0 J4J4BQBXp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nGcdcdcdcdnHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4BQBXJ4J4
+BOARD 0 52 64 0 J4J4BQBXdDdEdEdEdGp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p45MBBBBBBBBBBBBBBBBBB5Np4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4dDdEdEdEdGBQBXJ4J4
+BOARD 0 53 64 0 J4J4BQBXdlc/c/c/dmKpKqp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4CQCRCRCRCRCRCRCRCRCRBzp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4KpKqdlc/c/c/dmBQBXJ4J4
+BOARD 0 54 64 0 J4J4BQBXdlc/c/c/dmK5K6p4p4p4p4p4p4p4p4p4p4p4p4p45M5NlGlGlGlGlGlGlGlGlGlGlG5M5Np4p4p4p4p4p4p4p4p4p4p4p4p4p4K5K6dlc/c/c/dmBQBXJ4J4
+BOARD 0 55 64 0 J4J4BQBXdTdUdUdUdWm4m5p4p4p4p4p4p4p4p4p4p4p4p4p4CQBzlGlGlGlGlGlGlGlGlGlGlGCQBzp4p4p4p4p4p4p4p4p4p4p4p4p4p4m4m5dTdUdUdUdWBQBXJ4J4
+BOARD 0 56 64 0 J4J45MBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5NlGlGlGlGlGlGlGlGlGlGlGlGlGlGlG5MBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5NJ4J4
+BOARD 0 57 64 0 J4J4CQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGCQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzJ4J4
+BOARD 0 58 64 0 J4J4CECHlGlHlGhqhrhohrhohrhohrhohrhohrhohplGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGhqhrhohrhohrhohrhohrhohrhohplHlGlHCECHJ4J4
+BOARD 0 59 64 0 J4J4CHCElGlHlGlHiKp4p4p4p4p4p4p4p4p4p4iMlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlHiKp4p4p4p4p4p4p4p4p4p4iMlGlHlGlHCHCEJ4J4
+BOARD 0 60 64 0 J4J4CHCElGlHlGlHiap4p4p4p4p4p4p4p4p4p4iclGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlHiap4p4p4p4p4p4p4p4p4p4iclGlHlGlHCHCEJ4J4
+BOARD 0 61 64 0 J4J4CECHlGlHlGhqhrhohrhohrhohrhohrhohrhohplGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGlGhqhrhohrhohrhohrhohrhohrhohplHlGlHCECHJ4J4
+BOARD 0 62 64 0 J4J4YKYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYLJ4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK raistlinsbar_inside_09nw.nw 30 51 4 1 47.5 31
+NPC classic_biostolar.gif 4 22
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC pottedplant.png 24 42
+
+NPCEND
+NPC pottedplant.png 22 40
+
+NPCEND
+NPC pottedplant.png 20 38
+
+NPCEND
+NPC pottedplant.png 54 10
+
+NPCEND
+NPC pottedplant.png 52 8
+
+NPCEND
+NPC pottedplant.png 50 6
+
+NPCEND
+NPC pottedplant.png 8 10
+
+NPCEND
+NPC pottedplant.png 10 8
+
+NPCEND
+NPC pottedplant.png 12 6
+
+NPCEND
+NPC classic_biostolar.gif 4 30
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_biostolar.gif 44 22
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_biostolar.gif 44 30
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC pottedplant.png 38 42
+
+NPCEND
+NPC pottedplant.png 40 40
+
+NPCEND
+NPC pottedplant.png 42 38
+
+NPCEND
+NPC pottedplant.png 44 39
+
+NPCEND
+NPC pottedplant.png 58 39
+
+NPCEND
+NPC burgerrefugesign.png 49 37
+
+NPCEND
+NPC sub.png 46 39
+
+NPCEND
+NPC sub.png 55 39
+
+NPCEND
+NPC softdrink.png 44 42
+
+NPCEND
+NPC softdrink.png 45 40
+
+NPCEND
+NPC softdrink.png 44 40
+
+NPCEND
+NPC softdrink.png 45 42
+
+NPCEND
+NPC hamburger.png 53 39
+
+NPCEND
+NPC cheeseburger.png 49 39
+
+NPCEND
+NPC candle.mng 49 43
+
+NPCEND
+NPC candle.mng 54 43
+
+NPCEND
+NPC pottedplant.png 44 44
+
+NPCEND
+NPC pottedplant.png 58 44
+
+NPCEND
+NPC light2.png 46 40
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawaslight;
+  setzoomeffect 1.135774;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC light2.png 46 40
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawaslight;
+  setzoomeffect 1.135774;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC light2.png 51 40
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawaslight;
+  setzoomeffect 1.135774;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC pottedplant.png 7 41
+
+NPCEND
+NPC amz_chair.png 5 44
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC amz_chair.png 9 44
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC amz_chair.png 12 41
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC amz_chair.png 9 53
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_movie2_bio.gif 21 8
+
+NPCEND
+NPC light4.png 18 7
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 0.4,0.55,1,0.5;
+}
+NPCEND
+NPC light4.png 24 7
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 0.4,0.55,1,0.5;
+}
+NPCEND
+NPC light4.png 31 7
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 0.4,0.55,1,0.5;
+}
+NPCEND
+NPC light4.png 37 7
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 0.4,0.55,1,0.5;
+}
+NPCEND
+NPC - 29 43
+join("level_nopk");
+NPCEND
+NPC - 32 43
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  seteffect 0,0,0,0.60;
+  timeout = .05;
+}
+NPCEND
+NPC classic_window.png 45 59
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_window.png 47 59
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_window.png 49 59
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_window.png 51 59
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_window.png 11 59
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_window.png 13 59
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_window.png 15 59
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_window.png 17 59
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC light2.png 9 59
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC light2.png 11 59
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC light2.png 13 59
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC light2.png 15 59
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC light2.png 45 59
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC light2.png 47 59
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC light2.png 49 59
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC light2.png 51 59
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC pottedplant.png 57 53
+
+NPCEND
+NPC pottedplant.png 5 53
+
+NPCEND
+NPC softdrink.png 7 51
+
+NPCEND
+NPC softdrink.png 10 40
+
+NPCEND
+NPC hamburger.png 55 54
+
+NPCEND
+NPC gclamp.mng 7 36
+
+NPCEND
+NPC gclamp.mng 13 36
+
+NPCEND
+NPC light4.png 10 33
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC light4.png 4 33
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC amz_chair.png 53 53
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_window.png 9 59
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC light2.png 17 59
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC classic_window.png 53 59
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC light2.png 53 59
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC - 51 45
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,#s(vince_diesel)Welcome to Burger Refuge
+#b
+What would you like to buy?#b
+You can choose from are Menu.#b
+To buy say Buy and the item name#b
+like "Buy Hamburger" for example.#b
+-Menu-#b
+Hamburger - 5g#b
+Cheeseburger - 10g#b
+Popcorn - 15g#b
+Soft Drink - 20g#b
+Sub - 40g#b
+I hope you will like the movie and i#b
+hope ill see you here agen.#b;
+NPCEND
+NPC light2.png 51 40
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawaslight;
+  setzoomeffect 1.135774;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC - 47 40
+function onCreated() {
+	// Initialize the attributes
+	showcharacter;
+	setcharprop #3,headc-fei3.png;
+	setcharprop #C0,orange;
+	setcharprop #C1,black;
+	setcharprop #C2,white;
+	setcharprop #C3,white;
+	setcharprop #C4,gray;
+	setcharprop #n,Mighty;
+	setcharprop #8,body3.png;
+	setcharprop #2,shieldc-loxeus.png;
+	shieldpower = 1;
+	x  = 50.5;
+       y = 41;
+      dir = 2;
+	}
+NPCEND

@@ -1,0 +1,835 @@
+GLEVNW01
+BOARD 0 0 64 0 BQBT5Nk2cem2cemncem2cemnnInZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJk3nYnJmmcem3cemmcem3cek25MBTBX
+BOARD 0 1 64 0 CQBTBXk2mncem2cemncem2nInZk2nInZk2nInZmncem2nInZk3nInZmncem2nInZnYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJk2nYnJm3cemmcem3cemmk2BQBTBz
+BOARD 0 2 64 0 IdBQBXk2cemncem2cemnnInZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2k3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJk3nYnJmmcem3cemmcek2BQBXId
+BOARD 0 3 64 0 IdBQBXk2m2cemncem2nInZk2nInZk2nInZmncem2nInZk3nInZmncem2nInZk3nInJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJk2nYnJm3cemmcem3k2BQBXId
+BOARD 0 4 64 0 IdBQBXk2cem2cemnnInZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZnYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJk3nYnJmmcem3cek2BQBXId
+BOARD 0 5 64 0 IdBQBXk2mncem2nInZk2nInZk2nInZmncem2nInZk3nInZmncem2nInZk3nInZcecenYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJk2nYnJm3cemmk2BQBXId
+BOARD 0 6 64 0 BBBTBXk2cemnnInZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZm2mnmmm3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJk3nYnJmmcek2BQBTBB
+BOARD 0 7 64 0 CRCRBzk2m2nInZk2nInZk2nInZmncem2nInZk3nInZmncem2nInZk3nInZmncem2m3cemmnYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJk2nYnJm3k2CQCRCR
+BOARD 0 8 64 0 6K6K6cVoVpnZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZm2cemnnInJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJk3nYVoVp6d6K6K
+BOARD 0 9 64 0 6t6t8/V4V5k2nInZk2nInZmncem2nInZk3nInZmncem2nInZk3nInZmncem2nInZnYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJk2V4V58+6t6t
+BOARD 0 10 64 0 k2k2k2nZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3k2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJk3nYk2k2k2
+BOARD 0 11 64 0 k3nInZk2nInZk2nInZmncem2nInZk3nInZmncem2nInZk3nInZmncem2nInZk2nInJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJk2nYnJk3
+BOARD 0 12 64 0 nInZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZnYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJk3nYnJ
+BOARD 0 13 64 0 nZk2nInZk2nInZmncem2nInZk3nInZmncem2nInZk3nInZmncem2nInZk2nInZk2k3nYnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJk2nY
+BOARD 0 14 64 0 k3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk3nInJk2nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJk3
+BOARD 0 15 64 0 nInZk2nInZmncem2nInZk3nInZmncem2nInZk3nInZmncem2nInZk2nInZk2nInZnYnJk3nYnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJ
+BOARD 0 16 64 0 nZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk3nInZcdcdnYnJk2nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nY
+BOARD 0 17 64 0 k2k2k2mncem2nInZk3nInZmncem2nInZk3nInZmncem2nInZk2nInZk2nInZcdcdcdcdnYnJk3nYnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJm3cemmk2k2k2
+BOARD 0 18 64 0 BBBB5Nk2mnnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk3nInZcdcdcdcdcdcdnYnJk2nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJmmk25MBBBB
+BOARD 0 19 64 0 CRBTBXk2nInZk3nInZmncem2nInZk3nInZmncem2nInZk2nInZk2nInZcdcdcdcdcdcdcdcdnYnJk3nYnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJk2BQBTCR
+BOARD 0 20 64 0 IdBQBXk2nZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk3nInZ5MBBBB5Ncdcd5MBBBB5NnYnJk2nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYk2BQBXId
+BOARD 0 21 64 0 IdBQBXk2k3nInZmncem2nInZk3nInZmncem2nInZk2nInZk2nInZcdBQBTBTBXipiqBQBTBTBXcdnYnJk3nYnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3k2BQBXId
+BOARD 0 22 64 0 IdBQBXk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk3nInZ5MBB+xBXBQ+jBBBB+xBXBQ+jBB5NnYnJk2nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2BQBXId
+BOARD 0 23 64 0 IdBQBXk2nZmncem2nInZk3nInZmncem2nInZk2nInZk2nInZcdBQBTCRBzCQCRCRCRCRBzCQCRBTBXcdnYnJk3nYnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYk2BQBXId
+BOARD 0 24 64 0 BBBTBXk2m2cemnnInZk2nInZm2cemnnInZk3nInZk3nInZ5MBBBBBXmI6s6s6smImJ6s6s6smJBQ+jBB5NnYnJk2nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3k2BQBTBB
+BOARD 0 25 64 0 CRCRBzk2cem2nInZk3nInZmncem2nInZk2nInZk2nInZcdBQBTCRBz8+6t6t6t8+8/6t6t6t8/CQCRBTBXcdnYnJk3nYnJk3nYnJm3cemmnYnJk2nYnJm3cek2CQCRCR
+BOARD 0 26 64 0 6K6K6cVoVpnInZk2nInZm2cemnnInZk3nInZk3nInZcdcdBQBTBBBBBBBBBBBBBBBBBBBBBBBBBBBBBTBXcdcdnYnJk2nYnJk2nYnJmmcem3nYnJk3nYnJVoVp6d6K6K
+BOARD 0 27 64 0 6t6t8/V4V5nZk3nInZmncem2nInZk2nInZk2nInZcdcdcdCQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzcdcdcdnYnJk3nYnJk3nYnJm3cemmnYnJk2nYV4V58+6t6t
+BOARD 0 28 64 0 k2k2k2nInZk2nInZm2cemnnInZk3nInZk3nInZcdcdcdcdBQBRBRBRBXBiY2Y3Y4Y3Y4Y5BWBQBRBRBRBXcdcdcdcdnYnJk2nYnJk2nYnJmmcem3nYnJk3nYk2k2k2k2
+BOARD 0 29 64 0 cem2nInZk3nInZmncem2nInZk2nInZk2nInZcdcdcdcdcdCQCRCRCABXlTZGZHZIZHZIZJlSCABXCRCRBzcdcdcdcdcdnYnJk3nYnJk3nYnJm3cemmnYnJk2nYnJm3ce
+BOARD 0 30 64 0 mnnInZk2nInZm2cemnnInZk3nInZk3nInZcdcdcdcdcdcd6dCHZKCQBzlDhshshshshshslCCQBzZqCE6ccdcdcdcdcdcdnYnJk2nYnJk2nYnJmmcem3nYnJk3nYnJmm
+BOARD 0 31 64 0 nInZk3nInZcemnm2nInZk2nInZk2nInZcdcdcdcdcdcdcd6dCEZKLhLhLhLiLhLiLhLiLhLiLhLhZqCH6ccdcdcdcdcdcdcdnYnJk3nYnJk3nYnJm3mmcenYnJk2nYnJ
+BOARD 0 32 64 0 nYnJk2nYnJcem3mmnYnJk3nYnJk3nYnJcdcdcdcdcdcdcd8+CHkoLxLyRqGOGOGOGOGOGOZFLxLykoCE8/cdcdcdcdcdcdcdnInZk2nInZk2nInZmnm2cenInZk3nInZ
+BOARD 0 33 64 0 m3nYnJk3nYnJmmcem3nYnJk2nYnJk2nYnJcdcdcdcdcdcdKpKqk4FCFCRqGOGOGOGOGOGOZFFCFCk4KpKqcdcdcdcdcdcdnInZk3nInZk3nInZm2cemnnInZk2nInZm2
+BOARD 0 34 64 0 cemmnYnJk2nYnJm3cemmnYnJk3nYnJk3nYnJcdcdcdcdcdK5K6k4FCFCRqGOGOGOGOGOGOZFFCFCk4K5K6cdcdcdcdcdnInZk2nInZk2nInZmncem2nInZk3nInZmnce
+BOARD 0 35 64 0 k2k2k2nYnJk3nYnJmmcem3nYnJk2nYnJk2nYnJcdcdcdcddDdGk4FCFCaZaaaZaaaZaaaZaaFCFCk4dDdGcdcdcdcdnInZk3nInZk3nInZm2cemnnInZk2nInZk2k2k2
+BOARD 0 36 64 0 BBBB5Nk2nYnJk2nYnJm3cemmnYnJk3nYnJk3nYnJcdcdcddldmk4FCFCcGcGcGcGcGcGcGcGFCFCk4dldmcdcdcdnInZk2nInZk2nInZmncem2nInZk3nInZk25MBBBB
+BOARD 0 37 64 0 CRBTBXk2m3nYnJk3nYnJmmcem3nYnJk2nYnJk2nYnJcdcddTdWk4FCFCFCFCFCFCFCFCFCFCFCFCk4dTdWcdcdnInZk3nInZk3nInZm2cemnnInZk2nInZm2k2BQBTCR
+BOARD 0 38 64 0 IdBQBXk2cemmnYnJk2nYnJm3cemmnYnJk3nYnJk3nYnJcdKpKqk4FCFCFCFCFCFCFCFCFCFCFCFCk4KpKqcdnInZk2nInZk2nInZmncem2nInZk3nInZmncek2BQBXId
+BOARD 0 39 64 0 IdBQBXk2mmcem3nYnJk3nYnJmmcem3nYnJk2nYnJk2nYnJK5K6koknknknknknknknknknknknknkoK5K6nInZk3nInZk3nInZm2cemnnInZk2nInZm2cemnk2BQBXId
+BOARD 0 40 64 0 IdBQBXk2nJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJk3nYnJcdl4lJlJlJlJ8t8e8e8vlJlJlJlJl5cdnInZk2nInZk2nInZmncem2nInZk3nInZmncem2nIk2BQBXId
+BOARD 0 41 64 0 IdBQBXk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJk2nYnJcdcdcdcdcdcdcdcdcdcdcdcdcdcdnInZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2BQBXId
+BOARD 0 42 64 0 BBBTBXk2k3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJk3nYnJcdcdcdcdcdcdcdcdcdcdcdcdnInZk2nInZk2nInZmncem2nInZk3nInZmncem2nInZk3k2BQBTBB
+BOARD 0 43 64 0 CRCRBzk2nJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJk2nYnJcdcdcdcdcdcdcdcdcdcdnInZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nIk2CQCRCR
+BOARD 0 44 64 0 6K6K6cVoVpnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJk3nYnJcdcdcdcdcdcdcdcdnInZk2nInZk2nInZmncem2nInZk3nInZmncem2nInZk3nIVoVp6d6K6K
+BOARD 0 45 64 0 6t6t8/V4V5nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJk2nYnJcdcdcdcdcdcdnInZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZV4V58+6t6t
+BOARD 0 46 64 0 k2k2k2m3cemmnYnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJk3nYnJcdcdcdcdnInZk2nInZk2nInZmncem2nInZk3nInZmncem2nInZk3nInZmncem2k2k2k2
+BOARD 0 47 64 0 nJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJk2nYnJcdcdnInZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nI
+BOARD 0 48 64 0 nYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJk3nYnJnInZk2nInZk2nInZmncem2nInZk3nInZmncem2nInZk3nInZmncem2nInZk2nInZ
+BOARD 0 49 64 0 k3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJk2nYnZk3nInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk2
+BOARD 0 50 64 0 nJk2nYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnJk3k2nInZk2nInZmncem2nInZk3nInZmncem2nInZk3nInZmncem2nInZk2nInZk3nI
+BOARD 0 51 64 0 nYnJk3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2nYnJnInZk3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk2nInZ
+BOARD 0 52 64 0 k3nYnJk2nYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJk3nYnZk2nInZmncem2nInZk3nInZmncem2nInZk3nInZmncem2nInZk2nInZk3nInZk3
+BOARD 0 53 64 0 k2k2k2nJk3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnJk2k3nInZm2cemnnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk2nIk2k2k2
+BOARD 0 54 64 0 BBBB5Nk2nJk2nYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJm3cemmnYnJnInZmncem2nInZk3nInZmncem2nInZk3nInZmncem2nInZk2nInZk3nIk25MBBBB
+BOARD 0 55 64 0 CRBTBXk2nYnJk3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJmmcem3nYnZm2cemnnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk2nInZk2BQBTCR
+BOARD 0 56 64 0 6KBQBXk2k3nYnJk2nYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJm3cemmmncem2nInZk3nInZmncem2nInZk3nInZmncem2nInZk2nInZk3nInZk3k2BQBX6K
+BOARD 0 57 64 0 6tBQBXk2k2k2k2k2k2nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJmmm3m2mnnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk2k2k2k2k2k2BQBX6t
+BOARD 0 58 64 0 IdBQBTBBBBBBBBBB5Nk2nYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnJcecenInZk3nInZmncem2nInZk3nInZmncem2nInZk2nInZk25MBBBBBBBBBBBTBXId
+BOARD 0 59 64 0 IdCQCRCRCRCRCRBTBXk2k3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3nYnJnInZk2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk2k2BQBTCRCRCRCRCRBzId
+BOARD 0 60 64 0 Id6d6K6K6K6K6KBQBXk2nJk2nYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJk2nYnZk3nInZmncem2nInZk3nInZmncem2nInZk2nInZk3nIk2BQBX6K6K6K6K6K6cId
+BOARD 0 61 64 0 Id8+6t6t6t6t6tBQBXk2nYnJk3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnJk3k2nInZm2cemnnInZk2nInZm2cemnnInZk3nInZk2nInZk2BQBX6t6t6t6t6t8/Id
+BOARD 0 62 64 0 IdIdIdIdIdIdIdBQBXk2m2nYnJk2nYnJk2nYnJm3cemmnYnJk3nYnJm3cemmnYnJnInZmncem2nInZk3nInZmncem2nInZk2nInZk3nInZm3k2BQBXIdIdIdIdIdIdId
+BOARD 0 63 64 0 IdIdIdIdIdIdIdBQBXk2cem2nYnJk3nYnJk3nYnJmmcem3nYnJk2nYnJmmcem3nYnZm2cemnnInZk2nInZm2cemnnInZk3nInZk2nInZm3cek2BQBXIdIdIdIdIdIdId
+LINK gc_studios_01.nw 9 63 46 1 playerx 0
+LINK gc_studios_03.nw 0 10 1 8 61 playery
+LINK gc_studios_03.nw 0 28 1 8 61 playery
+LINK gc_studios_03.nw 0 46 1 8 61 playery
+LINK gc_studios_04.nw 63 10 1 8 0 playery
+LINK gc_studios_04.nw 63 28 1 8 0 playery
+LINK gc_studios_04.nw 63 46 1 8 0 playery
+LINK gc_studios_05.nw 3 0 58 1 playerx 61
+LINK gc_studios_06.nw 31 22 2 1 31.5 52.5
+NPC wavesani.mng 36 33
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  setcoloreffect 0,1,1,0.75;
+}
+NPCEND
+NPC wavesani.mng 28 37
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  setcoloreffect 0,1,1,0.75;
+}
+NPCEND
+NPC wavesani.mng 26 33
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  setcoloreffect 0,1,1,0.75;
+}
+NPCEND
+NPC wavesani.mng 26 37
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  setcoloreffect 0,1,1,0.75;
+}
+NPCEND
+NPC wavesani.mng 30 37
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  setcoloreffect 0,1,1,0.75;
+}
+NPCEND
+NPC wavesani.mng 32 37
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  setcoloreffect 0,1,1,0.75;
+}
+NPCEND
+NPC wavesani.mng 26 35
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  setcoloreffect 0,1,1,0.75;
+}
+NPCEND
+NPC wavesani.mng 34 37
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  setcoloreffect 0,1,1,0.75;
+}
+NPCEND
+NPC wavesani.mng 36 37
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  setcoloreffect 0,1,1,0.75;
+}
+NPCEND
+NPC wavesani.mng 36 35
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  setcoloreffect 0,1,1,0.75;
+}
+NPCEND
+NPC waterfalldown.mng 26 31
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg waterfalldown.mng;
+  setimgpart waterfalldown.mng,32,0,50,33;
+  if (lighteffectsenabled) {
+    drawaslight;
+    setcoloreffect 0,1,1,0.75;
+  }
+}
+NPCEND
+NPC waterfalldown.mng 36 31
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg waterfalldown.mng;
+  setimgpart waterfalldown.mng,32,0,50,33;
+  if (lighteffectsenabled) {
+    drawaslight;
+    setcoloreffect 0,1,1,0.75;
+  }
+}
+NPCEND
+NPC waterfalldown.mng 29 30
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg waterfalldown.mng;
+  setimgpart waterfalldown.mng,0,0,100,33;
+  if (lighteffectsenabled) {
+    drawaslight;
+    setcoloreffect 0,1,1,0.75;
+  }
+}
+NPCEND
+NPC waterfalldown.mng 33 30
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg waterfalldown.mng;
+  setimgpart waterfalldown.mng,32,0,50,33;
+  if (lighteffectsenabled) {
+    drawaslight;
+    setcoloreffect 0,1,1,0.75;
+  }
+}
+NPCEND
+NPC waterfalldown.mng 33 35
+if (created) {
+  dontblock;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg waterfalldown.mng;
+  setimgpart waterfalldown.mng,32,0,50,33;
+  if (lighteffectsenabled) {
+    drawaslight;
+    setcoloreffect 0,1,1,0.75;
+  }
+}
+NPCEND
+NPC waterfalldown.mng 29 35
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg waterfalldown.mng;
+  setimgpart waterfalldown.mng,0,0,100,33;
+  if (lighteffectsenabled) {
+    drawaslight;
+    setcoloreffect 0,1,1,0.75;
+  }
+}
+NPCEND
+NPC waterani_w.mng 28 33
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg waterani_w.mng;
+  setimgpart waterani_w.mng,65,0,16,33;
+  if (lighteffectsenabled) {
+    setcoloreffect 0,1,1,0.75;
+  }
+}
+NPCEND
+NPC waterani_e.mng 35 33
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg waterani_e.mng;
+  setimgpart waterani_e.mng,0,0,16,33;
+  if (lighteffectsenabled) {
+    setcoloreffect 0,1,1,0.75;
+  }
+}
+NPCEND
+NPC - 32 32
+if (created) {
+  loadFromDB();
+
+  drawoverplayer;
+  x = 32.5;
+  shieldpower = 1;
+  swordpower = 1;
+  dir = 3;
+  setcharani classic_sword[2],;
+}
+function loadFromDB() {
+  with (getnpc(GrowlZ-Server)) {
+    setstring thiso.attributes,#s(this.gcstatue_right_attributes);
+  }
+  // mouseover name, sword, shield, head, body, hat, skin, coat, sleeves, shoes, belt
+  setcharprop #P9,#I(this.attributes,0);
+  setcharprop #1,#I(this.attributes,1);
+  setcharprop #2,#I(this.attributes,2);
+  setcharprop #3,#I(this.attributes,3);
+  setcharprop #8,#I(this.attributes,4);
+  setcharprop #P1,#I(this.attributes,5);
+  setcharprop #C0,#I(this.attributes,6);
+  setcharprop #C1,#I(this.attributes,7);
+  setcharprop #C2,#I(this.attributes,8);
+  setcharprop #C3,#I(this.attributes,9);
+  setcharprop #C4,#I(this.attributes,10);
+}
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  if (mousex in |x + 0.625,x + 2.2| && mousey in |y,y + 3|) {
+    showtext 0,mousescreenx,mousescreeny,Tempus Sans ITC,bc,#P9(-1);
+    changeimgzoom 0,0.8;
+    changeimgvis 0,4;
+  }
+  else hideimg 0;
+  timeout = 0.05;
+}
+NPCEND
+NPC - 28 32
+if (created) {
+  loadFromDB();
+
+  drawoverplayer;
+  x = 28.5;
+  shieldpower = 1;
+  swordpower = 1;
+  dir = 1;
+  setcharani classic_sword[2],;
+}
+function loadFromDB() {
+  with (getnpc(GrowlZ-Server)) {
+    setstring thiso.attributes,#s(this.gcstatue_left_attributes);
+  }
+  // mouseover name, sword, shield, head, body, hat, skin, coat, sleeves, shoes, belt
+  setcharprop #P9,#I(this.attributes,0);
+  setcharprop #1,#I(this.attributes,1);
+  setcharprop #2,#I(this.attributes,2);
+  setcharprop #3,#I(this.attributes,3);
+  setcharprop #8,#I(this.attributes,4);
+  setcharprop #P1,#I(this.attributes,5);
+  setcharprop #C0,#I(this.attributes,6);
+  setcharprop #C1,#I(this.attributes,7);
+  setcharprop #C2,#I(this.attributes,8);
+  setcharprop #C3,#I(this.attributes,9);
+  setcharprop #C4,#I(this.attributes,10);
+}
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  if (mousex in |x + 0.625,x + 2.2| && mousey in |y,y + 3|) {
+    showtext 0,mousescreenx,mousescreeny,Tempus Sans ITC,bc,#P9(-1);
+    changeimgzoom 0,0.8;
+    changeimgvis 0,4;
+  }
+  else hideimg 0;
+  timeout = 0.05;
+}
+NPCEND
+NPC - 30 31
+if (created) {
+  loadFromDB();
+
+  drawoverplayer;
+  x = 30.5;
+  shieldpower = 1;
+  swordpower = 1;
+  dir = 2;
+  setcharani classic_idle,;
+}
+function loadFromDB() {
+  with (getnpc(GrowlZ-Server)) {
+    setstring thiso.attributes,#s(this.gcstatue_top_attributes);
+  }
+  // mouseover name, sword, shield, head, body, hat, skin, coat, sleeves, shoes, belt
+  setcharprop #P9,#I(this.attributes,0);
+  setcharprop #1,#I(this.attributes,1);
+  setcharprop #2,#I(this.attributes,2);
+  setcharprop #3,#I(this.attributes,3);
+  setcharprop #8,#I(this.attributes,4);
+  setcharprop #P1,#I(this.attributes,5);
+  setcharprop #C0,#I(this.attributes,6);
+  setcharprop #C1,#I(this.attributes,7);
+  setcharprop #C2,#I(this.attributes,8);
+  setcharprop #C3,#I(this.attributes,9);
+  setcharprop #C4,#I(this.attributes,10);
+}
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  if (mousex in |x + 0.625,x + 2.2| && mousey in |y,y + 3|) {
+    showtext 0,mousescreenx,mousescreeny,Tempus Sans ITC,bc,#P9(-1);
+    changeimgzoom 0,0.8;
+    changeimgvis 0,4;
+  }
+  else hideimg 0;
+  timeout = 0.05;
+}
+NPCEND
+NPC - 28 24
+join level_nopk;
+//#CLIENTSIDE
+if (playerenters) {
+  playlooped river.wav;
+}
+if (playerenters || timeout) {
+  movement_handlesword = 0.1;
+  movement_handleitems = 0.1;
+  movement_handlegui = 0.1;
+  timeout = 0.05;
+}
+NPCEND
+NPC - 31 40
+if (created) {
+  setshape 1,32,16;
+
+  with (getnpc(GrowlZ-Server)) {
+    setstring thiso.message,#s(this.gcstatue_top_message);
+    setstring thiso.message,#s(thiso.message)#b#s(this.gcstatue_left_message);
+    setstring thiso.message,#s(thiso.message)#b#s(this.gcstatue_right_message);
+  }
+}
+if (playertouchsme) {
+  if (playerdir == 0) {
+    say2 #s(this.message);
+  }
+}
+NPCEND
+NPC - 36 46
+if (playerchats) {
+  if (strequals(#g,GC Administrator)) {
+    if (strequals(#c,statue view)) {
+      with (getnpc(GrowlZ-Server)) {
+        sendrpgmessage -;
+        sendrpgmessage Top Statue:;
+        sendrpgmessage Attributes;
+        sendrpgmessage #s(this.gcstatue_top_attributes);
+        sendrpgmessage Message;
+        sendrpgmessage #s(this.gcstatue_top_message);
+        sendrpgmessage -;
+        sendrpgmessage Left Statue:;
+        sendrpgmessage Attributes;
+        sendrpgmessage #s(this.gcstatue_left_attributes);
+        sendrpgmessage Message;
+        sendrpgmessage #s(this.gcstatue_left_message);
+        sendrpgmessage -;
+        sendrpgmessage Right Statue:;
+        sendrpgmessage Attributes;
+        sendrpgmessage #s(this.gcstatue_right_attributes);
+        sendrpgmessage Message;
+        sendrpgmessage #s(this.gcstatue_right_message);
+
+        setplayerprop #c,Press F2 to view.;
+      }
+    }
+    if (strequals(#c,commands)) {
+      say2 Commands:
+         #bstatue view;
+    }
+  }
+}
+NPCEND
+NPC - 3 9
+join sign;
+
+//#CLIENTSIDE
+if (created) setstring this.text,
+#lStudios I-M
+Studio I - The Pit#b
+Studio J - Fastest Fingers#b
+Studio K - Fort Building#b
+Studio L - none#b
+Studio M - Maze LMS;
+NPCEND
+NPC - 59 9
+join sign;
+
+//#CLIENTSIDE
+if (created) setstring this.text,
+#rStudios V-Z#b
+Studio V - none#b
+Studio W - none#b
+Studio X - none#b
+Studio Y - none#b
+Studio Z - none;
+NPCEND
+NPC - 3 27
+join sign;
+
+//#CLIENTSIDE
+if (created) setstring this.text,
+#lStudios F-H#b
+Studio F - Musical Chairs#b
+Studio G - Ultimate Bush Duel#b
+Studio H - All-Star Deluxe;
+NPCEND
+NPC - 3 45
+join sign;
+
+//#CLIENTSIDE
+if (created) setstring this.text,
+#lStudios A-E#b
+Studio A - Make Your Luck#b
+Studio B - Barrel Mayhem#b
+Studio C - Step Elimination#b
+Studio D - Graalian Squares#b
+Studio E - Sumo;
+NPCEND
+NPC - 59 27
+join sign;
+
+//#CLIENTSIDE
+if (created) setstring this.text,
+#rStudios S-U#b
+Studio S - Sparopoly#b
+Studio T - none#b
+Studio U - none;
+NPCEND
+NPC - 59 45
+join sign;
+
+//#CLIENTSIDE
+if (created) setstring this.text,
+#rStudios N-R#b
+Studio N - Sumo Allstar#b
+Studio O - Treasure Hunt#b
+Studio P - Pictionary#b
+Studio Q - Connect 4#b
+Studio R - Flagbearer;
+NPCEND
+NPC classic_gc_wallpieces3.png 36 22
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 30 22
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 1 0
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 62 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 62 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 62 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 2 58
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 33 22
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 26 23
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 25 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 27 22
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 36 23
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 25 29
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 38 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 39 26
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 24 26
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 24 25
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 38 25
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 37 29
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 1 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 1 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 1 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 0 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 0 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 0 55
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 62 0
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 62 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 62 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 35 21
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimg classic_gc_wallpieces2.png;
+  setimgpart classic_gc_wallpieces2.png,16,0,16,16;
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 62 55
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 56 59
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 61 58
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 6 59
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 28 21
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimg classic_gc_wallpieces1.png;
+  setimgpart classic_gc_wallpieces1.png,0,0,16,16;
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 34 21
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimg classic_gc_wallpieces1.png;
+  setimgpart classic_gc_wallpieces1.png,0,0,16,16;
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 29 21
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimg classic_gc_wallpieces2.png;
+  setimgpart classic_gc_wallpieces2.png,16,0,16,16;
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 62 1
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimg classic_gc_wallpieces1.png;
+  setimgpart classic_gc_wallpieces1.png,0,0,16,16;
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 1 1
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimg classic_gc_wallpieces2.png;
+  setimgpart classic_gc_wallpieces2.png,16,0,16,16;
+}
+NPCEND
+NPC gc-sign.png 33 15
+
+//#CLIENTSIDE
+function onPlayertouchsme() {
+  if(player.dir == 0 && player.y>=15.25){
+    say2("Stat Board and the#bHall of Champions.");
+  }
+}
+NPCEND

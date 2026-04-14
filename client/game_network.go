@@ -338,6 +338,17 @@ func (g *Game) handleServerMsg(data []byte) {
 		} else {
 			g.chat.AddMessage("", "Error: "+msg.Msg, true)
 		}
+
+	case "load_map":
+		if msg.Map != "" {
+			name := msg.Map
+			if len(name) >= 5 && name[len(name)-5:] == ".gmap" {
+				g.loadGMap(name)
+			} else {
+				g.activeGMap = ""
+				g.loadMap(name, false)
+			}
+		}
 	}
 }
 

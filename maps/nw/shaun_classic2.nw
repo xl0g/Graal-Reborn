@@ -1,0 +1,886 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dDdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdGJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dlc/dUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUc/dmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmNqhCN7N6hDNrNqhCN7N6hDNrNqhCN7N6hDNrNqhCN7N6hDNrNqhCN7N6hDNrNqhCN7N6hDNrdldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmhCCDJ4J4CghDhCCDJ4J4CghDhCCDJ4J4CghDhCCDJ4J4CghDhCCDJ4J4CghDhCCDJ4J4CghDdldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmNqCDJ4J4CgNrNqCDJ4J4CgNrNqCDJ4J4CgNrNqCDJ4J4CgNrNqCDJ4J4CgNrNqCDJ4J4CgNrdldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmhCCDJ4J4CghDhCCDJ4J4CghDhCCDJ4J4CghDhCCDJ4J4CghDhCCDJ4J4CghDhCCDJ4J4CghDdldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmNqCDdEdECgNrNqCDdEdECgNrNqCDdEdECgNrNqCDdEdECgNrNqCDdEdECgNrNqCDdEdECgNrdldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmN6N7dTdWN6N7N6N7dTdWN6N7N6N7dTdWN6N7N6N7dTdWN6N7N6N7dTdWN6N7N6N7dTdWN6N7dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k25c5dk2k2k2k25c5dk2k2k2k25c5dk2k2k2k25c5dk2k2k2k25c5dk2k2k2k25c5dk2k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2nInJk3k3k3k3k3k3k3k3k3k3k3k3k3k3nInJk3k3k3k3k3k3k3k3k3k3k3k3k3k3nInJk2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2nYnZk3k3k3k3k3k3k3k3k3k3k3k3k3k3nYnZk3k3k3k3k3k3k3k3k3k3k3k3k3k3nYnZk2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 19 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2k2k2k2k2k2k3k3k2dDdEdEdGk2k3k3k2dDdEdEdGk2k3k3k2k2k2k2k2k2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 20 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2/A3f/A3fk2k3k3k2dTdUc/dmip6/6/iqdlc/dUdWk2k3k3k2/A3f/A3fk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 21 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k23f/A3f/Ak2k3k3k25cN7dldmi57P7Pi6dldmN75dk2k3k3k23f/A3f/Ak2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 22 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2/A3f/A3fk2k3k3k2/A3fdldmi57P7Pi6dldm/A3fk2k3k3k2/A3f/A3fk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 23 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k23f/A3f/Ak2k3k3k23f/Adldmi57P7Pi6dldm3f/Ak2k3k3k23f/A3f/Ak2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 24 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2/A3f/A3fk2k3k3k2/A3fdldmJ4J4J4J4dldm/A3fk2k3k3k2/A3f/A3fk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 25 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dDdEdEdGip6/6/iqdDdEc/c/dEdEdEdEc/c/dEdGip6/6/iqdDdEdEdGk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 26 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dlc/dUdWi57P7Pi6dTdUc/c/dUc/c/dUc/c/dUdWi57P7Pi6dTdUc/dmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 27 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmhDCDi57P7Pi6CghCdTdWhDdTdWhCdTdWhDCDi57P7Pi6CghCdldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 28 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmNrCDjJ7f7fjKCgNqCgCDNrCgCDNqCgCDNrCDjJ7f7fjKCgNqdldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 29 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmN75djZ7v7vja5cN6CgCDN7CgCDN6CgCDN75djZ7v7vja5cN6dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 30 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmk2k2k2k3k3k2k2k25c5dk25c5dk25c5dk2k2k2k3k3k2k2k2dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 31 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmk3k2k2k2k2k2k2k3k3k3k3k3k3k3k3k3k3k2k2k2k2k2k2k3dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 32 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmk3k2uxuguxugk2k3LELFLGLFLGLFLGLHk3k2uxuguxugk2k3dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 33 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmk3k2uguxuguxk2k3LULVLWLVLWLVLWLXk3k2uguxuguxk2k3dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 34 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmk3k2uxuguxugk2k3LULVLWLVLWLVLWLXk3k2uxuguxugk2k3dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 35 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmk3k2uguxuguxk2k3KpKqKpKqKpKqKpKqk3k2uguxuguxk2k3dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 36 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmk3k2uxuguxugk2k3K5K6K5K6K5K6K5K6k3k2uxuguxugk2k3dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 37 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmk3k2uguxuguxk2k3LkLlLlLlLlLlLlLnk3k2uguxuguxk2k3dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmk3k2uxuguxugk2k3k3k3k3k3k3k3k3k3k3k2uxuguxugk2k3dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmk3k2uguxuguxk2k2k2k2k2k2k2k2k2k2k2k2uguxuguxk2k3dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dldmk3k2uxuguxuguxuguxuguxuguxuguxuguxuguxuguxugk2k3dldmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dlc/dEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEc/dmk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2dTdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdWk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k25cN6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N75dk2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2k3k3k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k3k3k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2nInJk3k3k3k3k3k3k3k3k3k3k3k3k3k3nInJk3k3k3k3k3k3k3k3k3k3k3k3k3k3nInJk2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmk2nYnZk3k3k3k3k3k3k3k3k3k3k3k3k3k3nYnZk3k3k3k3k3k3k3k3k3k3k3k3k3k3nYnZk2dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmdEdGk2k2dDdEdEdEdEdEdEdEdEdEdEdGk2k3k3k2dDdEdEdEdEdEdEdEdEdEdEdGk2k2dDdEdldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmdUdW/A3fdTdUdUdUdUdUdUdUdUdUc/dmip6/6/iqdlc/dUdUdUdUdUdUdUdUdUdW/A3fdTdUdldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmN75d3f/A5cN7N6N7N6N7N6N7N6N7dldmi57P7Pi6dldmN6N7N6N7N6N7N6N7N75d3f/A5cN7dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmKpKq/A3fKpKqLILJLKLJLKKrKpKqdldmi57P7Pi6dldmKpKqLILJLKLJLKKrKpKq/A3fKpKqdldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmK5K63f/AK5K6LYLZLaLZLaK7K5K6dldmi57P7Pi6dldmK5K6LYLZLaLZLaK7K5K63f/AK5K6dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmKpKq/A3fKpKqLYLZLaLZLaK7KpKqdldmi57P7Pi6dldmKpKqLYLZLaLZLaK7KpKq/A3fKpKqdldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmK5K63f/AK5K6LoLpLqLpLqLLK5K6dldmjJ7f7fjKdldmK5K6LoLpLqLpLqLLK5K63f/AK5K6dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmKpKq/A3f/A3fKpKqKpKqKpKq/A3fdldmjZ7v7vjadldm/A3fKpKqKpKqKpKq/A3f/A3fKpKqdldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldmK5K63f/A3f/AK5K6K5K6K5K63f/Adldmk2k3k3k2dldm3f/AK5K6K5K6K5K63f/A3f/AK5K6dldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dldm/A3f/A3f/A3f/A3f/A3f/A3f/A3fdldmk2k2k2k2dldm/A3f/A3f/A3f/A3f/A3f/A3f/A3fdldmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dlc/dEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEc/dmJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4dTdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdWJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK shaun_classic1.nw 30 24 4 1 32.5 14
+LINK overworld_54.nw 30 57 4 1 54.5 44.5
+NPC bed.png 28 32
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC - 25 22
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head78.png;
+  setcharprop #C0,gray;
+  setcharprop #C1,gray;
+  setcharprop #C2,brown;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,ambrose-shield.png;
+  setcharprop #8,body11.png;
+  shieldpower = 1;
+  dir = 1;
+  this.startx = x;
+}
+if (playerenters) {
+  x = this.startx + 0.5;
+}
+NPCEND
+NPC - 41 22
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head78.png;
+  setcharprop #C0,gray;
+  setcharprop #C1,gray;
+  setcharprop #C2,brown;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,ambrose-shield.png;
+  setcharprop #8,body11.png;
+  shieldpower = 1;
+  dir = 1;
+  this.startx = x;
+}
+if (playerenters) {
+  x = this.startx + 0.5;
+}
+NPCEND
+NPC - 19 22
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head78.png;
+  setcharprop #C0,gray;
+  setcharprop #C1,gray;
+  setcharprop #C2,brown;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,ambrose-shield.png;
+  setcharprop #8,body11.png;
+  shieldpower = 1;
+  dir = 3;
+  this.startx = x;
+}
+if (playerenters) {
+  x = this.startx + 0.5;
+}
+NPCEND
+NPC - 35 22
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head78.png;
+  setcharprop #C0,gray;
+  setcharprop #C1,gray;
+  setcharprop #C2,brown;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,ambrose-shield.png;
+  setcharprop #8,body11.png;
+  shieldpower = 1;
+  dir = 3;
+  this.startx = x;
+}
+if (playerenters) {
+  x = this.startx + 0.5;
+}
+NPCEND
+NPC - 52 8
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (playerenters) {
+  seteffect 0,0,0,0.25;
+}
+NPCEND
+NPC classic_shaun_chandelier.png 23 19
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimg classic_shaun_chandelier.png;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,1;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.675;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC classic_shaun_chandelier.png 39 19
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimg classic_shaun_chandelier.png;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,1;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.675;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC classic_shaun_chandelier.png; 23 39
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimg classic_shaun_chandelier.png;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,1;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.675;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC classic_shaun_chandelier.png 39 39
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimg classic_shaun_chandelier.png;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,1;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.675;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 21 21
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 22 22
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 25 21
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 24 22
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 22 20
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 24 20
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 37 21
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 41 21
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 38 22
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 40 22
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 38 20
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 40 20
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 21 41
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 25 41
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 37 41
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 41 41
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 22 42
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 24 42
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 22 40
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 24 40
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 38 42
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 40 42
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 38 40
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 40 40
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC light12.png 20 18
+// NPC made by Shaun
+//#CLIENTSIDE
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 1,0.75,0.25,0.99;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC light12.png 36 18
+// NPC made by Shaun
+//#CLIENTSIDE
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 1,0.75,0.25,0.99;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC light12.png 20 38
+// NPC made by Shaun
+//#CLIENTSIDE
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 1,0.75,0.25,0.99;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC light12.png 36 38
+// NPC made by Shaun
+//#CLIENTSIDE
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 1,0.75,0.25,0.99;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC window.png 16 11
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 16 13
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 22 11
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 22 13
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 28 11
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 28 13
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 34 11
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 34 13
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 40 11
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 40 13
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 46 11
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 46 13
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC - 20 27
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  this.x = x;
+  this.y = y;
+  this.w = 24;
+  this.h = 14;
+}
+if (playerenters||timeout) {
+  if (playerx>this.x&&playerx<(this.x+this.w)) {
+    if (playery>this.y&&playery<(this.y+this.h)) {
+      if (strequals(#a,Shaun)||strequals(#a,Faygolette)||strequals(#a,ValerieJ)) {
+      }
+      else {
+        playery--;
+      }
+    }
+  }
+  timeout = 0.05;
+}
+NPCEND

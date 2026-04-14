@@ -1,0 +1,383 @@
+GLEVNW01
+BOARD 0 0 64 0 GBDZDaFxDJDKH+H8H9GADpDqDvFTFUD/OnOHGcGADpDqGBDIDJDKDLDZDaDbDvFTFUD/EtCrGcH8H9GADvFTFUGADpDqDvH8H9GdDJDKC4C5C6C7DJDKC4C5C6C7DJDK
+BOARD 0 1 64 0 GADpU4U5DZDaFxDJDKH+FTFUD/CrEtEtCrEtEtGcH8H9GADYDZDaDbDpDqDvD/CrEtF+C5C6C7DJDKH+D/EtEtGcH8H9GdDJDKDLDZDaDIDJDKDLDZDaDIDJDKDLDZDa
+BOARD 0 2 64 0 BGBBVYVZ5NDqGBDZDaFxC4C5C6F9EtCrF+C5C6C7DJDKH+GADpDqDvFTFUD/CrCqF+C7DJDKDLDZDaFxC4C5C6C7DJDKDLDZDaDbDpDqDYDZDaDbDpDqDYDZDaDbDpDq
+BOARD 0 3 64 0 BRBR5c5dBXD6GADpDqGBDIDJDKC4C5C6C7DJDKDLDZDaFxH+H8H9D/EtCrF+C5C6C7DeDZDaDbDpDqGBDIDJDKDLDZDaDbDpDqDvFTFUGADpDqDvH8H9GADpDqDvFTFU
+BOARD 0 4 64 0 BRBRBRBRBXf/D4D5D6GADYDZDaDIDJDKDLDZDaDbDpDqGBDIDJDKC4C5C6C7DJDKDLDuDpDqDvFTFUGADYDZDaDbDpDqDvFTFUD/EtCrGcH8H9GdDJDKH+FTFUD/CrCr
+BOARD 0 5 64 0 CRCRCRCRBzBHf/f/f/D4GADpDqDYDZDaDbDpDqDvFTFUGADYDZDaDIDJDKDLDZDaDbDvFTFUD/EtCrGcGADpDqDvH8H9D/CrCqF+C5C6C7DJDKDLDZDaFxC4F9CrCqCr
+BOARD 0 6 64 0 CjNqChCjCDBXf/f/f/f/D4D5D6GADpDqDvFTFUD/EtEtGcGADpDqDYDZDaDbDpDqDvD/CrEtF+C7DJDKH+H8H9GdDJDKC4C5C6C7DJDKDLDZDaDbDpDqGBDIC4F9EtCq
+BOARD 0 7 64 0 CzN6CxCz5dBXf/f/f/f/f/f/f/D4D5D6D/EtCrCqEtCrCqGcH8H9GADpDqDvFTFUD/CrCqF+C7DLDZDadDU4U5dEdEdEdEdEdEdEdEdGDbDpDqDvD5D6GADYGNDUCrEt
+BOARD 0 8 64 0 BkBlBmBnBRBXf/f/f/f/f/ABf/f/DsE4CrEtEtCrEtEtF+C7DJDKH+H8H9D/EtCrF+C5C6C7DeDbDpDqdlVYVZc/c/c/c/c/c/c/c/dmDvD5FUD/GHE4GcGRJCDkCrCq
+BOARD 0 9 64 0 B0B1B2B3CRBzf/AAABAAf/f/f/DsE4CrCqEtCrCqC5C6C7DeDZDaDIDJDKC4C5C6C7DJDKDLDuDvdDdEdlLeLfc/c/c/c/c/c/c/c/dmdEdGEMCqEtCqFoDSFhC4C5C6
+BOARD 0 10 64 0 CEwLwLCHNrYvf/f/AAABf/f/DsE4CrCqF+C5C6C7DJDKDLDuDpDqDYDZDaDIDJDKDLDZDaDbDvD7dlc/dTdUdUdUdUdUdUdUdUdUdUdWc/dmEQEtENCoEdDiDYDIDJDK
+BOARD 0 11 64 0 CUItItCXN7Yvf/g3f/f/f/f/EQCrEtF+C7DJDKDLDZDaDbDvD5D6GADpDqDYDZDaDbDpDqDvD7f/dlc/CQCRCRCRCRCRCRCRCRCRCRBzc/dmEcGJDVf/f/GQGADYDZDa
+BOARD 0 12 64 0 BEf/f/BEKZY/f/f/f/f/f/DsD8C5C6C7DeDZDaDbDpDqDvD7f/f/GQD5D6GADpDqDvD5D6D7f/f/dlc/dZNqChCiCjNqNqChCiCjNqdrc/dmf/EcEdf/f/f/GQGADpDq
+BOARD 0 13 64 0 f/f/f/f/f/f/f/f/f/DsCpD8C7DJDKDLDudDdEdEdEdEdEdEdEdEdEdEdEdEdGD6D7Svagf/f/f/dlc/dZN6CxCyCzN6N6CxCyCzN6drc/dmf/f/f/f/f/f/f/GQD5D6
+BOARD 0 14 64 0 f/f/f/f/f/f/f/f/DsE4F+C7DeDZDaDbDvdlc/U4U5c/c/c/c/c/c/U4U5c/dmf/f/S/awf/f/f/dlc/dEdGdUdDdEdEdEdEdGdUdDc/c/dmf/f/f/f/f/f/f/f/AQf/
+BOARD 0 15 64 0 ABf/f/f/f/QzQwQxE4CqERE3DuDpDqDv16dlc/VYVZc/c/c/c/c/c/VYVZc/dm17f/TPbAf/f/f/dTdUdUdWCRdTdUdUdUdUdWCRdTdUdUdWf/f/f/ARf/f/f/f/f/AQ
+BOARD 0 16 64 0 f/f/f/f/f/RDRARBEMEtEhEiDvD5D6D7BQdTdULeLfdUdUdUdUdUdULeLfdUdWBXf/f/f/f/SvagCQCRCRBzNqCQB0B1B2B3BzNqCQCRCRBzf/f/f/Agf/f/AAABf/f/
+BOARD 0 17 64 0 AAABf/AwAxRTRQRREAEMERESETByf/f/BQCQCQCRCRCRCRCRCRCRCRCRCRBzBzBXARf/f/f/S/awYvChCjYvN6YvCEwLwLCHYvN6YvChCjYvf/f/f/ARf/f/f/f/f/AA
+BOARD 0 18 64 0 f/f/f/f/f/f/RgRhf/EsEhEiEjCCf/f/BQBRdZNqChCiCjNqNqChCiCjNqdrBRBXAgf/f/f/TPbAYvCxCzYvf/Y/CUItItCXY/f/YvCxCzYvf/f/f/Agf/f/f/f/f/f/
+BOARD 0 19 64 0 f/AwAxf/f/f/f/f/DsE8EgECEDEEByBABCBFdZN6CxCyCzN6N6CxCyCzN6drBRBXARBgARf/f/f/Y/KYKZY/f/f/BEf/arBEf/f/Y/KYKZY/f/ARBgARf/f/f/AQf/f/
+BOARD 0 20 64 0 f/f/f/f/AwAxf/f/EAEMEtERESETCCBQBSBV17CRCRCRCRCRCRCRCRCRCRBzBRBXAhBwAgf/f/f/f/f/f/f/f/arf/arZParCpDnf/f/f/f/f/AgBwAhf/f/f/f/f/f/
+BOARD 0 21 64 0 QwQxQyf/f/f/f/f/f/EcEMEhEiEjCCBQBiBWBXBRBRBRBkBlBmBnBRBRBXCRCRBzKlKmARf/f/f/f/f/arf/arZParZParCqEtDVf/f/f/ARBgARf/f/f/f/f/f/f/AA
+BOARD 0 22 64 0 RARBRCf/f/f/ABDmDnH/EQEgECEDEECQCRCRBzCRCRCRB0B1B2B3CRCRBzCiCjYvK1K2Agf/f/f/f/arZParZParZParZParFoEdf/cKcLAhBwAhf/f/f/f/ABf/f/f/
+BOARD 0 23 64 0 RQRRRSf/f/AQf/D2D3DnEQEtERESETYvChCjYvNqNqYvCEIdIdCHYvCDCxCyCzYvKlKmARBgARf/f/f/arZParEtFoGJarrhEdf/f/cacbf/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 24 64 0 RgRhH/DsDtf/f/CmCnD3E4EtEhEiEjYvCxCzYvN6N6YvCUItItCXYvCTGHDnf/Y/K1K2AhBwAhf/f/arZParEtFoEdEQEtELCpDnf/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 25 64 0 f/f/DsD8D9f/f/C2C3C4C5C6C7DOETY/KYKZY/KlKmY/BEarZPBEY/EcEMDVf/f/f/f/f/f/f/f/f/DsarEtFoEdf/EcEMEtENEdf/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 26 64 0 f/DsD8CsCtAwAxf/DHDIDJDKDLDbDff/KlKmf/K1K2f/araparf/arDsGGELf/f/f/f/f/f/f/f/f/EQENCoEdf/f/DsE4CqDVAAABf/f/f/f/f/f/AAABf/f/f/f/f/
+BOARD 0 27 64 0 CpD8C7C8C9f/AwAxDXDYDZDaDbDvF/f/K1K2f/f/f/f/f/arZParZParEtarf/f/f/f/f/f/f/DsCpE4DVf/f/f/f/EcGJENEdf/f/f/f/f/f/f/f/AJAKALAMANAOf/
+BOARD 0 28 64 0 C6C7DeDMf/AwAxf/H/DoDpDqDvF/GgGhGiGjf/AQf/f/f/E4arZfarZfarZParf/f/DsDnf/f/EcGJENEdf/f/f/f/f/EcEdf/f/f/f/f/f/f/f/AYAZAaAbAcAdAeAf
+BOARD 0 29 64 0 DKDLDuDcf/f/AwAxH/D4D5D6F/f/GwGxGyGzf/f/f/f/EQENaparCrarZParf/f/DsE4ELDnf/f/EcEdf/f/f/f/f/f/f/f/AQf/f/f/f/f/f/f/AoApAqArAsAtAuAv
+BOARD 0 30 64 0 DaDbDrH/f/AwAxAwAxcKcLf/AAABHAHBHCHDf/f/f/f/f/f/arGJENEdarZPf/f/EcEMENEdf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/A4A5A6A7A8A9A+A/
+BOARD 0 31 64 0 DqDvD7H/f/f/AwAxf/cacbf/f/f/HQHRHSHTf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EcEdf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/BIBJBKBLBMBNBOBP
+BOARD 0 32 64 0 N9D7f/f/f/f/f/f/f/f/f/f/f/f/HgHhHiHjf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/BYBZBaBbBcBdBeBf
+BOARD 0 33 64 0 Avf/f/AAABf/f/f/f/f/f/AQf/f/HwHxHyHzf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ABf/f/f/f/f/f/f/f/f/f/f/BoBpBqBrDADBALAM
+BOARD 0 34 64 0 A/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/B4B5B6DQAZAaAbAc
+BOARD 0 35 64 0 BPf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/AQf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AQf/f/f/f/f/f/CJCKDgApAqArAs
+BOARD 0 36 64 0 Bff/AQf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/CaA4A5A6A7A8
+BOARD 0 37 64 0 Bvf/f/f/f/f/f/f/f/AQf/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BIBJBKBLBM
+BOARD 0 38 64 0 B/f/f/AAABf/f/f/f/f/f/f/f/f/f/AQf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BYBZBaBbBc
+BOARD 0 39 64 0 f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AJAKALAMDCDDDA
+BOARD 0 40 64 0 f/f/ABf/f/f/f/f/f/f/f/f/f/f/f/f/f/ABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AYAZAaAbAcAdAeAZ
+BOARD 0 41 64 0 f/f/f/f/f/f/f/f/AAABf/f/f/f/X2XWf/f/X2WnWnWnWnWnWnXWf/f/X2XWf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ABf/f/f/f/DsDnf/AoApAqArAsAtAuAp
+BOARD 0 42 64 0 f/f/f/f/f/f/f/f/f/f/f/f/X2WnXmXVWnWnXmW3W3W3W3W3W3XVWnWnXmXVWnXWf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/DsE4ELpqA4A5A6A7A8A9A+A5
+BOARD 0 43 64 0 f/f/f/f/f/f/f/f/f/f/X2WnXmW3W3XHXHXHXHXHXHXHXHXHXHXHXHXHXHW3W3XVWnXWf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqGJFoFpBIBJBKBLBMBNBOBJ
+BOARD 0 44 64 0 f/f/f/f/f/f/f/f/f/X2XmW3W3XHnonpnonpnonpnonpnonpnonpnonpnonpXHW3W3XVXWOLf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqFpGIFpf/BYBZBaBbBcBdBeBZ
+BOARD 0 45 64 0 f/f/f/f/f/f/AQf/f/WXW3XHn4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5XHW3WXf/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/p6F3f/f/f/BoBpBqBrBsBtBuBp
+BOARD 0 46 64 0 f/f/f/f/f/f/f/f/X2XmnonpnonpnonpnonpnonpnonpnonpnonpnonpnonpnonpnonpXVXWAAf/f/AAABf/f/f/f/f/f/f/f/f/f/f/p6F3f/f/B4B5B6B7B8B9B+B5
+BOARD 0 47 64 0 f/f/f/f/f/f/f/f/WXW3n4n5n4n5n4n5n4n5X2WnWnWnWnWnWnXWn4n5n4n5n4n5n4n5W3WXf/f/f/f/f/f/f/f/f/f/f/f/f/f/pqprpqFpf/f/f/CJCKCLCMCNCOCJ
+BOARD 0 48 64 0 f/f/f/f/f/f/f/X2XmnpnonpnonpnonpnonpWXXHXHXHXHXHXHWXnonpnonpnonpnonpnoXVXWf/f/f/f/f/f/f/f/f/f/f/f/f/paGIFpf/f/f/f/f/CaCbCcCdAAAB
+BOARD 0 49 64 0 f/f/f/f/f/f/f/WXW3n5n4n5n4n5n4n5n4n5WXnonpnonpnonpWXn4n5n4n5n4n5n4n5n4W3WXf/f/f/f/f/f/f/AQf/f/f/f/pqFpf/f/f/f/f/f/f/f/f/f/f/F2F3
+BOARD 0 50 64 0 f/f/f/f/f/f/f/WXnonpnonpnonpnonpnonpWXn4n5n4n5n4n5WXnonpnonpnonpnonpnonpWXf/f/f/f/f/f/f/f/f/f/f/pqFpf/AJAKALAMANAOf/f/f/f/F2p7p6
+BOARD 0 51 64 0 f/f/f/f/f/f/f/WXn4n5n4n5n4n5n4n5n4n5WXnonpnonpnonpWXn4n5n4n5n4n5n4n5n4n5WXf/f/f/f/f/f/f/f/f/f/f/p6F3AYAZAaAbAcAdAeAff/f/f/GIprf/
+BOARD 0 52 64 0 f/f/f/f/f/f/f/WXnonpnonpnmnXnXnnnonpXVWnWnWnWnWnWnXmnonpnmnXnXnnnonpnonpWXf/f/f/f/f/f/f/f/f/f/DsE4GHAoApAqArAsAtAuAvF2F3f/f/pbf/
+BOARD 0 53 64 0 f/f/f/f/f/f/f/WXn4n5n4n5nHnInJnGn4n5W3W3W3W3W3W3W3W3n4n5nHnInJnGn4n5n4n5WXf/f/f/f/AAABf/f/f/f/EcGJENA4A5A6A7A8A9A+A/p7p6F3F2p7f/
+BOARD 0 54 64 0 f/f/f/f/f/f/f/WXnonpnonpnHnYnZnGnonpW3W3W3XHXHW3W3W3nonpnHnYnZnGnonpnonpWXf/AQf/f/f/f/f/f/f/f/f/EcEdBIBJBKBLBMBNBOBPf/f/p6HGHnF3
+BOARD 0 55 64 0 f/f/f/f/f/f/f/WXn4n5n4n5n2nWnWn3n4n5W3W3W3NFNFW3W3W3n4n5n2nWnWn3n4n5n4n5WXf/f/f/f/f/f/f/f/f/f/f/AAABBYBZBaBbBcBdBeBff/f/f/GWG3p6
+BOARD 0 56 64 0 f/f/f/f/f/f/f/WXnonpnonpnonpnonpnonpnoXHXH2222XHXHnpnonpnonpnonpnonpnonpWXf/f/f/f/f/f/f/f/AAABf/f/f/BoBpBqBrDADBALAMANAOf/GmHHf/
+BOARD 0 57 64 0 f/f/f/f/f/f/f/XVXWn5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4X2Xmf/f/f/f/f/f/f/f/f/f/f/f/f/B4B5B6DQAZAaAbAcAdAeAff/f/f/
+BOARD 0 58 64 0 f/f/f/f/f/f/f/W3WXnpnonpnonpnonpnonpnonpnonpnonpnonpnonpnonpnonpnonpnoWXW3f/f/f/f/f/f/f/AQf/f/f/f/f/f/CJCKDgApAqArAsAtAuAvf/f/f/
+BOARD 0 59 64 0 f/f/f/f/f/f/f/W3XVXWn4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5X2XmW3f/f/f/f/f/f/f/f/f/f/AAABf/f/f/CaA4A5A6A7A8A9A+A/f/f/f/
+BOARD 0 60 64 0 f/f/f/f/f/f/f/W3W3WXnonpnonpnonpnonpnonpnonpnonpnonpnonpnonpnonpnonpWXW3W3f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BIBJBKBLBMBNBOBPf/f/f/
+BOARD 0 61 64 0 f/f/f/f/f/f/f/W3W3XVXWn5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4n5n4X2XmW3W3f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BYBZBaBbBcBdBeBff/f/f/
+BOARD 0 62 64 0 f/f/f/f/f/f/f/W3W3W3XVWnXWnpnonpnonpnonpnonpnonpnonpnonpnonpnoX2WnXmW3W3W3f/f/AAABf/f/f/f/f/f/f/f/AAABf/f/BoBpBqBrBsBtBuBvf/f/f/
+BOARD 0 63 64 0 f/f/f/f/f/f/f/W3W3W3W3W3XVWnXWn5n4n5n4n5n4n5n4n5n4n5n4n5n4X2WnXmW3W3W3W3W3f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/B4B5B6B7B8B9B+B/f/f/f/
+LINK mod_fort_inside_01.nw 21 56 2 1 30.5 28
+LINK bar_inside1.nw 45 16 2 1 42.5 36
+LINK drew92784_house.nw 23 23 2 1 38.5 59
+LINK xchampentrance.nw 1 10 2 1 19.5 39
+NPC door.png 23 23
+join("door");
+join("image_varied");
+//#CLIENTSIDE
+function onCreated(){
+this.oldtilesimg = "classic_olddoor.png";
+this.newtilesimg = "door.png";
+}
+NPCEND
+NPC - 51 22
+join("sign_liftable");
+NPCEND
+NPC door.png 45 17
+join("door");
+join("image_varied");
+//#CLIENTSIDE
+function onCreated(){
+this.oldtilesimg = "classic_olddoor.png";
+this.newtilesimg = "door.png";
+}
+NPCEND
+NPC - 8 49
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,96,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 29 43
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,96,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 25 53
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,64,16,64);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 18 53
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,64,16,64);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 7 60
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 8 62
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 7 58
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 8 60
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 9 62
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 10 63
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 36 60
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 35 62
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 36 58
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 35 60
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 34 62
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 33 63
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 20 46
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+drawoverplayer();
+setimg("classic_mod_flag_blue.mng");
+}
+NPCEND
+NPC - 9 30
+join("sign_liftable");
+
+//#CLIENTSIDE
+function onCreated(){
+  this.text = "#i(head748.png,0,95,32,32) X-Champ's Pad #i(head748.png,0,31,32,32)";
+}
+NPCEND
+NPC door.png 1 10
+join("door");
+NPCEND
+NPC - 25 10
+//#CLIENTSIDE
+function onCreated(){
+setimg("smokeani.mng");
+setcoloreffect(1,1,1,0.99);
+}
+NPCEND
+NPC - 23 14
+//#CLIENTSIDE
+function onCreated(){
+setimg("dead.png");
+}
+NPCEND
+NPC - 18 10
+//#CLIENTSIDE
+function onCreated(){
+setimg("smokeani.mng");
+setcoloreffect(1,1,1,0.99);
+}
+NPCEND
+NPC - 32 21
+join("bush");
+NPCEND
+NPC - 32 23
+join("bush");
+NPCEND
+NPC - 19 25
+join("bush");
+NPCEND
+NPC - 16 26
+join("bush");
+NPCEND
+NPC - 9 47
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,96,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 10 45
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,96,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 12 44
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,96,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 14 43
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,96,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 31 44
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,96,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 33 45
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,96,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 34 47
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,96,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 35 49
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,96,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 18 47
+join("guildfort_new");
+
+function onCreated(){
+  this.fortname = "MoD";
+  setshape(1,128,160);
+  this.width = 8;
+  this.height = 10;
+  dontblock();
+  this.roundhealth = 30;
+  this.roundtime = 6;
+  this.winningpoints = 30;
+  this.windelayseconds = 300;
+  this.killseconds = 90;
+  this.pausespot = {775,802,554.5,573.5};
+  this.warpspot = {"graalcity_outside_17.nw",20.5,13.5};
+  this.sublevels = {"mod_fort_inside_01.nw"};
+}
+
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,128,160);
+  dontblock();
+  this.pausespot = {775,802,554.5,573.5};
+}
+NPCEND

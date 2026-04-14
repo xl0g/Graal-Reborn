@@ -1,0 +1,740 @@
+GLEVNW01
+BOARD 0 0 64 0 mI6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6r6cFCFCFCFC6d6q6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6smJJ4J4J4J4
+BOARD 0 1 64 0 6d6a6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t8/FCFCFCFC8+6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6b6cJ4J4J4J4
+BOARD 0 2 64 0 6d6cNqNrNqNqNrNqNqNrNqNqNqNrNqNqhENqNrNqNqNrNqNrNqNqNqNqNrNqNrNqNqNqNqNqNqNrNqNrNqNqNrNqhENqNrNqNqNrNqNrNqNqNrNqNqNr6d6cJ4J4J4J4
+BOARD 0 3 64 0 6d6cNqeOePNqNrNqNqNrNqNqNqNrNqNqYvNqNrNqNqNrNqNrNqNqNqNqNrNqNrNqNqNqNqNqNqNrNqNrNqNqNrNqYvNqNrNqNqNrNqNrNqNqNreOePNr6d6cJ4J4J4J4
+BOARD 0 4 64 0 6d6cNqeeefNqNrNqNqNrNqNqNqNrNqNqYvNqNrNqNqNrNqNrNqNrJeJfNrNqNrNqJeJfNrNqNrNrNqNrNqNqNrNqYvNqNrNqNqNrNqNrNqNqNreeefNr6d6cJ4J4J4J4
+BOARD 0 5 64 0 6d6cNqNrNqNqNrNqNqNrNqNqNqNrNqNqYvNqNrNqNqNrNqNrNqNrJuJvNrNqNrNqJuJvNrNqNrNrNqNrNqNqNrNqYvNqNrNqNqNrNqNrNqNqNrNqNqNr6d6cJ4J4J4J4
+BOARD 0 6 64 0 6d6cN6N7N6N6N7N6N6N7N6N6N6N7N6N6YvN6N7N6N6N7N6N7N6N7J+J/N7N6N7N6J+J/N7N6N7N7N6N7N6N6N7N6YvN6N7N6N6N7N6N7N6N6N7N6N6N76d6cJ4J4J4J4
+BOARD 0 7 64 0 6d6cGOGOGOGOGOHJFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHVHWFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 8 64 0 6d6cHYHZGPGOGOGOGoFCFDFEFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHlHmFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 9 64 0 6d6cFCFCFCGPGOGOG4FCFCFCFCFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFCFCFCFSFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 10 64 0 6d6cFDFEFCGbGOGOGoFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFSFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 11 64 0 6d6cFCFCFCGrGOGOG4FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 12 64 0 6d6cFCFCFCGbGOGOGoFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 13 64 0 6d6cFCFCFCGrGOGOG4FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 14 64 0 6d6cFCFCFCG5GOGOGoFCFCFCFCFCFCFCFCFCFCFCFSFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 15 64 0 6d6cGYGZG5GOGOGOG4FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHVHWFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 16 64 0 6d6cGOGOGOGOGOHIFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHlHmFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 17 64 0 6d6cGOGOGOGOHIFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 18 64 0 6d6cHYHZHYHZFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 19 64 0 6d6cFCFCFCFCFCFCFCHVHWFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 20 64 0 6d6cFCFCFCFCFCFCFCHlHmFCFCFCFDFEFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFSFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 21 64 0 6d6cFCFCFDFEFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 22 64 0 6d6cFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 23 64 0 6d6cFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFDFEFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 24 64 0 6d6cFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCeOePFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 25 64 0 6d6cFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCeeefFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4
+BOARD 0 26 64 0 6d6q6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6smJFCFCFCFCFCFCmI6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6r6cJ4J4J4J4
+BOARD 0 27 64 0 8+6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6b6cFCFCFCFCFCFC6d6a6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t8/J4J4J4J4
+BOARD 0 28 64 0 UpNqNqNqNrNqhENrNqNqNrNqNqNrNqNqNrhENqNrNqNqNqNq6d6cFCFCFCFCFCFC6d6cNqNrNqNqNqNqhENqNqNrNqNqNqNrNqNqNqNqhENqNqNrNqNqNqUqJ4J4J4J4
+BOARD 0 29 64 0 UpNqNqNqNrNqYvNrNqNqNrNqNqNrNqNqNrYvNqNrNqNqNqNq6d6cFCFCFCFCFCFC6d6cNqNrNqNqNqNqYvNqNqNrNqNqNqNrNqNqNqNqYvNqNqNrNqNqNqUqJ4J4J4J4
+BOARD 0 30 64 0 UpNqNqNqNrNqYvNrNqNqNrNqNqNrNqNqNrYvNqNrNqNqNqNq6d6cFCFCFCFCFCFC6d6cNqNrNqNqNqNqYvNqNqNrNqNqNqNrNqNqNqNqYvNqNqNrNqNqNqUqJ4J4J4J4
+BOARD 0 31 64 0 UpNqNqNqNrNqYvNrNqNqNrNqNqNrNqNqNrYvNqNrNqNqNqNq6d6cFCFCFCFCFCFC6d6cNqNrNqNqNqNqYvNqNqNrNqNqNqNrNqNqNqNqYvNqNqNrNqNqNqUqJ4J4J4J4
+BOARD 0 32 64 0 5cN6N6N6N7N6YvN7N6N6N7N6N6N7N6N6N7YvN6N7N6N6N6N66d6cFCFCFCFCFCFC6d6cN6N7N6N6N6N6YvN6N6N7N6N6N6N7N6N6N6N6YvN6N6N7N6N6N65dJ4J4J4J4
+BOARD 0 33 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6cFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 34 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6cFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 35 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6cFCFCFCFCFCFS6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 36 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6cFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 37 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6cHVHWFCFCFCFC6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6cHlHmFCFCFCFC6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6cFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6cFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4mI6s6s6s6s6s6smJJ4J4J46d6cFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4mI6s6s6s6s6s6smJJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J46d6a6t6t6t6t6b6cJ4J4J46d6cFCFSFCFCFCFC6d6cJ4J4J4J4J4J4J46d6a6t6t6t6t6b6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 43 64 0 mI6s6s6s6s6s6s6s6s6s6s6s6s6r6cFCFCFCFC6d6q6s6s6s6r6cFCFCFCFCFCFC6d6q6s6s6s6s6s6s6s6r6cFCFCFCFC6d6q6s6s6s6s6s6s6smJJ4J4J4J4J4J4J4
+BOARD 0 44 64 0 6d6a6t6t6t6t6t6t6t6t6t6t6t6t8/FCFCFCFC8+6t6t6t6t6t8/FCFCFCFCFCFC8+6t6t6t6t6t6t6t6t6t8/FCFCFCFC8+6t6t6t6t6t6t6t6b6cJ4J4J4J4J4J4J4
+BOARD 0 45 64 0 6d6cNqhENqNqhENqNqhENqNqNrNrNqNqNqNqNrNqNqNrNqNqNqUqFCFCFCFCFCFCUpNqNqNqNrNqNqNrhENqNrNqNrNqNrNqNqhENqNqNrNqNq6d6cJ4J4J4J4J4J4J4
+BOARD 0 46 64 0 6d6cNqYvNqNqYvNqNqYveOePNrNrNqNqNqNqNrNqNqNreOePNqUqFCFCFCFCFCFCUpNqeOePNrNqNqNrYvNqNrNqNrNqNrNqNqYvNqNqeOePNq6d6cJ4J4J4J4J4J4J4
+BOARD 0 47 64 0 6d6cNqYvNqNqYvNqNqYveeefNrJeJfNqNqNqNrJeJfNreeefNqUqFCFCFCFCFCFCUpNqeeefNrNqNqNqYvJeJfNqNrNqNrJeJfYvNqNqeeefNq6d6cJ4J4J4J4J4J4J4
+BOARD 0 48 64 0 6d6cNqYvNqNqYvNqNqYvNqNqNrJuJvNqNqNqNrJuJvNrNqNqNqUqFCFCFCFCFCFCUpNqNqNqNrNqNqNqYvJuJvNqNrNqNrJuJvYvNqNqNrNqNq6d6cJ4J4J4J4J4J4J4
+BOARD 0 49 64 0 6d6cN6YvN6N6YvN6N6YvN6N6N7J+J/N6N6N6N7J+J/N7N6N6N65dFCFCFCFCFCFC5cN6N6N6N7N6N6N6YvJ+J/N6N7N6N7J+J/YvN6N6N7N6N66d6cJ4J4J4J4J4J4J4
+BOARD 0 50 64 0 6d6cFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4
+BOARD 0 51 64 0 6d6cFCFCceceFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4
+BOARD 0 52 64 0 6d6cFCceccccceFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4
+BOARD 0 53 64 0 6d6ccecccececcceFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHVHWFCFCFCFCFCFCFCFCFSFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4
+BOARD 0 54 64 0 6d6ccecccececcceFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHlHmFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4
+BOARD 0 55 64 0 6d6cFCceccccceFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFSFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4
+BOARD 0 56 64 0 6d6cFCFCceceFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC6d6cJ4J4J4J4J4J4J4
+BOARD 0 57 64 0 6d6cFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFSFCFCFCFC6d6cJ4J4J4J4J4J4J4
+BOARD 0 58 64 0 6d6q6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6r6cJ4J4J4J4J4J4J4
+BOARD 0 59 64 0 8+6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t8/J4J4J4J4J4J4J4
+BOARD 0 60 64 0 UpNqNqNqNqNqNqNqNqNqNqNqNrNqNqNrNqNqNrNqNqNrNrNqNqNrNqNqhENrNqNqNqNqNrNqNqhENqNqNrNqNqNrNqNqNqNqNqNrNqNqNrNqNqNqUqJ4J4J4J4J4J4J4
+BOARD 0 61 64 0 UpNqNqNqNqNqNqNqNqNqNqNqNrNqNqNrNqNqNrNqNqNrNrNqNqNrNqNqYvNrNqNqNqNqNrNqNqYvNqNqNrNqNqNrNqNqNqNqNqNrNqNqNrNqNqNqUqJ4J4J4J4J4J4J4
+BOARD 0 62 64 0 UpNqNqNqNqNqNqNqNqNqNqNqNrNqNqNrNqNqNrNqNqNrNrNqNqNrNqNqYvNrNqNqNqNqNrNqNqYvNqNqNrNqNqNrNqNqNqNqNqNrNqNqNrNqNqNqUqJ4J4J4J4J4J4J4
+BOARD 0 63 64 0 UpNqNqNqNqNqNqNqNqNqNqNqNrNqNqNrNqNqNrNqNqNrNrNqNqNrNqNqYvNrNqNqNqNqNrNqNqYvNqNqNrNqNqNrNqNqNqNqNqNrNqNqNrNqNqNqUqJ4J4J4J4J4J4J4
+LINK avalon_quest_map_06.nw 1 9 1 6 46.5 8
+NPC - 36 38
+// NPC made by Tim (LAT)
+//#CLIENTSIDE
+// Level effect
+function onPlayerenters(){
+seteffect(0,0,0,0.6);
+}
+NPCEND
+NPC classic_leafimg.png 9 11
+//#CLIENTSIDE
+function onPlayerenters(){
+  init();
+}
+
+function onPlayertouchsme(){
+  client.rafton = true;
+  client.avalonquest_targets = 0;
+  myarrows = 10;
+  onTimeout();
+}
+
+function onTimeout(){
+  if (client.rafton){
+    if(this.mode % 2) {
+      y += this.movement[this.mode];
+      if(y==this.checkpoints[this.mode])
+        this.mode++;
+    } else {
+      x += this.movement[this.mode];
+      if(x==this.checkpoints[this.mode])
+        this.mode++;
+    }
+
+    player.y = this.y - 2;
+    player.x = this.x + 1.25;
+
+    movement_handlekeys = .1;
+    freezeplayer(.1);
+    setani("idle",null);
+
+    for(i : {0,1,2,3})
+      if(keydown(i))
+        player.dir = i;
+
+    if (!keydown(4)) {
+      arrowing = false;
+    }
+
+    if(keydown(4) && !arrowing && myarrows>0) {
+      shootarrow(player.dir);
+      arrowing = true;
+      myarrows--;
+    }
+
+    if(this.mode==7) {
+      init();
+      checkWin();
+    }
+
+  }
+  setTimer(.05);
+}
+
+function checkWin() {
+  if (client.avalonquest_targets == 5) {
+    if (myarrows == 5) {
+      player.chat = "PERFECT!";
+    }
+    else {
+      player.chat = "I win!";
+    }
+    raftkey.fallDown();
+    keylight.fallDown();
+  }
+  else {
+    player.chat = "I lose...";
+    player.x = 3;
+    player.y = 10;
+  }
+}
+
+function init() {
+  setimg("classic_leafimg.png");
+  this.movement = {.25,.25,-.25,.25,-.25,.25,.25};
+  this.checkpoints = {54,23,27,52,12,56,51.5};
+  x = 6;
+  y = 10;
+  this.mode = 0;
+  drawunderplayer();
+  arrowing = false;
+  client.rafton = false;
+}
+NPCEND
+NPC - 9 31
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+start();
+}
+
+function start(){
+setstring("client.temparrows",clientr.stat_ammo_arrows);
+setstring("clientr.stat_ammo_arrows",4);
+}
+
+if (playerx == 51.5 && playery == 56){
+end();
+}
+
+function end(){
+setstring("clientr.stat_ammo_arrows",clientr.temparrows);
+unset("clientr.arrowhold");
+}
+NPCEND
+NPC light2.png 52 0
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .77,.22,.44,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 0 0
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .77,.22,.44,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 17 21
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .77,.22,.44,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 7 43
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .77,.22,.44,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 19 43
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .77,.22,.44,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 31 43
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .77,.22,.44,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 49 43
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .77,.22,.44,0.99;
+  drawaslight;
+}
+NPCEND
+NPC wateranismall.gif 43 45
+// NPC made by Tim -Levels- (LAT Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wateranismall.gif 45 45
+// NPC made by Tim -Levels- (LAT Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wateranismall.gif 15 45
+// NPC made by Tim -Levels- (LAT Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wateranismall.gif 17 45
+// NPC made by Tim -Levels- (LAT Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wateranismall.gif 28 2
+// NPC made by Tim -Levels- (LAT Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wateranismall.gif 30 2
+// NPC made by Tim -Levels- (LAT Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_ventruesupportnorth.png 34 28
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 58 28
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 45 28
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 0 28
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 22 28
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 11 28
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 10 60
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 53 60
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 16 60
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 47 60
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 23 60
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 40 60
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 36 2
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 22 2
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 37 45
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 2 60
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_target1.png 14 20
+// NPC made by Schoko
+join(motion_functions);
+
+function onCreated() {
+  setshape(1,32,32);
+}
+
+//#CLIENTSIDE
+
+function onCreated(){
+  hide();
+  setTimer(0.05);
+  this.inPlay = 1;
+  this.movedir = random(0,6.28);
+  this.dircounter = 0.15;
+  this.startx=x;
+  this.starty=y;
+}
+function onTimeout(){
+  //player.chat = "" @ client.rafton @ "," @ this.inPlay;
+  if (client.rafton && this.inPlay){
+    show();
+    if (this.dircounter == 0) {
+      this.dircounter = 0.35;
+      this.movedir = random(0,6.28);
+    }
+    this.dircounter -= .05;
+    dx = 0.5*cos(this.movedir);
+    dy = 0.5*sin(this.movedir);
+    moveXY(dx,dy,this);
+  }
+  settimer(.07);
+
+  if (!client.rafton){
+    hide();
+    if (!this.inPlay) {
+      this.inPlay = 1;
+      x=this.startx;
+      y=this.starty;
+    }
+  }
+}
+
+function onWasShot() {
+
+  hide();
+
+  if (client.avalonquest_targets == NULL)
+    client.avalonquest_targets = 1;
+  else
+    client.avalonquest_targets += 1;
+  this.inPlay = 0;
+
+}
+NPCEND
+NPC classic_target1.png 30 15
+// NPC made by Schoko
+join(motion_functions);
+
+function onCreated() {
+  setshape(1,32,32);
+}
+
+//#CLIENTSIDE
+
+function onCreated(){
+  hide();
+  setTimer(0.05);
+  this.inPlay = 1;
+  this.movedir = random(0,6.28);
+  this.dircounter = 0.15;
+  this.startx=x;
+  this.starty=y;
+}
+function onTimeout(){
+  //player.chat = "" @ client.rafton @ "," @ this.inPlay;
+  if (client.rafton && this.inPlay){
+    show();
+    if (this.dircounter == 0) {
+      this.dircounter = 0.35;
+      this.movedir = random(0,6.28);
+    }
+    this.dircounter -= .05;
+    dx = 0.5*cos(this.movedir);
+    dy = 0.5*sin(this.movedir);
+    moveXY(dx,dy,this);
+  }
+  settimer(.07);
+
+  if (!client.rafton){
+    hide();
+    if (!this.inPlay) {
+      this.inPlay = 1;
+      x=this.startx;
+      y=this.starty;
+    }
+  }
+}
+
+function onWasShot() {
+
+  hide();
+
+  if (client.avalonquest_targets == NULL)
+    client.avalonquest_targets = 1;
+  else
+    client.avalonquest_targets += 1;
+  this.inPlay = 0;
+
+}
+NPCEND
+NPC classic_target1.png 44 19
+// NPC made by Schoko
+join(motion_functions);
+
+function onCreated() {
+  setshape(1,32,32);
+}
+
+//#CLIENTSIDE
+
+function onCreated(){
+  hide();
+  setTimer(0.05);
+  this.inPlay = 1;
+  this.movedir = random(0,6.28);
+  this.dircounter = 0.15;
+  this.startx=x;
+  this.starty=y;
+}
+function onTimeout(){
+  //player.chat = "" @ client.rafton @ "," @ this.inPlay;
+  if (client.rafton && this.inPlay){
+    show();
+    if (this.dircounter == 0) {
+      this.dircounter = 0.35;
+      this.movedir = random(0,6.28);
+    }
+    this.dircounter -= .05;
+    dx = 0.5*cos(this.movedir);
+    dy = 0.5*sin(this.movedir);
+    moveXY(dx,dy,this);
+  }
+  settimer(.07);
+
+  if (!client.rafton){
+    hide();
+    if (!this.inPlay) {
+      this.inPlay = 1;
+      x=this.startx;
+      y=this.starty;
+    }
+  }
+}
+
+function onWasShot() {
+
+  hide();
+
+  if (client.avalonquest_targets == NULL)
+    client.avalonquest_targets = 1;
+  else
+    client.avalonquest_targets += 1;
+  this.inPlay = 0;
+
+}
+NPCEND
+NPC classic_target1.png 9 52
+// NPC made by Schoko
+join(motion_functions);
+
+function onCreated() {
+  setshape(1,32,32);
+}
+
+//#CLIENTSIDE
+
+function onCreated(){
+  hide();
+  setTimer(0.05);
+  this.inPlay = 1;
+  this.movedir = random(0,6.28);
+  this.dircounter = 0.15;
+  this.startx=x;
+  this.starty=y;
+}
+function onTimeout(){
+  //player.chat = "" @ client.rafton @ "," @ this.inPlay;
+  if (client.rafton && this.inPlay){
+    show();
+    if (this.dircounter == 0) {
+      this.dircounter = 0.35;
+      this.movedir = random(0,6.28);
+    }
+    this.dircounter -= .05;
+    dx = 0.5*cos(this.movedir);
+    dy = 0.5*sin(this.movedir);
+    moveXY(dx,dy,this);
+  }
+  settimer(.07);
+
+  if (!client.rafton){
+    hide();
+    if (!this.inPlay) {
+      this.inPlay = 1;
+      x=this.startx;
+      y=this.starty;
+    }
+  }
+}
+
+function onWasShot() {
+
+  hide();
+
+  if (client.avalonquest_targets == NULL)
+    client.avalonquest_targets = 1;
+  else
+    client.avalonquest_targets += 1;
+  this.inPlay = 0;
+
+}
+NPCEND
+NPC classic_target1.png 40 53
+// NPC made by Schoko
+join(motion_functions);
+
+function onCreated() {
+  setshape(1,32,32);
+}
+
+//#CLIENTSIDE
+
+function onCreated(){
+  hide();
+  setTimer(0.05);
+  this.inPlay = 1;
+  this.movedir = random(0,6.28);
+  this.dircounter = 0.15;
+  this.startx=x;
+  this.starty=y;
+}
+function onTimeout(){
+  //player.chat = "" @ client.rafton @ "," @ this.inPlay;
+  if (client.rafton && this.inPlay){
+    show();
+    if (this.dircounter == 0) {
+      this.dircounter = 0.35;
+      this.movedir = random(0,6.28);
+    }
+    this.dircounter -= .05;
+    dx = 0.5*cos(this.movedir);
+    dy = 0.5*sin(this.movedir);
+    moveXY(dx,dy,this);
+  }
+  settimer(.07);
+
+  if (!client.rafton){
+    hide();
+    if (!this.inPlay) {
+      this.inPlay = 1;
+      x=this.startx;
+      y=this.starty;
+    }
+  }
+}
+
+function onWasShot() {
+
+  hide();
+
+  if (client.avalonquest_targets == NULL)
+    client.avalonquest_targets = 1;
+  else
+    client.avalonquest_targets += 1;
+  this.inPlay = 0;
+
+}
+NPCEND
+NPC classic_key6.png 4 53
+// NPC made by Schoko Raven (LAT)
+//#CLIENTSIDE
+function onCreated() {
+  raftkey = this;
+  this.gravity = .15;
+  hide();
+
+  this.isFalling = 0;
+  onTimeout();
+}
+
+public function fallDown() {
+  z = y/2;
+  this.bounce = 0;
+  this.addvar = 0;
+  show();
+
+  this.isFalling = 1;
+}
+
+function onTimeout() {
+  setTimer(.05);
+  if (this.isFalling) {
+    z -= this.addvar;
+    this.addvar += this.gravity;
+    if (z <= 0) {
+      if (this.bounce == 2) {
+        this.isFalling = 0;
+      }
+      z = 0;
+      this.bounce++;
+      this.addvar = -1.5/this.bounce;
+    }
+  }
+}
+
+function onPlayerTouchsMe(){
+  hide();
+  keylight.keyTaken();
+  setstring("client.quest_avalon_orangekey",1);
+  player.chat = "I found the Amber key!";
+}
+NPCEND
+NPC light2.png 1 50
+//#CLIENTSIDE
+function onCreated() {
+  keylight = this;
+  setimg light2.png;
+  dontblock;
+
+}
+function onPlayerEnters() {
+  setcoloreffect .70,.55,.30,0.99;
+  drawaslight;
+  this.gravity = .15;
+  this.isFalling = 0;
+  hide();
+  onTimeout();
+}
+
+public function fallDown() {
+  z = y/2;
+  this.bounce = 0;
+  this.addvar = 0;
+  show();
+
+  this.isFalling = 1;
+}
+
+public function keyTaken() {
+  hide();
+}
+
+function onTimeout() {
+  setTimer(.05);
+  if (this.isFalling) {
+    z -= this.addvar;
+    this.addvar += this.gravity;
+    if (z <= 0) {
+      if (this.bounce == 2) {
+        this.isFalling = 0;
+      }
+      z = 0;
+      this.bounce++;
+      this.addvar = -1.5/this.bounce;
+    }
+  }
+}
+NPCEND

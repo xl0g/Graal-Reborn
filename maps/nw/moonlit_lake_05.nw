@@ -1,0 +1,256 @@
+GLEVNW01
+BOARD 0 0 64 0 A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/ZvZvZvZvA4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8
+BOARD 0 1 64 0 BJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPH/ZvZvf/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBM
+BOARD 0 2 64 0 BZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBfH/ZvZvf/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBc
+BOARD 0 3 64 0 AMDCDDBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBvZvH/H/ZvBoBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrDA
+BOARD 0 4 64 0 AcAdAeDRB9B+B5B6B7B8B9B+B5B6B7B8B9B+B5B6B7B8B9B+B5B6B7B8B9B+B/H/ZvZvf/B4B5B6B7B8B9B+B5B6B7B8B9B+B5B6B7B8B9B+B5B6B7B8B9B+B5B6DQAZ
+BOARD 0 5 64 0 AsAtAuDhCNCOCJCKCLCMCNCOCJCKCLCMCNCOCJCKCLCMCNCOCJCKCLCMCNCOf/H/H/Zvf/f/CJCKCLCMCNCOCJCKCLCMCNCOCJCKCLCMCNCOCJCKCLCMCNCOCJCKDgAp
+BOARD 0 6 64 0 A8A9A+A/Cdf/f/CaCbCcCdf/f/CaCbCcCdf/f/CaCbCcCdf/f/CaCbCcCdf/H/H/ZvH/H/H/f/CaCbCcCdf/f/CaCbCcCdf/f/CaCbCcCdf/f/CaCbCcCdf/f/CaA4A5
+BOARD 0 7 64 0 BMBNBOBPH/H/H/g3H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/GkGlGkGlH/H/H/H/H/H/H/H/H/H/H/f/f/BIBJ
+BOARD 0 8 64 0 BcBdBeBfH/H/H/f/f/f/f/f/f/aiahahahahajf/AQf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/G0G1G0G1H/H/H/f/GkGlf/f/f/H/H/f/f/BYBZ
+BOARD 0 9 64 0 DADBALAMANAOf/f/f/f/f/f/aiVKamanamanVLajf/f/f/f/ABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AQf/f/H/AAGkGlH/H/H/H/f/G0G1f/AAABH/f/AJAKALAM
+BOARD 0 10 64 0 AZAaAbAcAdAeAff/f/f/f/aiVKamanamanamanVLajf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/H/H/G0G1H/H/GkGlGkGlf/KlKmH/H/AYAZAaAbAc
+BOARD 0 11 64 0 ApAqArAsAtAuAvf/f/f/f/ayamanamanamanamanazf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/GkGlH/H/H/G0G1G0G1f/K1K2H/H/AoApAqArAs
+BOARD 0 12 64 0 A5A6A7A8A9A+A/f/f/f/aiVKanamanamanamanamVLajf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/G0G1H/H/H/H/H/f/GkGlf/f/H/H/A4A5A6A7A8
+BOARD 0 13 64 0 BJBKBLBMBNBOBPf/f/aiVKanamanamanamanamananVLajf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/f/f/GkGlf/f/G0G1f/f/H/H/BIBJBKBLBM
+BOARD 0 14 64 0 BZBaBbBcBdBeBff/f/bCaxU6anamanamanamanamU7axbDf/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/H/H/H/AAABG0G1AQGkGlGkGlf/H/H/BYBZBaBbBc
+BOARD 0 15 64 0 AMDCDDBsBtBuBvf/f/ZjZkayamanamanamanamanazZjZkf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/GkGlH/H/GkGlG0G1G0G1GkGlH/BoBpBqBrDA
+BOARD 0 16 64 0 AcAdAeDRB9B+B/f/f/SNaVVKanamanamamananamVLaYSOf/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/H/H/G0G1GkGlG0G1f/f/GkGlG0G1H/B4B5B6DQAZ
+BOARD 0 17 64 0 AsAtAuDhCNCOH/f/f/aVVKanamananamanamamananVLaYf/f/f/f/f/f/f/f/AQf/f/f/f/f/f/f/f/f/f/f/f/H/H/GkGlG0G1GkGlGkGlG0G1GkGlH/H/CJCKDgAp
+BOARD 0 18 64 0 A8A9A+A/Cdf/f/f/f/bCaxU6anamamanamananamU7axbDf/f/f/f/f/f/f/f/AJAKALAMANAOAJAKALAMANAOf/f/f/G0G1f/f/G0G1G0G1f/f/G0G1f/f/f/CaA4A5
+BOARD 0 19 64 0 BMBNBOBPH/H/f/f/f/ZjZkayamananamanamamanazZjZkf/f/f/f/f/f/f/AYAZAaAbAcAdAeAZAaAbAcAdAeAff/f/f/f/f/f/f/GkGlf/GkGlf/H/AAABf/f/BIBJ
+BOARD 0 20 64 0 BcBdBeBfH/H/f/f/f/SNaVVKanamamamamamanamVLaYSOf/AAf/f/f/f/f/AoApAqArAsAtAuApAqArAsAtAuAvf/f/f/f/f/f/f/G0G1f/G0G1GkGlH/H/f/f/BYBZ
+BOARD 0 21 64 0 DADBALAMANAOf/f/f/aVVKanamanamanamanamananVLaYf/f/f/f/f/f/f/A4A5A6A7A8A9A+A5A6A7A8A9A+A/f/f/AQf/f/f/AAABGkGlGkGlG0G1H/f/AJAKALAM
+BOARD 0 22 64 0 AZAaAbAcAdAeAff/f/bCaxU6anamanamanamanamU7axbDf/f/f/f/f/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/f/f/f/f/f/G0G1G0G1f/f/f/AYAZAaAbAc
+BOARD 0 23 64 0 ApAqArAsAtAuAvf/f/ZjZkbCaxaxaxaxaxaxaxaxbDZjZkf/f/f/f/f/ABf/BYBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/f/f/f/f/f/f/f/GkGlf/f/AoApAqArAs
+BOARD 0 24 64 0 A5A6A7A8A9A+A/f/f/SNSORaR9R+ZwaQaRZxZjZkY1SNSOf/f/f/f/f/AJAKALAMDCDDDADBALAMDCDDDADBALAMANAOf/f/f/f/f/f/f/f/f/G0G1f/f/A4A5A6A7A8
+BOARD 0 25 64 0 BJBKBLBMBNBOBPf/f/R6ZVRqSNSOaAaQaRaBSNSOZFR6ZVf/f/f/f/AYAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAff/f/f/f/f/f/f/f/f/f/f/H/BIBJBKBLBM
+BOARD 0 26 64 0 BZBaBbBcBdBeBff/f/f/f/R6SdSeSfaQaRSfSdSeZVIAIBf/f/f/f/AoApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuAvf/f/AAf/f/f/f/f/f/f/f/H/BYBZBaBbBc
+BOARD 0 27 64 0 AMDCDDBsBtBuBvf/f/f/f/P/StSuSfaQaRSfStSuf/IQIRf/f/f/f/A4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/f/f/f/f/f/f/f/f/f/f/f/H/BoBpBqBrDA
+BOARD 0 28 64 0 AcAdAeDRB9B+B/f/AAABf/f/f/f/AwAxf/f/f/f/f/f/f/f/f/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/f/f/f/f/f/f/f/f/H/B4B5B6DQAZ
+BOARD 0 29 64 0 AsAtAuDhCNCOH/f/f/f/f/f/f/f/f/f/AwAxf/f/f/f/f/f/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/f/f/f/f/f/f/f/H/H/CJCKDgAp
+BOARD 0 30 64 0 A8A9A+A/Cdf/H/f/f/f/f/f/f/f/AwAxf/f/ABf/f/f/f/f/f/f/f/BoBpBqBrDADBALAMDCDDDADBALAMDCDDBsBtBuBvf/f/f/f/f/ABf/f/f/f/f/H/H/f/CaA4A5
+BOARD 0 31 64 0 BMBNBOBPH/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/B4B5B6DQAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B/f/f/f/f/f/f/f/f/f/f/f/AQH/f/f/BIBJ
+BOARD 0 32 64 0 BcBdBeBfH/H/f/f/f/f/f/f/f/f/f/f/AwAxf/f/f/f/f/f/f/f/f/H/CJCKDgApAqArAsAtAuApAqArAsAtAuAvCNCOH/f/f/f/f/f/f/f/f/f/f/f/H/H/f/f/BYBZ
+BOARD 0 33 64 0 DADBALAMANAOf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/H/f/CaA4A5A6A7A8A9A+A5A6A7A8A9A+A/Cdf/H/f/f/AJAKALAMANAOf/f/f/H/f/AJAKALAM
+BOARD 0 34 64 0 AZAaAbAcAdAeAff/f/f/f/f/f/AQf/AwAxf/f/f/f/f/f/f/f/f/f/H/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBPH/H/H/f/AYAZAaAbAcAdAeAff/f/H/AYAZAaAbAc
+BOARD 0 35 64 0 ApAqArAsAtAuAvGkGlABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/AQf/BYBZBaBbBcBdBeBZBaBbBcBdBeBfH/H/f/ABAoApAqArAsAtAuAvf/f/H/AoApAqArAs
+BOARD 0 36 64 0 A5A6A7A8A9A+A/G0G1GkGlf/f/f/f/f/f/f/AJAKALAMANAOf/f/f/f/f/f/BoBpBqBrBsBtBuBpBqBrBsBtBuBvf/f/f/f/A4A5A6A7A8A9A+A/f/f/AAA4A5A6A7A8
+BOARD 0 37 64 0 BJBKBLBMBNBOBPf/f/G0G1f/f/f/f/f/f/AYAZAaAbAcAdAeAff/f/f/f/f/B4B5B6B7B8B9B+B5B6B7B8B9B+B/f/AAf/f/BIBJBKBLBMBNBOBPf/f/H/BIBJBKBLBM
+BOARD 0 38 64 0 BZBaBbBcBdBeBff/GkGlGkGlf/f/f/f/f/AoApAqArAsAtAuAvf/f/f/f/f/H/CJCKCLCMCNCOCJCKCLCMCNCOf/f/f/f/f/BYBZBaBbBcBdBeBff/f/f/BYBZBaBbBc
+BOARD 0 39 64 0 AMDCDDBsBtBuBvf/G0G1G0G1f/f/f/f/f/A4A5A6A7A8A9A+A/f/f/f/f/f/H/f/CaCbCcCdf/f/CaCbCcCdf/f/f/f/f/f/BoBpBqBrBsBtBuBvf/f/f/BoBpBqBrDA
+BOARD 0 40 64 0 AcAdAeDRB9B+B/GkGlAAABf/f/f/f/f/f/BIBJBKBLBMBNBOBPf/f/f/KlKmKlKmf/f/f/AAABf/f/f/f/f/AQf/f/f/f/f/B4B5B6B7B8B9B+B/f/f/f/B4B5B6DQAZ
+BOARD 0 41 64 0 AsAtAuDhCNCOH/G0G1GkGlf/f/f/f/f/AABYBZBaBbBcBdBeBff/AAABK1K2K1K2f/f/f/KlKmKlKmf/f/f/f/f/f/f/f/f/f/CJCKCLCMCNCOf/f/f/f/H/CJCKDgAp
+BOARD 0 42 64 0 A8A9A+A/Cdf/AAGkGlG0G1GkGlf/f/f/f/BoBpBqBrBsBtBuBvKlKmf/f/f/KlKmKlKmf/K1K2K1K2f/f/f/f/f/f/f/f/f/f/f/CaCbCcCdf/f/f/f/ABH/f/CaA4A5
+BOARD 0 43 64 0 BMBNBOBPH/GkGlG0G1GkGlG0G1f/f/f/f/B4B5B6B7B8B9B+B/K1K2f/f/f/K1K2K1K2KlKmf/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/ABf/f/f/f/f/f/H/f/f/BIBJ
+BOARD 0 44 64 0 BcBdBeBfH/G0G1f/f/G0G1f/f/f/f/f/f/f/CJCKCLCMCNCOKlKmf/f/f/KlKmf/AAABK1K2f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/f/f/BYBZ
+BOARD 0 45 64 0 DADBALAMANAOf/f/f/f/f/f/f/f/f/f/f/f/f/CaCbCcCdf/K1K2f/f/f/K1K2f/f/f/f/f/f/f/KlKmf/f/AJAKALAMANAOf/f/f/f/f/f/f/f/f/f/f/f/AJAKALAM
+BOARD 0 46 64 0 AZAaAbAcAdAeAff/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KlKmKlKmKlKmKlKmf/f/K1K2f/AYAZAaAbAcAdAeAff/f/f/f/f/f/f/GkGlf/AYAZAaAbAc
+BOARD 0 47 64 0 ApAqArAsAtAuAvf/f/f/f/f/f/AQf/f/f/f/AAABf/f/f/f/f/f/AQf/K1K2K1K2K1K2K1K2f/KlKmf/f/AoApAqArAsAtAuAvf/f/f/f/GkGlf/G0G1f/AoApAqArAs
+BOARD 0 48 64 0 A5A6A7A8A9A+A/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABKlKmf/f/KlKmf/f/K1K2f/f/A4A5A6A7A8A9A+A/H/f/f/f/G0G1GkGlGkGlA4A5A6A7A8
+BOARD 0 49 64 0 BJBKBLBMBNBOBPf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KlKmf/K1K2AAABK1K2f/KlKmKlKmf/BIBJBKBLBMBNBOBPAAGkGlf/f/f/G0G1G0G1BIBJBKBLBM
+BOARD 0 50 64 0 BZBaBbBcBdBeBff/f/ABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/K1K2f/f/KlKmf/f/f/f/K1K2K1K2f/BYBZBaBbBcBdBeBfH/G0G1GkGlGkGlAQf/f/BYBZBaBbBc
+BOARD 0 51 64 0 AMDCDDBsBtBuBvH/H/H/H/f/f/f/f/AJAKALAMANAOAJAKALAMANAOf/H/H/K1K2H/H/H/H/H/H/f/AJAKALAMDCDDDADBALAMANAOf/G0G1G0G1f/f/f/BoBpBqBrDA
+BOARD 0 52 64 0 AcAdAeDRB9B+B/H/H/H/H/f/f/f/AYAZAaAbAcAdAeAZAaAbAcAdAeAfH/H/H/H/H/H/H/H/H/H/AYAZAaAbAcAdAeAZAaAbAcAdAeAff/GkGlAAABGkGlB4B5B6DQAZ
+BOARD 0 53 64 0 AsAtAuDhCNCOH/H/H/H/H/f/f/f/AoApAqArAsAtAuApAqArAsAtAuAvH/H/H/H/H/H/H/H/H/H/AoApAqArAsAtAuApAqArAsAtAuAvf/G0G1GkGlG0G1H/CJCKDgAp
+BOARD 0 54 64 0 A8A9A+A/Cdf/H/H/H/H/AAf/f/f/A4A5A6A7A8A9A+A5A6A7A8A9A+A/H/H/H/H/H/AAABH/H/H/A4A5A6A7A8A9A+A5A6A7A8A9A+A/H/GkGlG0G1GkGlH/f/CaA4A5
+BOARD 0 55 64 0 BMBNBOBPH/H/H/f/H/H/H/H/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBPH/H/H/H/H/H/H/H/H/H/BIBJBKBLBMBNBOBJBKBLBMBNBOBPH/G0G1f/AAG0G1GkGlf/BIBJ
+BOARD 0 56 64 0 BcBdBeBfABH/H/f/H/H/H/H/H/H/BYBZBaBbBcBdBeBZBaBbBcBdBeBfH/H/H/H/H/H/H/H/H/H/BYBZBaBbBcBdBeBZBaBbBcBdBeBfH/H/f/f/f/f/f/G0G1f/BYBZ
+BOARD 0 57 64 0 DADBALAMANAOAJAKALAMANAOAJAKALAMDCDDDADBALAMDCDDDADBALAMANAOAJAKALAMANAOAJAKALAMDCDDDADBALAMDCDDDADBALAMANAOAJAKALAMANAOAJAKALAM
+BOARD 0 58 64 0 AZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAc
+BOARD 0 59 64 0 ApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAs
+BOARD 0 60 64 0 A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8
+BOARD 0 61 64 0 BJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBM
+BOARD 0 62 64 0 BZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBc
+BOARD 0 63 64 0 BpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBs
+LINK moonlit_lake_02.nw 31 0 4 1 playerx 61
+LINK jf_guildhouse_01.nw 15 24 2 1 29.5 40.5
+SIGN 21 27
+The Jesus Freaks Guildhouse
+SIGNEND
+NPC buttrfly.mng 17 45
+//#CLIENTSIDE
+if (playerenters) {
+  cannotbecarried;
+  this.lifetime = 999999;
+  timeout = 0.2;
+}
+if (wasthrown) timeout = 0.2;
+if (timeout) {
+  oldx = x;
+  oldy = y;
+
+  testdir = random(0,4);
+  if (testdir<1) y -= 0.5;
+  else if (testdir<2) x -= 0.5;
+  else if (testdir<3) y += 0.5;
+  else x += 0.5;
+
+  if (onwall(x+1,y+1)) {
+    x = oldx;
+    y = oldy;
+  }
+
+  this.lifetime--;
+  if (this.lifetime<=0) show;
+  timeout = 0.2;
+}
+NPCEND
+NPC buttrfly.mng 6 18
+//#CLIENTSIDE
+if (playerenters) {
+  cannotbecarried;
+  this.lifetime = 999999;
+  timeout = 0.2;
+}
+if (wasthrown) timeout = 0.2;
+if (timeout) {
+  oldx = x;
+  oldy = y;
+
+  testdir = random(0,4);
+  if (testdir<1) y -= 0.5;
+  else if (testdir<2) x -= 0.5;
+  else if (testdir<3) y += 0.5;
+  else x += 0.5;
+
+  if (onwall(x+1,y+1)) {
+    x = oldx;
+    y = oldy;
+  }
+
+  this.lifetime--;
+  if (this.lifetime<=0) show;
+  timeout = 0.2;
+}
+NPCEND
+NPC buttrfly.mng 55 27
+//#CLIENTSIDE
+if (playerenters) {
+  cannotbecarried;
+  this.lifetime = 999999;
+  timeout = 0.2;
+}
+if (wasthrown) timeout = 0.2;
+if (timeout) {
+  oldx = x;
+  oldy = y;
+
+  testdir = random(0,4);
+  if (testdir<1) y -= 0.5;
+  else if (testdir<2) x -= 0.5;
+  else if (testdir<3) y += 0.5;
+  else x += 0.5;
+
+  if (onwall(x+1,y+1)) {
+    x = oldx;
+    y = oldy;
+  }
+
+  this.lifetime--;
+  if (this.lifetime<=0) show;
+  timeout = 0.2;
+}
+NPCEND
+NPC buttrfly.mng 45 24
+//#CLIENTSIDE
+if (playerenters) {
+  cannotbecarried;
+  this.lifetime = 999999;
+  timeout = 0.2;
+}
+if (wasthrown) timeout = 0.2;
+if (timeout) {
+  oldx = x;
+  oldy = y;
+
+  testdir = random(0,4);
+  if (testdir<1) y -= 0.5;
+  else if (testdir<2) x -= 0.5;
+  else if (testdir<3) y += 0.5;
+  else x += 0.5;
+
+  if (onwall(x+1,y+1)) {
+    x = oldx;
+    y = oldy;
+  }
+
+  this.lifetime--;
+  if (this.lifetime<=0) show;
+  timeout = 0.2;
+}
+NPCEND
+NPC - 39 4
+join("level_nopk");
+NPCEND
+NPC - 55 10
+join bush;
+NPCEND
+NPC - 37 41
+join bush;
+NPCEND
+NPC - 35 41
+join bush;
+NPCEND
+NPC - 34 43
+join bush;
+NPCEND
+NPC - 32 42
+join bush;
+NPCEND
+NPC - 30 42
+join bush;
+NPCEND
+NPC - 30 40
+join bush;
+NPCEND
+NPC - 28 40
+join bush;
+NPCEND
+NPC - 25 42
+join bush;
+NPCEND
+NPC - 24 44
+join bush;
+NPCEND
+NPC - 29 44
+join bush;
+NPCEND
+NPC - 28 46
+join bush;
+NPCEND
+NPC - 30 46
+join bush;
+NPCEND
+NPC - 32 46
+join bush;
+NPCEND
+NPC - 34 46
+join bush;
+NPCEND
+NPC - 38 45
+join bush;
+NPCEND
+NPC - 37 47
+join bush;
+NPCEND
+NPC - 38 49
+join bush;
+NPCEND
+NPC - 36 49
+join bush;
+NPCEND
+NPC - 33 48
+join bush;
+NPCEND
+NPC - 30 50
+join bush;
+NPCEND
+NPC - 26 49
+join bush;
+NPCEND
+NPC - 36 25
+//#CLIENTSIDE
+if (playerenters)
+seteffect 0,0,0,.5;
+NPCEND

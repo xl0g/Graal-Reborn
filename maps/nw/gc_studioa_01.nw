@@ -1,0 +1,682 @@
+GLEVNW01
+BOARD 0 0 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 1 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 2 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 3 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 4 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 5 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 6 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 7 64 0 k5k5k5k5k5k5k5M3K+K/K+K/K+K/K/K+K/K+K/K+K+K/K+K/K+K/K+K/K+K+K/K+K/K/K+K/K+K+K/K+K/K/K+K/K+K/K+K/K+K/K/K+K+K/K+K/M8k5k5k5k5k5k5k5
+BOARD 0 8 64 0 k5k5k5k5k5k5k5Lt2EMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMr2FL9k5k5k5k5k5k5k5
+BOARD 0 9 64 0 k5k5k5k5k5k5k5LtL9ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccLtL9k5k5k5k5k5k5k5
+BOARD 0 10 64 0 k5k5k5k5k5k5k5LtL9ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccLtL9k5k5k5k5k5k5k5
+BOARD 0 11 64 0 k5k5k5k5k5k5k5LtL9cccc2EMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMrMr2FccccLtL9k5k5k5k5k5k5k5
+BOARD 0 12 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 13 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 14 64 0 k5k5k5k5k5k5k5LtL9ccccL9jfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjeLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 15 64 0 k5k5k5k5k5k5k5LtL9ccccL9jvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjuLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 16 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 17 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 18 64 0 k5k5k5k5k5k5k5LtL9ccccL9jfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjeLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 19 64 0 k5k5k5k5k5k5k5LtL9ccccL9jvcfcfjujvcfcfjujvcfcfjRiRiRiRiRiRiRjSjujvjRiRiRiRiRiRiRjScfcfjujvcfcfjujvcfcfjuLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 20 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjejfcfcfjejfcfcfjejfiVinhnhnhnhni1hycfcfiVinhnhnhnhni1hyjejfcfcfjejfcfcfjejfcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 21 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjujvcfcfjujvcfcfjujviVhyiWiXiWiXiVhycfcfiVhyiWiXiWiXiVhyjujvcfcfjujvcfcfjujvcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 22 64 0 k5k5k5k5k5k5k5LtL9ccccL9jfcfcfjejfcfcfjejfcfcfiVhycfcfjejfiVhyjejfiVhyjejfcfcfiVhycfcfjejfcfcfjejfcfcfjeLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 23 64 0 k5k5k5k5k5k5k5LtL9ccccL9jvcfcfjujvcfcfjujvcfcfiVhycfcfjujviVhyjujviVhyjujvcfcfiVhycfcfjujvcfcfjujvcfcfjuLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 24 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjejfcfcfjejfcfcfjejfiVhyjejfcfcfiVhycfcfiVhycfcfjejfiVhyjejfcfcfjejfcfcfjejfcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 25 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjujvcfcfjujvcfcfjujviVjGjSjvcfjRjUhyVoVpiVjGjScfjujRjUhyjujvcfcfjujvcfcfjujvcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 26 64 0 k5k5k5k5k5k5k5LtL9ccccL9jfcfcfjRiRiRiRiRiRiRjSijhmigcfjeijhmigV4V5ijhmigjvcfijhmigjRiRiRiRiRiRiRjScfcfjeLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 27 64 0 k5k5k5k5k5k5k5LtL9ccccL9jvcfcfiVinhmhmhmhmi1hyiziXihcfjuiziXihjujviziXihjvcfiziXihiVinhmhmhmhmi1hycfcfjuLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 28 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjejfiVhyiWiXiWiXijigcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfijigiWiXiWiXiVhyjejfcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 29 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjujviVhyjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujviVhyjujvcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 30 64 0 k5k5k5k5k5k5k5LtL9ccccL9jfcfcfiVhycfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfiVhycfcfjeLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 31 64 0 k5k5k5k5k5k5k5LtL9ccccL9jvcfcfiVhycfcfjujvjRjSjujvcfcfjujvcFcHjujvcFcHjujvcfcfjujvjRjSjujvcfcfiVhycfcfjuLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 32 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjejfiVjGiQiQiQiQjUhycfcfjejfcfcfRtRucfcfZTZUcfcfjejfcfcfiVjGiQiQiQiQjUhyjejfcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 33 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjujvijhmhmhmhmhmhmigcfcfjujvcfcfR9R+dtduZjZkcfcfjujvcfcfijhmhmhmhmhmhmigjujvcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 34 64 0 k5k5k5k5k5k5k5LtL9ccccL9jfcfcfiziXiWiXiWiXiWihjejfcfcfjejfSdSed9d+SdSejejfcfcfjejfiziXiWiXiWiXiWihcfcfjeLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 35 64 0 k5k5k5k5k5k5k5LtL9ccccL9jvcfcfjujvcfcfjujvcfcfjujvcfcfjujvStSujujvStSujujvcfcfjujvcfcfjujvcfcfjujvcfcfjuLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 36 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 37 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjujvcfcfjujvjRiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiRiRiRjSjujvcfcfjujvcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 38 64 0 k5k5k5k5k5k5k5LtL9ccccL9jfcfcfjejfcfcfiVinhmhmi1inhmhmi1inhmhmi1inhmhmi1inhmhmi1inhmhmi1hicfcfjejfcfcfjeLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 39 64 0 k5k5k5k5k5k5k5LtL9ccccL9jvcfcfjujvcfcfiFhiiWiXiFhiiWiXiFhiiWiXiFhiiWiXiFhiiWiXiFhiiWiXiFhicfcfjujvcfcfjuLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 40 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjejfcfcfjejfiFhijejfiFhijejfiFhijejfiFhijejfiFhijejfiFhijejfiFhijejfcfcfjejfcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 41 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjujvcfcfjujviVhijujviVhijujviVhijujviVhijujviVhijujviVhijujviVhijujvcfcfjujvcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 42 64 0 k5k5k5k5k5k5k5LtL9ccccL9jfcfcfjejfcfcfijigcfcfijigcfcfijigcfcfijigcfcfijigcfcfijigcfcfijigcfcfjejfcfcfjeLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 43 64 0 k5k5k5k5k5k5k5LtL9ccccL9jvcfcfjujvcfcfizihcfcfizihcfcfizihcfcfizihcfcfizihcfcfizihcfcfizihcfcfjujvcfcfjuLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 44 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 45 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 46 64 0 k5k5k5k5k5k5k5LtL9ccccL9jfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjeLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 47 64 0 k5k5k5k5k5k5k5LtL9ccccL9jRiRiRiRiRiRiRiRiRiRiRiRiRiRiRiRiRjSjSjujvjRjRiRiRiRiRiRiRiRiRiRiRiRiRiRiRiRiRjSLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 48 64 0 k5k5k5k5k5k5k5LtL9ccccL9ijhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmigigcfcfijijhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmigLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 49 64 0 k5k5k5k5k5k5k5LtL9ccccL9iziXiXiWiXiWiXiWiXiWiXiWiXiWiX1g1hihihcfcfiziz1g1hiWiXiWiXiWiXiWiXiWiXiWiXiXiWihLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 50 64 0 k5k5k5k5k5k5k5LtL9ccccL9jfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjeLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 51 64 0 k5k5k5k5k5k5k5LtL9ccccL9jvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjuLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 52 64 0 k5k5k5k5k5k5k5LtL9ccccL9LQLhLiLhLiLhLiLhLiLhLiLhLiLhLiLhLiLTjfcfcfjeLQLhLiLhLiLhLiLhLiLhLiLhLiLhLiLhLiLTLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 53 64 0 k5k5k5k5k5k5k5LtL9ccccL9LgLxLyLxLyLxLyLxLyLxLyLxLyLxLyLxLyLjjvcfcfjuLgLxLyLxLyLxLyLxLyLxLyLxLyLxLyLxLyLjLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 54 64 0 k5k5k5k5k5k5k5LtL9ccccL9LwMBMCMBMCMBMCMBMCMBMCMBMCMBMCMBMCLzcfjejfcfLwMBMCMBMCMBMCMBMCMBMCMBMCMBMCMBMCLzLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 55 64 0 k5k5k5k5k5k5k5LtL9ccccL9jvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjujvcfcfjuLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 56 64 0 k5k5k5k5k5k5k5LtL9ccccL9cfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfcfjejfcfLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 57 64 0 k5k5k5k5k5k5k5LtL9ccccL9LQLhLiLhLiLhLiLhLiLhLiLhLiLhLiLhLiLTjvcfcfjuLQLhLiLhLiLhLiLhLiLhLiLhLiLhLiLhLiLTLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 58 64 0 k5k5k5k5k5k5k5LtL9ccccL9LgLxLyLxLyLxLyLxLyLxLyLxLyLxLyLxLyLjcfjejfcfLgLxLyLxLyLxLyLxLyLxLyLxLyLxLyLxLyLjLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 59 64 0 k5k5k5k5k5k5k5LtL9ccccL9LwMBMCMBMCMBMCMBMCMBMCMBMCMBMCMBMCLzcfjujvcfLwMBMCMBMCMBMCMBMCMBMCMBMCMBMCMBMCLzLtccccLtL9k5k5k5k5k5k5k5
+BOARD 0 60 64 0 k5k5k5k5k5k5k5LtL9cccc2UK/K/K/K+K/K+K/K+K/K+K/K+K/K+K/K+K/K/L9jhjhLtK+K/K/K+K/K+K/K+K/K+K/K+K/K+K/K+K/K/2VccccLtL9k5k5k5k5k5k5k5
+BOARD 0 61 64 0 k5k5k5k5k5k5k5LtL9ccccccccccccccccccccccccccccccccccccccccccL9IdIdLtccccccccccccccccccccccccccccccccccccccccccLtL9k5k5k5k5k5k5k5
+BOARD 0 62 64 0 k5k5k5k5k5k5k5LtL9cccccccccccccccccccccccccccccccccccccccccc2UK/K+2VccccccccccccccccccccccccccccccccccccccccccLtL9k5k5k5k5k5k5k5
+BOARD 0 63 64 0 k5k5k5k5k5k5k5Lt2UK/K/K+K/K+K+K/K+K/K/K+K/K+K/K+K/K+K/K+K/K+K/K+K/K+K/K+K/K+K/K+K/K/K+K/K+K/K+K/K+K/K+K/K/K+K/2VL9k5k5k5k5k5k5k5
+LINK gc_studioa_02.nw 31 61 2 1 30.5 31
+NPC nmapiece2.png 21 28
+function onCreated() {
+  drawunderplayer();
+}
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "Open 1") hide();
+    else if (player.chat == "Close 1") show();
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,32,64;
+}
+NPCEND
+NPC nmapiece3.png 25 25
+function onCreated() {
+  drawunderplayer();
+}
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "Open 2") hide();
+    else if (player.chat == "Close 2") show();
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,48;
+}
+NPCEND
+NPC nmapiece3.png 35 25
+function onCreated() {
+  drawunderplayer();
+}
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "Open 3") hide();
+    else if (player.chat == "Close 3") show();
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,48;
+}
+NPCEND
+NPC nmapiece2.png 41 28
+function onCreated() {
+  drawunderplayer();
+}
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "Open 4") hide();
+    else if (player.chat == "Close 4") show();
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,32,64;
+}
+NPCEND
+NPC nmapiece4.png 19 41
+function onCreated() {
+  drawunderplayer();
+}
+
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "Unlock") hide();
+    else if (player.chat == "Lock") show();
+  }
+}
+
+//#CLIENTSIDE
+if (created) {
+  setshape 1,416,48;
+}
+NPCEND
+NPC nmapiece3.png 30 47
+function onCreated() {
+  hide();
+  drawunderplayer();
+}
+
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "open") hide();
+    else if (player.chat == "close") show();
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,48;
+}
+NPCEND
+NPC 1.png 21 32
+function onCreated() {
+  drawunderplayer();
+}
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "reset")           chat = "3";
+    else if (player.chat.starts("set1 ")) chat = player.chat.substring(5,-1);
+  }
+}
+NPCEND
+NPC 2.png 29 25
+function onCreated() {
+  drawunderplayer();
+}
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "reset")           chat = "3";
+    else if (player.chat.starts("set2 ")) chat = player.chat.substring(5,-1);
+  }
+}
+NPCEND
+NPC 3.png 39 25
+function onCreated() {
+  drawunderplayer();
+}
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "reset")           chat = "3";
+    else if (player.chat.starts("set3 ")) chat = player.chat.substring(5,-1);
+  }
+}
+NPCEND
+NPC 4.png 42 32
+function onCreated() {
+  drawunderplayer();
+}
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "reset")           chat = "3";
+    else if (player.chat.starts("set4 ")) chat = player.chat.substring(5,-1);
+  }
+}
+NPCEND
+NPC - 16 27
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "clear" || player.chat == "seta") chat = "";
+    else if (player.chat.starts("seta ")) chat = player.chat.substring(5,-1);
+  }
+}
+NPCEND
+NPC - 29.5 20
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "clear" || player.chat == "setb") chat = "";
+    else if (player.chat.starts("setb ")) chat = player.chat.substring(5,-1);
+  }
+}
+NPCEND
+NPC - 33.5 20
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "clear" || player.chat == "setc") chat = "";
+    else if (player.chat.starts("setc ")) chat = player.chat.substring(5,-1);
+  }
+}
+NPCEND
+NPC - 47.5 27
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "clear" || player.chat == "setd") chat = "";
+    else if (player.chat.starts("setd ")) chat = player.chat.substring(5,-1);
+  }
+}
+NPCEND
+NPC - 53 30
+join level_nopk;
+//#CLIENTSIDE
+if (playerchats) {
+  if (strequals(#c,commands)) {
+say2("Commands:
+#bOpen 1-4 - Opens
+#bcorresponding number booth
+#bClose 1-4 - Closes
+#bcorresponding number booth
+#bseta-d - Allows you to put text
+#bfor questions over
+#bcorresponding  booth
+#bclear - Clears all text above
+#bletters.
+#breset - Resets all current scores
+#bto 3
+#bset1-4 - Sets text for scores
+#bover corresponding booth
+#bUnlock - Opens beer doors
+#bLock - Closes beer doors
+#b1-5 - Say this to make that many
+#bof the beers poisonous.
+#btimer <secs> - Say this to show
+#bthe timer, which disappears in
+#b10 seconds if you do not specify
+#ban amount
+#bApplause - Say to make
+#baudience applause :)");
+  } else if (strequals(#c,done)) {
+    playerdir = 2;
+    playerx = 30.5;
+    playery = 51;
+  }
+}
+NPCEND
+NPC snowpal.png 33 30
+function onCreated() {
+  hide();
+}
+
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    tokens = player.chat.tokenize();
+    if (tokens[0] == "timer") {
+      show();
+      this.timer = tokens[1];
+      if (this.timer == 0) this.timer = 10;
+      chat = this.timer;
+      settimer(1);
+    }
+  }
+}
+function onTimeout() {
+  this.timer--;
+  chat = this.timer;
+  if (this.timer <= 0) hide();
+  else settimer(1);
+}
+NPCEND
+NPC - 53 33
+//#CLIENTSIDE
+if (playerchats) {
+  if (strequals(#c,watch) && playery in |0,45|) {
+    this.focus = 1;
+    this.focusx = playerx * 16;
+    this.focusy = playery * 16;
+    if (this.focusx < screenwidth / 2) this.focusx = screenwidth / 2;
+    if (this.focusx > 1024 - screenwidth / 2) this.focusx = 1024 - screenwidth / 2 - 16;
+    if (this.focusy < screenheight / 2) this.focusy = screenheight / 2;
+    if (this.focusy > 720 - screenheight / 2) this.focusy = 720 - screenheight / 2;
+    movement_handlekeys = 0.05;
+    movement_handleitems = 0.05;
+    movement_handlesword = 0.05;
+    timeout = 0.05;
+  }
+}
+if (timeout) {
+  if (keydown2(keycode(s),true)) {
+    this.focus = 0;
+    resetfocus;
+  }
+  elseif (this.focus == 1) {
+    if (keydown(0) && this.focusy >= screenheight / 2 + 16) this.focusy -= 16;
+    if (keydown(1) && this.focusx >= screenwidth / 2 + 16) this.focusx -= 16;
+    if (keydown(2) && this.focusy <= 720 - screenheight / 2 - 16) this.focusy += 16;
+    if (keydown(3) && this.focusx <= 1024 - screenwidth / 2 - 32) this.focusx += 16;
+    setfocus this.focusx / 16,this.focusy / 16;
+
+    movement_handlekeys = 0.05;
+    movement_handleitems = 0.05;
+    movement_handlesword = 0.05;
+    timeout = 0.05;
+  }
+}
+NPCEND
+NPC - 53 36
+//#CLIENTSIDE
+if (playerchats) {
+  if (strequals(#c,watch) && playery in |46,61|) {
+    this.focusb = 1;
+    this.focusx = playerx * 16;
+    this.focusy = playery * 16;
+    if (this.focusx < screenwidth / 2) this.focusx = screenwidth / 2;
+    if (this.focusx > 1024 - screenwidth / 2) this.focusx = 1024 - screenwidth / 2 - 16;
+    if (this.focusy < screenheight / 2) this.focusy = screenheight / 2;
+    if (this.focusy > 1024 - screenheight / 2) this.focusy = 1024 - screenheight / 2 - 16;
+    movement_handlekeys = 0.05;
+    movement_handleitems = 0.05;
+    movement_handlesword = 0.05;
+    timeout = 0.05;
+  }
+}
+if (timeout) {
+  if (keydown2(keycode(s),true)) {
+    this.focusb = 0;
+    resetfocus;
+  }
+  elseif (this.focusb == 1) {
+    if (keydown(0) && this.focusy >= screenheight / 2 + 16) this.focusy -= 16;
+    if (keydown(1) && this.focusx >= screenwidth / 2 + 16) this.focusx -= 16;
+    if (keydown(2) && this.focusy <= 1024 - screenheight / 2 - 32) this.focusy += 16;
+    if (keydown(3) && this.focusx <= 1024 - screenwidth / 2 - 32) this.focusx += 16;
+    setfocus this.focusx / 16,this.focusy / 16;
+    movement_handlekeys = 0.05;
+    movement_handleitems = 0.05;
+    movement_handlesword = 0.05;
+    timeout = 0.05;
+  }
+}
+NPCEND
+NPC - 53 27
+//#CLIENTSIDE
+if (playerchats) {
+  if (strequals(#c,MYL Rules)) {
+
+say2 All players start out with
+#bthree points.  When asked a
+#bquestion they can either
+#bchoose to answer it or pass
+#bit to another participant.  If
+#bthey answer it themselves
+#band get it wrong they
+#bhave to drink a beer.  If
+#bthey answer and get it right
+#bthey recieve a point and
+#bkeep control of the
+#bquestions.  If they choose
+#bto pass then the one they
+#bpass it to must answer
+#b(can't pass on a passed
+#bquestion).  If they answer
+#bwrong all their points goes
+#bto the one that passed
+#bthem the question and
+#bthen they must also
+#bdrink a beer.  If they survive
+#bthe beer they gain control
+#bof the next question.  If
+#bthey get the question
+#bright then they recieve
+#ba point and gain control of
+#bthe next question.  After
+#beach question another beer
+#bbecomes poisionous until
+#bthere are 5 beers poisoned
+#ball together. If a poisoned
+#bbeer is chosen then it warps
+#bthe person who drank it out
+#bof the event.  After someone
+#bhas chosen a poisioned
+#bbeer the beers are reset
+#bback to one and it goes so
+#bon and so forth. The game
+#bgoes on until someone
+#breaches 16 points or there
+#bis only one person left.
+#bThere can be different
+#bvariations to the event.  So
+#bfollow these rules unless the
+#bGC hosting states otherwise.;
+
+  }
+  else if (strequals(#c,CoD Rules)) {
+
+say2 There are 3 rounds.  Each
+#bteam is asked 2 questions
+#bper round.  Each question
+#bin Rounds 1 and 2 are worth
+#b2 points apiece
+#b(a point = 1 ticket)
+#b(In Round 3 correct answers
+#bare worth 1 point).  After
+#beach round the team with
+#bthe least amount of points is
+#beliminated (also happens
+#bin Round 3 with final
+#bteam) and each
+#bmember of that team then
+#bmust PM the host Coalition
+#bor Deception.
+#bIf the partner's both pick
+#bCoalition then they split the
+#btickets evenly (in case of an
+#bodd score an extra ticket
+#bis added to compensate).  If
+#bone partner goes deception
+#bwhile the other goes coalition,
+#bthen the one that went
+#bdeception gets all the
+#btickets.  Though if they both
+#bgo deception, then neither
+#bone of them recieves any
+#btickets.;
+
+  }
+}
+NPCEND
+NPC nmapiece.png 31 32
+function onCreated() {
+  setshape(1,32,16);
+  level.gc_control = -1;
+  save[0] = 0;
+}
+
+function onPlayertouchsme() {
+  if (level.gc_control == "noaccount") {
+    level.gc_control = player.id;
+    save[0] = player.id + 1;
+  } else if (player.id != level.gc_control) {
+    for (this.i = 0; this.i < playerscount; this.i++) {
+      if (players[this.i].id == level.gc_control && players[this.i].level == level) {
+        this.online = 1;
+        break;
+      }
+    }
+    if (this.online != 1) {
+      level.gc_control = player.id;
+      save[0] = player.id + 1;
+    }
+  }
+}
+
+function onActiondisable() {
+  level.gc_control = -1;
+  save[0] = 0;
+}
+
+//#CLIENTSIDE
+
+if (created || timeout) {
+  this.sit_x = 30.5;
+  this.sit_y = 29;
+  if (playerid == save[0] - 1) {
+    if (playerx == this.sit_x && playery == this.sit_y) {
+      if (level.gc_control == -1) {
+        setplayerprop #c,Control Enabled;
+        level.gc_control = save[0] - 1;
+      }
+    } else {
+      if (playerid == save[0] - 1) {
+        setplayerprop #c,Control Disabled;
+        level.gc_control = -1;
+        triggeraction x,y,disable,;
+      }
+    }
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC - 53 39
+function onCreated() {
+  this.applause = 0;
+}
+
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "Applause") {
+      this.applause++;
+      save[0] = this.applause % 2;
+    }
+  }
+}
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  if (save[0] != this.applause) {
+    this.applause = save[0];
+    play2 goal.wav,45,32,10;
+  }
+  timeout = 0.1;
+}
+NPCEND
+NPC - 53 42
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  if (!strequals(#g,Game Coordinator)) {
+    movement_handlesword = 0.1;
+    movement_handleitems = 0.1;
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC - 27 49
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,
+To watch say 'Watch'
+#bTo stop watching press 's';
+NPCEND
+NPC - 31 26
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,
+For a List of Commands
+#bsay Commands;
+NPCEND
+NPC - 35 49
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,
+The control/host area is behind
+#bthe podium.  Be sure to be all the
+#bway against it, if not you won't
+#brecieve control.;
+NPCEND
+NPC - 21 39
+// NPC made by Massokre (Conspirator)
+// Beer Script
+function onCreated() {
+  setshape(1,352,32);
+  set_safe();
+}
+
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat in |1,6| && player.chat.length() == 1) {
+      set_safe();
+      this.poison = strtofloat(#c);
+      while (this.poison != 0) {
+        this.int = int(random(0,6));
+        if (this.safe[this.int] == 0) continue;
+        this.safe[this.int] = 0;
+        save[this.int]      = 0;
+        this.poison--;
+      }
+    }
+  }
+}
+
+function onPlayertouchsme() {
+  if (playerdir == 0) {
+    for (this.i = 0; this.i < 6; this.i++) {
+      if (playerx in |20 + 4 * this.i,21 + 4 * this.i|) {
+        client.movement_drunk=45;
+        if (player.guild != "Game Coordinator") {
+          if (this.safe[this.i] == 0 && this.tangible[this.i] == 1) {
+            player.chat = "Urgh, this beer is rancid!";
+            setlevel2 gc_studioa_01.nw,30.5,51;
+            setani classic_dead,;
+            this.tangible[this.i] = 0;
+          }
+          save[this.i] = 0;
+          hideimg this.i;
+        }
+      }
+    }
+  }
+}
+
+function set_safe() {
+  this.safe     = {1,1,1,1,1,1};
+  this.tangible = {1,1,1,1,1,1};
+  for (this.i = 0; this.i < 6; this.i++) {
+    save[this.i] = 1;
+    showimg this.i,beer.png,x + this.i * 4,y;
+    changeimgvis this.i,0;
+  }
+}
+
+//#CLIENTSIDE
+
+if (playerenters || timeout) {
+  timeout = .05;
+  setshape 1,352,32;
+  hideimgs 200,205;
+  if (strequals(#g,Game Coordinator) || playerid == level.gc_control) {
+    for (this.i = 0; this.i < 6; this.i++) {
+      if (save[this.i] == 0) {
+        this.arrow = {21.5,37.625,22,38.25,22.5,37.625};
+        for (this.j = 0; this.j < 3; this.j++) {
+          this.arrow[2*this.j] += this.i * 4;
+        }
+        showpoly 200+this.i,this.arrow;
+      }
+    }
+  }
+}
+
+if (playertouchsme) {
+  if (playerdir == 0) {
+    for (this.i = 0; this.i < 6; this.i++) {
+      if (playerx in |20 + 4 * this.i,21 + 4 * this.i|) {
+        if (save[this.i] == 1) {
+          player.chat="The aroma is divine, you glug it down at speed.";
+        }
+      }
+    }
+  }
+}
+NPCEND
+NPC nmapiece.png 31 31
+function onCreated() {
+  hide();
+  drawunderplayer();
+}
+
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "open control") hide();
+    else if (player.chat == "close control") show();
+  }
+}
+
+//#CLIENTSIDE
+if (created) {
+  setshape 1,32,16;
+}
+NPCEND
+NPC - 32 31
+function onPlayerchats() {
+  if (player.guild == "Game Coordinator" || player.id == level.gc_control) {
+    if (player.chat == "clear" || player.chat == "sete ") chat = "";
+    else if (player.chat.starts("sete ")) chat = player.chat.substring(5,-1);
+  }
+}
+NPCEND
+NPC - 53 45
+//#CLIENTSIDE
+function onPM(obj) {
+  if(obj.level == "gc_studioa_01.nw" && player.level == "gc_studioa_01.nw"){
+    if(obj.guild == "Game Coordinator" || obj.id == level.gc_control){
+      player.chat="I got a PM from the GC, cheater?";
+    }
+  }
+}
+NPCEND

@@ -1,0 +1,9 @@
+GRMAP001
+WIDTH 6
+HEIGHT 4
+LEVELNAMES
+"balamb2_a1.nw","balamb2_b1.nw","balamb2_c1.nw","balamb2_d1.nw","balamb2_e1.nw","balamb2_f1.nw"
+"balamb2_a2.nw","balamb2_b2.nw","balamb2_c2.nw","balamb2_d2.nw","balamb2_e2.nw","balamb2_f2.nw"
+"balamb2_a3.nw","balamb2_b3.nw","balamb2_c3.nw","balamb2_d3.nw","balamb2_e3.nw","balamb2_f3.nw"
+"balamb2_a4.nw","balamb2_b4.nw","balamb2_c4.nw","balamb2_d4.nw","balamb2_e4.nw","balamb2_f4.nw"
+LEVELNAMESEND

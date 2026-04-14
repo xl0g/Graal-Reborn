@@ -1,0 +1,517 @@
+GLEVNW01
+BOARD 0 0 64 0 IdIdIdIdIdIdIdBQBXk2mncem2nYnJk2nYnJk3nYnJmmcem3nYnJk3nYnJmmcemmmncemnnInZk3nInZm2cemnnInZk2nInZk3nInZm3cemmceBQBXIdIdIdIdIdIdId
+BOARD 0 1 64 0 IdIdIdIdIdIdIdBQBXk2cemncem2nYnJk3nYnJk2nYnJmmcem3nYnJk2nYnJmmm3m2mnnInZk2nInZm2cemnnInZk3nInZk2nInZm3cemmcek2BQBXIdIdIdIdIdIdId
+BOARD 0 2 64 0 5MBBBBBBBBBBBBBTBXk2m2cemncem2nYnJk2nYnJk3nYnJmmcem3nYnJk3nYnJcecenInZk3nInZm2cemnnInZk2nInZk3nInZm3cemmcem3k2BQBTBBBBBBBBBBBB5N
+BOARD 0 3 64 0 BQBTCRCRCRCRCRCRBzk2mmcem3cemmcdnYnJk3nYnJk2nYnJmmcem3nYnJk2nYnJnInZk2nInZm2cemnnInZk3nInZk2nInZk3mncem2cemnk2CQCRCRCRCRCRCRBTBX
+BOARD 0 4 64 0 BQBXip6/iqCEip6/iqk2cem3cemmcdk3cdnYnJk2nYnJk3nYnJmmcem3nYnJk3nYnZk3nInZm2cemnnInZk2nInZk3nInZk3cdk3mncem2cek2ip6/iqCHip6/iqBQBX
+BOARD 0 5 64 0 BQBX6t6t6tCH6t6t8/k2m3cemmcdk3cdk3cdnYnJk3nYnJk2nYnJmmcem3nYnJk2k2nInZm2cemnnInZk3nInZk2nInZk3cdk3cdk3mncem2k28+6t6tCH6t6t6tBQBX
+BOARD 0 6 64 0 BQBXk2dDdGk2k2k2k2m3cemmcdk3cdk3cdk3cdnYnJk2nYnJk3nYnJmmcem3nYnJnInZm2cemnnInZk2nInZk3nInZk3cdk3cdk3cdk3mncem2k2k2k2k2dDdGk2BQBX
+BOARD 0 7 64 0 BQBXk2dTdWcemmcem3cemmcdk3cdk3cdk3cdk3cdnYnJk3nYnJk2nYnJmmcem3nYnZm2cemnnInZk3nInZk2nInZk3cdk3cdk3cdk3cdk3mncem2cemncedTdWk2BQBX
+BOARD 0 8 64 0 BQBXk2knknkncem3cemmcdk3cdk3cdk3cdk3cdk3cdnYnJk2nYnJk3nYnJmmcemmmncemnnInZk2nInZk3nInZk3cdk3cdk3cdk3cdk3cdk3mncem2ceknknknk2BQBX
+BOARD 0 9 64 0 BQBXk4KqKpKqm3cemmcdk3cdk3cdk3cdk3cdk3cdk3cdnYnJk3nYnJk2nYnJmmm3m2mnnInZk3nInZk2nInZk3cdk3cdk3cdk3cdk3cdk3cdk3mncem2KpKqKqkoBQBX
+BOARD 0 10 64 0 BQBXk4KqKpKqcemmcdk3cdk3cdk3cdk3cdk3cdk3cdk3cdnYnJk2nYnJk3nYnJcecenInZk2nInZk3nInZk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3mnceKpKqKqk4BQBX
+BOARD 0 11 64 0 BQBXk4KqKpKqmmcdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdnYnJk3mI6s6s6s6s6s6s6s6smJk2nInZk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3mnKpKqKqk4BQBX
+BOARD 0 12 64 0 BQBXk4KqKpKqcdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdnYnJ8+6t6t6t6t6t6t6t6t8/nInZk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3KpKqKqk4BQBX
+BOARD 0 13 64 0 BQBXk4KqKpKqk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdnYCEip6K6K6K6K6K6KiqCHnZk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdKpKqKqk4BQBX
+BOARD 0 14 64 0 BQBXk4KqKpKqcdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdCH7P6K6K6K6K6K6K7PCEk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3KpKqKqk4BQBX
+BOARD 0 15 64 0 BQBXk4KqKpKqk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3CE6t6t6t6t6t6t6t6tCHcdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdKpKqKqk4BQBX
+BOARD 0 16 64 0 BQBXk4KqKpKqcdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdnYnJk2k3nInZk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3KpKqKqk4BQBX
+BOARD 0 17 64 0 BQBXk4KqKpKqk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdnYnJnInZk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdKpKqKqk4BQBX
+BOARD 0 18 64 0 BQBXk4KqKpKqcdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdnYnZk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3KpKqKqk4BQBX
+BOARD 0 19 64 0 BQBXk4KqKpKqk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdKpKqKqk4BQBX
+BOARD 0 20 64 0 BQBXk2knknkncdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3knknknk2BQBX
+BOARD 0 21 64 0 BQBXk2dDdGcdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3dDdGk2BQBX
+BOARD 0 22 64 0 BQBXk2dTdWk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cddTdWk2BQBX
+BOARD 0 23 64 0 BQBTBBBBBBBBBBBBBBBBBBBB5NBBBBBBBBBB5Ncdk35MBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5Ncdk35MBBBBBBBBBB5MBBBBBBBBBBBBBBBBBBBBBTBX
+BOARD 0 24 64 0 CQCRCRCRCRCRCRCRCRCRCRBTBXCRCRCRCRCRBzk3cdCQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzk3cdCQCRCRCRCRCRBQBTCRCRCRCRCRCRCRCRCRCRBz
+BOARD 0 25 64 0 6d6K6K6K6K6K6K6K6K6K6KBQBX6/iqCEip6/iqcdk3ip6/iqCHip6/iqCEjJjKCHCEjJjKCHip6/iqCEip6/iqcdk3ip6/iqCHip6/BQBX6K6K6K6K6K6K6K6K6KBQBX
+BOARD 0 26 64 0 8+6t6t6t6t6t6t6t6t6t6tBQBX6t6tCE6t6t8/k3cd8+VoVpCH6tdDdGCEjJjKCHCEjJjKCHdDdG6tCEVoVp8/k3cd8+6t6tCH6t6tBQBX6t6t6t6t6t6t6t6t6tBQBX
+BOARD 0 27 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nJk2k3k3k3k3k3k2V4V5k2k2dldmk2k2k2k2k2k2k2k2dldmk2k2V4V5k2k3k3k3k3k3k2nIk2BQBXk2k2k2k2k2k2k2k2k2BQBX
+BOARD 0 28 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nZk2k3k3k3k3k3k3k3k3k3k3dldmk3k3k3k3k3k3k3k3dldmk3k3k3k3k3k3k3k3k3k3k2nYk2BQBXk3k3k3k3KpKqk3k3k3BQBX
+BOARD 0 29 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nIk2k3k3k3k3k3k3k3k3k3k3dldmk3k3k3k3k3k3k3k3dldmk3k3k3k3k3k3k3k3k3k3k2nJ5MBQBXk3k3k3k3K5K6k3k3k3BQBX
+BOARD 0 30 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nYk2k3k3k3k3k3k3k3k3k3k3dldmdEdEdEdEdEdEdEdEdldmk3k3k3k3k3k3k3k3k3k3k2nZCQBQBXk3k3dDdEdEdEdEdGk3BQBX
+BOARD 0 31 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nJk2k3k3k3k3k3k3k3k3k3k3dTdWdUdUdUdUdUdUdUdUdTdWk3k3k3k3k3k3k3k3k3k3k2nI6dBQBXk3k3dTdURARBdUdWk3BQBX
+BOARD 0 32 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nZk2k3k3k3k3k3k3k3k3k3k3l4lJlJlJlJlJlJlJlJlJlJl5k3k3k3k3k3k3k3k3k3k3k2nY8+BQBXk3k3l4lJlJlJlJl5k3BQBX
+BOARD 0 33 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nIk2k3k3k3k3k3k3k3k3k3k3k3k3k3k35J5E5E5E5Ik3k3k3k3k3k3k3k3k3k3k3k3k3k2nJk2k2k2k3k3k3k3k3k3k3KpKqBQBX
+BOARD 0 34 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nYk2k3k3k3k3k3k3k3k3k3k3k3k3k34p4o5E5E5E5E5Ik3k3k3k3k3k3k3k3k3k3k3k3k2nZk2k2k2k3k3k3k3k3k3k3K5K6BQBX
+BOARD 0 35 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nJk2k3k3k3k3k3k3k3k3k3k3k3k34p4E4E4o455E5E5E5Ik3k3k3k3k3k3k3k3k3k3k3k2nI5MBQBXk3k3k3k3k3k3k3KpKqBQBX
+BOARD 0 36 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nZk2k3k3k3k3k3k3k3k3k3k3k34p4E4E4E4E4E4o455E4Zdq5Wk3k3k3k3k3k3k3k3k3k2nYCQBQBXk3k3k3k3k3k3k3K5K6BQBX
+BOARD 0 37 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nIk2k2k2k2k2k2k2k2k3k3k34p4E4E4E4E4E4E4E4E4odqdqdqk3k3k2k2k2k2k2k2k2k2nJ6dBQBXBBBBBBBBBBBBBBBBBBBTBX
+BOARD 0 38 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2nYnZnInJnYnZnInJk2k3k3k3434E4E4E4E4E4E4E4E4E4ndq4Fk3k3k2nInJnYnZnInJnYnZ8+BQBXCRCRCRCRCRCRCRCRCRCRBz
+BOARD 0 39 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBXk2k2k2k2k2k2k2k2nZk2k3k34p4E4E4E4E4E4E4E4E4E4E4E44cdk3k3k2nYk2k2k2k2k2k2k2k2BQBX6K6K6K6K6K6K6K6K6K6K6c
+BOARD 0 40 64 0 IdIdIdIdIdIdIdIdIdIdIdBQBTBBBBBBBBBBBB5Nk2nIk2k34Wdqdqdqdqdqdqdqdqdqdqdqdqdq5Wk3k3k2nJk25MBBBBBBBBBBBBBTBX6t6t6t6t6t6t6t6t6t6t8/
+BOARD 0 41 64 0 IdIdIdIdIdIdIdIdIdIdIdCQCRCRCRCRCRCRBTBXk2nYk2k34Xdqdqdqdqdqdqdqdqdqdqdqdqdq4Yk3k3k2nZk2BQBTCRCRCRCRCRCRBzIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 42 64 0 IdIdIdIdIdIdIdIdIdIdId6d6K6K6K6K6K6KBQBXk2nJk2k252dq4U4Udq4U4U4U4U4U4Udq4Udq4Fk3k2k2nIk2BQBX6K6K6K6K6K6K6cIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 43 64 0 IdIdIdIdIdIdIdIdIdIdId8+6t6t6t6t6t6tBQBXk2nZnInJk24X4V4V4V4V4V4V4V4V4V4V4V4Yk3k2nInJnYk2BQBX6t6t6t6t6t6t8/IdIdIdIdIdIdIdIdIdIdId
+BOARD 0 44 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nIk2k2k24X4V4V4V4V4V4V4V4V4V4V4V4Yk2k2k2k2nJk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 45 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nYk2nJ4W4G4V4Vdqdq4V4V4Vdqdq4V4V4J5WnZk3k2nZk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 46 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nJk2k35G4V4V4VdqiL4V4V4ViLdq4V4V4V4lk3k3k2nIk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 47 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nZk24W5G4V4V4VdqiL4V4V4ViLdq4V4V4V4l5Wk3k2nYk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 48 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nIk24X5G4V4V4V4V4V4V4V4V4V4V4V4V4V4l4Yk3k2nJk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 49 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nYk24Xdq5m4V4V4V4V4V4V4V4V4V4V4V4mdq4Yk3k2nZk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 50 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nJk252dqdq5m4V4mdqdqdqdqdq5m4V4mdqdq4Fk3k2nIk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 51 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nZk2k34Xdqdqdq4G5V5l4V5V5l4Jdqdqdq4Yk3k3k2nYk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 52 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nIk2k352dqdq5m4V4k5k5U414H4V4mdqdq4Fk3k3k2nJk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 53 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nYk2k3k352dqdq5m514I4I4I504mdqdq4Fk3k3k3k2nZk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 54 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nJk2k2k2k352dqdqdqdqdqdqdqdqdq4Fk3k3k2k2k2nIk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 55 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2nZnInJnIk2k352404040404040404Fk3k3k2nJnInJnYk2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 56 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBXk2k2k2k2k2k2k2k2k2k2k2k3k3k2k2k2k2k2k2k2k2k2k2k2BQBXIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 57 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdBQBTBBBBBBBBBBBBBBBBBBBBBBk3k3BBBBBBBBBBBBBBBBBBBBBBBTDFIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 58 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdCQCRCRCRCRCRCRCRCRCRCRCRCRk3k3CRCRCRCRCRCRCRCRCRCRCRCRBzIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 59 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId6d6K6K6K6K6K6K6K6K6K6K6K6Kk3k36K6K6K6K6K6K6K6K6K6K6K6K6cIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 60 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId8+6t6t6t6t6t6t6t6t6t6t6t6tk2k26t6t6t6t6t6t6t6t6t6t6t6t8/IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 61 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 62 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 63 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+LINK gc_studios_02.nw 9 0 46 1 playerx 61
+LINK graalcity_outside_underbridge.nw 31 61 2 1 39.5 11
+NPC warpdoor.png 43 24
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimg warpdoor.png;
+  setimgpart warpdoor.png,15,0,32,50;
+}
+NPCEND
+NPC ticketicon.png 36 30
+
+NPCEND
+NPC ticketicon.png 26 30
+
+NPCEND
+NPC - 56 27
+function onCreated() {
+  showcharacter();
+  headimg     = "head19.png";
+  shieldimg   = "no-shield.png";
+  for (this.i = 0; this.i < 5; this.i++) colors[this.i] = "black";
+  nick        = "";
+  shieldpower = 1;
+  dir         = 2;
+  setcharani("sit","");
+  x           = 56.5;
+}
+NPCEND
+NPC gclamp.mng 20.5 56
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart gclamp.mng,80,80,80,16;
+  drawaslight;
+}
+if (playertouchsme && playerdir == 2) {
+  say2 *you see something inscribed#b
+  on the side of the lamp*#b
+  Here's a list of contributors#b
+  Levels/Graphics/edits:#b
+  Nightmareangel#b
+  Outside/Main/Ticket level#b
+  scripts: Master Storm/Com013/#b
+  Kat/Night/Kiirar/Massokre#b
+  Watch System/Minor Scripts in#b
+  All Levels:  Master Storm/Kat/#b
+  Night/Massokre#b
+  Studio A scripts: Master Storm/#b
+  Night/Kat/Massokre#b
+  Idea:  Night#b
+  Studio B scripts: Kiirar/Kat#b
+  Idea:  Kiirar#b
+  Studio C scripts: Kiirar/Kat#b
+  Idea:  Valor#b
+  Studio D scripts: Night/Kat#b
+  Idea:  Slocky#b
+  Studio E scripts: Kat#b
+  Idea:  Sting#b
+  Studio F scripts: Kat/Night#b
+  Idea:  Gorth#b
+  Asst. Producer:  Sting#b
+  Studio G Idea:  Nightmareangel#b
+  Ticket/Warp levels:  frim#b
+  Studio H Idea: X-mann#b
+  Ticket/Main levels: WillieJamal#b
+  Studio I scripts: Kat#b
+  Idea:  Sting/Night#b
+  Studio J scripts: Evil#b
+  Idea:  SneakyKnight#b
+  Ticket/Main levels:  Rone#b
+  Studio K scripts:  Com#b
+  Idea:  Com#b
+  Studio M scripts: Massokre#b
+  Idea:  Massokre#b
+  Studio P scripts: Evil/Massokre#b
+  Idea:  Evil#b
+  Main level: Com#b
+  Whew...that was long *yawns*#b
+  I'm sleepy now...must find some#b
+  place to sleep *yawns*#b
+  What's this?#b
+  *you catch a glimpse of#b
+  writing that you missed before*#b
+  If you're feeling tired and you#b
+  need a place to rest and you#b
+  only sleep at the best?  Come#b
+  to the Red Lamp Inn and we'll#b
+  take care of you. This#b
+  advertisement was brought to#b
+  you by Masa Burgers the only#b
+  burger on Graal that's made#b
+  with 100% real horse meat!;
+}
+NPCEND
+NPC safe.png 31 25
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  if (playery < 24) {
+    movement_handlegui = 0.1;
+    movement_handlesword = 0.1;
+    movement_handleitems = 0.1;
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC nmagc1.png 30.5 30
+
+NPCEND
+NPC nmagc3.png 26 27
+//#CLIENTSIDE
+if (playertouchsme) {
+  say2 Welcome to GC Studios, I'm
+  #bemployee Bob.  How may I help
+  #byou?  Want to see an event?
+  #bWell tickets are 10 gralats say
+  #bbuy ticket to purchase one.  To
+  #bsee a list of available events
+  #bsay 'list'.  Buy your ticket and
+  #bstep through the specified
+  #bstudio in which the event
+  #byou're coming to see is in.
+  #bHave a nice day. :);
+}
+NPCEND
+NPC light2.png 2 4
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart light2.png,42,60,100,100;
+  setcoloreffect 1,1,1,0.99;
+  drawaslight;
+  y = 4.25;
+}
+NPCEND
+NPC nmagc2.png 36 27
+//#CLIENTSIDE
+if (playertouchsme) {
+  say2 Welcome to GC Studios, I'm
+  #bemployee Mark.  To see a list
+  #bof the available events say
+  #b'list'.  Tickets are 10 gralats.
+  #bTo buy one say buy ticket.
+  #bThen go to the studio where
+  #bthe event you're here to see
+  #bis being hosted.
+  #bHave a nice day. :);
+}
+NPCEND
+NPC sidecouch.png 58 14
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimg sidecouch.png;
+  setimgpart sidecouch.png,0,23,65,150;
+  y=14.25;
+}
+NPCEND
+NPC sidecouch.png 58 8
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+   setimg sidecouch.png;
+  setimgpart sidecouch.png,0,0,65,100;
+}
+NPCEND
+NPC nmacouch.png 2 14
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimg nmacouch.png;
+  setimgpart nmacouch.png,0,23,65,150;
+  y=14.25;
+}
+NPCEND
+NPC nmacouch.png 2 8
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimg nmacouch.png;
+  setimgpart nmacouch.png,0,0,65,100;
+}
+NPCEND
+NPC warpdoor.png 19 24
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimg warpdoor.png;
+  setimgpart warpdoor.png,15,0,32,50;
+}
+NPCEND
+NPC gclamp.mng 59.5 4
+
+NPCEND
+NPC nmagcdoorxmas.png 31 59
+join door;
+NPCEND
+NPC note.png 33 26
+//#CLIENTSIDE
+if (created) setimgpart note.png,60,10,50,50;
+NPCEND
+NPC gclamp.mng 41.5 56
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart gclamp.mng,80,80,80,16;
+  drawaslight;
+}
+NPCEND
+NPC gclamp.mng 2.5 3
+
+NPCEND
+NPC gclamp.mng 59.5 22
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart gclamp.mng,80,80,80,16;
+  drawaslight;
+}
+NPCEND
+NPC gclamp.mng 48.5 24
+
+NPCEND
+NPC gclamp.mng 48 39
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart gclamp.mng,80,80,80,16;
+  drawaslight;
+}
+NPCEND
+NPC gclamp.mng 13.5 24
+
+NPCEND
+NPC gclamp.mng 13.5 39
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart gclamp.mng,80,80,80,16;
+  drawaslight;
+}
+NPCEND
+NPC book16.png 3.5 21
+
+NPCEND
+NPC book15.png 3 6
+
+NPCEND
+NPC bookopen.png 59 21
+
+NPCEND
+NPC book6.png 59 6
+
+NPCEND
+NPC note.png 30 26
+//#CLIENTSIDE
+if (created) {
+  setimgpart note.png,19,10,50,20;
+}
+NPCEND
+NPC note.png 29 26
+//#CLIENTSIDE
+if (created) {
+  setimgpart note.png,60,10,20,50;
+}
+NPCEND
+NPC note.png 33 25
+//#CLIENTSIDE
+if (created) {
+  setimgpart note.png,60,10,50,50;
+}
+NPCEND
+NPC note.png 30 25
+//#CLIENTSIDE
+if (created) {
+  setimgpart note.png,60,10,20,50;
+}
+NPCEND
+NPC nmapiece13.png 30 57
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC gclamp.mng 2.5 22
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart gclamp.mng,80,80,80,16;
+  drawaslight;
+}
+NPCEND
+NPC - 26 21
+join level_nopk;
+//#CLIENTSIDE
+if (created) {
+  showimg 0,light2.png,2,19;
+  showimg 1,light2.png,56.45,19;
+  showimg 2,light2.png,13,36;
+  showimg 3,light2.png,45.45,36;
+  showimg 4,light2.png,20,53;
+  showimg 5,light2.png,38.45,53;
+  for (this.i = 0; this.i <= 5; this.i++) {
+    if (this.i % 2 == 0) changeimgpart this.i,40,0,88,64;
+    else changeimgpart this.i,0,0,89,64;
+    changeimgcolors this.i,1,1,1,0.99;
+    changeimgvis this.i,1;
+  }
+}
+NPCEND
+NPC light2.png 56.5 4
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart light2.png,0,60,90,100;
+  setcoloreffect 1,1,1,0.99;
+  drawaslight;
+  y = 4.25;
+}
+NPCEND
+NPC - 57 32
+join sign;
+
+//#CLIENTSIDE
+if (created) setstring this.text,
+Stryker, Head of Security;
+NPCEND
+NPC nmabulletin.png 29 13
+//#CLIENTSIDE
+if (playertouchsme) {
+  say2 What a neat bulletin board!;
+}
+NPCEND
+NPC sign.png 57 31
+//#CLIENTSIDE
+if (created) setimgpart sign.png,100,100,100,10;
+NPCEND
+NPC - 53 27
+//#CLIENTSIDE
+if (created || timeout) {
+  if (!(playerx in |50,60| && playery in |25.5,34.5|)) {
+    showpoly 200,{53,25,53,41,64,41,64,25};
+    changeimgcolors 200,41/255,41/255,41/255,1;
+  } else hideimg 200;
+  timeout = 0.05;
+}
+NPCEND
+NPC - 51 32
+//#CLIENTSIDE
+if (created) {
+  this.k = 0;
+  for (this.i = 0; this.i < 6; this.i++) {
+    if (this.i == 3) this.k = 1;
+    showimg 200+this.i,tileset_01.png,x + this.k,y + (this.i % 3);
+    changeimgpart 200+this.i,this.k * 112,80,16,16;
+  }
+}
+NPCEND
+NPC xmaslights.mng 39 25
+
+NPCEND
+NPC xmaslights.mng 36 25
+
+NPCEND
+NPC xmaslights.mng 34 24
+
+NPCEND
+NPC xmaslights.mng 31 24
+
+NPCEND
+NPC xmaslights.mng 28 24
+
+NPCEND
+NPC xmaslights.mng 21 25
+
+NPCEND
+NPC xmaslights.mng 24 25
+
+NPCEND
+NPC xmaslights.mng 27 25
+//#CLIENTSIDE
+if (created) {
+  setimg xmaslights.mng;
+  setimgpart xmaslights.mng,0,0,11,14;
+}
+NPCEND
+NPC xmaslights.mng 27 24
+//#CLIENTSIDE
+if (created) {
+  setimg xmaslights.mng;
+  setimgpart xmaslights.mng,32,0,11,14;
+}
+NPCEND
+NPC xmaslights.mng 45 25
+
+NPCEND
+NPC xmaslights.mng 48 25
+
+NPCEND
+NPC xmaslights.mng 16 25
+
+NPCEND
+NPC xmaslights.mng 13 25
+
+NPCEND
+NPC - 35 20
+//#CLIENTSIDE
+if (playerenters) {
+  addtiledef2 classic_gc_santatiles.png,gc_studios_01a.nw,1856,0;
+}
+NPCEND
+NPC xmaslights.mng 42 25
+//#CLIENTSIDE
+if (created) {
+  setimg xmaslights.mng;
+  setimgpart xmaslights.mng,0,0,11,14;
+}
+NPCEND

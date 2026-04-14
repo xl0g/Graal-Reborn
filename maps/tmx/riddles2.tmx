@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="2">
+ <tileset firstgid="1" source="../../classiciphone_pics4.tsx"/>
+ <layer id="1" name="base" width="64" height="64">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  </data>
+ </layer>
+ <layer id="2" name="collision" width="64" height="64" visible="0">
+  <properties><property name="collision" value="true"/></properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  </data>
+ </layer>
+ <objectgroup id="3" name="npcs">
+  <object id="1" x="464.0" y="368.0" width="16" height="16">
+   <properties>
+    <property name="gani" value="pics1.png"/>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- // NPC made by Selflon (LAT)
+-- [CLIENT-SIDE — server no-op]
+-- if (playerenters) {showlocal;
+-- blockagain;}
+-- if (created) {setimgpart pics1.png,1968,96,48,48;}
+-- 
+-- // Riddle NPC
+-- 
+-- //Check to see if player has previously visited.
+-- 
+-- if (playertouchsme && !StatueVisited) {
+-- say2
+-- Welcome traveller.#b
+-- Pass the test of the five puzzles#b
+-- and you may continue on your#b
+-- journey...#b
+-- #b
+-- The price of failure however will be#b
+-- most painful#b;
+-- setstring client.Answers,0;
+-- }
+-- 
+-- 
+-- //insert way for this to move on to the rest of the script without being retouched
+-- 
+-- if (playerendsreading){
+-- set StatueVisited;
+-- Answered = 0;}
+-- 
+-- 
+-- if (playertouchsme && StatueVisited) {
+-- AnsweredRiddles();
+-- if (!RiddlesPassed){
+-- RiddleGet();}
+-- if (playertouchsme && RiddleInProgress){
+-- if (Riddle1Asked){Riddle1();}
+-- else if (Riddle2Asked){Riddle2();}
+-- else if (Riddle3Asked){Riddle3();}
+-- else if (Riddle4Asked){Riddle4();}
+-- else if (Riddle5Asked){Riddle5();}
+-- else if (Riddle6Asked){Riddle6();}
+-- else if (Riddle7Asked){Riddle7();}
+-- else if (Riddle8Asked){Riddle8();}
+-- else if (Riddle9Asked){Riddle9();}
+-- else if (Riddle10Asked){Riddle10();}
+-- else if (Riddle11Asked){Riddle11();}
+-- else if (Riddle12Asked){Riddle12();}
+-- else if (Riddle13Asked){Riddle13();}
+-- else if (Riddle14Asked){Riddle14();}
+-- else if (Riddle15Asked){Riddle15();}
+-- else if (Riddle16Asked){Riddle16();}
+-- else if (Riddle17Asked){Riddle17();}
+-- else if (Riddle18Asked){Riddle18();}
+-- else if (Riddle19Asked){Riddle19();}
+-- else if (Riddle20Asked){Riddle20();}
+-- ;}
+-- }
+-- 
+-- function RiddleGet(){
+-- if(!RiddleInProgress){
+-- AnsweredRiddles();
+-- r = random(0,200);
+-- if (r<=10) Riddle1();
+-- else if (r<=20)Riddle2();
+-- else if (r<=30)Riddle3();
+-- else if (r<=40)Riddle4();
+-- else if (r<=50)Riddle5();
+-- else if (r<=60)Riddle6();
+-- else if (r<=70)Riddle7();
+-- else if (r<=80)Riddle8();
+-- else if (r<=90)Riddle9();
+-- else if (r<=100)Riddle10();
+-- else if (r<=110)Riddle11();
+-- else if (r<=120)Riddle12();
+-- else if (r<=130)Riddle13();
+-- else if (r<=140)Riddle14();
+-- else if (r<=150)Riddle15();
+-- else if (r<=160)Riddle16();
+-- else if (r<=170)Riddle17();
+-- else if (r<=180)Riddle18();
+-- else if (r<=190)Riddle19();
+-- else Riddle20();
+-- };
+-- }
+-- //Check to see how many riddles have been answered and it it is 5 or more
+-- function AnsweredRiddles(){
+-- Answered = (strtofloat(#s(client.Answers)));
+-- if (Answered >=5){hidelocal;
+-- set RiddlesPassed;}
+-- ;}
+-- 
+-- 
+-- //Asking of the riddles, detection of the answer further down make sure that
+-- //if riddle has already been asked, it does not get asked again
+-- 
+-- function Riddle1(){
+-- if(Riddle1Answered){
+-- RiddleGet();}
+-- if (!Riddle1Answered){say2
+-- He who makes it, does not need it#b
+-- He who buys it, will not use it#b
+-- He who uses it, will not know#b
+-- of it;
+-- set Riddle1Asked;
+-- set RiddleInProgress;}
+-- }
+-- 
+-- function Riddle2(){
+-- if(Riddle2Answered){
+-- RiddleGet();}
+-- if (!Riddle2Answered){say2
+-- Sir. I bear a rhyme excelling#b
+-- In mystic force and magic
+-- spelling#b
+-- Celestial sprites elucidate#b
+-- All my own striving can't#b
+-- relate;
+-- set Riddle2Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle3(){
+-- if(Riddle3Answered){
+-- RiddleGet();}
+-- if (!Riddle3Answered){say2
+-- Give me food and I will live#b
+-- Give me water I will die;
+-- set Riddle3Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle4(){
+-- if(Riddle4Answered){
+-- RiddleGet();}
+-- if (!Riddle4Answered){say2
+-- Walk on the living,#b
+-- they don't even mumble.#b
+-- Walk on the dead,#b
+-- They mutter and grumble;
+-- set Riddle4Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle5(){
+-- if(Riddle5Answered){
+-- RiddleGet();}
+-- if (!Riddle5Answered){say2
+-- At night they come#b
+-- without being fetched.#b
+-- By day they are lost#b
+-- without being stolen.#b;
+-- set Riddle5Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle6(){
+-- if(Riddle6Answered){
+-- RiddleGet();}
+-- if (!Riddle6Answered){say2
+-- I never was, am always to be,#b
+-- No one ever saw me, or ever will.#b
+-- Yet i am the confidence of all,#b
+-- To live and breathe on this#b
+-- terrestrial ball.;
+-- set Riddle6Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle7(){
+-- if(Riddle7Answered){
+-- RiddleGet();}
+-- if (!Riddle7Answered){say2
+-- Runs over fields and woods all day#b
+-- Under the bed at night it sits not#b
+-- alone#b
+-- With long tongue hanging out#b
+-- A-waiting for a bone;
+-- set Riddle7Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle8(){
+-- if(Riddle8Answered){
+-- RiddleGet();}
+-- if (!Riddle8Answered){say2
+-- The begining of eternity#b
+-- The end of time and space#b
+-- The beginning of every end#b
+-- And the end of every place;
+-- set Riddle8Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle9(){
+-- if(Riddle9Answered){
+-- RiddleGet();}
+-- if (!Riddle9Answered){say2
+-- The more I dry#b
+-- The wetter I get;
+-- set Riddle9Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle10(){
+-- if(Riddle10Answered){
+-- RiddleGet();}
+-- if (!Riddle10Answered){say2
+-- The more you take#b
+-- The more you leave behind;
+-- set Riddle10Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle11(){
+-- if(Riddle11Answered){
+-- RiddleGet();}
+-- if (!Riddle11Answered){say2
+-- I have a barrel without any beer#b
+-- My sight is advanced yet I have#b
+-- no eyes#b
+-- I have many chambers but none are#b
+-- home;
+-- set Riddle11Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle12(){
+-- if(Riddle12Answered){
+-- RiddleGet();}
+-- if (!Riddle12Answered){say2
+-- I have no head but I wear a cap#b
+-- I have no feet, but stand up#b
+-- straight;
+-- set Riddle12Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle13(){
+-- if(Riddle13Answered){
+-- RiddleGet();}
+-- if (!Riddle13Answered){say2
+-- I do not breathe, but I run and jump#b
+-- I do not eat, but I swim and stretch#b
+-- I do not drink, but I sleep and stand#b
+-- I do not think, but I grow and play#b
+-- I do not see but you see me everyday;
+-- set Riddle13Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle14(){
+-- if(Riddle14Answered){
+-- RiddleGet();}
+-- if (!Riddle14Answered){say2
+-- I welcome the day with a show of#b
+-- light#b
+-- I stealthily came here in the night#b
+-- I bathe the earthy stuff at dawn#b
+-- But by the noon, alas I'm gone#b;
+-- set Riddle14Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle15(){
+-- if(Riddle15Answered){
+-- RiddleGet();}
+-- if (!Riddle15Answered){say2
+-- Three lives have I.#b
+-- Gentle enough to soothe the skin.#b
+-- Light enough to caress the sky.#b
+-- Hard enough to crack rocks.#b;
+-- set Riddle15Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle16(){
+-- if(Riddle16Answered){
+-- RiddleGet();}
+-- if (!Riddle16Answered){say2
+-- Each morning I appear#b
+-- To lie at your feet#b
+-- All day I will follow#b
+-- No matter how fast you run#b
+-- yet I near perish#b
+-- In the midday sun;
+-- set Riddle16Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle17(){
+-- if(Riddle17Answered){
+-- RiddleGet();}
+-- if (!Riddle17Answered){say2
+-- Until I am measured I am not#b
+-- known#b
+-- Yet how you miss me when I have#b
+-- flown;
+-- set Riddle17Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle18(){
+-- if(Riddle18Answered){
+-- RiddleGet();}
+-- if (!Riddle18Answered){say2
+-- I know a word of letters three#b
+-- Add two and fewer there will be;
+-- set Riddle18Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle19(){
+-- if(Riddle19Answered){
+-- RiddleGet();}
+-- if (!Riddle19Answered){say2
+-- Though it is not an Ox#b
+-- It has horns#b
+-- Though it is not an ass#b
+-- it has a packsaddle#b
+-- Wherever it goes it leaves silver#b
+-- behind#b;
+-- set Riddle19Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- function Riddle20(){
+-- if(Riddle20Answered){
+-- RiddleGet();}
+-- if (!Riddle20Answered){say2
+-- As round as a dishpan#b
+-- As deep as a tub#b
+-- Still the oceans,#b
+-- can't fill it up;
+-- set Riddle20Asked;
+-- set RiddleInProgress;}
+-- 
+-- }
+-- 
+-- //answer detection
+-- 
+-- if (playerchats && RiddleInProgress){CorrectAnswer();}
+-- function CorrectAnswer(){
+-- 
+-- if (Riddle1Asked && strequals(#c,coffin)) {set Riddle1Answered;
+-- say2 Correct!;
+-- unset Riddle1Asked;
+-- set Riddle1Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle2Asked && strequals(#c,pi)) {set Riddle2Answered;
+-- say2 Correct!;
+-- unset Riddle2Asked;
+-- set Riddle2Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle3Asked && strequals(#c,fire)) {set Riddle3Answered;
+-- say2 Correct!;
+-- unset Riddle3Asked;
+-- set Riddle3Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle4Asked && strequals(#c,leaves)) {set Riddle4Answered;
+-- say2 Correct!;
+-- unset Riddle4Asked;
+-- set Riddle4Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle5Asked && strequals(#c,stars)) {set Riddle5Answered;
+-- say2 Correct!;
+-- unset Riddle5Asked;
+-- set Riddle5Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle6Asked && strequals(#c,tomorrow)) {set Riddle6Answered;
+-- say2 Correct!;
+-- unset Riddle6Asked;
+-- set Riddle6Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle7Asked && strequals(#c,shoe)) {set Riddle7Answered;
+-- say2 Correct!;
+-- unset Riddle7Asked;
+-- set Riddle7Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle8Asked && strequals(#c,e)) {set Riddle8Answered;
+-- say2 Correct!;
+-- unset Riddle8Asked;
+-- set Riddle8Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle9Asked && strequals(#c,towel)) {set Riddle9Answered;
+-- say2 Correct!;
+-- unset Riddle9Asked;
+-- set Riddle9Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle10Asked && strequals(#c,footsteps)) {set Riddle10Answered;
+-- say2 Correct!;
+-- unset Riddle10Asked;
+-- set Riddle10Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle11Asked && strequals(#c,gun)) {set Riddle11Answered;
+-- say2 Correct!;
+-- unset Riddle11Asked;
+-- set Riddle11Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle12Asked && strequals(#c,mushroom)) {set Riddle12Answered;
+-- say2 Correct!;
+-- unset Riddle12Asked;
+-- set Riddle12Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle13Asked && strequals(#c,leg)) {set Riddle13Answered;
+-- say2 Correct!;
+-- unset Riddle13Asked;
+-- set Riddle13Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle14Asked && strequals(#c,dew)) {set Riddle14Answered;
+-- say2 Correct!;
+-- unset Riddle14Asked;
+-- set Riddle14Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle15Asked && strequals(#c,water)) {set Riddle15Answered;
+-- say2 Correct!;
+-- unset Riddle15Asked;
+-- set Riddle15Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle16Asked && strequals(#c,shadow)) {set Riddle16Answered;
+-- say2 Correct!;
+-- unset Riddle16Asked;
+-- set Riddle16Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle17Asked && strequals(#c,time)) {set Riddle17Answered;
+-- say2 Correct!;
+-- unset Riddle17Asked;
+-- set Riddle17Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle18Asked && strequals(#c,few)) {set Riddle18Answered;
+-- say2 Correct!;
+-- unset Riddle18Asked;
+-- set Riddle18Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle19Asked && strequals(#c,snail)) {set Riddle19Answered;
+-- say2 Correct!;
+-- unset Riddle19Asked;
+-- set Riddle19Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- else if (Riddle20Asked && strequals(#c,sieve)) {set Riddle20Answered;
+-- say2 Correct!;
+-- unset Riddle20Asked;
+-- set Riddle20Answered;
+-- unset RiddleInProgress;
+-- setstring client.Answers,#v(strtofloat(#s(client.Answers))+1);
+-- AnsweredRiddles();}
+-- 
+-- //Add the pain!
+-- if (Riddle1Asked && !strequals(#c,coffin)){clientr.stat_hp --;}
+-- if (Riddle2Asked && !strequals(#c,pi)){clientr.stat_hp --;}
+-- if (Riddle3Asked && !strequals(#c,fire)){clientr.stat_hp --;}
+-- if (Riddle4Asked && !strequals(#c,leaves)){clientr.stat_hp --;}
+-- if (Riddle5Asked && !strequals(#c,stars)){clientr.stat_hp --;}
+-- if (Riddle6Asked && !strequals(#c,tomorrow)){clientr.stat_hp --;}
+-- if (Riddle7Asked && !strequals(#c,shoe)){clientr.stat_hp --;}
+-- if (Riddle8Asked && !strequals(#c,e)){clientr.stat_hp --;}
+-- if (Riddle9Asked && !strequals(#c,towel)){clientr.stat_hp --;}
+-- if (Riddle10Asked && !strequals(#c,footsteps)){clientr.stat_hp --;}
+-- if (Riddle11Asked && !strequals(#c,gun)){clientr.stat_hp --;}
+-- if (Riddle12Asked && !strequals(#c,mushroom)){clientr.stat_hp --;}
+-- if (Riddle13Asked && !strequals(#c,leg)){clientr.stat_hp --;}
+-- if (Riddle14Asked && !strequals(#c,dew)){clientr.stat_hp --;}
+-- if (Riddle15Asked && !strequals(#c,water)){clientr.stat_hp --;}
+-- if (Riddle16Asked && !strequals(#c,shadow)){clientr.stat_hp --;}
+-- if (Riddle17Asked && !strequals(#c,time)){clientr.stat_hp --;}
+-- if (Riddle18Asked && !strequals(#c,few)){clientr.stat_hp --;}
+-- if (Riddle19Asked && !strequals(#c,snail)){clientr.stat_hp --;}
+-- if (Riddle20Asked && !strequals(#c,sieve)){clientr.stat_hp --;}
+-- 
+-- }]]></property>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

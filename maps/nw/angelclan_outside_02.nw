@@ -1,0 +1,258 @@
+GLEVNW01
+BOARD 0 0 64 0 ARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgA4A5A6A7A8A9A+A/ARBgARBgARBgARQNQOQPYAQdQeQdQeYBYCYBYCYDYEYFYGAR
+BOARD 0 1 64 0 AgBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwBIBJBKBLBMBNBOBPAhBwAhBwAhBwAhQNQOQPYAQdQeQfYQYRYSYBYCYDYEYFYGAg
+BOARD 0 2 64 0 ARSvagSvagSvagf/KlKmVgVhViVjVjVjVjVjVjVlVmVnP/f/f/AJAKALAMANAOf/BYBZBaBbBcBdBeBff/KlKmKlKmKlKmQNQOQPYAQdQuQvYgYhYiYTYCYDYEYFYGAR
+BOARD 0 3 64 0 AgS/awS/awS/awf/K1K2VwVxVyV0V0V0V0V0V0V1VxWRByf/AYAZAaAbAcAdAeAfBoBpBqBrBsBtBuBvf/K1K2K1K2K1K2QNQOQPYAQ9Q+Q/YwYxYyYjYkYDYEYFYGAg
+BOARD 0 4 64 0 ARTPbATPbATPbAf/KlKmVwVxVyV0V0V0V0V0V0V1VxWRCCf/AoApAqArAsAtAuAvB4B5B6B7B8B9B+B/f/KlKmKlKmKlKmQNQOQsQ7RNRORPZAZAZCYzY0YVQtYFYGAR
+BOARD 0 5 64 0 AgKlKmKlKmKlKmf/K1K2VwVxVyV0V0V0V0V0V0V1VxWRCCf/A4A5A6A7A8A9A+A/f/CJCKCLCMCNCOKlKmK1K2K1K2K1K2Q6Q7Q8RLRdReRfZQZRZSZDZEYlYUYVYWAg
+BOARD 0 6 64 0 ARK1K2K1K2K1K2f/KlKmVwWBWCWDWDWDWDWDWDV2WAWRCCf/BIBJBKBLBMBNBOBPf/f/CaCbCcCdf/K1K2KlKmKlKmKlKmRKRLRMIdRtRuRvZgZhZiZTZUIdZBYlYmAR
+BOARD 0 7 64 0 AgSvagSvagSvagf/K1K2VwWSVxVxVxVxVxVxVxVxWQWRCCf/BYBZBaBbBcBdBeBff/f/f/f/f/f/f/f/f/K1K2K1K2K1K2RaRbRcSMR9R+wLwLwLwLZjZkRbRcSMY1Ag
+BOARD 0 8 64 0 ARS/awS/awS/awf/KlKmVQWiVxVxWEWFWGWHVxVxWgWhCCf/BoBpBqBrBsBtBuBvAAAQABf/f/f/f/f/f/f/f/KlKmKlKmRqRrRsScSNSOItItItItSNSORrRsScZFAR
+BOARD 0 9 64 0 AgTPbATPbATPbAf/K1K2CQCRCRCRB0B1B2B3CRCRCRBzCCf/B4B5B6B7B8B9B+B/f/AAg1f/f/f/f/f/f/AAg2K1K2K1K2R6R7R8SsSdSeSfaQaRSfSdSeR7R8SsZVAg
+BOARD 0 10 64 0 ARKlKmKlKmKlKmf/KlKmCgChCiCjCEwLwLCHChCiCjCDCCf/f/CJCKCLCMCNCOf/f/f/f/f/KpKqf/f/f/f/f/f/f/KlKmKlKmKlKmStSuSfaQaRSfStSuKlKmKlKmAR
+BOARD 0 11 64 0 AgK1K2K1K2K1K2f/K1K2CwCxCyCzCUItItCXCxCyCzCTCSf/f/f/CaCbCcCdABf/f/f/f/f/K5K6f/f/ABf/f/f/f/K1K2K1K2K1K2AAf/AwAxAwAxf/ABK1K2K1K2Ag
+BOARD 0 12 64 0 ARIAIBf/f/f/f/f/f/f/P/P/P/P/BEAwAxBEP/P/P/P/P/f/f/f/f/f/AAg3f/f/f/f/LILJLKLJLKKrf/f/f/f/f/f/f/f/f/IAIBf/AwAxAwAxAwAxf/KlKmKlKmAR
+BOARD 0 13 64 0 AhIQIRf/f/f/P/P/f/f/P/P/P/P/AwAxAwAxP/IAIBP/P/f/f/f/f/f/f/f/f/f/KpKqLYLZLaLZLaK7KpKqf/f/f/f/f/f/f/IQIRAwAxAwAxAwAxf/f/K1K2K1K2Ag
+BOARD 0 14 64 0 f/f/f/f/f/f/AAABf/f/f/f/f/AwAxAwAxf/f/IQIRf/f/f/f/f/f/f/f/f/f/f/K5K6LYLZLaLZLaK7K5K6f/f/f/f/f/f/f/AwAxAwAxAwAxf/f/f/f/f/f/KlKmAR
+BOARD 0 15 64 0 f/f/f/f/f/f/ABAAABAAf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/LoLpLqLpLqLLf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ABf/f/ABK1K2Ag
+BOARD 0 16 64 0 f/f/f/f/f/f/f/f/f/P/P/P/P/f/f/f/f/f/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KpKqf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AQf/f/KlKmAR
+BOARD 0 17 64 0 f/f/Kof/f/f/f/f/f/P/P/P/P/ABg3f/f/f/f/f/f/f/f/f/f/P/P/P/g1f/f/f/f/f/f/f/K5K6f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/K1K2Ag
+BOARD 0 18 64 0 f/f/f/f/f/f/f/f/f/ABAAP/f/f/f/f/f/f/f/P/P/P/AAABP/P/P/P/ABf/f/f/f/f/f/f/f/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KlKmAR
+BOARD 0 19 64 0 f/f/f/f/f/f/f/f/f/P/P/P/f/g3P/f/f/ABAAP/P/P/P/AAABP/P/P/P/f/f/f/f/f/f/f/f/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/K1K2Ag
+BOARD 0 20 64 0 f/f/f/f/f/f/f/f/f/P/P/P/P/f/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/f/f/f/f/f/f/f/f/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KlKmAR
+BOARD 0 21 64 0 f/f/f/f/f/f/f/f/f/P/g1P/P/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/K1K2Ag
+BOARD 0 22 64 0 f/f/f/f/f/f/f/f/f/P/ABP/P/P/f/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/P/P/P/P/ABg3f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KpKqf/f/f/f/f/AR
+BOARD 0 23 64 0 f/f/f/f/f/f/f/f/f/P/P/P/AAABP/P/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/P/P/P/g1ABP/f/f/f/f/f/ABf/AQABABf/f/f/f/f/f/f/f/K5K6f/f/ABf/f/Ag
+BOARD 0 24 64 0 f/f/f/f/f/f/f/f/f/P/P/P/P/P/P/P/P/P/P/P/P/P/ABAAP/P/P/P/P/AAABP/P/P/P/ABg3P/f/f/f/f/f/f/AQf/f/f/f/f/f/f/f/f/LILJLKLJLKKrf/f/f/AR
+BOARD 0 25 64 0 f/f/f/f/f/f/AAABf/P/P/P/P/P/f/f/f/f/P/AAABP/P/P/P/P/P/P/P/P/AAABP/P/P/P/P/P/f/f/f/f/f/f/f/f/AAf/f/f/f/f/KpKqLYLZLaLZLaK7KpKqf/Ag
+BOARD 0 26 64 0 ARf/f/f/f/f/f/f/f/P/P/P/P/AAf/f/f/f/P/ABAAP/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/f/f/f/f/f/f/f/f/f/AAg1f/f/f/K5K6LYLZLaLZLaK7K5K6f/AR
+BOARD 0 27 64 0 Agf/f/f/f/f/f/f/f/P/P/P/P/P/f/f/f/f/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/LoLpLqLpLqLLf/f/f/Ag
+BOARD 0 28 64 0 ARP/SBSCSDSESFSGP/P/P/AAABP/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/AAABP/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KpKqf/f/f/f/f/AR
+BOARD 0 29 64 0 AgSQSRSSSTSUSVSWSXP/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/K5K6f/f/f/f/f/Ag
+BOARD 0 30 64 0 ARSgShSiSjSkSlSmSnAABABBBCBDBDBDBDBDBDBFBGBHH/f/g1ABP/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 31 64 0 AgSwSxSySzS0S1S2S3f/BQBRBSBUBUBUBUBUBUBVBRBXByf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 32 64 0 ARTATBTCTDTETFTGTHf/BQBRBSBUBUBUBUBUBUBVBRBXCCf/f/f/f/f/f/f/f/f/f/P/f/f/f/f/f/f/f/f/IOIPf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 33 64 0 AgTQTRTSTTTUTVTWTXf/BQBRBSBUBUBUBUBUBUBVBRBXCCf/f/f/f/f/f/f/f/f/f/ABf/f/f/f/f/f/f/f/IeIff/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 34 64 0 ARBoThTiTjTkTlTmBvf/BQBRBSBUBUBUBUBUBUBVBRBXCCf/f/f/f/f/P/P/P/P/ABg3f/f/f/WyWzWzWzC5C5C6WzWzWzWzWzWzWzWzWzWzWzWzWzWzWzW0f/f/f/AR
+BOARD 0 35 64 0 AgB4B5B6W1W2B9B+B/f/BQBRBSBUBUBUBUBUBUBVBRBXCCf/f/f/f/f/P/P/P/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/Ag
+BOARD 0 36 64 0 ARP/CJCKCLCMCNCOAAf/BQBRBSBUBUBUBUBUBUBVBRBXCCf/f/f/ABP/P/P/P/ABg3P/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/AR
+BOARD 0 37 64 0 AgP/P/CaCbCcCdf/f/f/BQBRBSBUBUBUBUBUBUBVBRBXCCf/f/f/AAABP/P/P/P/P/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/Ag
+BOARD 0 38 64 0 ARf/f/f/f/f/f/f/f/ABBQBRBSBUBUBUBUBUBUBVBRBXCCf/f/f/P/P/P/P/P/P/P/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/AR
+BOARD 0 39 64 0 Agf/AAf/f/f/f/f/f/f/BQBRBSBUBUBUBUBUBUBVBRBXCCf/f/f/P/P/P/P/P/P/P/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/Ag
+BOARD 0 40 64 0 ARf/P/SBSCSDSESFSGP/BQBRBSBUBUBUBUBUBUBVBRBXCCf/f/f/P/P/P/P/AAABP/P/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/AR
+BOARD 0 41 64 0 Agf/SQSRSSSTSUSVSWSXBQBRBSBUBUBUBUBUBUBVBRBXCCf/f/f/f/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/Ag
+BOARD 0 42 64 0 ARf/SgShSiSjSkSlSmSnBQBhBiBjBjBjBjBjBjBWCkClCCf/f/f/f/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/g1AR
+BOARD 0 43 64 0 Agf/SwSxSySzS0S1S2S3BQBxBRBRBRBRBRBRBRBRC0ClCCf/f/f/f/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEAAABf/Ag
+BOARD 0 44 64 0 ARf/TATBTCTDTETFTGTHCACBBRBRBkBlBmBnBRBRDEDFCCf/f/f/f/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEP/AAf/AR
+BOARD 0 45 64 0 Agf/TQTRTSTTTUTVTWTXCQCRCRCRB0B1B2B3CRCRCRBzCCf/ABf/f/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/Ag
+BOARD 0 46 64 0 ARAABoThTiTjTkTlTmBvCgChCiCjCEwLwLCHChCiCjCDCCf/f/f/f/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/AR
+BOARD 0 47 64 0 Agf/B4B5B6W1W2B9B+B/CwCxCyCzCUItItCXCxCyCzCTCSf/P/P/AAf/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/Ag
+BOARD 0 48 64 0 ARABP/CJCKCLCMCNCOf/KlKmKlKmBEAwAxBEKlKmKlKmf/f/P/P/P/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/AR
+BOARD 0 49 64 0 Agf/ABP/CaCbCcCdf/f/K1K2K1K2AwAxAwAxK1K2K1K2f/f/P/P/P/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/Ag
+BOARD 0 50 64 0 ARf/f/f/f/f/f/f/f/f/f/f/f/f/f/AwAxAwAxf/f/f/f/AAf/f/f/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/AR
+BOARD 0 51 64 0 Agf/f/f/f/f/f/f/f/f/f/f/f/f/AAf/AwAxAwAxf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/Ag
+BOARD 0 52 64 0 ARf/f/f/f/f/KpKqf/f/f/f/f/f/f/AwAxAwAxf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/AR
+BOARD 0 53 64 0 Agf/f/f/f/f/K5K6f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/P/P/ABAAP/P/P/P/P/AAABf/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/Ag
+BOARD 0 54 64 0 ARf/f/f/LILJLKLJLKKrf/f/f/f/f/f/f/f/f/f/f/f/f/f/ABP/P/P/P/P/P/P/P/P/AAf/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/AR
+BOARD 0 55 64 0 Agf/f/f/LYLZLaLZLaK7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/XCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/Ag
+BOARD 0 56 64 0 ARf/f/f/LYLZLaLZLaK7f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/cKcLXCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCXEf/f/f/AR
+BOARD 0 57 64 0 Agf/f/f/LoLpLqLpLqLLf/f/f/f/f/f/f/f/f/f/P/P/P/g1f/f/f/f/f/f/g1f/f/f/f/cacbXSZqSfaQaRSfZKXTXTXTXTXTXTXTXTXTXTXTXTXTXTXTXUf/f/f/Ag
+BOARD 0 58 64 0 ARf/f/f/f/f/KpKqf/f/f/f/f/f/f/f/f/f/ABP/P/P/P/ABf/f/f/f/f/f/f/f/f/f/f/f/f/f/ZqSfaQaRSfZKf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 59 64 0 Agf/f/f/f/f/K5K6f/f/f/f/f/f/f/f/f/f/AAABP/P/P/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 60 64 0 ARf/f/f/f/f/f/f/f/AAf/f/f/f/f/f/f/f/P/P/P/P/P/P/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/P/AAf/f/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 61 64 0 Agf/f/f/f/f/f/f/f/f/f/ABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 62 64 0 ARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARAR
+BOARD 0 63 64 0 AhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhAh
+LINK angelclan_outside_01.nw 0 14 1 12 61 playery
+LINK angelclan_inside_05.nw 53 6 4 1 27.5 58
+LINK angelclan_inside_06.nw 15 45 2 1 29.5 43
+LINK angelclan_inside_03.nw 15 9 2 1 26.5 24
+SIGN 49 13
+
+      Cathedral of the 5 Gods
+SIGNEND
+SIGN 1 13
+#r Cathedal
+#d Mandi's Fashion Store
+SIGNEND
+SIGN 35 57
+
+            Swimming Pool
+
+Ah... its always fun to take a 
+swim. Perhaps you should host 
+a pool party?
+SIGNEND
+SIGN 19 14
+
+              Tori's House
+SIGNEND
+NPC divingboard.png 41 29
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC door.png 15 10
+join door;
+NPCEND
+NPC door.png 15 46
+join door;
+NPCEND
+NPC door1.png 53 7
+join door;
+NPCEND
+NPC - 1 13
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,#r Cathedal#b
+#d Mandi's Fashion Store;
+NPCEND
+NPC - 19 14
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,#b
+              Tori's House;
+NPCEND
+NPC - 49 13
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,#b
+      Cathedral of the 5 Gods;
+NPCEND
+NPC - 35 56
+join sign_liftable;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,#b
+            Swimming Pool#b
+#b
+Ah... its always fun to take a #b
+swim. Perhaps you should host #b
+a pool party?;
+NPCEND
+NPC - 20 48
+join bush_nodrop;
+NPCEND
+NPC - 18 48
+join bush_nodrop;
+NPCEND
+NPC - 12 48
+join bush_nodrop;
+NPCEND
+NPC - 10 48
+join bush_nodrop;
+NPCEND
+NPC - 1 5
+join bush_nodrop;
+NPCEND
+NPC - 3 5
+join bush_nodrop;
+NPCEND
+NPC - 5 5
+join bush_nodrop;
+NPCEND
+NPC - 1 10
+join bush_nodrop;
+NPCEND
+NPC - 3 10
+join bush_nodrop;
+NPCEND
+NPC - 5 10
+join bush_nodrop;
+NPCEND
+NPC - 8 2
+join bush_nodrop;
+NPCEND
+NPC - 8 4
+join bush_nodrop;
+NPCEND
+NPC - 8 6
+join bush_nodrop;
+NPCEND
+NPC - 8 8
+join bush_nodrop;
+NPCEND
+NPC - 8 10
+join bush_nodrop;
+NPCEND
+NPC - 49 10
+join bush_nodrop;
+NPCEND
+NPC - 47 10
+join bush_nodrop;
+NPCEND
+NPC - 45 10
+join bush_nodrop;
+NPCEND
+NPC - 45 8
+join bush_nodrop;
+NPCEND
+NPC - 43 8
+join bush_nodrop;
+NPCEND
+NPC - 45 6
+join bush_nodrop;
+NPCEND
+NPC - 45 4
+join bush_nodrop;
+NPCEND
+NPC - 45 2
+join bush_nodrop;
+NPCEND
+NPC - 43 2
+join bush_nodrop;
+NPCEND
+NPC - 43 4
+join bush_nodrop;
+NPCEND
+NPC - 43 6
+join bush_nodrop;
+NPCEND
+NPC - 41 6
+join bush_nodrop;
+NPCEND
+NPC - 41 4
+join bush_nodrop;
+NPCEND
+NPC - 41 2
+join bush_nodrop;
+NPCEND
+NPC - 39 5
+join bush_nodrop;
+NPCEND
+NPC - 61 10
+join bush_nodrop;
+NPCEND
+NPC - 59 10
+join bush_nodrop;
+NPCEND
+NPC - 61 12
+join bush_nodrop;
+NPCEND
+NPC - 59 12
+join bush_nodrop;
+NPCEND
+NPC - 61 14
+join bush_nodrop;
+NPCEND
+NPC - 61 16
+join bush_nodrop;
+NPCEND
+NPC - 61 18
+join bush_nodrop;
+NPCEND
+NPC - 61 20
+join bush_nodrop;
+NPCEND
+NPC - 27 7
+
+join("control_midi");
+//#CLIENTSIDE
+function onCreated(){
+this.midi = "stef28.mid";
+}
+NPCEND

@@ -1,0 +1,337 @@
+GLEVNW01
+BOARD 0 0 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 1 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 2 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 3 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 4 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 5 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 6 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 7 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 8 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 9 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 10 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 11 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 12 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 13 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 14 64 0 kmkmlAlUlUlUlUlUlUlUlUlUlUlUlUlUzDzElUlUlUlUlUlUlUlUzDzElUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlBkmkmkm
+BOARD 0 15 64 0 kmkmlElglllklllklllklllklllklllkw0wzlllklllklllklllkw0wzlllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllhlFkmkmkm
+BOARD 0 16 64 0 kmkmlEl0mAmlmkmlmkmlmkmlmkmlmkmlw3w4mkmlmkmlmkmlmkmlw3w4mkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmBmFlFkmkmkm
+BOARD 0 17 64 0 kmkmlEmEm0mglHlGlHlGlHlGlHlGlHlGw3w4lGmhp4p4p4p4mglHw3w4lGlHlGlGlHlGlHhshththulGlHlGlHcFcGcGcGcGcGcGcHlGlHlGlHlGlHmhm1l1lFkmkmkm
+BOARD 0 18 64 0 kmkmlEl0nElWnAmWmWmWmWmWmWmWnBsnxBxCwjlXp4p4p4p4lWsnxBxCwjnAmWmWmWmWmWiKiLiLiMmWmWmWmWcVcWcWcWcWcWcWcXmWmWmWmWmWnBlXnFmFlFkmkmkm
+BOARD 0 19 64 0 kmkmlEmEm0lmmGngmWmWmWmWmWnhmHsJwpwqvNirmkmlmkmlirsJwpwqvNmGnAmWmWmWmWiaibibicmWmWmWmWclcmcmdHcmdHcmcnmWmWmWmWnhmHlnm1l1lFkmkmkm
+BOARD 0 20 64 0 kmkmlEl0nElWmGmGNkLmLmNkLmmHmHsZtCtSvdjLP6P7P8P9jLsZtCtSvdmGmGLmNlLmLmLmLmLmLmLmLmNkLmc1c2c2c2c2c2c2c3LmNlLmNlmHmHlXnFmFlFkmkmkm
+BOARD 0 21 64 0 kmkmlEmEm0lmmGmGLbp4p4Lbk2mHmHsJtCtCvNjbPYIdIdPZjbsJtCtCvNmGmGk2L6p4p4p4p4p4p4p4p4LbnInZnYnJnYnZnInZnYnJL6p4L6mHmHlnm1l1lFkmkmkm
+BOARD 0 22 64 0 kmkmlEl0nElWmGmGLbp4p4Lbk2mHmHsZtDtEvdk4LgLhLiLjk4sZtDtEvdmGmGk2L6p4p4p4p4p4p4p4p4LbnZnInJnYnJnInZnInJnYL6u2L6mHmHlXnFmFlFkmkmkm
+BOARD 0 23 64 0 kmkmlEmEm0lmmGmGLbp4p4Lbk2mHmHsysOsPzIk4LwLxLyLzk4sysOsPzImGmGk2L6p4p4p4p4p4p4p4p4LbnJnYnZnInZnYnJnYnZnIL6vGL6mHmHlnm1l1lFkmkmkm
+BOARD 0 24 64 0 kmkmlEl0nElWmGmGLbp4p4Lbk2mHnDmWmWmWmWk46/ipiq6/k4mWmWmWmWnCmGk2L6p4p4p4p4p4p4p4p4LbnYnJLILJLKLJLKKrnInZL6uOL6mHmHlXnFmFlFkmkmkm
+BOARD 0 25 64 0 kmkmlEmEm0lmmGmGLbvXp4Lbk2njmWnhp4p4p4ir7Pi5i67Pirp4p4p4nAmWnCk2L6p4p4p4p4p4p4p4u2LbnJnYLYLZLaLZLaK7nZnIL6uOL6mHmHlnm1l1lFkmkmkm
+BOARD 0 26 64 0 kmkmlEl0nElWmGmGLbvnvFLbk2k2k2mHp4p4p4jL7fjJjK7fjLp4p4p4mGk2k2k2L6p4p4p4p4p4u2vEvGLbnZnILYLZLaLZLaK7nJnYL6v3L6mHmHlXnFmFlFkmkmkm
+BOARD 0 27 64 0 kmkmlEmEm0lmmGmGLbuOuOLbcdcdk2njmWmWmWjb7vjZja7vjbmWmWmWnik2cdcdL6vFvFvXp4u2vGuOv1LbnInZLYLZLaLZLaK7nYnJL6p4L6mHmHlnm1l1lFkmkmkm
+BOARD 0 28 64 0 kmkmlEl0nElWmGmGLbv1uOLbcdcdk2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2cdcdL6uOuOvnvEvGuOuOuOLbnZnILoLpLqLpLqLLnJnYL6p4L6mHmHlXnFmFlFkmkmkm
+BOARD 0 29 64 0 kmkmlEmEm0lmmGmGLbuWuOLbcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdL6uOuOv1uOv1uOu3v3LbnJnYnZnIKpKqnJnYnZnIL6p4L6mHmHlnm1l1lFkmkmkm
+BOARD 0 30 64 0 kmkmlEl0nElWmGmGLbumv3LbcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdL6v1uOuOuOuOuOvnvELbnYnJnInZK5K6nYnJnInZL6p4L6mHmHlXnFmFlFkmkmkm
+BOARD 0 31 64 0 kmkmlEmEm0lmmGmGLbp4p4LbcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdL6v3uWuOuOuOv1uOuOLbnJnYnZnInZnYnJnYnZnIL6p4L6mHmHlnm1l1lFkmkmkm
+BOARD 0 32 64 0 kmkmlEl0nElWmGmGLbp4p4LbcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdL6p4umv2v3uWuOuOuOLbnZnInJnYnJnInZnInJnYL6p4L6mHmHlXnFmFlFkmkmkm
+BOARD 0 33 64 0 kmkmlEmEm0lmmGmGLbp4p4LbcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdL6p4p4p4p4umv2v2v3LbnInZnYnJnYnZnInZnYnJL6p4L6mHmHlnm1l1lFkmkmkm
+BOARD 0 34 64 0 kmkmlEl0nElWmGmGLbp4p4N0M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/N1p4p4p4p4p4p4p4p4N0M/M/M/M/M/M/M/M/M/M/N1p4L6mHmHlXnFmFlFkmkmkm
+BOARD 0 35 64 0 kmkmlEmEm0lmmGmGLbp4p4p4vUuOuOu7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4vUuOuOu7p4p4L6mHmHlnm1l1lFkmkmkm
+BOARD 0 36 64 0 kmkmlEl0nElWmGmGLbp4u2vEvGuOu3vHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4umuWuOvnvXp4L6mHmHlXnFmFlFkmkmkm
+BOARD 0 37 64 0 kmkmlEmEm0lmmGmGLbu2vGuOuOuOu7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4vUuOuOvnvXL6mHmHlnm1l1lFkmkmkm
+BOARD 0 38 64 0 kmkmlEl0nElWmGmGLbvUuOuOuOu3vHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4vUuOuOuOu7L6mHmHlXnFmFlFkmkmkm
+BOARD 0 39 64 0 kmkmlEmEm0lmmGmGLbumuWuOuOu7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4umuWuOuOu7L6mHmHlnm1l1lFkmkmkm
+BOARD 0 40 64 0 kmkmlEl0nElWmGmGLbp4vUuOu3vHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4vUuOu3vHL6mHmHlXnFmFlFkmkmkm
+BOARD 0 41 64 0 kmkmlEmEm0lmmGmGN0M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/N1mHmHlnm1l1lFkmkmkm
+BOARD 0 42 64 0 kmkmlEl0nElWmGnwmXmXmXmXmXmXmXmXmXmXiIkpkpiJmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXiIkpkpiJmXmXmXmXmXmXmXmXmXmXmXnxmHlXnFmFlFkmkmkm
+BOARD 0 43 64 0 kmkmlEmEm0lmnQmXmXmXmXmXmXmXmXmXmXmXiYk5k5iZmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXiYk5k5iZmXmXmXmXmXmXmXmXmXmXmXmXnRlnm1l1lFkmkmkm
+BOARD 0 44 64 0 kmkmlEl0nEmwl3l2l3l2l3l2l3l2l3l2l3l2h8h8h9h+l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2h8h8h9h+l3l2l3l2l3l2l3l2l3l2l3l2l3mxnFmFlFkmkmkm
+BOARD 0 45 64 0 kmkmlEmEmQnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVmRl1lFkmkmkm
+BOARD 0 46 64 0 kmkmlElwmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVlxlFkmkmkm
+BOARD 0 47 64 0 kmkmlQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlRkmkmkm
+BOARD 0 48 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 49 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 50 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 51 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 52 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 53 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 54 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 55 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 56 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 57 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 58 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 59 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 60 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 61 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 62 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 63 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+LINK guildbrotherhood_inside_06.nw 36 17 2 1 32.5 44
+LINK guildbrotherhood_inside_trainer_01.nw 19 44 2 1 35.5 18
+LINK guildbrotherhood_inside_trainer_02.nw 41 44 2 1 33.5 6.5
+SIGN 46 28
+A book open on a page 
+showing battle strategies 
+and sword fighting techniques,
+It looks like this book has 
+been well used.
+SIGNEND
+SIGN 44 20
+The Honour Code of Sparring
+1) Always respect your 
+opponent
+2) Always wait for 
+the signal to start
+SIGNEND
+SIGN 46 20
+3) Dont use NPC's during 
+the battle unless you have 
+both agreed at the start
+4) Never pause during a spar 
+if you have something to
+say wait till the end
+SIGNEND
+SIGN 48 20
+5) Never ever complain about 
+lag. There is always lag, 
+live with it
+It is not an excuse for you 
+losing, PRACTICE.
+SIGNEND
+NPC - 20 21
+//NPC by Strife Darkwrath (Brotherhood)
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head71.png;
+  setcharprop #C0,brown;
+  setcharprop #C1,yellow;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,strife-shield.png;
+  setcharprop #8,body10.png;
+  setcharprop #n,Master Strife Darkwrath;
+  dir = 2;
+  x = 20.5;
+  sprite=37;
+  ap=0;
+  drawoverplayer;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme){
+  say2 Tis I Strife Darkwrath.#bI have no powers greater than#banyone else and I do not claim#bto be better, but I like a good#bbattle. Call me whenever you#bare in trouble and I'll help #byou, but only if you are not#bin the guild of my enemies.#b#bFeel free to use my training#brooms if you want
+}
+if (actionleftmouse){
+  sprite = 36;
+  message Get Away From My Throne!!!!;
+  for (bh_strifeanim = 0;bh_strifeanim < 16;bh_strifeanim ++){
+    sprite = 73 - sprite;
+    sleep 0.15;
+  }
+  sprite = 37;
+  message;
+}
+NPCEND
+NPC vampire.png 25 24
+//NPC by Master Strife Darkwrath
+
+//#CLIENTSIDE
+
+if (playerenters) {
+  x=25.5;
+}
+NPCEND
+NPC vampire.png 16 24
+//NPC by Master Strife Darkwrath
+
+//#CLIENTSIDE
+
+if (playerenters) {
+  x=16.5;
+}
+NPCEND
+NPC bookopen.png 46 27
+//NPC by Strife Darkwrath (Brotherhood)
+NPCEND
+NPC cloats8.png 40 18
+//NPC by Master Strife Darkwrath (Brotherhood)
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  sethead head71.png;
+  setskincolor brown;
+  setcoatcolor yellow;
+  setsleevecolor black;
+  setshoecolor black;
+  setbeltcolor black;
+  setbody body10.png;
+}
+NPCEND
+NPC - 33 11
+// NPC made by Master BARON
+
+//#CLIENTSIDE
+
+if (playerenters) {
+  seteffect 0,0,0,0.3;
+}
+NPCEND
+NPC - 43 28
+//NPC by Strife Darkwrath (Brotherhood)
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head10.png;
+  setcharprop #C0,cynober;
+  setcharprop #C1,cynober;
+  setcharprop #C2,cynober;
+  setcharprop #C3,cynober;
+  setcharprop #C4,white;
+  setcharprop #8,body9.png;
+  setcharprop #2,mynana-shield.png;
+  setcharprop #n,Mãstër £êgëñd Ðãrkrïdër;
+  dir = 2;
+  ap=10;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 Like this guildhouse?#bI helped design and make it#b#bPHEER TEH LEET LEVEL#bMAKING SKILLZ!! RAR!;
+}
+if (actionleftmouse) {
+  message I can dance, I can dance!;
+  for (bh_dance = 0;bh_dance < 4;bh_dance += 0.05){
+    sprite = 24;
+    if (dir = 3){
+      dir = 0;
+    }
+    else {
+      dir ++;
+    }
+    sleep 0.05;
+  }
+  dir = 2;
+  sprite = 0;
+  message;
+}
+NPCEND
+NPC - 27 21
+// NPC by Master Storm
+
+//#CLIENTSIDE
+
+if (playerenters) {
+  this.flames_maximumx = 2;
+  this.flames_minimumx = -2;
+  this.flames_maximumy = 0;
+  this.flames_minimumy = -8;
+  this.flames_maincolor_red = 1;
+  this.flames_maincolor_green = 0.3;
+  this.flames_maincolor_blue = 0;
+  this.flames_tintcolor_red = 1;
+  this.flames_tintcolor_green = 0;
+  this.flames_tintcolor_blue = 0;
+  this.flames_glowcolor_red = 1;
+  this.flames_glowcolor_green = 0.5;
+  this.flames_glowcolor_blue = 0;
+  this.flames_zoom =0.5;
+  setarray this.flames_randomx,12;
+  setarray this.flames_randomy,12;
+  setarray this.flames_changevar,12;
+  this.flames_setupvar = 0;
+  for (this.flames_setup = 0;this.flames_setup < 12;this.flames_setup ++){
+    this.flames_randomx[this.flames_setup] = random(this.flames_minimumx,this.flames_maximumx);
+    this.flames_randomy[this.flames_setup] = random(this.flames_minimumy,this.flames_maximumy);
+    this.flames_changevar[this.flames_setup] = this.flames_setupvar;
+    this.flames_setupvar +=5;
+    if (this.flames_setupvar > 10){
+       this.flames_setupvar = 0;
+    }
+  }
+  showimg 205,light4.png,x - 4,y - 4;
+  changeimgcolors 205,this.flames_glowcolor_red,this.flames_glowcolor_green,this.flames_glowcolor_blue,0.99;
+  changeimgvis 205,3;
+  timeout = 0.05;
+}
+if (timeout){
+  for (this.flames_drawtime = 0;this.flames_drawtime < 12;this.flames_drawtime ++){
+    showimg 210 + this.flames_drawtime,light4.png,x - 4 + (this.flames_randomx[this.flames_drawtime] / 9)*this.flames_changevar[this.flames_drawtime],y - 4 + (this.flames_randomy[this.flames_drawtime] / 9)*this.flames_changevar[this.flames_drawtime];
+    if (this.flames_drawtime > 7){
+      changeimgcolors 210 + this.flames_drawtime,this.flames_tintcolor_red,this.flames_tintcolor_green,this.flames_tintcolor_blue,0.5;
+    }
+    else {
+      changeimgcolors 210 + this.flames_drawtime,this.flames_maincolor_red,this.flames_maincolor_green,this.flames_maincolor_blue,0.5;
+    }
+    changeimgvis 210 + this.flames_drawtime,3;
+    changeimgzoom 210 + this.flames_drawtime,this.flames_zoom;
+    this.flames_changevar[this.flames_drawtime] ++;
+    if (this.flames_changevar[this.flames_drawtime] > 9;){
+      this.flames_changevar[this.flames_drawtime] = 0;
+      this.flames_randomx[this.flames_drawtime] = random(this.flames_minimumx,this.flames_maximumx);
+      this.flames_randomy[this.flames_drawtime] = random(this.flames_minimumy,this.flames_maximumy);
+    }
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC - 17 21
+// NPC by Master Storm
+
+//#CLIENTSIDE
+
+if (playerenters) {
+  this.flames_maximumx = 2;
+  this.flames_minimumx = -2;
+  this.flames_maximumy = 0;
+  this.flames_minimumy = -8;
+  this.flames_maincolor_red = 1;
+  this.flames_maincolor_green = 0.3;
+  this.flames_maincolor_blue = 0;
+  this.flames_tintcolor_red = 1;
+  this.flames_tintcolor_green = 0;
+  this.flames_tintcolor_blue = 0;
+  this.flames_glowcolor_red = 1;
+  this.flames_glowcolor_green = 0.5;
+  this.flames_glowcolor_blue = 0;
+  this.flames_zoom =0.5;
+  setarray this.flames_randomx,12;
+  setarray this.flames_randomy,12;
+  setarray this.flames_changevar,12;
+  this.flames_setupvar = 0;
+  for (this.flames_setup = 0;this.flames_setup < 12;this.flames_setup ++){
+    this.flames_randomx[this.flames_setup] = random(this.flames_minimumx,this.flames_maximumx);
+    this.flames_randomy[this.flames_setup] = random(this.flames_minimumy,this.flames_maximumy);
+    this.flames_changevar[this.flames_setup] = this.flames_setupvar;
+    this.flames_setupvar +=5;
+    if (this.flames_setupvar > 10){
+       this.flames_setupvar = 0;
+    }
+  }
+  showimg 205,light4.png,x - 4,y - 4;
+  changeimgcolors 205,this.flames_glowcolor_red,this.flames_glowcolor_green,this.flames_glowcolor_blue,0.99;
+  changeimgvis 205,3;
+  timeout = 0.05;
+}
+if (timeout){
+  for (this.flames_drawtime = 0;this.flames_drawtime < 12;this.flames_drawtime ++){
+    showimg 210 + this.flames_drawtime,light4.png,x - 4 + (this.flames_randomx[this.flames_drawtime] / 9)*this.flames_changevar[this.flames_drawtime],y - 4 + (this.flames_randomy[this.flames_drawtime] / 9)*this.flames_changevar[this.flames_drawtime];
+    if (this.flames_drawtime > 7){
+      changeimgcolors 210 + this.flames_drawtime,this.flames_tintcolor_red,this.flames_tintcolor_green,this.flames_tintcolor_blue,0.5;
+    }
+    else {
+      changeimgcolors 210 + this.flames_drawtime,this.flames_maincolor_red,this.flames_maincolor_green,this.flames_maincolor_blue,0.5;
+    }
+    changeimgvis 210 + this.flames_drawtime,3;
+    changeimgzoom 210 + this.flames_drawtime,this.flames_zoom;
+    this.flames_changevar[this.flames_drawtime] ++;
+    if (this.flames_changevar[this.flames_drawtime] > 9;){
+      this.flames_changevar[this.flames_drawtime] = 0;
+      this.flames_randomx[this.flames_drawtime] = random(this.flames_minimumx,this.flames_maximumx);
+      this.flames_randomy[this.flames_drawtime] = random(this.flames_minimumy,this.flames_maximumy);
+    }
+  }
+  timeout = 0.05;
+}
+NPCEND

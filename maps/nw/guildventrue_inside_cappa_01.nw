@@ -1,0 +1,491 @@
+GLEVNW01
+BOARD 0 0 64 0 gHgMgXgVgVgIgHgMgNgUgVgZglgMgNgUgVgIgHgMgXgVgVgIgHgMgNgUgVgZglgMgNgUgVgIgHgMgNgUgVgIgHgMgkglgmNFNFgLgMgNgUgGgJgKgJgkgJgKgngogNgo
+BOARD 0 1 64 0 gXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgUgVgWNFNFgbgcgdgkglgHgMgXgVgVgZgJgKgJgK
+BOARD 0 2 64 0 gngogNgogngogXgVgNgogngogXgVgNgogngogngogNgogngogXgVgNgogngogXgVgNgogngogngogNgogngogngogkglgmNFNFNFgLgMgNgogXgPgZglgegJgKgagZga
+BOARD 0 3 64 0 gJgKgJgkgJgKgZglgJgkgJgKgZglgJgkgJgKgJgKgJgkgJgKgZglgJgkgJgKgZglgJgkgJgKgJgKgJgkgJgKgJgKgUgVgWNFNFNFgbgcgdgKgXgdgkglgJgKgagqgpgq
+BOARD 0 4 64 0 gZgOgNgUgGgagZgOgNgJgKgagZgOgXgVgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgkglgmNFNFNFgLgMgNgogngogNgJgKgagqu2vEvE
+BOARD 0 5 64 0 gpgcgdgkglgXgVgcgdgZgagJgKgcgZglglgXgpgcgdgkglgXgVgcgdgkglgXgVgcgZglglgXgpgcgdgkglgmgpgcgdgUgVgWNFNFgbgcgdgKgJgKgJgZgagqu2vGuOuO
+BOARD 0 6 64 0 gHgMgNgUgVgZglgJgKgpgqgZgagJgKgJgKgZgHgMgNgUgVgZgHgMgXgVgVgIgHgMgJgKgJgKglgMgNgUgVgIgJgKgJgKglgmNFNFNFgbgZgagZgagJgKgqu2vGu3v3v3
+BOARD 0 7 64 0 gXgPgdgJgKgJgKgZgaLIKrgpgqgZgagZgagNgXgPgdgkgegYgXgPgZglgegYgJgKgZgagZgagJgKgdgkgJgKgZgagZgagqNFNFNFNFNFgpgqgpgqgZganlumv3vHp4p4
+BOARD 0 8 64 0 gXgVgUgGgagZgagpgqLYK7ce1SgpgqgpgcgdgXgVgXgVgngogngogNgogngUgGgagpgqgpgqgZgagJgKgZgagpgqgpgqNFNFNFNFNFNFNFNFNFNFgpgqn2nWnWnlgJgK
+BOARD 0 9 64 0 gZglgkglgmgpgq1SceLYK71Sce1ScegLgMgNgZglgZglgJgKgJgKgJgkgJgkglgmNFnknWnlgpgqgZgagpgqnknWnWnlNFNFNFNFNFNFNFnknWnlNFNFNFNFNFnHgZga
+BOARD 0 10 64 0 gZgOgUgVgWLELFLGLHLoLLce1Sce1SgbgcgdgZgOgNgUgGgagZgOgNgUgGgUgVgWnkn3NFn2nlNFgpgqNFNFnGNFNFn2nlNFNFNFNFNFnkn3NFn2nlNFNFNFgLgMgNgU
+BOARD 0 11 64 0 gpgcgkglgmLULVLWLX1Sce1Sce1ScegLgMgNgpgcgdgkglgmgpgcgdgkglgkglgmnGNFNFn0n1NFnknWnlNFnGNFNFNFnHnknWnWnlNFnGNFNFNFnHNFNFNFgbgcgdgk
+BOARD 0 12 64 0 gHgMgUgVgWLULVLWLXce1Sce1Sce1SgbgcgdgHgMgXgVgVgIgHgMgNgUgVgUgVgWnGNFNFNFNFnkn3NFn2nlnGNFNFnmn1nGNFNFn2nln0nXnXnXn1NFNFNFgLgMgNgU
+BOARD 0 13 64 0 gXgPgkglgmLULVLWLX1Sce1Sce1Sce1SgLgMgNgPgZglgegYgXgPgdgkgegkglgmnGNFNFNFNFnGNFNFNFnHnGnmnXn1NFnGNFNFNFnHnknWnWnWnlNFNFNFgbgcgdgk
+BOARD 0 14 64 0 gngUgVgW1SLkLlLlLnce1Sce1Sce1ScegbgcgdgogNgogngogXgVgNgogngUgVgWnGNFNFnknln0nXnXnXn1nGnHNFNFNFnGNFNFnmn1nGNFNFNFnHNFNFNFgLgMgNgo
+BOARD 0 15 64 0 gJgkglgmce8d8e8e8f1Sce1Sce1ScegLgMgNgJgKgJgkgJgKgZglgJgkgJgkglgmn0nnNFnmn1nknWnWnWnlnGnHNFNFNFnGnmnXn1NFnGnlNFnknHNFNFNFgbgcgdgk
+BOARD 0 16 64 0 gZgUgVgW1S8t8u8u8vce1Sce1Sce1SgbgcgdgZgOgNgUgJgKgZgOgNgUgGgUgVgINFn0nXn1NFnGNFNFNFnHn0n1NFNFNFnGnHNFNFNFn0n1NFn0n1NFNFgLgMgNgXgV
+BOARD 0 17 64 0 gpgkglgmce1Sce1Sce1Sce1Sce1ScegLgMgVgJgKgJgKgZgagJgKgdgkglgkgegYgHgINFNFNFnGnlNFnknHNFNFNFNFNFnGnHNFNFNFNFNFNFNFNFNFNFgbgcgdgZgl
+BOARD 0 18 64 0 gHgUgVgW1Sce1Sce1Sce1Sce1Sce1SgbgcgagZgagZgagpgqgZgagJgKgVgogngogXgYgHgINFn0n1NFn0n1NFNFNFNFNFn0n1NFNFNFNFNFNFNFgHgIgHgMgNgMgNgU
+BOARD 0 19 64 0 gXgkglgmce1Sce1Sce1Sce1Sce1Sce1SgpgqgpgqgpgqNFNFgpgqgZgagegYgXgPgngogXgYgHgINFNFgHgIgHgINFNFNFNFNFNFNFNFgHgIgHgIgXgYgXgPgdgPgdgk
+BOARD 0 20 64 0 gXgUgVgIgHgI1Sce1Sce1Sce1Sce1SNFNFNFNFNFNFNFNFNFNFNFgpgJgKgogXgVgNgogngogXgYgHgIgXgYgXgYgWNFNFNFNFNFNFgLgXgYgXgYgngogngogXgVgNgo
+BOARD 0 21 64 0 gZgkgegYgXgYgHgIgHgIgHgIce1SNFNFNFNFNFNFNFNFNFNFNFNFNFgZgagJgKgJgKgkgZglgngogXgYgngogcglgmNFNFNFNFNFNFgbgcglgngogJgkgJgKgZglgJgk
+BOARD 0 22 64 0 gZgOgngogngogXgYgXgYgXgY1SNFNFNFNFNFNFNFNFNFNFNFNFNFNFgpgqgZgagZgagUgGgJgKgXgngoglgXgUgVgWNFNFNFNFNFNFgLgMgNgZgOgNgUgGgagZgOgXgV
+BOARD 0 23 64 0 gpgcgdgkglgmgngogngogngoNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgpgqgpgqgJgKgZgagJgKgJgKgJgkglgmNFNFNFNFNFNFgbgcgdgpgcgdgkglgmgpgcgZgl
+BOARD 0 24 64 0 gHgMgXgVgVgIgHgMgJgKgJgKNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgZgagpgqgZgagGgagNgUgVgWNFNFNFNFNFNFgLgMgNglgMgNgUgVgIgHgMgXgV
+BOARD 0 25 64 0 gXgPgZglgegYgJgKgZgagZgaNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgpgqNFNFgpgqgpgcgdgkglgmNFNFNFNFNFgLgMgNgdgXgPgdgkgegYgXgPgZgl
+BOARD 0 26 64 0 gngogJgKgJgKgZgagpgqgpgqNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgVgMgVgWNFNFNFNFNFgbgcgdgogXgVgNgogngogngogNgo
+BOARD 0 27 64 0 gJgUgGgagZgagpgqNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgagZglgmNFNFNFNFNFNFgLgMgNgZglgJgkgJgKgJgKgJgk
+BOARD 0 28 64 0 gZgkglgmgpgqNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgpgqgpgqNFNFNFNFNFNFNFgbgcgdgZgOgXgVgGgagZgOgNgU
+BOARD 0 29 64 0 gpgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNgVgcgZglglgXgpgcgdgk
+BOARD 0 30 64 0 gHgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdglgMgNgUgVgZgHgMgNgU
+BOARD 0 31 64 0 gXgPgdgUgVgWNFNFNFNFKpKqNFLILKLKKrNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNgYgXgPgdgkgegYgXgPgdgk
+BOARD 0 32 64 0 gXgVgXgkglgmNFNFNFNFK5K6LILZLaLZLaKrNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdgogXgVgNgogXgVgXgVgXgV
+BOARD 0 33 64 0 gZglgUgVgWNFNFNFNFNFNFNFLYK7LqLqLYK7KpKqNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNgJgKgZglgJgkgZglgZglgZgl
+BOARD 0 34 64 0 gZgOgkglgmNFNFNFNFNFNFNFLYK7NFNFLoLLK5K6NFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdgGgagZgOgNgUgGgagZgOgNgU
+BOARD 0 35 64 0 gpgcgdgUgVgWNFNFNFNFNFNFLYK7KpKqNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNgXgYgXgYgXgYgXgpgcgdgk
+BOARD 0 36 64 0 gHgMgXgkglgmNFNFNFNFNFNFLYK7K5K6NFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdgngogngogngogngHgMgXgV
+BOARD 0 37 64 0 gXgPgZglgUgVgWNFNFNFKpKqLYK7NFNFLIKrNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgVgJgKgJgKgJgKgJgKgPgZgl
+BOARD 0 38 64 0 gngogNgogkglgmNFNFNFK5K6LYLZLKLKLZK7NFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgHgIgJgKNFNFgJgKgHgIgHgIgHgINFNFNFgbNFgagZgagZgagZgagGgagNgNgo
+BOARD 0 39 64 0 gJgKgJgUgVgWNFNFNFNFNFNFLoLYLaLZK7LLKpKqNFNFNFNFNFNFNFNFNFNFNFgHgIgXgYgZgaNFNFgZgagXgYgXgYgXgYgWNFNFNFgpgqgpgqgpgqgpgqgpgcgdgJgk
+BOARD 0 40 64 0 gZgOgNgkglgmNFNFNFNFNFNFNFLoLqLqLLNFK5K6NFNFNFNFNFNFNFgHgIgHgIgXgYgngogpgqp4p4gpgqgngogngogcglgmNFNFNFdDdEdEdEdEdEdEdGgLgMgNgNgU
+BOARD 0 41 64 0 gpgcgdgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNgXgYgngop4u2vFvXp4p4p4p4u2vFvXp4gUgVgWNFNFNFdTdUdUdUdUdUdUdWgbgcgdgdgk
+BOARD 0 42 64 0 gHgMgNgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdgngou2vFvFvGuOvnvXp4p4u2vGv1vnvXgkglgmNFNFNFdjdkdkKpKqdkdkdXgLgMgNgNgU
+BOARD 0 43 64 0 gXgPgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNp4u2vG797+7+7/v0vnvXu2797+7+7/vnvXgUgVgWNFNFNFNFNFK5K6NFNFNFgbgcgdgdgk
+BOARD 0 44 64 0 gXgVgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdp4vUv18N8O8O8PuOu3vHvU8N8O8O8Pu3vHgkglgmNFNFNFNFNFNFNFNFNFNFgLgMgNgXgV
+BOARD 0 45 64 0 gZglgUgVgIgHgIgHgIgHgIgHgINFNFNFNFNFNFNFNFNFNFNFNFgLgMgNp4u2vGuO8N8O8O8Pv1u7p4vU8N8O8O8Pu7p4gUgVgWNFNFNFNFNFNFNFNFNFNFgbgcgdgZgl
+BOARD 0 46 64 0 gZgOgkgegYgXgYgXgYgXgYgXgYgWNFNFNFNFNFNFNFNFNFNFNFgbgcgdp4vUv1v08d8e8e8fu3vHp4vU8d8e8e8fvnvXgkglgmNFNFNFNFNFNFNFNFNFNFgLgMgNgNgU
+BOARD 0 47 64 0 gpgcgdgngogngogngogngogngogmNFNFNFNFNFNFNFNFNFNFNFgLgMgNp4umuWuO8t8u8u8vu7p4u2vG8t8u8u8vv0u7gUgVgWNFNFNFNFNFNFNFNFNFNFgbgcgdgdgk
+BOARD 0 48 64 0 gHgMgNgUgV797+7+7+7+7/gUgVgWNFNFNFNFNFNFNFNFNFNFNFgbgcgdp4p4umuWu3v3v3v3vHp4vUv1v0u3uWuOuOu7gkglgmNFNFNFNFNFgHgINFNFgLgMgNgVgngo
+BOARD 0 49 64 0 gXgPgdgkgl8NtCtStDtE8PgkglgmNFNFNFNFNFNFNFNFNFNFgLgMgNp4p4p4p4umvHp4p4p4p4p4umuWu3vHumuWu3vHgUgVgWNFNFNFNFNFgXgYNFNFgbgcgdgkgJgK
+BOARD 0 50 64 0 gngogNgUgV8NtStCtStS8PgUgVgWNFNFNFNFNFNFNFNFNFNFgbgcgdp4p4p4p4p4p4p4p4p4p4p4p4umvHp4p4umvHp4gkglgmgHgIgHgIgHgngogHgIgHgMgNgVgXgV
+BOARD 0 51 64 0 gJgKgJgkgl8NtDtEtStC8PgkglgmNFNFNFNFNFNFNFNFgHgIgHgMgNp4p4gJgKp4p4gJgKgJgKp4p4p4p4p4gJgKp4p4gUgVgIgXgYgXgYgXgYgVgXgYgXgPgdglgZgl
+BOARD 0 52 64 0 gZgOgNgUgV8NtCtDtEtC8PgUgVgWNFNFNFNFNFNFNFgLgMgNgXgPgdgJgKgZgagJgKgZgagZgagJgKgJgKgJgNgUgJgKgkgegYgngogngogngogkgngogngogNglgNgU
+BOARD 0 53 64 0 gpgcgdgkgl8d8ejJjK8e8fgkglgmNFNFNFNFNFNFNFgbgcgdgngogNgZgagdgkgZgagkglgmgpgZgagZgagZgdgkgZgagogngogcgdgkglgXgVgcgZglglgXgpgcgdgk
+BOARD 0 54 64 0 gHgMgNgJgKgJgKjZjagJgKgJgKgWNFNFNFNFNFNFNFgLgMgNglgMgXgVgVgZglgMgNgUgVgZgHgMgXgVgVgIgHgMgNgUgVgZglgMgNgUgVgIgHgMgNgUgVgZgHgMgNgU
+BOARD 0 55 64 0 gXgUgVgZgagZgaNFNFgZgagZgagmNFNFNFNFNFNFNFgbgcgdgXgPgZglgegYgXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgk
+BOARD 0 56 64 0 gXgUgVgpgqgpgqNFNFgpgqgpgqNFNFNFNFNFNFNFNFgLgMgNgngogNgogngogXgVgNgogXgVgngogNgogngogXgVgNgogngogXgVgNgogngogngogNgogXgVgXgVgNgo
+BOARD 0 57 64 0 gZgkglNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdgJgKgJgkgJgKgZglgJgkgZglgJgKgJgkgJgKgZglgJgkgJgKgZglgJgkgJgKgJgKgJgkgZglgZglgJgk
+BOARD 0 58 64 0 gZgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNgOgXgVgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgNgU
+BOARD 0 59 64 0 gpgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdgcgZglglgmgpgcgdgkglgmgpgcgdgkglgXgVgcgdgkglgXgVgcgZglglgXgpgcgdgkglgmgpgcgdgk
+BOARD 0 60 64 0 gHgUgVgIgHgINFNFNFNFNFNFNFNFgHgIgHgINFNFNFNFNFNFgLgMgNgUgVgIgHgMgXgVgVgIgHgMgNgUgVgZglgMgXgVgVgZglgMgNgUgVgZgHgMgNgUgVgIgHgMgXgV
+BOARD 0 61 64 0 gXgkgegYgXgYgHgIgHgIgHgIgHgIgXgYgXgYgWNFNFNFNFNFgbgcgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgZgl
+BOARD 0 62 64 0 gngogngogngogXgYgXgYgXgYgXgYgngogngUgVgWNFNFNFNFNFgLgMgNgngogXgVgNgogngogXgVgXgVgngogngogNgogngogXgVgNgogXgVgXgVgXgVgngogngogNgo
+BOARD 0 63 64 0 gJgKgJgkgZglgJgKgJgkgJgKgZglgJgkgJgkgUgVgWNFNFNFNFgbgcgdgJgKgZglgJgkgJgKgZglgZglgJgKgJgKgJgkgJgKgZglgJgkgZglgZglgZglgJgKgJgKgJgk
+LINK guildventrue_inside_armitage_01.nw 0 0 64 1 playerx 61
+LINK guildventrue_inside_fbd_01.nw 0 63 64 1 playerx 0
+LINK guildventrue_inside_coteriemeetingroom_01.nw 63 0 1 64 0 playery
+SIGN 0 0
+    The time is way to much 
+      for you go to bed:P!!!!
+              /Dala Coterie
+SIGNEND
+SIGN 0 0
+Cappas own Lava Bath.
+A X-mas gift from Dala.
+SIGNEND
+SIGN 54 41
+Dairy of Cappa Coterie
+
+02/11-2004
+I join Ventrue 
+06/01-2005
+Classic is reset and turnd in to a 
+NPC server
+20/3-2005
+Zackaios quits graal. 
+ ?/10-2005
+I Got hired as GFX LAT 
+under Massokre
+ ?/01-2006
+I got promoted to GFX Captain
+ 20/03-2006
+I got promoted to GFX Admin
+24/08-2006
+fixing my room and
+ realised that no one 
+will ever read this... 
+so if you do
+congratulation.
+SIGNEND
+SIGN 33 47
+Cappa Coterie 
+       -2006-
+SIGNEND
+SIGN 41 47
+   Cappa Coterie of Ventrue
+                   -2004-
+SIGNEND
+SIGN 55 26
+
+    To my Childe FBD
+SIGNEND
+NPC classic_newcoterietomb.png 5 10
+// NPC made by Dala Coterie (Ventrue)
+if (created) {
+}
+//#CLIENTSIDE
+
+if (playerenters) {
+  if (strequals(#g,Ventrue) || strequals(#g,Ventrue Vampires)){
+    dontblock;
+    drawunderplayer;
+  }
+  else {
+    blockagain;
+  }
+}
+NPCEND
+NPC classic_newcoterietomblid.png 5 9
+// NPC made by Steven (Darkshire)
+if (playerchats) {
+  if (strequals(#c,open)) {
+    x = 2;
+  }
+}
+if (playerchats) {
+  if (strequals(#c,close)) {
+    x = 5;
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,105;
+  x = 5;
+  drawoverplayer;
+}
+NPCEND
+NPC minewallnorth.png 12 20
+// NPC made by Dala Coterie (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+  hide;
+  sleep 2;
+  show;
+}
+NPCEND
+NPC rockdooru.png 36 38
+// NPC made by Bell Ðarkmåne (The Sabbat)
+//#CLIENTSIDE
+if (created) dontblock; drawoverplayer;
+NPCEND
+NPC tiles_whitechair.png 18 33
+// NPC made by Dala Coterie (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC tiles_whitechair.png 10 31
+// NPC made by Dala Coterie (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC tiles_whitechair.png 14 35
+// NPC made by Dala Coterie (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC tiles_whitechair.png 18 39
+// NPC made by Dala Coterie (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC tiles_whitechair.png 10 37
+// NPC made by Dala Coterie (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC - 41 42
+// Graal2002 NPC by Stefan Knorr
+if (created) { x=x+.5;y = y+.5;
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-newcappa.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,shieldc-coterie.png;
+
+ shieldpower = 1;
+  dir = 2;
+
+}
+NPCEND
+NPC - 32 42
+// Graal2002 NPC by Stefan Knorr }
+//#CLIENTSIDE
+if (created) { x=x+.5;y = y+.5;
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-newcappa.png;
+  setcharprop #8,body.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,shieldc-zackaiostie4.png;
+  shieldpower = 3;
+  dir = 2;
+
+}
+NPCEND
+NPC candle.mng 11 24
+//#CLIENTSIDE
+// NPC made by FiFi (Ventrue Vampires)
+if (created) {
+show;
+}
+if (playertouchsme) {
+block;
+}
+NPCEND
+NPC bookopen.png 54 41
+// NPC made by Zackaios Jozakin (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC tiles_whitechair.png 54 42
+// NPC made by Dala Coterie (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC smokeani.mng 49 35
+// NPC made by Zackaios Jozakin (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+} dontblock;
+NPCEND
+NPC allycandlelit.png 52 39
+// NPC made by Zackaios Jozakin (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC allycandlelit.png 57 39
+// NPC made by Zackaios Jozakin (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC smokeani.mng 54 35
+// NPC made by Zackaios Jozakin (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+} dontblock;
+NPCEND
+NPC rockgateu.png 37 39
+// NPC made by Zackaios Jozakin (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+}
+if (playertouchsme) {
+  hide;
+}
+if (playerenters) {
+  show;
+}
+NPCEND
+NPC candle.mng 33 46
+//#CLIENTSIDE
+// NPC made by FiFi (Ventrue Vampires)
+if (created) {
+show;
+}
+if (playertouchsme) {
+block;
+}
+NPCEND
+NPC candle.mng 41 46
+//#CLIENTSIDE
+// NPC made by FiFi (Ventrue Vampires)
+if (created) {
+show;
+}
+if (playertouchsme) {
+block;
+}
+NPCEND
+NPC candle.mng 42 26
+//#CLIENTSIDE
+// NPC made by FiFi (Ventrue Vampires)
+if (created) {
+show;
+}
+if (playertouchsme) {
+block;
+}
+NPCEND
+NPC stonetable4.png 9 7
+//#CLIENTSIDE
+// NPC made by Dala Coterie (Ventrue)
+if (created) {
+  drawunderplayer;
+}
+NPCEND
+NPC fallpal.png 9 8
+// NPC made by Dala Coterie (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+say 0;}
+NPCEND
+NPC emoticon_eyes.mng 14 27
+// NPC made by Dala Coterie (The Sabbat)
+if (created) {
+  hide;
+  dontblock;
+  drawoverplayer;
+}
+if (playerchats) {
+  if (strequals(#c,=O)){
+    show;
+    sleep 3;
+    hide;
+  }
+}
+NPCEND
+NPC minewallnorth.png 7 54
+// NPC made by Dala Coterie (The Sabbat)
+//#CLIENTSIDE
+if (created) {block;
+}
+if (playertouchsme && strcontains(#a,newcappa) || strcontains(#a,Dalahorse) || strcontains(#a,Armitagee) || strcontains(#a,Racil) || strcontains(#a,EmortalDragon)) {
+hide;
+sleep 2;
+show;}
+NPCEND
+NPC vvsign.png 19 54
+// NPC made by Dala Coterie (Ventrue)
+if (created) {
+}
+if (playertouchsme) {say 5;
+}
+NPCEND
+NPC - 24 36
+//#CLIENTSIDE
+// Level effect
+if (playerenters) {
+  seteffect 0,0,0,0.5;
+}
+NPCEND
+NPC - 27 53
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (playerchats) {
+  if (strcontains(#c,ass)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,asshole)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,whore)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,slut)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,bitch)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,fuck you)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,fuck)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,pussy)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,cunt)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,faggot)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,fag)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,gay)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+if (playerchats) {
+  if (strcontains(#c,fucker)) {
+    freezeplayer2;
+    setplayerprop #c,ITS BAD TO CURSE;
+  }
+}
+NPCEND
+NPC minewallnorth.png 14 18
+// NPC made by Dala Coterie (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+  hide;
+  sleep 2;
+  show;
+}
+NPCEND
+NPC vvsign.png 11 55
+// NPC made by Dala Coterie (Ventrue)
+if (created) {
+}
+if (playertouchsme) {say 1;
+}
+NPCEND
+NPC bookopen.png 54 41
+// NPC made by Zackaios Jozakin (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND

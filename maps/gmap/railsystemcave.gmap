@@ -1,0 +1,16 @@
+GRMAP001
+WIDTH 10
+HEIGHT 10
+NOAUTOMAPPING
+LEVELNAMES
+"railsystemcave_a01.nw","railsystemcave_b01.nw","railsystemcave_c01.nw","railsystemcave_d01.nw","railsystemcave_e01.nw","railsystemcave_f01.nw","railsystemcave_g01.nw","railsystemcave_h01.nw","railsystemcave_i01.nw","railsystemcave_j01.nw"
+"railsystemcave_a02.nw","railsystemcave_b02.nw","railsystemcave_c02.nw","railsystemcave_d02.nw","railsystemcave_e02.nw","railsystemcave_f02.nw","railsystemcave_g02.nw","railsystemcave_h02.nw","railsystemcave_i02.nw","railsystemcave_j02.nw"
+"railsystemcave_a03.nw","railsystemcave_b03.nw","railsystemcave_c03.nw","railsystemcave_d03.nw","railsystemcave_e03.nw","railsystemcave_f03.nw","railsystemcave_g03.nw","railsystemcave_h03.nw","railsystemcave_i03.nw","railsystemcave_j03.nw"
+"railsystemcave_a04.nw","railsystemcave_b04.nw","railsystemcave_c04.nw","railsystemcave_d04.nw","railsystemcave_e04.nw","railsystemcave_f04.nw","railsystemcave_g04.nw","railsystemcave_h04.nw","railsystemcave_i04.nw","railsystemcave_j04.nw"
+"railsystemcave_a05.nw","railsystemcave_b05.nw","railsystemcave_c05.nw","railsystemcave_d05.nw","railsystemcave_e05.nw","railsystemcave_f05.nw","railsystemcave_g05.nw","railsystemcave_h05.nw","railsystemcave_i05.nw","railsystemcave_j05.nw"
+"railsystemcave_a06.nw","railsystemcave_b06.nw","railsystemcave_c06.nw","railsystemcave_d06.nw","railsystemcave_e06.nw","railsystemcave_f06.nw","railsystemcave_g06.nw","railsystemcave_h06.nw","railsystemcave_i06.nw","railsystemcave_j06.nw"
+"railsystemcave_a07.nw","railsystemcave_b07.nw","railsystemcave_c07.nw","railsystemcave_d07.nw","railsystemcave_e07.nw","railsystemcave_f07.nw","railsystemcave_g07.nw","railsystemcave_h07.nw","railsystemcave_i07.nw","railsystemcave_j07.nw"
+"railsystemcave_a08.nw","railsystemcave_b08.nw","railsystemcave_c08.nw","railsystemcave_d08.nw","railsystemcave_e08.nw","railsystemcave_f08.nw","railsystemcave_g08.nw","railsystemcave_h08.nw","railsystemcave_i08.nw","railsystemcave_j08.nw"
+"railsystemcave_a09.nw","railsystemcave_b09.nw","railsystemcave_c09.nw","railsystemcave_d09.nw","railsystemcave_e09.nw","railsystemcave_f09.nw","railsystemcave_g09.nw","railsystemcave_h09.nw","railsystemcave_i09.nw","railsystemcave_j09.nw"
+"railsystemcave_a10.nw","railsystemcave_b10.nw","railsystemcave_c10.nw","railsystemcave_d10.nw","railsystemcave_e10.nw","railsystemcave_f10.nw","railsystemcave_g10.nw","railsystemcave_h10.nw","railsystemcave_i10.nw","railsystemcave_j10.nw"
+LEVELNAMESEND

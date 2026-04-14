@@ -1,0 +1,494 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 9 64 0 hqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohp
+BOARD 0 10 64 0 iah7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4ic
+BOARD 0 11 64 0 iIiJj3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2iIiJ
+BOARD 0 12 64 0 iYiZjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJhrhokIkJhrhokIkJhrhokIkJhrhokIkJhrhokIkJhrhokIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmiYiZ
+BOARD 0 13 64 0 iKiMjrlJlJkMjrlJlJkMjrlJlJkMjrlJlJkMjrlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJlJkMjrlJlJkMjrlJlJkMjrlJlJkMjrlJlJkMiKiM
+BOARD 0 14 64 0 iaicj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqN6N6N7N6N7N6N6N7N6N7N6N6N7N6N7N6N6N7N6N6N7N6N7N7Nrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkciaic
+BOARD 0 15 64 0 iIiJmpN6N7mompN6N7mompN6N7mompN6N7momplFk4EnJOJPJOJPJOJPJOJPJOJPJOJPJOJPJOJPJOJPJOJPI1k4lEmompN6N7mompN6N7mompN6N7mompN6N7moiIiJ
+BOARD 0 16 64 0 iYiZm5AWAVm4m5AWAVm4m5AWAVm4m5AWAVm4m5lFk4EJFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHNk4lEm4m5AWAVm4m5AWAVm4m5AWAVm4m5AWAVm4iYiZ
+BOARD 0 17 64 0 iKiMAlAmAlAmAlAmAlAmAlAmAlAmAlAmAlAmAllFk4EZFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHdk4lEAmAlAmAlAmAlAmAlAmAlAmAlAmAlAmAlAmiKiM
+BOARD 0 18 64 0 iaicA1A2A1A2A1A2A1A2A1A2A1A2A1A2A1A2A1lFk4EJFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHNk4lEA2A1A2A1A2A1A2A1A2A1A2A1A2A1A2A1A2iaic
+BOARD 0 19 64 0 iIiJCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCplFk4EZFCFCFCFCFCFCFCFCFCG5HJFCFCFCFCFCFCFCFCFCHdk4lECpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpiIiJ
+BOARD 0 20 64 0 iYiZC6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6lFk4EJFCFCFCFCFCFCFCFCFCGPHIFCFCFCFCFCFCFCFCFCHNk4lEC5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5iYiZ
+BOARD 0 21 64 0 iKiMD5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5lFk4EZFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHdk4lED6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6iKiM
+BOARD 0 22 64 0 iaicrQrRrQrRrQrRrQrRrQrRrQrRrQrRrQrRrQlFk4EyEOEPEOEPEOEPEOEPEzFCFCPMEOEPEOEPEOEPEOEPPNk4lErRrQrRrQrRrQrRrQrRrQrRrQrRrQrRrQrRiaic
+BOARD 0 23 64 0 iIiJf/F2FnF3f/f/f/f/f/f/f/F2FnF3f/f/f/lFkoknknknknknknknknkoEJFCFCHNkoididididididididkolEf/f/f/GnCqCqGXf/f/f/f/f/f/ARBgARf/iIiJ
+BOARD 0 24 64 0 iYiZF2GGAIGHF3f/f/jQhghhjCGGAPGHF3f/f/lDlUlUlUlUlUlUlUlUlBk4EZFCFCHdk4lAlUlUlUlUlUlUlUlUlCAwAxf/GnAPEtGXF2FmFnF3f/f/AhBwAgf/iYiZ
+BOARD 0 25 64 0 iKiMGnCqCqEtGXf/f/iCwLwLhlCqCqEtGXf/f/CgNrJeJfNrNqJeJfNqlFk4EJFCFCHNk4lENrJeJfNrNqJeJfNqCDf/f/f/GIGJCqGHGGCqEtGHF3f/f/f/ARBgiKiM
+BOARD 0 26 64 0 iaicGIGJEtFoFpf/F2iSPpPqhlCqCqFoFpf/f/CgNrJuJvNrNqJuJvNqlFk4EZFCFCHdk4lENrJuJvNrNqJuJvNqCDf/FKFLf/GIGJEtCqCqCqCqGHF3f/f/AhBwiaic
+BOARD 0 27 64 0 iIiJf/GIF5Fpf/F2GGiSPGPHh1EtFoFpf/ACADCgNrgyg0NrNqgyg0NqlFk4EyEOEPPNk4lENrgyg0NrNqgyg0NqCDf/FaFbf/f/GnCqCqEtCqCqAIGHF3AwAxf/iIiJ
+BOARD 0 28 64 0 iYiZf/ACADf/f/GnCqAIEtCqCqCqGXACADASATCgNrNqNrNrNqNrNrNqlFkoknknididkolENrNqNrNrNqNrNrNqCDf/f/f/f/f/GIGJCqCqCqCqEtCqGHFmFnF3iYiZ
+BOARD 0 29 64 0 iKiMf/ASATf/f/GIF4F5GJFoF4F5FpASATf/f/CgNrknknknknknknNqlDlUlUlUlUlUlUlCNrididididididNqCDACADf/f/f/f/GIGJFoF4F5GJCqCqEtAIGXiKiM
+BOARD 0 30 64 0 iaicf/f/f/f/f/f/QJQKGnGXQJQKf/f/f/ACAD5cN7KpKqKpKqKpKqN6CgNrNqNrNrNqNqCDN6KpKqKpKqKpKqN65dASATf/f/f/QJQKGnGXQJQKGIF4F5F4F5Fpiaic
+BOARD 0 31 64 0 iIiJdEdEdEdEdEdEdGQaGnGXQZdDdEdEdEdEdEdGk4KpKqKpKqKpKqk4CgjQkTkRkSkTjCCDk4KpKqKpKqKpKqk4dDdEdEdEdEdEdGQaGnGXQZdDdEdEdEdEdEdEiIiJ
+BOARD 0 32 64 0 iYiZdUdUdUdUdUdUdWVXVXVXVXdTdUdUdUdUdUdWkoK5K6K5K6K5K6koCgkEwLwLwLwLkFCDkoK5K6K5K6K5K6kodTdUdUdUdUdUdWVXVXVXVXdTdUdUdUdUdUdUiYiZ
+BOARD 0 33 64 0 iKiMdkdkdkdkdkdkdXnInJnZnYdjdkdkdkdkdkdXnYnInJnZnYnInJnZCgkUwLwLwLwLkVCDnYnInJnZnYnInJnZdjdkdkdkdkdkdXnZnYnInJdjdkdkdkdkdkdkiKiM
+BOARD 0 34 64 0 iaicnZkoknkonZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJCgkkwLwLwLwLklCDnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYkoknkonYiaic
+BOARD 0 35 64 0 iIiJkoKpKpKqnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnI5ckEItItItItkF5dnJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZKpKpKqkoiIiJ
+BOARD 0 36 64 0 iYiZk4KpKpKqnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJKpKpKqk4iYiZ
+BOARD 0 37 64 0 iKiMk4KpKpKqnJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnIKpKpKqk4iKiM
+BOARD 0 38 64 0 iaick4KpKpKqnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYKpKpKqk4iaic
+BOARD 0 39 64 0 iIiJk4KpKpKqnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJeuevnInJnZnYnInJnZnYnInJeuevnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZKpKpKqk4iIiJ
+BOARD 0 40 64 0 iYiZkoKpKpKqnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJnInYnZnJKpKpKqkoiYiZ
+BOARD 0 41 64 0 iKiMnJkoknkonJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnInJnZnYnIkoknkonIiKiM
+BOARD 0 42 64 0 iaic6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/iaic
+BOARD 0 43 64 0 iIiJ7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7fiIiJ
+BOARD 0 44 64 0 iYiZ7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7viYiZ
+BOARD 0 45 64 0 iKiMieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLiKiM
+BOARD 0 46 64 0 iaicieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLiaic
+BOARD 0 47 64 0 iIiJwLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieieiIiJ
+BOARD 0 48 64 0 iYiZwLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieieiYiZ
+BOARD 0 49 64 0 iKiMieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLiKiM
+BOARD 0 50 64 0 iaicieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLiaic
+BOARD 0 51 64 0 iIiJwLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieieiIiJ
+BOARD 0 52 64 0 iYiZwLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieieiYiZ
+BOARD 0 53 64 0 iKiMieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLiKiM
+BOARD 0 54 64 0 iaicieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLieiewLwLiaic
+BOARD 0 55 64 0 iIhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhohphqhrhoiJ
+BOARD 0 56 64 0 h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5h6h7h4h5
+BOARD 0 57 64 0 mHj2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3j4j5j2j3mG
+BOARD 0 58 64 0 mHjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnkIkJjmjnmG
+BOARD 0 59 64 0 knkMjrknidkMjrknidkMjrknidkMjrknidkMjrknidkMjrknidkMjrknidkMjrknidkMjrknidkMjrknidkMjrknidkMjrknidkMjrknidkMjrknidkMjrknidkMjrid
+BOARD 0 60 64 0 Cgkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7NqNrkcj7CD
+BOARD 0 61 64 0 5cmompN6N7mompN6N7mompN6N7mompN6N7mompN6N7mompN6N7mompN6N7mompN6N7mompN6N7mompN6N7mompN6N7mompN6N7mompN6N7mompN6N7mompN6N7momp5d
+BOARD 0 62 64 0 gKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJgKm4m5gJ
+BOARD 0 63 64 0 gagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZ
+LINK guildventrue_inside_boom_01.nw 10 26 2 1 36.5 56.5
+NPC - 32 18
+// NPC made by Boom (LAT)
+//#CLIENTSIDE
+if (playerenters) {drawaslight;
+  this.flames_maximumx = -5;              //Maximum horizontal movement
+  this.flames_minimumx = 5;             //Minimum horizontal movement
+  this.flames_maximumy = -23;              //Maximum vertical movement
+  this.flames_minimumy = 1;             //Minimum vertical movement
+  this.flames_gravityx = 0;              //Horizontal gravity pull per refresh
+  this.flames_gravityy = 0;              //Vertical gravity pull per refresh
+  this.flames_maincolor_blue = 1;         //Main colour red amount
+  this.flames_maincolor_blue = 1;       //Main colour green amount
+  this.flames_maincolor_blue = 1;        //Main colour blue amount
+  this.flames_tintcolor_blue = 0.2;         //Tint colour red amount
+  this.flames_tintcolor_blue = 1;     //Tint colour green amount
+  this.flames_tintcolor_blue = 1;        //Tint colour blue amount
+  this.flames_glowcolor_red = 0;         //NPC glow red amount
+  this.flames_glowcolor_green = 0;     //NPC glow green amount
+  this.flames_glowcolor_blue = 0;        //NPC glow blue amount
+  this.flames_zoom = 0.17;                //Particle Density
+  this.flames_alpha = 0.5;               //Particle Opacity
+  this.flames_multiplyer = 250;            //Particle Complexity (Use only whole numbers)
+  this.flames_recycletime = 30;           //Refreshes before a particle is recycled (Use only whole numbers)
+  setarray this.flames_randomx,this.flames_multiplyer;
+  setarray this.flames_randomy,this.flames_multiplyer;
+  setarray this.flames_changevar,this.flames_multiplyer;
+  this.flames_setupvar = 0;
+  for (this.flames_setup = 0;this.flames_setup < this.flames_multiplyer;this.flames_setup ++){
+    this.flames_randomx[this.flames_setup] = random(this.flames_minimumx,this.flames_maximumx);
+    this.flames_randomy[this.flames_setup] = random(this.flames_minimumy,this.flames_maximumy);
+    this.flames_changevar[this.flames_setup] = this.flames_setupvar;
+    this.flames_setupvar ++;
+    if (this.flames_setupvar > this.flames_recycletime){
+      this.flames_setupvar = 0;
+    }
+  }
+  showimg 205,light2.png,x - 4,y - 4;
+  changeimgcolors 205,this.flames_glowcolor_red,this.flames_glowcolor_green,this.flames_glowcolor_blue,0.99;
+  changeimgvis 205,3;
+  timeout = 0.05;
+}
+if (timeout){
+  this.flames_colourswitch = 0;
+  for (this.flames_drawtime = 0;this.flames_drawtime < this.flames_multiplyer;this.flames_drawtime ++){
+    showimg 210 + this.flames_drawtime,light2.png,x - 4 + (this.flames_randomx[this.flames_drawtime] / this.flames_recycletime)*this.flames_changevar[this.flames_drawtime] + ((this.flames_changevar[this.flames_drawtime]^2)/2 + this.flames_changevar[this.flames_drawtime]/2)*this.flames_gravityx,y - 4 + (this.flames_randomy[this.flames_drawtime] / this.flames_recycletime)*this.flames_changevar[this.flames_drawtime] + ((this.flames_changevar[this.flames_drawtime]^2)/2 + this.flames_changevar[this.flames_drawtime]/2)*this.flames_gravityy;
+    if (this.flames_colourswitch > 1){
+      changeimgcolors 210 + this.flames_drawtime,this.flames_tintcolor_red,this.flames_tintcolor_green,this.flames_tintcolor_blue,this.flames_alpha;
+      this.flames_colourswitch = 0;
+    }
+    else {
+      changeimgcolors 210 + this.flames_drawtime,this.flames_maincolor_red,this.flames_maincolor_green,this.flames_maincolor_blue,this.flames_alpha;
+      this.flames_colourswitch ++;
+    }
+    changeimgvis 210 + this.flames_drawtime,3;
+    changeimgzoom 210 + this.flames_drawtime,this.flames_zoom;
+    this.flames_changevar[this.flames_drawtime] ++;
+    if (this.flames_changevar[this.flames_drawtime] > this.flames_recycletime){
+      this.flames_changevar[this.flames_drawtime] = 0;
+      this.flames_randomx[this.flames_drawtime] = random(this.flames_minimumx,this.flames_maximumx);
+      this.flames_randomy[this.flames_drawtime] = random(this.flames_minimumy,this.flames_maximumy);
+    }
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC light4.png 21 15
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 0,0.2,1,0.1;
+  drawaslight;
+  this.zoom = 2;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=2) {
+this.ds=1;
+}
+else if (this.zoom>=2.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC - 57 5
+// NPC made by Mighty
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  seteffect 0,0,0,0.4;
+  timeout = .10;
+}
+NPCEND
+NPC light4.png 28 22
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 0,0.2,1,0.1;
+  drawaslight;
+  this.zoom = 2;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=2) {
+this.ds=1;
+}
+else if (this.zoom>=2.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC waterfalldown.mng 21 13
+//#CLIENTSIDE
+if (created) {setimgpart waterfalldown.mng, 0,45,32,24932;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC couch4.png 58 34
+// NPC made by Boom Rofocale (Ventrue)
+if (created) {
+}
+if (playertouchsme) {dontblock
+} {drawunderplayer}
+NPCEND
+NPC waterfalldown.mng 41 13
+//#CLIENTSIDE
+if (created) {setimgpart waterfalldown.mng, 0,45,32,24932;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC waterfalldown.mng 37 13
+//#CLIENTSIDE
+if (created) {setimgpart waterfalldown.mng, 0,45,32,24932;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC waterfalldown.mng 33 13
+//#CLIENTSIDE
+if (created) {setimgpart waterfalldown.mng, 0,45,32,24932;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC waterfalldown.mng 29 13
+//#CLIENTSIDE
+if (created) {setimgpart waterfalldown.mng, 0,45,32,24932;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC waterfalldown.mng 25 13
+//#CLIENTSIDE
+if (created) {setimgpart waterfalldown.mng, 0,45,32,24932;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC couch.png 20 29
+// NPC made by Boom Rofocale (Ventrue)
+if (created) {
+}
+if (playertouchsme) {dontblock
+} {drawunderplayer}
+NPCEND
+NPC watergraal.png 31 18
+// NPC made by Boom Rofocale (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC light4.png 28 15
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 0,0.2,1,0.1;
+  drawaslight;
+  this.zoom = 2;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=2) {
+this.ds=1;
+}
+else if (this.zoom>=2.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC light4.png 28 15
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 0,0.2,1,0.2;
+  drawaslight;
+  this.zoom = 2;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=2) {
+this.ds=1;
+}
+else if (this.zoom>=2.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.png 25 37
+// NPC made by Boom Rofocale (Ventrue)
+if (created) {
+}
+if (playertouchsme) {dontblock
+}
+NPCEND
+NPC bluelampani.png 37 37
+// NPC made by Boom Rofocale (Ventrue)
+if (created) {
+}
+if (playertouchsme) {dontblock
+}
+NPCEND
+NPC light4.png 35 15
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 0,0.2,1,0.1;
+  drawaslight;
+  this.zoom = 2;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=2) {
+this.ds=1;
+}
+else if (this.zoom>=2.1) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC light4.png 22 34
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 0.8,0.8,0.8,0.3;
+  drawaslight;
+  this.zoom = 1.5;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1.5) {
+this.ds=1;
+}
+else if (this.zoom>=1.6) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC vv-boomarmor.png 30 33
+// NPC made by Boom Rofocale (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkpedistal.png 9 24
+function onCreated() {
+  y+=.5;
+}
+function onActionPush(dir) {
+  if (!this.pushed && dir==0) {
+    move(0,-2.5,1,0);
+    this.pushed = true;
+    setTimer(5);
+  }
+}
+function onTimeOut(){
+  this.pushed = false;
+    move(0,2.5,1,0);
+}
+//#CLIENTSIDE
+function onCreated() {
+  setshape(1,64,64);
+  drawunderplayer();
+}
+NPCEND
+NPC boom_chest.png 48 21
+// NPC made by Boom Rofocale (Ventrue)
+if (created) {
+}
+if (playertouchsme)
+NPCEND
+NPC boom_insignia.png 24 3
+// NPC made by Stefan Knorr
+if (created) {
+  setimg boom_insignia.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,,,1;
+  drawaslight;
+}
+{drawunderplayer}
+NPCEND
+NPC light4.png 34 34
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 0.8,0.8,0.8,0.3;
+  drawaslight;
+  this.zoom = 1.5;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1.5) {
+this.ds=1;
+}
+else if (this.zoom>=1.6) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC vv-boomarmor.png 32 33
+// NPC made by Boom Rofocale (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC couch.png 36 29
+// NPC made by Boom Rofocale (Ventrue)
+if (created) {
+}
+if (playertouchsme) {dontblock
+} {drawunderplayer}
+NPCEND
+NPC couch3.png 2 34
+// NPC made by Boom Rofocale (Ventrue)
+if (created) {
+}
+if (playertouchsme) {dontblock
+} {drawunderplayer}
+NPCEND

@@ -1,0 +1,187 @@
+GLEVNW01
+BOARD 0 0 64 0 lAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlBlDlClAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlB
+BOARD 0 1 64 0 lElglllllllllllllllllllllllllllllllllllllllllllllllllllllllhlDlUlUlClglllllllllllllllllllllllllllllllllllllllllllllllllllllllhlF
+BOARD 0 2 64 0 lEl0mAmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmBljlllllllllimAmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmBl1lF
+BOARD 0 3 64 0 lEl0m0mglGlHlGlHlGlHlHlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGmhmDmlmlmlmlmlmlmCmglHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlGlHlGlHlHlGlHmhm1l1lF
+BOARD 0 4 64 0 lEl0m0lWnAmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnBmjlGlHhshththulGlHminAmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnBlXm1l1lF
+BOARD 0 5 64 0 lEl0m0lmmGngmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnhnDmWmWmWiKiLiLiMmWmWmWnCngmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnhmHlnm1l1lF
+BOARD 0 6 64 0 lEl0m0lWmGmGnknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnlnDmWmWmWmWiaibibicmWmWmWmWnCnknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnlmHmHlXm1l1lF
+BOARD 0 7 64 0 lEl0m0lmmGmGnGcem2m3m2cem2m3m2cem2m3m2cem2m3m2cen2nWnWnWnWnWnWnWnWnWnWnWnWnWnWn3m2m3m2cem2m3m2cem2m3m2cem2m3m2cem2nHmHmHlnm1l1lF
+BOARD 0 8 64 0 lEl0m0lWmGmGnGmncemnmmmnmmcemmmncemnmmmnmmcemmmncemnmmmnmmcemmmncemnmmmnmmcemmmncemnmmmnmmcemmmncemnmmmnmmcemmmncenHmHmHlXm1l1lF
+BOARD 0 9 64 0 lEl0m0lmmGmGnGm3m2ceZ2Z3Z3Z3Z3Z4m2cem2m3cem3m2m3m2cem2m3cem3m2m3m2cem2m3cem3m2m3m2cem2m3cem3m2m3Z2Z3Z3Z3Z3Z4m2m3m2nHmHmHlnm1l1lF
+BOARD 0 10 64 0 lEl0m0lWmGmGnGcemmmnaGaHaHaHaHaImmmnmmcemmmnmmcemmmnmmYXYKYcYcYcYcYcYcYLYZmnmmcemmmnmmcemmmnmmceaGaHaHaHaHaImmcemmnHmHmHlXm1l1lF
+BOARD 0 11 64 0 lEl0m0lmmGmGnGm3m2dDdEdEdEdEdEdEdGm3cem3m2m3cem3m2m3nmYK2XZ3Z3Z3Z3Z3Z32YYLnncem3m2m3cem3m2m3cedDdEdEdEdEdEdEdGm3m2nHmHmHlnm1l1lF
+BOARD 0 12 64 0 lEl0m0lWmGmGnGmnmmdlc/c/c/c/c/c/dmcemmYXYKYcYcYLYZnmnHux2naHaHaHaHaHaH2ouwnGnnYXYKYcYcYLYZmnmmdlc/c/c/c/c/c/dmmnmmnHmHmHlXm1l1lF
+BOARD 0 13 64 0 lEl0m0lmmGmGnGm3cedlc/c/c/c/c/c/dmm3m2YK2XZ3Z32YYLnHnHuhuwn2nWnWnWnWn3uxugnGnGYK2XZ3Z32YYLcem2dlc/c/c/c/c/c/dmm3cenHmHmHlnm1l1lF
+BOARD 0 14 64 0 lEl0m0lWmGmGnGmnmmdTdUdUdUdUdUdUdWmncen22naHaH2on3n2nHuwuhvTvTn2n3vTvTuguxnGn3n22naHaH2on3mncedTdUdUdUdUdUdUdWmnmmnHmHmHlXm1l1lF
+BOARD 0 15 64 0 lEl0m0lmmGmGnGcem2dj2XZ3Z3Z3Z32YdXm3m2nmn2nWnWn3nmnnn2nWnWnWnWnWnWnWnWnWnWn3nmnnn2nWnWn3m2m3m2dj2XZ3Z3Z3Z32YdXcem2nHmHmHlnm1l1lF
+BOARD 0 16 64 0 lEl0m0lWmGmGnGmncemnaGaHaHaHaHaIcemnnmYXYKYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYLYZnnmmmnaGaHaHaHaHaImmmncenHmHmHlXm1l1lF
+BOARD 0 17 64 0 lEl0m0lmmGmGnGm3m2cem2m3cem3m2m3m2cenHYK2XZ3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z32YYLnGm2m3m2cem2m3cem3m2m3m2nHmHmHlnm1l1lF
+BOARD 0 18 64 0 lEl0m0lWmGmGnGcemmmnmmcemmmnmmcemmmnnHux2naHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaH2ouwnGmmcemmmnmmcemmmnmmcemmnHmHmHlXm1l1lF
+BOARD 0 19 64 0 lEl0m0lmmGmGnGm3m2m3cem3m2m3cem3m2nmn1uhvTvTvTvTvTvTvTvTvTvTvTvTvTvTvTvTvTvTvTvTvTvTvTvTugn0nnm3m2m3cem3m2m3cem3m2nHmHmHlnm1l1lF
+BOARD 0 20 64 0 lEl0m0lWmGmGnGmnmm3PM/M/M/aVaWaXaYcxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcyaVaWaXaYM/M/M//AmnmmnHmHmHlXm1l1lF
+BOARD 0 21 64 0 lEl0m0lmmGmGnGm3ceL6GkGlGkalQJQKaodKdL/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/udIdJalQJQKaoGlGkGlLbm3cenHmHmHlnm1l1lF
+BOARD 0 22 64 0 lEl0m0lWmGmGnGmnmmL6G0G1G0alQZQaa4cxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcya1QZQaaoG1G0G1LbmnmmnHmHmHlXm1l1lF
+BOARD 0 23 64 0 lEl0m0lmmGmGnGcem2L6GkGl3Pa1a2a4HzHwHxHyHxHyHzHwHxHyHxHyHzHwHxHyHxHyHzHwHxHyHxHyHzHwHxHyHxHyHzHwa1a3a4/AGkGlLbcem2nHmHmHlnm1l1lF
+BOARD 0 24 64 0 lEl0m0lWmGmGnGmnceL6G0G1L6M0UvM2bGb3bnb3AQb3bnb3AQb3bnb3AQb3bnb3AQb3bnb3AQb3bnb3AQb3bnb3AQb3bnbHM0ckM2LbG0G1LbmncenHmHmHlXm1l1lF
+BOARD 0 25 64 0 lEl0m0lmmGmGnGm3m2L6GkGlL6dZU/drb2NkLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmNlb2dZc0drLbGkGlLbm3m2nHmHmHlnm1l1lF
+BOARD 0 26 64 0 lEl0m0lWmGmGnGcemmL6G0G1L6M0/uM2bmLbnInYnInJk3nYnInJk3k3nInJk3k3nInJnInYnInJk3nYnInJnInYbqbrL6bmM0/uM2LbG0G1LbcemmnHmHmHlXm1l1lF
+BOARD 0 27 64 0 lEl0m0lmmGmGnGm3m2L6GkGlL6dZ/udrb2LbnJnZnYnZk3k3nYnZk3k3nYnZnJk3nYnZnJnZnYnZnJk3nYnZnJnZb6b7L6b2dZ/udrLbGkGlLbm3m2nHmHmHlnm1l1lF
+BOARD 0 28 64 0 lEl0m0lWmGmGnGmnmmL6G0G1L6M0/uM2AQLbnInJk3k3nInJk3k3nInJnInYnInJk3nYnInJnInYnInJk3nYnInJnInYL6AQM0/uM2LbG0G1LbmnmmnHmHmHlXm1l1lF
+BOARD 0 29 64 0 lEl0m0lmmGmGnGm3ceL6GkGlL6dZ/udrb2LbnYnZk3k3nYnZnJk3nYnZnJnZnYnZnJk3nYnZnJnZnYnZnJk3nYnZnJnZL6b2dZ/udrLbGkGlLbm3cenHmHmHlnm1l1lF
+BOARD 0 30 64 0 lEl0m0ishohpnGmnmmL6G0G1L6M0/uM2bmLbk3k3nInJnInYnInJk3nYnInJcdcdcdcdk3nYnInJnInYnInJk3nYnInJL6bmM0/uM2LbG0G1LbmnmmnHhqhritm1l1lF
+BOARD 0 31 64 0 lEl0m0i8iLjdnGcem2L6GkGlL6dZ/udrb2LbnJk3nYnZnJnZnYnZnJk3nYnZcdxyxzcdnJk3nYnZnJnZnYnZk3k3nYnZL6b2dZ/udrLbGkGlLbcem2nHjck5i9m1l1lF
+BOARD 0 32 64 0 lEl0m0i8iLjdnGmnceL6G0G1L6M0/uM2AQLbnInJk3nYnInJnInYnInJk3nYcdyCyDcdnInJk3nYnInJk3k3nInJk3k3L6AQM0/uM2LbG0G1LbmncenHjck5i9m1l1lF
+BOARD 0 33 64 0 lEl0m0jMh4h5nGm3m2L6GkGlL6dZ/udrb2LbnYnZnJk3nYnZnJnZnYnZnJk3cdcdcdcdnYnZk3k3nYnZk3k3nYnZnJk3L6b2dZ/udrLbGkGlLbm3m2nHh6h7jNm1l1lF
+BOARD 0 34 64 0 lEl0m0lWmGmGnGcemmL6G0G1L6M0/uM2bmLbnInYnInJk3nYnInJnInYnInJk3nYnInJk3k3nInJk3k3nInJnInYnInJL6bmM0/uM2LbG0G1LbcemmnHmHmHlXm1l1lF
+BOARD 0 35 64 0 lEl0m0lmmGmGnGm3m2L6GkGlL6dZ/udrb2LbnJnZnYnZnJk3nYnZnJnZnYnZk3k3nYnZk3k3nYnZnJk3nYnZnJnZnYnZL6b2dZ/udrLbGkGlLbm3m2nHmHmHlnm1l1lF
+BOARD 0 36 64 0 lEl0m0lWmGmGnGmnmmL6G0G1L6M0/uM2AQLbnInJnInYnInJk3nYnInJk3k3nInJk3k3nInJnInYnInJk3nYnInJnInYL6AQM0/uM2LbG0G1LbmnmmnHmHmHlXm1l1lF
+BOARD 0 37 64 0 lEl0m0lmmGmGnGm3ceL6GkGlL6dZ/udrb2LbbqbrnJnZnYnZk3k3nYnZk3k3nYnZnJk3nYnZnJnZnYnZnJk3nYnZnJnZL6b2dZ/udrLbGkGlLbm3cenHmHmHlnm1l1lF
+BOARD 0 38 64 0 lEl0m0lWmGmGnGmnmmL6G0G1L6M0UPM2bmLbb6b7nInJk3k3nInJk3k3nInJnInYnInJk3nYnInJnInYnInJk3nYnInJL6bmM0cEM2LbG0G1LbmnmmnHmHmHlXm1l1lF
+BOARD 0 39 64 0 lEl0m0lmmGmGnGcem2L6GkGlL6dZUfdrb2N0M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/N1b2dZcUdrLbGkGlLbcem2nHmHmHlnm1l1lF
+BOARD 0 40 64 0 lEl0m0lWmGmGnGmnceL6G0G1L6aVaWaYbWb3bnb3AQb3bnb3AQb3bnb3AQb3bnb3AQb3bnb3AQb3bnb3AQb3bnb3AQb3bnbXaVaXaYLbG0G1LbmncenHmHmHlXm1l1lF
+BOARD 0 41 64 0 lEl0m0lmmGmGnGm3m2L6GkGlL6alQJQKaYcxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcyaVQJQKaoLbGkGlLbm3m2nHmHmHlnm1l1lF
+BOARD 0 42 64 0 lEl0m0lWmGmGnGcemmL6G0G1L6alQZQaaoNWNX/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/u/uNUNValQZQaaoLbG0G1LbcemmnHmHmHlXm1l1lF
+BOARD 0 43 64 0 lEl0m0lmmGmGnGm3m2L6GkGlL6a1a2a3a4cxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcycxcya1a2a3a4LbGkGlLbm3m2nHmHmHlnm1l1lF
+BOARD 0 44 64 0 lEl0m0lWmGmGnGmnmmL6G0G1L6HwHyHxHyHxHyHzHwHxHyHxHyHzHwHxHyHxHyHzHwHxHyHxHyHzHwHxHyHxHyHzHwHxHyHxHyHxHzLbG0G1LbmnmmnHmHmHlXm1l1lF
+BOARD 0 45 64 0 lEl0m0lmmGmGnGm3ceL6GkGl3fLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLm/QGkGlLbm3cenHmHmHlnm1l1lF
+BOARD 0 46 64 0 lEl0m0lWmGmGnGmnmmL6G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1LbmnmmnHmHmHlXm1l1lF
+BOARD 0 47 64 0 lEl0m0lmmGmGnGcem2L6Gk2XZ3Z3Z3Z32YGlGkGlGkGlGkGlGkGlGkGlnmnXnXnXnXnXnXnnGkGlGkGlGkGlGkGlGkGlGk2XZ3Z3Z3Z32YGlLbcem2nHmHmHlnm1l1lF
+BOARD 0 48 64 0 lEl0m0lWmGmGnGmnce3fLm2naHaHaHaH2oLmLmLmLmLmLmLmLmLmLmnmn1uxvgvgvgvguwn0nnLmLmLmLmLmLmLmLmLmLm2naHaHaHaH2oLm/QmncenHmHmHlXm1l1lF
+BOARD 0 49 64 0 lEl0m0lmmGmGnGm3m2cedDdEdEdEdEdEdEdGm2m3cem3m2m3m2cenmn1uxugvCvCvCvCuhuwn0nnm2m3m2cem2m3cem3dDdEdEdEdEdEdEdGm2m3m2nHmHmHlnm1l1lF
+BOARD 0 50 64 0 lEl0m0lWmGmGnGcemmmndlc/c/c/c/c/c/dmmmcemmmnmmcemmnmn1uxuguxvgIlImvguwuhuwn0nncemmmnmmcemmmndlc/c/c/c/c/c/dmmmcemmnHmHmHlXm1l1lF
+BOARD 0 51 64 0 lEl0m0lmmGmGnGm3m2m3dlc/c/c/c/c/c/dmcem3m2m3cem3m2nHuxugvCIYIUIUITITIZvCuhuwnGm3m2m3cem3m2m3dlc/c/c/c/c/c/dmcem3m2nHmHmHlnm1l1lF
+BOARD 0 52 64 0 lEl0m0lWmGmGnGmnmmcedTdUdUdUdUdUdUdWmmmncemnmmmnmmnHvDvCvCvSvCvCvCvCvDvCvCvSnGmnmmcemmmncemndTdUdUdUdUdUdUdWmmmnmmnHmHmHlXm1l1lF
+BOARD 0 53 64 0 lEl0m0lmmGmGnGm3cem3dj2XZ3Z3Z3Z32YdXm2m3m2cem2m3cenHvDvCvCIoImImIlIlIpvCvCvSnGm3cem3m2m3m2cedj2XZ3Z3Z3Z32YdXm2m3cenHmHmHlnm1l1lF
+BOARD 0 54 64 0 lEl0m0lWmGmGnGmnmmmnceaGaHaHaHaHaImncemnmmmncemnmmnHuhuwvCuhCrITIUCrugvCuxugnGmnmmmncemnmmmnceaGaHaHaHaHaImncemnmmnHmHmHlXm1l1lF
+BOARD 0 55 64 0 lEl0m0lmmGmGnGcem2m3m2cem2m3m2cem2m3m2cem2m3m2cem2n2nluhuwvCvCvCvCvCvCuxugnkn3cem2m3m2cem2m3m2cem2m3m2cem2m3m2cem2nHmHmHlnm1l1lF
+BOARD 0 56 64 0 lEl0m0lWmGmGnGmncemnmmmnmmcemmmncemnmmmnmmcemmmnnmnXnXnXnXnXnXnXnXnXnXnXnXnXnXnncemnmmmnmmcemmmncemnmmmnmmcemmmncenHmHmHlXm1l1lF
+BOARD 0 57 64 0 lEl0m0lWmGmGn0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1nTjmjniIkpkpiJiIkpkpiJjmjnnSn0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1mHmHlnm1l1lF
+BOARD 0 58 64 0 lEl0m0lWmGnwmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnRkGkHiYk5k5iZiYk5k5iZkGkHnQmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxmHlXm1l1lF
+BOARD 0 59 64 0 lEl0m0lmnQmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXkWkXkbkMjrkGkHkMjrj8kWkXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnRlnm1l1lF
+BOARD 0 60 64 0 lEl0m0mwl2l3l2l2l3l2l3l2l2l3l2l3l2l2l3l2l3l2l3l2l3l2l3mxmTkcj7m4m5kcj7mSmwl2l3l2l2l3l2l3l2l3l2l2l3l2l3l2l2l3l2l3l2l3l2l3mxm1l1lF
+BOARD 0 61 64 0 lEl0mQnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVmRlzmVmVmVmVlymQnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVmRl1lF
+BOARD 0 62 64 0 lElwmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVlxlTlVlVlSlwmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVlxlF
+BOARD 0 63 64 0 lQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlRlTlSlQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlR
+LINK gc_arena_05.nw 29 59 2 1 30.5 6
+LINK gc_arena_06.nw 33 59 2 1 30.5 6
+LINK gc_arena_s2.nw 31 4 2 1 28.5 54
+LINK gc_arena_q2.nw 3 31 1 2 55.5 30
+LINK gc_arena_q4.nw 60 31 1 2 5.5 30
+NPC churchseat.png 47 53
+if (created){
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 11 53
+if (created){
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 10 15
+if (created){
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC - 13 20
+join("level_sparlevel");
+NPCEND
+NPC bottle.png 15 13
+if (created) drawunderplayer;
+NPCEND
+NPC bottle.png 10 11
+if (created) drawunderplayer;
+NPCEND
+NPC bottle.png 49 11
+if (created) drawunderplayer;
+NPCEND
+NPC bottle.png 51 13
+if (created) drawunderplayer;
+NPCEND
+NPC bottle.png 48 49
+if (created) drawunderplayer;
+NPCEND
+NPC bottle.png 15 51
+if (created) drawunderplayer;
+NPCEND
+NPC churchseat.png 28 11
+if (created){
+  setimgpart churchseat.png,0,0,16,32;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 20 13
+if (created){
+  setimgpart churchseat.png,0,0,16,32;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 40 13
+if (created){
+  setimgpart churchseat.png,0,0,16,32;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 43 13
+if (created){
+  setimgpart churchseat.png,80,0,16,32;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 35 11
+if (created){
+  setimgpart churchseat.png,80,0,16,32;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 23 13
+if (created){
+  setimgpart churchseat.png,80,0,16,32;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 48 15
+if (created){
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 43 17
+if (created){
+  setimgpart churchseat.png,80,0,16,32;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 20 17
+if (created){
+  setimgpart churchseat.png,0,0,16,32;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 47 47
+if (created){
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC churchseat.png 11 47
+if (created){
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC - 16 20
+if (created) setstring this.nextlevel,gc_arena_s2.nw;
+join gc_arena_systems;
+NPCEND

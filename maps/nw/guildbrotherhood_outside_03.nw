@@ -1,0 +1,178 @@
+GLEVNW01
+BOARD 0 0 64 0 C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+GsDTDUDVf/BYBZBa
+BOARD 0 1 64 0 EtCqCrCrCqAPCrCqCrCrEtCrEtCrEtCrEtCrEtCqCrCrCqAPCrCqCrCrEtEtCqCrCrCqAPCrCqCrCrEtCrEtCrEtCrEtCrEtCqCrCrCqAPCrCqCrG8DjDkDVf/BoBpBq
+BOARD 0 2 64 0 CrCrEtEtCrCrEtCrEtCqCrCqCrCqCrCqCrCqCrCrEtEtCrCrEtCrEtCqCrCrCrEtEtCrCrEtCrEtCqCrCqCrCqCrCqCrCqCrCrEtEtCrCrEtCrEtGsDTDUDVf/B4B5B6
+BOARD 0 3 64 0 EtCqCrCrEtCrEtCrEtCrEtCrEtCrEtCrEtCrEtCqCrCrEtCrEtCrEtCrEtEtCqCrCrEtCrEtCrEtCrEtCrEtCrEtCrEtCrEtCqCrCrEtCrEtCrEtG8DjDkDVf/f/CJCK
+BOARD 0 4 64 0 CqCrEtCqCrCqCrCqCrCqCrCqCrCqCqCqCqCqCqCrEtCqCrCqCrCqCrCqCrCqCrEtCqCrCqCrCqCrCqCrCqCrCqCqCqCqCqCqCrEtCqCrCqCrCqCrGsDTDUDVf/f/f/Ca
+BOARD 0 5 64 0 CrCqCrCrEtCrEtAPCrCrEtCrEtCqCrCqCrCqCrCqCrCrEtCrEtAPCrCrEtCrCqCrCrEtCrEtAPCrCrEtCrEtCqCrCqCrCqCrCqCrCrEtCrEtAPCrG8DjDkDVf/AJAKAL
+BOARD 0 6 64 0 EtCrEtCqCrCqEtCrEtCqCrCqCrAPEtCrEtCrEtCrEtCqCrCqEtCrEtCqCrEtCrEtCqCrCqEtCrEtCqCrCqCrAPEtCrEtCrEtCrEtCqCrCqEtCrEtGsDTDUDVAYAZAaAb
+BOARD 0 7 64 0 CrCqCrCrEtCrCrCqCrCrEtCrEtCqCrCqCrCqCrCqCrCrEtCrCrCqCrCrEtCrCqCrCrEtCrCrCqCrCrEtCrEtCqCrCqCrCqCrCqCrCrEtCrCrCqCrG8DjDkDVAoApAqAr
+BOARD 0 8 64 0 EtCrEtCqCrCqEtCrEtEtCrCqCrCrEtCrEtCrEtCrEtCqCrCqEtCrEtEtCrEtCrEtCqCrCqEtCrEtEtCrCqCrCrEtCrEtCrEtCrEtCqCrCqEtCrEtGsDTDUDVA4A5A6A7
+BOARD 0 9 64 0 CrCqCrCrEtCrCrCqCrCrEtCrEtCqCrCqCrCqCrCqCrCrEtCrCrCqCrCrEtCrCqCrCrEtCrCrCqCrCrEtCrEtCqCrCqCrCqCrCqCrCrEtCrCrCqCrG8DjDkDVBIBJBKBL
+BOARD 0 10 64 0 EtCrEtCqCrCqEtCrEtEtCrCqCrCrEtCrEtCrEtCrEtCqCrCqEtCrEtEtCrEtCrEtCqCrCqEtCrEtEtCrCqCrCrEtCrEtCrEtCrEtCqCrCqEtCrEtGsDTDUDVBYBZBaBb
+BOARD 0 11 64 0 CrCqAICrEtCrCrCqAPCrEtCrEtCqCrCqCrCqCrCqAICrEtCrCrCqAPCrEtCrCqAICrEtCrCrCqAPCrEtCrEtCqCrCqCrCqCrCqAICrEtCrCrCqAPG8DjDkDVBoBpBqBr
+BOARD 0 12 64 0 EtCrEtCqCrCqEtCrEtCrCrCqCrAIEtCrEtCrEtCrEtCqCrCqEtCrEtCrCrEtCrEtCqCrCqEtCrEtCrCrCqCrAIEtCrEtCrEtCrEtCqCrCqEtCrEtGsDTDUDVB4B5B6B7
+BOARD 0 13 64 0 CrCqCrCrCqEtCrEtCqCqEtCrEtCqAICqCrCqCrCqCrCrCqEtCrEtCqCqEtCrCqCrCrCqEtCrEtCqCqEtCrEtCqAICqCrCqCrCqCrCrCqEtCrEtCqG8DjDkDVf/CJCKCL
+BOARD 0 14 64 0 EtCrEtEtCrCrCqAPCrCqCrCrEtCrEtCrEtCrEtCrEtEtCrCrCqAPCrCqCrEtCrEtEtCrCrCqAPCrCqCrCrEtCrEtCrEtCrEtCrEtEtCrCrCqAPCrGsDTDUDVf/f/CaCb
+BOARD 0 15 64 0 CrCqCrCrCrEtCrCrEtCrEtCqCrCqCrCqCrCqCrCqCrCrCrEtCrCrEtCrEtCrCqCrCrCrEtCrCrEtCrEtCqCrCqCrCqCrCqCrCqCrCrCrEtCrCrEtG8DjDkDVf/AJAKAL
+BOARD 0 16 64 0 CrCqCrCrCqEtCrEtCqCqEtCrEtCqAICqCrCqCrCqCrCrCqEtCrEtCqCqEtCrCqCrCrCqEtCrEtCqCqEtCrEtCqAICqCrCqCrCqCrCrCqEtCrEtCqGsDTDUDVAYAZAaAb
+BOARD 0 17 64 0 EtCrEtEtCrCrCqAPCrCqCrCrEtCrEtCrEtCrEtCrEtEtCrCrCqAPCrCqCrEtCrEtEtCrCrCqAPCrCqCrCrEtCrEtCrEtCrEtCrEtEtCrCrCqAPCrG8DjDkDVAoApAqAr
+BOARD 0 18 64 0 CrCqCrCrCrEtCrCrEtCrEtCqCrCqCrCqCrCqCrCqCrCrCrEtCrCrEtCrEtCrCqCrCrCrEtCrCrEtCrEtCqCrCqCrCqCrCqCrCqCrCrCrEtCrCrEtGsDTDUDVA4A5A6A7
+BOARD 0 19 64 0 EtCrEtAIEtCrEtCrEtCrEtCrEtCrEtCrEtCrEtCrEtAIEtCrEtCrEtCrEtEtCrEtAIEtCrEtCrEtCrEtCrEtCrEtCrEtCrEtCrEtAIEtCrEtCrEtG8DjDkDVBIBJBKBL
+BOARD 0 20 64 0 CqCqCqCqCrCqCrCqCrCqCrCqCrCqCrCqCqCqCqCqCqCqCrCqCrCqCrCqCrCqCqCqCqCrCqCrCqCrCqCrCqCrCqCrCqCqCqCqCqCqCqCrCqCrCqCrGsDTDUDVBYBZBaBb
+BOARD 0 21 64 0 CrCrCrCrCrCqCrCrEtCrEtCqCrCqCrCqCrCqCrCrCrCrCrCqCrCrEtCrEtCrCrCrCrCrCqCrCrEtCrEtCqCrCqCrCqCrCqCrCrCrCrCrCqCrCrEtG8DjDkDVBoBpBqBr
+BOARD 0 22 64 0 EtCqCrCqEtCrEtEtCrCqCrCrEtCrEtCrEtCrEtCqCrCqEtCrEtEtCrCqCrEtCqCrCqEtCrEtEtCrCqCrCrEtCrEtCrEtCrEtCqCrCqEtCrEtEtCrGsDTDUDVB4B5B6DQ
+BOARD 0 23 64 0 AICrEtCrCrCqAPCrEtCrEtCqCrCqCrCqCrCqAICrEtCrCrCqAPCrEtCrEtAICrEtCrCrCqAPCrEtCrEtCqCrCqCrCqCrCqAICrEtCrCrCqAPCrEtG8DjDkDVf/CJCKDg
+BOARD 0 24 64 0 EtCqCrCqEtCrEtCrCrCqCrAIEtCrEtCrEtCrEtCqCrCqEtCrEtCrCrCqCrEtCqCrCqEtCrEtCrCrCqCrAIEtCrEtCrEtCrEtCqCrCqEtCrEtCrCrGsDTDUDVf/f/CaA4
+BOARD 0 25 64 0 nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnnEtCqAICqCrCqCrCqCrCrEtEtCrEtCqCqEtG8DjDkDVf/f/f/BI
+BOARD 0 26 64 0 mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnynGEtCrEtCrEtCrEtCrEtCqCrCrCqAPCrCqCrGsDTDUDVf/f/f/BY
+BOARD 0 27 64 0 mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnSmGnGCrCqCrCqCrCqCrCqCrCrEtEtCrCrEtCrEtG8DjDkDVf/AJAKAL
+BOARD 0 28 64 0 l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3mymGmGnGEtCrEtCrEtCrEtCrEtCqCrCrEtCrEtCrEtGsDTDUDVAYAZAaAb
+BOARD 0 29 64 0 nUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVmSlWmGmGnGCrCqCrCqCqCqCqCqCqCrEtCqCrCqCrCqCrG8DjDkDVAoApAqAr
+BOARD 0 30 64 0 mVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVlynElmmGmGnGEtCrEtCqCrCqCrCqCrCqCrCrEtCrEtAPCrGsDTDUDVA4A5A6A7
+BOARD 0 31 64 0 lVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlSmEm0lWmGmGnGCrCqCrAPEtCrEtCrEtCrEtCqCrCqEtCrEtG8DjDkDVBIBJBKBL
+BOARD 0 32 64 0 H/H/H/H/H/H/H/H/H/ARBgARBgARBgARH/H/H/H/H/H/H/H/H/H/GkGlGkGlGkGllEl0nElWmGmGnGEtCrEtCqCrCqCrCqCrCqCrCrEtCrCrCqCrGsDTDUDVBYBZBaBb
+BOARD 0 33 64 0 HFHXH/H/GkGlGkGlH/BEf/Aheuevf/BEH/H/H/H/H/H/H/H/GkGlG0G1G0G1G0G1lEmEm0lmmGmGnGCrCqCrCrEtCrEtCrEtCrEtCqCrCqEtCrEtG8DjDkDVBoBpBqBr
+BOARD 0 34 64 0 GOHnHXH/G0G1G0G1H/GkGlH/e+e/f/GkGlH/H/H/H/H/H/H/G0G1GkGlkoknknkolEl0nElWmGmGnGEtCrEtCqCrCqCrCqCrCqCrCrEtCrCrCqCrGsDTDUDVB4B5B6DQ
+BOARD 0 35 64 0 GPGOHnHEHFHEHFHFHXG0G1GkGlGkGlG0G1G2HEHFHXH/AAABGkGlG0G1k4iqipk4lEmEm0lmmGmGnGCrCqCrCrEtCrEtCrEtCrEtCqCrCqEtCrEtG8DjDkDVf/CJCKDg
+BOARD 0 36 64 0 FCGPGOGOGOGOGOGOHnHXf/G0G1G0G1H/G2HGGOGOHnHXH/H/G0G1GkGlk4ipiqk4lEl0nElWmGmGnGEtCrEtCqCrCqCrCqCrCqAICrEtCrCrCqAPGsDTDUDVf/f/CaA4
+BOARD 0 37 64 0 FCFCHYHZHYHZHYHZGPG7H/H/H/H/H/G2HGGOH1GOGOHnHXH/GkGlG0G1k4iqipk4lEmEm0lmmGmGnGCrCqCrAIEtCrEtCrEtCrEtCqCrCqEtCrEtG8DjDkDVf/f/f/BI
+BOARD 0 38 64 0 FCFCFCFCFCFCFCFCGbHnHXH/H/H/H/HkGOGOGOGOH0GOG7H/G0G1GkGlk4ipiqk4lEl0nElWmGmGnGEtCrEtCqAICqCrCqCrCqCrCrCqEtCrEtCqGsDTDUDVf/f/f/BY
+BOARD 0 39 64 0 FCFCFCFDFEFCFCFCGrGOHnHXH/H/H/GmGWko6/6/koG3HHH/GkGlG0G1k4iqipk4lEmEm0lmmGmGnGCrCrEtCrEtCrEtCrEtCrEtEtCrCrCqAPCrG8DjDkDVf/AJAKAL
+BOARD 0 40 64 0 FCFCFCFCFCFCFCFCFCGPGOG7H/H/H/H/Gmk4ipiqk4HHH/H/G0G1GkGlk4ipiqk4lEl0nElWmGmGnGEtCqCrCqCrCqCrCqCrCqCrCrCrEtCrCrEtGsDTDUDVAYAZAaAb
+BOARD 0 41 64 0 FCFCFCFCFCFCFCFCFCGbGOG7H/H/H/H/H/k4iqipk4H/H/H/H/H/G0G1k4iqipk4lEmEm0lmmGmGnGEtCrEtCqAICqCrCqCrCqCrCrCqEtCrEtCqG8DjDkDVAoApAqAr
+BOARD 0 42 64 0 knknknknknknknknknknknknknknknknknkoipiqkoknknknknknknknkoipiqk4lEl0nElWmGmGnGCrCrEtCrEtCrEtCrEtCrEtEtCrCrCqAPCrGsDTDUDVA4A5A6A7
+BOARD 0 43 64 0 6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/k4lEmEm0lmmGmGnGEtCqCrCqCrCqCrCqCrCqCrCrCrEtCrCrEtG8DjDkDVBIBJBKBL
+BOARD 0 44 64 0 ipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipk4lEl0nElWmGmGnGEtCrEtCrEtCrEtCrEtCrEtAIEtCrEtCrEtGsDTDUDVBYBZBaBb
+BOARD 0 45 64 0 knknknknknknknknknknknkoiqipkoknknknknknknknknknknknknknknknknkolEmEm0lmmGmGnGCrCqCrCqCrCqCqCqCqCqCqCqCrCqCrCqCrG8DjDkDVBoBpBqBr
+BOARD 0 46 64 0 GmGWHJGYGZFCFCFSFCG5G7k4ipiqk4H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/lEl0nElWmGmGnGEtCqCrCqCrCqCrCqCrCrCrCrCrCqCrCrEtGsDTDUDVB4B5B6DQ
+BOARD 0 47 64 0 H/GmH2H3GWHJFCFCG5G3HHk4iqipk4H/H/H/H/H/H/H/H/H/H/H/AAABH/H/H/H/lEmEm0lmmGmGnGCrCrEtCrEtCrEtCrEtCqCrCqEtCrEtEtCrG8DjDkDVf/CJCKDg
+BOARD 0 48 64 0 H/H/H/H/GmGWHJG5G3HHH/k4ipiqk4H/H/H/AAABH/H/H/H/H/H/H/H/H/H/H/H/lEl0nElWmGmGnGEtCqCrCqCrCqCrCqAICrEtCrCrCqAPCrEtGsDTDUDVf/f/CaA4
+BOARD 0 49 64 0 H/H/H/H/H/HkGOG3HHH/H/k4iqipk4H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/lEmEm0lmmGmGnGCrAIEtCrEtCrEtCrEtCqCrCqEtCrEtCrCrG8DjDkDVf/f/f/BI
+BOARD 0 50 64 0 knknknknknknknknknknknkoipiqkoknknknknknknknknknknknknknknknknkolEl0nElWmGmGnGEtCqAICqCrCqCrCqCrCrEtEtCrEtCqCqEtGsDTDUDVf/f/f/BY
+BOARD 0 51 64 0 6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/k4lEmEm0lmmGmGnGEtCrEtCrEtCrEtCrEtCqCrCrCqAPCrCqCrG8DjDkDVf/AJAKAL
+BOARD 0 52 64 0 iqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqk4lEl0nElWmGmGnGCrCqCrCqCrCqCrCqCrCrEtEtCrCrEtCrEtGsDTDUDVAYAZAaAb
+BOARD 0 53 64 0 6/6/6/6/koknknknknknknknknknknknknknknknknknknknknknknknkoiqipk4lEmEm0lmmGmGnGEtCrEtCrEtCrEtCrEtCqCrCrEtCrEtCrEtG8DjDkDVAoApAqAr
+BOARD 0 54 64 0 ipiqipiqk4GOG4GPGOHnHXH/H/H/H/G2HEHFHXH/H/H/H/H/H/G0G1H/k4ipiqk4lEl0nElWmGmGnGCrCqCrCqCqCqCqCqCqCrEtCqCrCqCrCqCrGsDTDUDVA4A5A6A7
+BOARD 0 55 64 0 6/6/6/6/k4HIFCFCGPGOHnHXH/H/G2HGGOGOHnHXH/H/H/H/AAABGkGlk4iqipk4lEmEm0lmmGmGnGEtCrEtCqCrCqCrCqCrCqCrCrEtCrEtAPCrG8DjDkDVBIBJBKBL
+BOARD 0 56 64 0 ipiqipiqk4FCFCFCFCGPGOHnHEHFHGGOHIGPGOHnHXH/GkGlH/H/G0G1k4ipiqk4lEl0nElWmGmGnGCrCqCrAPEtCrEtCrEtCrEtCqCrCqEtCrEtGsDTDUDVBYBZBaBb
+BOARD 0 57 64 0 6/6/6/6/k4FCFCFCFCFCGPGOGOGOGOHIFCFCGPGOHnHXG0G1GkGlGkGlk4iqipk4lEmEm0lmmGmGnGEtCrEtCqCrCqCrCqCrCqCrCrEtCrCrCqCrG8DjDkDVBoBpBqBr
+BOARD 0 58 64 0 ipiqipiqk4FCFCFCFCFCFCHYHZHYHZFCFCFCFCGPGOG7H/H/G0G1G0G1k4ipiqk4lEl0nElWmGmGnGCrCqCrCrEtCrEtCrEtCrEtCqCrCqEtCrEtGsDTDUDVB4B5B6B7
+BOARD 0 59 64 0 6/6/6/6/k4FCFCFCFCFCFCGYGZGYGZFCFCFCFCGbGOG7H/AAABGkGlH/k4iqipk4lEmEm0lmmGmGnGEtCrEtCqCrCqCrCqCrCqCrCrEtCrCrCqCrG8DjDkELDnCJCKCL
+BOARD 0 60 64 0 ipiqipiqk4FCFCFCGYGZG5G3H2H3GWHJFCFCFCGrG3HHH/H/H/G0G1Gkk4ipiqk4lEl0nElWmGmGnGCrCqCrCrEtCrEtCrEtCrEtCqCrCqEtCrEtGcGRC4F9ELDnCaCb
+BOARD 0 61 64 0 6/6/6/6/k4FCFCG5GOGOG3HHH/H/GmGWGoFDFEGbG7H/H/GkGlH/H/G0k4iqipk4lEmEm0lmmGmGnGEtCrEtCqCrCqCrCqCrCqAICrEtCrCrCqAPEtGcGRC4F9ELCpCp
+BOARD 0 62 64 0 ipiqipiqkoFCG5lAlUlUlUlUlUlUlUlBG4FCFSGrlAlUlUlUlUlUlUlBk4ipiqk4lEl0nElWmGmGnGCrCqCrAIEtCrEtCrEtCrEtCqCrCqEtCrEtCrEtGcGRC4F9CqCq
+BOARD 0 63 64 0 HmFCFCHlHmG5GOlQlVlVlVlVlVlVlVlRHJGYGZG5lQlVlVlVlVlVlVlRk4iqipk4lEmEm0lmmGmGnGEtCrEtCqAICqCrCqCrCqCrCrCqEtCrEtCqCqEtCrGsGRC4F9Cq
+LINK guildbrotherhood_outside_01.nw 0 63 64 1 playerx 0
+LINK guildbrotherhood_outside_04.nw 0 0 1 64 61 playery
+LINK onnettown_outside_02.nw 63 0 1 64 0 playery
+NPC - 20 31
+//NPC by Master Storm
+
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head935.png;
+  setcharprop #C0,lightgray;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,stylez-elite-suit-shield-1.png;
+  setcharprop #n,Leon;
+  shieldpower = 1;
+  dir = 2;
+  ap=0;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme){
+  say2 LEON OWNS YOU!;
+}
+NPCEND
+NPC bluelampani.mng 12 31
+if (created) {
+  dontblock;
+}
+NPCEND
+NPC - 26 36
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head129.png;
+  setcharprop #C0, darkblue;
+  setcharprop #C1, black;
+  setcharprop #C2, black;
+  setcharprop #C3, black;
+  setcharprop #C4, black;
+  setcharprop #2, cyrix-rainbow6gun-shield.png;
+  setcharprop #8,body6.png;
+  setcharprop #n,?PrínçêFlámêßøÿ¿;
+  shieldpower = 1;
+  dir = 1;
+  ap=0;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme){
+  say2 Ownage!;
+}
+NPCEND
+NPC - 19 38
+//NPC by Master Storm
+
+//#CLIENTSIDE
+
+if (created) {
+  showimg 200,light4.png,x - 4,y - 4;
+  changeimgcolors 200,0,0.5,1,0.4;
+  changeimgzoom 200,1.2;
+}
+NPCEND
+NPC - 4 39
+//NPC by Master Storm
+
+//#CLIENTSIDE
+
+if (created) {
+  showimg 200,light4.png,x - 4,y - 4;
+  changeimgcolors 200,0,0.5,1,0.4;
+  changeimgzoom 200,2;
+}
+NPCEND
+NPC - 7 58
+//NPC by Master Storm
+
+//#CLIENTSIDE
+
+if (created) {
+  showimg 200,light4.png,x - 4,y - 4;
+  changeimgcolors 200,0,0.5,1,0.4;
+  changeimgzoom 200,1.2;
+}
+NPCEND
+NPC - 17 59
+//NPC by Master Storm
+
+//#CLIENTSIDE
+
+if (created) {
+  showimg 200,light4.png,x - 4,y - 4;
+  changeimgcolors 200,0,0.5,1,0.4;
+  changeimgzoom 200,2;
+}
+NPCEND
+NPC - 13 32
+//NPC by Master Storm
+
+//#CLIENTSIDE
+
+if (created) {
+  showimg 200,light4.png,x - 4,y - 4;
+  changeimgcolors 200,1,0.4,0,0.99;
+  changeimgzoom 200,1.2;
+}
+NPCEND

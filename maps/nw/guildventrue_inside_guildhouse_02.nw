@@ -1,0 +1,805 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4jQhhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhgjCJ4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4iCjBhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxjTh1J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4iSiTjAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAjDhkhlJ4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4iCiDiEjQhhhghhhghhhghhhghhhgjCjRiRiRiQiRiRiQiRiQiRiRiQiRiRiQiQiRiRiQjSjQhhhghhhghhhghhhghhhgjChzh0h1J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J4iSiTiUiCjBhwhxhwhxhwhxhwhxjTh1iF8OMAMBMCMD8OMAMBMCMBMCMD8OMAMBMCMD8OhyiCjBhwhxhwhxhwhxhwhxjTh1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4J4iCiDiEiSiTjAjD6869696+jAjDhkhliV8OMQMRMSMT8OMQMRMSMRMSMT8OMQMRMSMT8OhyiCiDjAjD6869696+jAjDhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEhz7M7N7N7OiEhzh0h1iF8OLQLRLSLT8OLgMAMBMCMDLj8OLQLRLSLT8OhyiSiTiUhz7M7N7N7OiEhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUhj7czDzE7eiUhjhkhliV8OLgLhLiLj8OLwMQMRMSMTLz8OLgLhLiLj8OhyiCiDiEhj7czDzE7eiUhjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEhz7sw0wz7uiEhzh0h1iF8OLwLxLyLz8OLQLQLRLSLTLT8OLwLxLyLz8OhyiSiTiUhz7sw0wz7uiEhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUhjjjuOuOjliUhjhkhliF8O8O8O8O8O8OLgLgLhLiLjLj8O8O8O8O8O8OhyiCiDiEhjjjuOuOjliUhjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEjXjwuOuOjyjFhzh0h1iF8O8O8O8O8O8OLwLwLxLyLzLz8O8O8O8O8O8OhyiSiTiUjXjwuOuOjyjFhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUjRjSuOuOjRjShjhkhliF8O8Ok2k28Ok2k28Ok2k28Ok2k28Ok2k28O8OhyiCiDiEjRjSuOuOjRjShjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiVhiuOuOiVhihzh0h1iF8Ok28O8Ok28O8Ok28O8Ok28O8Ok28O8Ok28OhyiSiTiUiFhiuOuOiFhihzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhiv1uOiVhyhjhkhliF8Ok28O8Ok28O8Ok28O8Ok28O8Ok28O8Ok28OhyiCiDiEiVhiuOv0iVhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhyuOuOiFhihzh0h1iF8O8Ok2k28Ok2k28Ok2k28Ok2k28Ok2k28O8OhyiSiTiUiFhyv1uOiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 19 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhiuOv1iVhyhjhkhliF8O8O8O8Ok28O8Ok28O8Ok28O8Ok28O8O8O8OhyiCiDiEiVhiuOv0iVhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 20 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhivYvZiVhihzh0h1ijhmhnhmhni18O8Ok28O8Ok28O8OinhnhmhmhmigiSiTiUiVhyvYvZiFhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 21 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhytCtCiFhihjhkjHhghhhghhjCiFk2k28Ok2k28Ok2k2hyjQhhhghhhgjEiDiEiFhitCtCiVhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 22 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhitCtCiVhihzjWhxhwhxhwjTh1iF8O8Ok28O8Ok28O8OhyiSjBhwhxhwhxjViUiFhytCtCiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 23 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitCtCiFhijXiAiBiAiBjDhkhliV8O8Ok28O8Ok28O8OhyiCiDjAiBiAiBiAjFiFhitCtCiFhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 24 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhytStCiVjGiRiRiQiRjShzh0h1iji1p4p48O8Op4p4inigiSiTiUjRiRiQiRiRjUhytCtCiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 25 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitCtCiFinhmhmhni1hyhjhkjHhgkop4p4kokop4p4kohgjEiDiEiVinhmhmhni1hitCtCiFhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 26 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhytCtCiVhyp4p4p4iVhyhzjWhxhwk4p4p4k4k4p4p4k4hwhxjViUiVhip4p4p4iVhytDtEiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 27 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitCtCiFhyp4p4p4iVhijXiAiBiAk4p4p4k4k4p4p4k4iAiBiAjFiVhip4p4p4iFhitCtCiFhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 28 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhitDtEiVhip4p4p4iVjGiQiQiRjSkop4p4kokop4p4kojRiQiRiRjUhyp4p4p4iVhytCtCiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 29 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitCtCiFhyp4p4p4ijhni1jQjChyp4p4p4p4p4p4p4p4iVjQjCinhnigp4p4p4iFhitCtCiVhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 30 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhytCtCiVhip4k2k2p4p4iVizihhip4p4p4p4p4p4p4p4iVizihhyp4p4k2k2p4iVhitCtSiFhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 31 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitCtCiFhyk2p4p4k2p4ijhnhnigp4p4p4p4p4p4p4p4ijhnhnigp4k2p4p4k2iVhytCtCiVhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 32 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhytCtCiVhyk2p4p4k2p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4k2p4p4k2iFhytCtCiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 33 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitCtCiFhip4k2k2p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4k2k2p4iVhitCtCiFhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 34 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhitDtEiFhip4p4p4p4u2vXp4p4p4p4p4p4p4p4p4p4p4p4p4p4u2vXp4p4p4p4iFhytCtCiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 35 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitCtCijigp4p4p4p4vUvnvXp4p4p4p4p4p4p4p4p4p4p4p4u2vGu7p4p4p4p4ijigtStCiVhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 36 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhytCtCu7p4p4p4p4p4umuWvnvXp4p4p4p4p4p4p4p4p4p4u2vGu3vHp4p4p4p4p4vUtCtCiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 37 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitCtCu7p4p4p4p4p4p4umuWvnvXp4p4p4p4p4p4p4p4u2vGu3vHp4p4p4p4p4p4vktCtCiVhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhitCtCjRjSp4p4p4p4u2vXp4uWvnvXp4p4p4p4p4p4u2vGu3vHu2vXp4p4p4p4jRjStCtCiFhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhytCtCiVhyp4p4p4p4vUvnvXumuWvnvXp4p4p4p4u2vGu3vHu2vGu7p4p4p4p4iVhitCtCiVhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhitCtCiVhip4p4p4p4umuWvnvXp4uWvnvXp4p4u2vGu3vHu2vGu3vHp4p4p4p4iVhitCtCiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitStCiFhip4p4p4p4p4umuWvnvXumuWvnvXu2vGu3vHu2vGu3vHp4p4p4p4p4iFhytCtCiFhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhytCtCiVhyp4p4p4p4p4p4umuWvnvXumuWvnvGu3vHu2vGu3vHp4p4p4p4p4p4iVhitCtSiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitCtCiFhip4p4p4p4p4p4p4umuWvnvXp4uWu3vHu2vGu3vHp4p4p4p4p4p4p4iVhitCtCiVhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhytCtCiFhyp4p4p4k2k2p4p4p4umuWvnvXumvHu2vGu3vHp4p4p4k2k2p4p4p4iFhytCtCiFhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitStCiVhip4p4k2p4p4k2p4p4p4umuWvnvXu2vGu3vHp4p4p4k2p4p4k2p4p4iVhitCtCiVhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhytCtCiVhip4p4k2p4p4k2p4p4p4p4umuWvnvGu3vHp4p4p4p4k2p4p4k2p4p4iVhytDtEiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitCtCiFjGiRjSp4k2k2p4p4p4p4p4p4umuWu3vHp4p4p4p4p4p4k2k2p4jRiRjUhitCtCiFhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEiFhytCtCiVjQjChyp4p4p4p4p4p4p4p4p4p4umvHp4p4p4p4p4p4p4p4p4p4iVjQjChytCtCiVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiUiVhitCtCiFizihjGiQiRiQiRiQjSp4p4p4p4p4p4p4p4p4p4jRiRiRiRiRiRjUizihhitCtCiFhihjhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4iSiTiUiCiDiEijigtCtCijhmhnhmhmhmhnhmi1hip4p4p4p4p4p4p4p4p4p4iFinhmhmhmhnhmhnhnigtCtCijighzh0h1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4iCiDiEiSiTiyh3jjtDtEjlh2h3h2h3h2h3ikiFhip4p4p4p4p4p4p4p4p4p4iFhii2h3h2h3h2h3h2jjtCtSjlh2ixhkhlhzh0h1J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4iSiTiUiCiiiGiHjwtCtCjyiHiHiGiHiGiliEiVhyp4p4p4p4p4p4p4p4p4p4iVhihjimiGiHiGiHiGjwtCtCjyiGiHiwh1hjhkhlJ4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4iCiDiEiziXiWiXkAkBkCkDiWiXiWiXi0iTiUiFhip4p4p4p4p4p4p4p4p4p4iFhyhzh0i3iXiWiXiWkAkBkCkDiWiXiWihhzh0h1J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4iSiTiyh3h2h3h2h3h2h3h2h3h2h3ikiCiDiEiVhyp4p4p4p4p4p4p4p4p4p4iVhihjhkhli2h2h3h2h3h2h3h2h3h2h3h2ixhkhlJ4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4iCiiiGiHiGiHiGiHiGiHiGiHiGiliEiSiTiUiVhip4p4p4p4p4p4p4p4p4p4iVhyhzh0h1hjimiHiGiHiGiHiGiHiGiHiGiHiwh1J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4iziXiWiXiWiXiWiXiWiXiWiXi0iTiUiCiDiEiFhip4p4p4p4p4p4p4p4p4p4iFhihjhkhlhzh0i3iWiXiWiXiWiXiWiXiWiXiWihJ4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iCiDiEkEkgkjijigp4p4p4p4k2k2p4p4p4p4ijigkgkjkFhjhkhlJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iSiTiUkUNFjxp4p4p4p4p4k2p4p4k2p4p4p4p4p4jkNFkVhzh0h1J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iCiDiEkkNFjxp4p4p4p4p4k2p4p4k2p4p4p4p4p4jkNFklhjhkhlJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iSiTiUk0kwkzjRjSp4p4p4p4k2k2p4p4p4p4jRjSkwkzk1hzh0h1J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iCiDiEiSiTiUiVhip4p4p4p4p4p4p4p4p4p4iVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iSiTiUiCiDiEiVhyp4p4p4p4p4p4p4p4p4p4iFhihjhkhlhzh0h1J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iCiDiEiSiTiUiFhip4p4p4p4p4p4p4p4p4p4iVhyhzh0h1hjhkhlJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK guildventrue_inside_guildhouse_01.nw 25 63 14 1 playerx 0
+LINK guildventrue_inside_guildhouse_11.nw 15 15 2 1 13.5 30
+LINK guildventrue_inside_guildhouse_11.nw 47 15 2 1 43.5 30
+LINK guildventrue_inside_guildhouse_05.nw 22 58 1 2 41 12
+LINK guildventrue_inside_guildhouse_05.nw 41 58 1 2 21 56
+LINK guildventrue_inside_guildhouse_03.nw 47 51 2 2 46.5 5
+LINK guildventrue_inside_guildhouse_03.nw 15 51 2 2 14.5 5
+NPC darkpillar.png 37 27
+function onCreated() {
+  dontblock();
+}
+NPCEND
+NPC darkpillar.png 44 46
+function onCreated() {
+  dontblock();
+}
+NPCEND
+NPC darkpillar.png 18 46
+function onCreated() {
+  dontblock();
+}
+NPCEND
+NPC darkpillar.png 25 27
+function onCreated() {
+  dontblock();
+}
+NPCEND
+NPC pentathing.png 28 5
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC pentathing.png 34 5
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC handlamp1on.mng 25 28
+function onCreated() {
+  drawoverplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart handlamp1on.mng,0,0,32,48;
+  setzoomeffect 0.7;
+  //glow
+  showimg 200,light2.png,x - 3,y - 2.5;
+  changeimgcolors 200,1,0.35,0,0.62;
+  changeimgzoom 200,0.5;
+}
+NPCEND
+NPC handlamp1on.mng 37 28
+function onCreated() {
+  drawoverplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart handlamp1on.mng,0,0,32,48;
+  setzoomeffect 0.7;
+  //glow
+  showimg 200,light2.png,x - 3,y - 2.5;
+  changeimgcolors 200,1,0.35,0,0.62;
+  changeimgzoom 200,0.5;
+}
+NPCEND
+NPC handlamp1on.mng 44 47
+function onCreated() {
+  drawoverplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart handlamp1on.mng,0,0,32,48;
+  setzoomeffect 0.7;
+  //glow
+  showimg 200,light2.png,x - 3,y - 2.5;
+  changeimgcolors 200,1,0.35,0,0.62;
+  changeimgzoom 200,0.5;
+}
+NPCEND
+NPC handlamp1on.mng 18 47
+function onCreated() {
+  drawoverplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart handlamp1on.mng,0,0,32,48;
+  setzoomeffect 0.7;
+  //glow
+  showimg 200,light2.png,x - 3,y - 2.5;
+  changeimgcolors 200,1,0.35,0,0.62;
+  changeimgzoom 200,0.5;
+}
+NPCEND
+NPC light2.png 22 26
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,0,0,0.66;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 34 26
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,0,0,0.66;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 41 44
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,0,0,0.66;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 15 44
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,0,0,0.66;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 31 2
+function onCreated() {
+  dontblock();
+}
+function onPlayerchats() {
+  timeout = 0.05;
+  if (player.chat == "disable!" && player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "Reflux")  {save[9] = 1; }
+  if (player.chat == "enable!" && player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "Reflux")  {save[9] = 0; }
+}
+
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  timeout = .05;
+  if (!strequals(#g,Ventrue)){
+    setcoloreffect 1,0,0,0.66;
+    changeimgzoom 1,3;
+    drawaslight;
+  }
+  if (save[9]=0) {
+    setcoloreffect 1,0,0,0.66;
+    changeimgzoom 1,3;
+    drawaslight;
+  }
+  if (save[9] == 1 && strequals(#g,Ventrue)) {
+    setcoloreffect 0,0,1,0.6;
+    changeimgzoom 1,3;
+    drawaslight;
+  }
+}
+NPCEND
+NPC light2.png 25 2
+function onCreated() {
+  dontblock();
+  setshape(1,32,32);
+}
+//#CLIENTSIDE
+if (playerenters || created || timeout){
+  drawaslight;
+  dontblock;
+  if (strequals(#g,Ventrue)){
+    this.safe = 1;
+    for (i=0;i<playerscount;i++){
+      if (!strequals(#a(i),)){
+        if (!strequals(#g(i),Ventrue)) this.safe = 0;
+      }
+    }
+    if (this.safe == 1){
+      setcoloreffect 1,0,0,0.66; changeimgzoom 1,3;
+    }else{
+      setcoloreffect 0,0,1,0.66; changeimgzoom 1,3;
+    }
+  }else setcoloreffect 0,0,1,0.66; changeimgzoom 1,3;
+  timeout = 0.5;
+}
+NPCEND
+NPC skullthrone.png 24 8
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (strequals(#g,Ventrue Vampires) || strequals(#g,The Sabbat) || strequals(#g,Ventrue)) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC skullthrone.png 36 8
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (strequals(#g,Ventrue Vampires) || strequals(#g,The Sabbat) || strequals(#g,Ventrue)) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC vvmainthrone.png 29 8
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (playerenters)
+  {
+  dontblock;
+  drawunderplayer;
+}
+//#CLIENTSIDE
+/* if (playerenters || timeout) {
+if (thronecount == 3) {
+nicklength = indexof(#g,#n);
+if (strequals(#g,)) triggeraction 0,0,serverthrone,Ventrue,#T(#e(0,nicklength -1,#n)),No Guild;
+else triggeraction 0,0,serverthrone,Ventrue,#T(#e(0,nicklength -1,#n)),#g;
+}
+if (playerx in |29,31| && playery in |11,13| && !playerpaused){
+thronecount += 0.05;
+}
+else {
+thronecount = 0;
+}
+showtext 200,34,7,Tempus Sans ITC,bic,is ruler of the throne!;
+showtext 201,34,5,Tempus Sans ITC,bic,#s(serverr.throneVentrue_nick) of #s(serverr.throneVentrue_guild);
+timeout = 0.05;
+}
+ */
+NPCEND
+NPC skullthrone.png 29 13
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC skullthrone.png 29 8
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC skullthrone.png 34 8
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC skullthrone.png 29 9
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC skullthrone.png 32 8
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC skullthrone.png 30 8
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC light2.png 28 0
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+  save[9] = 1;
+}
+
+function onPlayerchats() {
+  if ((player.guild == "Ventrue" && save[9] = 0) || player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p") {
+    if (playerx != 46.5 && playerx != 14.5) {
+      if (player.chat == "flow!")          save[0] = 1;
+      else if (player.chat == "end flow!") save[0] = 0;
+      else if (player.chat == "lock!")  {save[0] = 1; save[1] = 1;}
+      else if (player.chat == "unlock!")  {save[1] = 0; }
+      else if (player.chat == "block!")  {save[2] = 1; }
+      else if (player.chat == "unblock!")  {save[2] = 0; }
+      else if (player.chat == "done!")  {save[0] = 0; save[1] = 0; save[2] = 0; }
+      else if (player.chat == "all!")  {save[0] = 1; save[1] = 1; save[2] = 1; }
+      else if (player.chat == "disable!" && (player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p"))  {save[9] = 1; player.chat = "DM only!"; }
+      else if (player.chat == "enable!" && (player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p"))  {save[9] = 0; player.chat = "Full Guild!";}
+    }
+  }
+}
+
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  timeout = .05;
+  if (!strequals(#g,Ventrue) || save[1] == 0){
+    setcoloreffect 1,1,0.35,0.6;
+    changeimgzoom 1,3;
+    drawaslight;
+  }
+  if (save[1] == 1 && strequals(#g,Ventrue)){
+    setcoloreffect 0,0,1.35,0.6;
+    changeimgzoom 1,3;
+    drawaslight;
+  }
+}
+NPCEND
+NPC light2.png 44 0
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+  save[9] = 1;
+}
+
+function onPlayerchats() {
+  if ((player.guild == "Ventrue" && save[9] = 0) || player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p") {
+    if (playerx != 46.5 && playerx != 14.5) {
+      if (player.chat == "flow!")          save[0] = 1;
+      else if (player.chat == "end flow!") save[0] = 0;
+      else if (player.chat == "lock!")  {save[0] = 1; save[1] = 1;}
+      else if (player.chat == "unlock!")  {save[1] = 0; }
+      else if (player.chat == "block!")  {save[2] = 1; }
+      else if (player.chat == "unblock!")  {save[2] = 0; }
+      else if (player.chat == "done!")  {save[0] = 0; save[1] = 0; save[2] = 0; }
+      else if (player.chat == "all!")  {save[0] = 1; save[1] = 1; save[2] = 1; }
+      else if (player.chat == "disable!" && (player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p"))  {save[9] = 1; player.chat = "DM only!"; }
+      else if (player.chat == "enable!" && (player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p"))  {save[9] = 0; player.chat = "Full Guild!";}
+    }
+  }
+}
+
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  timeout = .05;
+  if (!strequals(#g,Ventrue) || save[2] == 0){
+    setcoloreffect 1,1,0.35,0.6;
+    changeimgzoom 1,3;
+    drawaslight;
+  }
+  if (save[2] == 1 && strequals(#g,Ventrue)){
+    setcoloreffect 0,0,1.35,0.6;
+    changeimgzoom 1,3;
+    drawaslight;
+  }
+}
+NPCEND
+NPC light2.png 12 0
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+  save[9] = 1;
+}
+function onPlayerchats() {
+  if ((player.guild == "Ventrue" && save[9] = 0) || player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p") {
+    if (playerx != 46.5 && playerx != 14.5) {
+      if (player.chat == "flow!")          save[0] = 1;
+      else if (player.chat == "end flow!") save[0] = 0;
+      else if (player.chat == "lock!")  {save[0] = 1; save[1] = 1;}
+      else if (player.chat == "unlock!")  {save[1] = 0; }
+      else if (player.chat == "block!")  {save[2] = 1; }
+      else if (player.chat == "unblock!")  {save[2] = 0; }
+      else if (player.chat == "done!")  {save[0] = 0; save[1] = 0; save[2] = 0; }
+      else if (player.chat == "all!")  {save[0] = 1; save[1] = 1; save[2] = 1; }
+      else if (player.chat == "disable!" && (player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p"))  {save[9] = 1; player.chat = "DM only!"; }
+      else if (player.chat == "enable!" && (player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p"))  {save[9] = 0; player.chat = "Full Guild!";}
+    }
+  }
+}
+
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  timeout = .05;
+  if (!strequals(#g,Ventrue) || save[0] == 0){
+    setcoloreffect 1,1,0.35,0.6;
+    changeimgzoom 1,3;
+    drawaslight;
+  }
+  if (save[0] == 1 && strequals(#g,Ventrue)){
+    setcoloreffect 0,0,1.35,0.6;
+    changeimgzoom 1,3;
+    drawaslight;
+  }
+}
+NPCEND
+NPC wateranilava.mng 15 12
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart wateranilava.mng,0,0,32,80;
+if (playertouchsme) putleaps 5,x,y + 3;
+NPCEND
+NPC wateranilava.mng 47 12
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart wateranilava.mng,0,0,32,80;
+if (playertouchsme) putleaps 5,x,y + 3;
+NPCEND
+NPC light2.png 12 8
+function onCreated() {
+  dontblock();
+  save[9] = 1;
+}
+function onPlayerchats() {
+  if ((player.guild == "Ventrue" && save[9] = 0) || player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p") {
+    if (player.chat == "done!")  {save[0] = 0; save[1] = 0; save[2] = 0; save[3] = 0; }
+    if (player.chat == "all!")  {save[0] = 1; save[1] = 1; save[2] = 1; save[3] = 1; }
+    if (player.chat == "disable!" && (player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p"))  {save[9] = 1; player.chat = "DM only!"; }
+    if (player.chat == "enable!" && (player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p"))  {save[9] = 0; player.chat = "Full Guild!";}
+    if (player.chat == "guard") { save[3] = 1; }
+    if (player.chat == "unguard") { save[3] = 0; }
+
+  }
+}
+
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  timeout = .05;
+  if (!strequals(#g,Ventrue) || save[3] == 0){
+    setcoloreffect 1,0,0,0.66;
+    drawaslight;
+  }
+  if (save[3] == 1 && strequals(#g,Ventrue)){
+    setcoloreffect 0,0,1,0.66;
+    drawaslight;
+  }
+}
+NPCEND
+NPC light2.png 44 7
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,0,0,0.66;
+  drawaslight;
+}
+NPCEND
+NPC pentakey.png 31 58
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  timeout=10;
+  x = 31.4375;
+  y = 58.25;
+}
+if (timeout){timeout=10;
+  if (strequals(#s(client.hd_isdead),true)) {
+    //    playerx=22;
+    //    playery=48;
+    this.py = random(29,62);
+    if (this.py >= 47) this.px = random(27,37);
+    else if (this.py <= 47 && this.py <= 29) this.px = random(19,45);
+    if (this.px == 0 || this.px <= 15) this.px = random(19,45);
+    playery = this.py;
+    playerx = this.px;
+  }
+
+}
+NPCEND
+NPC pentakey.png 22 45
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  x = 22.4375;
+  y = 45.25;
+}
+NPCEND
+NPC pentakey.png 40 45
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  x = 40.4375;
+  y = 45.25;
+}
+NPCEND
+NPC pentakey.png 42 31
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  x = 42.4375;
+  y = 31.25;
+}
+NPCEND
+NPC pentakey.png 20 31
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  x = 20.4375;
+  y = 31.25;
+}
+function onPlayerchats() {
+  if (player.chat == "spar") {
+    player.chat = "";
+    setlevel2("guildventrue_inside_guildhouse_09.nw",3.5,6.5);
+  }
+}
+NPCEND
+NPC vvstairsup.png 28 25
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+NPCEND
+NPC nmapiece3.png 32 24
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart nmapiece3.png,0,16,64,16;
+NPCEND
+NPC tileset_02.png 15 17
+//#CLIENTSIDE
+if (created) {
+  setimgpart tileset_02.png,656,32,32,16;
+}
+//#CLIENTSIDE
+if (playertouchsme&&strequals(#g,Ventrue)) {dontblock;drawunderplayer;}
+NPCEND
+NPC kcavelamp.mng 31 3
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart kcavelamp.mng,32,0,32,62;
+NPCEND
+NPC kcavelamp.mng 15 3
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart kcavelamp.mng,32,0,32,62;
+NPCEND
+NPC kcavelamp.mng 47 3
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart kcavelamp.mng,32,0,32,62;
+NPCEND
+NPC - 2 32
+//#CLIENTSIDE
+// Level effect
+if (playerenters) seteffect 0,0,0,0.4;
+NPCEND
+NPC vvstairsup.png 32 25
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+NPCEND
+NPC nmapiece3.png 28 24
+function onCreated() {
+  dontblock();
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart nmapiece3.png,0,16,64,16;
+NPCEND
+NPC - 19 25
+function onCreated() {
+  setshape(1,32,32);
+}
+
+
+function onActionflush() {
+  if (player.guild != "Ventrue"){
+    setlevel2 overworld_mountain_02.nw,39,43;
+  }
+}
+
+function onPlayerchats() {
+  if (player.guild != "Ventrue" && player.chat != "" && save[4] == 1) {player.chat = "";}
+
+  if (player.guild != "Ventrue") {return;}
+  if ((player.guild == "Ventrue" && save[9] = 0) || (player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p")) {
+    if (player.chat == "flow!"){save[0] = 1;}
+    if (player.chat == "end flow!") save[0] = 0;
+    if (player.chat == "lock!")  {save[0] = 1; save[1] = 1;}
+    if (player.chat == "unlock!")  {save[1] = 0; }
+    if (player.chat == "block!")  {save[2] = 1; }
+    if (player.chat == "unblock!")  {save[2] = 0; }
+    if (player.chat == "done!")  {save[0] = 0; save[1] = 0; save[2] = 0; save[3] = 0; }
+    if (player.chat == "all!")  {save[0] = 1; save[1] = 1; save[2] = 1; save[3] = 1; }
+    if (player.chat == "disable!" && (player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p"))  {save[9] = 1; player.chat = "DM only!"; }
+    if (player.chat == "enable!" && (player.account == "EvilOmniscience" || player.account == "abspilsbury2" || player.account == "GoCDeadstar" || player.account == "nikomi946" || player.account == "Nightmareangel" || player.account == "darkriders_p2p"))  {save[9] = 0; player.chat = "Full Guild!";}
+    if (player.chat == "guard")  {save[3] = 0; }
+    if (player.chat == "unguard")  {save[3] = 1; }
+    if (player.chat == "flush" && (player.account == "EvilOmniscience" || player.account == "nikomi946")) {save[8] = 1; sleep 10; save[8] = 0;}
+    if (player.chat == "silence!")  {save[4] = 1; }
+    if (player.chat == "unsilence!")  {save[4] = 0; }
+
+  }
+}
+
+//#CLIENTSIDE
+if (created || timeout) {
+  timeout = 0.05;
+  movement_handleitems = 0.1;
+  if (save[0] == 1 && !strequals(#g,Ventrue)) {
+    if ((playery >= 13 && playerx <= 15) || (playery <= 49 && playerx == 46.5)) {
+      playery++;
+      setplayerprop #c,Like woah!;
+    }
+
+    if (save[1] == 1 && !strequals(#g,Ventrue)) {
+      if (playery >= 24 && playery <= 29) {
+        while (playery <= 29){ playery++;}
+      }
+      if (playery >= 52) {
+        playery--;
+      }
+      if (playery <=29 && !strequals(#g,Ventrue)) { playery = 30; playerx = 31; }
+    }
+
+  }
+  if (save[4] == 1) {
+    if (!strequals(#g,Ventrue)) {
+      if (!strequals(#c,)) setplayerprop #c,;
+    }
+  }
+
+}
+if (save[2] == 1 && !strequals(#g,Ventrue)) {
+  if (playerx >= 43) {
+    playerx--;}
+  else if (playerx <= 18) {
+    playerx++;}
+
+}
+if (save[3] == 1 && !strequals(#g,Ventrue)) {
+  if (playery >= 24 && playery <= 29) {
+    while (playery <= 29){ playery++;}
+  }
+  if (playery <=29 && !strequals(#g,Ventrue)) { playery = 30; playerx = 31; }
+}
+
+
+if (save[8] == 1) {
+  for (i=0;i<playerscount;i++){
+    if (!strequals(#a(i),)){
+      if (!strequals(#g(i),Ventrue)) triggeraction x,y,flush,;
+    }
+  }
+NPCEND
+NPC skullthrone.png 34 13
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC skullthrone.png 34 11
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC skullthrone.png 34 9
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC skullthrone.png 33 8
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC skullthrone.png 29 11
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC skullthrone.png 31 8
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) setimgpart skullthrone.png,0,48,16,32;
+NPCEND
+NPC - 42 20
+//#CLIENTSIDE
+if (playerchats) {
+  if (strequals(#c,watch)) {
+    setfocus 30,38;
+  }
+  if (strequals(#c,end watch)) {
+    resetfocus;
+  }
+}
+NPCEND
+NPC tileset_02.png 47 17
+//#CLIENTSIDE
+if (created) {
+  setimgpart tileset_02.png,656,32,32,16;
+}
+//#CLIENTSIDE
+if (playertouchsme&&strequals(#g,Ventrue)) {dontblock;drawunderplayer;}
+NPCEND

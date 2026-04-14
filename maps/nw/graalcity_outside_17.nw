@@ -1,0 +1,466 @@
+GLEVNW01
+BOARD 0 0 64 0 f/f/f/f/f/f/OLW3W3W3W3W3W3W3XVWnWnWnWnWnWnWnWnWnWnWnWnWnWnXmW3W3W3W3W3W3W3f/f/f/f/f/f/f/f/f/f/AQf/f/f/f/f/f/CJCKCLCMCNCOf/f/AQf/
+BOARD 0 1 64 0 f/f/f/f/f/f/f/XHW3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3XHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/CaCbCcCdf/f/f/f/f/
+BOARD 0 2 64 0 f/f/f/f/f/f/f/f/W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 3 64 0 f/f/f/f/f/f/f/f/XHW3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3XHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/
+BOARD 0 4 64 0 f/f/f/f/f/f/f/f/f/W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3f/f/AAABf/f/AAABf/f/f/AJAKALAMANAOAJAKALAMANAOAJAKALAMANAO
+BOARD 0 5 64 0 f/f/f/f/f/f/f/f/f/XHW3W3W3W3W3W3W3WIWJW3W3W3W3W3W3WIWJW3W3W3W3W3W3W3W3f/f/f/f/f/f/f/f/f/f/AYAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAe
+BOARD 0 6 64 0 f/f/f/f/f/f/f/f/f/f/XHW3W3W3W3W3W3WYWZinhmhmhmhmi1WYWZW3W3W3W3W3W3W3f/f/f/f/f/f/f/f/f/f/f/AoApAqArAsAtAuApAqArAsAtAuApAqArAsAtAu
+BOARD 0 7 64 0 f/f/AAABf/f/f/f/OLf/f/XHXHW3W3W3W3W3W3hiNFNFNFNFiFW3W3W3W3W3W3XHXHf/f/f/f/f/AAABf/f/f/AAABA4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+
+BOARD 0 8 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/XHXHW3W3W3W3hiNFNFNFNFiFW3W3W3W3XHXHf/f/f/f/f/f/f/f/f/f/f/f/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBO
+BOARD 0 9 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/XHXHXHXHhij0j0j0j0iFXHXHXHXHf/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBe
+BOARD 0 10 64 0 f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/1A1BjGSfaQaRSfjU1A1Bf/f/f/f/f/f/f/f/f/f/AJAKALAMANAOAJAKALAMDCDDBsNANBNCNDBrDADBALAMDCDDBsBtBu
+BOARD 0 11 64 0 f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/1Q1Rf/f/f/f/f/f/1Q1ROLf/f/f/f/f/f/f/f/AYAZAaAbAcAdAeAZAaAbAcAdAeDRNQNRNSNTDQAZAaAbAcAdAeDRB9B+
+BOARD 0 12 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAAB1g1hf/f/f/f/f/f/1g1hf/f/f/f/f/f/f/f/f/AoApAqArAsAtAuApAqArAsAtAuDhNgNhNiNjDgApAqArAsAtAuDhCNCO
+BOARD 0 13 64 0 f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/OLf/f/A4A5A6A7A8A9A+A5A6A7A8A9A+A/NwNxNyNzA4A5A6A7A8A9A+A/Cdf/
+BOARD 0 14 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AQf/f/f/f/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBPAAABf/f/BIBJBKBLBMBNBOBPf/f/
+BOARD 0 15 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/AQf/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/BYBZBaBbBcBdBeBff/f/
+BOARD 0 16 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BoBpBqBrDADBALAMDCDDBsBtBuBvf/f/AAABBoBpBqBrBsBtBuBvf/f/
+BOARD 0 17 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/B4B5B6DQAZAaAbAcAdAeDRB9B+dDdEdFdEdEdGB5B6B7B8B9B+B/f/ar
+BOARD 0 18 64 0 f/f/f/f/f/f/AQf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/CJCKDgApAqArAsAtAuDhCNCOdTdUdVdUdUdWCJCKCLCMCNCOf/arZP
+BOARD 0 19 64 0 f/f/AAABf/f/f/f/f/f/f/f/OLAAABf/64lflflflflflflflflflf6pK4f/f/f/f/f/f/f/f/f/CaA4A5A6A7A8A9A+A/Cdf/djdkdkdkdkdXf/CaCbCcCdf/f/f/ar
+BOARD 0 20 64 0 f/f/f/f/f/f/f/f/f/f/f/f/K4K464lf65GO64lflflflflflf6pGO6olf6pAAABf/f/f/f/f/f/f/BIBJBKBLBMBNBOBPf/f/ZvAwAxZvAwAxAAABf/f/f/f/f/arap
+BOARD 0 21 64 0 OLf/f/f/f/f/f/f/f/f/f/64lflf65GOGO6465/w/w/w/w/w/w6o6pGOGO6olflf6pf/f/f/f/f/f/BYBZBaBbBcBdBeBfAAABf/f/AwAxZvf/f/AQf/f/f/f/arZPar
+BOARD 0 22 64 0 f/H/H/f/f/f/f/f/f/f/6465GOGOGOGOHIle/w/w/w/w/w/w/w/wleH6GOGOGOGO6o6pf/f/f/AJAKALAMDCDDBsBtBuBvf/f/f/AQZvAwAxZvf/f/f/KpKqf/f/arDs
+BOARD 0 23 64 0 f/H/H/f/f/f/f/f/f/f/leH6GOGOGOHIFC6olfaSaTaSaTaSaTlf65FCH6GOGOGOHIlef/f/AYAZAaAbAcAdAeDRB9B+B/f/f/ZvAwAxf/Zvf/f/f/f/K5K6f/f/f/EQ
+BOARD 0 24 64 0 f/H/H/f/f/f/f/f/f/f/leGbGOGOGOGoFCluluRkRjRkRjRkRjluluFCGbGOGOGOGolef/OLAoApAqArAsAtAuDhCNCOf/f/f/KpKqKnKof/f/f/f/LILJLKKrf/DsE4
+BOARD 0 25 64 0 f/H/H/f/f/f/f/f/f/f/leGrGOGOGOG4FCFClvRxRyRnRoRxRylvFCFCGrGOGOGOG4lef/f/A4A5A6A7A8A9A+A/Cdf/f/f/f/K5K6f/f/f/f/KpKqLYLZdxK7f/EcGJ
+BOARD 0 26 64 0 f/f/f/f/f/AAABf/f/f/leG5GOGOGOHJFCFCFCQXQYRxRyQXQYFCFCFCG5GOGOGOHJleAQf/BIBJBKBLBMBNBOBPf/f/f/f/LILJLKKrf/f/f/K5K6LYdxLZK7f/f/Ec
+BOARD 0 27 64 0 f/f/f/f/f/f/f/f/f/G1leGOGOGOGOGOHJGYGZFCFCQXQYFCFCGYGZG5GOGOGOGOGOleG0f/BYBZBaBbBcBdBeBff/f/KpKqLYLZLZK7f/f/f/f/f/LoLpLqLLAAABf/
+BOARD 0 28 64 0 f/f/f/f/f/f/f/f/GkGl6olf6pGOGOGOGOGOGOHJGYGZGYGZG5GOGOGOGOGOGO64lf65AQGlBoBpBqBrDADBALAMANAOK5K6LYLZLZK7KpKqf/f/f/f/f/f/f/f/f/Ds
+BOARD 0 29 64 0 f/f/f/f/f/f/f/f/AQG1lulu6olf6pGOGOGOGOGOGOGOGOGOGOGOGOGOGO64lf65luluG0G1B4B5B6DQAZAaAbAcAdAeAff/LYLZLZK7K5K6f/f/AAABf/f/f/f/DsGG
+BOARD 0 30 64 0 f/f/f/f/f/f/f/f/GkGlf/lvlulu6olf6pGOGOGOGOGOGOGOGOGOGO64lf65lululvf/GkGlf/CJCKDgApAqArAsAtAuAvf/LYLZLZK7f/f/f/f/f/f/f/f/f/f/EQCq
+BOARD 0 31 64 0 f/f/f/f/f/f/f/AQG0G1AQG1f/lvlulu6olflflflf/w/wlflflflf65lululvf/AQG1G0G1AQf/CaA4A5A6A7A8A9A+A/f/LoLpLqLLf/f/f/f/f/f/f/f/DsCpE4Et
+BOARD 0 32 64 0 f/f/OLf/f/GlGkGlGkGlGkGlQJQKf/lvlululululuaQaRlulululululvf/QJQKGkGlAQGlGkGlGkBIBJBKBLBMBNBOBPf/f/KpKqf/f/f/f/f/f/f/f/f/EcEMEtCr
+BOARD 0 33 64 0 f/f/f/f/f/AQG0G1G0AQG0G1QZQaQJQKf/lvlvlvlvaQaRlvlvlvlvf/QJQKQZQaG0G1G0G1G0G1AQBYBZBaBbBcBdBeBff/f/K5K6f/f/f/f/f/f/f/f/f/f/EQCrEt
+BOARD 0 34 64 0 f/f/f/f/f/f/GkGlGkGlGkZ2Z3Z4QZQaQJQKQJQKQzaQaRQyQJQKQJQKQZQaZ2Z3Z4AQGkGlGkGlf/BoBpBqBrBsBtBuBvAQf/f/f/f/f/f/f/f/f/f/f/f/f/EcGJCr
+BOARD 0 35 64 0 f/f/f/f/f/AAABAQG0G1f/aGaHaIKlKmQZQaQZQaRDAwAxRCQZQaQZQaKlKmaGaHaIf/G0G1AQf/f/B4B5B6B7B8B9B+B/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/EQEt
+BOARD 0 36 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/K1K2AwAxAwAxRTAwAxRSAwAxAwAxK1K2f/f/f/AAf/f/f/f/f/f/CJCKCLCMCNCOf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EcEM
+BOARD 0 37 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/KlKmKlKmf/AwAxAwAxAwAxf/KlKmKlKmf/f/f/K4f/f/f/f/f/f/f/CaCbCcCdf/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/Ec
+BOARD 0 38 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/K1K2K1K2f/f/f/AwAxf/f/f/K1K2K1K2f/f/f/f/f/f/f/f/f/f/f/f/f/P/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Ds
+BOARD 0 39 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KlKmf/f/f/f/f/f/f/f/KlKmf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/P/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/DsGG
+BOARD 0 40 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/K1K2f/f/f/f/f/f/f/f/K1K2f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EcEM
+BOARD 0 41 64 0 f/f/f/f/f/H/H/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/Ec
+BOARD 0 42 64 0 f/f/f/f/f/f/E0KOKPKOKPKOKPI5f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 43 64 0 AQf/f/f/f/E0E1KeKfKeKfKeKfI4I5f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/E0KO
+BOARD 0 44 64 0 f/f/f/f/E0E1E2C5C6C5C6C5C6I3I4I5f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/E0E1Ke
+BOARD 0 45 64 0 f/f/f/E0E1E2C7DJDKDJDKDJDKC4I3I4I5f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/E0E1E2C5
+BOARD 0 46 64 0 f/f/E0E1E2C7DeDZDaDZDaDZDaDIC4I3I4I5f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/E0I5f/f/f/f/E0E1E2C7DJ
+BOARD 0 47 64 0 f/E0E1E2C7DLDuDpDqDpDqDpDqDYDIC4I3I4I5f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/E0E1I4I5f/f/E0E1E2C7DLDZ
+BOARD 0 48 64 0 E0E1E2C7DeDbD+IuIvIuIvIuIvGRDYFxC4I3I4I5f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AJAKALAMANAOf/P/f/f/f/f/E0E1E2I3LALBLCLDE2C7DeDbDp
+BOARD 0 49 64 0 E1E2C7DLDuDvEmI+I/I+I/I+I/I2GRGBDIC4I3I4I5f/f/f/f/f/AAABf/f/f/f/f/AAABf/f/f/AYAZAaAbAcAdAeAff/f/f/f/E0E1E2C7C4LALBLCLDC7DLDuD+Iu
+BOARD 0 50 64 0 E2C7DeDbD+EmEnJOJPJOJPJOJPI1I2GRDYFxC4I3I4I5f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AoApAqArAsAtAuAvf/f/f/E0E1E2C7DeDILALBLCLDDLDbD+EmI+
+BOARD 0 51 64 0 ERE3DuDvEmEnEoFCFCFCFCFCFCI0I1I2GRGBDIC4I3I4I5f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/A4A5A6A7A8A9A+A/f/f/E0E1E2C7DLDuDYLQLRLSLTDbDvEmEnJO
+BOARD 0 52 64 0 EhEiD+EmEnEoFCFCFCFCFCFCFCFCI0I1I2GRDYFxC4I3I4I5f/f/f/f/f/f/f/f/f/f/f/f/f/f/BIBJBKBLBMBNBOBPf/E0E1E2C7DeDbD+GRLgLhLiLjDvEmEnEoFC
+BOARD 0 53 64 0 ERESEHEIEJFCFCFCFCFCFCFCFCFCFCI0I1I2GRGBDIC4I3I4I5f/f/f/f/AAABf/f/f/f/f/f/f/BYBZBaBbBcBdBeBfE0E1E2C7DLDuDvEmI2LwLxLyLzEmEnEoFCFC
+BOARD 0 54 64 0 EhEiEXEYEZFCFCFCFCFCFCFCFCFCFCFCI0I1I2GRDYFxC4I3I4I5f/f/f/f/f/f/f/f/f/f/f/f/BoBpBqBrBsBtBuBvE1E2C7DeDbD+EmEnI175JOJP74EnEoFCFCFC
+BOARD 0 55 64 0 ERESEHEIEJFCFCFCFCFCFCFCFCFCFCFCFCI0I1I2GRGBDIC4I3I4I5f/f/f/f/f/f/f/f/AAABf/B4B5B6B7B8B9B+B/EGERE3DuDvEmEnEoI0EoFCFCI0EoFCFCFCFC
+BOARD 0 56 64 0 EhEiEXEYEZFCFCFCFCFCFCFCFCFCFCFCFCFCI0I1I2GRDYFxC4I3I4I5f/f/f/f/f/f/f/f/f/f/f/CJCKCLCMCNCOf/EWEhEiD+EmEnEoFCFCFCFDFEFCFCFCFCFCFC
+BOARD 0 57 64 0 ERESEHEIEJFCFCFCFCFCFCFCFCFCFCFCFCFCFCI0I1I2GRGBDIC4I3I4f/f/f/f/f/f/f/f/f/f/f/f/CaCbCcCdf/f/EGERESEHEIEJFCFCFCFCFCFCFCFCFDFEFCFC
+BOARD 0 58 64 0 EhEiEXEYEZFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCI0I1I2GRDYGNIzJtf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EWEhEiEXEYEZFCFCFCFCFCFCFCFCFCFCFDFE
+BOARD 0 59 64 0 EwECEDExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCI0I1I2GRDjJDJ9f/f/AJAKALAMANAOf/f/f/f/AAABf/f/f/f/EGERESEHEIEJFCFDFEFCFCFCFCFCFCFCFCFC
+BOARD 0 60 64 0 EKEwECEDExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHNHOHPIyIzJtf/AYAZAaAbAcAdAeAff/f/f/f/f/f/f/f/f/EWEhEiEXEYEZFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 61 64 0 EaEKEwECEDExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCHdHeHfJCJDJ9f/AoApAqArAsAtAuAvf/f/f/f/f/f/f/f/f/EKEwECEDExEyEzFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 62 64 0 f/EaEKEwECEDExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCHNHOHPIyIzJtf/A4A5A6A7A8A9A+A/f/f/f/f/f/f/f/f/f/EaEKEwECEDExEyEzFCFCFDFEFCFCFCFCFCFD
+BOARD 0 63 64 0 ABf/EaEKEwECEDExEyEzFCFCFCFCFCFCFCFCFCFDFEFCHdHeHfJCJDJ9f/BIBJBKBLBMBNBOBPf/f/f/f/f/f/f/f/f/f/EaEKEwECEDExEyEOEPEOEPEOEPEOEPEzFC
+NPC beerhost.png 51 15
+//Script by Master Storm
+if (created)
+NPCEND
+NPC classic_tower_corners.png 16 32
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,96,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 14 31
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,96,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 12 30
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,96,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 10 29
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,96,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 27 32
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,96,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 29 31
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,96,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 31 30
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,96,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 33 29
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,96,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 26 24
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,96,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 17 24
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,96,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC - 14 3
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 14 1
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 29 1
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 29 3
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 22 3
+//#CLIENTSIDE
+if (created) {
+  showtext 200,x,y,arial,bc,MoD Fort;
+  changeimgcolors 200,123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  changeimgzoom 200,2;
+  changeimgvis 200,0;
+}
+NPCEND
+NPC - 31 0
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 31 2
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 12 0
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,32);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 12 2
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 34 0
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 33 1
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",16,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 10 1
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC - 9 0
+//#CLIENTSIDE
+function onCreated(){
+  setimgpart("classic_tower_corners.png",0,16,16,112);
+  setcoloreffect(123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1);
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC nira_statuenick.png 17 21
+
+NPCEND
+NPC nira_statueultimateweapon.png 18 19
+
+NPCEND
+NPC nira_statuemandi.png 19 20
+
+NPCEND
+NPC nira_statueazrael.png 22 20
+
+NPCEND
+NPC nira_statueantago.png 23 19
+
+NPCEND
+NPC nira_statuefuitad.png 24 21
+
+NPCEND
+NPC - 28 35
+join("bush");
+NPCEND
+NPC - 28 37
+join("bush");
+NPCEND
+NPC - 26 37
+join("bush");
+NPCEND
+NPC - 26 39
+join("bush");
+NPCEND
+NPC - 16 37
+join("bush");
+NPCEND
+NPC - 16 39
+join("bush");
+NPCEND
+NPC - 14 37
+join("bush");
+NPCEND
+NPC - 14 35
+join("bush");
+NPCEND
+NPC - 25 12
+//#CLIENTSIDE
+function onCreated() {
+  setshape(1,32,16);
+}
+
+function onPlayerTouchsMe() {
+  if (player.dir == 0){
+    say2("Last Round's Winner:#b"@serverr.guildfortMoD_stats[3]);
+  }
+}
+NPCEND
+NPC - 17 12
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,32,16);
+}
+
+function onPlayertouchsme(){
+  if(player.dir == 0){
+    say2("MoD Town Memorial Guild Fort.#b#b#bRound Health: 30.#bRound Time: 6 Seconds.#bPoints to Win: 30.");
+  }
+}
+NPCEND
+NPC teletile.mng 17 29
+/*
+function onPlayerTouchsMe() {
+  if (player.guild == serverr.guildfortMoD || (player.guild && serverr.guildfortMoD == "neutral")) {
+    if (strtofloat(#s(clientr.info_graalversion)) >= 4) {
+      setlevel2("graalcity_outside_16.nw",12.5,52);
+    }
+  }
+}
+*/
+
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC teletile.mng 25 29
+/*
+function onPlayerTouchsMe() {
+  if (player.guild == serverr.guildfortMoD || (player.guild && serverr.guildfortMoD == "neutral")) {
+      setlevel2("graalcity_outside_16.nw",28.5,52);
+  }
+}
+*/
+
+//#CLIENTSIDE
+function onCreated(){
+dontblock();
+drawunderplayer();
+}
+NPCEND
+NPC - 20 8
+function onCreated(){
+  setshape(1,64,32);
+}
+
+
+function onPlayertouchsme(){
+  if(clientr.info_playertrial == "yes"){
+    say2("Trials cannot enter the Fort.");
+    return;
+  }
+
+  if(timevar2 < (serverr.guildfortMoD_stats[4]+300)){
+    if(!(serverr.guildfortMoD_stats[3] in {player.communityname,player.guild})){
+      temp.time = int((serverr.guildfortMoD_stats[4]+300-timevar2)/60);
+      if(temp.time > 0){
+        say2("The Fort has been won.#bWait "@temp.time@" minutes.");
+      }
+      else{
+        say2("The Fort has been won.#bWait 30 Seconds");
+      }
+      return;
+    }
+  }
+
+  setlevel2("mod_fort_inside_01.nw",30.5,48);
+
+}
+NPCEND
+NPC - 20 35
+/*
+join("warp_jewel");
+function onCreated() {
+  this.loctype  = "guilds";
+  this.locindex = 0;
+}
+*/
+//#CLIENTSIDE
+/*
+function onCreated() {
+  this.loctype  = "guilds";
+  this.locindex = 0;
+}
+*/
+NPCEND
+NPC - 21 26
+
+//#CLIENTSIDE
+/*
+function onCreated() {
+  setshape(1,32,32);
+}
+function onSlash() {
+  npcs[testnpc(x-0.5,y+9.5)].trigger("Activate",NULL);
+}
+*/
+NPCEND
+NPC classic-nubehstatue.png 20 21
+//#CLIENTSIDE
+function onCreated() {
+x+=0.25;
+}
+NPCEND
+NPC - 46 19
+join ziplock_ninji;
+//#CLIENTSIDE
+function onCreated() {
+  setstring this.chatmessage,#b
+  Oh man, I need booze money.;
+  this.setdir = 3;
+  showcharacter();
+  colors[0] = "blue";
+  colors[1] = "darkblue";
+  colors[2] = "darkblue";
+  colors[3] = "blue";
+  colors[4] = "darkblue";
+  headimg = "head1200.png";
+  shieldimg = "no-shield.png";
+  nick = "";
+  setcharani("classic_drunkidle","");
+  dir = this.setdir;
+  onTimeout();
+}
+
+function onTimeout() {
+  this.chat = "*hiccup*";
+  sleep .5;
+  this.chat="";
+  this.rand = int(random(5, 15));
+  setTimer(this.rand);
+}
+NPCEND

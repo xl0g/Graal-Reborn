@@ -1,0 +1,795 @@
+GLEVNW01
+BOARD 0 0 64 0 jQhhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhgjC
+BOARD 0 1 64 0 iSjBhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxjTh1
+BOARD 0 2 64 0 iCiDjAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAjDhkhl
+BOARD 0 3 64 0 iSiTiUjRiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQjShzh0h1
+BOARD 0 4 64 0 iCiDiEiVinhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhnhmhnhmhnhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhni1hyhjhkhl
+BOARD 0 5 64 0 iSiTiUiVhyjQhhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhgkQkRkSkThhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhgjCiFhihzh0h1
+BOARD 0 6 64 0 iCiDiEiFhiiSjBhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwjjNFNFjlhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxjTh1iVhyhjhkhl
+BOARD 0 7 64 0 iSiTiUiFhiiCiDjAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAjwj0j0jyiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAjDhkhliFhihzh0h1
+BOARD 0 8 64 0 iCiDiEiVhyiSiTiUinhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhnigararijhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhni1hzh0h1iFhihjhkhl
+BOARD 0 9 64 0 iSiTiUiVhyiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4koa7a7a7a7a7a7a7a7a7a7a7a7koJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 10 64 0 iCiDiEiFhiiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4VNh1araqapaqapaqapaqapaqapariCdCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 11 64 0 iSiTiUiFhiiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4Vdh1a7a6a5a6a5a6a5a6a5a6a5a7iCdSJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 12 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J466h1arararararaqapararararariC67J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 13 64 0 iSiTiUiVhyiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4jHhhhhhhjCa7a6a5a7jQhhhhhhjEJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 14 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 15 64 0 iSiTiUiFhiiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 16 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 17 64 0 iSiTiUiVhyiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 18 64 0 iCiDiEiFhiiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 19 64 0 iSiTiUiFhiiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 20 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 21 64 0 iSiTiUiVhyiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4VNh1a7a6a5a7iCdCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 22 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4Vdh1araqapariCdSJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 23 64 0 iSiTiUiVhyiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J466h1a7a6a5a7iC67J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 24 64 0 iCiDiEiFhiiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 25 64 0 iSiTiUiFhiiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 26 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 27 64 0 iSiTiUiFhiiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 28 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 29 64 0 iSiTiUiVhyiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 30 64 0 iCiDiEiFhiiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 31 64 0 iSiTiUiFhiiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 32 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 33 64 0 iSiTiUiVhyiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 34 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4VNh1araqapariCdCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 35 64 0 iSiTiUiVhyiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4Vdh1a7a6a5a7iCdSJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 36 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J466h1araqapariC67J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 37 64 0 iSiTiUiVhyiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 38 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhzh0h1iFhihjhkhl
+BOARD 0 39 64 0 iSiTiUiVhyiCiDiEhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iVhjhkhliVhyhzh0h1
+BOARD 0 40 64 0 iCiDiEiVhyiSiTiUhiJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapariziWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWkoiVhzh0h1iFhihjhkhl
+BOARD 0 41 64 0 iSiTiUiVhyiCiDiEhikoiWiWiWi0J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7iVhjhkhliVhyhzh0h1
+BOARD 0 42 64 0 iCiDiEiVhyiSiTiUhiarararariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1araqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqariVhzh0h1iFhihjhkhl
+BOARD 0 43 64 0 iSiTiUiVhyiCiDiEhia7a5a6a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a7iVhjhkhliVhyhzh0h1
+BOARD 0 44 64 0 iCiDiEiVhikEkgkjigarapaqariCdCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4h1ararararararararararararararararararararararapaqariVhzh0h1iFhihjhkhl
+BOARD 0 45 64 0 iSiTiUiVhykUNFjxa7a7a5a6a7iCdSJ4J4J4J4J4J4J4J4J4J4J4J4J4J4jHhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjCa7a5a6a7iVhjhkhliVhyhzh0h1
+BOARD 0 46 64 0 iCiDiEiFhykkNFjxararapaqariC67J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4VddSJ4J4J4J4J4J4J4J4J4J4J4J4VddSJ4J4J4h1arapaqariVhzh0h1iFhihjhkhl
+BOARD 0 47 64 0 iSiTiUiFhik0kwkzjSa7a5a6a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46667J4J4J4J4J4J4J4J4J4J4J4J46667J4J4J4h1a7a5a6a7iVhjhkhliVhyhzh0h1
+BOARD 0 48 64 0 iCiDiEiFhiiSiTiUhiarapaqariCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1arapaqariVhzh0h1iFhihjhkhl
+BOARD 0 49 64 0 iSiTiUiVhyiCiDiEhia7a5a6a7iCJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4h1a7a5a6a7iVhjhkhliVhyhzh0h1
+BOARD 0 50 64 0 iCiDiEiFhiiSiTiUhiarapaqariziWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiWiharapaqariVhzh0h1iFhihjhkhl
+BOARD 0 51 64 0 iSiTiUiVhyiCiDiEhia7a5a6a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a5a6a7iVhjhkhliVhyhzh0h1
+BOARD 0 52 64 0 iCiDiEiFhiiSiTiUhiarapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqariVhzh0h1iFhihjhkhl
+BOARD 0 53 64 0 iSiTiUiVhyiCiDiEhia7a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a7iVhjhkhliVhyhzh0h1
+BOARD 0 54 64 0 iCiDiEiFhiiSiTiUhiarararararararararararararararararararararararararararararararararararararararararararararariVhzh0h1iFhihjhkhl
+BOARD 0 55 64 0 iSiTiUiVhyiCiDiEjGiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQjUhjhkhliVhyhzh0h1
+BOARD 0 56 64 0 iCiDiEiFhiiSiTiyh3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2ixh0h1iFhihjhkhl
+BOARD 0 57 64 0 iSiTiUiVhyiCiiiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiwhliVhyhzh0h1
+BOARD 0 58 64 0 iCiDiEiVhyiziXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWihiVhyhjhkhl
+BOARD 0 59 64 0 iSiTiUiVjGiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRiQiRjUhyhzh0h1
+BOARD 0 60 64 0 iCiDiEijhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmighjhkhl
+BOARD 0 61 64 0 iSiTiyh3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2ixh0h1
+BOARD 0 62 64 0 iCiiiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiwhl
+BOARD 0 63 64 0 iziXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWih
+LINK stev_quest_09.nw 5 45 1 2 39.5 30
+LINK stev_quest_11.nw 31 5 2 1 30.5 39
+NPC portcullusdoor2.png 6 45
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  setimgpart portcullusdoor2.png,0,8,32,32;
+  setshape 1,32,32;
+  drawunderplayer;
+}
+if (playerenters) {
+  show;
+}
+if (playertouchsme) {
+  hide;
+}
+NPCEND
+NPC mausoleum.png 9 41
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  setimgpart mausoleum.png,96,96,16,16;
+  drawunderplayer;
+}
+NPCEND
+NPC mausoleum.png 54 40
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  setimgpart mausoleum.png,96,96,16,16;
+  drawunderplayer;
+}
+NPCEND
+NPC mausoleum.png 38 9
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  setimgpart mausoleum.png,96,96,16,16;
+  drawunderplayer;
+}
+NPCEND
+NPC mausoleum.png 25 9
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  setimgpart mausoleum.png,96,96,16,16;
+  drawunderplayer;
+}
+NPCEND
+NPC portcullusdoor2.png 31 6
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  setimgpart portcullusdoor2.png,40,0,32,32;
+  setshape 1,32,32;
+  drawunderplayer;
+}
+if (playerenters) {
+  show;
+}
+if (playertouchsme) {
+  hide;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 39
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 10;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 31
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 10.8;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 29
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 11;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 27
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 11.2;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 25
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 11.4;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 23
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 11.6;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 21
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 11.8;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 19
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 12;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 17
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 12.2;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 15
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 12.4;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 13
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 12.6;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC - 5 26
+// NPC made by Stev (LAT)
+if (playerenters) {
+  timeout = 13;
+  timereverywhere;
+}
+if (timeout) {
+  if (playerx in <21,46> && playery in <10,40>) {
+    setlevel2 stev_quest_10.nw,7.5,44;
+  }
+}
+NPCEND
+NPC - 17 41
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #2,shield1.gif;
+  shieldpower = 1;
+  dir = 2;
+  sprite = 23;
+  setcharprop #c,Bridge collapses after 10 sec timeout or when player touches it. Player is warped if caught in blackness where bridge fell. Statue heads to fire balls again :P;
+}
+NPCEND
+NPC shieldc-stev.png 28 6
+// NPC made by that kid called stev (SNC)
+//#CLIENTSIDE
+if (created) {
+  setimgpart shieldc-stev.png,14,0,16,20;
+  drawunderplayer;
+  x=x+.5;
+}
+NPCEND
+NPC shieldc-stev.png 35 6
+// NPC made by that kid called stev (SNC)
+//#CLIENTSIDE
+if (created) {
+  setimgpart shieldc-stev.png,14,0,16,20;
+  drawunderplayer;
+  x=x-.5;
+}
+NPCEND
+NPC classichat-newcappa.png 14 6
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {
+  setimgpart classichat-newcappa.png,104,17,32,32;
+  drawunderplayer;
+  setshape 1,32,32;
+  x = x-.1;
+}
+NPCEND
+NPC classichat-newcappa.png 48 6
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {
+  setimgpart classichat-newcappa.png,104,17,32,32;
+  drawunderplayer;
+  setshape 1,32,32;
+  x = x-.1;
+}
+NPCEND
+NPC classichat-newcappa.png 14 56
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {
+  setimgpart classichat-newcappa.png,9,13,32,32;
+  drawunderplayer;
+  setshape 1,32,32;
+  x = x+.2;
+}
+NPCEND
+NPC classichat-newcappa.png 48 56
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {
+  setimgpart classichat-newcappa.png,9,13,32,32;
+  drawunderplayer;
+  setshape 1,32,32;
+  x = x+.2;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 37
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 10.2;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 35
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 10.4;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC classic_blackness2x4.png 30 33
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+  drawunderplayer;
+  dontblock;
+}
+if (playertouchsme) {
+  sleep 0.5;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+if (playerenters) {
+  dontblock;
+  drawunderplayer;
+  setimg classic_dungeontile2x4.png;
+  sleep 10.6;
+  setimg classic_dungeontile2x4cracked.png;
+  sleep 0.5;
+  setimg classic_blackness2x4.png;
+  blockagain;
+}
+NPCEND
+NPC darkwallcrack4.png 5 32
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack4.png 5 30
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack4.png 0 15
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack4.png 0 7
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack4.png 5 16
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack4.png 5 52
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack3.png 12 56
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  y = y-.05;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack3.png 20 56
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  y = y-.05;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack3.png 27 61
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  y = y-.05;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack3.png 38 56
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  y = y-.05;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack3.png 51 61
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  y = y-.05;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack2.png 56 44
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  x = x-.05;
+  y = y-.1;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack2.png 56 32
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  x = x-.05;
+  y = y-.1;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack2.png 61 47
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  x = x-.05;
+  y = y-.1;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack2.png 56 20
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  x = x-.05;
+  y = y-.1;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack2.png 56 12
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  x = x-.05;
+  y = y-.1;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack2.png 61 13
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  x = x-.05;
+  y = y-.1;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack1.png 41 0
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  x = x-.1;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack1.png 27 0
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  x = x-.1;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC darkwallcrack1.png 20 5
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+  x = x-.1;
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC classic_skullpillar.png 27 9
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  setshape 1,32,48;
+}
+NPCEND
+NPC classic_skullpillar.png 35 9
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  setshape 1,32,48;
+}
+NPCEND
+NPC classic_crackedfloor1.png 10 46
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC classic_crackedfloor3.png 24 52
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC classic_crackedfloor2.png 32 42
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND

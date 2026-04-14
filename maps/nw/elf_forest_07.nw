@@ -1,0 +1,415 @@
+GLEVNW01
+BOARD 0 0 64 0 BOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/AABIBJBKBLBMBNBOBJBKBLBMBNBOBPABf/f/f/BIBJBKBLBMBNBOBPGWH1HnHXf/f/f/A4
+BOARD 0 1 64 0 BeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBfAAABf/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/BYBZBaBbBcBdBeBfHUGOG3HHf/f/AABI
+BOARD 0 2 64 0 ALAMDCDDDADBALAMDCDDDADBALAMDCDDDADBALAMDCDDBsBtBuBvf/f/f/f/BoBpBqBrDADBALAMDCDDDADBALAMANAOf/f/BoBpBqBrBsBtBuBvGmGWHnHXf/f/f/BY
+BOARD 0 3 64 0 AbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B/f/f/f/f/B4B5B6DQAZAaAbAcAdAeAZAaAbAcAdAeAff/B4B5B6B7B8B9B+B/f/GmH2HHf/AJAKAL
+BOARD 0 4 64 0 ArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuDhCNCOf/f/AQf/f/f/CJCKDgApAqArAsAtAuApAqArAsAtAuAvKlKmCJCKCLCMCNCOf/f/f/f/f/AYAZAaAb
+BOARD 0 5 64 0 A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/Cdf/f/f/f/f/f/f/f/CaA4A5A6A7A8A9A+A5A6A7A8A9A+A/K1K2f/CaCbCcCdf/f/f/f/f/f/AoApAqAr
+BOARD 0 6 64 0 BLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/f/f/f/AAABf/AABIBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/AAABf/f/f/f/AAABf/f/AAA4A5A6A7
+BOARD 0 7 64 0 BbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/f/f/f/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/f/f/f/f/f/f/f/f/f/BIBJBKBL
+BOARD 0 8 64 0 DDDADBALAMDCDDDADBALAMDCDDDADBALAMDCDDBsBtBuBvf/f/AJAKALAMANAOAJAKALAMDCDDDADBALAMDCDDBsBtBuBvf/f/f/f/f/g2f/f/f/f/f/f/f/BYBZBaBb
+BOARD 0 9 64 0 AeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B/f/AYAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B/f/f/f/f/f/AJAKALAMANAOAJAKALAMDCDD
+BOARD 0 10 64 0 AuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuDhCNCOf/f/AoApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuDhCNCOf/f/f/f/f/AYAZAaAbAcAdAeAZAaAbAcAdAe
+BOARD 0 11 64 0 A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/Cdf/f/f/A4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/Cdf/f/f/f/f/f/AoApAqArAsAtAuApAqArAsAtAu
+BOARD 0 12 64 0 BOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPABf/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPABf/f/f/f/f/f/A4A5A6A7A8A9A+A5A6A7A8A9A+
+BOARD 0 13 64 0 BeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBff/AQf/f/f/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBO
+BOARD 0 14 64 0 ALAMDCDDBsBtBuBpBqBrDADBALAMDCDDBsBtBuBvf/f/AJAKALAMDCDDDADBALAMDCDDBsBtBuBpBqBrDADBALAMANAOf/f/f/AAABBYBZBaBbBcBdBeBZBaBbBcBdBe
+BOARD 0 15 64 0 AbAcAdAeDRB9B+B5B6DQAZAaAbAcAdAeDRB9B+B/f/AYAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B5B6DQAZAaAbAcAdAeAff/f/AJAKALAMDCDDDADBALAMDCDDDADBAL
+BOARD 0 16 64 0 ArAsAtAuDhCNCOCJCKDgApAqArAsAtAuDhCNCOf/AAAoApAqArAsAtAuApAqArAsAtAuDhCNCOCJCKDgApAqArAsAtAuAvf/AYAZAaAbAcAdAeAZAaAbAcAdAeAZAaAb
+BOARD 0 17 64 0 A7A8A9A+A/Cdf/f/CaA4A5A6A7A8A9A+A/Cdf/f/f/A4A5A6A7A8A9A+A5A6A7A8A9A+A/Cd0g0hCaA4A5A6A7A8A9A+A/f/AoApAqArAsAtAuApAqArAsAtAuApAqAr
+BOARD 0 18 64 0 BLBMBNBOBPABf/AQf/BIBJBKBLBMBNBOBPf/f/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBPAB0w0x0RBIBJBKBLBMBNBOBPf/A4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7
+BOARD 0 19 64 0 BbBcBdBeBf0Rf/AAABBYBZBaBbBcBdBeBff/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBff/AAABf/BYBZBaBbBcBdBeBff/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBL
+BOARD 0 20 64 0 DDBsBtBuBvf/f/AJAKALAMDCDDBsBtBuBvf/f/AJAKALAMDCDDBsBtBuBpBqBrBsBtBuBvf/f/AJAKALAMDCDDBsBtBuBvf/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBb
+BOARD 0 21 64 0 AeDRB9B+B/f/AYAZAaAbAcAdAeDRB9B+B/f/AYAZAaAbAcAdAeDRB9B+B5B6B7B8B9B+B/f/AYAZAaAbAcAdAeDRB9B+B/f/BoBpBqBrDADBALAMDCDDBsBtBuBpBqBr
+BOARD 0 22 64 0 AuDhCNCOKlKmAoApAqArAsAtAuDhCNCOf/f/AoApAqArAsAtAuDhCNCOCJCKCLCMCNCOf/f/AoApAqArAsAtAuDhCNCOf/f/B4B5B6DQAZAaAbAcAdAeDRB9B+B5B6B7
+BOARD 0 23 64 0 A+A/Cdf/K1K2A4A5A6A7A8A9A+A/Cdf/f/f/A4A5A6A7A8A9A+A/Cdf/f/CaCbCcCdf/f/f/A4A5A6A7A8A9A+A/Cdf/f/f/f/CJCKDgApAqArAsAtAuDhCNCOCJCKCL
+BOARD 0 24 64 0 BOBPf/KlKmf/BIBJBKBLBMBNBOBPf/AAABf/BIBJBKBLBMBNBOBPf/AAABKlKmf/f/f/f/AABIBJBKBLBMBNBOBPABf/f/f/f/f/CaA4A5A6A7A8A9A+A/Cdf/f/CaCb
+BOARD 0 25 64 0 BeBff/K1K2f/BYBZBaBbBcBdBeBff/f/AAABBYBZBaBbBcBdBeBff/g2f/K1K2f/f/f/f/f/BYBZBaBbBcBdBeBff/f/f/f/f/AAABBIBJBKBLBMBNBOBPABKlKmf/f/
+BOARD 0 26 64 0 ALAMANAOAAABBoBpBqBrDADBALAMANAOf/f/BoBpBqBrDADBALAMANAOAJAKALAMANAOf/f/BoBpBqBrDADBALAMANAOf/f/f/f/f/BYBZBaBbBcBdBeBff/K1K2f/f/
+BOARD 0 27 64 0 AbAcAdAeAff/B4B5B6DQAZAaAbAcAdAeAff/B4B5B6DQAZAaAbAcAdAeAZAaAbAcAdAeAff/B4B5B6DQAZAaAbAcAdAeAff/f/AJAKALAMDCDDDADBALAMANAOf/AQf/
+BOARD 0 28 64 0 ArAsAtAuAvf/f/CJCKDgApAqArAsAtAuAvf/f/CJCKDgApAqArAsAtAuApAqArAsAtAuAv0hf/CJCKDgApAqArAsAtAuAvf/AYAZAaAbAcAdAeAZAaAbAcAdAeAff/AA
+BOARD 0 29 64 0 A7A8A9A+A/f/f/f/CaA4A5A6A7A8A9A+A/ABf/f/CaA4A5A6A7A8A9A+A5A6A7A8A9A+A/0xf/f/CaA4A5A6A7A8A9A+A/f/AoApAqArAsAtAuApAqArAsAtAuAvf/f/
+BOARD 0 30 64 0 BLBMBNBOBPf/g2f/AABIBJBKBLBMBNBOBPf/f/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBPf/AAABAABIBJBKBLBMBNBOBPABA4A5A6A7A8A9A+A5A6A7A8A9A+A/f/f/
+BOARD 0 31 64 0 BbBcBdBeBff/f/f/f/BYBZBaBbBcBdBeBff/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBf0RAQf/f/BYBZBaBbBcBdBeBff/BIBJBKBLBMBNBOBJBKBLBMBNBOBPf/g2
+BOARD 0 32 64 0 DDDADBALAMANAOAJAKALAMDCDDBsBtBuBvf/AQAJAKALAMDCDDBsBtBuBpBqBrDADBALAMANAOAJAKALAMDCDDBsBtBuBvf/BYBZBaBbBcBdBeBZBaBbBcBdBeBff/f/
+BOARD 0 33 64 0 AeAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B/f/AYAZAaAbAcAdAeDRB9B+B5B6DQAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B/f/BoBpBqBrDADBALAMDCDDDADBALAMANAO
+BOARD 0 34 64 0 AuApAqArAsAtAuApAqArAsAtAuDhCNCOf/f/AoApAqArAsAtAuDhCNCOCJCKDgApAqArAsAtAuApAqArAsAtAuDhCNCOf/f/B4B5B6DQAZAaAbAcAdAeAZAaAbAcAdAe
+BOARD 0 35 64 0 A+A5A6A7A8A9A+A5A6A7A8A9A+A/Cdf/f/f/A4A5A6A7A8A9A+A/Cdf/f/CaA4A5A6A7A8A9A+A5A6A7A8A9A+A/Cdf/f/f/f/CJCKDgApAqArAsAtAuApAqArAsAtAu
+BOARD 0 36 64 0 BOBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/AAABBIBJBKBLBMBNBOBPABAAABf/BIBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/AAABf/f/CaA4A5A6A7A8A9A+A5A6A7A8A9A+
+BOARD 0 37 64 0 BeBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/BYBZBaBbBcBdBeBff/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/f/f/AABIBJBKBLBMBNBOBJBKBLBMBNBO
+BOARD 0 38 64 0 ALAMDCDDBsBtBuBpBqBrBsBtBuBvf/f/AJAKALAMDCDDBsBtBuBvf/f/AJAKALAMDCDDDADBALAMDCDDDADBALAMANAOf/f/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBe
+BOARD 0 39 64 0 AbAcAdAeDRB9B+B5B6B7B8B9B+B/f/AYAZAaAbAcAdAeDRB9B+B/f/AYAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAff/f/f/f/BoBpBqBrDADBALAMDCDDDADBAL
+BOARD 0 40 64 0 ArAsAtAuDhCNCOCJCKCLCMCNCOf/f/AoApAqArAsAtAuDhCNCOf/f/AoApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuAvf/f/f/f/B4B5B6DQAZAaAbAcAdAeAZAaAb
+BOARD 0 41 64 0 A7A8A9A+A/Cdf/f/CaCbCcCdf/f/f/A4A5A6A7A8A9A+A/Cdf/f/AAA4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/f/f/F2HFF3CJCKDgApAqArAsAtAuApAqAr
+BOARD 0 42 64 0 BLBMBNBOBPABf/f/f/f/f/f/f/f/AABIBJBKBLBMBNBOBPf/AQf/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/GIGWHnF3CaA4A5A6A7A8A9A+A5A6A7
+BOARD 0 43 64 0 BbBcBdBeBff/f/f/f/f/AAABf/f/f/BYBZBaBbBcBdBeBfAAABf/0RBYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBff/F2HFHGG3f/AABIBJBKBLBMBNBOBJBKBL
+BOARD 0 44 64 0 BrBsBtBuBvg2f/AJAKALAMANAOAJAKALAMDCDDDADBALAMANAOAJAKALAMDCDDDADBALAMDCDDDADBALAMDCDDBsBtBuBvF2HGGOH0HnF3f/BYBZBaBbBcBdBeBZBaBb
+BOARD 0 45 64 0 B7B8B9B+B/f/AYAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B/GIGWGOG3H2HHf/BoBpBqBrBsBtBuBpBqBr
+BOARD 0 46 64 0 CLCMCNCOf/f/AoApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuDhCNCOf/F2HGH1G7f/f/f/B4B5B6B7B8B9B+B5B6B7
+BOARD 0 47 64 0 CbCcCdf/f/AAA4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/Cdf/f/GIGWG3HHf/f/f/f/CJCKCLCMCNCOCJCKCL
+BOARD 0 48 64 0 f/f/f/AAABf/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPKlKmf/f/GIHHf/AJAKALAMANCaCbCcCdf/f/CaCb
+BOARD 0 49 64 0 ABf/f/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBfK1K2f/f/f/f/AYAZAaAbAcAdAeAff/f/f/f/f/f/
+BOARD 0 50 64 0 ALAMANAOAJAKALAMDCDDDADBALAMDCDDDADBALAMDCDDBsBtBuBpBqBrDADBALAMDCDDDADBALAMDCDDDADBALAMANAOf/f/f/f/AoApAqArAsAtAuAvf/AAABf/f/f/
+BOARD 0 51 64 0 AbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B5B6DQAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAff/f/AAA4A5A6A7A8A9A+A/f/f/f/f/f/f/
+BOARD 0 52 64 0 ArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuDhCNCOCJCKDgApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuAvf/f/f/BIBJBKBLBMBNBOBPf/f/f/f/f/AA
+BOARD 0 53 64 0 A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/Cdf/f/CaA4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/f/f/f/BYBZBaBbBcBdBeBff/f/f/f/f/f/
+BOARD 0 54 64 0 BLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPABg2f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/BoBpBqBrDADBALAMANAOAJAKALAM
+BOARD 0 55 64 0 BbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBff/f/AAABBYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBfAAABf/B4B5B6DQAZAaAbAcAdAeAZAaAbAc
+BOARD 0 56 64 0 DDDADBALAMDCDDDADBALAMDCDDDADBALAMDCDDDADBALAMANAOAJAKALAMDCDDDADBALAMDCDDDADBALAMDCDDDADBALAMANAOf/f/CJCKDgApAqArAsAtAuApAqArAs
+BOARD 0 57 64 0 AeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAff/f/CaA4A5A6A7A8A9A+A5A6A7A8
+BOARD 0 58 64 0 AuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuAvf/f/AABIBJBKBLBMBNBOBJBKBLBM
+BOARD 0 59 64 0 A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/AAABf/BYBZBaBbBcBdBeBZBaBbBc
+BOARD 0 60 64 0 BOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/BoBpBqBrDADBALAMDCDDDA
+BOARD 0 61 64 0 BeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/B4B5B6DQAZAaAbAcAdAeAZ
+BOARD 0 62 64 0 ALAMDCDDDADBALAMDCDDDADBALAMDCDDDADBALAMDCDDDADBALAMDCDDDADBALAMDCDDDADBALAMDCDDDADBALAMDCDDDADBALAMANAOf/AQCJCKDgApAqArAsAtAuAp
+BOARD 0 63 64 0 AbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAff/f/CaA4A5A6A7A8A9A+A5
+NPC classic_us_tree.gif 50 48
+//#CLIENTSIDE;
+dontblock;
+drawunderplayer;
+NPCEND
+NPC classic_heavenbush.png 32 20
+//#CLIENTSIDE;
+NPCEND
+NPC classic_heavenbush.png 59 47
+//#CLIENTSIDE;
+NPCEND
+NPC classic_bush.png 4 22
+join bush;
+NPCEND
+NPC classic_bush.png 3 24
+join bush;
+NPCEND
+NPC classic_bush.png 29 24
+join bush;
+NPCEND
+NPC classic_bush.png 44 48
+join bush;
+NPCEND
+NPC classic_bush.png 60 25
+join bush;
+NPCEND
+NPC classic_bush.png 47 4
+join bush;
+NPCEND
+NPC classic_us-vines1.gif 33 21
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines1.gif 35 15
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines1.gif 24 21
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines1.gif 26 35
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines1.gif 58 22
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines1.gif 45 30
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines1.gif 45 17
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines1.gif 48 56
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines1.gif 23 53
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines1.gif 3 27
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines2.gif 8 14
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines2.gif 34 22
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines2.gif 26 51
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC classic_us-vines2.gif 10 39
+//#CLIENTSIDE;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC - 12 4
+//#CLIENTSIDE
+function onPlayerenters(){
+ seteffect(0,0,0,0.6);
+}
+NPCEND
+NPC buttrfly.mng 19 13
+//#CLIENTSIDE
+if (playerenters) {
+dontblock;
+  cannotbecarried;
+  this.lifetime = 999999;
+  timeout = 0.2;
+}
+if (wasthrown) timeout = 0.2;
+if (timeout) {
+  oldx = x;
+  oldy = y;
+
+  testdir = random(0,4);
+  if (testdir<1) y -= 0.5;
+  else if (testdir<2) x -= 0.5;
+  else if (testdir<3) y += 0.5;
+  else x += 0.5;
+
+  if (onwall(x+1,y+1)) {
+    x = oldx;
+    y = oldy;
+  }
+
+  this.lifetime--;
+  if (this.lifetime<=0) show;
+  timeout = 0.2;
+}
+if (playerenters) {
+  setcoloreffect 0,1,0,1;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+NPCEND
+NPC buttrfly.mng 26 55
+//#CLIENTSIDE
+if (playerenters) {
+dontblock;
+  cannotbecarried;
+  this.lifetime = 999999;
+  timeout = 0.2;
+}
+if (wasthrown) timeout = 0.2;
+if (timeout) {
+  oldx = x;
+  oldy = y;
+
+  testdir = random(0,4);
+  if (testdir<1) y -= 0.5;
+  else if (testdir<2) x -= 0.5;
+  else if (testdir<3) y += 0.5;
+  else x += 0.5;
+
+  if (onwall(x+1,y+1)) {
+    x = oldx;
+    y = oldy;
+  }
+
+  this.lifetime--;
+  if (this.lifetime<=0) show;
+  timeout = 0.2;
+}
+if (playerenters) {
+  setcoloreffect 0,1,0,1;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+NPCEND
+NPC buttrfly.mng 4 49
+//#CLIENTSIDE
+if (playerenters) {
+dontblock;
+  cannotbecarried;
+  this.lifetime = 999999;
+  timeout = 0.2;
+}
+if (wasthrown) timeout = 0.2;
+if (timeout) {
+  oldx = x;
+  oldy = y;
+
+  testdir = random(0,4);
+  if (testdir<1) y -= 0.5;
+  else if (testdir<2) x -= 0.5;
+  else if (testdir<3) y += 0.5;
+  else x += 0.5;
+
+  if (onwall(x+1,y+1)) {
+    x = oldx;
+    y = oldy;
+  }
+
+  this.lifetime--;
+  if (this.lifetime<=0) show;
+  timeout = 0.2;
+}
+if (playerenters) {
+  setcoloreffect 1,1,0,1;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+NPCEND
+NPC buttrfly.mng 62 27
+//#CLIENTSIDE
+if (playerenters) {
+dontblock;
+  cannotbecarried;
+  this.lifetime = 999999;
+  timeout = 0.2;
+}
+if (wasthrown) timeout = 0.2;
+if (timeout) {
+  oldx = x;
+  oldy = y;
+
+  testdir = random(0,4);
+  if (testdir<1) y -= 0.5;
+  else if (testdir<2) x -= 0.5;
+  else if (testdir<3) y += 0.5;
+  else x += 0.5;
+
+  if (onwall(x+1,y+1)) {
+    x = oldx;
+    y = oldy;
+  }
+
+  this.lifetime--;
+  if (this.lifetime<=0) show;
+  timeout = 0.2;
+}
+if (playerenters) {
+  setcoloreffect 1,1,0,1;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+NPCEND
+NPC buttrfly.mng 50 61
+//#CLIENTSIDE
+if (playerenters) {
+dontblock;
+  cannotbecarried;
+  this.lifetime = 999999;
+  timeout = 0.2;
+}
+if (wasthrown) timeout = 0.2;
+if (timeout) {
+  oldx = x;
+  oldy = y;
+
+  testdir = random(0,4);
+  if (testdir<1) y -= 0.5;
+  else if (testdir<2) x -= 0.5;
+  else if (testdir<3) y += 0.5;
+  else x += 0.5;
+
+  if (onwall(x+1,y+1)) {
+    x = oldx;
+    y = oldy;
+  }
+
+  this.lifetime--;
+  if (this.lifetime<=0) show;
+  timeout = 0.2;
+}
+if (playerenters) {
+  setcoloreffect 0,1,1,1;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+NPCEND
+NPC buttrfly.mng 35 26
+//#CLIENTSIDE
+if (playerenters) {
+dontblock;
+  cannotbecarried;
+  this.lifetime = 999999;
+  timeout = 0.2;
+}
+if (wasthrown) timeout = 0.2;
+if (timeout) {
+  oldx = x;
+  oldy = y;
+
+  testdir = random(0,4);
+  if (testdir<1) y -= 0.5;
+  else if (testdir<2) x -= 0.5;
+  else if (testdir<3) y += 0.5;
+  else x += 0.5;
+
+  if (onwall(x+1,y+1)) {
+    x = oldx;
+    y = oldy;
+  }
+
+  this.lifetime--;
+  if (this.lifetime<=0) show;
+  timeout = 0.2;
+}
+if (playerenters) {
+  setcoloreffect 0,1,1,1;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+NPCEND
+NPC buttrfly.mng 49 12
+//#CLIENTSIDE
+if (playerenters) {
+dontblock;
+  cannotbecarried;
+  this.lifetime = 999999;
+  timeout = 0.2;
+}
+if (wasthrown) timeout = 0.2;
+if (timeout) {
+  oldx = x;
+  oldy = y;
+
+  testdir = random(0,4);
+  if (testdir<1) y -= 0.5;
+  else if (testdir<2) x -= 0.5;
+  else if (testdir<3) y += 0.5;
+  else x += 0.5;
+
+  if (onwall(x+1,y+1)) {
+    x = oldx;
+    y = oldy;
+  }
+
+  this.lifetime--;
+  if (this.lifetime<=0) show;
+  timeout = 0.2;
+}
+if (playerenters) {
+  setcoloreffect 1,1,0,1;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+NPCEND

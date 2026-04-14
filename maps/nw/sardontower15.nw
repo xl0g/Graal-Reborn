@@ -1,0 +1,507 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4lAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlBJ4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4lElglllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklhlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4lEl0mAmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmBl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4lEmEm0mglHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHhshththulGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlGlHmhm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWnAmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWiKiLiLiMmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnBlXnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGngmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWiaibibicmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnhmHlnm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnlmHmHlXnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGbqbrm2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3bqbrnHmHmHlnm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGb6b7mmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnb6b7nHmHmHlXnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3nHmHmHlnm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnnHmHmHlXnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnlm3m2m3m2m3m2m3nHmHmHlnm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGnonpn5npnonpn5npnonpn5npnonpn5npnHmnmmmnmmmnmmmnnHmHmHlXnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4n5n4non4n5n4non4n5n4non4n5n4nonHm3m2m3m2m3m2m3nHmHmHlnm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGn5npnonpn5npnonpn5npnonpn5npnonpnHmnmmmnmmmnmmmnnHmHmHlXnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4non4n5n4non4n5n4non4n5n4non4n5nHm3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGnonpn5npnonpn5npnonpn5npnonpn5npnHmnmmmnmmmnmmmnnHmHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4n5n4non4n5n4non4n5n4non4n5n4nonHm3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGn5npnonpn5npnonpn5npnonpn5npnonpnHmnmmmnmmmnmmmnnHmHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 19 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4non4n5n4non4n5n4non4n5n4non4n5nHm3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 20 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGnonpn5npnonpn5npnonpn5npnonpn5npnHmnmmmnmmmnmmmnnHmHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 21 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4n5n4non4n5n4non4n5n4non4n5n4nonHm3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 22 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGn5npnonpn5npnonpn5npnonpn5npnonpnHmnmmmnmmmnmmmnnHmHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 23 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4non4n5n4non4n5n4non4n5n4non4n5nHm3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 24 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGnonpn5npnonpn5npnonpn5npnonpn5npnHmnmmmnmmmnmmmnnHmHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 25 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4n5n4non4n5n4non4n5n4non4n5n4nonHm3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 26 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGn5npnonpn5npnonpn5npnonpn5npnonpnHmnmmmnmmmnmmmnnHmHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 27 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4non4n5n4non4n5n4non4n5n4non4n5nHm3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 28 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGnonpn5npnonpn5npnonpn5npnonpn5npnHmnmmmnmmmnmmmnnHmHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 29 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4n5n4non4n5n4non4n5n4non4n5n4nonHm3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 30 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGn5npnonpn5npnonpn5npnonpn5npnonpnHmnmmmnmmmnmmmnnHmHmHlXnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 31 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4non4n5n4non4n5n4non4n5n4non4n5nHm3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 32 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGnonpn5npnonpn5npnonpn5npnonpn5npnHmnmmmnmmmnmmmnnHmHmHlXnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 33 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4n5n4non4n5n4non4n5n4non4n5n4nonHm3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 34 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmnGn5npnonpn5npnonpn5npnonpn5npnonpnHmnmmmnmmmnmmmnnHmHmHlXnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 35 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2nGn4non4n5n4non4n5n4non4n5n4non4n5nHm3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 36 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmn0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1mnmmmnmmmnmmmnnHmHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 37 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnnHmHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGm2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGnGbqbrmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnbqbrnHmHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGnGb6b7m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3b6b7nHmHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGkokoknidknidknidknidknidknidkokomnmmkokoknidknidknidknidknidknidkokomHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGkokoknidknidknidknidknidknidkokom3m2kokoknidknidknidknidknidknidkokomHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGk4k4mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmk4k4mHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGk4k4m3m2m3m2m3m2m3nmnXnXnXnXnXnXnXnXnXnXnXnXnXnXnnm2m3m2m3m2m3m2k4k4mHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGk4k4mnmmmnmmmnmmmnnHnzmXmXmXmXmXmXmXmXmXmXmXmXnynGmmmnmmmnmmmnmmk4k4mHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGk4k4m3m2m3m2m3m2m3nHmHnTmXmXmXmXmXmXmXmXmXmXnSmGnGm2m3m2m3m2m3m2k4k4mHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGk4k4mnmmmnmmmnmmmnnHmHmHbqbrk2k2k2k2k2k2bqbrmGmGnGmmmnmmmnmmmnmmk4k4mHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGk4k4m3m2m3m2m3m2m3nHmHmHb6b7k3k3k3k3k3k3b6b7mGmGnGm2m3m2m3m2m3m2k4k4mHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGk4k4mnmmmnmmmnmmmnnHmHmHk2k3k3k3k3k3k3k3k3k2mGmGnGmmmnmmmnmmmnmmk4k4mHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGk4k4m3m2m3m2m3m2m3nHmHmHk2k2k2k2k2k2k2k2k2k2mGmGnGm2m3m2m3m2m3m2k4k4mHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGk4k4mnmmmnmmmnmmmnnHmHnDmWmWioipiqipiqirmWmWnCmGnGmmmnmmmnmmmnmmk4k4mHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGk4k4m3m2m3m2m3m2m3nHnjmWmWmWi4i5i6i5i6i7mWmWmWninGm2m3m2m3m2m3m2k4k4mHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGk4k4mnmmmnmmmnmmmnn2nWnWnWnWnWnWnWnWnWnWnWnWnWnWn3mmmnmmmnmmmnmmk4k4mHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGk4k4m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2k4k4mHmHlXm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGmGkokoknidknidkokomnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmkokoknidknidkokomHmHlnnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmmGmGkokoknidknidkokonXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXkokoknidknidkokomHmHlnm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4lEl0nElWmGnwmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxmHlXnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4lEmEm0lmnQmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnRlnm1mFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4lEl0nEmwl3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2mxnFl1lFJ4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4lEmEmQnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUmRmFlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4lElwmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUlxlFJ4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4lQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlRJ4J4J4J4J4J4J4J4J4
+LINK sardontower14.nw 31 4 2 1 30.5 45
+LINK sardontower15.nw 29 17 6 14 30.5 5
+NPC - 15 6
+join("obj_pushpull");
+
+//#CLIENTSIDE
+function onCreated() {
+x+=0.5;
+  showcharacter();
+  head = "head905.png";
+  colors[0] = "gray";
+  colors[1] = "lightgray";
+  colors[2] = "lightgray";
+  colors[3] = "gray";
+  colors[4] = "gray";
+  shield = "stone-shield.png";
+  body = "body.png";
+  dir = 2;
+}
+NPCEND
+NPC - 45 6
+join("obj_pushpull");
+
+//#CLIENTSIDE
+function onCreated() {
+x+=0.5;
+  showcharacter();
+  head = "head905.png";
+  colors[0] = "gray";
+  colors[1] = "lightgray";
+  colors[2] = "lightgray";
+  colors[3] = "gray";
+  colors[4] = "gray";
+  shield = "stone-shield.png";
+  body = "body.png";
+  dir = 2;
+}
+NPCEND
+NPC - 12 18
+join("level_questlevel");
+NPCEND
+NPC - 12 21
+join("control_midi");
+//#CLIENTSIDE
+function onCreated(){
+this.midi = "stef80.mid";
+}
+NPCEND
+NPC - 30 48
+join("chest_big");
+
+function onChestopen(){
+addweapon("*Knife of Fiends");
+say2("You've got the Knife of Fiends!#bThe gnome in the dungeons spoke#bof a magical blade Sardon had#bhidden away, and how it caused#ba big accident in the past.#bThis knife requires magic, make#bsure to save some for Sardon.");
+}
+
+//#CLIENTSIDE
+function onCreated(){
+this.contentimg = "classic_knifeoffiendsicon.png";
+}
+NPCEND
+NPC - 28 32
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 13;
+  this.targetx = 24;
+  this.targety = 12;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",0,0,64,64);
+}
+NPCEND
+NPC - 24 16
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 12;
+  this.targetx = 28;
+  this.targety = 12;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",64,0,64,64);
+}
+NPCEND
+NPC - 36 16
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 7;
+  this.targetx = 32;
+  this.targety = 12;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",128,0,64,64);
+}
+NPCEND
+NPC - 24 24
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 8;
+  this.targetx = 24;
+  this.targety = 16;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",0,64,64,64);
+}
+NPCEND
+NPC - 28 20
+
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",64,128,64,64);
+}
+NPCEND
+NPC - 32 16
+
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",128,64,64,64);
+}
+NPCEND
+NPC - 28 12
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+  this.num = 1;
+  this.targetx = 36;
+  this.targety = 16;
+  setshape(1,64,64);
+  setimgpart("classic_sardonpuzzle.png",192,64,64,64);
+}
+NPCEND
+NPC - 24 12
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 11;
+  this.targetx = 24;
+  this.targety = 20;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",0,128,64,64);
+}
+NPCEND
+NPC - 28 16
+
+
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",64,64,64,64);
+}
+NPCEND
+NPC - 32 20
+
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",128,128,64,64);
+}
+NPCEND
+NPC - 36 28
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 15;
+  this.targetx = 36;
+  this.targety = 20;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",192,128,64,64);
+}
+NPCEND
+NPC - 24 32
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 5;
+  this.targetx = 24;
+  this.targety = 24;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",0,192,64,64);
+}
+NPCEND
+NPC - 28 24
+
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",64,192,64,64);
+}
+NPCEND
+NPC - 32 24
+
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",128,192,64,64);
+}
+NPCEND
+NPC - 36 12
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 3;
+  this.targetx = 36;
+  this.targety = 24;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",192,192,64,64);
+}
+NPCEND
+NPC - 24 20
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 6;
+  this.targetx = 24;
+  this.targety = 28;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",0,256,64,64);
+}
+NPCEND
+NPC - 28 28
+
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",64,256,64,64);
+}
+NPCEND
+NPC - 32 28
+
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",128,256,64,64);
+}
+NPCEND
+NPC - 32 32
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 14;
+  this.targetx = 36;
+  this.targety = 28;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",192,256,64,64);
+}
+NPCEND
+NPC - 24 28
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+
+function onCreated(){
+ this.num = 0;
+  this.targetx = 24;
+  this.targety = 32;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",0,320,64,64);
+}
+NPCEND
+NPC - 36 32
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 4;
+  this.targetx = 28;
+  this.targety = 32;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",64,320,64,64);
+}
+NPCEND
+NPC - 36 24
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 9;
+  this.targetx = 32;
+  this.targety = 32;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",128,320,64,64);
+}
+NPCEND
+NPC - 36 20
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+ this.num = 2;
+  this.targetx = 36;
+  this.targety = 32;
+  setshape(1,64,64);
+setimgpart("classic_sardonpuzzle.png",192,320,64,64);
+}
+NPCEND
+NPC - 15 39
+join("obj_pushpull");
+
+//#CLIENTSIDE
+function onCreated() {
+x+=0.5;
+  showcharacter();
+  head = "head905.png";
+  colors[0] = "gray";
+  colors[1] = "lightgray";
+  colors[2] = "lightgray";
+  colors[3] = "gray";
+  colors[4] = "gray";
+  shield = "stone-shield.png";
+  body = "body.png";
+  dir = 2;
+}
+NPCEND
+NPC - 45 39
+join("obj_pushpull");
+
+//#CLIENTSIDE
+function onCreated() {
+x+=0.5;
+  showcharacter();
+  head = "head905.png";
+  colors[0] = "gray";
+  colors[1] = "lightgray";
+  colors[2] = "lightgray";
+  colors[3] = "gray";
+  colors[4] = "gray";
+  shield = "stone-shield.png";
+  body = "body.png";
+  dir = 2;
+}
+NPCEND
+NPC classic_calvetto_lockedgate.png 31 42
+//#CLIENTSIDE
+function onCreated(){
+setshape(1,32,32);
+blockagain();
+}
+
+function onPlayerenters(){
+if(client.quest_sardons_puzzlesplaced >= 16){
+hide();
+dontblock();
+play("chest.wav");
+}
+}
+
+function onPuzzleplaced(){
+client.quest_sardons_puzzlesplaced ++;
+if(client.quest_sardons_puzzlesplaced >= 16){
+hide();
+dontblock();
+play("chest.wav");
+}
+}
+NPCEND
+NPC - 12 14
+//#CLIENTSIDE
+function onCreated() {
+  if(!client.quest_sardons_puzzlex){
+    client.quest_sardons_puzzlex = {24,28,36,36,36,24,24,36,24,36,32,24,24,28,32,36};
+    client.quest_sardons_puzzley = {28,12,20,12,32,32,20,16,24,24,12,12,16,32,32,28};
+  }
+  function onPlayerenters(){
+    player.x = 30.5;
+    player.y = 5;
+  }
+}
+NPCEND
+NPC - 32 12
+join("sardon_puzzleblock");
+
+//#CLIENTSIDE
+function onCreated(){
+  this.num = 10;
+  this.targetx = 36;
+  this.targety = 12;
+  setshape(1,64,64);
+  setimgpart("classic_sardonpuzzle.png",192,0,64,64);
+}
+NPCEND
+NPC - 21 5
+//#CLIENTSIDE
+function onCreated(){
+  showcharacter();
+  this.head = "head1.png";
+  this.colors[0] = "orange";
+  this.colors[1] = "blue";
+  this.colors[2] = "black";
+  this.colors[3] = "red";
+  this.colors[4] = "red";
+  this.shield = "no-shield.png";
+  this.nick = "*Galen";
+  this.ap=100;
+  this.dir = 2;
+  x+=0.5;
+  setcharani("classic_sit",NULL);
+}
+
+function onPlayerenters(){
+  if(findweapon("*Knife of Fiends") != NULL){
+    hide();
+  }
+}
+
+
+function onPlayertouchsme(){
+  say2("Hello again.#bI see you're making good progress.#b#bYou need to move those blocks#bby pushing or pulling them.#bIf you get stuck you can always#bsay /reset to start again.#bGood luck!");
+}
+
+function onPlayerchats(){
+  if(player.chat == "/reset"){
+    player.x = 30.5;
+    player.y = 5;
+    client.quest_sardons_puzzlex = {24,28,36,36,36,24,24,36,24,36,32,24,24,28,32,36};
+    client.quest_sardons_puzzley = {28,12,20,12,32,32,20,16,24,24,12,12,16,32,32,28};
+    client.quest_sardons_puzzlesplaced = 0;
+    for(i:npcs){
+      if("onUpdate" in i.getfunctions()){
+        i.trigger("Update",NULL);
+      }
+    }
+  }
+}
+NPCEND
+NPC - 35 48
+join("magicpot");
+NPCEND
+NPC - 27 48
+join("magicpot");
+NPCEND

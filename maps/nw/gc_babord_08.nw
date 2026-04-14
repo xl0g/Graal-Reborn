@@ -1,0 +1,160 @@
+GLEVNW01
+BOARD 0 0 64 0 CRCRBzCCf/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUCr
+BOARD 0 1 64 0 CiCjCDCCf/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/AQf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/DiDjEkDjEkDjEkDjDkEt
+BOARD 0 2 64 0 gzg0CDCCf/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/g2f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUEt
+BOARD 0 3 64 0 CiCjCDCCf/VgVhViVjVjVjVjVjVjVjVjVjVjVjVjVlVmVnP/P/f/f/f/f/f/g3f/f/AAACADf/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/DiDjEkDjEkDjEkDjDkCq
+BOARD 0 4 64 0 CyCzCTCSg1VwVxVyVzVzV0V0VzVzVzV0V0VzVzV0V1VxWRByP/DmDnH/f/f/f/f/f/OLASATH/DsDtf/AAABf/f/f/f/f/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUEt
+BOARD 0 5 64 0 P/OLf/f/f/VwVxVyVzV0VzV0VzV0V0VzV0VzV0VzV1VxWRCCP/D2D3Dnf/AAABf/f/f/f/f/DsD8D9f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/DiDjEkDjEkDjEkDjDkCq
+BOARD 0 6 64 0 P/f/AAABf/VwVxVyVzVzV0V0VzV0V0VzV0VzV0VzV1VxWRCCP/CmCnD3CpCpCpCpCpCpCpCpD8CsCtf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUEt
+BOARD 0 7 64 0 P/f/f/f/f/VwVxVyVzV0VzV0VzVzVzV0V0VzV0VzV1VxWRCCP/C2C3C4C5C6C5C6C5C6C5C6C7C8C9f/f/f/f/f/f/f/f/f/f/f/f/f/f/DwDiDjEkDjEkDjEkDjDkCr
+BOARD 0 8 64 0 P/f/f/OLf/VwVxVyVzVzV0V0VzV0V0V0V0VzVzV0V1VxWRCCP/g2DHDIDJDKDJDKDJDKDJDKDLDMf/f/f/f/f/f/f/f/f/f/f/f/f/f/DwDxDyDyDyDyDyDyDyDzC1Et
+BOARD 0 9 64 0 P/f/f/AAABVwWBWCWDWDWDWDWDWDWDWDWDWDWDWDV2WAWRCCP/f/DXDYDZDaDZDaDZDaDZDaDbDcg3f/f/f/f/f/f/f/f/f/f/f/f/DwDxDyDyDyDyDyDyDyDzC1CrEt
+BOARD 0 10 64 0 g2P/f/f/f/VwWSVxVxVxVxVxVxVxVxVxVxVxVxVxVxWQWRCCP/ACADDoDpDqDpDqDpDqDpDqDrH/f/f/f/f/f/f/f/f/f/f/f/f/DwDxDyDyDyDyDyDyDyDzC1CqEtCq
+BOARD 0 11 64 0 P/f/f/f/f/VQWiVxVxVxVxVxWEWFWGWHVxVxVxVxVxWgWhCCP/ASATD4D5D6D5D6D5D6D5D6D7H/f/f/f/f/f/f/f/f/f/f/f/DwDxDyDyDyDyDyDyDyDzC1EtCrEtEt
+BOARD 0 12 64 0 P/f/f/f/f/CQCRCRCRCRCRCRB0B1B2B3CRCRCRCRCRCRBzCCP/AAABf/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/DwDxDyDyDyDyDyDyDyDzC1EtEtCrCrCq
+BOARD 0 13 64 0 P/AAABf/f/CgNqNrNqChCiCjCEiLiLCHChCiCjNrNqNrCDCCP/f/H/f/f/f/f/f/f/f/OLf/f/f/f/f/f/f/f/f/f/f/f/DwDxDyDyDyDyDyDyDyDzC1EtCrCqEtEtEt
+BOARD 0 14 64 0 f/f/f/f/f/CwN6N7N6CxCyCzCUItItCXCxCyCzN7N6N7CTCSP/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/DwDxDyDyDyDyDyDyDyDzC1EtEtEtCrEtCrCr
+BOARD 0 15 64 0 f/f/AAABP/P/ACADf/f/f/f/BEAwAxBEf/f/DsCpCpCpCpCpCpDnH/g2f/AAABf/f/H/DsDtf/f/f/f/f/f/f/f/f/DwDxDyDyDyDyDyDyDyDzC1EtCqCqCqEtCqEtEt
+BOARD 0 16 64 0 f/f/f/f/OLP/ASATf/f/f/f/AwAxAwAxf/DsD8C5C6C5C6C5C6D3Dnf/f/f/f/f/f/DsD8D9f/f/f/f/f/f/f/f/f/DxDyDyDyDyDyDyDyDzC1CrEtCrEtEtCrEtCrEt
+BOARD 0 17 64 0 f/f/g3f/f/f/f/f/f/f/f/f/f/f/f/f/DsD8C7DJJnJoJpJqDKC4D3CpCpCpCpCpCpD8CsCtf/f/g3f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUCqEtCqEtCqCqEtCqEtCq
+BOARD 0 18 64 0 f/f/f/f/f/AAABf/f/AAABf/f/g1f/DsD8C7DLDZJ3wLwLJ6DaDIC4C5C6C5C6C5C6C7C8C9f/AAABf/f/f/f/f/f/DiDjEkDjEkDjEkDjDkCrEtEtCrEtCrEtCrEtEt
+BOARD 0 19 64 0 AAABDmDnH/f/f/f/ACADf/f/f/H/DsD8C7DLDbDpKHwLwLKKDqDYDIDJDKDJDKDJDKDLDMf/f/f/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUCrCrCqEtCqEtEtCrCrCq
+BOARD 0 20 64 0 f/f/D2D3Dnf/f/g2ASATOLAAABDsD8C7DLDbDrD5KXKYKZKaD6DoDYDZDaDZDaDZDaDbDcf/f/f/f/f/f/f/f/f/f/DiDjEkDjEkDjEkDjDkEtEtEtCrEtCrCqEtEtEt
+BOARD 0 21 64 0 f/f/CmCnD3CpCpCpCpCpCpCpCpD8C7DLDbDrD7Zva7apaqa7ZvD4DoDpDqDpDqDpDqDrH/f/f/f/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUEtCrCrEtEtEtCrEtCrCr
+BOARD 0 22 64 0 OLg3C2C3C4C5C6C5C6C5C6C5C6C7DLDbDrD7f/Zvara5a6arZvOLD4D5D6D5D6D5D6D7H/f/f/f/f/f/f/f/f/f/f/DiDjEkDjEkDjEkDjDkCqEtEtCqCqCqEtCqEtEt
+BOARD 0 23 64 0 f/f/f/DHDIDJDKDJDKDJDKDJDKDLDbDrD7eOePZva7apaqa7ZveOePf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUEtCrEtCrEtEtCrEtCrEt
+BOARD 0 24 64 0 f/f/f/DXDYDZDaDZDaDZDaDZDaDbDrD7f/eeefZvara5a6arZveeeff/f/f/f/AQf/AAABf/f/g1f/f/f/f/f/f/DwDiDjEkDjEkDjEkDjDkCqEtCqEtCqCqEtCqEtCq
+BOARD 0 25 64 0 f/AAABH/DoDpDqDpDqDpDqDpDqDrD7AAABeuevZva7apaqa7Zveuevf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/DwDxDyDyDyDyDyDyDyDzC1CrEtEtCrEtCrEtCrEtEt
+BOARD 0 26 64 0 f/f/f/H/D4D5D6D5D6D5D6D5D6D7H/g2f/e+e/Zvara5a6arZve+e/f/f/AAABf/f/f/f/f/OLf/f/f/f/f/DwDxDyDyDyDyDyDyDyDzC1EtCrCrCqEtCqEtEtCrCrCq
+BOARD 0 27 64 0 g3f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Zva7apaqa7ZvTfbQbQbQbQbQbQbQbQbQbRf/ACADAAf/DwDxDyDyDyDyDyDyDyDzC1CrCqEtEtEtCrEtCrCqEtEtEt
+BOARD 0 28 64 0 f/f/f/AAABOLf/f/f/f/f/AAABf/f/f/f/f/f/Zvara5a6arZvTvbgbgbgT9T+M9M+T9T+bhf/ASATf/f/DxDyDyDyDyDyDyDyDzC1EtEtCrEtCrCrEtEtEtCrEtCrCr
+BOARD 0 29 64 0 f/f/f/f/f/f/AAABf/g1f/f/f/OLf/f/f/f/f/Zva7apaqa7ZvTvbgbgbgUNM9NNNOM+UObhf/f/f/f/f/DSDTEUDTEUDTEUDTDUCqCqCqEtCqEtEtCqCqCqEtCqEtEt
+BOARD 0 30 64 0 AAABf/f/g1f/f/f/f/f/f/f/f/f/f/g2f/f/f/Zvara5a6arZvTvbgbgbgM9NNNONNNOM+bhf/g3f/f/f/DiDjEkDjEkDjEkDjDkCrEtEtCrEtCrEtCrEtEtCrEtCrEt
+BOARD 0 31 64 0 ZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZva7apaqa7ZvTvbgbgbgNNNONNNONNNObhf/f/f/f/f/DSDTEUDTEUDTEUDTDUEtCqCqEtCqEtCqEtCqCqEtCqEtCq
+BOARD 0 32 64 0 a7ara7ara7ara7ara7ara7arara7ara7ara7ara7ara5a6a7ZvT/bwbwbwbwbwbwbwbwbwbxf/f/f/f/f/DiDjEkDjEkDjEkDjDkCrEtCrEtCrEtEtCrEtCrEtCrEtEt
+BOARD 0 33 64 0 apaqapaqapaqapaqapaqapaqaqapaqapaqapaqapaqapaqarZvf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUEtCqEtEtCrCrCqEtCqEtEtCrCrCq
+BOARD 0 34 64 0 a5a6a5a6a5a6a5a6a5a6a5a6a6a5a6a5a6a5a6a5a6a5a6a7Zvf/f/AAABf/f/f/f/ACADf/f/f/f/f/f/DiDjEkDjEkDjEkDjDkCrEtCrCqEtEtEtCrEtCrCqEtEtEt
+BOARD 0 35 64 0 a7ara7ara7ara7ara7ara7arara7ara7ara7ara7arara7arZvf/f/f/f/g2f/f/f/ASATf/OLf/f/f/f/GQGADYDIDYDIDYDIC4F9EtEtCrEtCrCrEtEtEtCrEtCrCr
+BOARD 0 36 64 0 ZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvf/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/GQGADYDIDYDIDYDIC4F9CqEtCqEtEtCqCqCqEtCqEtEt
+BOARD 0 37 64 0 f/f/AAABf/f/f/f/DmDnH/f/f/g1f/f/ACADf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/GQGADYDIDYDIDYDIC4F9CrEtCrEtCrEtEtCrEtCrEt
+BOARD 0 38 64 0 f/f/f/f/f/f/f/f/D2D3Dnf/f/f/AAABASATf/f/f/OLf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/GQGADYDIDYDIDYDIC4F9CqEtCqEtCqCqEtCqEtCq
+BOARD 0 39 64 0 f/f/f/f/f/f/OLf/CmCnD3CpCpCpCpCpCpCpCpDnH/f/f/f/f/f/f/f/f/f/f/g3f/f/f/f/f/f/AAABf/f/f/f/f/GQGADYDIDYDIDYDIC4F9EtEtCrEtCrEtCrEtEt
+BOARD 0 40 64 0 f/f/f/g3f/f/f/f/C2C3C4C5C6C5C6C5C6C5C6D3Dnf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/GQGADYDIDYDIDYDIC4CrCqEtCqEtEtCrCrCq
+BOARD 0 41 64 0 f/f/f/f/f/f/f/f/f/DHDIDJDKDJDKDJDKDJDKC4D3DnH/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUEtCrEtCrCqEtEtEt
+BOARD 0 42 64 0 f/f/f/f/f/f/AAABf/DXDYDZDaDZDaDZDaDZDaDIC4D3DnH/g1f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/f/f/f/f/f/f/DiDjEkDjEkDjEkDjDkCrEtEtEtCrEtCrCr
+BOARD 0 43 64 0 f/f/AAABf/f/f/f/f/H/DoDpDqDpDqDpDqDpDqDYDIC4D3DnH/f/f/ACADf/f/H/DsDtf/f/f/f/f/f/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUEtCqCqCqEtCqEtEt
+BOARD 0 44 64 0 f/f/f/f/ACADf/OLf/H/D4D5D6D5D6D5D6D5D6DoDYDIC4D3Dnf/f/ASATf/f/DsD8D9f/f/f/AAABf/f/ACADf/f/f/f/DiDjEkDjEkDjEkDjDkEtCrEtEtCrEtCrEt
+BOARD 0 45 64 0 f/f/f/f/ASATf/f/f/f/BABBBCBDBDBFBGBHf/D4DoDYDIC4D3CpCpCpCpCpCpD8CsCtf/f/f/f/f/f/f/ASATf/f/f/f/DSDTEUDTEUDTEUDTDUCqEtCqCqEtCqEtCq
+BOARD 0 46 64 0 f/f/g3f/f/f/f/f/f/f/BQBRBSBUBUBVBRBXf/AQD4DoDYDIC4C5C6C5C6C5C6C7C8C9f/f/f/f/f/f/f/f/f/f/f/f/f/DiDjEkDjEkDjEkDjDkEtCrEtCrEtCrEtEt
+BOARD 0 47 64 0 f/f/f/f/f/f/g1WyWzW0BQBhBiBjBjBWCkBXWyWzW0D4DoDYDIDJDKDJDKDJDKDLDMf/f/f/f/f/f/OLf/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUCqEtCqEtEtCrCrCq
+BOARD 0 48 64 0 AAABf/f/f/f/f/XCXDXEBQBxBRBRBRBRC0ClXCXDXEH/D4DoDYDZDaDZDaDZDaDbDcf/f/f/f/f/f/f/f/g2f/f/f/f/f/DiDjEkDjEkDjEkDjDkEtCrEtCrCqEtEtEt
+BOARD 0 49 64 0 f/f/f/f/f/f/f/XCXDXECACBBkBlBmBnDEDFXCXDXEf/f/D4DoDpDqDpDqDpDqDrH/f/f/f/f/AAABf/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUCrEtEtEtCrEtCrCr
+BOARD 0 50 64 0 f/f/f/f/f/AAABXCXDXECQCRB0B1B2B3CRBzXCXDXEf/f/f/D4D5D6D5D6D5D6D7f/f/f/f/f/f/f/f/f/AAABf/f/f/f/DiDjEkDjEkDjEkDjDkEtCqCqCqEtCqEtEt
+BOARD 0 51 64 0 f/f/f/f/f/f/f/XSXTXUKiKjCEiLiLCHKjKkXSXTXUf/f/f/H/f/f/f/f/f/OLf/f/f/f/g3f/f/f/f/f/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUEtCrEtEtCrEtCrEt
+BOARD 0 52 64 0 f/f/f/f/f/f/f/f/f/f/KyKzCUItItCXKzK0f/f/f/f/f/g1f/f/f/f/f/g1f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/DiDjEkDjEkDjEkDjDkCqEtCqCqEtCqEtCq
+BOARD 0 53 64 0 f/f/f/f/OLf/f/f/f/f/f/f/BEAwAxBEf/f/f/f/f/f/f/AAABf/f/f/f/f/ACADf/f/f/f/f/f/H/DsDtg2f/f/f/f/f/GQGADYDIDYDIDYDIC4F9CrEtCrEtCrEtEt
+BOARD 0 54 64 0 f/f/f/f/f/DmDnH/f/f/f/f/AwAxAwAxf/f/g3f/f/OLf/f/f/f/f/f/f/f/ASATf/f/f/AAABf/DsD8D9f/f/f/f/f/f/f/GQGADYDIDYDIDYDIC4F9CqEtEtCrCrCq
+BOARD 0 55 64 0 f/f/g2f/f/D2D3Dnf/f/OLf/DsCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpCpD8CsCtAAABf/f/f/f/f/f/GQGADYDIDYDIDYDIC4F9CrCqEtEtEt
+BOARD 0 56 64 0 f/f/f/f/f/CmCnD3CpCpCpCpD8C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C7C8C9f/f/f/f/f/f/f/f/f/GQGADYDIDYDIDYDIC4F9CrEtCrCr
+BOARD 0 57 64 0 f/f/f/f/f/C2C3C4C5C6C5C6C7DKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDLDMf/f/Hof/f/f/f/f/f/f/f/GQGADYDIDYDIDYDIC4F9CqEtEt
+BOARD 0 58 64 0 f/f/f/g1f/f/DHDIDJDKDJDKDLDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDbDcf/GkGlf/f/f/f/f/f/f/f/f/GQGADYDIDYDIDYDIC4F9CrEt
+BOARD 0 59 64 0 f/f/AAABf/f/DXDYDZDaDZDaDbDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDrH/HoG0G1G0G1Hpf/f/f/f/f/f/f/DiDjEkDjEkDjEkDjDkEtCq
+BOARD 0 60 64 0 f/f/f/OLf/f/H/DoDpDqDpDqDrD6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D7GkGlGkGlACADGlf/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUEtEt
+BOARD 0 61 64 0 f/f/f/f/f/f/H/D4D5D6D5D6D7HoGkGlGkGlACADGkGlGkGlHpf/f/OLf/f/f/AAABf/f/f/f/f/HoG0G1G0G1ASATG1f/f/f/f/f/f/f/DiDjEkDjEkDjEkDjDkCrCq
+BOARD 0 62 64 0 bubvf/f/f/f/GkGlGkGlGkGlGkGlG0G1G0G1ASATG0G1G0G1GkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlf/f/f/f/f/f/f/DSDTEUDTEUDTEUDTDUEtEt
+BOARD 0 63 64 0 b+b/f/f/f/HoG0G1G0G1G0G1G0G1GkGlGkGlGkGlGkGlGkGlG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1f/f/f/f/f/f/f/DiDjEkDjEkDjEkDjDkCrCr
+LINK gc_babord_07.nw 0 0 1 64 61 playery
+LINK gc_babord_04.nw 0 0 64 1 playerx 61
+LINK gc_babord_11.nw 0 63 64 1 playerx 0
+SIGN 0 0
+Hey!  Traveller!  Come here!  
+I'll convert your gelat into 
+Babord currency, no charge!
+SIGNEND
+SIGN 0 0
+HA HA HA HA, SUCKER!
+SIGNEND
+SIGN 0 0
+Don't give that bugger any 
+money!  He's a thief!  I'd arrest 
+him, but oy the paperwork...
+SIGNEND
+SIGN 10 16
+
+Babord Police Department
+SIGNEND
+SIGN 8 53
+Babord Volunteer Fire 
+Department
+SIGNEND
+NPC door.png 13 13
+
+NPCEND
+NPC - 26 28
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head666.png;
+  setcharprop #C0,red;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,red;
+  setcharprop #C4,red;
+  setcharprop #8,body11.png;
+  setcharprop #n,Mimic;
+  ap=1;
+  shieldpower = 1;
+  dir = 2;
+sprite=33;
+}
+NPCEND
+NPC - 16 27
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head29.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,blue;
+  setcharprop #C2,darkblue;
+  setcharprop #C3,red;
+  setcharprop #C4,yellow;
+  setcharprop #2,bluestripe-shield.png;
+  shieldpower = 1;
+  dir = 2;
+  sprite=24;
+}
+NPCEND
+NPC door.png 13 51
+
+NPCEND
+NPC - 39 29
+function onPlayerChats(){
+  if(player.guild == "Game Coordinator"){
+    if(player.chat == "/start"){
+      serverr.gc_babord="true";
+      player.chat="Weapons Enabled!";
+    }
+    if(player.chat == "/stop"){
+      serverr.gc_babord="false";
+      player.chat="Weapons Disbaled!";
+    }
+  }
+}
+//#CLIENTSIDE
+if (playerenters || timeout)  {
+  if (serverr.gc_babord="false") {
+    movement_handleitems = 0.1;
+    movement_handlesword = 0.1;
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC - 39 31
+this.spawnpoint = {"brothershouse_inside_03.nw",30.5,30};
+join("gc_level_spawn");
+NPCEND
+NPC - 39 33
+join("level_nopause");
+NPCEND

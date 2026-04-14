@@ -1,0 +1,1073 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J48N7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+7+J4J4J4
+BOARD 0 4 64 0 J4J48N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8PwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwLwL8O8O8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 5 64 0 J4J48N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8P7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7aJ4J4J47b7a7b8N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 6 64 0 J4J48N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8P7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7bJ4J4J47a7b7a8N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 7 64 0 J4J48N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8P7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7a7b7aItItIt7b7a7b8N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 8 64 0 J4J48N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8PGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGliF8O8O8O8O8O8O8O8N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 9 64 0 J4J48N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8PG1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1iV8O8O8O8O8O8O8O8N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 10 64 0 J4J48N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8PGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGliF8O8O8O8O8O8O8O8N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 11 64 0 J4J48N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8O8PG1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1iV8O8O8O8O8O8O8O8N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 12 64 0 J4J48N8O7b7a7b7a7b7a7bJ4J4J47b7a7b7a7b7a7bGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlijhmhmhmhmhmhmhn8N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 13 64 0 J4J48N8O7a7b7a7b7a7b7aJ4J4J47a7b7a7b7a7b7aG1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G17a7b7a7b7a7b7a7b8N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 14 64 0 J4J48N8O7b7a7b7a7b7a7bItItIt7bAR7b7a7b7a7bGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGl8N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 15 64 0 J4J48N8PK3K4K3K4K3K4K3K4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G18N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 16 64 0 J4J48N8PKnKoKnKoKnKoKnKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGl8N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 17 64 0 J4J48N8PK3K4K3K4K3K4K3K4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G18N8O8O8O8O8O8O8O8PJ4J4J4
+BOARD 0 18 64 0 J4J48N8PKnKoKnKoKnKoKnKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGl8O8O8O8O8O8O8O8N8PJ4J4J4
+BOARD 0 19 64 0 J4J48N8PK3K4K3K4K3K4K3K4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G17b7aJ4J4J47b7a8N8PJ4J4J4
+BOARD 0 20 64 0 J4J48N8PKnKoKnKoKnKoKnKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGl7a7bJ4J4J47a7b8N8PJ4J4J4
+BOARD 0 21 64 0 J4J48N8PK3K4K3K4K3K4K3K4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G17b7aItItIt7b7a8N8PJ4J4J4
+BOARD 0 22 64 0 J4J48N8PKnKoKnKoKnKoKnKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARKnKoKnKoKn8N8PJ4J4J4
+BOARD 0 23 64 0 J4J48N8PK3K4K3K4K3K4K3K4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0AgK3K4K3K4K38N8PJ4J4J4
+BOARD 0 24 64 0 J4J48N8PKnKoKnKoKnKoKnKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARKnKoKnKoKn8N8PJ4J4J4
+BOARD 0 25 64 0 J4J48N8PK3K4K3K4K3K4K3K4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0AgK3K4K3K4K38N8PJ4J4J4
+BOARD 0 26 64 0 J4J48N8PKnKoKnKoKnKoKnKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARKnKoKnKoKn8N8PJ4J4J4
+BOARD 0 27 64 0 J4J48N8PK3K4K3K4K3K4K3K4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0AgK3K4K3K4K38N8PJ4J4J4
+BOARD 0 28 64 0 J4J48N8PKnKoKnKoKnKoKnKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARKnKoKnKoKn8N8PJ4J4J4
+BOARD 0 29 64 0 J4J48N8PK3K4K3K4K3K4K3K4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0AgK3K4K3K4K38N8PJ4J4J4
+BOARD 0 30 64 0 J4J48N8PKnKoKnKoKnKoKnKoKnARBgARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARKnKoKnKoKn8N8PJ4J4J4
+BOARD 0 31 64 0 J4J48N8PK3K4K3K4K3K4K3K4K3AgBwAhG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0AgK3K4K3K4K38N8PJ4J4J4
+BOARD 0 32 64 0 J4J48N8PKnKoKnKoKnKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARKnKoKnKoKn8N8PJ4J4J4
+BOARD 0 33 64 0 J4J48N8PK3K4K3K4K3K4K3K4ARAhG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1ARAhK3K4K3K4K38N8PJ4J4J4
+BOARD 0 34 64 0 J4J48N8PKnKoKnKoKnKoKnARAhGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARAhKoKnKoKnKoKn8N8PJ4J4J4
+BOARD 0 35 64 0 J4J48N8PK3K4K3K4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0AgK3K4K3K4K3K4K38N8PJ4J4J4
+BOARD 0 36 64 0 J4J48N8PKnKoKnKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARKnKoKnKoKnKoKn8N8PJ4J4J4
+BOARD 0 37 64 0 J4J48N8PK3K4K3K4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0AgK3K4K3K4K3K4K38N8PJ4J4J4
+BOARD 0 38 64 0 J4J48N8PKnKoKnKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARKnKoKnKoKnKoKn8N8PJ4J4J4
+BOARD 0 39 64 0 J4J48N8PK3K4K3K4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0AgK3K4K3K4K3K4K38N8PJ4J4J4
+BOARD 0 40 64 0 J4J48N8PKnKoKnKoKnKoKnARBgARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARBgARKnKoKnKoKnKoKn8N8PJ4J4J4
+BOARD 0 41 64 0 J4J48N8PK3K4K3K4K3K4K3AhBwAgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1ARAhBwAhK3K4K3K4K3K4K38N8PJ4J4J4
+BOARD 0 42 64 0 J4J48N8PKnKoKnKoKnKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARGkARAhKoKnKoKnKoKnKoKnKoKn8N8PJ4J4J4
+BOARD 0 43 64 0 J4J48N8O8O7+7+7+8PK4K3K4K3AgG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1ARAhARAhK3K4K3K4K3K48N7+7+7+7+8O8PJ4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4J4J48N8PKoKnKoKnARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlAgKoAhKoKnKoKnKoKnKo8N8PJ4J4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J47a7b7a7b7a8N8PK4K3K4K3AhARG1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1ARK4K3K4K3K4K3K4K3K48N8P7b7a7b7a7bJ4J4J4
+BOARD 0 46 64 0 J4J47b7a7b7a7b8N8PKoKnKoKnKoAhARBgARGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlAgKoKnKoKnKoKnKoKnKo8N8P7a7b7a7b7aJ4J4J4
+BOARD 0 47 64 0 J4J47a7b7a7b7a8N8PK4K3K4K3K4K3AhBwAhARG1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1ARK4K3K4K3K4K3K4K3K48N8P7b7a7b7a7bJ4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J48N8PKoKnKoKnKoKnKoKnKoAgGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlAgKoKnKoKnKoKnKoKnKo8N8PJ4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J48N8PK4K3K4K3K4K3K4K3K4ARBgARG1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1ARK4K3K4K3K4K3K4K3K48N8PJ4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J48N8PKoKnKoKnKoKnKoKnKoAhBwAgGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkARAhKoKnKoKnKoKnKoKnKo8N8PJ4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J48N8PK4K3K4K3K4K3K4K3K4K3K4ARG1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1ARAhK3K4K3K4K3K4K3K4K3K48N8PJ4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J48N8PKoKnKoKnKoKnKoKnKoKnKoAgGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlAgKoKnKoKnKoKnKoKnKoKnKo8N8PJ4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J48N8PK4K3K4K3K4K3K4K3K4K3K4ARG1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1ARK4K3K4K3K4K3K4K3K4K3K48N8PJ4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J48N8P7+7+7+7+7+7+7+7/KoKnKo797+7+7+7+7+7+7+7+7/GkGlGk797+7+7+7+7+7+7+7+7/KoKnKo797+7+7+7+7+7+7+8N8PJ4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J48N8P8O8O8O8O8O8O8O8PK4K3K48N8O8O8O8O8O8O8O8O8PG0G1G08N8O8O8O8O8O8O8O8O8PK4K3K48N8O8O8O8O8O8O8O8N8PJ4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J48N8P8O8O8O8O8O8O8O8PKoKnKo8N8O8O8O8O8O8O8O8O8PGkGlGk8N8O8O8O8O8O8O8O8O8PKoKnKo8N8O8O8O8O8O8O8O8N8PJ4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J48N8P8O8O8O8O8O8O8O8PK4K3K48N8O8O8O8O8O8O8O8O8PG0G1G08N8O8O8O8O8O8O8O8O8PK4K3K48N8O8O8O8O8O8O8O8N8PJ4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J48N8O7+7+7+7+7+7+7+7+7+7+7+8O8O8O8O8O8O8O8O8O8O7+7+7+8O8O8O8O8O8O8O8O8O8O7+7+7+7+7+7+7+7+7+7+7+8O8PJ4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J47a7b7a7b7a7b7a7b7a7bJ4J4J47a7b7a7b7a7b7a7b7a7bJ4J4J47a7b7a7b7a7b7a7b7a7bJ4J4J47a7b7a7b7a7b7a7b7a7bJ4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J47b7a7b7a7b7a7b7a7b7aJ4J4J47b7a7b7a7b7a7b7a7b7aJ4J4J47b7a7b7a7b7a7b7a7b7aJ4J4J47b7a7b7a7b7a7b7a7b7aJ4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J47a7b7a7b7a7b7a7b7a7bJ4J4J47a7b7a7b7a7b7a7b7a7bJ4J4J47a7b7a7b7a7b7a7b7a7bJ4J4J47a7b7a7b7a7b7a7b7a7bJ4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+NPC classic_kulldoor.png 30 60
+
+NPCEND
+NPC classic_kulldoor.png 17 60
+
+NPCEND
+NPC classic_kull_balconyborders.png 55 42
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,64,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 3 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 47 53
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 34 53
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 9 53
+// NPC made by Massokre (LAT)
+if (created) {
+ drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 21 53
+// NPC made by Massokre (LAT)
+if (created) {
+drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 53 18
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,32,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 15 59
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 20 59
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 30 59
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 35 59
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 40 59
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 45 59
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 50 59
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 20 7
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,80;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 55 52
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 55 48
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 55 44
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 60 40
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,80;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 3 44
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,64,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 8 51
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 8 47
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 6 44
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 1 8
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 6 48
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 51 14
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,80;
+dontblock;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 8 59
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 12 57
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 8 54
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 60 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,0,32,96;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 9 57
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 10 59
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 1 40
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,80;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 53 54
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 1 36
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 1 32
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 1 28
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 1 24
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 1 20
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 1 16
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 3 39
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 3 35
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 3 31
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 3 27
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 3 23
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 3 19
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 3 11
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 20 4
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 1 12
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 4 42
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,71,32;
+  x = 3.57;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 53 42
+// NPC made by Massokre (LAT)
+if (created) {
+   drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,0,0,32,96;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 7 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 45 53
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,0,0,32,80;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 6 52
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 53 47
+// NPC made by Massokre (LAT)
+if (created) {
+   drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 58 39
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 58 35
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 58 31
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 58 27
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 60 36
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 60 32
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 60 28
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 58 23
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 58 19
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 51 7
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 60 24
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 60 20
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 60 16
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 60 12
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 60 8
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 55 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 50 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 45 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 40 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 35 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 30 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 25 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 20 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 15 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 10 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 25 59
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 4 11
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 21 4
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 25 4
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 30 4
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 35 4
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 40 4
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 45 4
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 47 4
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kulldoor.png 43 60
+
+NPCEND
+NPC classic_kull_balconyborders.png 55 55
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,80;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 15 11
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 10 11
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 5 11
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,80,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 3 15
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;
+  setimgpart classic_kull_balconyborders.png,112,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 8 42
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,112,0,32,96;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 1 2
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,0,32,96;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 42 53
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer; dontblock;
+  setimgpart classic_kull_balconyborders.png,112,0,32,80;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 16 53
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer; dontblock;
+  setimgpart classic_kull_balconyborders.png,112,0,32,80;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 19 53
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,0,0,32,80;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 29 53
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer; dontblock;
+  setimgpart classic_kull_balconyborders.png,112,0,32,80;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 49 57
+// NPC made by Massokre (LAT)
+if (created) {
+ drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 11 53
+// NPC made by Massokre (LAT)
+if (created) {
+ drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 24 53
+// NPC made by Massokre (LAT)
+if (created) {
+ drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 17 57
+// NPC made by Massokre (LAT)
+if (created) {
+ drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 22 57
+// NPC made by Massokre (LAT)
+if (created) {
+ drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 27 57
+// NPC made by Massokre (LAT)
+if (created) {
+ drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 32 57
+// NPC made by Massokre (LAT)
+if (created) {
+ drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 37 57
+// NPC made by Massokre (LAT)
+if (created) {
+ drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 42 57
+// NPC made by Massokre (LAT)
+if (created) {
+ drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 47 57
+// NPC made by Massokre (LAT)
+if (created) {
+ drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 37 53
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 49 53
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,32,0,80,32;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 32 53
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,0,0,32,80;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 6 55
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,80;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 56 44
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,64,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 55 18
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,32,32,64,32;
+drawoverplayer;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 58 18
+// NPC made by Massokre (LAT)
+if (created) {
+  drawunderplayer;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 51 10
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 51 5
+// NPC made by Massokre (LAT)
+if (created) {
+  drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC classic_kull_balconyborders.png 53 51
+// NPC made by Massokre (LAT)
+if (created) {
+   drawoverplayer;dontblock;
+  setimgpart classic_kull_balconyborders.png,0,32,32,64;
+}
+NPCEND
+NPC - 11 12
+join("door_sliding");
+//#CLIENTSIDE
+if (created) {
+  setstring this.img,classic_kulldoor.png;
+  this.ptx = 0;
+  this.pty = 0;
+  this.w   = 1.5;
+  this.h   = 3;
+  this.doorcolor_init  = 1;
+  this.doorcolor_loss  = 0.1;
+  this.doorcolor_min   = 0.1;
+  this.speed_open  = .1;
+  this.speed_close = .3;
+  this.close_pause = 1;
+  this.open_dir    = 1;
+}
+NPCEND
+NPC - 13 12
+join("door_sliding");
+//#CLIENTSIDE
+if (created) {
+  x-=0.5;
+  setstring this.img,classic_kulldoor.png;
+  this.ptx = 24;
+  this.pty = 0;
+  this.w   = 1.5;
+  this.h   = 3;
+  this.doorcolor_init  = 1;
+  this.doorcolor_loss  = 0.1;
+  this.doorcolor_min   = 0.1;
+  this.speed_open  = .1;
+  this.speed_close = .3;
+  this.close_pause = 1;
+  this.open_dir    = 3;
+}
+NPCEND
+NPC - 46 5
+join("door_sliding");
+//#CLIENTSIDE
+if (created) {
+  setstring this.img,classic_kulldoor.png;
+  this.ptx = 0;
+  this.pty = 0;
+  this.w   = 1.5;
+  this.h   = 3;
+  this.doorcolor_init  = 1;
+  this.doorcolor_loss  = 0.1;
+  this.doorcolor_min   = 0.1;
+  this.speed_open  = .1;
+  this.speed_close = .3;
+  this.close_pause = 1;
+  this.open_dir    = 1;
+}
+NPCEND
+NPC - 54 19
+join("door_sliding");
+//#CLIENTSIDE
+if (created) {
+  setstring this.img,classic_kulldoor.png;
+  this.ptx = 0;
+  this.pty = 0;
+  this.w   = 1.5;
+  this.h   = 3;
+  this.doorcolor_init  = 1;
+  this.doorcolor_loss  = 0.1;
+  this.doorcolor_min   = 0.1;
+  this.speed_open  = .1;
+  this.speed_close = .3;
+  this.close_pause = 1;
+  this.open_dir    = 1;
+}
+NPCEND
+NPC - 48 5
+join("door_sliding");
+//#CLIENTSIDE
+if (created) {
+  x-=0.5;
+  setstring this.img,classic_kulldoor.png;
+  this.ptx = 24;
+  this.pty = 0;
+  this.w   = 1.5;
+  this.h   = 3;
+  this.doorcolor_init  = 1;
+  this.doorcolor_loss  = 0.1;
+  this.doorcolor_min   = 0.1;
+  this.speed_open  = .1;
+  this.speed_close = .3;
+  this.close_pause = 1;
+  this.open_dir    = 3;
+}
+NPCEND
+NPC - 56 19
+join("door_sliding");
+//#CLIENTSIDE
+if (created) {
+  x-=0.5;
+  setstring this.img,classic_kulldoor.png;
+  this.ptx = 24;
+  this.pty = 0;
+  this.w   = 1.5;
+  this.h   = 3;
+  this.doorcolor_init  = 1;
+  this.doorcolor_loss  = 0.1;
+  this.doorcolor_min   = 0.1;
+  this.speed_open  = .1;
+  this.speed_close = .3;
+  this.close_pause = 1;
+  this.open_dir    = 3;
+}
+NPCEND
+NPC teletile.mng 35 52
+
+
+function onPlayerTouchsMe() {
+   player.setlevel2("kulls_inside_01.nw",46,8.5);
+
+    }
+NPCEND
+NPC teletile.mng 26 52
+
+
+function onPlayerTouchsMe() {
+   player.setlevel2("kulls_inside_01.nw",30,52);
+
+    }
+NPCEND

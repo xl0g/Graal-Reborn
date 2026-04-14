@@ -81,12 +81,40 @@ func (g *Game) updatePlaying(dt float64) error {
 	if req := g.panelMenu.RequestMap; req != "" {
 		g.panelMenu.RequestMap = ""
 		g.prevMapName = ""
+		g.activeGMap = ""
 		g.loadMap(req, false)
 		g.mapSwitchCooldown = 3.0
+	}
+	if req := g.panelMenu.RequestGMap; req != "" {
+		g.panelMenu.RequestGMap = ""
+		g.prevMapName = ""
+		g.loadGMap(req)
 	}
 	if g.panelMenu.RequestInventory {
 		g.panelMenu.RequestInventory = false
 		g.inventoryMenu.Open()
+	}
+
+	// F3 → toggle debug overlay
+	if inpututil.IsKeyJustPressed(ebiten.KeyF3) {
+		g.debugOverlay = !g.debugOverlay
+	}
+
+	// Mouse wheel → zoom (clamp to ±1 per frame so fast scrolling stays gradual)
+	_, wy := ebiten.Wheel()
+	if wy != 0 {
+		if wy > 1 {
+			wy = 1
+		} else if wy < -1 {
+			wy = -1
+		}
+		g.zoom *= 1.0 + wy*0.07
+		if g.zoom < zoomMin {
+			g.zoom = zoomMin
+		}
+		if g.zoom > zoomMax {
+			g.zoom = zoomMax
+		}
 	}
 
 	g.processNetwork()
@@ -364,6 +392,18 @@ func (g *Game) updatePlaying(dt float64) error {
 		g.gameMap.Update(dt)
 	}
 
+	// Advance chunk streaming (GMAP mode).
+	// Compute how many chunks are visible at the current zoom level and load that radius.
+	if g.activeGMap != "" {
+		chunksX := int(math.Ceil(float64(screenW)/g.zoom/float64(chunkPixelW))) + 1
+		chunksY := int(math.Ceil(float64(screenH)/g.zoom/float64(chunkPixelH))) + 1
+		viewRadius := chunksX
+		if chunksY > viewRadius {
+			viewRadius = chunksY
+		}
+		g.chunkMgr.Update(g.localChar.X, g.localChar.Y, viewRadius)
+	}
+
 	// Gralat auto-collect
 	g.checkGralatPickup()
 
@@ -400,15 +440,26 @@ func (g *Game) updatePlaying(dt float64) error {
 func (g *Game) handleMovement(dt float64) {
 	c := g.localChar
 
+	// isMapBlocked checks collision against whichever map backend is active.
+	isMapBlocked := func(x, y, w, h float64) bool {
+		if g.activeGMap != "" {
+			return g.chunkMgr.IsBlocked(x, y, w, h)
+		}
+		if g.gameMap != nil {
+			return g.gameMap.IsBlocked(x, y, w, h)
+		}
+		return false
+	}
+
 	// Apply knockback with tile collision (local player only).
 	if c.knockTimer > 0 && (c.knockVX != 0 || c.knockVY != 0) {
 		kx := c.knockVX * dt
 		ky := c.knockVY * dt
-		if g.gameMap != nil && !g.noclip {
-			if !g.gameMap.IsBlocked(c.X+kx, c.Y, float64(frameW), float64(frameH)) {
+		if !g.noclip {
+			if !isMapBlocked(c.X+kx, c.Y, float64(frameW), float64(frameH)) {
 				c.X += kx
 			}
-			if !g.gameMap.IsBlocked(c.X, c.Y+ky, float64(frameW), float64(frameH)) {
+			if !isMapBlocked(c.X, c.Y+ky, float64(frameW), float64(frameH)) {
 				c.Y += ky
 			}
 		} else {
@@ -501,10 +552,11 @@ func (g *Game) handleMovement(dt float64) {
 	newY := c.Y + dy*speed*dt
 
 	pushedIntoWall := false
-	if g.gameMap != nil && !g.noclip {
-		blockedX := dx != 0 && (g.gameMap.IsBlocked(newX, c.Y, float64(frameW), float64(frameH)) ||
+	hasMap := g.activeGMap != "" || g.gameMap != nil
+	if hasMap && !g.noclip {
+		blockedX := dx != 0 && (isMapBlocked(newX, c.Y, float64(frameW), float64(frameH)) ||
 			g.isBlockedByWorldItem(newX, c.Y, float64(frameW), float64(frameH)))
-		blockedY := dy != 0 && (g.gameMap.IsBlocked(c.X, newY, float64(frameW), float64(frameH)) ||
+		blockedY := dy != 0 && (isMapBlocked(c.X, newY, float64(frameW), float64(frameH)) ||
 			g.isBlockedByWorldItem(c.X, newY, float64(frameW), float64(frameH)))
 
 		if !blockedX {

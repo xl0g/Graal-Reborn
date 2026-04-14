@@ -1,0 +1,559 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZmAmkmlmkmlmkmlmkmlmkmlmkj4j4j5j5mlmlmkmlmkmlmkmlmkmlmkmBYXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZm0aVaWaXaWaXaWaXaWaXaWaYkIiLiLkJaVaXaWaXaWaXaWaXaWaXaYm1YXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZnEalU7a2a3a2a3a2a3a2a3a4kYibibkZa1a3a2a3a2a3a2a3a2U6aonFYXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZm0alaonknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnlalaom1YXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZnEalaonGxyxzcek2cedNdOk2cdk2cdk2cedNdOk2cek2xyxznHalaonFYXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZm0alaonGyCyDk2cek2dddecdk2cdk2cdk2dddecek2ceyCyDnHalaom1YXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZnEalaonGcek2cek2cddtduk2cdk2cdk2cddtduk2cek2cek2nHalaonFYXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZm0alaonGk2cek2cek2d9d+cdk2cdk2cdk2d9d+cek2cek2cenHalaom1YXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZnEalaonGcedNdOk2cdk2cdk2cdk2cdk2cdk2cdk2cek2cek2nHalaonFYXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZm0alaonGk2dddecek2cdk2cdk2cdk2cdk2cdk2cdk2cek2cenHalaom1YXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZnEalaonGcedtduk2cdk2cdk2cdTfbRk2cdk2cdk2cek2cek2nHalaonFYXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4YXYZm0alaonGk2d9d+cdk2cdk2cdTf/y/xbRk2cdk2cdk2cdk2cenHalaom1YXYZJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4J4aVaWhEaWaXaWaXhEaXaYYXYZnEalaonGcek2k2cdcdk2cdTf/y/h/i/xbRk2cdk2cdk2cdk2nHalaonFYXYZaVaWhEaWaXaWaXhEaXaYJ4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4YIYIYIYIalU7CUa2a3a2a3CUU6VLaYYZm0alaonGk2cdcdk2k2cdk2T//i/x/y/hbxcdk2cdk2cdk2cdnHalaom1YXaVVKU7CUa2a3a2a3CUU6aoYIYIYIYIJ4J4
+BOARD 0 17 64 0 J4YXYZYcYcYcalaoCERnRoRnRoCEa1U6VLaYnEalaonGcdcdk2cdcdk2cdk2T//i/hbxcdk2cdk2cdcdk2k2nHalaonFaVVKU7a4CERkRjRkRjCEalaoYcYcYcYXYZJ4
+BOARD 0 18 64 0 J4YXYZmAmkaVVKaoCHRnRoRnRoCHLfa1U6VLaYalaonGk2k2cdk2k2cdk2cdk2T/bxcdk2cdk2cdk2k2cdcdnHalaoaVVKU7a4LeCHRnRoRnRoCHalVLaYmlmBYXYZJ4
+BOARD 0 19 64 0 J4YXYZnEaVVKU7a4CERnRoRnRoCELeLfa1U6VLVKaonGcdcdk2k2cdk2cdk2cdk2cdk2cdk2cdk2cdcdk2k2nHalVLVKU7a4LeLfCERnRoRnRoCEa1U6VLaYm1YXYZJ4
+BOARD 0 20 64 0 J4YXYZm0alU7a4LeCURnRoRnRoCULfLeLfa1a2a3a4nGk2k2cdcdk2cdk2cdk2cdk2cdk2cdk2cdk2k2cdcdnHa1a2a3a4LeLfLeCURnRoRnRoCULea1U6aonFYXYZJ4
+BOARD 0 21 64 0 J4YXYZnEalaonknWkoRxRyRxRykonWnWnWmImJnWnWn3cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2n2nWnWmImJnWnWnWkoRxRyRxRykonWnlalaom1YXYZJ4
+BOARD 0 22 64 0 J4YXYZm0alaonGcek4QXQYQXQYk4k2cek2mYmZcdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2mYmZcdk2cek4QXQYQXQYk4k2nHalaonFYXYZJ4
+BOARD 0 23 64 0 J4YXYZnEalaonGk2k4FCFDFEFCk4cek2cdm4m5k2cdk2cdk2cdk2cdk2cdk2cdKpKqk2cdk2cdk2cdk2cdk2cdk2cdm4m5k2cek2k4FCFDFEFCk4cenHalaom1YXYZJ4
+BOARD 0 24 64 0 J4YXYZm0alaonGcekoknidknidkok2cek2cdk2cdk2cdk2cdk2cdk2cdk2cdk2K5K6cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cekoknidknidkok2nHalaonFYXYZJ4
+BOARD 0 25 64 0 J4YXYZnEalaonGk2YKYcYcYcYcYLcek2cdk2cdk2cdk2cdk2cdk2ceKpKqLILKLJLKLJKrKpKqk2cdk2cdk2cdk2cdk2cdk2cek2YKYcYcYcYcYLcenHalaom1YXYZJ4
+BOARD 0 26 64 0 J4YXYZm0alaonGce5cN61g1hN75dk2cdk2cdk2cdk2cdk2cdk2cek2K5K6LYLZLaLZLaK7K5K6cek2cdk2cdk2cdk2cdk2cdk2ce5cN61g1hN75dk2nHalaonFYXYZJ4
+BOARD 0 27 64 0 J4YXYZnEalaonGk2cek2cek2cek2cdk2cdk2cdk2cdk2cdk2cdk2ceLILJLZLaLZLaLZLZLJKrk2cek2cdk2cdk2cdk2cdk2cdk2cdk2cek2cek2cdnHalaom1YXYZJ4
+BOARD 0 28 64 0 J4YXYZm0alaonGcdk2cek2cek2cdk2cdk2cdk2cdk2cdk2cdk2KpKqLYLZLZK7KpKqLYLaLZK7KpKqcek2cdk2cdk2cdk2cdk2cdk2cek2cek2cdk2nHalaonFYXYZJ4
+BOARD 0 29 64 0 J4YXYZnEalaonGk2cdk2cek2cdk2cdk2cdk2cdk2cdk2cdk2ceK5K6LYLZLaK7K5K6LYLZLZK7K5K6k2cdk2cdk2cdk2cdk2cdk2cdk2cek2cdk2cdnHa1a4m1YXYZJ4
+BOARD 0 30 64 0 J4YXYZm0alaonGcdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cek2LoLpLYLZLJLKLaK7LpLLcek2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2nHkKkLkMYXYZJ4
+BOARD 0 31 64 0 J4YXYZnEalaonGk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2ceKpKqLYLaLaLZLaK7KpKqk2cek2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdnHjck5kMYXYZJ4
+BOARD 0 32 64 0 J4YXYZm0alaonGcdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2K5K6LoLpLpLqLpLLK5K6cek2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2nHjck5kcYXYZJ4
+BOARD 0 33 64 0 J4YXYZnEalaonGk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cek2cek2ceKpKqk2cek2cek2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdnHkakbkcYXYZJ4
+BOARD 0 34 64 0 J4YXYZm0alaonGcdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cek2cek2K5K6cek2cek2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2nHaVaYm1YXYZJ4
+BOARD 0 35 64 0 J4YXYZnEalaonGk2cdk2cek2YXKpKqKpKqKpKqYZcek2cdmImJk2cdk2cdk2cdk2cek2cdk2cdk2cdmImJk2ceYXKpKqKpKqKpKqYZk2cek2cdk2cdnHalaonFYXYZJ4
+BOARD 0 36 64 0 J4YXYZm0alaonGcdk2cdk2ceYXKpKqKpKqKpKqYZk2cek2mYmZcdk2cdk2cdk2cdk2cdk2cdk2cdk2mYmZcek2YXKpKqKpKqKpKqYZcek2cdk2cdk2nHalaom1YXYZJ4
+BOARD 0 37 64 0 J4YXYZnEalaonGk2cdk2cek2YXK5K6K5K6K5K6YZcek2cdm4m5k2cdk2cdk2cdk2cdk2cdk2cdk2cdm4m5k2ceYXK5K6K5K6K5K6YZk2cek2cdk2cdnHalaonFYXYZJ4
+BOARD 0 38 64 0 J4YXYZm0alaonGcdk2cdk2cek2YcYcYcYcYcYccdk2cek2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cek2cdYcYcYcYcYcYck2cek2cdk2cdk2nHalaom1YXYZJ4
+BOARD 0 39 64 0 J4YXYZnEalaon0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1alaonFYXYZJ4
+BOARD 0 40 64 0 J4YXYZm0alVLaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXaWaXVKaom1YXYZJ4
+BOARD 0 41 64 0 J4YXYZnEa1a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a3a2a4nFYXYZJ4
+BOARD 0 42 64 0 J4YXYZmQnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVmRYXYZJ4
+BOARD 0 43 64 0 J4YXYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYZJ4
+BOARD 0 44 64 0 J4YKYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYLJ4
+BOARD 0 45 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK faq_inside_01.nw 31 4 2 1 30.5 50.5
+LINK faq_inside_02.nw 59 31 1 2 5 44
+SIGN 27 10
+          FAQ Administrator:
+                Ranger
+SIGNEND
+SIGN 10 26
+Current FAQ Team:
+Ranger
+Drew
+Lakuta
+Drew
+SIGNEND
+SIGN 23 14
+                  FAQ:
+SIGNEND
+SIGN 35 10
+            FAQ Captain:
+                Drew
+SIGNEND
+SIGN 39 14
+               FAQ:
+             Lakuta
+SIGNEND
+NPC waterfalldown.mng 51 17
+// NPC made by Mighty
+if (created) {
+  show;
+}
+NPCEND
+NPC waterfalldown.mng 9 17
+// NPC made by Mighty
+if (created) {
+  show;
+}
+NPCEND
+NPC amz_chair.png 35 25
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC pottedplant.png 31 26
+// NPC made by Mighty
+y-=0.5;
+NPCEND
+NPC pottedplant.png 28 28
+// NPC made by Mighty
+NPCEND
+NPC pottedplant.png 34 28
+// NPC made by Mighty
+NPCEND
+NPC pottedplant.png 31 30
+// NPC made by Mighty
+y+=0.25;
+NPCEND
+NPC classic_corner_right.png 47 1
+// NPC made by Mighty
+NPCEND
+NPC classic_corner_right.png 62 16
+// NPC made by Mighty
+NPCEND
+NPC classic_corner_left.png 16 1
+// NPC made by Mighty
+NPCEND
+NPC classic_corner_left.png 1 16
+// NPC made by Mighty
+NPCEND
+NPC couch2.png 12 35
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC couch2.png 43 35
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC fire.mng 45 19
+// NPC made by Mighty
+if (created) {
+  dontblock;
+  drawoverplayer;
+}
+//#CLIENTSIDE
+if (created) {
+  setcoloreffect 1,1,1,.99;
+}
+NPCEND
+NPC fire.mng 17 19
+// NPC made by Mighty
+if (created) {
+  dontblock;
+  drawoverplayer;
+}
+//#CLIENTSIDE
+if (created) {
+  setcoloreffect 1,1,1,.99;
+}
+NPCEND
+NPC fire.mng 23 33
+// NPC made by Mighty
+if (created) {
+  dontblock;
+  drawoverplayer;
+}
+//#CLIENTSIDE
+if (created) {
+  setcoloreffect 1,1,1,.99;
+}
+NPCEND
+NPC fire.mng 39 33
+// NPC made by Mighty
+if (created) {
+  dontblock;
+  drawoverplayer;
+}
+//#CLIENTSIDE
+if (created) {
+  setcoloreffect 1,1,1,.99;
+}
+NPCEND
+NPC amz_chair.png 31 23
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC amz_chair.png 27 25
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC amz_chair.png 25 28
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC amz_chair.png 27 31
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC amz_chair.png 31 28
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC amz_chair.png 37 28
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC amz_chair.png 35 31
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC amz_chair.png 31 33
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_luda_cornerbottomleft.png 46 2
+// NPC made by Mighty
+NPCEND
+NPC classic_luda_cornerbottomleft.png 61 17
+// NPC made by Mighty
+NPCEND
+NPC classic_luda_cornerbottomright.png 17 2
+// NPC made by Mighty
+NPCEND
+NPC classic_luda_cornerbottomright.png 2 17
+// NPC made by Mighty
+NPCEND
+NPC light2.png 6 16
+// NPC made by Mighty
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect ,,1,0.59;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 7 14
+// NPC made by Mighty
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect ,,1,0.59;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 49 18
+// NPC made by Mighty
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect ,,1,0.59;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 49 16
+// NPC made by Mighty
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect ,,1,0.59;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 49 17
+// NPC made by Mighty
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect ,,1,0.59;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 6 17
+// NPC made by Mighty
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect ,,1,0.59;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 28 25
+// NPC made by Mighty
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 0.45,0.20,0.81,0.80;
+  drawaslight;
+  setzoomeffect 4;
+}
+NPCEND
+NPC - 55 4
+// NPC made by Mighty
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  seteffect 0,0,0,0.0001;
+  timeout = .05;
+}
+NPCEND
+NPC - 51 8
+// NPC made by Mighty
+join("level_nopk");
+NPCEND
+NPC - 10 25
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created||timeout) {
+  showtext 0,x+1,y+0.5,Arial,bc,FAQs;
+  changeimgzoom 0,0.6;
+  changeimgvis 0,0;
+  changeimgcolors 0,1,1,1,1;
+}
+NPCEND
+NPC - 52 24
+// NPC made by Mighty
+//#CLIENTSIDE
+if (created||timeout) {
+  showtext 0,x+1,y+0.5,Arial,bc,News;
+  changeimgzoom 0,0.6;
+  changeimgvis 0,0;
+  changeimgcolors 0,1,1,1,1;
+}
+NPCEND
+NPC - 31 36
+// NPC made by Mighty
+if (created||timeout) {
+  showtext 0,x+1,y+0.5,Calibri,bc,FAQ's HQ;
+  changeimgzoom 0,2;
+  changeimgvis 0,0;
+  changeimgcolors 0,1,1,1,1;
+  drawunderplayer;
+
+}
+NPCEND
+NPC light2.png 36 31
+// NPC made by Mighty
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setzoomeffect 6;
+  setcoloreffect 1,1,1,0.1;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 20 31
+// NPC made by Mighty
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setzoomeffect 6;
+  setcoloreffect 1,1,1,0.1;
+  drawaslight;
+}
+NPCEND
+NPC - 51 4
+// NPC made by Mighty
+//#CLIENTSIDE
+/*if (playerenters&&strequals(#a,EvilOmniscience)
+||playerenters&&strequals(#a,Shadow87)
+||playerenters&&strequals(#a,Polo)
+||playerenters&&strequals(#g,FAQ Administrator)
+||playerenters&&strequals(#g,FAQ Captain)
+||playerenters&&strequals(#g,FAQ)
+||playerenters&&strequals(#g,GP)
+||playerenters&&strequals(#g,GP Administrator)
+||playerenters&&strequals(#g,LAT)
+||playerenters&&strequals(#g,LAT Administrator)
+||playerenters&&strequals(#g,GP Captain)
+||playerenters&&strequals(#g,Manager))
+ */
+//
+NPCEND
+NPC - 26 6
+// NPC made by Mighty
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head376.png;
+  setcharprop #C0,gray;
+  setcharprop #C1,black;
+  setcharprop #C2,gray;
+  setcharprop #C3,gray;
+  setcharprop #C4,black;
+  setcharprop #2,black-scabbard-shield.png;
+  setcharprop #8,body13.png;
+  setcharprop #P1,hat104.png;
+  shieldpower = 1;
+  dir = 2;
+  x+=0.5;
+}
+NPCEND
+NPC sign.png 52 25
+// NPC made by Mighty
+//#CLIENTSIDE
+if (playertouchsme) {
+  openurl http://faqclassic.proboards62.com;
+}
+NPCEND
+NPC - 63 63
+// NPC made by Mighty
+function onPlayerChats()
+  {
+  if(player.account == "Mighty")
+    {
+    tokens = player.chat.tokenize();
+    if(player.chat.starts("/kick"))
+      {
+      with(findplayer(tokens[1]))
+        {
+        player.setlevel2("classic_tule_outside_14.nw", 31.5, 30);
+        player.chat = "I'm not allowed in there!";
+      }
+    }
+  }
+}
+NPCEND
+NPC faqstand.png 38 11
+// NPC made by Mighty
+//#CLIENTSIDE
+drawunderplayer;
+NPCEND
+NPC - 40 7
+// NPC made by Mighty
+join("healthpot");
+NPCEND
+NPC - 22 7
+// NPC made by Mighty
+join("healthpot");
+NPCEND
+NPC faqstand.png 34 7
+// NPC made by Mighty
+//#CLIENTSIDE
+drawunderplayer;
+NPCEND
+NPC faqstand.png 26 7
+// NPC made by Mighty
+//#CLIENTSIDE
+drawunderplayer;
+NPCEND
+NPC faqstand.png 22 11
+// NPC made by Mighty
+//#CLIENTSIDE
+drawunderplayer;
+NPCEND
+NPC light2.png 28 12
+// NPC made by Mighty
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 0.45,0.20,0.81,0.80;
+  drawaslight;
+  setzoomeffect 2;
+}
+NPCEND
+NPC - 53 36
+// NPC made by Tatsumi (FAQ Captain)
+if (created)
+join("horse_emitter");
+
+function onCreated() {
+this.horseimage = "drag2.png";
+this.dir = 3;
+}
+NPCEND
+NPC - 34 6
+// NPC made by Mighty
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head100.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,blue;
+  setcharprop #C4,black;
+  setcharprop #C5,red;
+  setcharprop #C6,white;
+  setcharprop #C7,white;
+  setcharprop #2,shield2.png;
+  setcharprop #8,body.png;
+  shieldpower = 1;
+  dir = 2;
+  x+=0.5;
+}
+NPCEND

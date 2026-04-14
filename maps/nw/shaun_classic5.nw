@@ -1,0 +1,543 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dDdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdGJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dlc/dUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUc/dmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmNqNrhCN7N6hDNqNrhCN7N6hDNqNrNqNrNqNrhCN7N6hDNqNrhCN7N6hDNqNrdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmhChDCDJ4J4CghChDCDJ4J4CghChDhChDhChDCDJ4J4CghChDCDJ4J4CghChDdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmNqNrCDJ4J4CgNqNrCDJ4J4CgNqNrNqNrNqNrCDJ4J4CgNqNrCDJ4J4CgNqNrdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmhChDCDJ4J4CghChDCDJ4J4CghChDhChDhChDCDJ4J4CghChDCDJ4J4CghChDdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmNqNrCDJ4J4CgNqNrCDJ4J4CgNqNrNqNrNqNrCDJ4J4CgNqNrCDJ4J4CgNqNrdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmhChDCDJ4J4CghChDCDJ4J4CghChDhChDhChDCDJ4J4CghChDCDJ4J4CghChDdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmNqNrCDdEdECgNqNrCDdEdECgNqNrNqNrNqNrCDdEdECgNqNrCDdEdECgNqNrdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 19 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmN6N7N7dTdWN6N6N7N7dTdWN6N6N7N6N7N6N7N7dTdWN6N6N7N7dTdWN6N6N7dldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 20 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnmnXnn5c5dnmnXnXnn5c5dnmnXnXnXnXnXnXnn5c5dnmnXnXnn5c5dnmnXnndldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 21 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLn0nXnXn1wLwLn0nXnXn1wLwLwLwLwLwLn0nXnXn1wLwLn0nXnXn1wLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 22 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLwLwLwLwLwLwLwLwLwLwLwLnknWnWnlwLwLwLwLwLwLwLwLwLwLwLwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 23 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnknWnWnWnWnWnWnWnWnlwLnGbgk3nHwLnknWnWnWnWnWnlwLnknWnWn3dldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 24 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGbgk3bgKpKqk3bgk3nHwLnGk3bgnHwLnGk3bgk3bgk3nHwLnGk2k2k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 25 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGk3LILJK5K6LKKrbgnHwLnGbgk3nHwLnGbgk3bgk3bgnHwLnGk2k3k3dldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 26 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGbgLoLYLaLZK7LLk3nHwLnGk3bgnHwLnGk3bgk3bgk3nHwLnGk2k3k3dldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 27 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGKpKqLYbqbrK7KpKqnHwLnGbgk3nHwLnGbgk3bgk3bgnHwLnGk2k2k2dldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 28 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGK5K6LYb6b7K7K5K6nHwLnGk3bgnHwLn0nXnXnXnXnXn1wLn0nXnXnndldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 29 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGk3LILZLaLZLaKrbgnHwLnGbgk3nHwLwLwLwLwLwLwLwLwLwLwLwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 30 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGbgLYLZLaLZLaK7k3nHwLnGk3bgnHwLnknWnWnWnWnWnWnWnWnlwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 31 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGk3LoLYLaLZK7LLbgnHwLnGbgk3nHwLnGbgk3bgKpKqk3bgk3nHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 32 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGKpKqLYbqbrK7KpKqnHwLnGk3bgnHwLnGk3LILJK5K6LKKrbgnHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 33 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGK5K6LYb6b7K7K5K6nHwLnGbgk3nHwLnGbgLYLZLaLZLaK7k3nHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 34 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGbgLILZLaLZLaKrk3nHwLnGk3bgnHwLnGk3LoLYLaLZK7LLbgnHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 35 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGk3LYLZLaLZLaK7bgnHwLnGbgk3nHwLnGKpKqLYbqbrK7KpKqnHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 36 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGbgLoLpKpKqLqLLk3nHwLnGk3bgnHwLnGK5K6LYb6b7K7K5K6nHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 37 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGk3bgk3K5K6bgk3bgnHwLnGbgk3nHwLnGbgLILZLaLZLaKrk3nHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGbgk3bgk3bgk3bgk3nHwLnGk3bgnHwLnGk3LoLYLaLZK7LLbgnHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGk3bgk3bgk3bgk3bgnHwLnGbgk3nHwLnGKpKqLYbqbrK7KpKqnHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGbgk3bgKpKqk3bgk3nHwLnGk3bgnHwLnGK5K6LYb6b7K7K5K6nHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGk3LILJK5K6LKKrbgnHwLnGbgk3nHwLnGbgLILZLaLZLaKrk3nHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGbgLoLYLaLZK7LLk3nHwLnGk3bgnHwLnGk3LoLYLaLZK7LLbgnHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGKpKqLYbqbrK7KpKqnHwLnGbgk3nHwLnGKpKqLYbqbrK7KpKqnHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGK5K6LYb6b7K7K5K6nHwLnGk3bgnHwLnGK5K6LYb6b7K7K5K6nHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGk3LILZLaLZLaKrbgnHwLnGbgk3nHwLnGbgLILZLaLZLaKrk3nHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGbgLoLYLaLZK7LLk3nHwLnGk3bgnHwLnGk3LoLYLaLZK7LLbgnHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGKpKqLYbqbrK7KpKqnHwLnGbgk3nHwLnGKpKqLYbqbrK7KpKqnHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGK5K6LYb6b7K7K5K6nHwLnGk3bgnHwLnGK5K6LYb6b7K7K5K6nHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGk3LILZLaLZLaKrbgnHwLnGbgk3nHwLnGbgLILZLaLZLaKrk3nHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGbgLoLYLaLZK7LLk3nHwLnGk3bgnHwLnGk3LoLYLaLZK7LLbgnHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGKpKqLYbqbrK7KpKqnHwLnGbgk3nHwLnGKpKqLYbqbrK7KpKqnHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dldmnHwLnGK5K6LYb6b7K7K5K6nHwLnGk3bgnHwLnGK5K6LYb6b7K7K5K6nHwLnGdldmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dlc/dEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEc/dmJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4dTdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdWJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK shaun_classic1.nw 45 25 1 2 20.5 26
+NPC window.png 18 13
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 18 15
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 18 17
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 24 17
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 34 17
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 40 17
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 40 15
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 34 15
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 24 15
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 24 13
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 34 13
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC window.png 40 13
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimg window.png;
+}
+NPCEND
+NPC shaun_chandelier.png 29 17
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimg shaun_chandelier.png;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,1;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.675;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC shaun_chandelier.png 29 34
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimg shaun_chandelier.png;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,1;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.675;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 27 19
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 31 19
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 30 20
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 28 20
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 28 18
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 30 18
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 27 36
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 31 36
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 28 37
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 30 37
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 28 35
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC bluelampani.mng 30 35
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  setimgpart bluelampani.mng,0,0,32,32;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 0.75,0.75,0.75,0.75;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC light12.png 26 16
+// NPC made by Shaun
+//#CLIENTSIDE
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 1,0.75,0.25,0.99;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC light12.png 26 33
+// NPC made by Shaun
+//#CLIENTSIDE
+if (created) {
+  this.startx = x;
+  this.starty = y;
+  drawaslight;
+  dontblock;
+  drawoverplayer;
+  setcoloreffect 1,0.75,0.25,0.99;
+}
+if (playerenters||timeout) {
+  x = this.startx + playerx/5 - 6.5;
+  y = this.starty + playery/5 - 10;
+  timeout = 0.05;
+}
+NPCEND
+NPC - 10 10
+// NPC made by Shaun (Baddies)
+//#CLIENTSIDE
+
+if (playerenters) {
+  seteffect 0,0,0,0.25;
+}
+NPCEND
+NPC classic_table.png 20 25
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimgpart classic_table.png,16,0,32,16;
+  dontblock;
+  drawoverplayer;
+}
+NPCEND
+NPC classic_table.png 22 25
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimgpart classic_table.png,16,0,32,16;
+  dontblock;
+  drawoverplayer;
+}
+NPCEND
+NPC classic_table.png 36 32
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimgpart classic_table.png,16,0,32,16;
+  dontblock;
+  drawoverplayer;
+}
+NPCEND
+NPC classic_table.png 38 32
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimgpart classic_table.png,16,0,32,16;
+  dontblock;
+  drawoverplayer;
+}
+NPCEND
+NPC classic_table.png 20 41
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimgpart classic_table.png,16,0,32,16;
+  dontblock;
+  drawoverplayer;
+}
+NPCEND
+NPC classic_table.png 22 41
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  setimgpart classic_table.png,16,0,32,16;
+  dontblock;
+  drawoverplayer;
+}
+NPCEND
+NPC juke.png 28 18
+// NPC made by Shaun (Awesome)
+//#CLIENTSIDE
+
+if (created) {
+  this.startx = x;
+  setimg juke.png;
+}
+if (playerenters) {
+  x = this.startx + 0.5;
+  playlooped armashop.mid;
+}
+NPCEND

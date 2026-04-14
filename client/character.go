@@ -19,7 +19,7 @@ import (
 const (
 	frameW  = 32
 	frameH  = 32
-	moveSpeed = 200.0
+	moveSpeed = 700.0
 
 	mountedMoveSpeed = 320.0
 

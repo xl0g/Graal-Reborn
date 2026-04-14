@@ -1,0 +1,144 @@
+GLEVNW01
+BOARD 0 0 64 0 EtEtCqCqEtEtEtCqCqEtEtEtCqCqEtEtEtCqCqEtEtEtCqCqEtEtEtCqCqEtEtEtCqCqEtEtEtF+C7DOETf/f/f/f/f/f/f/f/f/f/f/b8b9b+b/H/H/f/f/f/f/f/f/
+BOARD 0 1 64 0 C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C5C6C7DeDbDff/f/f/AQf/f/f/f/f/f/f/cMcNcOcPH/H/f/f/f/f/f/f/
+BOARD 0 2 64 0 DKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDJDKDLDuDvF/f/f/f/f/f/f/AAbsbtbubvbcbdbebff/f/f/f/f/f/f/f/
+BOARD 0 3 64 0 DaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDZDaDbD+F/H/f/f/f/f/f/f/f/b8b9b+b/f/f/f/f/f/f/f/f/f/P/SBSC
+BOARD 0 4 64 0 DqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDpDqDvF/H/H/f/f/f/f/f/f/f/cMcNcOcPf/f/f/f/f/f/f/ABf/SQSRSS
+BOARD 0 5 64 0 D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6D5D6F/ABH/H/f/f/f/f/f/f/f/bcbdbebff/f/f/f/f/f/f/f/f/SgShSi
+BOARD 0 6 64 0 SBSCSDSESFSGf/AAf/f/f/f/f/ABf/f/f/KlKmf/f/f/f/f/bsbtbubtbubvf/f/f/f/f/f/f/f/f/f/f/f/P/SBSCSDSESFSGSBSCSDSESFSGP/f/AQf/f/f/SwSxSy
+BOARD 0 7 64 0 SRSSSTSUSVSWSXf/f/f/f/f/f/f/f/f/f/K1K2ABf/f/f/f/b8b9b+b9b+b/AAABf/KlKmf/f/f/f/f/f/f/SQSRSSSTSUSVSWSRSSSTSUSVSWSXf/f/f/f/f/TATBTC
+BOARD 0 8 64 0 ShSiSjSkSlSmSnf/f/f/AAABbsbtbubvf/f/f/f/f/f/f/f/cMcNcOcNcOcPf/f/f/K1K2KlKmf/f/f/f/f/SgShSiSjSkSlSmShSiSjSkSlSmSnH/H/H/H/AATQTRTS
+BOARD 0 9 64 0 SxSySzS0S1S2S3f/ABf/f/f/b8b9b+b/f/f/f/f/f/AAf/f/bcbdbebdbebff/KlKmf/f/K1K2f/f/AAABf/SwSxSySzS0S1S2SxSySzS0S1S2S3f/f/P/SBSCSDSE4O
+BOARD 0 10 64 0 TBTCTDTETFTGTHf/f/AQf/f/cMcNcOcPaVaWaXaWaXaYf/f/f/f/f/f/AQf/f/K1K2P/f/f/f/f/f/f/f/f/TATBTCTDTETFTGTBTCTDTETFTGTHf/f/SQSRSSSTSUSV
+BOARD 0 11 64 0 TRTSTTTUTVTWTXf/f/f/f/f/bcbdbebfalamanamanaof/f/AAABf/f/f/AAf/f/P/SBSCSDSESFSGP/f/f/TQTRTSTTTUTVTWTRTSTTTUTVTWTXf/f/SgShSiSjSkSl
+BOARD 0 12 64 0 SE4O4PTkTlTmBvABf/f/f/f/f/aVaWaXalamanamanaoaWaXaYP/f/f/f/f/f/f/SQSRSSSTSUSVSWSXf/f/BoThTiTj4M4NSDSE4O4PTkTlTmBvKlKmSwSxSySzS0S1
+BOARD 0 13 64 0 SUSVSW4fB9B+B/f/f/aVaWaXaYalaSaTalZpZ5Z6Z7aoaSaTaoaVaWaXaYf/f/f/SgShSiSjSkSlSmSnf/f/B4B5B64eSRSSSTSUSVSW4fB9B+B/K1K2TATBTCTDTETF
+BOARD 0 14 64 0 SkSlSm4vCNCOf/f/f/alamanaoalRnRoa1aJbJbKaLa4RnRoaoalamanaof/f/AASwSxSySzS0S1S2S3f/f/P/CJCK4uShSiSjSkSlSm4vCNCOf/f/f/TQTRTSTTTUTV
+BOARD 0 15 64 0 S0S1S2S3Cdf/f/f/f/alZvayazFCQXQYYKaZbZbaaaYLQXQYFCayazZvaof/f/f/TATBTCTDTETFTGTHf/f/f/f/CaSwSxSySzS0S1S2S3Cdf/P/SBSCSDSE4O4P4M4N
+BOARD 0 16 64 0 TETFTGTHABf/f/f/AAalZvbCaxakFCFCk4GORnRoGOk4FCFCaUaxbDZvaof/f/f/TQTRTSTTTUTVTWTXf/f/f/f/AATATBTCTDTETFTGTHf/f/SQSRSSSTSUSVSWSRSS
+BOARD 0 17 64 0 TUTVTWTXf/f/f/f/f/a1a2a3a4alFCFCkoidQXQYknkoFCFCaoa1a2a3a4P/SBSCSDSE4O4PTkTlTmBvAAABf/f/f/TQTRTSTTTUTVTWTXf/f/SgShSiSjSkSlSmShSi
+BOARD 0 18 64 0 4M4NSDSESFSGf/f/f/bYaZaabbalFCFCFCFCFCFCFCFCFCFCaobYaZaabbSQSRSSSTSUSVSW4fB9B+B/f/bsbtbubvBoThTiTjTkTlTmBvf/f/SwSxSySzS0S1S2SxSy
+BOARD 0 19 64 0 SRSSSTSUSVSWSXf/f/aUakaUaka1a2a3a2ZpZ5Z6Z7a3a2a3a4aUakaUakSgShSiSjSkSlSm4vCNCOf/f/b8b9b+b/B4B5B6W1W2B9B+B/f/f/TATBTCTDTETFTGTBTC
+BOARD 0 20 64 0 ShSiSjSkSlSmSnbsbtbubvaUakbIZ5Z6Z5aJbJbKaLZ6Z5Z6bLaUakf/f/SwSxSySzS0S1S2S3Cdf/f/f/cMcNcOcPP/CJCKCLCMCNCOf/f/f/TQTRTSTTTUTVTWTRTS
+BOARD 0 21 64 0 SxSySzS0S1S2S3b8b9b+b/aUakbYaZaaaZaJbZbaaLaaaZaabbaUakf/f/TATBTCTDTETFTGTH5+5/f/f/bcbdbebff/f/CaCbCcCdAAABf/f/BoThTiTj4M4NSDSE4O
+BOARD 0 22 64 0 TBTCTDTETFTGTHcMcNcOcPaUakaUakaUakaUAwAxakaUakaUakaUakf/AATQTRTSTTTUTVTWTX6O6Pf/f/f/f/KlKmf/f/f/f/f/f/f/f/f/f/B4B5B64eSRSSSTSUSV
+BOARD 0 23 64 0 TRTSTTTUTVTWTXbcbdbebfAQaUakaUakP/AwAxf/f/P/aUakaUakf/f/f/BoThTiTj4M4NSDSESFSGP/f/f/f/K1K2f/f/f/AQf/f/f/f/f/f/P/CJCK4uShSiSjSkSl
+BOARD 0 24 64 0 SE4O4PTkTlTmBvAAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/B4B5B64eSRSSSTSUSVSWSXf/f/AAf/f/f/f/f/P/SBSCSDSESFSGP/P/CaSwSxSySzS0S1
+BOARD 0 25 64 0 SUSVSW4fB9B+B/f/f/f/f/f/f/f/f/f/f/f/ZvAwAxf/Zvf/f/f/f/f/f/P/CJCK4uShSiSjSkSlSmSnf/f/f/f/f/f/f/f/SQSRSSSTSUSVSWSXf/f/TATBTCTDTETF
+BOARD 0 26 64 0 SkSlSm4vCNCOf/f/f/f/f/KlKmf/f/AAf/ZvarZvZvf/f/f/f/f/f/AAf/f/f/CaSwSxSySzS0S1S2S3f/f/f/bsbtbubvf/SgShSiSjSkSlSmSnf/f/TQTRTSTTTUTV
+BOARD 0 27 64 0 S0S1S2S3Cdf/f/f/f/KlKmK1K2f/f/f/ZvararZParZvZvf/f/f/f/f/f/AQf/f/TATBTCTDTETFTGTHf/f/f/b8b9b+b/f/SwSxSySzS0S1S2S3f/f/BoThTiTjTkTl
+BOARD 0 28 64 0 TETFTGTHf/KlKmf/f/K1K2f/f/f/KlKmZvapa6a5a6a7Zvf/f/ABf/f/f/f/f/f/TQTRTSTTTUTVTWTXf/f/f/cMcNcOcPf/TATBTCTDTETFTGTHf/f/B4B5B6W1W2B9
+BOARD 0 29 64 0 TUTVTWTXf/K1K2f/f/KlKmf/KlKmK1K2Zvarapaqa7ZvAAf/f/f/f/f/f/f/f/f/BoThTiTjTkTlTmBvf/f/f/bcbdbebff/TQTRTSTTTUTVTWTXf/f/P/CJCKCLCMCN
+BOARD 0 30 64 0 4M4NSDSESFSGf/f/f/K1K2ABK1K2KlKmf/ZvZfapaqZfZvf/f/f/f/f/f/f/+4+5B4B5B6W1W2B9B+B/f/f/f/f/f/f/f/f/BoThTiTjTkTlTmBvf/f/f/ABCaCbCcCd
+BOARD 0 31 64 0 SRSSSTSUSVSWSXf/f/f/f/f/f/f/K1K2f/Zva7apaqa7Zvf/f/f/bsbtbubv/I/JP/CJCKCLCMCNCOAAf/f/f/f/f/f/f/ABB4B5B6W1W2B9B+B/f/f/f/f/Zvf/f/f/
+BOARD 0 32 64 0 ShSiSjSkSlSmSnAAABf/f/KlKmf/f/f/f/f/ZvZfapaqa7f/f/f/b8b9b+b/f/f/AAABCaCbCcCdAAABf/f/f/Zvf/f/f/f/P/CJCKCLCMCNCOf/f/AQf/ZvZPZvarZv
+BOARD 0 33 64 0 SxSySzS0S1S2S3f/KlKmf/K1K2f/f/f/f/ZvZfapapZfZvf/f/f/cMcNcOcPf/f/f/f/f/f/f/f/f/f/f/f/ZvZPZvf/Zvf/P/P/CaCbCcCdf/f/f/f/ZvZfaqZPapZP
+BOARD 0 34 64 0 TBTCTDTETFTGTHf/K1K2KlKmf/f/f/f/f/f/Zvarapaqa7ABf/f/bcbdbebff/f/f/f/f/f/f/f/f/f/f/ZvaraqZPaparZvZvf/f/f/KlKmf/f/f/Zva6a5apaqaqaq
+BOARD 0 35 64 0 TRTSTTTUTVTWTXf/f/f/K1K2f/f/f/f/f/f/ZvZPa5ZPZvf/f/f/f/f/f/f/f/f/f/f/f/f/f/Zvf/ZvarZfapaqa6a5apZPZPZvf/f/K1K2f/Zvf/arapaqa5a6ZPZf
+BOARD 0 36 64 0 ThTiTjTkTlTmBvf/f/f/f/f/f/AAABf/f/f/f/ZvarZvf/f/f/f/f/AAABf/f/f/f/f/f/Zvf/a6Zvara5aqa5a6ZfapapaqaparZvZvf/f/ZvZfa7apZPa6a7ZfZvZv
+BOARD 0 37 64 0 B5B6W1W2B9B+B/f/f/f/f/f/f/f/IAIBf/ABf/f/ZvZvf/f/f/f/f/f/f/f/f/f/f/f/Zva6a7apZPaqa7Zfa7ZvZva7a5a6aqapZfarZvZvarapaqa5a6ZfZvZvAAAB
+BOARD 0 38 64 0 CJCKCLCMCNCOf/f/f/ABf/f/f/f/IQIRf/f/f/f/f/f/f/f/ABf/f/Zvf/f/f/ZvZvZvarapaqa5a6a6ZvZvZvf/f/ZvZfa7a6aqapaqZParaqa5aqa7Zfbsbtbubvf/
+BOARD 0 39 64 0 P/CaCbCcCdAAABf/f/f/f/f/f/ZvAQZvABf/f/ZvZvZvf/ZvarZvZvarf/ZvZva6ZParZPapaqa7ZfZvf/SBSCSDSESFSGZvZfa6a5a6aqapa6a7a6ZvZvb8b9b+b/f/
+BOARD 0 40 64 0 ZvZvf/ZvZvZvf/ZvZPZvZvZvZParZvarZvZvZvarZfarZvZPaqarZPaqZvZParapaqapaqa5a6ZvZvABSQSRSSSTSUSVSWSXZvZfa7a7a6a7ZvZvAAf/f/cMcNcOcPAA
+BOARD 0 41 64 0 ZParZvZfarZPZvaraqZParZPaqaqZPaqarZParaqapaqara5a6apa5a6apaqa6a5a6a7a6ZPa7Zvf/f/SgShSiSjSkSlSmSnf/ZvZvZvZfZvf/f/f/f/f/bcbdbebfH/
+BOARD 0 42 64 0 aqapZPapapaqZPapa6aqapaqa6a6a5a6apaqapa6a5a6apapZfa5apZfa5a6Zva7ZfZvZvZvZvf/f/f/SwSxSySzS0S1S2S3f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/
+BOARD 0 43 64 0 a6a5aqa5a7Zfaqa5Zfa6a5a6ZfaqapZfa5a6a7Zva5a7a5a7Zva7ZvZva7Zvf/f/f/f/ABf/f/f/f/f/TATBTCTDTETFTGTHf/f/f/f/f/KlKmf/f/f/H/DGCeCfCeCf
+BOARD 0 44 64 0 Zfa7a6a7ZvZva6a7ZvZfa7ZfZvZPa7Zva7ZfZvAQZvZva7Zvf/Zvf/f/Zvf/f/f/f/f/f/f/f/AQf/f/TQTRTSTTTUTVTWTXf/f/ABf/f/K1K2f/f/H/DwDWCuCvCuCv
+BOARD 0 45 64 0 ZvZvZfZvf/f/ZvZvf/ZvZvZvf/ZvZvf/ZvZvAAABf/f/Zvf/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/BoThTiTjTkTlTmBvf/f/f/f/f/f/AAABH/DwDxDyDzC/C+EC
+BOARD 0 46 64 0 SESFSGSBSCSDSESFSGAAf/f/bsbtbubvf/f/f/f/f/f/f/f/f/f/P/SBSCSDSESFSGSBSCSDSESFSGP/B4B5B6W1W2B9B+B/f/f/f/f/f/f/f/H/DGDxDyDzD0CoCoEB
+BOARD 0 47 64 0 SUSVSWSRSSSTSUSVSWSXf/f/b8b9b+b/f/f/f/f/f/f/f/f/f/f/SQSRSSSTSUSVSWSRSSSTSUSVSWSXf/CJCKCLCMCNCOf/f/f/f/f/f/f/f/DwDWDyDzD0D1f/f/EA
+BOARD 0 48 64 0 SkSlSmShSiSjSkSlSmSnf/f/cMcNcOcPf/f/f/f/f/f/f/f/f/f/SgShSiSjSkSlSmShSiSjSkSlSmSnKlKmCaCbCcCdAQf/f/f/AAABH/H/DGDxDyDzD0D1H/f/f/f/
+BOARD 0 49 64 0 S0S1S2SxSySzS0S1S2S3f/f/bcbdbebff/f/f/f/f/f/KlKmf/f/SwSxSySzS0S1S2SxSySzS0S1S2S3K1K2f/f/f/f/f/f/f/f/f/H/H/DwDWDyDzD0D1AAABKpKqf/
+BOARD 0 50 64 0 TETFTGTBTCTDTETFTGTHf/f/AAf/f/f/f/f/f/f/f/f/K1K2f/f/TATBTCTDTETFTGTBTCTDTETFTGTHf/AAABf/f/f/f/f/f/f/f/H/DwDxDyDzD0D1f/f/f/K5K6f/
+BOARD 0 51 64 0 TUTVTWTRTSTTTUTVTWTXf/f/f/f/f/f/f/f/f/f/ABf/f/f/f/f/TQTRTSTTTUTVTWTRTSTTTUTVTWTXf/f/f/f/f/bsbtbubvf/f/DwDxDyDzD0D1H/f/LILJLKLJLK
+BOARD 0 52 64 0 TkTlTmThTiTjTkTlTmBvf/P/SBSCSDSESFSGSBSCSDSESFSGP/f/BoThTiTjTkTlTmThTiTj4M4NSDSESFSGAAf/f/b8b9b+b/f/f/DxDyDzD0D1f/KpKqLYLZLaLZLa
+BOARD 0 53 64 0 W2B9B+B5B6W1W2B9B+B/f/SQSRSSSTSUSVSWSRSSSTSUSVSWSXf/B4B5B6W1W2B9B+B5B64eSRSSSTSUSVSWSXf/f/cMcNcOcPf/f/DSFhC4D3Dnf/K5K6LYLZLaLZLa
+BOARD 0 54 64 0 CMCNCOCJCKCLCMCNCOf/f/SgShSiSjSkSlSmShSiSjSkSlSmSnf/P/CJCKCLCMCNCOCJCK4uShSiSjSkSlSmSnf/f/bcbdbebff/AAFwDYFxC4D3Dnf/f/LoLpLqLpLq
+BOARD 0 55 64 0 CcCdf/f/CaCbCcCdf/AQf/SwSxSySzS0S1S2SxSySzS0S1S2S3f/P/P/CaCbCcCdf/f/CaSwSxSySzS0S1S2S3f/f/f/f/f/f/f/f/GQGAGBGNIzDVf/f/f/f/KpKqf/
+BOARD 0 56 64 0 f/f/f/f/f/f/f/f/f/f/f/TATBTCTDTETFTGTBTCTDTETFTGTHf/f/f/f/f/f/f/KlKmf/TATBTCTDTETFTGTHf/f/f/f/f/f/f/f/H/GQGRJCJDDVf/f/f/f/K5K6f/
+BOARD 0 57 64 0 f/f/KlKmf/f/f/ABf/f/f/TQTRTSTTTUTVTWTRTSTTTUTVTWTXf/AAABf/f/f/f/K1K2f/TQTRTSTTTUTVTWTXf/f/ABf/f/f/f/f/AQf/DSDTDUDVABf/f/f/f/f/f/
+BOARD 0 58 64 0 f/f/K1K2SBSCSDSESFSGf/BoThTiTjTkTlTmThTiTj4M4NSDSESFSGP/f/f/f/f/P/SBSCSDSE4O4P4M4NSDSESFSGP/f/KlKmf/f/f/f/DiDjDkDVf/f/f/f/f/f/f/
+BOARD 0 59 64 0 f/f/f/SQSRSSSTSUSVSWSXB4B5B6W1W2B9B+B5B64eSRSSSTSUSVSWSXKlKmf/f/SQSRSSSTSUSVSWSRSSSTSUSVSWSXf/K1K2f/f/f/f/FgFhC4D3Dnf/f/f/f/f/f/
+BOARD 0 60 64 0 f/f/f/SgShSiSjSkSlSmSnP/CJCKCLCMCNCOCJCK4uShSiSjSkSlSmSnK1K2KlKmSgShSiSjSkSlSmShSiSjSkSlSmSnf/f/f/f/f/f/f/FwDYFxC4D3Dnf/f/f/f/f/
+BOARD 0 61 64 0 f/f/f/SwSxSySzS0S1S2S3f/ABCaCbCcCdAQf/CaSwSxSySzS0S1S2S3f/f/K1K2SwSxSySzS0S1S2SxSySzS0S1S2S3f/f/ABf/f/f/f/GQGAGBGNIzDVf/AQf/f/f/
+BOARD 0 62 64 0 f/f/f/TATBTCTDTETFTGTHf/f/f/f/f/f/f/f/f/TATBTCTDTETFTGTHf/f/f/f/TATBTCTDTETFTGTBTCTDTETFTGTHf/f/f/f/f/f/f/H/GQGRJCJDDVf/f/f/f/f/
+BOARD 0 63 64 0 f/f/f/TQTRTSTTTUTVTWTXf/f/f/f/f/f/f/f/AATQTRTSTTTUTVTWTXAAABf/f/TQTRTSTTTUTVTWTRTSTTTUTVTWTXf/f/f/f/f/f/f/H/H/DSDTDUDVf/f/f/f/f/
+LINK antago_house_01.nw 18 21 2 1 30.5 53
+SIGN 14 38
+Antago's House
+SIGNEND
+NPC - 5 28
+join bush;
+NPCEND
+NPC - 11 26
+join bush;
+NPCEND
+NPC - 9 27
+join bush;
+NPCEND
+NPC - 9 29
+join bush;
+NPCEND
+NPC - 12 29
+join bush;
+NPCEND
+NPC - 14 28
+join bush;
+NPCEND
+NPC - 14 30
+join bush;
+NPCEND
+NPC - 11 32
+join bush;
+NPCEND
+NPC - 10 34
+join bush;
+NPCEND
+NPC - 8 33
+join bush;
+NPCEND
+NPC - 17 6
+join bush;
+NPCEND
+NPC - 31 9
+join bush;
+NPCEND
+NPC - 33 7
+join bush;
+NPCEND
+NPC - 35 8
+join bush;
+NPCEND
+NPC - 43 22
+join bush;
+NPCEND
+NPC - 52 34
+join bush;
+NPCEND
+NPC - 56 12
+join bush;
+NPCEND
+NPC - 53 43
+join bush;
+NPCEND
+NPC - 40 48
+join bush;
+NPCEND
+NPC - 47 58
+join bush;
+NPCEND
+NPC - 30 60
+join bush;
+NPCEND
+NPC - 28 59
+join bush;
+NPCEND
+NPC - 32 56
+join bush;
+NPCEND
+NPC - 2 57
+join bush;
+NPCEND
+NPC - 22 49
+join bush;
+NPCEND

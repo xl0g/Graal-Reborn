@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="133">
+ <tileset firstgid="1" source="../../classiciphone_pics4.tsx"/>
+ <layer id="1" name="base" width="64" height="64">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,3582,3583,3582,3583,3582,3583,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,3710,3711,3710,3711,3710,3711,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3451,3580,3581,0,0,0,0,0,0,3712,3454,3199,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3451,3580,3581,0,0,0,0,0,0,3584,3326,3071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3451,3580,3709,0,0,0,0,0,0,3712,3454,3199,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3451,3580,3581,0,0,0,0,0,0,3584,3326,3071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,3838,3839,3838,3839,3838,3839,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,3966,3967,3966,3967,3966,3967,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,4094,4095,4094,4095,4094,4095,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  </data>
+ </layer>
+ <layer id="2" name="collision" width="64" height="64" visible="0">
+  <properties><property name="collision" value="true"/></properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  </data>
+ </layer>
+ <objectgroup id="3" name="npcs">
+  <object id="1" x="336.0" y="352.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="2" x="384.0" y="352.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="3" x="336.0" y="400.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="4" x="384.0" y="400.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="5" x="336.0" y="448.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="6" x="384.0" y="448.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="7" x="432.0" y="352.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="8" x="432.0" y="400.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="9" x="432.0" y="448.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="10" x="432.0" y="496.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="11" x="432.0" y="544.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="12" x="384.0" y="496.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="13" x="384.0" y="544.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="14" x="336.0" y="496.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="15" x="336.0" y="544.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="16" x="240.0" y="352.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_1");]]></property>
+   </properties>
+  </object>
+  <object id="17" x="192.0" y="544.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_1");]]></property>
+   </properties>
+  </object>
+  <object id="18" x="192.0" y="672.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="19" x="480.0" y="352.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="20" x="480.0" y="400.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="21" x="480.0" y="448.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="22" x="480.0" y="496.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="23" x="480.0" y="544.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="24" x="528.0" y="544.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="25" x="528.0" y="496.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="26" x="528.0" y="448.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="27" x="528.0" y="400.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="28" x="528.0" y="352.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("ibo_pinkrock");]]></property>
+   </properties>
+  </object>
+  <object id="29" x="576.0" y="352.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="30" x="576.0" y="400.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="31" x="576.0" y="448.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="32" x="576.0" y="496.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="33" x="576.0" y="544.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="34" x="624.0" y="544.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="35" x="624.0" y="496.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="36" x="624.0" y="448.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="37" x="624.0" y="400.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="38" x="624.0" y="352.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="39" x="672.0" y="352.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="40" x="672.0" y="400.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="41" x="672.0" y="448.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="42" x="672.0" y="496.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="43" x="672.0" y="544.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="44" x="720.0" y="544.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="45" x="720.0" y="496.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="46" x="720.0" y="448.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="47" x="720.0" y="400.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="48" x="720.0" y="352.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_nocolors");]]></property>
+   </properties>
+  </object>
+  <object id="49" x="480.0" y="624.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="50" x="528.0" y="624.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="51" x="576.0" y="624.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="52" x="624.0" y="624.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="53" x="672.0" y="624.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="54" x="720.0" y="624.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="55" x="720.0" y="672.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="56" x="672.0" y="672.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="57" x="624.0" y="672.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="58" x="576.0" y="672.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="59" x="528.0" y="672.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="60" x="480.0" y="672.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="61" x="480.0" y="720.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="62" x="528.0" y="720.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="63" x="576.0" y="720.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="64" x="624.0" y="720.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="65" x="672.0" y="720.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="66" x="720.0" y="720.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="67" x="720.0" y="768.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="68" x="672.0" y="768.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="69" x="624.0" y="768.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="70" x="576.0" y="768.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="71" x="528.0" y="768.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="72" x="480.0" y="768.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="73" x="192.0" y="864.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("pushblock");]]></property>
+   </properties>
+  </object>
+  <object id="74" x="240.0" y="864.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("pushblock");]]></property>
+   </properties>
+  </object>
+  <object id="75" x="288.0" y="864.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("pushblock");]]></property>
+   </properties>
+  </object>
+  <object id="76" x="336.0" y="864.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("pushblock");]]></property>
+   </properties>
+  </object>
+  <object id="77" x="384.0" y="864.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("pushblock");]]></property>
+   </properties>
+  </object>
+  <object id="78" x="480.0" y="864.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("pullblock");]]></property>
+   </properties>
+  </object>
+  <object id="79" x="528.0" y="864.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("pullblock");]]></property>
+   </properties>
+  </object>
+  <object id="80" x="576.0" y="864.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("pullblock");]]></property>
+   </properties>
+  </object>
+  <object id="81" x="624.0" y="864.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("pullblock");]]></property>
+   </properties>
+  </object>
+  <object id="82" x="672.0" y="864.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("pullblock");]]></property>
+   </properties>
+  </object>
+  <object id="83" x="720.0" y="864.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("pullblock");]]></property>
+   </properties>
+  </object>
+  <object id="84" x="720.0" y="944.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("stake");]]></property>
+   </properties>
+  </object>
+  <object id="85" x="672.0" y="944.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("stake");]]></property>
+   </properties>
+  </object>
+  <object id="86" x="624.0" y="944.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("stake");]]></property>
+   </properties>
+  </object>
+  <object id="87" x="576.0" y="944.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("stake");]]></property>
+   </properties>
+  </object>
+  <object id="88" x="528.0" y="944.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("stake");]]></property>
+   </properties>
+  </object>
+  <object id="89" x="480.0" y="944.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("stake");]]></property>
+   </properties>
+  </object>
+  <object id="90" x="384.0" y="944.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("healthpot");]]></property>
+   </properties>
+  </object>
+  <object id="91" x="336.0" y="944.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("healthpot");]]></property>
+   </properties>
+  </object>
+  <object id="92" x="288.0" y="944.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("healthpot");]]></property>
+   </properties>
+  </object>
+  <object id="93" x="240.0" y="944.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("healthpot");]]></property>
+   </properties>
+  </object>
+  <object id="94" x="192.0" y="944.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("healthpot");]]></property>
+   </properties>
+  </object>
+  <object id="95" x="192.0" y="352.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_1");]]></property>
+   </properties>
+  </object>
+  <object id="96" x="192.0" y="400.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_1");]]></property>
+   </properties>
+  </object>
+  <object id="97" x="240.0" y="400.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_1");]]></property>
+   </properties>
+  </object>
+  <object id="98" x="240.0" y="448.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_1");]]></property>
+   </properties>
+  </object>
+  <object id="99" x="192.0" y="448.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_1");]]></property>
+   </properties>
+  </object>
+  <object id="100" x="192.0" y="496.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_1");]]></property>
+   </properties>
+  </object>
+  <object id="101" x="240.0" y="496.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_1");]]></property>
+   </properties>
+  </object>
+  <object id="102" x="240.0" y="544.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_1");]]></property>
+   </properties>
+  </object>
+  <object id="103" x="192.0" y="624.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="104" x="240.0" y="624.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="105" x="336.0" y="768.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="106" x="288.0" y="672.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="107" x="240.0" y="672.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="108" x="192.0" y="768.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="109" x="192.0" y="720.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="110" x="240.0" y="720.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="111" x="288.0" y="720.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="112" x="288.0" y="768.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="113" x="240.0" y="768.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="114" x="288.0" y="624.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="115" x="336.0" y="624.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="116" x="384.0" y="624.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="117" x="384.0" y="672.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="118" x="336.0" y="672.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="119" x="336.0" y="720.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="120" x="384.0" y="720.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="121" x="384.0" y="768.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("rock_2");]]></property>
+   </properties>
+  </object>
+  <object id="122" x="336.0" y="192.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_black");]]></property>
+   </properties>
+  </object>
+  <object id="123" x="576.0" y="192.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_blue");]]></property>
+   </properties>
+  </object>
+  <object id="124" x="432.0" y="192.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_gold");]]></property>
+   </properties>
+  </object>
+  <object id="125" x="480.0" y="192.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_red");]]></property>
+   </properties>
+  </object>
+  <object id="126" x="528.0" y="192.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_black");]]></property>
+   </properties>
+  </object>
+  <object id="127" x="384.0" y="192.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_blue");]]></property>
+   </properties>
+  </object>
+  <object id="128" x="624.0" y="192.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_gold");]]></property>
+   </properties>
+  </object>
+  <object id="129" x="672.0" y="192.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("bush_red");]]></property>
+   </properties>
+  </object>
+  <object id="130" x="768.0" y="192.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+self.spawnpoint = {"zolspub_inside_01.nw",30,30}
+-- join("gc_level_spawn");]]></property>
+   </properties>
+  </object>
+  <object id="131" x="416.0" y="96.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("level_nopause");]]></property>
+   </properties>
+  </object>
+  <object id="132" x="976.0" y="976.0" width="16" height="16">
+   <properties>
+    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+-- join("ibo_pinkbush");]]></property>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,147 @@
+GLEVNW01
+BOARD 0 0 64 0 AZAaAbAcAdAeAff/f/f/f/f/f/f/f/f/f/AAABf/AEAFAGAHf/f/f/f/f/f/f/f/f/f/AAABAYAZAaAbAcAdAeAff/f/f/AAABf/f/AQF2/5GJCqCqELGGGHF3F2GGGH
+BOARD 0 1 64 0 ApAqArAsAtAuAvAQf/AAABAJAKALAMANAOf/f/f/AUAVAWAXf/AAABf/f/f/AQf/f/f/f/f/AoApAqArAsAtAuAvf/f/f/f/f/AAABF2GGGHE4uguhCqEt2tGXGnCqCq
+BOARD 0 2 64 0 A5A6A7A8A9A+A/f/f/f/AYAZAaAbAcAdAeAff/f/AkAlAmAnf/f/f/f/OLf/f/f/f/f/f/0RA4A5A6A7A8A9A+A/f/AAABf/F2F3F2E4EtCqugvCvCuhITIUELGGAICq
+BOARD 0 3 64 0 BJBKBLBMBNBOBPf/pqqKAoApAqArU4U5AuAvf/f/A0A1A2A3f/f/AAABf/AJAKALAMANAOf/BIBJBKBLBMBNBOBPf/f/f/F2GGGHE4CqCqIbIjIkujvCvCvCuhuguhCq
+BOARD 0 4 64 0 BZBaBbBcBdBeBfpqFpf/A4A5A6A7VYVZA+A/f/f/f/f/f/f/f/f/f/f/AYAZAaAbAcAdAeAfBYBZBaBbBcBdBeBff/f/f/GnCqCqITIUIbcvH0GOcuujvCvCvCvCvCIY
+BOARD 0 5 64 0 BpBqBrDADBALAMANAOf/BIBJBKBLBMBNBOBPf/AAABf/AQf/pqqKprf/AoApAqArAsAtAuAvBoBpBqBrBsBtBuBvf/f/f/GnCqIbIjIkcvHIHYHZGPcuIjIkujvCvCIo
+BOARD 0 6 64 0 B5B6DQAZAaAbAcAdAeAfBYBZBaBbBcBdBeBff/OLf/f/f/pqFpAQGmprA4A5A6A7A8A9A+A/B4B5B6B7B8B9B+B/f/f/F2E4IbcvHIHYHZFCGYGZFCGPGOGOcuvCvCuh
+BOARD 0 7 64 0 CJCKDgApAqArAsAtAuAvBoBpBqBrDADBALAMANAOAJAKALAMANAOf/pbBIBJBKBLBMBNBOBPf/CJCKCLCMCNCOf/f/F2GG2tIrIiHJGYGZG5GOGOHJFCGPGOGOcuujvC
+BOARD 0 8 64 0 f/CaA4A5A6A7A8A9A+A/B4B5B6DQAZAaAbAcAdAeAZAaAbAcAdAeAfpbBYBZBaBbBcBdBeBff/f/CaCbCcCdf/f/f/GnCqCqIZuyIiGOGOhFIVIWIiHJFCGPGOH1IXvC
+BOARD 0 9 64 0 HoHpBIBJBKBLBMBNBOBPAQCJCKDgApAqArAsAtAuApAqArAsAtAuAvp7BoBpBqBrDADBALAMANAOf/0g0hf/AAABF2GGCqAIIpvCuyIVIWIsuwvCIaGOGoFCGbGOInvC
+BOARD 0 10 64 0 H4H5BYBZBaBbBcBdBeBff/f/CaA4A5A6A7A8A9A+A5A6A7A8A9A+A/f/B4B5B6DQAZAaAbAcAdAeAf0w0xf/f/f/GIGJCqCqCquwvCvCuxCqCqIpIqGOG4FCGrGOcuuj
+BOARD 0 11 64 0 AJAKALAMDCDDBsBtBuBvf/KlKmBIBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/CJCKDgApAqArAsAtAuAvf/f/f/f/f/f/GIGJ2NCqCquwuxCqCqCqCqIrIiHJFCFCGPGOcu
+BOARD 0 12 64 0 AZAaAbAcAdAeDRB9B+B/0RK1K2BYBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/CaA4A5A6A7A8A9A+A/0Rf/f/f/AQf/f/GnCqCqEtCq2tCqAICqCqIZIaGOGoFCFCGPGO
+BOARD 0 13 64 0 ApAqArAsAtAuDhCNCOKlKmAAABBoBpBqBrBsBtBuBpBqBrBsBtBuBvf/f/f/0QBIBJBKBLBMBNBOBPf/f/AAABf/f/f/Gn+C+DEtEtCqCqCqCqCqIpIqGOG4FCFCFCHY
+BOARD 0 14 64 0 A5A6A7A8A9A+A/Cdf/K1K2KlKmB4B5B6B7B8B9ZWZXB6B7B8B9B+B/f/AAABOLBYBZBaBbBcBdBeBff/f/f/f/f/AAABGIGW+SCqFoF4GJCqAPCqIbcvGOGOHJFCFCFC
+BOARD 0 15 64 0 BJBKBLBMBNBOBPARAQf/AAK1K2f/CJCKCLCMCNTnToCKCLCMCNCOQJQKf/f/f/BoBpBqBrBsBtBuBvf/f/f/f/f/f/f/f/GIGJFoHHF2GGITIUIbcvGOGOH1HIFCGYGZ
+BOARD 0 16 64 0 BZBaBbBcBdBeBfAhARBgARKlKm0RARCaCbCcCdT3T4CaCbCcCdf/QZQaf/f/f/B4B5B6B7B8B9B+B/f/F2FmF3f/f/f/f/f/GIHHf/GIGJuwvCIaGOGOH0GOHJG5GOGO
+BOARD 0 17 64 0 BpBqBrBsBtBuBvf/AhBwAgK1K2ARAhf/Zvf/arapaqarCpFmF3f/f/f/f/f/f/f/CJCKCLCMCNCODsCpE4CqELDnf/f/f/f/f/f/f/f/GnCquwIqGOGOGOGOGOGOhFIi
+BOARD 0 18 64 0 B5B6B7B8B9B+B/f/ZvABARBgARAhf/f/f/f/a7a5a6AICqENHHf/a7f/f/f/f/f/f/CaCbCcCdDsE4CqCqAIENEdf/f/f/f/AAABf/f/GIGJCqIrIVIWIVIWIihFIsIr
+BOARD 0 19 64 0 CJCKCLCMCNCOF2F3f/f/AhBwAhf/f/f/f/arapaqara7ENEdf/f/f/f/AAABf/f/f/f/F2F3f/GIEMAIAPENEdf/f/f/f/f/f/f/f/f/f/f/GJCqIlImIlImIrIsCqCq
+BOARD 0 20 64 0 f/CaCbCcCdp6p7p6F3f/F2qap7f/cKcLf/a7a5a6apaqarf/f/f/a7f/f/f/AQf/f/F2GGGHCpFmE4CqCqGXf/f/f/f/AAABf/f/f/f/f/f/GnFoF4F4GJCqCqCqCq2t
+BOARD 0 21 64 0 GkGlGkHpf/f/Zvf/paF2p7f/f/f/cacbf/f/ara7a5a6GHara7apaqf/f/f/f/f/f/EcEMEtAICqCqAPCqDVf/f/f/f/f/f/f/f/f/f/f/f/GIHHf/f/GIGJFoGJCqAI
+BOARD 0 22 64 0 G0G1G0H5Hpf/f/f/p6p7f/AAABf/f/f/f/f/GmGJarapaqapaqa5a6a7f/f/f/f/f/f/EcEMFoEMCqEtENEdf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/GIHHGIF4GJ
+BOARD 0 23 64 0 GlGkHpf/f/OLf/f/f/f/f/f/f/f/f/f/f/a7f/EQa7a5a6a5a6ara7GHF3f/f/AAABf/f/EcHHEcEMFoHHf/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Gn
+BOARD 0 24 64 0 G1G0G1Hpf/f/f/AAABf/f/f/f/f/f/f/f/f/f/EcEMarEtara7FoEMCqELDnf/f/f/f/f/f/f/f/EcHHf/f/f/f/f/f/f/f/f/f/f/AQf/f/AAABf/f/f/f/f/f/f/GI
+BOARD 0 25 64 0 f/f/G0H5f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/EcF4EMENHHf/EcEMENEdf/f/f/AAABf/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/
+BOARD 0 26 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EcEdf/f/f/EcEdf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AQf/
+BOARD 0 27 64 0 CfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCeCfCe
+BOARD 0 28 64 0 CuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCvCuCv
+BOARD 0 29 64 0 EvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEu
+BOARD 0 30 64 0 EuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEv
+BOARD 0 31 64 0 EvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEu
+BOARD 0 32 64 0 EuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEv
+BOARD 0 33 64 0 EvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEu
+BOARD 0 34 64 0 EuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEv
+BOARD 0 35 64 0 EvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEuEvEu
+BOARD 0 36 64 0 C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+C/C+
+BOARD 0 37 64 0 EtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEt
+BOARD 0 38 64 0 EtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEtEt
+BOARD 0 39 64 0 F4F5F5F4F5CoF5F5F5F4CoF5F4F5CoF5F4CoF5F4F5CoF5F5F5CoF5F5F4F5CoF5F5F4F5F4CoF5F4CoCoF5F5CoF5F5F4F5CoF5CoF4F5F4CoF5F4F5CoF5F5F4F4Co
+BOARD 0 40 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/0Rf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 41 64 0 f/AQf/f/BABBBGBBBGBHf/f/KlKmBABBBGBBBGBHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/K3K4f/f/KlKmf/0Rf/f/f/f/f/f/f/
+BOARD 0 42 64 0 f/f/f/f/BQBRBRBRBRClByf/K1K2BQBRBRBRBRClByf/f/f/f/f/f/f/f/asatauavf/f/f/f/f/KlKmf/f/f/f/AAABf/f/f/f/f/f/f/K1K2f/f/f/f/AAABf/f/f/
+BOARD 0 43 64 0 f/f/f/f/BQBkBlBmBnClCCf/f/f/BQBkBlBmBnClCCf/f/f/f/f/AAABf/a8a9a+a/f/f/f/f/f/K1K2f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 44 64 0 f/f/f/f/CQB0B1B2B3BzCCf/f/f/CQB0B1B2B3BzCCf/f/f/f/f/f/f/f/bMbNbObPf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqprf/f/AAABf/f/f/f/f/f/f/f/
+BOARD 0 45 64 0 f/pqprf/CgCEwLwLCHCDCCf/AAABCgCEwLwLCHCDCCpqprf/f/f/f/f/f/bcbdbebff/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/paBABBBCBDBDBDBDBDBFBGBHH/f/
+BOARD 0 46 64 0 f/papbf/CwCUItItCXCTCSf/f/f/CwCUItItCXCTCSpapbf/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/AQf/f/f/paBQBRBSBTBUBUU4U5BVBRBXByf/
+BOARD 0 47 64 0 f/papbAQf/BEZvZvBEf/f/f/f/f/f/BEZvZvBEf/f/papbf/f/f/f/KlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmf/f/f/f/f/f/f/paBQBRBSBUBUBUVYVZBVBRBXCCf/
+BOARD 0 48 64 0 f/papbf/f/ZvZvZvZvf/f/f/f/f/f/ZvZvZvZvf/f/papbf/f/f/f/K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2f/f/f/f/f/f/f/paBQBRBSBUBUBUBUBUBVBRBXCCf/
+BOARD 0 49 64 0 f/papbf/f/f/f/f/f/f/K3K4f/f/f/f/f/f/f/f/f/papbf/f/f/BABBBCBDBDBDBDBDBDBDBDBDBDBDBDBFBGBHH/f/f/f/KlKmpaBQBRBSBUBUBUBUBUBVBRBXCCf/
+BOARD 0 50 64 0 f/paGIqLqKqLqLqLqLqLqLqLqLqKqLqLqKqLqLqLqKFppbf/f/f/BQBRBSBTBUBUBUBUBUBUBUBUBUBUBTBVBRBXByf/f/f/K1K2paBQBRBSBUBUBUBUBUBVBRBXCCf/
+BOARD 0 51 64 0 f/p6qaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqap7f/f/f/BQBRBSBUBUBUBUBUBUBUBUBUBUBUBUBVBRBXCCf/f/f/f/Zvp6BQBRBSBUBUBUBUBUBVBRBXCCf/
+BOARD 0 52 64 0 f/f/f/f/f/f/f/f/f/f/f/K3K4f/f/f/f/f/f/f/f/f/f/f/f/f/BQBRBSBUBUBUBUBUBUBUBUBUBUBUBUBVBRBXCCf/f/f/f/ZvZvBQBRBSBUBUBUBUBUBVBRBXCCf/
+BOARD 0 53 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BQBRBSBUBUBUBUBUBUBUBUBUBUBUBUBVBRBXCCK3K4f/f/ZvZvBQBRBSBUBUBUBUBUBVBRBXCCf/
+BOARD 0 54 64 0 f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KlKmf/f/BQBRBSBTBUBUBUBUBUBUBUBUBUBUBTBVBRBXCCf/f/f/f/ZvZvBQBRBSBUBUBUBUBUBVBRBXCCf/
+BOARD 0 55 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/K1K2f/pqBQBhBiBjBjBjBjBjBjBjBjBjBjBjBjBWCkClCCf/f/f/f/ZvpqBQBRBSBUBUBUBUBUBVBRBXCCf/
+BOARD 0 56 64 0 f/f/f/KlKmf/f/f/f/pqqLqLprf/f/f/AAABf/K3K4f/f/f/f/paBQBxBRBRBRBRBRBRBRBRBRBRBRBRBRBRC0ClCCf/f/f/KlKmpaBQBRBSBUBUBUBUBUBVBRBXCCf/
+BOARD 0 57 64 0 f/f/f/K1K2f/f/f/pqFpAQ0Rpbf/f/f/f/f/f/f/f/f/f/f/f/paCACBBRBRBRBRBRBkBlBmBnBRBRBRBRBRDEDFCCf/f/f/K1K2paBQBRBSBTBUBUBUBTBVBRBXCCf/
+BOARD 0 58 64 0 f/f/f/f/f/f/f/pqFpf/f/f/pbf/f/f/f/f/f/f/f/f/f/f/f/paCQCRCRCRCRCRCRB0B1B2B3CRCRCRCRCRCRBzCCf/f/f/f/f/paBQBhBiBjBjBjBjBjBWCkBXCCf/
+BOARD 0 59 64 0 f/f/f/f/f/f/f/paf/KlKmf/pbf/f/f/f/f/f/f/f/f/f/f/f/paCgChCiCjChCiCjCEwLwLCHChCiCjChCiCjCDCCf/f/f/f/f/paCQCRCRCRCRCRCRCRCRCRBzCCf/
+BOARD 0 60 64 0 f/f/f/f/AAABf/paf/K1K2ABpbf/f/f/f/f/0Rf/f/f/f/f/f/paCwCxCyCzCxCyCzCUItItCXCxCyCzCxCyCzCTCSf/f/f/f/f/paCgChCiCjChCiCjChCiCjCDCCf/
+BOARD 0 61 64 0 f/AQf/f/f/f/f/paAAABf/AQpbf/f/f/f/f/f/f/f/f/f/f/f/p6qaqaqap7f/f/f/BEZvZvBEf/f/f/f/f/f/f/f/f/f/KlKmf/paCwCxCyCzCxCyCzCxCyCzCTCSf/
+BOARD 0 62 64 0 f/f/f/f/f/f/f/p6qaqaqaqap7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ZvZvZvZvf/f/f/f/f/f/f/f/f/f/K1K2f/p6qaqaqaqaqaqaqaqaqaqap7f/f/
+BOARD 0 63 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+LINK mighty_treehut_inside_01.nw 19 14 2 1 35.5 26
+LINK mountainhouse_inside_01.nw 51 52 1 3 19 29
+LINK mountainhouse_inside_05.nw 34 59 2 1 30.5 33
+LINK mountainhouse_inside_04.nw 16 45 2 1 30.5 35
+LINK mountainhouse_inside_04.nw 6 45 2 1 16.5 35
+NPC classic_bush.png 11 11
+join("bush");
+NPCEND
+NPC classic_bush.png 9 13
+join("bush");
+NPCEND
+NPC classic_bush.png 11 14
+join("bush");
+NPCEND
+NPC classic_bush.png 11 16
+join("bush");
+NPCEND
+NPC smoke.mng 12 0
+//#CLIENTSIDE
+dontblock;
+drawoverplayer;
+NPCEND
+NPC - 14 20
+join("sign_liftable");
+
+//#CLIENTSIDE
+if (created) setstring this.text,
+Mighty's Treehut;
+NPCEND
+NPC smoke.mng 55 43
+//#CLIENTSIDE
+dontblock;
+drawoverplayer;
+NPCEND
+NPC - 41 47
+join bush;
+NPCEND
+NPC - 39 47
+join bush;
+NPCEND
+NPC - 37 47
+join bush;
+NPCEND
+NPC - 35 47
+join bush;
+NPCEND
+NPC - 33 47
+join bush;
+NPCEND
+NPC - 31 47
+join bush;
+NPCEND
+NPC - 29 47
+join bush;
+NPCEND
+NPC - 27 47
+join bush;
+NPCEND
+NPC - 9 59
+join bush;
+NPCEND
+NPC - 3 56
+join bush;
+NPCEND
+NPC - 53 41
+join bush;
+NPCEND
+NPC - 38 42
+join bush;
+NPCEND
+NPC - 48 49
+join bush;
+NPCEND
+NPC - 48 56
+join bush;
+NPCEND
+NPC - 47 61
+join bush;
+NPCEND
+NPC - 22 54
+join bush;
+NPCEND

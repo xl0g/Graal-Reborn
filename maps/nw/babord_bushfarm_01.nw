@@ -1,0 +1,932 @@
+GLEVNW01
+BOARD 0 0 64 0 5M5NYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYI5M5N
+BOARD 0 1 64 0 CQBzYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcCQBz
+BOARD 0 2 64 0 BQBXNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrBQBX
+BOARD 0 3 64 0 BQBXNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrBQBX
+BOARD 0 4 64 0 BQBXN6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7BQBX
+BOARD 0 5 64 0 BQBXKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmf/AJAKALAMANAOf/KlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBQBX
+BOARD 0 6 64 0 BQBXK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2AYAZAaAbAcAdAeAfK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BQBX
+BOARD 0 7 64 0 BQBXKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmAoApAqArAsAtAuAvKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBQBX
+BOARD 0 8 64 0 BQBXK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2A4A5A6A7A8A9A+A/K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BQBX
+BOARD 0 9 64 0 BQBXKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBIBJBKBLBMBNBOBPKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBQBX
+BOARD 0 10 64 0 BQBXK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BYBZBaBbBcBdBeBfK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BQBX
+BOARD 0 11 64 0 BQBXKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBoBpBqBrBsBtBuBvKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBQBX
+BOARD 0 12 64 0 BQBXK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2B4B5B6B7B8B9B+B/K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BQBX
+BOARD 0 13 64 0 BQBXKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmf/CJCKCLCMCNCOf/KlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBQBX
+BOARD 0 14 64 0 BQBXK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2f/f/CaCbCcCdf/f/K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BQBX
+BOARD 0 15 64 0 BQBXKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmAAABf/f/f/f/AAABKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBQBX
+BOARD 0 16 64 0 BQBXK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2f/f/f/f/f/f/f/f/K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BQBX
+BOARD 0 17 64 0 BQBXKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmf/f/f/f/AAABf/f/KlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBQBX
+BOARD 0 18 64 0 BQBXK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2f/f/f/f/f/f/f/f/K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BQBX
+BOARD 0 19 64 0 BQBXKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmf/f/AAABf/f/f/f/KlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBQBX
+BOARD 0 20 64 0 BQBXK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2f/AQf/f/f/f/f/f/K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BQBX
+BOARD 0 21 64 0 BQBXKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmf/f/f/f/f/f/f/f/KlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBQBX
+BOARD 0 22 64 0 BQBXK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2f/f/f/f/f/f/AAABK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BQBX
+BOARD 0 23 64 0 BQBXKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmAAABf/f/f/f/f/f/KlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBQBX
+BOARD 0 24 64 0 BQBXK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2f/f/f/f/f/f/f/f/K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BQBX
+BOARD 0 25 64 0 BQBXKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmf/f/f/f/f/f/f/f/KlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmKlKmBQBX
+BOARD 0 26 64 0 BQBXK1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2f/f/AAABf/f/f/f/K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2K1K2BQBX
+BOARD 0 27 64 0 BQBXBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARf/f/f/f/f/AAABf/ARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgARBgBQBX
+BOARD 0 28 64 0 BQBXBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhf/f/f/AAABf/f/f/AhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwAhBwBQBX
+BOARD 0 29 64 0 BQBXf/AJAKALAMANAOAJAKALAMANAOAJAKALAMANAOAJAKALAMANAOf/f/f/f/f/f/f/f/f/f/AJAKALAMANAOAJAKALAMANAOAJAKALAMANAOAJAKALAMANAOf/BQBX
+BOARD 0 30 64 0 BQBXAYAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAff/f/f/f/f/f/AQf/AYAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAfBQBX
+BOARD 0 31 64 0 BQBXAoApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuAvf/f/AAABf/f/f/f/AoApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuAvBQBX
+BOARD 0 32 64 0 BQBXA4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/f/f/f/f/f/f/AAABA4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/BQBX
+BOARD 0 33 64 0 BQBXBIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/f/f/AwAxf/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPBQBX
+BOARD 0 34 64 0 BQBXBYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBfAAABf/f/f/AAABf/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBfBQBX
+BOARD 0 35 64 0 BQBXBoBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBvf/AwAxf/f/f/f/f/BoBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBvBQBX
+BOARD 0 36 64 0 BQBXB4B5B6B7B8B9B+B5B6B7B8B9B+B5B6B7B8B9B+B5B6B7B8B9B+B/f/f/f/AAABf/f/AAB4B5B6B7B8B9B+B5B6B7B8B9B+B5B6B7B8B9B+B5B6B7B8B9B+B/BQBX
+BOARD 0 37 64 0 BQBXf/CJCKCLCMCNCOCJCKCLCMCNCOCJCKCLCMCNCOCJCKCLCMCNCOf/f/f/AwAxf/f/f/f/f/CJCKCLCMCNCOCJCKCLCMCNCOCJCKCLCMCNCOCJCKCLCMCNCOf/BQBX
+BOARD 0 38 64 0 BQBXf/f/CaCbCcCdf/f/CaCbCcCdf/f/CaCbCcCdf/f/CaCbCcCdf/f/f/f/f/f/f/f/f/f/f/f/CaCbCcCdf/f/CaCbCcCdf/f/CaCbCcCdf/f/CaCbCcCdf/f/BQBX
+BOARD 0 39 64 0 BQBXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/AwAxf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BQBX
+BOARD 0 40 64 0 BQBXf/f/f/f/f/f/f/f/f/AAABf/AAABf/f/f/f/AAABf/f/f/AAABf/f/AQf/f/f/f/AAABf/f/f/f/f/f/f/AAABf/f/f/f/AAABf/f/f/f/f/f/f/AAABf/f/BQBX
+BOARD 0 41 64 0 BQBXf/f/AAABf/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/AAABf/f/f/AAABf/f/f/f/f/f/f/f/BQBX
+BOARD 0 42 64 0 BQBXf/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/AwAxf/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/BQBX
+BOARD 0 43 64 0 BQBXf/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/AwAxf/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BQBX
+BOARD 0 44 64 0 BQBXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AwAxf/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/AAABf/f/f/f/f/f/BQBX
+BOARD 0 45 64 0 BQBXf/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/AAABAwAxf/f/AAABf/f/f/f/f/AAABf/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/AAABf/BQBX
+BOARD 0 46 64 0 BQBXf/AAABf/f/AQf/f/f/AAABf/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/a7arAwAxa7arf/f/f/f/f/f/AQf/f/f/f/AAABf/f/f/f/f/f/f/AAABAQf/f/f/BQBX
+BOARD 0 47 64 0 BQBXf/f/f/f/f/AAABf/f/f/f/f/f/f/f/Z2Z3Z3Z4f/f/f/f/f/f/AAABara5a6a7ara5arf/f/f/f/f/f/f/Z2Z3Z3Z4f/f/f/f/AAABf/f/f/f/f/f/f/f/f/BQBX
+BOARD 0 48 64 0 BQBXf/f/f/f/f/f/f/f/AAABf/f/f/AQf/aGaHaHaIAAABf/f/f/f/f/f/a7apaqapaqapa7f/f/AAABf/f/f/aGaHaHaIf/f/f/f/f/f/f/AAABf/f/f/f/AAABBQBX
+BOARD 0 49 64 0 BQBXf/f/f/AAABf/f/f/f/f/f/f/f/f/LILJLKLJLKKrf/f/f/f/f/f/ara6a5a6a5a6arf/f/AQf/f/f/f/LILJLKLJLKKrf/f/f/f/f/f/f/f/AAABf/f/f/f/BQBX
+BOARD 0 50 64 0 BQBXf/f/f/f/f/f/f/f/f/f/f/f/KpKqLYLZLaLZLaK7KpKqf/f/f/f/a7aqapaqapaqa7f/f/f/f/f/KpKqLYLZLaLZLaK7KpKqf/f/AAABf/f/f/f/f/f/f/f/BQBX
+BOARD 0 51 64 0 BQBXf/f/f/Z2Z3Z3Z4f/f/AAABf/K5K6LYLZLaLZLaK7K5K6f/f/f/f/f/ara5a6a5a6a5arf/f/f/f/K5K6LYLZLaLZLaK7K5K6f/f/f/f/f/Z2Z3Z3Z4f/f/f/BQBX
+BOARD 0 52 64 0 BQBXf/f/f/aGaHaHaIf/f/f/f/f/f/f/LoLpLqLpLqLLf/f/f/AAABf/f/a7apaqapaqapa7AAABf/f/f/f/LoLpLqLpLqLLf/f/f/f/f/f/f/aGaHaHaIAAABf/BQBX
+BOARD 0 53 64 0 BQBXAAABLILJLKLJLKKrAQf/f/f/f/f/f/Z2Z3Z3Z4f/f/f/f/f/f/f/f/f/ara6a5a6arf/f/f/f/f/f/f/f/Z2Z3Z3Z4f/f/f/AQf/f/f/LILJLKLJLKKrf/f/BQBX
+BOARD 0 54 64 0 BQBXKpKqLYLZLaLZLaK7KpKqf/f/AAABf/aGaHaHaIf/f/f/f/f/f/AQf/f/a7aqapaqa7f/f/f/AAABf/f/AQaGaHaHaIf/f/f/f/f/KpKqLYLZLaLZLaK7KpKqBQBX
+BOARD 0 55 64 0 BQBXK5K6LYLZLaLZLaK7K5K6f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/ara5a6a5arf/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/K5K6LYLZLaLZLaK7K5K6BQBX
+BOARD 0 56 64 0 BQBXf/f/LoLpLqLpLqLLf/f/f/f/f/f/f/f/f/f/f/AQf/f/f/AAABf/f/a7apaqapa7f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/LoLpLqLpLqLLf/f/BQBX
+BOARD 0 57 64 0 BQBXf/AAABZ2Z3Z3Z4f/AAABf/f/f/AQf/AAABf/f/f/f/f/f/f/f/f/f/f/ara6a5arf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Z2Z3Z3Z4AQAAABBQBX
+BOARD 0 58 64 0 BQBXf/f/f/aGaHaHaIf/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/a7aqapa7f/f/f/f/f/AAABf/f/f/f/AQf/f/f/f/AAABf/f/f/aGaHaHaIf/f/f/BQBX
+BOARD 0 59 64 0 5M5NYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIf/ara5a6a5a6arf/YIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYIYI5M5N
+BOARD 0 60 64 0 CQBzYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcf/a7apaqapaqa7f/YcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcCQBz
+BOARD 0 61 64 0 NqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrf/ara5a6a5a6arf/NqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNr
+BOARD 0 62 64 0 NqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrYva7apaqapaqa7YvNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNrNqNr
+BOARD 0 63 64 0 N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7Y/ara5a6a5a6arY/N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7N6N7
+LINK overworld_babord_07.nw 29 63 6 1 38.5 43
+NPC townsign.png 28 58
+//#CLIENTSIDE
+dontblock;
+drawoverplayer;
+NPCEND
+NPC - 2 5
+join bush;
+NPCEND
+NPC - 4 5
+join bush;
+NPCEND
+NPC - 6 5
+join bush;
+NPCEND
+NPC - 8 5
+join bush;
+NPCEND
+NPC - 10 5
+join bush;
+NPCEND
+NPC - 12 5
+join bush;
+NPCEND
+NPC - 14 5
+join bush;
+NPCEND
+NPC - 16 5
+join bush;
+NPCEND
+NPC - 18 5
+join bush;
+NPCEND
+NPC - 20 5
+join bush;
+NPCEND
+NPC - 22 5
+join bush;
+NPCEND
+NPC - 24 5
+join bush;
+NPCEND
+NPC - 26 5
+join bush;
+NPCEND
+NPC - 36 5
+join bush;
+NPCEND
+NPC - 38 5
+join bush;
+NPCEND
+NPC - 40 5
+join bush;
+NPCEND
+NPC - 42 5
+join bush;
+NPCEND
+NPC - 44 5
+join bush;
+NPCEND
+NPC - 46 5
+join bush;
+NPCEND
+NPC - 48 5
+join bush;
+NPCEND
+NPC - 50 5
+join bush;
+NPCEND
+NPC - 52 5
+join bush;
+NPCEND
+NPC - 54 5
+join bush;
+NPCEND
+NPC - 56 5
+join bush;
+NPCEND
+NPC - 58 5
+join bush;
+NPCEND
+NPC - 60 5
+join bush;
+NPCEND
+NPC - 2 7
+join bush;
+NPCEND
+NPC - 4 7
+join bush;
+NPCEND
+NPC - 6 7
+join bush;
+NPCEND
+NPC - 8 7
+join bush;
+NPCEND
+NPC - 10 7
+join bush;
+NPCEND
+NPC - 12 7
+join bush;
+NPCEND
+NPC - 14 7
+join bush;
+NPCEND
+NPC - 16 7
+join bush;
+NPCEND
+NPC - 18 7
+join bush;
+NPCEND
+NPC - 20 7
+join bush;
+NPCEND
+NPC - 22 7
+join bush;
+NPCEND
+NPC - 24 7
+join bush;
+NPCEND
+NPC - 26 7
+join bush;
+NPCEND
+NPC - 36 7
+join bush;
+NPCEND
+NPC - 38 7
+join bush;
+NPCEND
+NPC - 40 7
+join bush;
+NPCEND
+NPC - 42 7
+join bush;
+NPCEND
+NPC - 44 7
+join bush;
+NPCEND
+NPC - 46 7
+join bush;
+NPCEND
+NPC - 48 7
+join bush;
+NPCEND
+NPC - 50 7
+join bush;
+NPCEND
+NPC - 52 7
+join bush;
+NPCEND
+NPC - 54 7
+join bush;
+NPCEND
+NPC - 56 7
+join bush;
+NPCEND
+NPC - 58 7
+join bush;
+NPCEND
+NPC - 60 7
+join bush;
+NPCEND
+NPC - 36 9
+join bush;
+NPCEND
+NPC - 38 9
+join bush;
+NPCEND
+NPC - 40 9
+join bush;
+NPCEND
+NPC - 42 9
+join bush;
+NPCEND
+NPC - 44 9
+join bush;
+NPCEND
+NPC - 46 9
+join bush;
+NPCEND
+NPC - 48 9
+join bush;
+NPCEND
+NPC - 50 9
+join bush;
+NPCEND
+NPC - 52 9
+join bush;
+NPCEND
+NPC - 54 9
+join bush;
+NPCEND
+NPC - 56 9
+join bush;
+NPCEND
+NPC - 58 9
+join bush;
+NPCEND
+NPC - 60 9
+join bush;
+NPCEND
+NPC - 36 11
+join bush;
+NPCEND
+NPC - 38 11
+join bush;
+NPCEND
+NPC - 40 11
+join bush;
+NPCEND
+NPC - 42 11
+join bush;
+NPCEND
+NPC - 44 11
+join bush;
+NPCEND
+NPC - 46 11
+join bush;
+NPCEND
+NPC - 48 11
+join bush;
+NPCEND
+NPC - 50 11
+join bush;
+NPCEND
+NPC - 52 11
+join bush;
+NPCEND
+NPC - 54 11
+join bush;
+NPCEND
+NPC - 56 11
+join bush;
+NPCEND
+NPC - 58 11
+join bush;
+NPCEND
+NPC - 60 11
+join bush;
+NPCEND
+NPC - 36 13
+join bush;
+NPCEND
+NPC - 38 13
+join bush;
+NPCEND
+NPC - 40 13
+join bush;
+NPCEND
+NPC - 42 13
+join bush;
+NPCEND
+NPC - 44 13
+join bush;
+NPCEND
+NPC - 46 13
+join bush;
+NPCEND
+NPC - 48 13
+join bush;
+NPCEND
+NPC - 50 13
+join bush;
+NPCEND
+NPC - 52 13
+join bush;
+NPCEND
+NPC - 54 13
+join bush;
+NPCEND
+NPC - 56 13
+join bush;
+NPCEND
+NPC - 58 13
+join bush;
+NPCEND
+NPC - 60 13
+join bush;
+NPCEND
+NPC - 36 15
+join bush;
+NPCEND
+NPC - 38 15
+join bush;
+NPCEND
+NPC - 40 15
+join bush;
+NPCEND
+NPC - 42 15
+join bush;
+NPCEND
+NPC - 44 15
+join bush;
+NPCEND
+NPC - 46 15
+join bush;
+NPCEND
+NPC - 48 15
+join bush;
+NPCEND
+NPC - 50 15
+join bush;
+NPCEND
+NPC - 52 15
+join bush;
+NPCEND
+NPC - 54 15
+join bush;
+NPCEND
+NPC - 56 15
+join bush;
+NPCEND
+NPC - 58 15
+join bush;
+NPCEND
+NPC - 60 15
+join bush;
+NPCEND
+NPC - 36 17
+join bush;
+NPCEND
+NPC - 38 17
+join bush;
+NPCEND
+NPC - 40 17
+join bush;
+NPCEND
+NPC - 42 17
+join bush;
+NPCEND
+NPC - 44 17
+join bush;
+NPCEND
+NPC - 46 17
+join bush;
+NPCEND
+NPC - 48 17
+join bush;
+NPCEND
+NPC - 50 17
+join bush;
+NPCEND
+NPC - 52 17
+join bush;
+NPCEND
+NPC - 54 17
+join bush;
+NPCEND
+NPC - 56 17
+join bush;
+NPCEND
+NPC - 58 17
+join bush;
+NPCEND
+NPC - 60 17
+join bush;
+NPCEND
+NPC - 36 19
+join bush;
+NPCEND
+NPC - 38 19
+join bush;
+NPCEND
+NPC - 40 19
+join bush;
+NPCEND
+NPC - 42 19
+join bush;
+NPCEND
+NPC - 44 19
+join bush;
+NPCEND
+NPC - 46 19
+join bush;
+NPCEND
+NPC - 48 19
+join bush;
+NPCEND
+NPC - 50 19
+join bush;
+NPCEND
+NPC - 52 19
+join bush;
+NPCEND
+NPC - 54 19
+join bush;
+NPCEND
+NPC - 56 19
+join bush;
+NPCEND
+NPC - 58 19
+join bush;
+NPCEND
+NPC - 60 19
+join bush;
+NPCEND
+NPC - 36 21
+join bush;
+NPCEND
+NPC - 38 21
+join bush;
+NPCEND
+NPC - 40 21
+join bush;
+NPCEND
+NPC - 42 21
+join bush;
+NPCEND
+NPC - 44 21
+join bush;
+NPCEND
+NPC - 46 21
+join bush;
+NPCEND
+NPC - 48 21
+join bush;
+NPCEND
+NPC - 50 21
+join bush;
+NPCEND
+NPC - 52 21
+join bush;
+NPCEND
+NPC - 54 21
+join bush;
+NPCEND
+NPC - 56 21
+join bush;
+NPCEND
+NPC - 58 21
+join bush;
+NPCEND
+NPC - 60 21
+join bush;
+NPCEND
+NPC - 36 23
+join bush;
+NPCEND
+NPC - 38 23
+join bush;
+NPCEND
+NPC - 40 23
+join bush;
+NPCEND
+NPC - 42 23
+join bush;
+NPCEND
+NPC - 44 23
+join bush;
+NPCEND
+NPC - 46 23
+join bush;
+NPCEND
+NPC - 48 23
+join bush;
+NPCEND
+NPC - 50 23
+join bush;
+NPCEND
+NPC - 52 23
+join bush;
+NPCEND
+NPC - 54 23
+join bush;
+NPCEND
+NPC - 56 23
+join bush;
+NPCEND
+NPC - 58 23
+join bush;
+NPCEND
+NPC - 60 23
+join bush;
+NPCEND
+NPC - 36 25
+join bush;
+NPCEND
+NPC - 38 25
+join bush;
+NPCEND
+NPC - 40 25
+join bush;
+NPCEND
+NPC - 42 25
+join bush;
+NPCEND
+NPC - 44 25
+join bush;
+NPCEND
+NPC - 46 25
+join bush;
+NPCEND
+NPC - 48 25
+join bush;
+NPCEND
+NPC - 50 25
+join bush;
+NPCEND
+NPC - 52 25
+join bush;
+NPCEND
+NPC - 54 25
+join bush;
+NPCEND
+NPC - 56 25
+join bush;
+NPCEND
+NPC - 58 25
+join bush;
+NPCEND
+NPC - 60 25
+join bush;
+NPCEND
+NPC - 2 9
+join bush;
+NPCEND
+NPC - 4 9
+join bush;
+NPCEND
+NPC - 6 9
+join bush;
+NPCEND
+NPC - 8 9
+join bush;
+NPCEND
+NPC - 10 9
+join bush;
+NPCEND
+NPC - 12 9
+join bush;
+NPCEND
+NPC - 14 9
+join bush;
+NPCEND
+NPC - 16 9
+join bush;
+NPCEND
+NPC - 18 9
+join bush;
+NPCEND
+NPC - 20 9
+join bush;
+NPCEND
+NPC - 22 9
+join bush;
+NPCEND
+NPC - 24 9
+join bush;
+NPCEND
+NPC - 26 9
+join bush;
+NPCEND
+NPC - 2 11
+join bush;
+NPCEND
+NPC - 4 11
+join bush;
+NPCEND
+NPC - 6 11
+join bush;
+NPCEND
+NPC - 8 11
+join bush;
+NPCEND
+NPC - 10 11
+join bush;
+NPCEND
+NPC - 12 11
+join bush;
+NPCEND
+NPC - 14 11
+join bush;
+NPCEND
+NPC - 16 11
+join bush;
+NPCEND
+NPC - 18 11
+join bush;
+NPCEND
+NPC - 20 11
+join bush;
+NPCEND
+NPC - 22 11
+join bush;
+NPCEND
+NPC - 24 11
+join bush;
+NPCEND
+NPC - 26 11
+join bush;
+NPCEND
+NPC - 2 13
+join bush;
+NPCEND
+NPC - 2 15
+join bush;
+NPCEND
+NPC - 2 17
+join bush;
+NPCEND
+NPC - 2 19
+join bush;
+NPCEND
+NPC - 2 21
+join bush;
+NPCEND
+NPC - 2 23
+join bush;
+NPCEND
+NPC - 2 25
+join bush;
+NPCEND
+NPC - 4 13
+join bush;
+NPCEND
+NPC - 4 15
+join bush;
+NPCEND
+NPC - 4 17
+join bush;
+NPCEND
+NPC - 4 19
+join bush;
+NPCEND
+NPC - 4 21
+join bush;
+NPCEND
+NPC - 4 23
+join bush;
+NPCEND
+NPC - 4 25
+join bush;
+NPCEND
+NPC - 6 13
+join bush;
+NPCEND
+NPC - 6 15
+join bush;
+NPCEND
+NPC - 6 17
+join bush;
+NPCEND
+NPC - 6 19
+join bush;
+NPCEND
+NPC - 6 21
+join bush;
+NPCEND
+NPC - 6 23
+join bush;
+NPCEND
+NPC - 6 25
+join bush;
+NPCEND
+NPC - 8 13
+join bush;
+NPCEND
+NPC - 8 15
+join bush;
+NPCEND
+NPC - 8 17
+join bush;
+NPCEND
+NPC - 8 19
+join bush;
+NPCEND
+NPC - 8 21
+join bush;
+NPCEND
+NPC - 8 23
+join bush;
+NPCEND
+NPC - 8 25
+join bush;
+NPCEND
+NPC - 10 13
+join bush;
+NPCEND
+NPC - 12 13
+join bush;
+NPCEND
+NPC - 14 13
+join bush;
+NPCEND
+NPC - 16 13
+join bush;
+NPCEND
+NPC - 18 13
+join bush;
+NPCEND
+NPC - 20 13
+join bush;
+NPCEND
+NPC - 22 13
+join bush;
+NPCEND
+NPC - 24 13
+join bush;
+NPCEND
+NPC - 26 13
+join bush;
+NPCEND
+NPC - 10 15
+join bush;
+NPCEND
+NPC - 12 15
+join bush;
+NPCEND
+NPC - 14 15
+join bush;
+NPCEND
+NPC - 16 15
+join bush;
+NPCEND
+NPC - 18 15
+join bush;
+NPCEND
+NPC - 20 15
+join bush;
+NPCEND
+NPC - 22 15
+join bush;
+NPCEND
+NPC - 24 15
+join bush;
+NPCEND
+NPC - 26 15
+join bush;
+NPCEND
+NPC - 10 17
+join bush;
+NPCEND
+NPC - 12 17
+join bush;
+NPCEND
+NPC - 14 17
+join bush;
+NPCEND
+NPC - 16 17
+join bush;
+NPCEND
+NPC - 30 2
+join levelnopk;
+NPCEND
+NPC - 18 17
+join bush;
+NPCEND
+NPC - 20 17
+join bush;
+NPCEND
+NPC - 22 17
+join bush;
+NPCEND
+NPC - 24 17
+join bush;
+NPCEND
+NPC - 26 17
+join bush;
+NPCEND
+NPC - 10 19
+join bush;
+NPCEND
+NPC - 12 19
+join bush;
+NPCEND
+NPC - 14 19
+join bush;
+NPCEND
+NPC - 16 19
+join bush;
+NPCEND
+NPC - 18 19
+join bush;
+NPCEND
+NPC - 20 19
+join bush;
+NPCEND
+NPC - 22 19
+join bush;
+NPCEND
+NPC - 24 19
+join bush;
+NPCEND
+NPC - 26 19
+join bush;
+NPCEND
+NPC - 10 21
+join bush;
+NPCEND
+NPC - 12 21
+join bush;
+NPCEND
+NPC - 14 21
+join bush;
+NPCEND
+NPC - 16 21
+join bush;
+NPCEND
+NPC - 18 21
+join bush;
+NPCEND
+NPC - 20 21
+join bush;
+NPCEND
+NPC - 22 21
+join bush;
+NPCEND
+NPC - 24 21
+join bush;
+NPCEND
+NPC - 26 21
+join bush;
+NPCEND
+NPC - 10 23
+join bush;
+NPCEND
+NPC - 12 23
+join bush;
+NPCEND
+NPC - 14 23
+join bush;
+NPCEND
+NPC - 16 23
+join bush;
+NPCEND
+NPC - 18 23
+join bush;
+NPCEND
+NPC - 20 23
+join bush;
+NPCEND
+NPC - 22 23
+join bush;
+NPCEND
+NPC - 24 23
+join bush;
+NPCEND
+NPC - 26 23
+join bush;
+NPCEND
+NPC - 10 25
+join bush;
+NPCEND
+NPC - 12 25
+join bush;
+NPCEND
+NPC - 14 25
+join bush;
+NPCEND
+NPC - 16 25
+join bush;
+NPCEND
+NPC - 18 25
+join bush;
+NPCEND
+NPC - 20 25
+join bush;
+NPCEND
+NPC - 22 25
+join bush;
+NPCEND
+NPC - 24 25
+join bush;
+NPCEND
+NPC - 26 25
+join bush;
+NPCEND

@@ -1,0 +1,281 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4lAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlBJ4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4lElglllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllllklllklllhlFJ4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4lEl0mAmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmkmlmkmlmBl1lFJ4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 lAlUlUlUlUlUlUlUlUlUlEmEm0mglHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlHlGlHmhm1mFlFlUlUlUlUlUlUlUlUlUlB
+BOARD 0 4 64 0 lEnAmWmWmWmWmWmWmWmWlEl0nElWnAmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnBlXnFl1lFmWmWmWmWmWmWmWmWnBlF
+BOARD 0 5 64 0 lEmGngmWeOePmWmWmWmWlEmEm0lmmGngmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnhmHlnm1mFlFmWmWmWmWeOePmWnhmHlF
+BOARD 0 6 64 0 lEmGmGNkeeefLmLmLmNllEl0nElWmGmGk2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2mHmHlXnFl1lFNkLmLmLmeeefNlmHmHlF
+BOARD 0 7 64 0 lEmGmGLbeuevUdUek3L6lEmEm0lmmGmGk2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2mHmHlXnFl1lFLbk3UcUdeuevL6mHmHlF
+BOARD 0 8 64 0 lEmGmGLbe+e/UtUuk3L6lEl0nElWmGmGk2k3mImJk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3mImJk3k2mHmHlnm1mFlFLbk3UsUte+e/L6mHmHlF
+BOARD 0 9 64 0 lEmGmGLbUsUtUtUuk3L6lEmEm0lmmGmGk2k3mYmZk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3mYmZk3k2mHmHlXnFl1lFLbk3UsUtUtUuL6mHmHlF
+BOARD 0 10 64 0 lEmGmGLbUsUtUtUuk3L6lEl0nElWmGmGk2k3mompk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3mompk3k2mHmHlnm1mFlFLbk3UsUtUtUuL6mHmHlF
+BOARD 0 11 64 0 lEmGmGLbUsUtUtUuk3L6lEmEm0lmmGmGk2k3m4m5k3k3k3k3k3k3k3k3k3k3NkLmLmNlk3k3k3k3k3k3k3k3k3k3m4m5k3k2mHmHlXnFl1lFLbk3UsUtUtUuL6mHmHlF
+BOARD 0 12 64 0 lEmGmGLbU8U9U9U+k3L6lEl0nElWmGmGk2k3k3k3k3k3k3k3k3k3k3k3k3k3LbTfbRL6k3k3k3k3k3k3k3k3k3k3k3k3k3k2mHmHlnm1mFlFLbk3U8U9U9U+L6mHmHlF
+BOARD 0 13 64 0 lEmGmGLbk3k3k3k3k3L6lEmEm0lmmGmGk2k3k3k3k3nInJk3k3k3k3k3k3k3LbT/bxL6k3k3k3k3k3k3k3nInJk3k3k3k3k2mHmHlXnFl1lFLbk3k3k3k3k3L6mHmHlF
+BOARD 0 14 64 0 lEmGmGLbk3k3k3KpKqL6lEl0nElWmGmGk2k3k3k3k3nYnZk3k3k3k3k3k3k3N0M/M/N1k3k3k3k3k3k3k3nYnZk3k3k3k3k2mHmHlnm1mFlFLbKpKqk3k3k3L6mHmHlF
+BOARD 0 15 64 0 lEmGmGLbnmnXnnK5K6L6lEmEm0lmmGmGk2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2mHmHlXnFl1lFLbK5K6nmnXnnL6mHmHlF
+BOARD 0 16 64 0 lEmGmGLbnHk3n0nnk33fLmLmcCLKLJcBk2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2cCLKLJcBLmLm/Qk3nmn1k3nGL6mHmHlF
+BOARD 0 17 64 0 lEmGmGLbnHk3k3nGk3k3k3k3cQcQcQcQk2k3k3k3k3k3k3k3k3k3k3nInJk3k3k3k3k3k3nInJk3k3k3k3k3k3k3k3k3k3k2cRcRcRcRk3k3k3k3nHk3k3nGL6mHmHlF
+BOARD 0 18 64 0 lEmGmGLbnHk3k3nGk3k3k3k3cQcQcQcQk2k3k3k3k3k3k3k3k3k3k3nYnZk3k3k3k3k3k3nYnZk3k3k3k3k3k3k3k3k3k3k2cRcRcRcRk3k3k3k3nHk3k3nGL6mHmHlF
+BOARD 0 19 64 0 lEmGmGLbnHk3k3nGk3k3k3k3cQcQcQcQk2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2cRcRcRcRk3k3k3k3nHk3k3nGL6mHmHlF
+BOARD 0 20 64 0 lEmGmGLbnHk3nkn3k33PM/M/cCLKLJcxk2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2cCLKLJcBM/M//Ak3n2nlk3nGL6mHmHlF
+BOARD 0 21 64 0 lEmGmGLbn2nWn3KpKqL6lEmEm0lmmGmGk2k3k3k3k3k3k3k3k3k3k3nInJk3k3k3k3k3k3nInJk3k3k3k3k3k3k3k3k3k3k2mHmHlXnFl1lFLbKpKqn2nWn3L6mHmHlF
+BOARD 0 22 64 0 lEmGmGLbk3k3k3K5K6L6lEl0nElWmGmGk2k3k3k3k3k3k3k3k3k3k3nYnZk3k3k3k3k3k3nYnZk3k3k3k3k3k3k3k3k3k3k2mHmHlnm1mFlFLbK5K6k3k3k3L6mHmHlF
+BOARD 0 23 64 0 lEmGmGLbk3k3k3k3k3L6lEmEm0lmmGmGk2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2mHmHlXnFl1lFLbk3k3k3k3k3L6mHmHlF
+BOARD 0 24 64 0 lEmGmGLbk3k3k3k3k3L6lEl0nElWmGmGk2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2mHmHlnm1mFlFLbk3k3k3k3k3L6mHmHlF
+BOARD 0 25 64 0 lEmGmGLbk3k3k3k3k3L6lEmEm0lmmGmGk2k3k3k3k3nInJk3k3k3k3k3k3k3NkLmLmNlk3k3k3k3k3k3k3nInJk3k3k3k3k2mHmHlXnFl1lFLbk3k3k3k3k3L6mHmHlF
+BOARD 0 26 64 0 lEmGmGLbk3k3k3k3k3L6lEl0nElWmGmGk2k3mImJk3nYnZk3k3k3k3k3k3k3LbTfbRL6k3k3k3k3k3k3k3nYnZk3mImJk3k2mHmHlnm1mFlFLbk3k3k3k3k3L6mHmHlF
+BOARD 0 27 64 0 lEmGmGLbUcUdUdUek3L6lEmEm0lmmGmGk2k3mYmZk3k3k3k3k3k3k3k3k3k3LbT/bxL6k3k3k3k3k3k3k3k3k3k3mYmZk3k2mHmHlXnFl1lFLbk3UcUdUdUeL6mHmHlF
+BOARD 0 28 64 0 lEmGmGLbUsUtUtUuk3L6lEl0nElWmGmGk2k3mompk3k3k3k3k3k3k3k3k3k3N0M/M/N1k3k3k3k3k3k3k3k3k3k3mompk3k2mHmHlnm1mFlFLbk3UsUtUtUuL6mHmHlF
+BOARD 0 29 64 0 lEmGmGLbUsUtUtUuk3L6lEmEm0lmmGmGk2k3m4m5k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3m4m5k3k2mHmHlXnFl1lFLbk3UsUtUtUuL6mHmHlF
+BOARD 0 30 64 0 lEmGmGLbUsUtUtUuk3L6lEl0nElWmGmGk2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2mHmHlnm1mFlFLbk3UsUtUtUuL6mHmHlF
+BOARD 0 31 64 0 lEmGmGLbUsUtUtUuk3L6lEmEm0lmmGmGk2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2mHmHlXnFl1lFLbk3UsUtUtUuL6mHmHlF
+BOARD 0 32 64 0 lEmGmGLbU8U9U9U+k3L6lEl0nElWmGmGk2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2mHmHlnm1mFlFLbk3U8U9U9U+L6mHmHlF
+BOARD 0 33 64 0 lEmGmGN0M/M/M/M/M/N1lEmEm0lmmGmGk2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2mHmHlnm1mFlFN0M/M/M/M/M/N1mHmHlF
+BOARD 0 34 64 0 lEmGnwmXmXmXmXmXmXmXlEl0nElWmGnwmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxmHlXnFl1lFmXmXmXmXmXmXmXnxmHlF
+BOARD 0 35 64 0 lEnQmXmXmXmXmXmXmXmXlEmEm0lmnQmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnRlnm1mFlFmXmXmXmXmXmXmXmXnRlF
+BOARD 0 36 64 0 lQlVlVlVlVlVlVlVlVlVlEl0nEmwl3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l3l2l3mxnFl1lFlVlVlVlVlVlVlVlVlVlR
+BOARD 0 37 64 0 J4J4J4J4J4J4J4J4J4J4lEmEmQnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnUnVnUnVmRmFlFJ4J4J4J4J4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4J4J4J4J4J4J4lElwmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmVmUmVmUmVlxlFJ4J4J4J4J4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4J4J4J4J4J4J4lQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlRJ4J4J4J4J4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+NPC - 15 34
+join("level_sparlevel");
+NPCEND
+NPC amz_chair.png 7 14
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC amz_chair.png 7 21
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC amz_chair.png 55 21
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC amz_chair.png 55 14
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+NPCEND
+NPC classic_gc_spargate_02.png 15 17
+if (created) drawunderplayer;
+if (playerchats) {
+  if (strequals(#g,Game Coordinator)) {
+    if (strequals(#c,close)) {
+      show;
+    }
+    elseif (strequals(#c,open)) {
+      hide;
+    }
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,16,48;
+}
+NPCEND
+NPC classic_gc_spargate_02.png 48 17
+if (created) drawunderplayer;
+if (playerchats) {
+  if (strequals(#g,Game Coordinator)) {
+    if (strequals(#c,close)) {
+      show;
+    }
+    elseif (strequals(#c,open)) {
+      hide;
+    }
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,16,48;
+}
+NPCEND
+NPC classic_gc_spargate_02.png 14 17
+if (created) drawunderplayer;
+if (playerchats) {
+  if (strequals(#g,Game Coordinator)) {
+    if (strequals(#c,close)) {
+      show;
+    }
+    elseif (strequals(#c,open)) {
+      hide;
+    }
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,16,48;
+}
+NPCEND
+NPC classic_gc_spargate_02.png 49 17
+if (created) drawunderplayer;
+if (playerchats) {
+  if (strequals(#g,Game Coordinator)) {
+    if (strequals(#c,close)) {
+      show;
+    }
+    elseif (strequals(#c,open)) {
+      hide;
+    }
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,16,48;
+}
+NPCEND
+NPC - 22 34
+if (playerchats && strequals(#g,Game Coordinator)) {
+  if (strequals(#c,Start)) save[0] = 1;
+  if (strequals(#c,Stop)) save[0] = 0;
+  if (strequals(#c,start arena)) save[0] = 2;
+  if (strequals(#c,start balconies)) save[0] = 3;
+  if (strequals(#c,commands)) say2
+      Commands are:
+    #bstart
+    #bstart arena
+    #bstart balconies
+    #bstop
+    #bpause on
+    #bpause off;
+}
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  if (!strequals(#g,Game Coordinator)) {
+    movement_handlepause = 0.1;
+    if (save[0] == 0) {
+      movement_handleitems = 0.1;
+      movement_handlesword = 0.1;
+    }
+    elseif (save[0] == 1) {
+
+    }
+    elseif (playerx in |15.5,45.5|) {
+      if (save[0] == 2) {
+      }
+      if (save[0] == 3) {
+        movement_handleitems = 0.1;
+        movement_handlesword = 0.1;
+      }
+    }
+    else {
+      if (save[0] == 3) {
+      }
+      if (save[0] == 2) {
+        movement_handleitems = 0.1;
+        movement_handlesword = 0.1;
+      }
+    }
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC - 19 34
+//#CLIENTSIDE
+if (playerchats && strequals(#c,watch)) {
+  this.focus = 1;
+  this.focusx = playerx * 16;
+  this.focusy = playery * 16;
+  if (this.focusx < screenwidth / 2 - 24) this.focusx = screenwidth / 2 - 24;
+  if (this.focusx > 1024 - screenwidth / 2) this.focusx = 1024 - screenwidth / 2 - 16;
+  if (this.focusy < screenheight / 2 - 24) this.focusy = screenheight / 2 - 24;
+  if (this.focusy > 1024 - screenheight / 2) this.focusy = 1024 - screenheight / 2 - 16;
+  movement_handlesword = 0.1;
+  movement_handleitems = 0.1;
+  movement_handlekeys = 0.1;
+  timeout = 0.05;
+}
+if (timeout) {
+  if (keydown(5)) {
+    this.focus = 0;
+    resetfocus;
+  }
+  elseif (this.focus == 1) {
+    if (keydown(0) && this.focusy >= screenheight / 2 - 8) this.focusy -= 16;
+    if (keydown(1) && this.focusx >= screenwidth / 2 - 8) this.focusx -= 16;
+    if (keydown(2) && this.focusy <= 1024 - screenheight / 2 - 32) this.focusy += 16;
+    if (keydown(3) && this.focusx <= 1024 - screenwidth / 2 - 32) this.focusx += 16;
+    setfocus this.focusx / 16,this.focusy / 16;
+    movement_handlesword = 0.1;
+    movement_handleitems = 0.1;
+    movement_handlekeys = 0.1;
+    timeout = 0.05;
+  }
+}
+NPCEND
+NPC - 28 34
+if (playerchats) {
+  if (strequals(#c,Done)) {
+    setlevel2 gc_waitingroom_01.nw,14,16;
+  }
+  if (strequals(#c,Home) && strequals(#g,Game Coordinator)) {
+    setlevel2 gc_gc_01.nw,31.5,32;
+  }
+}
+NPCEND
+NPC - 25 34
+join("gc_level_sparring");
+NPCEND
+NPC - 11 2
+
+
+//#CLIENTSIDE
+if (playerenters){
+  this.focus = 0;
+}
+if (playerdies) {
+  this.focus = 0;
+  resetfocus;
+}
+
+if (playerchats) {
+  if (strequals(#c,focus on)) {
+  if (this.focus = 0) {
+    this.focus = 1;
+    timereverywhere;
+    timeout = .05;}}
+ elseif (strequals(#c,focus off)) {
+this.focus = 0;
+    resetfocus;
+  }
+}
+if (timeout) {
+  if (this.focus == 1) {
+    setfocus 30.5,17.5;
+    timeout = .05;
+  }}
+NPCEND

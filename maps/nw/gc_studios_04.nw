@@ -1,0 +1,989 @@
+GLEVNW01
+BOARD 0 0 64 0 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5NIdIdIdIdIdIdId
+BOARD 0 1 64 0 BTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRCRCRCRCRCRCRCRBTBXIdIdIdIdIdIdId
+BOARD 0 2 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBX6K6K6K6K6K6K6K6K6K6K6K6K6KBQBXIdIdIdIdIdIdId
+BOARD 0 3 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBX6t6t6t6t6t6t6t6t6t6t6t6t6tBQBXIdIdIdIdIdIdId
+BOARD 0 4 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXk2k2k2k2k2k2k2k2k2k2k2k2k2BQBXIdIdIdIdIdIdId
+BOARD 0 5 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXk2k3k3k3k3k3k3k3k3k3dDdGk2BQBXIdIdIdIdIdIdId
+BOARD 0 6 64 0 +x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+xBXk2k3k3k3k3k3k3k3k3k3dTdWk2BQBXIdIdIdIdIdIdId
+BOARD 0 7 64 0 CRCRB0cdcdcdcdB3CRCRB0cdcdcdcdB3CRCRB0cdcdcdcdB3CRCRB0cdcdcdcdB3CRCRB0cdcdcdcdB3CRBzk2k3k3k3k3k3k3k3k3knknknk2BQBXIdIdIdIdIdIdId
+BOARD 0 8 64 0 ipiqCEipIdIdiqCHipiqCEipIdIdiqCHipiqCEipIdIdiqCHipiqCEipIdIdiqCHipiqCEipIdIdiqCH6K6ck2k3k3k3k3k3k3k3k3KqKpKqkoBQBXIdIdIdIdIdIdId
+BOARD 0 9 64 0 6t6tCH6tIdId6tCE6t6tCH6tIdId6tCE6t6tCH6tIdId6tCE6t6tCH6tIdId6tCE6t6tCH6tiLiL6tCE6t8/k2k3k3k3k3k3k3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 10 64 0 k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k3k3k3k3k3k3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 11 64 0 nJnYnJnYnZnInZnInZnInZk3nInZnYnJk3nYnJnYnJnYnJnYnZnInZnInZnInZk3nInZnYnJk3nYnJk3k3k3k3k3k3k3nInJk3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 12 64 0 nYnJnYnJnInZnInZnInZk3nInZnInJnYnJk3nYnJnYnJnYnJnInZnInZnInZk3nInZnInJnYnJk3nYnJk3k3k3k3k3nInZnYnJk3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 13 64 0 nJnYnJnYnZnInZnInZk3nInZnInZnYnJnYnJk3nYnJnYnJnYnZnInZnInZk3nInZnInZnYnJnYnJk3nYnJk3k3k3nInZnInJnYnJk3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 14 64 0 nYnJnYnJnInZnInZk3nInZnInZnInJnYnJnYnJk3nYnJnYnJnInZnInZk3nInZnInZnInJnYnJnYnJk3nYnJk3k3nYnJnYnZnInZk3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 15 64 0 k3nYnJnYnZnInZk3nInZnInZnInZnYnJnYnJnYnJk3nYnJnYnZnInZk3nInZnInZnInZnYnJnYnJnYnJk3nYnJk3k3nYnJnInZk3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 16 64 0 nJk3nYnJnInZk3nInZnInZnInZnInJnYnJnYnJnYnJk3nYnJnInZk3nInZnInZnInZnInJnYnJnYnJnYnJk3nYnJk3k3nYnZk3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 17 64 0 k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2nYnJk3k3k3k3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 18 64 0 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5Nk2k3nYnJk3k3k3k3k3KqKpKqkoBQBXIdIdIdIdIdIdId
+BOARD 0 19 64 0 BTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBXk2nJk3nYnJk3k3k3k3knknknk2BQBXIdIdIdIdIdIdId
+BOARD 0 20 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXk2nYnJk3nYnJk3k3k3k3dDdGk2BQBXIdIdIdIdIdIdId
+BOARD 0 21 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXk2k3nYnJk3nYnJk3k3k3dldmk2BQBXIdIdIdIdIdIdId
+BOARD 0 22 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXk2k3k3nYnJk3nYnJk3k3dTdWk2BQBXIdIdIdIdIdIdId
+BOARD 0 23 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXk2k3k3k3nYnJk3nYnJknknknk2BQBXIdIdIdIdIdIdId
+BOARD 0 24 64 0 +x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+xBXk2k3k3k3nInZk3nInZKqKpKqkoBQBXIdIdIdIdIdIdId
+BOARD 0 25 64 0 CRCRB0cdcdcdcdB3CRCRCRCRCRCRCRCRCRCRB0cdcdcdcdB3CRCRCRCRCRCRCRCRCRCRB0cdcdcdcdB3CRBzk2k3k3nInZk3nInZk3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 26 64 0 ipiqCEipIdIdiqCHipiqCECHipiqCECHipiqCEipIdIdiqCHipiqCECHipiqCECHipiqCEipIdIdiqCH6K6ck2k3nInZk3nInZk3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 27 64 0 6t6tCH6tiLiL6tCE6t6tCHCE6t6tCHCE6t6tCH6tiLiL6tCE6t6tCHCE6t6tCHCE6t6tCH6tIdId6tCE6t8/k2nInZk3nInZk3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 28 64 0 k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2nZk3nInZk3k3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 29 64 0 mmnYnJk3k3nInZnYnJk3k3nInZnYnJk3k3nInZnYnJk3k3nInZnYnJk3k3nInZnYnJk3k3nInZnYnJk3k3nInZk3nInZk3k3nInJk3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 30 64 0 cem3nYnJnInZnInJnYnJnInZnInJnYnJnInZnInJnYnJnInZnInJnYnJnInZnInJnYnJnInZnInJnYnJnInZk3nInZk3k3nInZnYnJKqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 31 64 0 m3cecenYnZnInZnYnJnYnZnInZnYnJnYnZnInZnYnJnYnZnInZnYnJnYnZnInZnYnJnYnZnInZnYnJnYnZk3nInZk3k3nInZnInJnYKqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 32 64 0 mncecenInJnYnJnInZnInJnYnJnInZnInJnYnJnInZnInJnYnJnInZnInJnYnJnInZnInJnYnJnInZnInJk3nYnJk3k3nYnJnYnZnIKqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 33 64 0 cemnnInZnYnJnYnZnInZnYnJnYnZnInZnYnJnYnZnInZnYnJnYnZnInZnYnJnYnZnInZnYnJnYnZnInZnYnJk3nYnJk3k3nYnJnInZKqKpKqkoBQBXIdIdIdIdIdIdId
+BOARD 0 34 64 0 m2nInZk3k3nYnJnInZk3k3nYnJnInZk3k3nYnJnInZk3k3nYnJnInZk3k3nYnJnInZk3k3nYnJnInZk3k3nYnJk3nYnJk3k3nYnZk3zYzazbk2BQBXIdIdIdIdIdIdId
+BOARD 0 35 64 0 k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2nJk3nYnJk3k3k3k3k3dDdGk2BQBXIdIdIdIdIdIdId
+BOARD 0 36 64 0 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5Nk2nYnJk3nYnJk3k3k3k3dldmk2BQBXIdIdIdIdIdIdId
+BOARD 0 37 64 0 BTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBTCRCRCRCRCRCRBTBXk2k3nYnJk3nYnJk3k3k3dTdWk2BQBXIdIdIdIdIdIdId
+BOARD 0 38 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXk2k3k3nYnJk3nYnJk3knknknk2BQBXIdIdIdIdIdIdId
+BOARD 0 39 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXk2k3k3k3nYnJk3nYnJKqKpKqkoBQBXIdIdIdIdIdIdId
+BOARD 0 40 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXk2k3k3k3nInZk3nInZKqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 41 64 0 BQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXIdIdIdIdIdIdBQBXk2k3k3nInZk3nInZk3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 42 64 0 +x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+x+jBBBBBBBBBBBB+xBXk2k3nInZk3nInZk3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 43 64 0 CRCRB0cdcdcdcdB3CRCRB0cdcdcdcdB3CRCRB0cdcdcdcdB3CRCRB0cdcdcdcdB3CRCRB0cdcdcdcdB3CRBzk2nInZk3nInZk3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 44 64 0 ipiqCEipIdIdiqCHipiqCEipIdIdiqCHipiqCEipIdIdiqCHipiqCEipIdIdiqCHipiqCEipIdIdiqCH6K6ck2nZk3nInZk3k3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 45 64 0 6t6tCH6tiLiL6tCE6t6tCH6tiLiL6tCE6t6tCH6tiLiL6tCE6t6tCH6tiLiL6tCE6t6tCH6tiLiL6tCE6t8/k2k3nInZk3k3k3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 46 64 0 k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2nInZk3k3k3k3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 47 64 0 nZk3nInZnYnJk3nYnJnYnJnYnJnYnZnInZnInZnInZk3nInZnYnJk3nYnJnYnJnYnJnYnZnInZnInZnInZk3nInZk3k3nInJk3k3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 48 64 0 k3nInZnInJnYnJk3nYnJnYnJnYnJnInZnInZnInZk3nInZnInJnYnJk3nYnJnYnJnYnJnInZnInZnInZk3nInZk3k3nInZnYnJk3k3KqKpKqk4BQBXIdIdIdIdIdIdId
+BOARD 0 49 64 0 nInZnInZnYnJnYnJk3nYnJnYnJnYnZnInZnInZk3nInZnInZnYnJnYnJk3nYnJnYnJnYnZnInZnInZk3nInZk3k3nInZnInJnYnJk3KqKpKqkoBQBXIdIdIdIdIdIdId
+BOARD 0 50 64 0 nZnInZnInJnYnJnYnJk3nYnJnYnJnInZnInZk3nInZnInZnInJnYnJnYnJk3nYnJnYnJnInZnInZk3nInZk3k3k3nYnJnYnZnInZk3knknknk2BQBXIdIdIdIdIdIdId
+BOARD 0 51 64 0 nInZnInZnYnJnYnJnYnJk3nYnJnYnZnInZk3nInZnInZnInZnYnJnYnJnYnJk3nYnJnYnZnInZk3nInZk3k3k3k3k3nYnJnInZk3k3k3dDdGk2BQBXIdIdIdIdIdIdId
+BOARD 0 52 64 0 nZnInZnInJnYnJnYnJnYnJk3nYnJnInZk3nInZnInZnInZnInJnYnJnYnJnYnJk3nYnJnInZk3nInZk3k3k3k3k3k3k3nYnZk3k3k3k3dTdWk2BQBXIdIdIdIdIdIdId
+BOARD 0 53 64 0 k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2BQBXIdIdIdIdIdIdId
+BOARD 0 54 64 0 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBTBXIdIdIdIdIdIdId
+BOARD 0 55 64 0 CRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzIdIdIdIdIdIdId
+BOARD 0 56 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6KIdIdIdIdIdIdId
+BOARD 0 57 64 0 6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6tIdIdIdIdIdIdId
+BOARD 0 58 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 59 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 60 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 61 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 62 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+BOARD 0 63 64 0 IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId
+LINK gc_studios_02.nw 0 10 1 8 61 playery
+LINK gc_studios_02.nw 0 28 1 8 61 playery
+LINK gc_studios_02.nw 0 46 1 8 61 playery
+LINK gc_studiop_02.nw 20 44 2 1 25.5 42
+LINK gc_studioo_02.nw 12 44 2 1 28.5 34
+LINK gc_studion_01.nw 4 44 2 1 30.5 59.5
+LINK gc_fortofdoom_01.nw 36 8 2 1 30.5 54
+LINK gc_studioq_01.nw 28 44 2 1 30.5 44
+LINK gc_studior_02.nw 36 44 2 1 30.5 39
+LINK gc_studioss_02.nw 4 26 2 1 25.5 32
+NPC nmagcdoor.png 4 8
+join door;
+NPCEND
+NPC - 11 7
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio W;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=6.75;
+}
+NPCEND
+NPC nmagcdoor.png 20 26
+join door;
+NPCEND
+NPC nmagcdoor.png 36 26
+join door;
+NPCEND
+NPC nmagcdoor.png 36 44
+join door;
+NPCEND
+NPC nmagcdoor.png 28 8
+join door;
+NPCEND
+NPC nmagcdoor.png 20 8
+join door;
+NPCEND
+NPC nmagcdoor.png 12 8
+join door;
+NPCEND
+NPC nmagcdoor.png 36 8
+join door;
+NPCEND
+NPC nmagcdoor.png 4 26
+join door;
+NPCEND
+NPC nmagcdoor.png 4 44
+join door;
+NPCEND
+NPC nmagcdoor.png 12 44
+join door;
+NPCEND
+NPC nmagcdoor.png 20 44
+join door;
+NPCEND
+NPC nmagcdoor.png 28 44
+join door;
+NPCEND
+NPC - 3 43
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio N;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=42.75;
+}
+NPCEND
+NPC - 35 7
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio Z;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=6.75;
+}
+NPCEND
+NPC - 27 7
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio Y;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=6.75;
+}
+NPCEND
+NPC - 19 7
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio X;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=6.75;
+}
+NPCEND
+NPC - 3 7
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio V;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=6.75;
+}
+NPCEND
+NPC - 19 25
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio T;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=24.75;
+}
+NPCEND
+NPC - 3 25
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio S;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=24.75;
+}
+NPCEND
+NPC - 35 25
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio U;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=24.75;
+}
+NPCEND
+NPC - 35 43
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio R;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=42.75;
+}
+NPCEND
+NPC - 27 43
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio Q;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=42.75;
+}
+NPCEND
+NPC - 19 43
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio P;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=42.75;
+}
+NPCEND
+NPC - 11 43
+// NPC made by Master Storm (GP Captain)
+
+join banner;
+
+//#CLIENTSIDE
+
+if (created){
+  setstring this.scroll_message,Studio O;
+  setstring this.scroll_font,tempus sans itc;
+  setstring this.scroll_fontoptions,bi;
+  this.scroll_speed = 2;                                //Movement in pixels per second
+  this.scroll_width = 63;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 45;                           //length in pixels of the entire text
+  this.scroll_red = 0;                                //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                                //Amount of blue colour
+    this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1;                               //Zoom factor
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  y=42.75;
+}
+NPCEND
+NPC - 13 2
+join level_nopk;
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  movement_handlesword = 0.1;
+  movement_handleitems = 0.1;
+  movement_handlegui = 0.1;
+  timeout = 0.05;
+}
+NPCEND
+NPC sidecouch.png 51 38
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg sidecouch.png;
+  setimgpart sidecouch.png,0,0,65,100;
+}
+NPCEND
+NPC sidecouch.png 51 44
+if (created) {
+  dontblock;
+  drawunderplayer;
+  y=44.25;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg sidecouch.png;
+  setimgpart sidecouch.png,0,23,65,150;
+  y=44.25;
+}
+NPCEND
+NPC sidecouch.png 51 7
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg sidecouch.png;
+  setimgpart sidecouch.png,0,0,65,100;
+}
+NPCEND
+NPC sidecouch.png 51 13
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+//#CLIENTSIDE
+if (created) {
+  setimg sidecouch.png;
+  setimgpart sidecouch.png,0,23,65,150;
+  y=13.25;
+}
+NPCEND
+NPC sidecouch.png 51 23
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+//#CLIENTSIDE
+if (created) {
+ setimg sidecouch.png;
+  setimgpart sidecouch.png,0,0,65,80;
+}
+NPCEND
+NPC sidecouch.png 51 28
+if (created) {
+  dontblock;
+  drawunderplayer;
+}
+//#CLIENTSIDE
+if (created) {
+   setimg sidecouch.png;
+ setimg sidecouch.png;
+  setimgpart sidecouch.png,0,21,65,150;
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 31 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 39 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 23 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 15 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 7 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png -1 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png -1 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 7 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 15 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 23 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 31 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 39 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 54 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 39 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 31 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 23 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 15 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png 7 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces2.png -1 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 1 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 9 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 17 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 25 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 33 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 41 1
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 33 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 25 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 17 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 9 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 1 37
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 1 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 9 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 17 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 25 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces1.png 33 19
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 0 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 8 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 16 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 24 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 32 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 40 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 55 54
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 40 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 32 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 24 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 16 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 8 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 0 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 0 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 8 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 16 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 24 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 32 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces4.png 40 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 33 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 25 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 17 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 9 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 1 6
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 1 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 9 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 17 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 25 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 33 24
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 33 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 25 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 17 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 9 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gc_wallpieces3.png 1 42
+// NPC made by Night (Yin)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND

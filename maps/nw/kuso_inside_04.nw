@@ -1,0 +1,378 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 lUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlBJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 lllllklllllllklllllllklllklllklllllklllklllhlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 mkmkmlmkmkmkmlmkmkmkmlmkmlmkmlmkmkmlmkmlmBl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 lHlHlGlHlHlHlGlHlHlHlGlHlGlHlGlHlHlGlHmhm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 mWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnBlXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 mWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnhmHlnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 8 64 0 nknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnlmHmHlXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 9 64 0 nGk3k3k3k3k3k3k3k3k3797+7/k3k3k3nHmHmHlXm1mFlDlUlUlUlUlUlUlBJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 10 64 0 nGk3k3k3k3k3k3k3k3k38N8O8Pk3k3k3nHmHmHlnnFljlllllklllklllhlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 11 64 0 nGk3k3k3k3k3k3k3k3k38d8e8fk3k3k3nHmHmHlXmDmlmkmkmlmkmlmBl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 12 64 0 nGk3k3k3k3k3k3k3k3k38t8u8vk3k3k3nHmHmHmjlHlGlHlHlGlHmhm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 13 64 0 nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHmHnDmWmWmWmWmWmWnBlXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 14 64 0 nGk3k3k3797+7/k3k3k3k3k3k3k3k3k3nHnjmWmWmWmWmWmWnhmHlnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 15 64 0 nGk3k3k38N8O8Pk3k3k3k3k3k3k3k3k3n2nWnWnWnWnWnWnlmHmHlXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 16 64 0 nGk3k3k38d8e8fk3k3k3k3k3k3k3k3k3k3k3797+7/k3k3nHmHmHlXm1mFlDlUlUlUlUlUlUlBJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 17 64 0 nGk3k3k38t8u8vk3k3k3k3k3k3k3k3k3k3k38N8O8Pk3k3nHmHmHlnnFljlllllklllklllhlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 18 64 0 nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k38d8e8fk3k3nHmHmHlXmDmlmkmkmlmkmlmBl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 19 64 0 nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k38t8u8vk3k3nHmHmHmjlHlGlHlHlGlHmhm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 20 64 0 nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHmHnDmWmWmWmWmWmWnBlXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 21 64 0 nGk3k3797+7/k3k3k2k2k2k3k2k3k2k3k2k2k2k3k3k3k3nHnjmWmWmWmWmWmWnhmHlnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 22 64 0 nGk3k38N8O8Pk3k3k3k2k3k3k2k3k2k3k2k3k3k3k3k3k3n2nWnWnWnWnWnWnlmHmHlXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 23 64 0 nGk3k38d8e8fk3k3k3k2k3k3k2k2k2k3k2k2k3k3k3k3k3k3k3k3797+7/k3nHmHmHlXm1mFlDlUlUlUlUlUlUlUlUlUlBJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 24 64 0 nGk3k38t8u8vk3k3k3k2k3k3k2k3k2k3k2k3k3k3k3k3k3k3k3k38N8O8Pk3nHmHmHlnnFljlllklllklllklllklllhlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 25 64 0 nGk3k3k3k3k3k3k3k3k2k3k3k2k3k2k3k2k2k2k3k3k3k3k3k3k38d8e8fk3nHmHmHlXmDmlmkmlmkmlmkmlmkmlmBl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 26 64 0 nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k38t8u8vk3nHmHmHmjlHlGlHlGlHlGlHlGlHmhm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 27 64 0 nGk2k3k3k2k3k2k2k2k3k2k2k2k3k2k2k2k3k2k2k2k3k2k2k2k3k2k3k2k3nHmHnDmWmWmWmWmWmWmWmWmWnBlXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 28 64 0 nGk2k3k2k3k3k2k3k2k3k3k2k3k3k2k3k3k3k3k2k3k3k3k3k2k3k2k3k2k3nHnjmWmWmWmWmWmWmWmWmWnhmHlnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 29 64 0 nGk2k2k3k3k3k2k3k2k3k3k2k3k3k2k2k3k3k3k2k3k3k3k2k3k3k2k3k2k3n2nWnWnWnWnWnWnWnWnWnljck5lXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 30 64 0 nGk2k3k2k3k3k2k3k2k3k3k2k3k3k2k3k3k3k3k2k3k3k2k3k3k3k2k3k2k3nmnXnXnXnXnXnXnXnXnXn1jck5lnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 31 64 0 nGk2k3k3k2k3k2k2k2k3k3k2k3k3k2k2k2k3k3k2k3k3k2k2k2k3k2k2k2k3nHnzmXmXmXmXmXmXmXmXmXnxmHlXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 32 64 0 nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHmHnTmXmXmXmXmXmXmXmXmXnRlnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 33 64 0 nGk3k3k3k3k3k2k2k2k3k2k2k2k3k2k2k2k3k2k2k2k3k3k3k3k3797+7/k3nHmHmHmzl3l2l3l2l3l3l3l2l3mxnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 34 64 0 nGk3k3k3k3k3k2k3k2k3k2k3k2k3k2k3k2k3k2k3k3k3k3k3k3k38N8O8Pk3nHmHmHlXmTnVnUnVnUnUnUnVnUnVmRmFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 35 64 0 nGk3k3k3k3k3k2k2k3k3k2k2k3k3k2k3k2k3k3k2k2k3k3k3k3k38d8e8fk3nHmHmHlnm1lzmVmUmVmVmVmUmVmUmVlxlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 36 64 0 nGk3k3k3k3k3k2k3k2k3k2k3k2k3k2k3k2k3k3k3k2k3k3k3k3k38t8u8vk3nHmHmHlXnFl1lTlVlVlVlVlVlVlVlVlVlRJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 37 64 0 nGk3k3k3k3k3k2k2k2k3k2k3k2k3k2k2k2k3k2k2k2k3k3nmnXnXnXnXnXnXn1mHmHlnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 38 64 0 nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHnzmXmXmXmXmXmXnxmHlXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 39 64 0 nGk3k3797+7/k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHmHnTmXmXmXmXmXmXnRlnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 40 64 0 nGk3k38N8O8Pk3k3k3k3k3k3k3k3k3k3k3k3797+7/k3k3nHmHmHmzl3l2l3l3l2l3mxnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 41 64 0 nGk3k38d8e8fk3k3k3k3k3k3k3k3k3k3k3k38N8O8Pk3k3nHmHmHlXmTnVnUnUnVnUnVmRmFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 42 64 0 nGk3k38t8u8vk3k3k3k3k3k3k3k3k3k3k3k38d8e8fk3k3nHmHmHlnm1lzmVmVmUmVmUmVlxlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 43 64 0 nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k38t8u8vk3k3nHmHmHlXnFl1lTlVlVlVlVlVlVlRJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 44 64 0 nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nmnXnXnXnXnXnXn1mHmHlnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 45 64 0 nGk3k3k3k3797+7/k3k3k3k3k3k3k3k3nHnzmXmXmXmXmXmXnxmHlXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 46 64 0 nGk3k3k3k38N8O8Pk3k3k3k3k3k3k3k3nHmHnTmXmXmXmXmXmXnRlnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 47 64 0 nGk3k3k3k38d8e8fk3k3k3797+7/k3k3nHmHmHmzl3l2l3l3l2l3mxnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 nGk3k3k3k38t8u8vk3k3k38N8O8Pk3k3nHmHmHlXmTnVnUnUnVnUnVmRmFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 nGk3k3k3k3k3k3k3k3k3k38d8e8fk3k3nHmHmHlnm1lzmVmVmUmVmUmVlxlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 nGk3k3k3k3k3k3k3k3k3k38t8u8vk3k3nHmHmHlXnFl1lTlVlVlVlVlVlVlRJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 n0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1mHmHlnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxmHlXnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnRlnm1mFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 l3l2l2l2l2l2l2l2l2l3l3l3l3l3l3l3l3l2l3mxnFl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 nUnVnVnVnVnVnVnVnVnUnUnUnUnUnUnUnUnVnUnVmRmFlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 mVmUmUmUmUmUmUmUmUmVmVmVmVmVmVmVmVmUmVmUmVlxlFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 lVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlRJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK kuso_inside_02.nw 42 29 1 2 9.5 34
+NPC - 4 20
+message Kotetzu Bros!
+NPCEND
+NPC - 3 20
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-kuso.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,red;
+  setcharprop #C3,white;
+  setcharprop #C4,black;
+  setcharprop #n,Kuso Kotetzu;
+  setcharprop #2,classicshield-kuso.png;
+  setcharprop #8,body3.png;
+  setcharprop #p1,hat1111111098.png
+  dir = 2;
+ }
+NPCEND
+NPC - 3 38
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-shiden1.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,blue;
+  setcharprop #C3,white;
+  setcharprop #C4,black;
+  setcharprop #n,Shiden Kotetzu;
+  setcharprop #2,classicshield-Shiden1.png;
+  setcharprop #8,body3.png;
+  setcharprop #p1,hat1111111098.png
+  dir = 2;
+ }
+NPCEND
+NPC - 26 22
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-jetthegreatest2.png;
+  setcharprop #8,body6.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,darkred;
+  setcharprop #n,Jet Kotetzu;
+  setcharprop #2,classicshield-stimpy.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 26 32
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head325.png;
+  setcharprop #C0,black;
+  setcharprop #C1,green;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #8,body10.png;
+  setcharprop #n,Rave Kotetzu;
+  setcharprop #2,black-scabbard-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 18 39
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #C0,black;
+  setcharprop #3,headc-angelu.png;
+  setcharprop #8,bodyc-bloodwrath.png;
+  setcharprop #C1,black;
+  setcharprop #C2,blue;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #n,Rahovart Kotetzu;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 11 46
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-stinkycheeseman3.png
+;
+  setcharprop #C0,black;
+  setcharprop #C1,red;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #n,Mordoc Kotetzu;
+  setcharprop #8,classicbody-drakoforce1.png;
+  setcharprop #2,kaizerscabbard-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}eastsideninja@hotmail.com
+NPCEND
+NPC - 18 15
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1137.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,darkgreen;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #8,bodyc-bloodwrath.png;
+  setcharprop #n,Wrath Kotetzu;
+  setcharprop #2,darkman-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 10 8
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #n,Templar Kotetzu;
+  setcharprop #8,body.png;
+  setcharprop #2,shield3.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 27 22
+message Kotetzu Bros!
+NPCEND
+NPC - 27 32
+message Kotetzu Bros!
+NPCEND
+NPC - 19 39
+message Kotetzu Bros!
+NPCEND
+NPC - 12 46
+message Kotetzu Bros!
+NPCEND
+NPC - 4 38
+message Kotetzu Bros!
+NPCEND
+NPC - 19 15
+message Kotetzu Bros!
+NPCEND
+NPC - 11 8
+message Kotetzu Bros!
+NPCEND
+NPC - 4 13
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,headc-rebourne8.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,black;
+  setcharprop #C3,white;
+  setcharprop #C4,black;
+  setcharprop #n,Lucifer Kotetzu;
+  setcharprop #8,classicbody-raidenrekon.png;
+  setcharprop #2,no-shield.gif;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 5 13
+message Kotetzu Bros!
+NPCEND
+NPC - 6 44
+message Kotetzu Bros!
+NPCEND
+NPC - 5 44
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-gemini.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,red;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,blue;
+  setcharprop #n,Gemini Kotetzu;
+  setcharprop #2,classicshield;
+  setcharprop #8,body.png;
+  setcharprop #p1,hat1111111098.png
+  dir = 2;
+ }
+NPCEND
+NPC wings21.png 2 20
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wings21.png 3 13
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wings21.png 9 8
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wings21.png 17 15
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wings21.png 25 22
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wings21.png 25 32
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wings21.png 17 39
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wings21.png 2 38
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wings21.png 4 44
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wings21.png 10 46
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC castlestuff.png 36 25
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC castlestuff.png 28 18
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC castlestuff.png 21 11
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC castlestuff.png 7 4
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 34 16
+join("level_nopk");
+NPCEND

@@ -1,0 +1,179 @@
+GLEVNW01
+BOARD 0 0 64 0 lAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlB
+BOARD 0 1 64 0 lElglllklllklllklllklllklllklllklllklllklllkjojplllklllklllklllklllklllklllklllkjojplllklllklllklllklllklllklllklllklllklllklhlF
+BOARD 0 2 64 0 lEl0mAmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlj4j5mkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlj4j5mkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmBl1lF
+BOARD 0 3 64 0 lEmEm0mglHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGkIkJlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGkIkJlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGmhm1mFlF
+BOARD 0 4 64 0 lEl0nElWnknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWkYkZnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWkYkZnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnllXnFl1lF
+BOARD 0 5 64 0 lEmEm0lmnGmImJm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2mImJnHlnm1mFlF
+BOARD 0 6 64 0 lEl0nElWnGmYmZmnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmmYmZnHlXnFl1lF
+BOARD 0 7 64 0 lEmEm0lmnGmompmmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnmompnHlnm1mFlF
+BOARD 0 8 64 0 lEl0nElWnGm4m5m2m3mnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmmImJmnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmm2m3m4m5nHlXnFl1lF
+BOARD 0 9 64 0 lEmEm0lmnGccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnmYmZmmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccnHlnm1mFlF
+BOARD 0 10 64 0 lEl0nElWnGm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmompccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3nHlXnFl1lF
+BOARD 0 11 64 0 lEmEm0lmnGm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2m4m5m3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2nHlnm1mFlF
+BOARD 0 12 64 0 lEl0nElWnGmnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmnHlXnFl1lF
+BOARD 0 13 64 0 lEjqjrjsjtmmccm3m2ccmnm3m2mmccm3mImJmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmmImJm2ccmnm3m2mmccm3m2ccmnkKkLkMkNlF
+BOARD 0 14 64 0 lEj6j7j8j9ccm3mnmmm2ccmnmmccm3mnmYmZccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccmYmZmmm2ccmnmmccm3mnmmm2cckakbkckdlF
+BOARD 0 15 64 0 lEmEm0lmnGm3m2mmmnm3m2ccccm3m2mmmompm2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3mompmnm3m2ccccm3m2mmmnm3m2nHlnm1mFlF
+BOARD 0 16 64 0 lEl0nElWnGmnmmm2m3mnmmccccmnmmm2m4m5mmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnm4m5m3mnmmccccmnmmm2m3mnmmnHlXnFl1lF
+BOARD 0 17 64 0 lEmEm0lmnGccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccnHlnm1mFlF
+BOARD 0 18 64 0 lEl0nElWnGm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3nHlXnFl1lF
+BOARD 0 19 64 0 lEmEm0lmnGm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2mmmnm3m2ccccm3m2nHlnm1mFlF
+BOARD 0 20 64 0 lEl0nElWnGmnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmm2m3mnmmccccmnmmnHlXnFl1lF
+BOARD 0 21 64 0 lEmEm0lmnGmmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnm3m2mmccm3m2ccmnnHlnm1mFlF
+BOARD 0 22 64 0 lEl0nElWnGccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccmnmmccm3mnmmm2ccnHlXnFl1lF
+BOARD 0 23 64 0 lEmEm0lmn0nXnXnXnXnX3I3J3K3J3K3LnXnXnXnXnXnXnXnXnXnnm2ccccm3m2mImJm3m2ccccm3nmnXnXnXnXnXnXnXnXnX3I3J3K3J3K3LnXnXnXnXnXn1lnm1mFlF
+BOARD 0 24 64 0 lEl0nEmwl2l3l2l3l2l33o3Z3a3Z3a3rl2l3l2l3l2l3l2l3mynGmmccccmnmmmYmZmnmmccccmnnHmzl3l2l3l3l2l3l2l33o3Z3a3Z3a3rl2l3l2l3l2l3mxnFl1lF
+BOARD 0 25 64 0 lEmEmQnVnUnVnUnVnUnV343p3q3p3q37nUnVnUnVnUnVnUmSlWnGccm3m2ccmnmompmmccm3m2ccnHlXmTnVnUnVnUnVnUnV343p3q3p3q37nUnVnUnVnUnVnUmRmFlF
+BOARD 0 26 64 0 lEl0nknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnlm0lmnGm3mnmmm2ccm4m5ccm3mnmmm2nHlnm1nknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnll1lF
+BOARD 0 27 64 0 lEmEnGugyjyiuhuwuhuguxugyjyiuhuwuhuguxugyjyinHnElWnGm2mmmnm3m2ccccm3m2mmmnm3nHlXnFnGyjyiuhuwuhuguxugyjyiuhuwuhuguxugyjyiuhnHmFlF
+BOARD 0 28 64 0 lEl0nGuwyTySuxuguxuwuhuwyTySuxuguxuwuhuwyTySnHm0lmnGmmm2m3mnmmccccmnmmm2m3mnnHlnm1nGyTySuxuguxuwuhuwyTySuxuguxuwuhuwyTySuxnHl1lF
+BOARD 0 29 64 0 lEmEnGuhuwuxuguxuguhuwuhuwuxuguxuguhuwuhuwuxnHnElWnGmnm3m2mmccm3m2ccmnm3m2mmnHlXnFnGuwuxuguxuguhuwuhuwuxuguxuguhuwuhuwuxugnHmFlF
+BOARD 0 30 64 0 lEl0nGuwuhuguxySyiyjkoknidknidkoyiyjyTuwuhugnHm0lmnGccmnmmccm3mnmmm2ccmnmmccnHlnm1nGuhuguxySyiyjkoknidknidkoyiyjyTuwuhuguxnHl1lF
+BOARD 0 31 64 0 lEmEnGuhuwuxugyTyjyik4aVaWaXaYk4yjyiySuhuwuxnHnElWnGcek2cek2cek2cek2cek2cek2nHlXnFnGuwuxugyTyjyik4aVaWaXaYk4yjyiySuhuwuxugnHmFlF
+BOARD 0 32 64 0 lEl0nGuxuguhuwyjyTySk4a1a2a3a4k4yTySyiuxuguhnHm0lmnGk2cek2cek2cek2cek2cek2cenHlnm1nGuguhuwyjyTySk4a1a2a3a4k4yTySyiuxuguhuwnHl1lF
+BOARD 0 33 64 0 lEmEnGuguxuwuhyiySyTkoknidknidkoySyTyjuguxuwnHnElWnGcdnZnYcdnJnZnYnIcdnZnYcdnHlXnFnGuxuwuhyiySyTkoknidknidkoySyTyjuguxuwuhnHmFlF
+BOARD 0 34 64 0 lEl0nGuxuguhuwuhuwuxuguxuguhuwuhuwuxuguxuguhnHm0lmnGnZnJnInYcdnJnIcdnZnJnInYnHlnm1nGuguhuwuhuwuxuguxuguhuwuhuwuxuguxuguhuwnHl1lF
+BOARD 0 35 64 0 lEmEnGugyjyiuhuwuhuguxugyjyiuhuwuhuguxugyjyinHnElWnGnYnInJnZnYcdcdnZnYnInJnZnHlXnFnGyjyiuhuwuhuguxugyjyiuhuwuhuguxugyjyiuhnHmFlF
+BOARD 0 36 64 0 lEl0nGuwyTySuxuguxuwuhuwyTySuxuguxuwuhuwyTySnHm0lmnGnInYnZnJnIcdcdnJnInYnZnJnHlXm1nGyTySuxuguxuwuhuwyTySuxuguxuwuhuwyTySuxnHl1lF
+BOARD 0 37 64 0 lEmEn0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1nElWnGnJnZnYnIcdmImJcdnJnZnYnInHlnnFn0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1mFlF
+BOARD 0 38 64 0 lEl0mAmlmkmlmkmlmkmlioi5i6i5i6irmkmlmkmlmkmlmkmClmnGcdnJnIcdnZmYmZnYcdnJnIcdnHlXmDmlmkmlmkmlmkmlioi5i6i5i6irmkmlmkmlmkmlmkmBl1lF
+BOARD 0 39 64 0 lEmEm0mglHlGlHlGlHlGi4jJjKjJjKi7lHlGlHlGlGlHlGlHminGnYcdcdnZnYmompnZnYcdcdnZnHmjlHlGlHlGlHlGlHlGi4jJjKjJjKi7lHlGlHlGlHlGmhm1mFlF
+BOARD 0 40 64 0 lEl0nElWnknWnWnWnWnWjYjZjajZjajbnWnWnWnWnWnWnWnWnWn3nIcdcdnJnIm4m5nJnIcdcdnJn2nWnWnWnWnWnWnWnWnWjYjZjajZjajbnWnWnWnWnWnllXnFl1lF
+BOARD 0 41 64 0 lEmEm0lmnGcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnHlnm1mFlF
+BOARD 0 42 64 0 lEl0nElWnGnYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnHlXnFl1lF
+BOARD 0 43 64 0 lEmEm0lmnGnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnHlnm1mFlF
+BOARD 0 44 64 0 lEl0nElWnGnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInHlXnFl1lF
+BOARD 0 45 64 0 lEmEm0lmnGnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnHlnm1mFlF
+BOARD 0 46 64 0 lEl0nElWnGcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnHlXnFl1lF
+BOARD 0 47 64 0 lEmEm0lmnGnZnYnInJnZnYcdcdnZnYnImImJnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZmImJnJnZnYcdcdnZnYnInJnZnYnHlnm1mFlF
+BOARD 0 48 64 0 lEl0nElWnGnJnInYnZnJnIcdcdnJnInYmYmZnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJmYmZnZnJnIcdcdnJnInYnZnJnInHlXnFl1lF
+BOARD 0 49 64 0 lEjqjrjsjtcdnJnZnYnIcdnZnYcdnJnZmompcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdmompnYnIcdnZnYcdnJnZnYnIcdkKkLkMkNlF
+BOARD 0 50 64 0 lEj6j7j8j9nYcdnJnIcdnZnJnInYcdnJm4m5nZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYm4m5nIcdnZnJnInYcdnJnIcdnZkakbkckdlF
+BOARD 0 51 64 0 lEmEm0lmnGnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnHlnm1mFlF
+BOARD 0 52 64 0 lEl0nElWnGnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnImImJnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInHlXnFl1lF
+BOARD 0 53 64 0 lEmEm0lmnGnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdmYmZcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnHlnm1mFlF
+BOARD 0 54 64 0 lEl0nElWnGcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZmompnYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnHlXnFl1lF
+BOARD 0 55 64 0 lEmEm0lmnGmImJnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYm4m5nZnYcdcdnZnYnInJnZnYcdcdnZnYnInJnZnYcdcdnZnYnInJmImJnHlnm1mFlF
+BOARD 0 56 64 0 lEl0nElWnGmYmZnYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZnJnIcdcdnJnInYnZmYmZnHlnnFl1lF
+BOARD 0 57 64 0 lEmEm0lmnGmompnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYnIcdnZnYcdnJnZnYmompnHlnm1mFlF
+BOARD 0 58 64 0 lEl0nElWnGm4m5nJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIcdnZnJnInYcdnJnIm4m5nHlXnFl1lF
+BOARD 0 59 64 0 lEmEm0lmn0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXjmjnnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXjmjnnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1lnm1mFlF
+BOARD 0 60 64 0 lEl0nEmwl2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3j2j3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3j2j3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3mxnFl1lF
+BOARD 0 61 64 0 lEmEmQnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVkGkHnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVkGkHnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUmRmFlF
+BOARD 0 62 64 0 lElwmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUkWkXmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUkWkXmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUlxlF
+BOARD 0 63 64 0 lQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlR
+NPC - 18 1
+join("level_nopause");
+NPCEND
+NPC - 21 1
+if (playerchats && strequals(#g,Game Coordinator)) {
+  if (strequals(#c,start)) save[0] = 1;
+  if (strequals(#c,stop)) save[0] = 0;
+  if (strequals(#c,pause on)) save[1] = 1;
+  if (strequals(#c,pause off)) save[1] = 0;
+  if (strequals(#c,commands)) say2
+  Commands are:
+  #bstart
+  #bstop
+  #bpause on
+  #bpause off;
+}
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  if (!strequals(#g,Game Coordinator)) {
+    if (save[1] == 0) movement_handlepause = 0.1;
+    if (save[0] == 0) {
+      movement_handleitems = 0.1;
+      movement_handlesword = 0.1;
+    }
+    elseif (save[0] == 1) {
+      // dont do anything
+    }
+  }
+}
+timeout = 0.05;
+NPCEND
+NPC classic_mighty_gwblock.png 24 30
+if (playerchats) {
+  if (strequals(#g,Game Coordinator)) {
+    if (strequals(#c,stop)) {
+      show;
+    }
+    elseif (strequals(#c,start)) {
+      hide;
+    }
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,254,64;
+}
+NPCEND
+NPC classic_mighty_blockx2.png 49 23
+if (playerchats) {
+  if (strequals(#g,Game Coordinator)) {
+    if (strequals(#c,stop)) {
+      show;
+    }
+    elseif (strequals(#c,start)) {
+      hide;
+    }
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+}
+NPCEND
+NPC classic_mighty_blockx2.png 49 39
+if (playerchats) {
+  if (strequals(#g,Game Coordinator)) {
+    if (strequals(#c,stop)) {
+      show;
+    }
+    elseif (strequals(#c,start)) {
+      hide;
+    }
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+}
+NPCEND
+NPC classic_mighty_blockx2.png 11 39
+if (playerchats) {
+  if (strequals(#g,Game Coordinator)) {
+    if (strequals(#c,stop)) {
+      show;
+    }
+    elseif (strequals(#c,start)) {
+      hide;
+    }
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+}
+NPCEND
+NPC classic_mighty_blockx2.png 11 23
+if (playerchats) {
+  if (strequals(#g,Game Coordinator)) {
+    if (strequals(#c,stop)) {
+      show;
+    }
+    elseif (strequals(#c,start)) {
+      hide;
+    }
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,32;
+}
+NPCEND
+NPC - 24 1
+join("gc_level_sparring");
+NPCEND

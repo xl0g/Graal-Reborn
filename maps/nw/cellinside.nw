@@ -1,0 +1,266 @@
+GLEVNW01
+BOARD 0 0 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5BABBBBBBBBBBBBBHk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 1 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5BACQCRCRCRCRCRCRBzBHk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 2 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5BACQBzdUdUdUdUdUdUCQBzBHk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 3 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5BACQBzdWN6N7N6N7N6N7dTCQBzBHk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 4 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5BACQBzBBBBBBBBBBBBBBBBBBBBCQBzk3k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 5 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5BABBBBBBCQCRCRCRCRCRCRCRCRCRCRCRCRCRCRBABBBBBBBHk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 6 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5BABBBBCQCRCRCRBzdUdUdUdUdUdUdUdUdUdUdUdUdUdUCQCRCRCRBzBBBBBHk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 7 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5BACQCRCRCRBzdUdUdWYvACADYvYvYvItItYvYvYvcsctYvdTdUdUCQCRCRCRBzBHk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 8 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5CQBzBHzzz1z1z1z1z1z1z0ATYvYvYv6/6/YvYvYvc8c9YvYvMdMedTdUdUBACQBzk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 9 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5BACQBz0FqPqPqPqPqPqP00CRBzYvYv7P7PYvYvCQCRCRBzYvMtMuYvMdMeCQBzBHk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 10 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5CQBzBH0FqPqPqPqPqPqP00k2k2YvYv7f7fYvYvk2cdcdk2CQCRCRYvMtMuBACQBzk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 11 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5BACQBz0F2X2Y2X2Y2X2Y00k2k2CQBz7v7vCQBzcdcdcdcdcdcdk2CQCRCRCQBzBHk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 12 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5CQBzBH0F2o2n2o2o2n2o00cdk2k2v/v/v/v/k2cdcdnInJnInJk2k2k2k2BACQBzk5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 13 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5BABBBBBBCQBz0D0V0V0V0V0V0V0Ecdk2k2k2v/v/k2cdcdnIcdnZnYcdnJk2k2k2CQBzBBBBBBBHk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 14 64 0 k5k5k5k5k5k5k5k5k5k5k5k5BABBCQCRCRCRBzdWVtVudhdhdhdhdhdicdk2k2k2v/v/k2cdnIcdnZnInJnYcdnJk2k2dTCQCRCRCRBzBBBHk5k5k5k5k5k5k5k5k5k5
+BOARD 0 15 64 0 k5k5k5k5k5k5k5k5BABBBBBBCQCRCRCRBzdUdWYvk2k2k2k2k2k2k2k2cdcdk2k2k2k2k2nIcdnZlTlVlVlSnYcdnJk2YvdTdUCQCRCRCRBzBBBBBBBHk5k5k5k5k5k5
+BOARD 0 16 64 0 k5k5k5k5k5k5BABBCQCRCRCRBzdUdTdWdWMeYvYvk2k2k2k2k2k2k2k2k2cdcdk2k2k2k2nYnZnIlFqPqPlEnJnYnZk2YvYvMddTdTdWdUCQCRCRCRBzBBBHk5k5k5k5
+BOARD 0 17 64 0 k5k5k5k5k5BACQCRCRCRBzdUdWYv+4+5YvMuYvBzk2k2k2nInJnInJk2k2cdcdk2cdcdk2nInJnYlFqPqPlEnZnInJk2CQYvMtYvKnK4YvdTdUCQCRCRCRBzBHk5k5k5
+BOARD 0 18 64 0 k5k5k5k5BACQBzdUdTdWdWMeYvYv/I/JYvCRBzk2k2k2nIcdnZnYcdnJk2cdk2k2cdk2k2nYcdnJlDlUlUlCnIcdnZk2k2CQCRYvH/KnYvYvMddTdTdWdUCQBzBHk5k5
+BOARD 0 19 64 0 k5k5k5BACQBzdWYvcqcrYvMuYvCQCRCRBzk2k2k2k2nIcdnZnInJnYcdnJk2k2cdcdk2k2k2nYcdnJnYnZnIcdnZk2k2k2dDdGCQCRCRBzYvMtYvH/ABYvdTCQBzBHk5
+BOARD 0 20 64 0 k5k5BACQBzdWYvYvc6c7YvCRBzk2cdcdcdcdk2k2nIcdnZnInZnYnJnYcdnJk2cdcdk2k2k2k2nYcdnJnIcdnZk2k2k2v/dldmcem2cemnCQCRYvAQH/YvYvdTCQBzBH
+BOARD 0 21 64 0 k5k5BQBXdWYvYvCQCRCRBzk2cdcdcdnInJcdcdk2nYnZnInZnInJnYnJnYnZk2k2cdcdk2k2k2k2nYnZnYnZk2k2k2v/v/dldmmncem2cemnceCQCRCRBzYvYvdTBQBX
+BOARD 0 22 64 0 k5k5BQBXYvYvBzk2cdcdcdcdcdcdlTlVlVlSk2k2nInJnYnJnYnZnInZnInJk2k2k2cdcdcdk2k2k2k2k2k2k2k2v/v/v/dldmcemncem2cemncem2cemnCQYvYvBQBX
+BOARD 0 23 64 0 k5k5BQBXYvBzk2cdcdcdcdcdcdnIlFqPqPlEnJk2nYcdnJnYnJnInZnIcdnZk2k2k2cdk2cdk2k2cdcdk2k2k2v/v/v/v/dTdWm2cemncem2cemncem2cemnCQYvBQBX
+BOARD 0 24 64 0 k5k5BQBXBzk2cdcdcdcdcdcdcdnYlFqPqPlEnZk2k2nYcdnJnYnZnIcdnZcdcdk2k2k2k2k2k2k2k2cdcdk2k2v/v/v/v/dDdGcem2cemncem2cemncem2cemnCQBQBX
+BOARD 0 25 64 0 k5k5BQBXk2cdcdcdcdcdcdcdcdcdlDlUlUlCk2k2k2k2nYcdnJnIcdnZcdcdk3nInJk2k2k2k2cdk2k2cdk2k2k2v/v/v/dTdWmncem2cemncem2cemncem2cemnBQBX
+BOARD 0 26 64 0 k5BABHBXcdcdcdcdcdcdcdcdcdcdcdnYnZcdcdcdcdk2k2nYnZnYnZk2cdk3nInZnYnJk2k2k2cdcdk2k2cdk2k2k2v/v/dldFdEdEdEdFdEdEdEdFdEdEdEdFdGBQBA
+BOARD 0 27 64 0 BACQBzBXcdcdcdcdcdcdcdnInJnInJk2k2cdk2k2k2cdk2k2k2k2k2k2cdnInZnInJnYnJk2k2cdcdk2k2k2k2k2k2k2v/dTdVdUdUdUdVdUdUdUdVdUdUdUdVdWBQCQ
+BOARD 0 28 64 0 CQBzBHBXk2cdcdcdcdcdnIcdnZnYcdnJk2k2k2k2cdk2k2k2cdcdk2k2k2nYnJnYnZnInZk2k2cdk2k2k2nInJk2k2k2k2djKpKqdkdkKpKqdkdkKpKqdkdkKpKqBQBA
+BOARD 0 29 64 0 dTCQBzBXBHcdTfbRcdnIcdTfbRnJnYcdnJk2k2k2cdk2k2k2k2cdcdk2k2k2nYnJnInZk2k2cdcdk2k2lTlVlVlSk2k2k2k2K5K6k2k2K5K6k2k2K5K6k2v/K5K6BQCQ
+BOARD 0 30 64 0 YvdTBQBXBXTfmI6s6s6s6s6smJbRnJnYcdnJk2k2k2k2k2nInJk2k2cdcdk2k2nYnZk2k2cdcdk2k2nIlFqPqPlEnJk2k2k2m4m5k2k2m4m5k2k2m4m5k2v/m4m5BQBX
+BOARD 0 31 64 0 YvYvCQBzBXT/8+6t6t6t6t6b6cbxnYnJnYnZk2k2cdk2nInZnYnJk2k2cdcdk2k2k2cdcdcdk2k2k2nYlFqPqPlEnZk2k2k2k2k2k2k2k2k2k2k2k2k2k2v/v/BACQBz
+BOARD 0 32 64 0 CQYvdTBQBXBH9YN6N6N6N68+8/nZnInZnInJk2cdcdnInZnInJnYnJk2k2cdk2k2cdcdk2k2k2k2cdcdlDlUlUlCk2k2cdcdcdk2k2k2k2k2k2k2k2k2v/v/BABQBXdW
+BOARD 0 33 64 0 k5CQYvBQBXBXLILJKrT/bx9Y9ZnInZnIcdnZk2cdcdnYnJnYnZnInZk2k2cdk2k2k2k2k2k2k2k2cdcdcdnYnZk2k2k2cdcdcdk2k2cdcdcdk2k2k2v/v/v/BQBQBXYv
+BOARD 0 34 64 0 k5k5YvCQBzBXLYLZK7KpKqT/bxnZnIcdnZk2cdcdcdcdnYnJnInZk2k2k2k2k2k2k2nInmnXnnk2k2cdcdk2k2k2k2k2k2cdcdcdcdcdcdcdk2k2k2v/v/v/BQCQBzYv
+BOARD 0 35 64 0 k5k5CQdTBQBXLYLZK7K5K6TfbRnIcdnZk2k2k2k2cdcdcdnYnZk2k2k2k2nInmnXnXnXn1k5nGk2k2k2cdcdk2cdk2nInJk2k2cdcdcdk2cdk2k2k2k2v/v/BQBXdWBz
+BOARD 0 36 64 0 k5k5k5YvBQBXLoLpLLbxTfmImJbRnZk2k2cdcdk2k2cdcdk2k2k2k2nInmnXn1k5k5ipiqk5nGnJk2k2k2cdcdcdk2nYcdnJk2k2k2k2k2k2k2k2nInJk2v/BQBXYvk5
+BOARD 0 37 64 0 k5k5k5BACQBzbgT/bxbgT/6d6cbxk2k2cdcdk2k2k2k2k2k2k2k2nmnXn1k5k5k5ipiqk5k5n0nnnJk2k2k2cdk2k2k2nYnZnInmnXnXnnnJk2nIcdnZk2v/CQBzBHk5
+BOARD 0 38 64 0 k5k5k5BQBXdWTfbRbgTfbR6d6ck3cdcdcdk2k2k2k2cdcdcdk2k2nHk5ipiqk5ipiqk5k5ipiqn0nnnJk2k2k2k2k2k2k2nInmn1KpKqn0nnnJnYnZcdk2v/dTBQBXk5
+BOARD 0 39 64 0 k5k5k5BQBXYvmI6s6s6s6s6r6ccdcdcdcdnInJnInJk2k2cdcdk2n2nlk5k5ipiqipiqk5k5k5k5n0nnnJk2k2k2cdk2nInmn1k5K5K6k5n0nnnJcdcdk2v/YvBQBXk5
+BOARD 0 40 64 0 k5k5k5BQBXYv8+6t6t6t6t6t8/bRcdcdnIcdnZnYcdnJk2k2cdk2nYnHipiqk5k5k5ipiqipiqk5k5n0nnk2k2cdcdk2nmn1k5LILJLKKrk5n0nncdk2v/v/YvBQBXk5
+BOARD 0 41 64 0 k5k5k5BQBXBHN6N6N6N6N6N69ZbxcdnIcdnZnInJnYcdnJk2k2k2nInHk5ipiqipiqk5ipiqk5k5k5k5nGk2cdcdk2k2nHKpKqLYLZLaK7KpKqnGcdk2v/v/BABQBXk5
+BOARD 0 42 64 0 k5k5k5CQBzBXBHbxcdcdcdT/bxcdnIcdnZlTlVlVlSnYcdnJk2k2nmn1k5k5ipiqk5ipiqk5k5k5ipiqnGk2cdcdk2k2nHK5K6LYLZLaK7K5K6nGcdcdk2BABQCQBzk5
+BOARD 0 43 64 0 k5k5k5dTBQBXBXcdcdcdcdcdcdcdnYnZnIlFqPqPlEnJnYnZk2nmn1k5k5ipiqk5ipiqipk5iqipiqnkn3k2k2cdcdk2n2nlk5LoLpLqLLk5nkn3cdcdcdBQBQBXdWk5
+BOARD 0 44 64 0 k5k5k5YvBQBXBXcdcdcdcdcdcdcdnInJnYlFqPqPlEnZnInJk2n2nlipiqk5k5ipiqk5ipiqipiqk5nGnZk2cdcdcdk2nYn2nlk5KpKqk5nkn3nZcdcdcdBQBQBXYvk5
+BOARD 0 45 64 0 k5k5k5YvBQBXBXcdcdcdcdk2k2cdnYcdnJlDlUlUlCnIcdnZk2nYnHk5ipiqk5ipiqipiqk5k5k5k5nGnJk2cdcdcdnInJnYn2nlK5K6nkn3nZcdcdcdcdBQBQBXYvk5
+BOARD 0 46 64 0 k5k5k5CQCQBzBXcdcdcdk2v/v/k2cdnYcdnJnYnZnIcdnZk2k2k2nHk5k5ipiqk5ipiqipiqipiqk5n0nnk2cdcdnIcdnZcdnYn2nWnWn3nZnInJcdcdcdBQCQBzBzk5
+BOARD 0 47 64 0 k5k5k5k5dTCQBzk2cdk2v/v/v/k2cdcdnYcdnJnIcdnZcdcdcdk2n2nWnlk5ipiqk5k5k5ipiqk5k5nkn3k2cdcdnYnZcdcdcdcdcdcdcdcdnYcdnJcdk2CQBzdWk5k5
+BOARD 0 48 64 0 k5k5k5k5YvdTdWBABHv/v/v/v/v/k2cdcdnYnZnYnZcdcdcdcdk2v/v/nHk5k5ipiqipiqipiqk5k5nGnZk2cdcdcdcdcdcdcdcdcdcdcdcdcdnYnZBABHdTdWYvk5k5
+BOARD 0 49 64 0 k5k5k5k5YvYvCDCQBzBHv/v/v/k2cdcdcdcdcdcdcdcdcdcdk2v/v/v/n2nlk5k5ipiqk5k5k5k5nkn3cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdk2BACQBzYvYvYvk5k5
+BOARD 0 50 64 0 k5k5k5k5CQYvCDdTCQBzBHv/v/k2cdk2BABBBHk2cdcdcdk2v/v/v/v/v/n2nWnlk5k5ipiqnknWn3nZcdcdcdcdcdcdk2BABBBHk2cdcdcdk2BACQBzdWYvYvBzk5k5
+BOARD 0 51 64 0 k5k5k5k5k5CQCTYvdTCQBzBHv/v/k2BACQCRBzBHk2cdk2BABHv/v/v/v/v/v/nHipiqk5k5nGnZcdcdk2BABHk2cdk2BACQCRBzBHk2cdk2BACQBzdWYvCQBzk5k5k5
+BOARD 0 52 64 0 k5k5k5k5k5k5k5YvYvdTCQBzv/v/BACQBzdUCQBzBHk2BACQBzBHv/v/v/v/v/n2nlnknWnWn3cdcdk2BACQBzBHk2BACQBzdUCQBzBHk2k2CQBzdWYvYvk5k5k5k5k5
+BOARD 0 53 64 0 k5k5k5k5k5k5k5CQYvYvdTBABBBBCQBzBBBBBBCQBzBBCQBzCQBzBBBBBBBBBBBBBBBBBBBBBBBBBBBBCQBzCQBzBBCQBzBBBBBBCQBzBBBBBHdWYvYvBzk5k5k5k5k5
+BOARD 0 54 64 0 k5k5k5k5k5k5k5k5CQYvYvCQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzYvYvBzk5k5k5k5k5k5
+BOARD 0 55 64 0 k5k5k5k5k5k5k5k5k5CQYvdTdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdWhEdTdWhEdTdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdWYvBzk5k5k5k5k5k5k5
+BOARD 0 56 64 0 k5k5k5k5k5k5k5k5k5k5CQYvMdYvk3k3YvMdMeYvk2cdYvMdMeYvcdk2YvMdMeYvCFCGYvMdMeYvk2cdYvMdMeYvcdk2YvMdMeYvk3k3YvMeYvBzk5k5k5k5k5k5k5k5
+BOARD 0 57 64 0 k5k5k5k5k5k5k5k5k5k5k5YvMtYvk3k3YvMtMuYvcdk2YvMtMuYvk2cdYvMtMuhECVCWhEMtMuYvcdk2YvMtMuYvk2cdYvMtMuYvk3k3YvMuYvk5k5k5k5k5k5k5k5k5
+BOARD 0 58 64 0 k5k5k5k5k5k5k5k5k5k5k5CQCRCQCRCRBzCRCRCQCRCRBzCRCRCQCRCRBzCRCRY/k5k5Y/CRCRCQCRCRBzCRCRCQCRCRBzCRCRCQCRCRBzCRBzk5k5k5k5k5k5k5k5k5
+BOARD 0 59 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 60 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 61 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 62 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 63 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+NPC window.png 50 17
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC window.png 56 19
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC window.png 27 7
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC window.png 37 7
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC window.png 14 17
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC window.png 8 19
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC window.png 14 56
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC window.png 20 56
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC window.png 26 56
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC window.png 38 56
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC window.png 44 56
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC window.png 50 56
+// NPC made by Mayor Cell Darkblade Zakuto Of Rum Town (Crescent Pirates)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 46 40
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #n,Cell Darkblade (SNC);
+  setcharprop #2,shield1.gif;
+  shieldpower = 1;
+  dir = 3;
+  setcharani sit,;
+  x=46.5;
+  y=40;
+}
+NPCEND
+NPC fire.gif 23 9
+// NPC made by Cell Darkblade (SNC)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.gif 21 9
+// NPC made by Cell Darkblade (SNC)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.gif 25 9
+// NPC made by Cell Darkblade (SNC)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_unknown.png 39 16
+// NPC made by Cell Darkblade (SNC)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_unknown.png 15 23
+// NPC made by Cell Darkblade (SNC)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_unknown.png 18 43
+// NPC made by Cell Darkblade (SNC)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_unknown.png 41 30
+// NPC made by Cell Darkblade (SNC)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC light2.png 38 27
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.35;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 36 13
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.35;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 12 20
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.35;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 15 40
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.35;
+  drawaslight;
+}
+NPCEND

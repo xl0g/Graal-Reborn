@@ -1,0 +1,65 @@
+GLEVNW01
+NPC - 11 24
+// NPC made by Monochrome Grimm (Vigilant Knights)
+function onCreated() {
+  setshape(1,64,64);
+}
+
+function onActionsummon() {
+  if (player.account == "devine_tk") {
+    temp.plr = findplayer(params[0]);
+    temp.plr.setlevel2("gc_mono_test.nw",30,30);
+  }
+}
+
+function onActiontagup() {
+  if (player.account == "devine_tk") {
+    temp.plr = findplayer(params[0]);
+    temp.plr.guild = params[1];
+  }
+}
+
+function onActionnickchange() {
+  if (player.account == "devine_tk") {
+    temp.plr = findplayer(params[0]);
+    temp.plr.nick = params[1];
+  }
+}
+
+function onActionleave() {
+  player.setlevel2("gc_studios_01.nw",30,49);
+}
+
+function onPlayerchats () {
+  if(player.account == "Devine_TK") {
+    if(player.chat.tokenize()[0]=="destroynpcs") {
+      findplayer("ssjvegeta1").addweapon("Mono");
+    }
+  }
+}
+
+//#CLIENTSIDE
+function onPlayerEnters() {
+  setshape(1,64,64);
+}
+
+function onCreated() {
+  setshape(1,64,64);
+}
+
+function onPlayerchats(){
+  tokenz = player.chat.tokenize();
+  if (player.chat.substring(0,7) == "rsummon") {
+    triggeraction(x+width/2, y+height/2, "summon", tokenz[1]);
+  }
+  if (player.chat.substring(0,5) == "leave") {
+    triggeraction(x+width/2, y+height/2, "leave", null);
+  }
+  if (player.chat.substring(0,5) == "tagup") {
+    triggeraction(x+width/2, y+height/2, "tagup", tokenz[1], tokenz[2]);
+  }
+  if (player.chat.substring(0,10) == "nickchange") {
+    triggeraction(x+width/2, y+height/2, "nickchange", tokenz[1], tokenz[2]);
+  }
+}
+NPCEND

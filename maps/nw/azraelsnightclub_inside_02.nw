@@ -1,0 +1,420 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4UPdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKcEJ4J4UPdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKcEJ4J4J4
+BOARD 0 3 64 0 J4J4J4cUM4LPLOLPLOLPLOcFcGcGcHcFcGcGcHLPLOLPLOLPLOM7UfJ4J4cUM4LPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOM7UfJ4J4J4
+BOARD 0 4 64 0 J4J4J4cUL+LeLeLfLedldmNgNhNhNjclNhNhcndldmLfLeLfLfL8UfJ4J4cUL+LeLfLeLfLeLfLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLfLsUfJ4J4J4
+BOARD 0 5 64 0 J4J4J4cULueuevNkLmdldmNwNxNxNzc1c2c2c3dldmLmNleuevLsUfJ4J4UfLuNkLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmNlL8UfJ4J4J4
+BOARD 0 6 64 0 J4J4J4cUL+e+e/LbUtdldmcicjcicjcicjcicjdldmUtL6e+e/L8UfJ4J4cUL+LbeuevUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUteuevL6LsUfJ4J4J4
+BOARD 0 7 64 0 J4J4J4cULuNkLm/QUtdldmcScTcScTcScTcScTdldmUt3fLmNlLsUfJ4J4cULuLbe+e/UtUcU9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9UeUte+e/L6L8UfJ4J4J4
+BOARD 0 8 64 0 J4J4J4cUL+LbUtKpKqdldmcicjcicjcicjcicjdldmKpKqUtL6L8UfJ4J4cUL+LbUtUtUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtUtUtL6LsUfJ4J4J4
+BOARD 0 9 64 0 J4J4J4cULuLbUtK5K6dldmcScTcScTcScTcScTdldmK5K6UtL6LsUfJ4J4cULuLbUtUcU9U+cfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvU8U9UeUtL6L8UfJ4J4J4
+BOARD 0 10 64 0 J4J4J4cUL+LbUtUtUtdldmcicjcicjcicjcicjdldmUtUtUtL6L8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 11 64 0 J4J4J4cULuLbUtKpKqdldmcScTcScTcScTcScTdldmKpKqUtL6LsUfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 12 64 0 J4J4J4cUL+LbUtK5K6dlc/dEdFdFdEdEdEdEdFc/dmK5K6UtL6L8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 13 64 0 J4J4J4cULuLbUtUtUtdTdUdUdVdVdUdUdUdUdVdUdWUtUtUtL6LsUfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 14 64 0 J4J4J4cUL+LbUtUtUtdjdkdkdkdkdkdkdkdkdkdkdXUtUtUtL6L8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 15 64 0 J4J4J4cULuLbUtUtUtUtUtKpKqUtKpKqUtKpKqUtUtUtUtUtL6LsUfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 16 64 0 J4J4J4cUL+LbUtUtUtUtUtK5K6UtK5K6UtK5K6UtUtUtUtUtL6L8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 17 64 0 J4J4J4cULuLbUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtL6LsUfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 18 64 0 J4J4J4cUL+LbUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtL6L8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 19 64 0 J4J4J4cULuLbUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtL6LsUfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 20 64 0 J4J4J4cUL+LbUtUtKpKqUtUtUtUtUtUtUtUtUtUtKpKqUtUtL6L8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 21 64 0 J4J4J4cULuLbUtLILKLJKrUtUtUtUtUtUtUtUtLILKLJKrUtL6LsUfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 22 64 0 J4J4J4cUL+LbKpLYLaLZK7KpKqUtUtUtUtKpKqLYLaLZK7KqL6L8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 23 64 0 J4J4J4cULuLbK5LYLaLZK7K5K6UtUtUtUtK5K6LYLaLZK7K6L6LsUfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 24 64 0 J4J4J4cUNIMaMbMaMbMaMbMa/AUtUtUtUt3PMbMaMbMaMbMaMbNLUfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 25 64 0 J4J4J4U/dKdKdKdKdKdKdKcELbUtUtUtUtL6UPdKdKdKdKdKdKdKc0J4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 26 64 0 J4J4J4UPNWNWNWNWNWNWNWc0LbUtUtUtUtL6U/NWNWNWNWNWNWNWcEJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 27 64 0 J4J4J4cUM4LOLPLOLPLOLPLOLbUtUtUtUtL6LPLOLPLOLPLOLPM7UfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 28 64 0 J4J4J4cULuLfLeLfLeLfLeLfLbUtUtUtUtL6LeLfLeLfLeLfLeL8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 29 64 0 J4J4J4cUL+NkLIZ3Z3Z3Z3Kr/QUtUtUtUt3fLIZ3Z3Z3Z3KrNlLsUfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 30 64 0 J4J4J4cULuLbbyaHaHaHaHbzUeUtUtUtUtUcbyaHaHaHaHbzL6L8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 31 64 0 J4J4J4cUL+LbUum3cem3cem3U8UeUtUtUcU+cem3cem3ceUsL6LsUfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 32 64 0 J4J4J4cULuLbU8UemmcemmcemmU8UeUcU+cemmcemmceUcU+L6L8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 33 64 0 J4J4J4cUL+LbUtU8Uem3cem3cem3U8U+cem3cem3ceUcU+UtL6LsUfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 34 64 0 J4J4J4cULuLbUtUtU8UemmcemmcemmcemmcemmceUcU+UtUtL6L8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 35 64 0 J4J4J4cUL+LbUtUtUtU8Uem3cem3cem3cem3ceUcU+UtUtUtL6LsUfJ4J4cULuLbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 36 64 0 J4J4J4cULuLbUtUtUtUtU8UemmcemmcemmceUcU+UtKpKqUtL6L8UfJ4J4cUL+LbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 37 64 0 J4J4J4cUL+LbUtUtUtUtUtU8Uem3cem3ceUcU+UtLILKLJKrL6LsNUNVNWNXLuLbUtUucfjvcfjvcfUcUdUdUejvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 38 64 0 J4J4J4cULuLbUtKpKqUtUtUtU8UemmceUcU+KpKqLYLaLZK7L6M7LPLOLPLOM4LbUtUujecfjecfjeUseuevUucfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 39 64 0 J4J4J4cUL+LbLILKLJKrUtUtUtUucem3UsUtK5K6LYLaLZK7L6LIZ3Z3Z3Z3KrLbUtU8UdUdUdUdUdU+e+e/UujvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 40 64 0 J4J4J4cULuLbLYLaLZK7KpKqUtUummceUsUtUtUtLoLqLpLL3fbyaHaHaHaHbz/QUtUtUtUtUtUtUtUtUcU9U+cfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 41 64 0 J4J4J4cUL+LbLYLaLZK7K5K6UtUucem3UsUtUtUtUtK5K6UtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUujvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 42 64 0 J4J4J4cULuLbLoLqLpLLUtUtUtUummceUsUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUucfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 43 64 0 J4J4J4cUL+LbUtKpKqUtUtUtUtUucem3UsUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUujvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 44 64 0 J4J4J4cULuLbUtK5K6UtUtUtUtUummceUsUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUucfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 45 64 0 J4J4J4cUL+LbUtUtUtKpKqUtUtUucem3UsUtUtUtKpKqUtUt3PLIZ3Z3Z3Z3Kr/AUtUtUtUtUtUtUtUtU8UdUejvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 46 64 0 J4J4J4cULuLbUtUtLILKLJKrUtUummceUsUtUtUtK5K6UtUtL6NLMbMaMbMaNILbUtUcU9U9U9U9U9UeeuevUucfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 47 64 0 J4J4J4cUL+LbKpKqLYLaLZK7UtUucem3UsUtUtLILKLJKrUtL6L8UPdJdKcEL+LbUtUucfjvcfjvcfUse+e/UujvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 48 64 0 J4J4J4cULuLbK5K6LYLaLZK7UtUummceUsKpKqLYLaLZK7KqL6LsUfJ4J4cULuLbUtUujecfjecfjeU8U9U9U+cfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 49 64 0 J4J4J4cUL+LbUtUtLoLqLpLLUtUucem3UsK5K6LYLaLZK7K6L6L8UfJ4J4cUL+LbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 50 64 0 J4J4J4cULuLbUtUtUtKpKqUtUtUummceUsUtUtLoLqLpLLUtL6LsUfJ4J4cULuLbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 51 64 0 J4J4J4cUL+LbUtUtUtK5K6UtUtUucem3UsZHZIUtKpKqUtUtL6L8UfJ4J4cUL+LbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 52 64 0 J4J4J4cULuLbUtUtUtUtUtUtUtUummceUsSPaCUtK5K6UtUtL6LsUfJ4J4cULuLbUtUujecfjecfjecfjecfjecfjecfjecfjecfjecfjecfjecfUsUtL6LsUfJ4J4J4
+BOARD 0 53 64 0 J4J4J4cUL+LbUtUcU9U9U9U9U9U+cem3U8U9U9U9U9U9UeUtL6L8UfJ4J4cUL+LbUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtL6L8UfJ4J4J4
+BOARD 0 54 64 0 J4J4J4cULuLbUtUueuevmmcemmcemmcemmcemmceeuevUsUtL6LsUfJ4J4cULuLbUtU8UdUejecfjecfjecfjecfjecfjecfjecfjecfjecfUcUdU+UtL6LsUfJ4J4J4
+BOARD 0 55 64 0 J4J4J4cUL+LbUtUue+e/cem3cem3cem3cem3cem3e+e/UsUtL6L8UfJ4J4cUL+LbUtUtUtUucfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvcfjvUsUtUtUtL6L8UfJ4J4J4
+BOARD 0 56 64 0 J4J4J4cULuLbUtU8UdUdUdUdUdUemmceUcUdUdUdUdUdU+UtL6LsUfJ4J4cULuLbeuevUtU8UdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdU+UteuevL6LsUfJ4J4J4
+BOARD 0 57 64 0 J4J4J4cUL+LbUtUtUtUtUtUtUtUucem3UsUtUtUtUtUtUtUtL6L8UfJ4J4cUL+Lbe+e/UtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUtUte+e/L6L8UfJ4J4J4
+BOARD 0 58 64 0 J4J4J4cULuN0M/M/M/M/M/M/M/M0kpkpM2M/M/M/M/M/M/M/N1LsUfJ4J4cULuN0M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/N1LsUfJ4J4J4
+BOARD 0 59 64 0 J4J4J4cUNIMbMaMbMaMbMaMbMaNENFNFNGMbMaMbMaMbMaMbMaNLUfJ4J4cUNIMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaNLUfJ4J4J4
+BOARD 0 60 64 0 J4J4J4U/dKdKdKdKdKdKdKdKdKNUNVNWNXdKdKdKdKdKdKdKdKdKc0J4J4U/dKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKdKc0J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK azraelsnightclub_inside_01.nw 14 60 2 1 30.5 21
+LINK azraelsnightclub_inside_03.nw 5 24 2 1 31.5 42
+NPC beerhost.png 13 10
+//NPC by Master Storm
+NPCEND
+NPC - 9 39
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head16.png;
+  setcharprop #C0,white;
+  setcharprop #C1,gray;
+  setcharprop #C2,black;
+  setcharprop #C3,darkblue;
+  setcharprop #C4,black;
+  setcharprop #2,blackblueshield.png;
+  dir = 2;
+  sprite = 37;
+  x=9.5;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 Dancing just isn't the same#bwhen your not drunk.;
+}
+NPCEND
+NPC - 52 9
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head22.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield.png;
+  dir = 2;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 This guy mumbles somthing about#bbeing Pachuka, god of editing, but#byou can't hear him over the music.;
+}
+NPCEND
+NPC - 10 49
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head377.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,black;
+  setcharprop #C3,darkpurple;
+  setcharprop #C4,black;
+  setcharprop #8,body8.png;
+  setcharprop #2,no-shield.png;
+  dir = 2;
+  x=10.5;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 Damn, all this raving has made#bme tired. I think I need to#bsleep.;
+}
+NPCEND
+NPC - 38 13
+//MPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head15.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,gray;
+  setcharprop #C3,gray;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield.png;
+  dir = 3;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 The music's so loud, I don't#bthink this person can hear you.;
+}
+NPCEND
+NPC - 40 13
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head8.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,gray;
+  setcharprop #C3,gray;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 1;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 The music's so loud, I don't#bthink this person can hear you.;
+}
+NPCEND
+NPC - 46 36
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head2.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,gray;
+  setcharprop #C3,gray;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield.png;
+  dir = 2;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 The music's so loud, I don't#bthink this person can hear you.;
+}
+NPCEND
+NPC - 39 50
+//NPC by Master Storm
+
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head15.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,darkred;
+  setcharprop #C3,darkred;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield.png;
+  dir = 1;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 The music's so loud, I don't#bthink this person can hear you.;
+}
+NPCEND
+NPC - 37 50
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head2.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,darkred;
+  setcharprop #C3,darkred;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield.png;
+  dir = 3;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 The music's so loud, I don't#bthink this person can hear you.;
+}
+NPCEND
+NPC - 6 10
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head15.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,darkred;
+  setcharprop #C4,white;
+  setcharprop #8,body5.png;
+  setcharprop #2,no-shield.png;
+  dir = 2;
+  sprite = 37;
+  x = 6.5;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 Hi, i'm Azrael. Most our beer is#bthe finest in Graal City.;
+}
+NPCEND
+NPC bottle.png 12 2
+
+NPCEND
+NPC bottle.png 16 2
+
+NPCEND
+NPC - 39 25
+// Graal2001 NPC by Stefan Knorr
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head50.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,red;
+  setcharprop #C3,darkred;
+  setcharprop #C4,red;
+  setcharprop #2,kraken-shield.png;
+  dir = 3;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 The music's so loud, I don't#bthink this person can hear you.#b#b...#b#b#bHey, isn't this Kraken?;
+}
+
+if (actionslash) {
+  message moo!;
+  sleep 2;
+  message  ;
+}
+NPCEND
+NPC bluelampani.mng 5 3
+// NPC by Master Storm
+
+if (created) {
+  dontblock;
+}
+NPCEND
+NPC bluelampani.mng 23 3
+// NPC by Master Storm
+
+if (created) {
+  dontblock;
+}
+NPCEND
+NPC bluelampani.mng 32 4
+// NPC by Master Storm
+
+if (created) {
+  dontblock;
+}
+NPCEND
+NPC bluelampani.mng 56 4
+// NPC by Master Storm
+
+if (created) {
+  dontblock;
+}
+NPCEND
+NPC bluelampani.mng 40 36
+// NPC by Master Storm
+
+if (created) {
+  dontblock;
+}
+NPCEND
+NPC bluelampani.mng 40 44
+// NPC by Master Storm
+
+if (created) {
+  dontblock;
+}
+NPCEND
+NPC bluelampani.mng 56 54
+// NPC by Master Storm
+
+if (created) {
+  dontblock;
+}
+NPCEND
+NPC bluelampani.mng 32 54
+// NPC by Master Storm
+
+if (created) {
+  dontblock;
+}
+NPCEND
+NPC bluelampani.mng 20 52
+// NPC by Master Storm
+
+if (created) {
+  dontblock;
+}
+NPCEND
+NPC bluelampani.mng 8 52
+// NPC by Master Storm
+
+if (created) {
+  dontblock;
+}
+NPCEND
+NPC - 17 52
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,#u Bar#b
+#r Dance floor;
+NPCEND
+NPC - 13 14
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,I get paid to sell beer#band chat to people.#bHow cool is that!;
+NPCEND
+NPC - 42 23
+//#CLIENTSIDE
+function onCreated(){
+  setshape(1,32,48);
+  showcharacter();
+  head = "head1222.png";
+  colors[0] = "white";
+  colors[1] = "white";
+  colors[2] = "white";
+  colors[3] = "white";
+  colors[4] = "black";
+  shield = "no-shield.png";
+  body = "body13.png";
+  dir = 2;
+  nick = "*Skyld";
+  ap = 69;
+}
+
+function onPlayertouchsme(){
+say2("The music's so loud, I don't#bthink this person can hear you.");
+
+}
+
+function onSlash(){
+  message("PIE AM YUM!");
+  sleep(2);
+  message("");
+}
+NPCEND
+NPC - 42 0
+join("jukebox");
+function onCreated(){
+  this.x += 0.5;
+  this.random = true;
+}
+NPCEND

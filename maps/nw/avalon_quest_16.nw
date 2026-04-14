@@ -1,0 +1,533 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4mI6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6smJJ4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J46d6K6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6K6cJ4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4mI6s6r6cN7N6NqNqNrNrNqNrUqQHQIYvQHQIUpUqIdIdUpB0B1B2B1B2B3UqIdIdUpUqQHQIYvQHQIUpNqNrNqNrNqNrN7N66d6q6smJJ4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J46d6K6t8/IdIdNqNqNrN7N6NrUqRnRoYvRnRoUpUqItItUpCEIdIdIdIdCHUqItItUpUqRnRoYvRnRoUpNqN7N6NrNqNrIdId8+6t6K6cJ4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4mI6s6r6cNqUqItItNqNqUqIdIdUpUqRnRoYvRnRoUpNrNqNrNqCHIdIdIdIdCENrNqNrNqUqRnRoYvRnRoUpUqIdIdUpNqNrItItUpNq6d6q6smJJ4J4J4J4
+BOARD 0 5 64 0 J4J4J4J46d6K6t8/NqUqNqNrNqNqUqItItUpUqRnRoYvRnRoUpNrNqeOePCEwLwLwLwLCHeOePNrNqUqRnRoYvRnRoUpUqItItUpNqNrNqNrUpNq8+6t6K6cJ4J4J4J4
+BOARD 0 6 64 0 J4J4mI6s6r6cNqUqNqUqN6N7N6N6N7N7N6N75dRnRohERnRo5cN7N6eeefCUwLwLwLwLCXeeefN7N65dRnRohERnRo5cN6N7N6N7N6N7N6N7UpNqUpNq6d6q6smJJ4J4
+BOARD 0 7 64 0 J4J46d6a6t8/NqUqNqUqGoFCHYHZHYHZHYHZHYRxRyHYRxRyFDFEGPeuevLQLBLCLBLCLTeuevHIHYHZRxRyFSRxRyHZHYHZHYHZHYHZFCGPUpNqUpNq8+6t6b6cJ4J4
+BOARD 0 8 64 0 J4J46d6cNqUqNqUqN65dG4FCFCFCFCFCFCFCFSQXQYFCQXQYFCFCFCe+e/LgLRLSLRLSLje+e/FCFDFEQXQYFCQXQYFCFCFCHVHWFCFCFCFC5cN6UpNqUpNq6d6cJ4J4
+BOARD 0 9 64 0 J4J46d6cNqUqNqUqGoFCFCFCFCFCGYGZGYGZGYGZGYGZGYGZGYGZG5HJFCLgLhLiLhLiLjFCG5HJGYGZGYGZGYGZGYGZGYFCHlHmFCFCFCFCGPGOUpNqUpNq6d6cJ4J4
+BOARD 0 10 64 0 J4J46d6cNqUqN65dG4FCFCFCFCG5GOGOGOGOGOGOGOGOGOGOGOGOGOGOHJLwLBLCLBLCLzG5GOGOGOGOGOGOGOGOGOGOHIFCFCFCFCFCFCFCG5HI5cN6UpNq6d6cJ4J4
+BOARD 0 11 64 0 J4J46d6cNqUqGoFCFCeOePFCGbGOGOGOH1GOGOGOGOGOGOGOGOGOGOGOceGOccccccccceGOGOGOGOGOGOGOGOHIHYHZFCFCFCFCFCFCFCG5HIeOePGPUpNq6d6cJ4J4
+BOARD 0 12 64 0 J4J46d6cN65dG4FCFCeeefFCGrGOGOGOGOGOGOGOGOGOGOGOGOGOGOceccccccceccccccceGOGOH1GOGOGOHIFCFDFEFCFCFCFCFCFCG5HIFCeeefFC5cN66d6cJ4J4
+BOARD 0 13 64 0 J4J46d6cGoFCFCFCG5euevHJGbGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOccccGOccccccGOGOGOGOGOHIFCFCFCFCFCFCFCFCFCG5HIFCG5euevHJFCGP6d6cJ4J4
+BOARD 0 14 64 0 J4J46d6cG4FCFCFCH6e+e/HIGrGOGOGOGOGOGOGOGOGOGOGOH1GOGOGOceccGOccGOceccceGOGOGOGOHIFCFCFCFCFCFCFCFCFCG5GOGoFCH6e+e/HIFCFC6d6cJ4J4
+BOARD 0 15 64 0 J4J46d6cGoFCFCFCFCH6HIFCGbGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOceGOGOGOGOceGOGOGOGOHIFCFCFCFCFCFCFCFCFCGbGOGOG4FCFCH6HIFCFCFC6d6cJ4J4
+BOARD 0 16 64 0 J4J46d6cG4FCFCFCFCFCFCFCGrGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHIFCFCFCFCFCHVHWFCFCFCGrGOGOHJGYGZGYGZGYGZGY6d6cJ4J4
+BOARD 0 17 64 0 J4J46d6cGoHVHWFCFCFCFCFCG5GOH1GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGoFCFCFCFCFCHlHmFCFCFCG5GOGOGOGOGOGOGOGOGOGO6d6cJ4J4
+BOARD 0 18 64 0 J4J46d6cG4HlHmFCFCFCFCFCGPGOGOGOGOHIHYHZGPGOGOHIHYHZHYHZHYHZGPGOGOGOGOGOGOGOG4FCFSFCFCFCFCFCFCFCFCGPGOGOGOGOGOGOceGOcccc6d6cJ4J4
+BOARD 0 19 64 0 J4J46d6cGoFCFCFCFCFCFCFCFCHYHZHYHZFCFCFCFCHYHZFCFCFCFCFCFCFCFCGPGOGOGOGOGOGOHJGYGZFCFCFCFCFCFCFCFCFCGPGOGOGOGOceccccccce6d6cJ4J4
+BOARD 0 20 64 0 J4J46d6cG4FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCGbGOGOGOGOGOGOGOGOGOHJFCFCFCFCFCFCHVHWGbGOGOGOGOGOGOcccccc6d6cJ4J4
+BOARD 0 21 64 0 J4J46d6cGoFCFCFCFCFCFCFSFCFCFCFCFCFCFCFCFCFCFCFCFCFCHVHWFCFDFEGrGOGOGOGOGOGOGOGOGOGOHJGYGZG5HJFCHlHmGrGOGOGOGOcccecccccc6d6cJ4J4
+BOARD 0 22 64 0 J4J46d6cG4FCFCFCFCFCFCFCFCGYGZG5HJGYGZG5HJGYGZFCFCFCHlHmFCGYGZG5GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHJGYGZG5GOGOGOGOceGOceGOcc6d6cJ4J4
+BOARD 0 23 64 0 J4J46d6cGoFCFCFCFCFCFCFCGbGOGOGOGOGOGOGOGOGOGOHJGYGZGYGZG5GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGO6d6cJ4J4
+BOARD 0 24 64 0 J4J46d6cG4FCFCFCFCFCFCFCGrGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOH1GOGOGOGOGOGOGOHIH6HIGr6d6cJ4J4
+BOARD 0 25 64 0 J4J46d6cGoFCFCFCHVHWFCFCGbGOGOH1GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOH1GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHIFCFCFCG56d6cJ4J4
+BOARD 0 26 64 0 J4J46d6q6smJHJFCHlHmFCFCGrGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHIFCFCG5mI6s6r6cJ4J4
+BOARD 0 27 64 0 J4J48+6t6b6cHIFCFCFCFCFCGbGOGOGOGOGOGOmI6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6smJGOGOGOGOGOGOGOGOHIFCFCFCGP6d6a6t8/J4J4
+BOARD 0 28 64 0 J4J4UpNq6d6cHJFCFCFCFCFCGrGOGOGOGOGOGO6d6a6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6b6cGOGOGOGOGOGOGOHIFCFDFEFCG56d6cNrUqJ4J4
+BOARD 0 29 64 0 J4J4UpNq6d6q6smJHJFCFCFCFCGPGOGOGOGOGO6d6cGOGOGOGOGOceccceccceccccceccceccceGOGOGOGOGO6d6cGOGOGOGOGOGOHIFCFCFCG5mI6s6r6cNrUqJ4J4
+BOARD 0 30 64 0 J4J4UpNq8+6t6b6cHIFCFCFCFCeOePGPGOGOGO6d6cGOGOGOGOcecccecccecccececcceccceccceGOGOH1GO6d6cGOGOGOGOGOHIFCFCFCFCGP6d6a6t8/NrUqJ4J4
+BOARD 0 31 64 0 J4J4UpNqUpNq6d6cHJFCFCFCFCeeefFCGPGOGO6d6cGOGOGOceccceccceccceccccceccceccceccceGOGOGO6d6cGOGOGOGOHIFCFCFCFCFCG56d6cNrUqNrUqJ4J4
+BOARD 0 32 64 0 J4J45cN6UpNq6d6q6smJHJFCG5euevHJGbGOGO6d6cGOGOcecccecccecccecccececcceccceccceccceGOGO6d6cGOGOGOHIFCHVHWFCG5mI6s6r6cNrUqN75dJ4J4
+BOARD 0 33 64 0 J4J4J4J4UpNq8+6t6b6cHIFCH6e+e/HIGrGOGO6d6cGOceccceccceccceGOcecececeGOceccceccceccceGO6d6cGOGOHIFCFCHlHmFCGP6d6a6t8/NrUqJ4J4J4J4
+BOARD 0 34 64 0 J4J4J4J4UpNqUpNq6d6cHJFCFCH6HIFCGbGOGO6d6cceccceccceccceGOGOGOceceGOGOGOceccceccceccce6d6cGOGOGoFCFCFCFCFCG56d6cNrUqNrUqJ4J4J4J4
+BOARD 0 35 64 0 J4J4J4J45cN6UpNq6d6q6smJHJFCHVHWGrGOGO6d6cccceccceccceGOGOGOcecececeGOGOGOcecccecccecc6d6cGOGOG4FCFCFCG5mI6s6r6cNrUqN75dJ4J4J4J4
+BOARD 0 36 64 0 J4J4J4J4J4J4UpNq8+6t6b6cHIFCHlHmGbGOGO6d6cceccceccceGOGOGOceGOceceGOceGOGOGOceccceccce6d6cGOGOGoFCFCFCGP6d6a6t8/NrUqJ4J4J4J4J4J4
+BOARD 0 37 64 0 J4J4J4J4J4J4UpNqUpNq6d6cHJFCFCFSGrGOGO6d6q6s6s6s6s6s6s6smJGOGOceceGOGOmI6s6s6s6s6s6s6s6r6cGOGOG4FCFCFCG56d6cNrUqNrUqJ4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4J4J45cN6UpNq6d6q6smJGoFCGbGOGO8+6t6t6t6t6t6t6t6b6cGOGOceceGOGO6d6a6t6t6t6t6t6t6t8/GOGOGoFCGbmI6s6r6cNrUqN75dJ4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4J4J4J4J4UpNq8+6t6b6cG4FCGrGOGOUphENqhENqhENqNq6d6cGOGOceceGOH16d6cNqNqhENqhENqhEUqGOGOG4FCGr6d6a6t8/NrUqJ4J4J4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4J4J4J4UpNqUpNq6d6cGoFCGbGOGOUpYvhEYvhEYvNqNq6d6cGOGOceceGOGO6d6cNqNqYvhEYvhEYvUqGOGOGoFCGb6d6cNrUqNrUqJ4J4J4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4J4J4J45cN6UpNq6d6cG4FCGrGOGOUpYvYvYvYvYvNqNq6d6cGOGOceceGOGO6d6cNqNqYvYvYvYvYvUqGOGOG4FCGr6d6cNrUqN75dJ4J4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4J4J4J4J4J4UpNq6d6cGoFCGbGOGOUpYvYvYvYvYvNqNq6d6cGOGOceceGOGO6d6cNqNqYvYvYvYvYvUqGOGOGoFCGb6d6cNrUqJ4J4J4J4J4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4J4J4J4J4J4J4UpNq6d6cG4FCGrGOGOUpYvhEYvhEYvNqNq6d6cGOGOceceGOGO6d6cNqNqYvhEYvhEYvUqGOGOG4FCGr6d6cNrUqJ4J4J4J4J4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4J4J4J4J4J45cN66d6cGoFCGbGOGO5chEN6hEN6hEN6N76d6cGOGOceceGOGO6d6cN6N7hEN6hEN6hE5dGOGOGoFCGb6d6cN75dJ4J4J4J4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4J4J4J4J4J4J4J4J46d6cG4FCGrGOGOGOGOGOGOGOGOGOGO6d6cGOGOceceGOGO6d6cGOGOGOGOGOGOGOGOGOGOG4FCGr6d6cJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4J4J4J4J4J46d6cGoFCGbGOGOGOGOGOGOGOGOeOeP6d6cGOGOceceGOGO6d6ceOePGOGOGOGOGOGOGOGOGoFCGb6d6cJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4J4J4J4J4J46d6cG4FCGrGOGOH1GOGOGOGOHIeeef6d6cGOGOceceGOGO6d6ceeefH6GOGOGOGOGOGOGOG4FCGr6d6cJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4J4J4J4J4J46d6cGoFCGbGOGOGOGOGOGOGOGoeuev6d6cGOGOceceGOGO6d6ceuevGbGOGOGOGOGOGOGOGoFCGb6d6cJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4J4J4J4J4J46d6cG4FCGrGOGOGOGOGOGOGOG4e+e/6d6cGOGOGOGOGOGO6d6ce+e/GrGOGOGOGOGOGOGOG4FCGr6d6cJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4J4J4J4J46d6cGoFCGbGOGOGOGOGOGOGOHJGYGZ6d6cGOGOGOGOGOGO6d6cGYGZG5GOGOGOGOH1GOGOGoFCGb6d6cJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4J4J4J4J46d6cG4FCGrGOGOGOGOGOGOGOGOGOGO6d6cGOH1mImJGOGO6d6cGOGOGOGOGOGOGOGOGOGOG4FCGr6d6cJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4J4J4J46d6cGoFCGbGOGOH1GOGOGOGOGOGOGO6d6cGOGO6d6cGOGO6d6cGOGOGOGOGOGOGOGOGOGOGoFCGb6d6cJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4J4J4J46d6cG4FCGrGOGOGOGOGOGOGOGOGOGO6d6cGOGO6d6cGOGO6d6cGOGOH1GOGOGOGOGOGOGOG4FCGr6d6cJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4J4J4J46d6q6s6s6s6s6s6s6s6s6s6s6s6s6s6d6cGOGO6d6cGOGO6d6c6s6s6s6s6s6s6s6s6s6s6s6s6s6r6cJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J46d6K6K6K6K6K6K6K6K6K6K6K6K6K6K6d6q6s6s6r6q6s6s6r6c6K6K6K6K6K6K6K6K6K6K6K6K6K6K6cJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J48+6t6t6t6t6t6t6t6t6t6t6t6t6t6t6d6K6K6K6K6K6K6K6K6c6t6t6t6t6t6t6t6t6t6t6t6t6t6t8/J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4UpNqNqNrNqNrNqNrNqNrNqNqNqNrNq8+6t6t6t6t6t6t6t6t8/NqNrNqNrNqNrNqNrNqNrNqNrNqNrUqJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4UpNqNqNrNqNrNqNrNqNrNqNqNqNrNqUpNqhENqNqNrNqhENqUqNqNrNqNrNqNrNqNrNqNrNqNrNqNrUqJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4UpNqNqNrNqNrNqNrNqNrNqNqNqNrNqUphEYvhENqNqhEYvhEUqNqNrNqNrNqNrNqNrNqNrNqNrNqNrUqJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J45cN6N6N7N6N7N6N7N6N7N6N6N6N7N6UpYvYvYvNqNqYvYvYvUqN6N7N6N7N6N7N6N7N6N7N6N7N6N75dJ4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4UpYvhEYvNqNqYvhEYvUqJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J45chEN6hEN6N6hEN6hE5dJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK avalon_quest_outside_01.nw 29 55 2 1 33.5 18
+LINK avalon_quest_19.nw 60 17 1 7 1 37.5
+NPC - 2 38
+// NPC made by Tim (LAT)
+//#CLIENTSIDE
+// Level effect
+if (playerenters) {seteffect 0,0,0,0.3;
+}
+NPCEND
+NPC light2.png 24 2
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 32 2
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 52 8
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 6 8
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 10 27
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 22 43
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 34 43
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC classic_window.png 15 4
+
+NPCEND
+NPC classic_window.png 10 3
+
+NPCEND
+NPC classic_window.png 47 4
+
+NPCEND
+NPC classic_window.png 52 3
+
+NPCEND
+NPC classic_window.png 36 2
+
+NPCEND
+NPC classic_window.png 26 2
+
+NPCEND
+NPC classic_bigkey.png 31 33
+// NPC made by Schoko
+
+function onPlayerTouchsMe() {
+  if (clientr.avalonbosskey_temp != 1) {
+    player.chat = "Yes, I found the Blood Key!";
+    player.clientr.avalonbosskey_temp = 1;
+    player.client.avalonbosskey_temp = 1;
+  }
+}
+
+//#CLIENTSIDE
+
+onCreated() {
+  onTimeout();
+}
+
+onTimeout() {
+  setTimer(0.05);
+  if (client.avalonbosskey_temp = 1) {
+    hide();
+  }
+}
+NPCEND
+NPC - 30 3
+// NPC made by Schoko
+
+function onCreated() {
+  setshape(1,32,48);
+}
+
+function onActionWarpPlayer() {
+  if (player.clientr.avalonbosskey_temp == 1) {
+    player.setlevel2("avalon_quest_boss.nw",30.5,51);
+  }
+
+
+
+}
+
+
+//#CLIENTSIDE
+
+function onCreated() {
+  this.img = "classic_gate_boss.png";
+  this.ptx = 0;
+  this.pty = 0;
+  this.w   = 2;
+  this.h   = 4;
+  this.doorcolor_init  = 1;
+  this.doorcolor_loss  = 0.1;
+  this.doorcolor_min   = 0.1;
+  this.speed_open  = .1;
+  this.speed_close = .3;
+  this.close_pause = 1;
+  this.open_dir    = 1;
+
+  finished_opening = false;
+
+  setshape(1,this.w*16,this.h*16);
+  this.init_x      = x;
+  this.init_y      = y;
+  showimg(200,this.img,this.init_x,this.init_y);
+  changeimgpart(200,this.ptx,this.pty,this.w*16,this.h*16);
+  changeimgcolors(200,this.doorcolor_init,this.doorcolor_init,this.doorcolor_init,1);
+  changeimgvis(200,0);
+}
+
+function onPlayerTouchsMe() {
+
+  if (client.avalonbosskey_temp == 1) {
+
+    if (this.opening == 0) {
+      this.show_x   = this.init_x;
+      this.show_y   = this.init_y;
+      this.show_ptx = this.ptx;
+      this.show_pty = this.pty;
+      this.show_w   = this.w;
+      this.show_h   = this.h;
+      this.show_doorcolor = this.doorcolor_init;
+      this.opening  = 1;
+      setTimer(0.05);
+    }
+
+    player.chat = "Yes, I can use the Blood Key for this door!";
+  }
+  else {
+    player.chat = "Looks like I have to find the Blood Key before I can go through here.";
+  }
+}
+
+
+function onTimeOut() {
+  if (this.opening == 1) {
+
+    player.y -= .07;
+    finished_opening = false;
+
+    movement_handlekeys = .25;
+    freezeplayer(.25);
+
+    if (this.show_doorcolor > this.doorcolor_min) {
+      this.show_doorcolor -= this.doorcolor_loss * this.speed_open * 10;
+    } else {
+      this.show_doorcolor = this.doorcolor_min;
+    }
+    this.show_x   += this.speed_open * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+    this.show_y   += this.speed_open * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+    this.show_ptx += this.speed_open * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+    this.show_pty += this.speed_open * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+    this.show_w   -= this.speed_open * abs(vecx(this.open_dir));
+    this.show_h   -= this.speed_open * abs(vecy(this.open_dir));
+    x = this.show_x;
+    y = this.show_y;
+    setshape(1,this.show_w*16,this.show_h*16);
+    if (this.show_w > 0 && this.show_h > 0) {
+      showimg(200,this.img,this.show_x,this.show_y);
+      changeimgpart(200,this.show_ptx,this.show_pty,this.show_w*16,this.show_h*16);
+      changeimgcolors(200,this.show_doorcolor,this.show_doorcolor,this.show_doorcolor,1);
+      changeimgvis(200,0);
+      setTimer(0.05);
+    } else {
+      hideimg(200);
+      this.show_x   -= this.speed_open * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+      this.show_y   -= this.speed_open * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+      this.show_ptx -= this.speed_open * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+      this.show_pty -= this.speed_open * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+      this.show_w   += this.speed_open * abs(vecx(this.open_dir));
+      this.show_h   += this.speed_open * abs(vecy(this.open_dir));
+      this.opening = 2;
+      setTimer(this.close_pause);
+    }
+  } else {
+
+    if (finished_opening == false) {
+      finished_opening = true;
+      triggeraction(this.init_x+1,this.init_y+1,"WarpPlayer",null);
+    }
+
+    if (this.show_doorcolor < this.doorcolor_init) {
+      this.show_doorcolor += this.doorcolor_loss * this.speed_close * 10;
+    } else {
+      this.show_doorcolor = this.doorcolor_init;
+    }
+    this.show_x   -= this.speed_close * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+    this.show_y   -= this.speed_close * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+    this.show_ptx -= this.speed_close * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+    this.show_pty -= this.speed_close * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+    this.show_w   += this.speed_close * abs(vecx(this.open_dir));
+    this.show_h   += this.speed_close * abs(vecy(this.open_dir));
+    x = this.show_x;
+    y = this.show_y;
+    setshape(1,this.show_w*16,this.show_h*16);
+    if (this.show_w < this.w || this.show_h < this.h) {
+      showimg(200,this.img,this.show_x,this.show_y);
+      changeimgpart(200,this.show_ptx,this.show_pty,this.show_w*16,this.show_h*16);
+      changeimgcolors(200,this.show_doorcolor,this.show_doorcolor,this.show_doorcolor,1);
+      changeimgvis(200,0);
+      setTimer(0.05);
+    } else {
+      x = this.init_x;
+      y = this.init_y;
+      setshape(1,this.w*16,this.h*16);
+      showimg(200,this.img,this.init_x,this.init_y);
+      changeimgpart(200,this.ptx,this.pty,this.w*16,this.h*16);
+      changeimgcolors(200,this.doorcolor_init,this.doorcolor_init,this.doorcolor_init,1);
+      changeimgvis(200,0);
+      this.opening = 0;
+    }
+  }
+}
+NPCEND
+NPC - 32 3
+// NPC made by Schoko
+
+function onCreated() {
+  setshape(1,32,48);
+}
+
+function onActionWarpPlayer() {
+  if (player.clientr.avalonbosskey_temp == 1) {
+    player.setlevel2("avalon_quest_boss.nw",30.5,51);
+  }
+
+
+
+}
+
+
+//#CLIENTSIDE
+
+function onCreated() {
+  setstring this.img,classic_gate_boss.png;
+  this.ptx = 32;
+  this.pty = 0;
+  this.w   = 2;
+  this.h   = 4;
+  this.doorcolor_init  = 1;
+  this.doorcolor_loss  = 0.1;
+  this.doorcolor_min   = 0.1;
+  this.speed_open  = .1;
+  this.speed_close = .3;
+  this.close_pause = 1;
+  this.open_dir    = 3;
+
+  finished_opening = false;
+
+  setshape(1,this.w*16,this.h*16);
+  this.init_x      = x;
+  this.init_y      = y;
+  showimg(200,this.img,this.init_x,this.init_y);
+  changeimgpart(200,this.ptx,this.pty,this.w*16,this.h*16);
+  changeimgcolors(200,this.doorcolor_init,this.doorcolor_init,this.doorcolor_init,1);
+  changeimgvis(200,0);
+}
+
+function onPlayerTouchsMe() {
+
+  if (client.avalonbosskey_temp == 1) {
+
+    if (this.opening == 0) {
+      this.show_x   = this.init_x;
+      this.show_y   = this.init_y;
+      this.show_ptx = this.ptx;
+      this.show_pty = this.pty;
+      this.show_w   = this.w;
+      this.show_h   = this.h;
+      this.show_doorcolor = this.doorcolor_init;
+      this.opening  = 1;
+      setTimer(0.05);
+    }
+
+    player.chat = "Yes, I can use the Blood Key for this door!";
+  }
+  else {
+    player.chat = "Looks like I have to find the Blood Key before I can go through here.";
+  }
+}
+
+
+function onTimeOut() {
+  if (this.opening == 1) {
+
+    player.y -= .07;
+    finished_opening = false;
+
+    movement_handlekeys = .25;
+    freezeplayer(.25);
+
+    if (this.show_doorcolor > this.doorcolor_min) {
+      this.show_doorcolor -= this.doorcolor_loss * this.speed_open * 10;
+    } else {
+      this.show_doorcolor = this.doorcolor_min;
+    }
+    this.show_x   += this.speed_open * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+    this.show_y   += this.speed_open * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+    this.show_ptx += this.speed_open * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+    this.show_pty += this.speed_open * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+    this.show_w   -= this.speed_open * abs(vecx(this.open_dir));
+    this.show_h   -= this.speed_open * abs(vecy(this.open_dir));
+    x = this.show_x;
+    y = this.show_y;
+    setshape(1,this.show_w*16,this.show_h*16);
+    if (this.show_w > 0 && this.show_h > 0) {
+      showimg(200,this.img,this.show_x,this.show_y);
+      changeimgpart(200,this.show_ptx,this.show_pty,this.show_w*16,this.show_h*16);
+      changeimgcolors(200,this.show_doorcolor,this.show_doorcolor,this.show_doorcolor,1);
+      changeimgvis(200,0);
+      setTimer(0.05);
+    } else {
+      hideimg(200);
+      this.show_x   -= this.speed_open * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+      this.show_y   -= this.speed_open * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+      this.show_ptx -= this.speed_open * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+      this.show_pty -= this.speed_open * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+      this.show_w   += this.speed_open * abs(vecx(this.open_dir));
+      this.show_h   += this.speed_open * abs(vecy(this.open_dir));
+      this.opening = 2;
+      setTimer(this.close_pause);
+    }
+  } else {
+
+    if (finished_opening == false) {
+      finished_opening = true;
+      triggeraction(this.init_x+1,this.init_y+1,"WarpPlayer",null);
+    }
+
+    if (this.show_doorcolor < this.doorcolor_init) {
+      this.show_doorcolor += this.doorcolor_loss * this.speed_close * 10;
+    } else {
+      this.show_doorcolor = this.doorcolor_init;
+    }
+    this.show_x   -= this.speed_close * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+    this.show_y   -= this.speed_close * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+    this.show_ptx -= this.speed_close * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+    this.show_pty -= this.speed_close * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+    this.show_w   += this.speed_close * abs(vecx(this.open_dir));
+    this.show_h   += this.speed_close * abs(vecy(this.open_dir));
+    x = this.show_x;
+    y = this.show_y;
+    setshape(1,this.show_w*16,this.show_h*16);
+    if (this.show_w < this.w || this.show_h < this.h) {
+      showimg(200,this.img,this.show_x,this.show_y);
+      changeimgpart(200,this.show_ptx,this.show_pty,this.show_w*16,this.show_h*16);
+      changeimgcolors(200,this.show_doorcolor,this.show_doorcolor,this.show_doorcolor,1);
+      changeimgvis(200,0);
+      setTimer(0.05);
+    } else {
+      x = this.init_x;
+      y = this.init_y;
+      setshape(1,this.w*16,this.h*16);
+      showimg(200,this.img,this.init_x,this.init_y);
+      changeimgpart(200,this.ptx,this.pty,this.w*16,this.h*16);
+      changeimgcolors(200,this.doorcolor_init,this.doorcolor_init,this.doorcolor_init,1);
+      changeimgvis(200,0);
+      this.opening = 0;
+    }
+  }
+}
+NPCEND
+NPC classic_keyhole_stone.png 20 9
+// NPC made by Schoko Raven (LAT)
+function onPlayerTouchsMe() {
+  player.clientr.avalonbosskey_temp = 0;
+  player.client.avalonbosskey_temp = 0;
+
+  player.chat = "Avalon boss key reset!";
+}
+NPCEND
+NPC wateranismall.gif 19 3
+// NPC made by Tim -Levels- (LAT Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wateranismall.gif 22 3
+// NPC made by Tim -Levels- (LAT Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wateranismall.gif 40 3
+// NPC made by Tim -Levels- (LAT Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wateranismall.gif 43 3
+// NPC made by Tim -Levels- (LAT Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND

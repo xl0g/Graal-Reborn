@@ -1,0 +1,662 @@
+GLEVNW01
+BOARD 0 0 64 0 BsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBu8d8d8e8e8d8e8e8e8e8e8e8e8e8e8e8e8e8f8e8e8f8fBtBuBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrDADBALAM
+BOARD 0 1 64 0 B8B9B+B5B6B7B8B9B+B5B6B7B8B9B+B5B6B7B8B9B+8d8d8e8e8d8e6869696969696969696+8e8f8e8e8f8fB9B+B5B6B7B8B9B+B5B6B7B8B9B+B5B6DQAZAaAbAc
+BOARD 0 2 64 0 CMCNCOCJCKCLCMCNCOCJCKCLCMCNCOCJCKCLCMCNCO8d8d8e8e8d8e7Mcccccccccccccccc7O8e8f8e8e8f8fCNCOCJCKCLCMCNCOCJCKCLCMCNCOCJCKDgApAqArAs
+BOARD 0 3 64 0 CcCdf/f/CaCbCcCdf/AACaCbCcCdf/f/CaCbCcCdf/8d8d8e8e8d8e7Mcccccccccccccccc7O8e8f8e8e8f8fCdf/f/CaCbCcCdf/K4CaCbCcCdf/f/CaA4A5A6A7A8
+BOARD 0 4 64 0 f/f/f/f/f/f/f/f/f/f/ACADf/f/f/AQf/f/f/f/f/8t8d8e8e8d8e7s7t7t7t7t7t7t7t7t7u8e8f8e8e8f8vf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BIBJBKBLBM
+BOARD 0 5 64 0 f/f/AAABf/f/f/f/f/f/ASATf/f/f/f/f/f/f/f/f/f/8t8u8u8d8e8e666768p4p46+66678e8e8f8u8u8vf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BYBZBaBbBc
+BOARD 0 6 64 0 f/g1K4f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/8t8u8u7K7L7sk2k27u7K7L8u8u8vf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BoBpBqBrDA
+BOARD 0 7 64 0 f/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/7a7bZfa5a6ar7a7bf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/B4B5B6DQAZ
+BOARD 0 8 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/ZvZPapaqa7Zvf/f/f/f/f/f/g3f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/CJCKDgAp
+BOARD 0 9 64 0 f/f/f/f/f/f/f/f/f/K4f/f/f/f/f/f/f/f/f/f/K4f/f/f/f/f/f/f/f/ZvZfa5a6a7Zvf/f/f/f/f/f/K4f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/CaA4A5
+BOARD 0 10 64 0 f/f/f/f/K4f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ZvZPapaqarZvf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BIBJ
+BOARD 0 11 64 0 f/f/f/K4f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/ZvZfa5a6a7Zvf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/BYBZ
+BOARD 0 12 64 0 g2f/f/f/f/AAABf/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/ZvZPapaqarZvf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AJAKALAM
+BOARD 0 13 64 0 ZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZfa5a6a7ZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvf/f/f/f/f/f/f/f/f/AYAZAaAbAc
+BOARD 0 14 64 0 ZPZParZParZParZParZParZParZParZParZPZParZParZParZParZParZPZParZParZParZParZParZPZParZParZParZParZPZvZvf/f/f/f/f/f/f/f/AoApAqArAs
+BOARD 0 15 64 0 aqapaqaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqaqapaqapaqapaqapaqapa7arZvf/f/f/f/f/f/f/f/A4A5A6A7A8
+BOARD 0 16 64 0 a6a5a6a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a6a5a6a5a6a5a6a5a6a5a6a7Zvf/f/f/f/f/f/AAABBIBJBKBLBM
+BOARD 0 17 64 0 arZfa7ara7Zfa7ara7ara7Zfa7ara7Zfa7arZfa7ara7Zfa7ara7Zfa7arZfa7ara7Zfa7ara7Zfa7arZfa7ara7Zfa7arapaqa7Zvf/K4f/f/f/f/f/f/BYBZBaBbBc
+BOARD 0 18 64 0 nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnnZvZvZvZvZvZvZvZvZvZvara5a6arZvf/f/f/f/f/f/f/f/BoBpBqBrDA
+BOARD 0 19 64 0 mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnynGf/f/f/f/f/f/f/f/f/ZvZfapaqa7Zvf/f/AAABf/f/f/f/B4B5B6DQAZ
+BOARD 0 20 64 0 mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnSmGnGf/f/f/f/f/f/f/f/f/ZvZPa5a6arZvf/f/f/f/K4f/f/f/f/CJCKDgAp
+BOARD 0 21 64 0 l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l3l2l3mymGmGnGf/f/f/f/f/f/f/f/f/ZvZfapaqa7Zvf/f/f/f/f/f/f/f/f/f/CaA4A5
+BOARD 0 22 64 0 nUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnUnVmSlWmGmGn0nXnXnXnXnXnXnnf/f/ZvZPa5a6arZvf/f/f/f/f/f/f/AAABf/f/BIBJ
+BOARD 0 23 64 0 mVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmVlynElWmGnwmXmXmXmXmXmXnynGf/f/ZvZfapaqa7Zvf/f/f/f/f/f/f/f/f/f/K4BYBZ
+BOARD 0 24 64 0 lTlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlSl0m0lmnQmXmXmXmXmXmXnSmGnVnUnUnVmSa5a6arZvf/f/f/f/f/g3f/f/f/AJAKALAM
+BOARD 0 25 64 0 lFlAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlBlEl0nEmwl3l2l3l3l2l3mymGmGmUmVmVlynEapaqa7ZvABf/f/f/f/f/f/f/AYAZAaAbAc
+BOARD 0 26 64 0 lFlEmTnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVmSlFlEmEmQnVnUnVnUnUnVmSlWmGlVlVlVlSl0m0a5a6arZvf/f/f/f/f/f/f/f/AoApAqArAs
+BOARD 0 27 64 0 lFlEnFmTnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVmSm0lFlElwmVmUmVmUmVmVlyishohpTwTwTwlEmEm0apaqa7Zvf/f/f/f/f/f/f/f/A4A5A6A7A8
+BOARD 0 28 64 0 lFlEm1nFkoknidknidknidknidknidknidknidknidknidknidkom0nElFlQlVlVlVlVlVlVlSl0i8iLjdTwTwTwlEl0m0a5a6arZvf/f/g2f/f/f/AAABBIBJBKBLBM
+BOARD 0 29 64 0 lRlEnFm1k4ipiqipiqipiqiplFlAlUlUlBlEiqipiqipiqipiqk4nEnElFlAlUlUlUlUlUlUlCl0i8iLjdTwTwTwlEmEm0apaqa7ZvK4f/f/f/f/f/f/f/BYBZBaBbBc
+BOARD 0 30 64 0 lBlEm1nFkoknidknidknidkolFlEiLiLlFlEkoknidknidknidkom0nElFlElglllklllklllklijMh4h5TwTwTwlEl0m0a5a6arZvZvZvZvZvf/f/f/f/BoBpBqBrDA
+BOARD 0 31 64 0 lFlEnFmDmlmkmlmkmlmkmBk4lFlEPpPqlFlEk4mAmkmlmkmlmkmlmCnElFlEl0mAmlmkmlmkmlmkmClmmGlBTwTwlEmEm0apaqa7ararZParZvZvf/f/f/B4B5B6DQAZ
+BOARD 0 32 64 0 lFlEmDmlmkmlmkmlmkmBm1k4lFlEPGPHlFlEk4m0mAmkmlmkmlmkmlmClFlEmEm0mglHlGlHlHlGlHmimGlFTwTwlEl0m0apaqapaqapaqarZPZvf/f/f/f/CJCKDgAp
+BOARD 0 33 64 0 lFlQlVlVlVlVlVlSiqm1nFk4lFlQiqiplRlEk4nEm0iplTlVlVlVlVlVlRlEl0nElWnAmWmWmWmWmWmWnClFTwTwlEmEm0a5a6a5a6a5a6a7ZfZvf/f/f/f/f/CaA4A5
+BOARD 0 34 64 0 lDlUlUlUlUlUlBlEipnFm1k4lDlUipiqlUlCk4m0nEiqlFlAlUlUlUlUlUlCl0m0lmmGngmWlTlVlVlVlVlRTwTwlEl0m0apaqa7Zfa7Zfa7ZvZvf/f/AAABf/f/BIBJ
+BOARD 0 35 64 0 lllklllklllhlFlEiqm1nFk4iqipiqipiqipk4nEm0iplFlElglllklllklklinElWmGmGnklFTwTwTwTwTwTwTwlEmEm0a5a6arZvZvZvZvZvf/f/f/f/f/f/K4BYBZ
+BOARD 0 36 64 0 mkmlmkmlmBl1lFlEipnFm1k4ipiqipiqipiqk4m0nEiqlFlEl0mAmlmkmlmlmkmClmmGmGnGlFTwTwTwTwTwTwTwlEl0m0apaqa7Zvf/f/f/f/f/f/f/f/f/AJAKALAM
+BOARD 0 37 64 0 lHlGlHmhm1mFlFlEiqm1nFkoknidknidknidkonEm0iplFlEmEm0mglHlGlHlGlHmimGmGnGlFTwTwTwTwTwTwTwlEl0m0a5a6arZvf/K4f/f/f/f/f/f/AYAZAaAbAc
+BOARD 0 38 64 0 mWmWnBlXnFl1lFlEipnFmDmlmkmlmkmlmkmlmkmCnEiqlFlEl0nElWnAmWmWmWmWmWnCmGnGlFTwTwTwTwlAlUlUlCl0m0apaqa7Zvf/f/f/f/f/f/f/f/AoApAqArAs
+BOARD 0 39 64 0 mWnhmHlnm1mFlFlEiqmDmlmkmlmkmlmkmlmkmlmkmCiplFlEmEm0lmmGngmWmWmWmWmWninGlFTwTwTwTwlElglllklinEa5a6arZvf/f/f/f/f/f/f/f/A4A5A6A7A8
+BOARD 0 40 64 0 nlmHmHlXnFl1lFlQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlRlEl0nElWmGmGnknWnWnWnWnWn3lFTwTwTwTwlEl0mAmlmkmCapaqa7Zvf/f/f/f/f/f/AAABBIBJBKBLBM
+BOARD 0 41 64 0 nHmHmHlXm1mFlDlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlCl0m0lmmGmGnGACADZvP/ZvZvlFTwTwTwTwlEl0nEf/ZvZfa5a6arZvf/f/AAf/f/f/f/f/BYBZBaBbBc
+BOARD 0 42 64 0 nHmHmHlnnFljlljojpjojplklllllklllklklljojpjojplklinElWmGmGnGASATZvZvACADlFTwTwlAlUlCl0m0g1ZvZPapaqa7Zvf/f/f/g2AAg3f/f/BoBpBqBrDA
+BOARD 0 43 64 0 nHmHmHlXmDmlmkj4jojpj5mlhshththththumkj4jojpj5mlmkmClmmGmGnGZvZvf/ZvASATlFTwTwlElglklinEf/ZvZfa5a6arZvAAABf/f/g3f/f/f/B4B5B6DQAZ
+BOARD 0 44 64 0 nHmHmHlnmlmkmlkIj4j5kJlGiKiLiLiLiLiMlHkIj4j5kJlHlGlHlWmGmGnGZvZvf/f/ZvZvlFTwTwlEl0mAmkmCf/ZvZPapaqa7Zvf/f/f/f/f/f/f/f/f/CJCKDgAp
+BOARD 0 45 64 0 nHmHmHlXlGlHlGkYkIkJkZmWiaibibibibicmWkYkIkJkZmWmWmWlmmGmGnGACADZvf/ZvZvlFTwTwlEmEm0TwTwOLZvZfa5a6arZvf/f/f/f/f/g3f/f/f/f/CaA4A5
+BOARD 0 46 64 0 nHmHmHlnk4k2nYnZkYkZnYnZk3nInJnInJk3nYnZkYkZnYnZk2k4lWmGmGnGASATZvZvACADlFTwTwlEl0nETwOLK3ZvZPapaqa7Zvf/f/f/AAABf/f/f/AAABf/BIBJ
+BOARD 0 47 64 0 nHmHmHlXk4n4k2k3nYnZk3k3k3nYnZnYnZk3k3k3nYnZk3k2m3k4lmmGmGnGZvZvP/ZvASATlFTwTwlEmEm0f/Knf/ZvZfa5a6arZvf/f/f/f/f/f/f/f/f/f/f/BYBZ
+BOARD 0 48 64 0 nHmHmHlnk4mmmnk2k2k2k3nInJk3k3k3k3nInJk3k2k2k2nonpk4lWmGmGnGlTlVlVlVlVlVlRTwTwlEl0nEf/OLf/ZvZPapaqa7Zvg2AAg3f/f/g2AAg3f/f/f/BoBp
+BOARD 0 49 64 0 nHmHmHlXk4m2m3n4n5m2k2nYnZk3k3k3k3nYnZk2n5m2m3n4n5k4lmmGmGnGlFTwTwTwTwTwTwTwTwlEmEm0f/K3K3ZvZfa5a6arZvf/g3f/f/f/f/f/f/f/f/f/B4B5
+BOARD 0 50 64 0 nHmHmHlnk4nonpmmmnnonpk2k3nInJnInJk3k2mmmnnonpmmmnk4lWmGmGnGlFTwTwTwTwTwTwTwTwlEl0nEf/f/K3ZvZPapaqa7ZvZvZvZvZvZvZvZvf/f/f/f/ARCJ
+BOARD 0 51 64 0 nHmHmHlXk4n4n5m2m3n4n5m2k2nYnZnYnZk2n5m2m3n4n5m2m3k4lmmGmGnGlFTwTwlAlUlUlUlUlUlCl0m0f/f/f/ZvZfapaqarararararara7a7ZvZvf/f/f/Agf/
+BOARD 0 52 64 0 nHmHmHlnk4mmmnnonpbqbrnok2k3nInJk3k2mnbqbrmmmnnonpk4lWmGmGnGlFTwTwlElglllklllklllinEf/AAABZvZPa5a6apaqapaqapaqapa7a7Zvf/ARBgARf/
+BOARD 0 53 64 0 nHmHmHlXk4m2m3n4n5b6b7n4k2k2nYnZk2k2m3b6b7m2m3n4n5k4lmmGmGnGlFTwTwlEl0mAmlmkmlmlmkmCf/f/f/ZvZfapaqa5a6a5a6a5a6a5a6a7Zvf/AgBwAhf/
+BOARD 0 54 64 0 nHmHmHlnkoknidknidknkoioip6/6/6/6/iqirkoidknidknidkolWmGmGnGlFTwTwlEl0nEf/AJAKALAMANAOf/f/ZvZPapaqa7a7a7a7a7a7apaqa7Zvf/ARf/f/f/
+BOARD 0 55 64 0 nHmHmHmjlGlHlGlHlGlHlGi4i57P7P7P7Pi6i7lHlGlHlGlHlGlHmimGmGnGlFTwTwlEmEm0AYAZAaAbAcAdAeAff/ZvZfa5a6arZvZvZvZva7a5a6a7Zvf/Ahf/f/f/
+BOARD 0 56 64 0 nHmHnDmWmWmWmWmWmWmWmWjIjJ7f7f7f7fjKjLmWmWmWmWmWmWmWmWnCmGnGlFTwTwlEl0nEAoApAqArAsAtAuAvf/ZvZPapaqa7Zvf/f/Zva7a7a7a7Zvf/FKFLf/f/
+BOARD 0 57 64 0 nHnjmWmWmWmWmWmWmWmWmWjYjZ7v7v7v7vjajbmWmWmWmWmWmWmWmWmWninGlFTwTwlEmEm0A4A5A6A7A8A9A+A/f/ZvZfa5a6arZvf/f/ZvZva7a7ZvZvf/FaFbf/f/
+BOARD 0 58 64 0 n2nWnWnWnWnWnWnWnWnWnWnlIFIIIMINIEIJnknWnWnWnWnWnWnWnWnWnWn3lFTwTwlEl0nEBIBJBKBLBMBNBOBPf/ZvZPZfa7a7Zvf/g1f/g2ZvZvZvf/f/FKFLf/f/
+BOARD 0 59 64 0 asatauavZvK3KnbsbtbubvnHIDIFIOIPIJIHnGbsbtbubvKnOLZvasatauavlFTwTwlEmEm0BYBZBaBbBcBdBeBff/f/ZvZParZvZvK4f/f/AAABf/f/f/f/FaFbf/f/
+BOARD 0 60 64 0 a8a9a+a/bqbrOLb8b9b+b/nHIGIGIeIfIGIGnGb8b9b+b/K3bqbra8a9a+a/lFTwTwlEl0nEBoBpBqBrBsBtBuBvf/f/f/ZvZvZvf/f/f/f/f/f/f/f/f/f/ARf/f/f/
+BOARD 0 61 64 0 bMbNbObPb6b7ZvcMcNcOcPnHIFIIIMINIEIJnGcMcNcOcPZvb6b7bMbNbObPlFTwTwlEmEm0B4B5B6B7B8B9B+B/f/f/f/f/f/f/f/f/g3f/f/f/f/f/f/K4Agf/f/f/
+BOARD 0 62 64 0 bcbdbebf1g1hZvbcbdbebfnHIGIFIOIPIJIGnGbcbdbebfZv1g1hbcbdbebflFTwTwlEl0nEf/CJCKCLCMCNCOKof/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ARf/f/f/
+BOARD 0 63 64 0 ACADZvACADZvACADZvJeJfnHIGIGIeIfIGIGnGJeJfZvACADZvACADZvACADlFTwTwlEmEm0f/f/CaCbCcCdK4K4f/f/f/K4f/f/f/f/f/f/f/f/f/f/f/f/Agf/f/f/
+LINK level34.nw 0 3 1 61 61 playery
+LINK level32.nw 0 63 63 1 playerx 0
+LINK level14.nw 63 54 1 9 0 playery
+LINK tygcexit2.nw 38 28 1 2 58.5 32
+LINK tygcante.nw 13 43 4 1 playerx+17 57
+LINK tygc2stairs3.nw 14 32 2 1 30 28
+LINK gcstudios.nw 31 4 2 1 30.5 58
+NPC nmagcdoor.png 31 5
+join door;
+NPCEND
+NPC - 28 2
+//#CLIENTSIDE
+// NPC made by Master Storm (GP Captain)
+if (playerenters){
+  timereverywhere;
+  this.scroll_speed = 3;                                //Movement in pixels per second
+  this.scroll_width = 128;                              //Width in pixels of visible area
+  this.scroll_height = 45;                              //Height in pixels of visible area
+  this.scroll_maxlength = 370;                          //length in pixels of the entire text
+  this.scroll_red = 0;                                  //Amount of red colour
+  this.scroll_green = 1;                                //Amount of green colour
+  this.scroll_blue = 0.5;                               //Amount of blue colour
+  this.scroll_alpha = 1;                                //Effect of transparency
+  this.scroll_zoom = 1.5;                                 //Zoom factor
+
+  this.scroll_timer = 0 - this.scroll_width + 1;        //Control variable used to determine position
+  timeout = 0.05;
+}
+if (timeout){
+  if (this.scroll_timer < 0){
+    showtext 200,x + (this.scroll_width - (this.scroll_width + this.scroll_timer))/16,y,tempus sans itc,bi,GC Studios;
+    changeimgpart 200,0,0,this.scroll_width + this.scroll_timer,this.scroll_height;
+  }
+  else {
+    showtext 200,x,y,#s(setarray this.scroll_font),bi,GC Studios;
+    changeimgpart 200,this.scroll_timer,0,this.scroll_width,this.scroll_height;
+  }
+  changeimgvis 200,3;
+  changeimgcolors 200,this.scroll_red,this.scroll_green,this.scroll_blue,this.scroll_alpha;
+  changeimgzoom 200,this.scroll_zoom;
+  this.scroll_timer += this.scroll_speed;
+  if (this.scroll_timer > (this.scroll_maxlength + this.scroll_width)){
+    this.scroll_timer = 0 - this.scroll_width + 1;
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC - 50 50
+if (created) {
+showcharacter;
+  setcharprop #P1,hat134.png;
+  setcharprop #2,no-shield.png;
+  setcharprop #3,headc-kat-christmas.mng;
+  setcharprop #n,doesnt look like a kat;
+  ap = 100;
+}
+if (playerchats) {
+  if (strequals(#c,start)) {
+    message READY.......;
+    this.stage = 1;
+    timeout = int(random(3,10));
+    setstring this.players,;
+    for (i=0;i<playerscount;i++) {
+      addstring this.players,#a(i);
+    }
+  }
+}
+if (timeout) {
+  if (this.stage == 1) {
+    message PRESS THE KEY NOW!!!!!!!!!!;
+    this.stage = 2;
+    this.time = timevar2;
+    timeout = 30;
+  } elseif (this.stage == 2) {
+    message no one did anytthing, wtf;
+    setstring this.players,;
+    this.stage = 0;
+  }
+}
+if (actionkeypress) {
+  if (this.stage == 1) {
+    if (lindexof(#a,this.players) > -1) {
+      setplayerprop #c,too soon;
+      removestring this.players,#a;
+    }
+  } elseif (this.stage == 2) {
+    if (lindexof(#a,this.players) > -1) {
+      setplayerprop #c,winner;
+      message #a wins with a reaction of #v(timevar2 - this.time) seconds;
+      setstring this.players,;
+      this.stage = 0;
+    }
+  }
+}
+//#CLIENTSIDE
+if (keypressed) {
+  if (strequals(#p(1),g)) {
+    if (this.cantpress == 0) {
+      triggeraction x+1,y+1,keypress,;
+      this.cantpress = 1;
+      timeout = 1;
+    }
+  }
+}
+if (timeout) this.cantpress = 0;
+/*
+if (playerenters || timeout) {
+  if (strequals(#a,Nightmareangel)) {
+    if (startswith(PRESS,#c(-1))) {
+      triggeraction x+1,y+1,keypress,;
+      timeout = 1;
+    }
+  }
+      timeout = 0.05;
+}
+*/
+NPCEND
+NPC - 55 55
+if (created) {
+  showcharacter;
+  dontblock;
+  setcharani soccer_idle,;
+  noplayeronwall;
+}
+if (playertouchsme) {
+  if (this.moving == 0) {
+    this.initdx = (x + 1.5) - (playerx + 1.5);
+    this.initdy = (y + 1.5) - (playery + 1.5);
+    this.angle = getangle(this.initdx,this.initdy);
+    this.precision = 1;
+    this.dx = cos(this.angle) * this.precision;
+    this.dy = -1 * sin(this.angle) * this.precision;
+
+    this.steps = 16;
+    this.steps_remaining = this.steps;
+    this.x = x;
+    this.y = y;
+
+    this.iterations = 0;
+    while (1==1) {
+      if (this.steps_remaining <= 0 || this.iterations > 25) {
+// setplayerprop #c,#c stucked it = #v(this.iterations);
+        break;
+      }
+      if (!onwall2(this.x + 0.75,this.y + 1.1875,1.5,1.5)) {
+        this.step = 1;
+        while (!onwall2(this.x + this.dx*this.step + 0.75,this.y + this.dy*this.step + 1.1875,1.5,1.5)) {
+          this.steps_remaining -= this.precision;
+          if (this.steps_remaining <= 0) {
+            break;
+          }
+          this.step++;
+        }
+        this.step--;
+
+        if (this.step > 0) {
+          move this.dx*this.step,this.dy*this.step,this.step/this.steps,2;
+          setcharani soccer_kick,;
+          this.moving = 1;
+          timeout = 1;
+          this.x = this.x + this.dx*this.step;
+          this.y = this.y + this.dy*this.step;
+        }
+
+        if (onwall(this.x + (0.75+1.5)/2 + this.dx,this.y + 1.1875 + this.dy) || onwall(this.x + (0.75+1.5)/2 + this.dx,this.y + 1.5 + 1.1875 + this.dy)) {
+          this.dy = -this.dy;
+// setplayerprop #c,stucked 1;
+        }
+        if (onwall(this.x + 0.75 + this.dx,this.y + (1.1875+1.5)/2 + this.dy) || onwall(this.x + 0.75 + 1.5 + this.dx,this.y + (1.1875+1.5)/2 + this.dy)) {
+          this.dx = -this.dx;
+// setplayerprop #c,stucked 2;
+        }
+
+        this.iterations++;
+
+      } else {
+// setplayerprop #c,stucked 3	;
+        break;
+      }
+    }
+  }
+}
+if (timeout) {
+  setcharani soccer_idle,;
+  this.moving = 0;
+}
+NPCEND
+NPC - 45 45
+if (created) {
+  showcharacter;
+  setshape 1,100,100;
+  message #v(width) #v(height);
+}
+NPCEND
+NPC - 18 14
+if (playerchats) {
+  this.array = getareanpcs(x,y,5,5);
+  for (i=0;i<arraylen(this.array);i++) {
+    callnpc this.array[i],hey;
+  }
+}
+NPCEND
+NPC block.png 17 13
+if (hey) message hey;
+NPCEND
+NPC - 0 0
+if (playerchats && strequals(#a,Evil_Trunks) && strequals(#c,/create)) {
+  putnpc2 x,y,{
+
+
+// WARP CODE
+
+
+if (created) {
+  this.warper = 1;
+  setstring this.levels,
+    Studio A,gc_studioa1_01.nw,30.5,27,
+    The Pit,gc_studioi1_01.nw,29,24.5;
+  this.selected = 0;
+  this.on = 0;
+  this.disabled = 0;
+  this.spots = 0;
+  this.followingmb = 0;
+  this.movespeed = 1;
+  setMessage();
+  canwarp2;
+
+  setimg mausoleum.png;
+}
+if (playerchats) {
+ if (strequals(#a,Evil_Trunks)) {
+    if (strequals(#c,/next)) {
+      this.selected = (this.selected + 1) % (sarraylen(this.levels) / 4);
+      setMessage();
+      setplayerprop #c,Done.;
+    }
+    if (this.disabled == 0) {
+      if (strequals(#c,/on)) {
+        this.on = 1;
+        setMessage();
+      }
+      elseif (strequals(#c,/off)) {
+        this.on = 0;
+        setMessage();
+      }
+      elseif (strequals(#c,/show)) {
+        show;
+//        setMessage();
+      }
+      elseif (strequals(#c,/hide)) {
+        hide;
+        setMessage();
+      }
+      elseif (startswith(/move,#c)) {
+        tokenize #c;
+        x = strtofloat(#t(1));
+        y = strtofloat(#t(2));
+      }
+      elseif (startswith(/people,#c)) {
+        tokenize #c;
+        this.spots = strtofloat(#t(1));
+        setMessage();
+      }
+      elseif (strequals(#c,warp)) {
+        if (this.disabled == 0) {
+          setlevel2 #I(this.levels,this.selected * 4 + 1),strtofloat(#I(this.levels,this.selected * 4 + 2)),strtofloat(#I(this.levels,this.selected * 4 + 3));
+        }
+      }
+      elseif (strequals(#c,/help)) {
+        if (strequals(#a,Evil_Trunks)) setstring this.help,
+           #b/enable
+           #b/disable
+           #bfollow
+           #bhalt
+           #bbark: <text>
+           #b/changelevel level;
+        else setstring this.help,;
+        say2 Commands:
+           #b/on
+           #b/off
+           #b/next
+           #b/move x y
+           #b/people <amount>
+           #b/show
+           #b/hide
+           #s(this.help);
+      }
+    }
+  }
+  if (strequals(#a,Evil_Trunks)) {
+    if (strequals(#c,/enable)) {
+      this.disabled = 0;
+    }
+    elseif (strequals(#c,/disable)) {
+      this.disabled = 1;
+    }
+    elseif (strequals(#c,/destroy)) {
+      destroy;
+    }
+    elseif (startswith(/changelevel,#c)) {
+      tokenize #c;
+      warpto #t(1),x,y;
+    }
+    elseif (startswith(goto,#c)) {
+      tokenize #c;
+      move strtofloat(#t(1)) - x,strtofloat(#t(2)) - y,this.movespeed,0;
+      if (this.followingmb == 1 || !strequals(#s(this.following),)) timeout = 5;
+    }
+    elseif (strequals(speed up,#c)) {
+      if (this.movespeed > 0) this.movespeed--;
+      setplayerprop #c,Speed: #v(this.movespeed);
+    }
+    elseif (strequals(get on,#c)) {
+      this.followingmb = 0;
+      detachplayer;
+      playerx = x + width/2 - 1.5;
+      playery = y + height/2 - 1.5;
+      attachplayertoobj 0,id;
+      addstring this.players,#a;
+    }
+    elseif (startswith(put on,#c)) {
+      tokenize #c;
+      with (getplayer(#t(2))) {
+        detachplayer;
+        playerx = x + width/2 - 1.5;
+        playery = y + height/2 - 1.5;
+        attachplayertoobj 0,id;
+      addstring this.players,#a;
+      }
+    }
+    elseif (strequals(heal me,#c) || strequals(hm.,#c) || strequals(wtf.../,#c)) {
+      setstring clientr.stat_hp,#s(clientr.stat_maxhp);
+    }
+    elseif (strequals(slow down,#c)) {
+      this.movespeed++;
+      setplayerprop #c,Speed: #v(this.movespeed);
+    }
+    elseif (strequals(block,#c)) {
+      blockagain;	
+    }
+    elseif (strequals(don't block,#c)) {
+      dontblock;
+    }
+    elseif (startswith(disguise,#c)) {
+      tokenize #c;
+      setimg #t(1);
+    }
+    elseif (startswith(bring me,#c)) {
+      tokenize #c;
+      with (getplayer(#t(2))) {
+        setlevel2 #L,x,y;
+      }
+    }
+    elseif (startswith(bark:,#c)) {
+      tokenize #c;
+      message #e(5,-1,#c);
+    }
+    elseif (strequals(/clear players,#c)) {
+setstring this.players,;
+    }
+   elseif (startswith(/:,#c)) {
+      tokenize #c;
+      message #e(2,-1,#c);
+    }
+    elseif (strequals(#c,follow)) {
+      this.followingmb = 1;
+      setstring this.following,;
+      timeout = 2;
+    }
+    elseif (startswith(follow,#c)) {
+      tokenize #c;
+      setstring this.following,#t(1);
+      this.followingmb = 0;
+      timeout = 2;
+    }
+    elseif (strequals(#c,halt)) {
+      this.followingmb = 0;
+    }
+    elseif (startswith(/clone,#c)) {
+ showcharacter;
+      tokenize #c;
+      with (getplayer(#t(1))) {
+        showcharacter;
+        setcharprop #C0,#C0;
+        setcharprop #C1,#C1;
+        setcharprop #C2,#C2;
+        setcharprop #C3,#C3;
+        setcharprop #C4,#C4;
+        setcharprop #P1,#P1;
+        setcharprop #2,#2;
+        setcharprop #3,#3;
+        setcharprop #8,#8;
+        setcharani #m;
+        dir = playerdir;
+        setcharprop #n,#n;
+        ap = playerap;
+      }
+    }
+    elseif (startswith(/ap,#c)) {
+      tokenize #c;
+      save[0] =  strtofloat(#t(1));
+    }
+    elseif (startswith(/name,#c)) {
+      setcharprop #n,#e(5,-1,#c);
+    }
+    elseif (startswith(/dir,#c)) {
+      tokenize #c;
+      dir = strtofloat(#t(1));
+    }
+    elseif (startswith(/head,#c)) {
+      tokenize #c;
+    setcharprop #3,#e(5,-1,#c);
+    }
+  }
+  if (strequals(get off,#c)) {
+    detachplayer;
+  }
+    if (!startswith(-,#c) && !visible) {
+      setstring this.acc,#a;
+      setstring this.msg,#c;
+   if (lindexof(#a,this.players) > -1) {
+      for (i=0;i<playerscount;i++) {
+        with (players[i]) {
+         if (lindexof(#a,this.players) > -1) {
+           setplayerprop #c,- #s(this.acc): #s(this.msg);
+         }
+        }
+     }
+}
+   }
+
+}
+if (actionleftmouse) {
+  if (strequals(#a,Evil_Trunks)) {
+    move vecx(playerdir) * 2,vecy(playerdir) * 2,1,0;
+  }
+}
+if (playerleaves) {
+  if (strequals(#a,Evil_Trunks)) {
+    if (this.followingmb == 1) {
+      warpto #F,playerx,playery;
+    }
+  }
+  if (strequals(#s(this.following),#a)) {
+    warpto #F,playerx,playery;
+  }
+}
+if (timeout) {
+  if (this.followingmb == 1) {
+    this.mbonline = 0;
+    with (getplayer(Evil_Trunks)) {
+      this.mbonline = 1;
+      if (vecx(playerdir) == 1) {
+        this.offsetx = (vecx(playerdir) * width * -1);
+      }
+      elseif (vecx(playerdir) == 0) this.offsetx = width / 2 * -1;
+      else this.offsetx = 0;
+      if (vecy(playerdir) == 1) {
+        this.offsety = (vecy(playerdir) * height * -1);
+      }
+      elseif (vecy(playerdir) == 0) this.offsety = height / 2 * -1;
+      else this.offsety = 0;
+      move (playerx + 1.5) - x + (vecx(playerdir) * -2) + this.offsetx,(playery + 1.5) - y + (vecy(playerdir) * -2) + this.offsety,this.movespeed,0;
+    }
+    if (this.mbonline == 1) timeout = 1;
+    else {
+      this.followingmb = 0;
+      timeout = 30;
+    }
+  }
+  elseif (!strequals(#s(this.following),)) {
+    this.targetonline = 0;
+    with (getplayer(#s(this.following))) {
+      this.targetonline = 1;
+      if (vecx(playerdir) == 1) {
+        this.offsetx = (vecx(playerdir) * width * -1);
+      }
+      elseif (vecx(playerdir) == 0) this.offsetx = width / 2 * -1;
+      else this.offsetx = 0;
+      if (vecy(playerdir) == 1) {
+        this.offsety = (vecy(playerdir) * height * -1);
+      }
+      elseif (vecy(playerdir) == 0) this.offsety = height / 2 * -1;
+      else this.offsety = 0;
+      move (playerx + 1.5) - x + (vecx(playerdir) * -2) + this.offsetx,(playery + 1.5) - y + (vecy(playerdir) * -2) + this.offsety,this.movespeed,0;
+    }
+    if (this.targetonline == 1) timeout = 1;
+    else {
+      setstring this.following,;
+      timeout = 30;
+    }
+  }
+  else {
+    with (getplayer(Evil_Trunks)) {
+      if (strequals(#c,return to base)) {
+        warpto #F,playerx,playery;
+      }
+    }
+    timeout = 30;
+  }
+}
+if (washit) {
+  if (this.on == 1 && this.spots > 0) {
+    this.spots--;
+    setplayerprop #c,warped;
+    setlevel2 #I(this.levels,this.selected * 4 + 1),strtofloat(#I(this.levels,this.selected * 4 + 2)),strtofloat(#I(this.levels,this.selected * 4 + 3));
+//    setMessage();
+  }
+}
+
+function setMessage() {
+  if (this.disabled == 1) {
+//    setcharprop #c,Disabled.;
+  }
+  elseif (this.on == 1) {
+//    setcharprop #c,Playing #T(#I(this.levels,this.selected * 4)) (#v(this.spots) spots left);
+  }
+  else {
+//    setcharprop #c,#T(#I(this.levels,this.selected * 4)) (#v(this.spots) spots);
+  }
+}
+
+// END OF WARP SYSTEM CODE
+
+
+  };
+}
+
+NPCEND
+NPC - 0 0
+/*
+if (playerchats) {
+  if (strequals(#a,Evil_Trunks)) {
+    putnpc2 30,30,{
+
+join football;
+if (playerchats) {
+  if (strequals(#a,Evil_Trunks)) {
+  if (strequals(#c,destroy)) destroy;
+   warpto classic_overworld.gmap,20,20;
+  }
+}
+
+
+
+   };
+  }
+}
+}
+*/
+NPCEND
+NPC - 35 35
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  this.fw = (this.fw+1)%12;
+  this.fw2 = int(random(1,5));
+  if (this.fw2 == 1) showimg this.fw,fireworks1.mng,random(0,60),random(0,60);
+  elseif (this.fw2 == 2) showimg this.fw,fireworks2.mng,random(0,60),random(0,60);
+  elseif (this.fw2 == 3) showimg this.fw,fireworks3.mng,random(0,60),random(0,60);
+  else showimg this.fw,fireworks4.mng,random(0,60),random(0,60);
+  timeout=0.05;
+}
+NPCEND
+NPC - 0 0
+//join gc_tool_ice;
+NPCEND
+NPC - 30 30
+join gc_tool_spiralvortex;
+NPCEND
+NPC - 50 56
+join gc_tool_timer;
+NPCEND
+NPC - 0 0
+if (playerchats) {
+  if (strequals(#c,bill))  playerhearts = 1;
+}
+//#CLIENTSIDE
+if (playerchats) {
+//  if (!strequals(#c,bill))  setplayerprop #c,#v(playerhearts);
+  playerap = 100;
+  playerhearts = 3;
+}
+NPCEND
+NPC - 47.75 16
+join gc_tool_partay;
+NPCEND
+NPC - 0 0
+if (playerenters) {
+  if (strequals(#a,Evil_Trunks) && strequals(#n,Evil)) {
+    for (i=0;i<allplayerscount;i++) {
+      with (allplayers[i]) {
+        if (strequals(#a,Evil_Trunks)) setplayerprop #n,*Evil;
+      }
+    }
+  }
+}
+NPCEND

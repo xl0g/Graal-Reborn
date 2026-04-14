@@ -19,6 +19,12 @@ const (
 
 	worldW = mapTilesW * tileSize // 1120
 	worldH = mapTilesH * tileSize // 1120
+
+	zoomMin = 0.35 // most zoomed out
+	zoomMax = 2.5  // most zoomed in
+	// world buffer must be large enough to hold a full viewport at max zoom-out
+	worldBufW = 2320 // int(screenW/zoomMin)+32 = int(800/0.35)+32
+	worldBufH = 1748 // int(screenH/zoomMin)+32 = int(600/0.35)+32
 )
 
 // Game implements ebiten.Game and acts as the top-level state machine.
@@ -56,11 +62,15 @@ type Game struct {
 	// Chat
 	chat *Chat
 
-	// TMX map
+	// TMX map (single-file mode)
 	gameMap           *GameMap
 	currentMapName    string
 	prevMapName       string
 	mapSwitchCooldown float64
+
+	// GMAP chunk-based world (used when a .gmap is active)
+	chunkMgr    *ChunkManager
+	activeGMap  string // "" when not in chunk mode
 
 	// World gralat pickups (replicated from server)
 	worldGralats []GralatPickup
@@ -121,6 +131,13 @@ type Game struct {
 	swordKeyImg *ebiten.Image
 
 	lastUpdate time.Time
+
+	// Camera zoom (1.0 = default, <1 = zoomed out, >1 = zoomed in)
+	zoom     float64
+	worldBuf *ebiten.Image
+
+	// Debug overlay (F3)
+	debugOverlay bool
 }
 
 // NewGame initialises the Game. Assets may be nil (graceful fallback).
@@ -141,6 +158,13 @@ func NewGame(bodyImg, headImg, tilesImg *ebiten.Image) *Game {
 		lastUpdate:    time.Now(),
 		wiSpriteCache: make(map[string]*ebiten.Image),
 	}
+
+	// Camera zoom
+	g.zoom = 1.0
+	g.worldBuf = ebiten.NewImage(worldBufW, worldBufH)
+
+	// GMAP chunk manager (always created; activated when loadGMap is called)
+	g.chunkMgr = NewChunkManager()
 
 	// Load TMX map
 	g.loadMap("GraalRebornMap.tmx", false)
@@ -244,10 +268,32 @@ func (g *Game) Layout(_, _ int) (int, int) {
 // ──────────────────────────────────────────────────────────────
 
 func (g *Game) worldSize() (int, int) {
+	if g.activeGMap != "" && g.chunkMgr.HasGMap() {
+		return g.chunkMgr.WorldW(), g.chunkMgr.WorldH()
+	}
 	if g.gameMap != nil {
 		return g.gameMap.WorldW(), g.gameMap.WorldH()
 	}
 	return worldW, worldH
+}
+
+func (g *Game) loadGMap(name string) {
+	if len(name) < 5 || name[len(name)-5:] != ".gmap" {
+		name += ".gmap"
+	}
+	g.activeGMap = name
+	g.gameMap = nil // switch off TMX map
+	g.chunkMgr = NewChunkManager()
+	g.chunkMgr.LoadGMap(name)
+	g.mapSwitchCooldown = 1.0
+	if g.conn != nil {
+		g.conn.SendJSON(map[string]string{"type": "change_map", "map": name})
+	}
+	if g.localChar != nil {
+		// Spawn near origin; exact world size is not yet known
+		g.localChar.X = float64(chunkPixelW)/2 - float64(frameW)/2
+		g.localChar.Y = float64(chunkPixelH)/2 - float64(frameH)/2
+	}
 }
 
 func (g *Game) loadMap(name string, spawnAtExit bool) {

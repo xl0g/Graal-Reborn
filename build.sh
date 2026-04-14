@@ -16,6 +16,13 @@ cd "$PROJECT_ROOT"
 echo "    OK: game-server"
 
 echo ""
+echo "=== Converting NW maps to TMX ==="
+cd tools/nw2tmx
+go run . 2>&1 | grep -v "^$" || true
+cd "$PROJECT_ROOT"
+echo "    OK: maps/tmx/"
+
+echo ""
 echo "=== Building native client (Linux) ==="
 go mod tidy
 go build -o game-client ./client/

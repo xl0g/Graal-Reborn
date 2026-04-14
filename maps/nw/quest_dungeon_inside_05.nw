@@ -1,0 +1,221 @@
+GLEVNW01
+BOARD 0 0 64 0 lAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlB6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 1 64 0 lElglllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllhlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 2 64 0 lEl0mAmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmBl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 3 64 0 lEmEm0mglHlGlHlGlHlGlHlGlHlGlHlGlHhshththulGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHmhm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 4 64 0 lEl0nElWnAmWmWmWmWmWmWmWmWmWmWmWmWiKiLiLiMmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnBlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 5 64 0 lEmEm0lmmGngmWmWmWmWmWmWmWmWmWmWmWiaibibicmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnhmHlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 6 64 0 lEl0nElWmGmGnknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnlmHmHlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 7 64 0 lEmEm0lmmGmGnGcjcicjcicjcicjcicjcicjcicjcicjcicjcicjcicjcicjcicjcicjcicjnHmHmHlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 8 64 0 lEl0nElWmGmGnGcTcScTcScTcScTcScTcScTcScTcScTcScTcScTcScTcScTcScTcScTcScTnHmHmHlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 9 64 0 lEmEm0lmmGmGnGcjcicjcicjcicjcicjcicjcicjcicjcicjcicjcicjcicjcicjcicjcicjnHmHmHlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 10 64 0 lEl0nElWmGmGnGcTcScTnmnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnncTcScTnHmHmHlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 11 64 0 lEmEm0lmmGmGnGcjcicjnHmAmlmkmlmkmlioipiqirmkmlmkmkmlmkmlmlmkmlmBnGcjcicjnHmHmHlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 12 64 0 lEl0nElWmGmGnGcTcScTnHm0mglHlGlHlGi4i5i6i7lHlGhshththulGlGlHmhm1nGcTcScTnHmHmHlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 13 64 0 lEmEm0lmmGmGnGcjcicjnHnElWnAmWmWmWjIjJjKjLmWmWiKiLiLiMmWmWnBlXnFnGcjcicjnHmHmHlXm1mFlDlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlB
+BOARD 0 14 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGngmWmWjYjZjajbmWmWiaibibicmWnhmHlnm1nGcTcScTnHmHmHlnnFljlllllklllklllklllklllklllklllklllklllklllhlF
+BOARD 0 15 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGEtCqCqCqEtCqCqCqEtCqEtCq+QmHmHlXnFnGcjcicjnHmHmHlXmDmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmBl1lF
+BOARD 0 16 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmG2fEtCqCqCrCqCqEtCq292++QGOmHmHlXm1nGcTcScTnHmHmHmjlHlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHmhm1mFlF
+BOARD 0 17 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGGO2fEtCqCqCq2tCq2OGOGOHIHYmHmHlnnFnGcjcicjnHmHnDmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnBlXnFl1lF
+BOARD 0 18 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGGOGO2f2++DCqCqEt2eGOHIFSG5mHmHlXm1nGcTcScTnHnjmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnhmHlnm1mFlF
+BOARD 0 19 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGGOH0GOGO2fCqCqCq2uGOHJG5GOmHmHlnnFnGcjcicjnHmAmlmkmlmkmlmlmkmlmBnknWnWnWnWnWnWnWnWnWnlmHmHlXnFl1lF
+BOARD 0 20 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGGOGOGOGOH12cCqCqCr+AGOGOGOmHmHlXm1nGcTcScTnHm0mglHlGlHlGlGlHmhm1nGcScTcScTcScTcScTcSnHmHmHlnm1mFlF
+BOARD 0 21 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGGOGOGOGOGO2MEtCqEt2eGOGOGOmHmHlnnFnGcjcicjnHnElWnAmWmWmWmWnBlXnFnGcicjcicjcicjcicjcinHmHmHlXnFl1lF
+BOARD 0 22 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGGOGOGOGOGO2c2NCqCrEt+AGOGOmHmHlXm1nGcTcScTnHm0lmmGngmWmWnhmHlnm1nGcScTcScTcScTcScTcSnHmHmHlnm1mFlF
+BOARD 0 23 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGGOGOGOGOGO2fEtCqEtCq2OGOGOmHmHlnnFn0nXnXnXn1nElWmGmG4848mHmHlXnFn0nXnXnXnXnXnncicjcinHmHmHlXnFl1lF
+BOARD 0 24 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGH1GOGOGOGOGO2MCqCqEt2eGOH0mHmHlXmDmkmlmkmlmkmClmmGmG4848mHmHlXmDmlmkmlmkmlmBnGcScTcSnHmHmHlnm1mFlF
+BOARD 0 25 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGGOGOGOGOGOH12cCqCqCq2uGOGOmHmHmjlHlHlGlHlGlHlHmimGmG4848mHmHmjlHlGlHlGlHmhm1nGcicjcinHmHmHlXnFl1lF
+BOARD 0 26 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGGOGOGOGOGO2P+SEtCqEt+T+AGOmHnDmWmWmWmWmWmWmWmWmWnCmG4848mHnDmWmWmWmWmWnBlXnFnGcScTcSnHmHmHlnm1mFlF
+BOARD 0 27 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGGOGOGOGOGO2sEtCqCqCqEt2eGOnjmWmWmWmWmWmWmWmWmWmWmWni4848njmWmWmWmWmWnhmHlnm1nGcicjcinHhqhritnFl1lF
+BOARD 0 28 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGGOGOGOGOGO2fCrCqCqEtCrCq+AGOGOGOHJFC4s48484848484848484848484dFDFEFCmHmHlXnFnGcScTcSnHjck5i9m1mFlF
+BOARD 0 29 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGH0GOGOGOGOGO2fCqCqCqEtCq+T+AGOGOGOHJFC4s48484848484848484848484dFCFSmHmHlnm1nGcicjcinHjck5i9nFl1lF
+BOARD 0 30 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGGOGOGOGOHIH6GO2f+DCqCqEtCrnzmXmXmXmXmXmXmXmXmXmXmXny4848nzmXmXmXmXmXnxmHlXnFnGcScTcSnHh6h7jNm1mFlF
+BOARD 0 31 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGGOGOGOHIFCFDH6GO2cEtEtCqCqmHnTmXmXmXmXmXmXmXmXmXnSmG4848mHnTmXmXmXmXmXnRlnm1nGcicjcinHmHmHlXnFl1lF
+BOARD 0 32 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGGOGOGOGoFCFCG52P+SCqarCqCrmHmHmzl3l3l3l3l3l3l3mymGmG4848mHmHmzl3l3l3l2l3mxnFnGcScTcSnHmHmHlnm1mFlF
+BOARD 0 33 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGGOGOGOG4FCGb2PCqEtCqEt+C2+mHmHlXmTnUnUnUnUnUmSlWmGmG4848mHmHlXmTnUnUnVnUnVmRnGcicjcinHmHmHlXnFl1lF
+BOARD 0 34 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGGOGOGOGoFCGr2MEtCrCqCq2uH1mHmHlnnFnknWnWnWnlm0lmmGmG4848mHmHlnm1nknWnWnWnWnWn3cScTcSnHmHmHlnm1mFlF
+BOARD 0 35 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGGOGOGOG4FCGb2cCqCqCqEt+T3NmHmHlXnFnGcjM9M+nHnElWmGnwmXmXnxmHlXnFnGcicjcicjcicjcicjcinHmHmHlXnFl1lF
+BOARD 0 36 64 0 lEl0nElWmGmGnGcTcScTnHm0ishohpH1GOGOHJFCGr2fEtCq2dCqEtCrmHmHlnm1nGcTNNNOnHm0lmnQmXmXmXmXnRlnm1nGcScTcScTcScTcScTcSnHmHmHlnm1mFlF
+BOARD 0 37 64 0 lEmEm0lmmGmGnGcjcicjnHnEi8iLjdGOGOGOGOHJFCH62fEtCqCqCqEtmHmHlXnFnGcjcicjnHnEmwl3l2l3l3l2l3mxnFnGcicjcicjcicjcicjcinHmHmHlXnFl1lF
+BOARD 0 38 64 0 lEl0nElWmGmGnGcTcScTnHm0i8iLjdGOGOGOGOGOHJFCH62fEtCrCqCqmHmHlnm1nGcTcScTnHmQnUnVnUnVnUnVnUnVmRn0nXnXnXnXnXnXnXnXnXn1mHmHlnm1mFlF
+BOARD 0 39 64 0 lEmEm0lmmGmGnGcjcicjnHnEjMh4h5GOGOGOGOH0GOHJG5GO2f2++D2dmHmHlXnFnGcjcicjnHnzmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxmHlXnFl1lF
+BOARD 0 40 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGGOGOGOGOGOGOGOGOGOGOH02MCqmHmHlnm1nGcTcScTnHmHnTmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnRlnm1mFlF
+BOARD 0 41 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGH6GOGOH1GOGOGOH1GOGOGO2cCqmHmHlXnFnGcjcicjnHmHmHmzl3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l3l2l3mxnFl1lF
+BOARD 0 42 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGFCH6GOGOH0GOGOGOGOGO2PEtCqmHmHlnm1nGcTcScTnHmHmHlXmTnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnUnVnUnVmRmFlF
+BOARD 0 43 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGFCFCH6GOGOGOGOGOGOGO2fCqCqmHmHlXnFnGcjcicjnHmHmHlnm1lzmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmVmUmVmUmVlxlF
+BOARD 0 44 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGFCFCFCHYHZHYHZH6GOGOH02f2+mHmHlnm1nGcTcScTnHmHmHlXnFl1lTlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlR
+BOARD 0 45 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGFCFDFEFCFCFCFCFCH6GOGOHIHYmHmHlXnFnGcjcicjnHmHmHlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 46 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGFCFCFCFCFCFCFCFCFCHYHZFC4cmHmHlnm1nGcTcScTnHmHmHlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 47 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmGFCFCFCFDFEFCFCFCFCFCFC4c48mHmHlXnFnGcjcicjnHmHmHlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 48 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmGFCFCFCFCFCFCFDFEFCFC4c4848mHmHlnm1nGcTcScTnHmHmHlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 49 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmG4dnzmXmXmXmXmXmXmXmXmXny48mHmHlXnFnGcjcicjnHmHmHlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 50 64 0 lEl0nElWmGmGnGcTcScTnHm0lmmGmG48mHnTmXmXmXmXmXmXmXnSmG48mHmHlnm1nGcTcScTnHmHmHlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 51 64 0 lEmEm0lmmGmGnGcjcicjnHnElWmGmG4smHmHmzl3l2l3l2l3mymGmG4smHmHlXnFnGcjcicjnHmHmHlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 52 64 0 lEl0nEishohpnGcTcScTnHm0lmmGmGnTnxmHlXmTnVnVnVmSlWmGnQnSmHmHlnm1nGcTcScTnHmHmHlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 53 64 0 lEmEm0i8iLjdnGcjcicjnHnElWmGmGmHnTnxlnm1EtEtEtm0lmnQnSmGmHmHlXnFnGcjcicjnHmHmHlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 54 64 0 lEl0nEi8iLjdnGcTcScTnHm0lWmGnwnxmHmzmxnFCqEtCqnEmwmymGnwnxmHlXm1nGcTcScTnHmHmHlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 55 64 0 lEmEm0jMh4h5nGcjcicjnHnElmnQmXmXnRlnmTmRCqEtCrmQmSlmnwmXmXnRlnnFnGcjcicjnHmHmHlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 56 64 0 lEl0nElWmGmGnGcTcScTnHm0mwl3l2l3l2mxnFCqEtCqEtCqnEmwl2l3l2l3mxm1nGcTcScTnHmHmHlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 57 64 0 lEmEm0lmmGmGn0nXnXnXn1mQnVnUnVnUnVnVmREtCrCqCqEtmQnUnUnVnUnVnUmRn0nXnXnXn1mHmHlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 58 64 0 lEl0nElWmGnwmXmXmXmXmXmXmXmXmXmXmXmXmXiIkpkpkpiJmXmXmXmXmXmXmXmXmXmXmXmXmXnxmHlXnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 59 64 0 lEmEm0lmnQmXmXmXmXmXmXmXmXmXmXmXmXmXmXiYiLiLiLiZmXmXmXmXmXmXmXmXmXmXmXmXmXmXnRlnm1mFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 60 64 0 lEl0nEmwl3l2l3l2l3l2l3l2l3l2l3l2l3l2l3h8h9h9h9h+l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3mxnFl1lF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 61 64 0 lEmEmQnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVmRmFlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 62 64 0 lElwmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVlxlF6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 63 64 0 lQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlR6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+LINK quest_dungeon_inside_03.nw 12 37 1 2 41.5 30
+LINK quest_dungeon_inside_13.nw 3 53 1 2 34.5 31
+LINK quest_dungeon_inside_03.nw 20 60 3 1 53 52
+LINK quest_dungeon_inside_15_flooded.nw 60 28 1 2 5.5 27
+NPC halloweenc-fog.png 17 14
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+
+  drawoverplayer;
+  setzoomeffect 3;
+  setcoloreffect 1,1,1,0.9;
+}
+NPCEND
+NPC halloweenc-fog.png 14 17
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+
+  drawoverplayer;
+  setzoomeffect 3;
+  setcoloreffect 1,1,1,0.9;
+}
+NPCEND
+NPC halloweenc-fog.png 49 9
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+
+  drawoverplayer;
+  setzoomeffect 3;
+  setcoloreffect 1,1,1,0.9;
+}
+NPCEND
+NPC halloweenc-fog.png 47 46
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+
+  drawoverplayer;
+  setzoomeffect 3;
+  setcoloreffect 1,1,1,0.9;
+}
+NPCEND
+NPC halloweenc-fog.png -12 44
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+
+  drawoverplayer;
+  setzoomeffect 3;
+  setcoloreffect 1,1,1,0.9;
+}
+NPCEND
+NPC lampanimation.mng 16 13
+if (created) {
+  setimgpart lampanimation.mng,0,0,19,35;
+  dontblock;
+}
+NPCEND
+NPC lampanimation.mng 21 13
+if (created) {
+  setimgpart lampanimation.mng,0,0,19,35;
+  dontblock;
+}
+NPCEND
+NPC light4.png 12 10
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC light4.png 16 10
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC - 19 39
+//#CLIENTSIDE
+if (playerenters){
+  seteffect 0,0,.2,.5;
+}
+NPCEND
+NPC door-keyhole.png 18 4
+join("quest_dungeon_door");
+function onCreated() {
+  this.doorID = "b";
+}
+//#CLIENTSIDE
+if (created) setstring this.doorID,b;
+NPCEND
+NPC door-keyhole.png 24 13
+join("quest_dungeon_door");
+function onCreated() {
+  this.doorID = "c";
+}
+//#CLIENTSIDE
+if (created) setstring this.doorID,c;
+NPCEND
+NPC - 24 12
+join("link");
+function onCreated() {
+  this.w=2;
+  this.h=1;
+  this.newlevel = "quest_dungeon_inside_10.nw";
+  this.newx = 18.5;
+  this.newy = 38;
+  this.reqdir=0;
+}
+function onPlayerTouchsMe() {
+  this.reqflags = clientr.quest_dungeon[3].pos("c") != -1;
+  link::onPlayerTouchsMe();
+}
+NPCEND
+NPC - 18 3
+join("link");
+function onCreated() {
+  this.w=2;
+  this.h=1;
+  this.newlevel = "quest_dungeon_inside_08.nw";
+  this.newx = 30.5;
+  this.newy = 38;
+  this.reqdir=0;
+}
+function onPlayerTouchsMe() {
+  this.reqflags = clientr.quest_dungeon[3].pos("b") != -1;
+  link::onPlayerTouchsMe();
+}
+NPCEND
+NPC chest.png 34 35
+//#CLIENTSIDE
+function isOpen() {
+  return clientr.(@"chest_"@x@"_"@y@"_"@level.tokenize(".")[0]@"_flooded");
+}
+function onPlayerEnters() {
+  if (isOpen())
+    hide();
+}
+NPCEND
+NPC - 33 24
+join("level_questlevel");
+NPCEND
+NPC - 35 24
+join("control_midi");
+//#CLIENTSIDE
+function onCreated(){
+this.midi = "stef1.mid";
+}
+NPCEND

@@ -1,0 +1,549 @@
+GLEVNW01
+BOARD 0 0 64 0 gHgMgXgVgVgIgHgMgNgUgVgZglgMgNgUgVgIgHgMgXgVgVgIgHgMgNgUgVgZglgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgU
+BOARD 0 1 64 0 gXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgk
+BOARD 0 2 64 0 gngogNgogngogXgVgNgogngogXgVgNgogngogngogNgogngogXgVgNgogngogXgVgNgogngogngogNgogngogngogNgogngogngogNgogngogngogNgogngogngogNgo
+BOARD 0 3 64 0 gJgKgJgkgJgKgZglgJgkgJgKgZglgJgkgJgKgJgKgJgkgJgKgZglgJgkgJgKgZglgJgkgJgKgJgKgJgkgJgKgJgKgJgkgJgKgJgKgJgkgJgKgJgKgJgkgJgKgJgKgJgk
+BOARD 0 4 64 0 gZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgNgU
+BOARD 0 5 64 0 gpgcgdgkglgXgVgcgdgkglgXgVgcgZglglgXgpgcgdgkglgXgVgcgdgkglgXgVgcgZglglgXgpgcgdgkglgmgpgcgdgkglgmgpgcgdgkglgmgpgcgdgkglgmgpgcgdgk
+BOARD 0 6 64 0 gHgMgNgUgVgZglgMgXgVgVgZglgMgNgUgVgZgHgMgNgUgVgZgHgMgXgVgVgIgHgMgNgUgVgZglgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgU
+BOARD 0 7 64 0 gXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgk
+BOARD 0 8 64 0 gXgVgXgVgngogngogNgogngogXgVgNgogXgVgXgVgXgVgngogngogNgkgJgKgJgKgJgKgJgKgXgVgNgogngogngogNgogngogngogNgogngogngogNgogngogngogNgo
+BOARD 0 9 64 0 gZglgZglgJgKgJgKgJgkgJgKgZglgJgkgZglgZglgZglgJgKgJgKgJgUgGgagZgagZgagZgOgNglgJgkgJgKgJgKgJgkgJgKgJgKgJgkgJgKgJgKgJgkgJgKgJgKgJgk
+BOARD 0 10 64 0 gZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgNgkglgmgpgqgpgqgpgcgdgOgXgVgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgNgU
+BOARD 0 11 64 0 gpgcgdgkglgmgpgcgZglglgmgpgcgdgkglgmgpgcgdgkglgmgpgcgdgUgVgW797+7+7/gLgMgNgcgZglglgXgpgcgdgkglgmgpgcgdgkglgmgpgcgdgkglgmgpgcgdgk
+BOARD 0 12 64 0 gHgMgXgVgVgIgHgMgNgUgVgZglgMgNgUgVgIgHgMgXgVgVgIgHgMgNgkglgm8N8O8O8PgbgcgdgMgXgVgVgIgHgMgNgUgVgZglgMgNgUgVgIgHgMgNgUgVgIgHgMgNgU
+BOARD 0 13 64 0 gXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgZglgegYgUgVgWmompNF8d8e8e8fNFmompgLgMgNgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgk
+BOARD 0 14 64 0 gngogNgogngogXgVgNgogngogXgVgNgogngogngogNgogngogkglgmm4m5NF8t8u8u8vNFm4m5gbgcgdgngogXgVgNgogngogXgVgNgogngogngogNgogngogngogNgo
+BOARD 0 15 64 0 gJgKgJgkgJgKgZglgJgkgJgKgZglgJgkgJgKgJgKgJgkgJgKgZgUgVgWNFNFNFNFNFNFNFNFgLgMgNgkgJgKgZglgJgkgJgKgZglgJgkgJgKgJgKgJgkgJgKgJgKgJgk
+BOARD 0 16 64 0 gZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgkglgmNFNFNFNFNFNFNFNFgbgcgdgUgGgagZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgXgV
+BOARD 0 17 64 0 gpgcgdgkglgXgVgcgdgkgJgKgJgKgJgKgJgKgJgKgJgKgJgKgVgVgWNFNFNFnknXnXnlNFNFNFgLgMgOgJgKgJgKgJgKgJgKgJgKgJgKgJgKgpgcgdgkglgXgVgcgZgl
+BOARD 0 18 64 0 gHgMgNgUgVgZglgMgXgUgGgagZgagZgagZgagZgagZgagZgagZglgmNFNFnkn1p4p4n0nlNFNFgbgZgagZgagZgagZgagZgagZgagZgagZgOgNgMgXgVgVgZglgMgNgU
+BOARD 0 19 64 0 gXgPgdgkgegYgXgPgZgkglgmgpgqgpgqgp797+7+7/gqgpgqgpgqNFNFnkn1p4p4p4p4n0nlNFNFgpgqgpgqgp797+7+7/gqgpgqgpgqgpgcgdgPgZglgegYgXgPgdgk
+BOARD 0 20 64 0 gXgVgXgVgngogngogNgogUgVgWNFmompNF8N8O8O8PNFmompNFNFNFNFnHp4p4p4p4p4p4nGNFNFNFNFmompNF8N8O8O8PNFmompNFgLgMgNgXgVgNgogngogXgVgNgo
+BOARD 0 21 64 0 gZglgZglgJgKgJgKgJgkgkglgmNFm4m5NF8d8e8e8fNFm4m5NFNFnknXn3p4p4p4p4p4p4n2nXnlNFNFm4m5NF8d8e8e8fNFm4m5NFgbgcgdgZglgJgkgJgKgZglgJgk
+BOARD 0 22 64 0 gZgOgNgUgGgagZgOgXgVgGgUgVgWNFNFNF8t8u8u8vNFNFnknXnWn1p4p4p4p4u2vXp4p4p4p4n0nWnXnlNFNF8t8u8u8vNFNFNFgLgMgNgogZgOgNgUgGgagZgOgXgV
+BOARD 0 23 64 0 gpgcgdgkglgmgpgcgZglglgkglgmNFNFNFNFNFNFNFNFnkn1p4p4p4p4p4p4u2vGvnvXp4p4p4p4p4p4n0nlNFNFNFNFNFNFNFNFgbgcgdgmgpgcgdgkglgmgpgcgZgl
+BOARD 0 24 64 0 gHgMgXgVgVgIgHgMgNgUgVgZgUgVgWNFNFNFNFNFNFnkn1p4p4p4p4p4p4p4vUuOuOu7p4p4p4p4p4p4p4n0nlNFNFNFNFNFNFgLgMgNgVgZglgMgNgUgVgIgHgMgXgV
+BOARD 0 25 64 0 gXgPgZglgegYgXgPgdgkgegYgkglgmNFNFNFNFNFnkn1p4p4p4p4p4p4p4u2vGuOuOvnvXp4p4p4p4p4p4p4n0nlNFNFNFNFNFgbgcgdgegYgXgPgdgkgegYgXgPgZgl
+BOARD 0 26 64 0 gngogNgogngogXgVgNgogngogXgUgVgWNFNFNFNFnHp4p4p4u2vEvFvEvFvGuOuOuOuOvnvFvFvEvFvXp4p4p4nGNFNFNFNFgLgMgNgogngogXgVgNgogngogngogNgo
+BOARD 0 27 64 0 gKgKgJgkgJgKgZglgJgkgJgKgZgkglgmNFNFNFNFn0nlp4p4umuWuOuOuOuOuOuOuOuOuOuOuOuOu3p4p4p4nkn1NFNFNFNFgbgcgdgkgJgKgZglgJgkgJgKgJgKgJgk
+BOARD 0 28 64 0 gJgKgNgUgGgagZgOgNgUgGgagZgOgUgVgWNFNFNFNFn0nlp4p4umuWuOuOuOuOuOuOuOuOuOuOu3vHp4p4nkn1NFNFNFNFgLgMgNgNgUgGgagZgOgXgVgGgagZgOgNgU
+BOARD 0 29 64 0 gZgJgKgkglgXgVgcgdgkglgXgVgcgkglgmNFNFNFNFNFn0nlp4p4umuWuOuOuOuOuOuOuOuOu3vHp4p4nkn1NFNFNFNFNFgbgcgdgdgkglgXgVgcgZglglgXgpgcgdgk
+BOARD 0 30 64 0 gpgZgJgKgVgZglgMgXgVgVgZgHgMgUgVgWNFNFNFNFNFNFn0nlp4p4vUuOuOuOuOuOuOuOuOu7p4p4nkn1NFNFNFNFNFNFgLgMgNgXgVgVgZglgMgNgUgVgZgHgMgNgU
+BOARD 0 31 64 0 NFgpgZgJgKgYgXgPgZglgegJgKgZgkglgmNFNFNFNFNFNFNFnGp4u2vGuOuOuOuOuOuOuOuOvnvXp4nHNFNFNFNFNFNFNFgbgcgdgZgJgKgYgXgPgdgkgegYgXgPgdgk
+BOARD 0 32 64 0 NFNFgpgZgJgKgngogNgogngZgOgUgVgW797+7+7/NFNFNFnkn1p4vUuOuOuOu3v2v3uWuOuOuOu7p4n0nlNFNFNF797+7+7/gLgMgNgGgagogXgVgNgogXgVgXgVgXgV
+BOARD 0 33 64 0 NFNFNFgpgZgagJgKgJgKgJgKgcgkglgm8N8O8O8PNFNFnkn1p4u2vGuOuOu3vHp4p4umuWuOuOvnvXp4n0nlNFNF8N8O8O8PgbgcgdglgmgKgZglgJgkgZglgZglgZgl
+BOARD 0 34 64 0 NFNFNFNFgpgqgZgagZgagZgagWmompNF8d8e8e8fNFnkn1p4p4vUuOu3v3vHp4p4p4p4umv2uWuOu7p4p4n0nlNF8d8e8e8fNFmompgLgMgNgZgOgNgUgGgagZgOgNgU
+BOARD 0 35 64 0 NFNFNFNFNFNFgpgqgpgqgpgqNFm4m5NF8t8u8u8vNFnHp4p4p4umv2vHp4p4p4p4p4p4p4p4umv2vHp4p4p4nGNF8t8u8u8vNFm4m5gbgcgdgpgcgdgkglgmgpgcgdgk
+BOARD 0 36 64 0 gHgINFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFn0nlp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nkn1NFNFNFNFNFNFNFgLgMgNgZglgMgNgUgVgIgHgMgXgV
+BOARD 0 37 64 0 gXgYgHgIgHgINFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFn0nWnXnWnXnlp4p4p4p4p4p4p4p4nknXnWnXnWn1NFNFNFNFNFNFNFNFgbgcgdgYgXgPgdgkgegYgXgPgZgl
+BOARD 0 38 64 0 gngogXgYgXgYgINFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFn0nlp4p4p4p4p4p4nkn1NFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNgXgVgNgogngogngogNgo
+BOARD 0 39 64 0 gJgKgngogngogYgHgIgHgINFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFn0nWnnp4p4nmnWn1NFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdgZglgJgkgJgKgJgKgJgk
+BOARD 0 40 64 0 gZgOgNgUgGgngogXgYgXgYgHgIgHgIgHgIgHgIgHgIgHgINF797+7+7/NFNFnHp4p4nGNFNF797+7+7/NFgHgIgHgIgHgIgHgIgHgIgHgMgNgZgOgXgVgGgagZgOgNgU
+BOARD 0 41 64 0 gpgcgdgkglgXgVgngogngogXgYgXgYgXgYgXgYgXgYgXgYgW8N8O8O8PNFNFn0nWnWn1NFNF8N8O8O8PgLgXgYgXgYgXgYgXgYgXgYgXgPgdgVgcgZglglgXgpgcgdgk
+BOARD 0 42 64 0 gHgMgNgUgVgZglgMgXgVgVgngogngogngogngogngogcglgm8d8e8e8fNFNFNFNFNFNFNFNF8d8e8e8fgbgcglgngogngogngogngogngogZglgMgNgUgVgZgHgMgNgU
+BOARD 0 43 64 0 gXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgUgVgW8t8u8u8vNFNFNFNFNFNFNFNF8t8u8u8vgLgMgNgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgk
+BOARD 0 44 64 0 gXgVgXgVgngogngogNgogngogXgVgNgogXgVgXgVgXgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdgVgNgogngogngogNgogngogXgVgNgogXgVgXgVgXgV
+BOARD 0 45 64 0 gZglgZglgJgKgJgKgJgkgJgKgZglgJgkgZglgZglgZglgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNgZglgJgkgJgKgJgKgJgkgJgKgZglgJgkgZglgZglgZgl
+BOARD 0 46 64 0 gZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgNgUgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdgZgOgXgVgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgNgU
+BOARD 0 47 64 0 gpgcgdgkglgmgpgcgZglglgmgpgcgdgkglgmgpgcgdgkglgUgVgWNFNFNFNFNFNFNFNFNFNFNFgLgMgNglgXgVgcgZglglgXgpgcgZglglgmgpgcgdgkglgmgpgcgdgk
+BOARD 0 48 64 0 gHgMgNgUgVgIgHgMgNgUgVgIgHgMgXgVgVgIgHgMgNgUgVgkglgmNFNFNFNFNFNFNFNFNFNFNFgbgcgdgVgZglgMgNgUgVgZgHgMgNgUgVgZglgMgNgUgVgIgHgMgngo
+BOARD 0 49 64 0 gXgPgdgkgegYgXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegUgVgWmompNFNFNFNFNFNFmompgLgMgNglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgJgK
+BOARD 0 50 64 0 gngogNgogXgVgngogNgogngogXgVgNgogngogngogNgogXgkglgmm4m5NFNFNFNFNFNFm4m5gbgcgdgogngogXgVgNgogXgVgXgVgNgogngogXgVgNgogngogngogXgV
+BOARD 0 51 64 0 gJgKgJgkgZglgJgKgJgkgJgKgZglgJgkgJgKgJgKgJgkgZglgJgUgVgWNFNFNFNFNFNFgLgMgNgKgJgkgJgKgZglgJgkgZglgZglgJgkgJgKgZglgJgkgJgKgJgKgZgl
+BOARD 0 52 64 0 gZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgkglgmNFNFNFNFNFNFgbgcgdgOgXgVgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgGgagZgOgNgU
+BOARD 0 53 64 0 gpgcgdgkglgXgVgcgdgkglgXgVgcgZglglgXgpgcgdgkglgXgVgXgUgVgWNFNFNFNFgLgMgNgZglgZglglgmgpgcgdgkglgmgpgcgdgkglgXgVgcgZglglgXgpgcgdgk
+BOARD 0 54 64 0 gHgMgNgUgVgZglgMgXgVgVgZglgMgNgUgVgZgHgMgNgUgVgZglgZgkglgmNFNFNFNFgbgcgdgXgVgXgVgVgIgHgMgNgUgVgZglgMgNgUgVgIgHgMgNgUgVgZgHgMgNgU
+BOARD 0 55 64 0 gXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgYgXgUgVgINFNFgHgMgNgPgZglgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgk
+BOARD 0 56 64 0 gXgVgXgVgngogngogNgogngogXgVgNgogXgVgXgVgXgVgngogngogngkgegYgHgIgXgPgdgogNgogNgogngogXgVgNgogngogXgVgNgogngogngogNgogXgVgXgVgNgo
+BOARD 0 57 64 0 gZglgZglgJgKgJgKgJgkgJgKgZglgJgkgZglgZglgZglgJgKgJgKgJgKgngogXgYgngogJgKgJgkgJgkgJgKgZglgJgkgJgKgZglgJgkgJgKgJgKgJgkgZglgZglgJgk
+BOARD 0 58 64 0 gZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgGgagngogNgUgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgNgU
+BOARD 0 59 64 0 gpgcgdgkglgmgpgcgZglglgmgpgcgdgkglgmgpgcgdgkglgmgpgcgZglglgmgpgcgdgkglgmgpgcgdgkglgXgVgcgdgkglgXgVgcgZglglgXgpgcgdgkglgmgpgcgdgk
+BOARD 0 60 64 0 gHgMgNgUgVgIgHgMgNgUgVgIgHgMgXgVgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgXgVgVgIgHgMgNgUgVgZglgMgXgVgVgZglgMgNgUgVgZgHgMgNgUgVgIgHgMgXgV
+BOARD 0 61 64 0 gXgPgdgkgegYgXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgZgl
+BOARD 0 62 64 0 gngogNgogXgVgngogNgogngogXgVgNgogngogngogNgogXgVgngogNgogngogXgVgNgogngogXgVgXgVgngogngogNgogngogXgVgNgogXgVgXgVgXgVgngogngogNgo
+BOARD 0 63 64 0 gJgKgJgkgZglgJgKgJgkgJgKgZglgJgkgJgKgJgKgJgkgZglgJgKgJgkgJgKgZglgJgkgJgKgZglgZglgJgKgJgKgJgkgJgKgZglgJgkgZglgZglgZglgJgKgJgKgJgk
+LINK guildventrue_inside_fbd_01.nw 0 0 1 64 61 playery
+SIGN 31 14
+
+         Zackaios Coterie
+SIGNEND
+SIGN 18 22
+
+         Armitage Coterie
+SIGNEND
+SIGN 44 22
+
+            Dala Coterie
+SIGNEND
+SIGN 17 35
+
+           Cappa Coterie
+SIGNEND
+SIGN 45 35
+
+           Racil Coterie
+SIGNEND
+SIGN 37 43
+
+           Mighty Coterie
+SIGNEND
+SIGN 25 43
+
+           FBD Coterie
+SIGNEND
+NPC - 30 9
+// Graal2002 NPC by Stefan Knorr }
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,headc-zackhead.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,shieldc-coterie.png;
+  shieldpower = 3;
+ setcharprop #n,Zackaios;
+
+  ap= 100;
+  dir = 2;
+    x=x+.5;
+  y = y+.7;
+}
+NPCEND
+NPC - 17 17
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,headc-armitagehead2.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #8,body.png;
+  setcharprop #C4,black;
+  setcharprop #2,classicshield-armitagee.png;
+  ap= 100;
+ setcharprop #n,Armitage;
+  x=x+.5;
+  y = y+.7;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 43 17
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,headc-dalahead.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #8,bodyc-coterie.png;
+  setcharprop #C4,black;
+  setcharprop #2,shieldc-coterie.png;
+ setcharprop #n,Dala;
+
+  ap= 100;
+
+
+ shieldpower = 1;
+  dir = 2;
+  x=x+.5;
+  y = y+.7;
+}
+NPCEND
+NPC - 16 30
+// Graal2002 NPC by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-newcappa.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,shieldc-coterie.png;
+  ap= 100;
+ setcharprop #n,Cappa;
+
+ shieldpower = 1;
+  dir = 2;
+   x=x+.5;
+  y = y+.7;
+}
+NPCEND
+NPC - 44 30
+// Graal2002 NPC by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,headc-raicil.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,shieldc-coterie.png;
+  setcharprop #8,body14.png;
+  setcharprop #n,Racil;
+  ap= 100;
+  dir = 2;
+  x = x+0.5;
+  y = y+0.7;
+}
+NPCEND
+NPC coterie.png 23 25
+// NPC made by Armitage Coterie (The Sabbat)
+if (created) {
+}
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC - 56 26
+//#CLIENTSIDE
+// Level effect
+if (playerenters) {
+seteffect 0,0,0,0.5;
+noplayerkilling;
+}
+NPCEND
+NPC fire.gif 34 45
+if (created) {
+  setimg fire.gif;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created||playerenters) {
+  setcoloreffect 1,0.5,0.25,0.99;
+  drawaslight;
+}
+NPCEND
+NPC darkpillar.png 34 47
+// NPC made by Dala Coterie (Ventrue)
+if (created) {dontblock;drawoverplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkpillar.png 26 47
+// NPC made by Dala Coterie (Ventrue)
+if (created) {dontblock;drawoverplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.gif 26 45
+if (created) {
+  setimg fire.gif;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created||playerenters) {
+  setcoloreffect 1,0.5,0.25,0.99;
+  drawaslight;
+}
+NPCEND
+NPC darkpillar.png 13 32
+// NPC made by Dala Coterie (Ventrue)
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.gif 13 30
+if (created) {
+  setimg fire.gif;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created||playerenters) {
+  setcoloreffect 1,0.5,0.25,0.99;
+  drawaslight;
+}
+NPCEND
+NPC fire.gif 14 16
+if (created) {
+  setimg fire.gif;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created||playerenters) {
+  setcoloreffect 1,0.5,0.25,0.99;
+  drawaslight;
+}
+NPCEND
+NPC fire.gif 22 16
+if (created) {
+  setimg fire.gif;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created||playerenters) {
+  setcoloreffect 1,0.5,0.25,0.99;
+  drawaslight;
+}
+NPCEND
+NPC fire.gif 27 9
+if (created) {
+  setimg fire.gif;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created||playerenters) {
+  setcoloreffect 1,0.5,0.25,0.99;
+  drawaslight;
+}
+NPCEND
+NPC fire.gif 35 9
+if (created) {
+  setimg fire.gif;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created||playerenters) {
+  setcoloreffect 1,0.5,0.25,0.99;
+  drawaslight;
+}
+NPCEND
+NPC fire.gif 40 16
+if (created) {
+  setimg fire.gif;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created||playerenters) {
+  setcoloreffect 1,0.5,0.25,0.99;
+  drawaslight;
+}
+NPCEND
+NPC fire.gif 48 16
+if (created) {
+  setimg fire.gif;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created||playerenters) {
+  setcoloreffect 1,0.5,0.25,0.99;
+  drawaslight;
+}
+NPCEND
+NPC fire.gif 49 30
+if (created) {
+  setimg fire.gif;
+  dontblock;
+}
+//#CLIENTSIDE
+if (created||playerenters) {
+  setcoloreffect 1,0.5,0.25,0.99;
+  drawaslight;
+}
+NPCEND
+NPC halloweenc-fog2.png 39 28
+// NPC made by Stev (Potamus)
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setcoloreffect 1,1,1,0.9999999;
+}
+NPCEND
+NPC darkpillar.png 14 18
+// NPC made by Dala Coterie (Ventrue)
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkpillar.png 22 18
+// NPC made by Dala Coterie (Ventrue)
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkpillar.png 27 11
+// NPC made by Dala Coterie (Ventrue)
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkpillar.png 35 11
+// NPC made by Dala Coterie (Ventrue)
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkpillar.png 40 18
+// NPC made by Dala Coterie (Ventrue)
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkpillar.png 48 18
+// NPC made by Dala Coterie (Ventrue)
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkpillar.png 49 32
+// NPC made by Dala Coterie (Ventrue)
+if (created) {dontblock;drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 24 38
+// Graal2002 NPC by Stefan Knorr
+  //#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-fireballdolphonia.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #n,·FBD·;
+  setcharprop #2,classicshield-armitage.png;
+  ap= 100;
+  dir = 2;
+  x = x+0.5;
+  y = y+0.7;
+}
+NPCEND
+NPC - 36 38
+// Graal2002 NPC by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head420.png;
+  setcharprop #8,body3.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,gray;
+  setcharprop #C3,white;
+  setcharprop #C4,black;
+  setcharprop #n,Mighty;
+  setcharprop #2,darkman-shield.png;
+
+  ap= 100;
+  dir = 2;
+  x = x+0.5;
+  y = y+0.7;
+}
+NPCEND
+NPC emoticon_eyes.mng 27 35
+// NPC made by Dala Coterie (The Sabbat)
+if (created) {
+  hide;
+  dontblock;
+}
+if (playerchats) {
+  if (strequals(#c,=O)) {
+    show;
+    sleep 3;
+    hide;
+  }
+}
+NPCEND
+NPC emoticon_eyes.mng 19 27
+// NPC made by Dala Coterie (The Sabbat)
+if (created) {
+  hide;
+  dontblock;
+}
+if (playerchats) {
+  if (strequals(#c,=O)) {
+    show;
+    sleep 3;
+    hide;
+  }
+}
+NPCEND
+NPC emoticon_eyes.mng 20 14
+// NPC made by Dala Coterie (The Sabbat)
+if (created) {
+  hide;
+  dontblock;
+}
+if (playerchats) {
+  if (strequals(#c,=O)) {
+    show;
+    sleep 3;
+    hide;
+  }
+}
+NPCEND
+NPC emoticon_eyes.mng 33 6
+// NPC made by Dala Coterie (The Sabbat)
+if (created) {
+  hide;
+  dontblock;
+}
+if (playerchats) {
+  if (strequals(#c,=O)) {
+    show;
+    sleep 3;
+    hide;
+  }
+}
+NPCEND
+NPC emoticon_eyes.mng 46 14
+// NPC made by Dala Coterie (The Sabbat)
+if (created) {
+  hide;
+  dontblock;
+}
+if (playerchats) {
+  if (strequals(#c,=O)) {
+    show;
+    sleep 3;
+    hide;
+  }
+}
+NPCEND
+NPC emoticon_eyes.mng 47 27
+// NPC made by Dala Coterie (The Sabbat)
+if (created) {
+  hide;
+  dontblock;
+}
+if (playerchats) {
+  if (strequals(#c,=O)) {
+    show;
+    sleep 3;
+    hide;
+  }
+}
+NPCEND
+NPC emoticon_eyes.mng 39 35
+// NPC made by Dala Coterie (The Sabbat)
+if (created) {
+  hide;
+  dontblock;
+}
+if (playerchats) {
+  if (strequals(#c,=O)) {
+    show;
+    sleep 3;
+    hide;
+  }
+}
+NPCEND

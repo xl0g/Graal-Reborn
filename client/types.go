@@ -97,4 +97,5 @@ type ServerMessage struct {
 	AnimSt   string `json:"anim,omitempty"`
 	ItemID   string `json:"item_id,omitempty"`
 	Success  bool   `json:"success,omitempty"`
+	Map      string `json:"map,omitempty"`
 }

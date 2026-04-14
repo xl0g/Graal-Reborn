@@ -1,0 +1,254 @@
+GLEVNW01
+BOARD 0 0 64 0 gNgogOgagZgOgagZgOgagNgogagZgOgagZgOgagZgngogOgZgOgNgUgagZgOgagZgOgagNgogOgagZgOgagZgOgagNgogagZgOgagZgOgagZgngogOgZgOgNgUgagZgO
+BOARD 0 1 64 0 gJgkgngogNgogXgVgcgXgJgkgNgUgcgXgVgcgXgVgJgKgcgVgcgdgkgNgogcgXgVgcgXgJgkgngogNgogXgVgcgXgJgkgNgUgcgXgVgcgXgVgJgKgcgVgcgdgkgNgogc
+BOARD 0 2 64 0 glgMgJgKgJgkgZglgMgZglgMgdgkgMgZglgMgZgNgUgngoglgMgNgUgJgkgMgZglgMgZglgMgJgKgJgkgZglgMgZglgMgdgkgMgZglgMgZgNgUgngoglgMgNgUgJgkgM
+BOARD 0 3 64 0 gZgOgagNgUgOgagZgOgagNgogngogOgagZgOgagdgkgJgKgNgUgdgkgagZgOgagZgNgUgZgOgagNgUgOgagZgOgagNgogngogOgagZgOgagdgkgJgKgNgUgdgkgagZgO
+BOARD 0 4 64 0 glgNgUgdgkgcgXgNgogXgJgkgJgKgNgUgVgcgXgVgNgogZgdgkgNgogXgVgcgXgVgdgkglgNgUgdgkgcgXgNgogXgJgkgJgKgNgUgVgcgXgVgNgogZgdgkgNgogXgVgc
+BOARD 0 5 64 0 gZgdgkgNgogNgUgJgkgngogMgZglgdgkglgMgNgogJgkgVgNgUgJgkgngogMgZgNgogZgZgdgkgNgogNgUgJgkgngogMgZglgdgkglgMgNgogJgkgVgNgUgJgkgngogM
+BOARD 0 6 64 0 glgMgZgJgkgdgkgNgUgJgKgOgagZgOgNgUgOgJgkgngoglgdgkgZgOgJgKgngogJgkgaglgMgZgJgkgdgkgNgUgJgKgOgagZgOgNgUgOgJgkgngoglgdgkgZgOgJgKgn
+BOARD 0 7 64 0 gZgNgUgMgZgNgUgdgkgXgVgNgUgVgcgdgkgngogVgJgKgZgNgogVgcgXgVgJgKgVgcgXgZgNgUgMgZgNgUgdgkgXgVgNgUgVgcgdgkgngogVgJgKgZgNgogVgcgXgVgJ
+BOARD 0 8 64 0 glgdgkgNgUgdgkglgMgZglgdgkgngogNgogJgKglgMgNgUgJgkglgMgZglgngoglgMgZglgdgkgNgUgdgkglgMgZglgdgkgngogNgogJgKglgMgNgUgJgkglgMgZglgn
+BOARD 0 9 64 0 gUgNgogdgkgNgogZgNgUgZgngogJgKgJgkgOgagZgOgdgkgZgOgNgogngogJgKgZgOgagUgNgogdgkgNgogZgNgUgZgngogJgKgJgkgOgagZgOgdgkgZgOgNgogngogJ
+BOARD 0 10 64 0 gkgJgkgXgVgJgkgVgdgkgVgJgKgVgcgXgVgcgXgngogZgOgNgUgJgkgJgKgVgNgogcgXgkgJgkgXgVgJgkgVgdgkgVgJgKgVgcgXgVgcgXgngogZgOgNgUgJgkgJgKgV
+BOARD 0 11 64 0 gNgogOgagZgOgagZgOgagNgogagZgOgagZgOgagZgngogOgZgOgNgUgagZgOgagZgOgagNgogOgagZgOgagZgOgagNgogagZgOgagZgOgagZgngogOgZgOgNgUgagZgO
+BOARD 0 12 64 0 gJgkgngogNgogXgVgcgXgJgkgNgUgcgXgVgcgXgVgJgKgcgVgcgdgkgNgogcgXgVgcgXgJgkgngogNgogXgVgcgXgJgkgNgUgcgXgVgcgXgVgJgKgcgVgcgdgkgNgogc
+BOARD 0 13 64 0 glgMgJgKgJgkgZglgMgZglgMgdgkgMgZglgMgZgNgUgngoglgMgNgUgJgKgJgKglgMgZglgMgJgKgJgkgZglgMgZglgMgdgkgMgZglgMgZgNgUgngoglgMgNgUgJgkgM
+BOARD 0 14 64 0 gZgOgagNgUgOgagZgOgagNgogngogOgagZgOgagdgkgJgKgNgUgdgJgKgagZgagJgKgUgZgOgagNgUgOgagZgOgagJgKgngogOgagZgOgagdgkgJgKgNgUgdgkgagZgO
+BOARD 0 15 64 0 glgNgUgdgkgcgXgNgogXgJgkgJgKgNgUgVgcgXgVgNgogZgdgkgJgKgagqgpgqgZgOgNglgNgUgdgkgcgXgNgJgKgZgagJgKgJgKgVgcgXgVgNgogZgdgkgNgogXgVgc
+BOARD 0 16 64 0 gZgdgkgNgogNgUgJgkgngogMgZglgdgkglgMgNgogJgkgVgNgUgGgagqdndndngpgcgdgZgdgkgNgogNgUgUgGgagpgqgZgagZgJgKgMgNgogJgkgVgNgUgJgkgngogM
+BOARD 0 17 64 0 glgMgZgJgkgdgkgNgUgJgKgOgagZgOgNgUgOgJgkgngoglgdgkglgmdngHgIdndngLgMgNgogZgJgkgdgkgkglgmdpdngpgqgpgZgagJgKgkgngoglgdgkgZgOgJgKgn
+BOARD 0 18 64 0 gZgNgUgMgZgNgUgdgkgXgVgNgUgVgcgdgkgngogVgJgKgZgUgVgWdngL2v+ggWdygbgcgJgKgUgMgJgKgUgUgVgWdndndndndpgpgqgZgOgNgJgKgZgNgogVgcgXgVgJ
+BOARD 0 19 64 0 glgdgkgNgUgdgkglgMgZglgdgkgngogNgogJgKglgMgNgUgkglgmdngb2/+wgmdndngbgZgagJgKgZgagJgKglgmdndndndndndndngpgcgdgMgNgUgJgkglgMgZglgn
+BOARD 0 20 64 0 gUgNgogdgkgNgogZgNgUgZgngogJgKgJgkgOgagZgOgdgkgUgVgWdndngpgqdndndndngpgqgZgagpgqgZgagmdndndndndndndndndngLgMgNgdgkgZgOgNgogngogJ
+BOARD 0 21 64 0 gkgJgkgXgVgJgkgVgdgkgVgJgKgVgcgXgVgcgXgngogZgUgkglgmdndpdndn5MBG5NdpdndngpgqdndpgpgqdngHgIdn5MBG5NdndndpgbgcgdgNgOgNgUgJgkgJgKgV
+BOARD 0 22 64 0 gNgogOgagZgOgagZgOgagNgogagZgOgagZgOgagZgngogkglgmdndndndndnCADEDFdn5MBG5NdndndndndngL2v+ggWCADEDFdn5MBG5NgbgcgdgOgZgOgNgUgagZgO
+BOARD 0 23 64 0 gJgkgngogNgogXgVgcgXgJgkgNgUgcgXgVgcgXgVgJgcgUgVgW5MBG5NdndnCQCRBzdnCADEDFdndpdndndngb2/+wgmCQCRBzdnCADEDFgLgMgNgcgVgcgdgkgNgogc
+BOARD 0 24 64 0 glgMgJgKgJgkgZglgMgZglgMgdgkgMgZglgMgZgXgVgJgKglgmCADEDFdndnCgNqCDdnCQCRBzdn5MBG5NdndngpgqdnCgNqCDdyCQCRBzgbgcgdgoglgMgNgUgJgkgM
+BOARD 0 25 64 0 gZgOgagNgUgOgagZgOgagNgogngogOgagZgJgKgJgKgZgagmdnCQCRBzdndn5cN65ddnCgNqCDdnCADEDFdndndndndn5cN65ddnCgNqCDdngLgMgNgNgUgdgkgagZgO
+BOARD 0 26 64 0 glgNgUgdgkgcgXgNgogXgJgkgJgKgNgJgKgZgagZgagpgqdndnCgNqCDdndndndndndn5cN65ddnCQCRBzdn5MBG5Ndndndndndn5cN65ddngbgcgdgdgkgNgogXgVgc
+BOARD 0 27 64 0 gZgdgkgNgogNgUgJgkgngogMgZglgUgGgagpgqgpgqdndndndn5cN65ddpdndydndndpdndndndnCgNqCDdnCADEDFdpdndndndndndpdngLgMgNgVgNgUgJgkgngogM
+BOARD 0 28 64 0 glgMgZgJgkgdgkgNgUgJgKgOgagZgkglgmdndn5MBG5NdndnnknWnWnldndndndndndndndndndn5cN65ddnCQCRBzdndnnknWnldndndngbgcgdglgdgkgZgOgJgKgn
+BOARD 0 29 64 0 gZgNgUgMgZgNgUgdgkgXgVgNgUgUgVgWdndndyCADEDFdnnkn3cdk2n2nldndndnnknWnldndndndpdndndnCgNqCDdnnkn3k2nHdpdngLgMgNgKgZgNgogVgcgXgVgJ
+BOARD 0 30 64 0 glgdgkgNgUgdgkglgMgZglgdgkgkglgmdndndnCQCRBznkn3cdk2cdk2n2nldpnkn3k2n2nWnldydndndndn5cN65dnkn3k2cdn2nldngbgcgdgNgUgJgkglgMgZglgn
+BOARD 0 31 64 0 gUgNgogdgkgNgogZgNgUgZgngogJgUgVgWdndnCgNqCDn0nnk2cdk2cdk2n2nWn3k2cdk2cdn2nldndndnnknWnWnWn3k2cdk2cdnHdndngLgMgNgkgZgOgNgogngogJ
+BOARD 0 32 64 0 gkgJgkgXgVgJgkgVgdgkgVgJgKgVgkgUgVgWdn5cN65ddnnGcdk2cdk2cdk2cdk2cdk2cdk2cdnHdnnknWn3cdk2cdk2cdk2cdnmn1dndngbgcgdgOgNgUgJgkgJgKgV
+BOARD 0 33 64 0 gNgogOgagZgOgagZgOgagNgogagZgOgkglgmdndndndpdnn0nXnnk2cdk2cdk2cdk2cdk2cdk2n2nWn3k2cdk2cdk2cdk2cdnmn1dngHgIgHgMgNgOgZgOgNgUgagZgO
+BOARD 0 34 64 0 gJgkgngogNgogXgVgcgXgJgkgNgUgcgXgUgVgIdndndndndndnn0nXnncdk2cdk2cdk2cdk2cdk2cdk2cdk2cdk2cdnmnXnXn1dngHgXgYgXgPgdgcgVgcgdgkgNgogc
+BOARD 0 35 64 0 glgMgJgKgJgkgZglgMgZglgMgdgkgMgZgkgegYgHgIdndndndndndpn0nXnXnncdnmnnk2cdk2cdk2cdk2cdk2cdnmn1gHgIdygLgMgNgUgngogngoglgMgNgUgJgkgM
+BOARD 0 36 64 0 gZgOgagNgUgOgagZgOgagNgogngogOgagZgngogXgYgIdndndpdygHgIgHgIn0nXn1n0nXnncdk2cdk2cdk2cdk2nHgL2v+ggWgbgcgdgKgdgkgJgKgNgUgdgkgagZgO
+BOARD 0 37 64 0 glgNgUgdgkgcgXgNgogXgJgkgJgKgNgUgVgcgXgngUgVgWdndngHgXgYgXgYgIdndndndnn0nncdk2nmnncdk2cdnHgb2/+wgmdngLgMgNgVgNgogZgdgkgNgogXgVgc
+BOARD 0 38 64 0 gZgdgkgNgogNgUgJgkgngogMgZglgdgkglgMgNgogkglgmdngHgMgNgogngUgVgIdndndndnn0nXnXn1n0nncdk2n2nlgpgqdndngbgcgdgogJgkgVgNgUgJgkgngogM
+BOARD 0 39 64 0 glgMgZgJgkgdgkgNgUgJgKgOgagZgOgNgUgOgJgkgngUgVgIgXgPgdgJgKgkgegYgIdpdndndndndndpdnnGk2cdk2nHdndngHgIgHgMgNgkgngoglgdgkgZgOgJgKgn
+BOARD 0 40 64 0 gZgNgUgMgZgNgUgdgkgXgVgNgUgVgcgdgkgngogVgJgkgegYgngogcgXgVgJgngUgVgWdngHgIdndndndnn0nnk2nmn1dngHgXgYgXgPgdgVgJgKgZgNgogVgcgXgVgJ
+BOARD 0 41 64 0 glgdgkgNgUgdgkglgMgZglgdgkgngogNgogJgKglgMgNgngogkglgMgZglgngogkgUgVgIgXgYgHgIdndngHgIM1M1gHgIgXgngogngogKglgMgNgUgJgkglgMgZglgn
+BOARD 0 42 64 0 gUgNgogdgkgNgogZgNgUgZgngogJgKgJgkgOgagZgOgdgkgZgOgNgogngogJgKgZgkgegYgngogXgYgHgIgXgYNFNFgXgYgngogJgkgOgagZgOgdgkgZgOgNgogngogJ
+BOARD 0 43 64 0 gkgJgkgXgVgJgkgVgdgkgVgJgKgVgcgXgVgcgXgngogZgOgNgUgJgkgJgKgVgNgogcgngogJgkgngogXgYgngogXgYgngogVgcgXgVgcgXgngogZgOgNgUgJgkgJgKgV
+BOARD 0 44 64 0 gNgogOgagZgOgagZgOgagNgogagZgOgagZgOgagZgngogOgZgOgNgUgagZgOgagZgOgagNgogOgagZgngogZgOgngogogagZgOgagZgOgagZgngogOgZgOgNgUgagZgO
+BOARD 0 45 64 0 gJgkgngogNgogXgVgcgXgJgkgNgUgcgXgVgcgXgVgJgKgcgVgcgdgkgNgogcgXgVgcgXgJgkgngogNgogXgVgcgXgJgkgNgUgcgXgVgcgXgVgJgKgcgVgcgdgkgNgogc
+BOARD 0 46 64 0 glgMgJgKgJgkgZglgMgZglgMgdgkgMgZglgMgZgNgUgngoglgMgNgUgJgkgMgZglgMgZglgMgJgKgJgkgZglgMgZglgMgdgkgMgZglgMgZgNgUgngoglgMgNgUgJgkgM
+BOARD 0 47 64 0 gZgOgagNgUgOgagZgOgagNgogngogOgagZgOgagdgkgJgKgNgUgdgkgagZgOgagZgNgUgZgOgagNgUgOgagZgOgagNgogngogOgagZgOgagdgkgJgKgNgUgdgkgagZgO
+BOARD 0 48 64 0 glgNgUgdgkgcgXgNgogXgJgkgJgKgNgUgVgcgXgVgNgogZgdgkgNgogXgVgcgXgVgdgkglgNgUgdgkgcgXgNgogXgJgkgJgKgNgUgVgcgXgVgNgogZgdgkgNgogXgVgc
+BOARD 0 49 64 0 gZgdgkgNgogNgUgJgkgngogMgZglgdgkglgMgNgogJgkgVgNgUgJgkgngogMgZgNgogZgZgdgkgNgogNgUgJgkgngogMgZglgdgkglgMgNgogJgkgVgNgUgJgkgngogM
+BOARD 0 50 64 0 glgMgZgJgkgdgkgNgUgJgKgOgagZgOgNgUgOgJgkgngoglgdgkgZgOgJgKgngogJgkgaglgMgZgJgkgdgkgNgUgJgKgOgagZgOgNgUgOgJgkgngoglgdgkgZgOgJgKgn
+BOARD 0 51 64 0 gZgNgUgMgZgNgUgdgkgXgVgNgUgVgcgdgkgngogVgJgKgZgNgogVgcgXgVgJgKgVgcgXgZgNgUgMgZgNgUgdgkgXgVgNgUgVgcgdgkgngogVgJgKgZgNgogVgcgXgVgJ
+BOARD 0 52 64 0 glgdgkgNgUgdgkglgMgZglgdgkgngogNgogJgKglgMgNgUgJgkglgMgZglgngoglgMgZglgdgkgNgUgdgkglgMgZglgdgkgngogNgogJgKglgMgNgUgJgkglgMgZglgn
+BOARD 0 53 64 0 gUgNgogdgkgNgogZgNgUgZgngogJgKgJgkgOgagZgOgdgkgZgOgNgogngogJgKgZgOgagUgNgogdgkgNgogZgNgUgZgngogJgKgJgkgOgagZgOgdgkgZgOgNgogngogJ
+BOARD 0 54 64 0 gkgJgkgXgVgJgkgVgdgkgVgJgKgVgcgXgVgcgXgngogZgOgNgUgJgkgJgKgVgNgogcgXgkgJgkgXgVgJgkgVgdgkgVgJgKgVgcgXgVgcgXgngogZgOgNgUgJgkgJgKgV
+BOARD 0 55 64 0 gNgogOgagZgOgagZgOgagNgogagZgOgagZgOgagZgngogOgZgOgNgUgagZgOgagZgOgagNgogOgagZgOgagZgOgagNgogagZgOgagZgOgagZgngogOgZgOgNgUgagZgO
+BOARD 0 56 64 0 gJgkgngogNgogXgVgcgXgJgkgNgUgcgXgVgcgXgVgJgKgcgVgcgdgkgNgogcgXgVgcgXgJgkgngogNgogXgVgcgXgJgkgNgUgcgXgVgcgXgVgJgKgcgVgcgdgkgNgogc
+BOARD 0 57 64 0 glgMgJgKgJgkgZglgMgZglgMgdgkgMgZglgMgZgNgUgngoglgMgNgUgJgkgMgZglgMgZglgMgJgKgJgkgZglgMgZglgMgdgkgMgZglgMgZgNgUgngoglgMgNgUgJgkgM
+BOARD 0 58 64 0 gZgOgagNgUgOgagZgOgagNgogngogOgagZgOgagdgkgJgKgNgUgdgkgagZgOgagZgNgUgZgOgagNgUgOgagZgOgagNgogngogOgagZgOgagdgkgJgKgNgUgdgkgagZgO
+BOARD 0 59 64 0 glgNgUgdgkgcgXgNgogXgJgkgJgKgNgUgVgcgXgVgNgogZgdgkgNgogXgVgcgXgVgdgkglgNgUgdgkgcgXgNgogXgJgkgJgKgNgUgVgcgXgVgNgogZgdgkgNgogXgVgc
+BOARD 0 60 64 0 gZgdgkgNgogNgUgJgkgngogMgZglgdgkglgMgNgogJgkgVgNgUgJgkgngogMgZgNgogZgZgdgkgNgogNgUgJgkgngogMgZglgdgkglgMgNgogJgkgVgNgUgJgkgngogM
+BOARD 0 61 64 0 glgMgZgJgkgdgkgNgUgJgKgOgagZgOgNgUgOgJgkgngoglgdgkgZgOgJgKgngogJgkgaglgMgZgJgkgdgkgNgUgJgKgOgagZgOgNgUgOgJgkgngoglgdgkgZgOgJgKgn
+BOARD 0 62 64 0 gZgNgUgMgZgNgUgdgkgXgVgNgUgVgcgdgkgngogVgJgKgZgNgogVgcgXgVgJgKgVgcgXgZgNgUgMgZgNgUgdgkgXgVgNgUgVgcgdgkgngogVgJgKgZgNgogVgcgXgVgJ
+BOARD 0 63 64 0 glgdgkgNgUgdgkglgMgZglgdgkgngogNgogJgKglgMgNgUgJgkglgMgZglgngoglgMgZglgdgkgNgUgdgkglgMgZglgdgkgngogNgogJgKglgMgNgUgJgkglgMgZglgn
+LINK guildventrue_inside_violet_01.nw 43 42 2 1 44.5 7
+SIGN 20 32
+            Bell Darkmane
+SIGNEND
+SIGN 26 27
+             Soul Sedicius
+SIGNEND
+SIGN 31 25
+             Spyke Sedicius
+SIGNEND
+SIGN 35 26
+            Lufish Sedicius
+SIGNEND
+SIGN 39 28
+             Midi Sedicius
+SIGNEND
+SIGN 43 30
+            Ryoga Sedicius
+SIGNEND
+SIGN 47 25
+            Fifi Darkmane
+SIGNEND
+SIGN 51 26
+           Moonie Darkmane
+SIGNEND
+NPC fire.mng 28 16
+//#CLIENTSIDE
+if (created) {
+  setcoloreffect 1,1,1,.9;
+}
+NPCEND
+NPC fire.mng 46 34
+//#CLIENTSIDE
+if (created) {
+  setcoloreffect 1,1,1,.9;
+}
+NPCEND
+NPC - 30 20
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head418.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,shieldc-soviet.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 34 21
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-lufish.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,red;
+  setcharprop #C2,red;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield.png;
+  setcharprop #8,body5.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 38 23
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,headc-midi1.png;
+  setcharprop #C0,gray;
+  setcharprop #C1,red;
+  setcharprop #C2,white;
+  setcharprop #C3,black;
+  setcharprop #C4,blue;
+  setcharprop #2,no-shield.png;
+  setcharprop #8,bodyc-suit.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 42 25
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,headc-corruptcorruptcorrupt.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,orange;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,blackscabbard-shield.png;
+  setcharprop #8,body14.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 25 22
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-demonking1.png;
+  setcharprop #C0,red;
+  setcharprop #C1,black;
+  setcharprop #C2,darkblue;
+  setcharprop #C3,blue;
+  setcharprop #C4,green;
+  setcharprop #2,kaizerscabbard-shield.png;
+  setcharprop #8,classicbody-raidenrekon.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 50 21
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-cherryblossomgirl9.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,purple;
+  setcharprop #C2,purple;
+  setcharprop #C3,orange;
+  setcharprop #C4,darkpurple;
+  setcharprop #2,no-shield.png;
+  setcharprop #8,classicbody-chelsie1.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC fire.mng 43 20
+//#CLIENTSIDE
+if (created) {
+  setcoloreffect 1,1,1,.9;
+}
+NPCEND
+NPC - 19 27
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-nikomi946.png;
+  setcharprop #C0,lightgray;
+  setcharprop #C1,black;
+  setcharprop #C2,darkred;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield.png;
+  setcharprop #8,bodyc-kelcloakbody.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC rockdoord.png 42 41
+// NPC made by Bell Ðarkmåne (The Sabbat)
+//#CLIENTSIDE
+if (created) dontblock; drawunderplayer;
+NPCEND
+NPC - 46 20
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,headc-pongi-1.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 24 41
+// NPC made by wazza
+//#CLIENTSIDE
+// Level effect
+if (playerenters) {seteffect 0,0,0,0.4;
+}
+NPCEND

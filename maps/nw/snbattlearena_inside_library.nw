@@ -1,0 +1,416 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4lAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlBJ4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4lElglllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllllklllklllhlFJ4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4lEl0mAmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmkmlmkmlmBl1lFJ4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4lEmEm0mglHlGlHlGlHlGlHjojplGlHlGlHlGlHlGjojplHlGlHlGlHlGjojplHlGlHlGlHlGlHjojplGlHlGlHlHlGlHmhm1mFlFJ4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4lEl0nElWnAmWmWmWmWmWmWj4j5mWmWmWmWmWmWmWj4j5mWmWmWmWmWmWj4j5mWmWmWmWmWmWmWj4j5mWmWmWmWmWmWnBlXnFl1lFJ4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4lEmEm0lmmGngmWmWmWmWmWkIkJmWmWmWmWmWmWmWkIkJmWmWmWmWmWmWkIkJmWmWmWmWmWmWmWkIkJmWmWmWmWmWnhmHlnm1mFlFJ4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J4lEl0jqjrjsjtnknWnWcFcGcGcGcGcGcGcGcGcGcGcGcGcHnWnWnWnWcFcGcGcGcGcGcGcGcGcGcGcGcGcHnWnWnlkKkLkMkNl1lFJ4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4J4lEl0j6j7j8j9nGk3k3cVcWcWcWcWcWcWcWcWcWcWcWcWcXk3k3k3k3cVcWcWcWcWcWcWcWcWcWcWcWcWcXk3k3nHkakbkckdl1lFJ4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4J4J4lEmEkqkrksktnGk3k3clcmcmdHcmcmcmdHcmdHcmdHcmcnk3k3k3k3clcmcmdHcmcmcmdHcmdHcmdHcmcnk3k3nHlKlLlMlNl1lFJ4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4J4J4lEl0k6k7k8k9nGk3k3cVcWcWcWcWi5i6cWcWcWcWcWcWcXk3k3k3k3cVcWcWi5i6cWcWcWcWcWcWcWcWcXk3k3nHlalblcldmFlFJ4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4J4J4lEmEkqkrksktnGk3k3clcmcmdHcmjJjKdHcmdHcmdHcmcnk3k3k3k3clcmcmjJjKcmcmdHcmdHcmdHcmcnk3k3nHlKlLlMlNl1lFJ4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4J4J4lEl0k6k7k8k9nGk3k3c1c2c2c2c2jZjac2c2c2c2c2c2c3k3k3k3k3c1c2c2jZjac2c2c2c2c2c2c2c2c3k3k3nHlalblcldmFlFJ4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4J4J4lEmEjqjrjsjtnGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHkKkLkMkNl1lFJ4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4J4J4lEl0j6j7j8j9nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHkakbkckdmFlFJ4J4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J4J4J4lEmEk6k7k8k9nGk3k3cFcGcGcGcGcGcGcGcGcGcGcGcGcHk3k3k3k3cFcGcGcGcGcGcGcGcGcGcGcGcGcHk3k3nHlKlLlMlNl1lFJ4J4J4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4J4J4J4lEl0kqkrksktnGk3k3cVcWcWcWcWcWcWcWcWcWcWcWcWcXk3k3k3k3cVcWcWcWcWcWcWcWcWcWcWcWcWcXk3k3nHlalblcldmFlFJ4J4J4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4J4J4J4lEmEk6k7k8k9nGk3k3clcmcmdHcmcmcmdHcmdHcmdHcmcnk3k3k3k3clcmcmdHcmcmcmdHcmdHcmdHcmcnk3k3nHlKlLlMlNl1lFJ4J4J4J4J4J4J4
+BOARD 0 19 64 0 J4J4J4J4J4J4J4lEl0jqjrjsjtnGk3k3cVcWcWcWcWcWcWi5i6cWcWcWcWcXk3k3k3k3cVcWcWcWcWcWcWcWcWi5i6cWcWcXk3k3nHlalblcldl1lFJ4J4J4J4J4J4J4
+BOARD 0 20 64 0 J4J4J4J4J4J4J4lEl0j6j7j8j9nGk3k3clcmcmdHcmcmcmjJjKdHcmdHcmcnk3k3k3k3clcmcmdHcmcmcmdHdHjJjKdHcmcnk3k3nHkKkLkMkNmFlFJ4J4J4J4J4J4J4
+BOARD 0 21 64 0 J4J4J4J4J4J4J4lEmEkqkrksktnGk3k3c1c2c2c2c2c2c2jZjac2c2c2c2c3k3k3k3k3c1c2c2c2c2c2c2c2c2jZjac2c2c3k3k3nHkakbkckdl1lFJ4J4J4J4J4J4J4
+BOARD 0 22 64 0 J4J4J4J4J4J4J4lEl0k6k7k8k9nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHlalblcldmFlFJ4J4J4J4J4J4J4
+BOARD 0 23 64 0 J4J4J4J4J4J4J4lEmEkqkrksktnGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHlKlLlMlNl1lFJ4J4J4J4J4J4J4
+BOARD 0 24 64 0 J4J4J4J4J4J4J4lEl0k6k7k8k9nGk3k3cFcGcGcGcGcGcGcGcGcGcGcGcGcHk3k3k3k3cFcGcGcGcGcGcGcGcGcGcGcGcGcHk3k3nHlalblcldmFlFJ4J4J4J4J4J4J4
+BOARD 0 25 64 0 J4J4J4J4J4J4J4lEmEjqjrjsjtnGk3k3cVcWcWcWcWcWcWcWcWcWcWcWcWcXk3k3k3k3cVcWcWcWcWcWcWcWcWcWcWcWcWcXk3k3nHkKkLkMkNl1lFJ4J4J4J4J4J4J4
+BOARD 0 26 64 0 J4J4J4J4J4J4J4lEl0j6j7j8j9nGk3k3clcmcmdHcmcmcmdHcmdHcmdHcmcnk3k3k3k3clcmcmdHcmcmcmdHcmdHcmdHcmcnk3k3nHkakbkckdmFlFJ4J4J4J4J4J4J4
+BOARD 0 27 64 0 J4J4J4J4J4J4J4lEl0kqkrksktnGk3k3cVcWcWi5i6cWcWcWcWcWcWcWcWcXk3k3k3k3cVcWcWcWcWi5i6cWcWcWcWcWcWcXk3k3nHlKlLlMlNl1lFJ4J4J4J4J4J4J4
+BOARD 0 28 64 0 J4J4J4J4J4J4J4lEl0k6k7k8k9nGk3k3clcmcmjJjKcmcmdHcmdHcmdHcmcnk3k3k3k3clcmcmdHcmjJjKcmcmdHcmdHcmcnk3k3nHlalblcldmFlFJ4J4J4J4J4J4J4
+BOARD 0 29 64 0 J4J4J4J4J4J4J4lEl0kqkrksktnGk3k3c1c2c2jZjac2c2c2c2c2c2c2c2c3k3k3k3k3c1c2c2c2c2jZjac2c2c2c2c2c2c3k3k3nHlKlLlMlNl1lFJ4J4J4J4J4J4J4
+BOARD 0 30 64 0 J4J4J4J4J4J4J4lEmEk6k7k8k9nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHlalblcldl1lFJ4J4J4J4J4J4J4
+BOARD 0 31 64 0 J4J4J4J4J4J4J4lEl0jqjrjsjtnGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHkKkLkMkNmFlFJ4J4J4J4J4J4J4
+BOARD 0 32 64 0 J4J4J4J4J4J4J4lEmEj6j7j8j9nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHkakbkckdl1lFJ4J4J4J4J4J4J4
+BOARD 0 33 64 0 J4J4J4J4J4J4J4lEl0nElWmGmGn0nXnXnXnXnXnXnXionXnXirnXnXnXnXnXnXnXnXnXnXnXnXnXnXionXnXirnXnXnXnXnXnXnXn1mHmHlXnFl1lFJ4J4J4J4J4J4J4
+BOARD 0 34 64 0 J4J4J4J4J4J4J4lElglllklllklllklklllklllklli4ipiqi7lklllklllklllklllklllklllklli4ipiqi7lllklllklllklllllklllklllhlFJ4J4J4J4J4J4J4
+BOARD 0 35 64 0 J4J4J4J4J4J4J4lEl0mAmlmkmlmkmlmlmkmlmkmlmki4i5i6i7mlmkmlmkmlmkmlmkmlmkmlmkmlmki4i5i6i7mkmlmkmlmkmlmkmkmlmkmlmBl1lFJ4J4J4J4J4J4J4
+BOARD 0 36 64 0 J4J4J4J4J4J4J4lEmEm0mglHlGlHlGlGlHlGjojplHi4i5i6i7lGjojplHlGlHlGlHlGlHlGjojplHi4i5i6i7lHjojplGlHlGlHlHlGlHmhm1mFlFJ4J4J4J4J4J4J4
+BOARD 0 37 64 0 J4J4J4J4J4J4J4lEl0nElWnAmWmWmWmWmWmWj4j5mWjIjJjKjLmWj4j5mWmWmWmWmWmWmWmWj4j5mWjIjJjKjLmWj4j5mWmWmWmWmWmWnBlXnFl1lFJ4J4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4J4J4J4lEmEm0lmmGngmWmWmWmWmWkIkJmWjYjZjajbmWkIkJmWmWmWmWmWmWmWmWkIkJmWjYjZjajbmWkIkJmWmWmWmWmWnhmHlnm1mFlFJ4J4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4J4J4J4lEl0jqjrjsjtnknWnWnWnWkYkZnWnWnWnWnWnWkYkZnWnWnWnWnWnWnWnWkYkZnWnWnWnWnWnWkYkZnWnWnWnWnlkKkLkMkNl1lFJ4J4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4J4J4lEl0j6j7j8j9nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHkakbkckdmFlFJ4J4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4J4J4lEmEkqkrksktnGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3VoVpk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHlKlLlMlNl1lFJ4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4J4J4lEl0k6k7k8k9nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3V4V5k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHlalblcldmFlFJ4J4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4J4J4J4lEmEkqkrksktnGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHlKlLlMlNl1lFJ4J4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4J4J4lEl0k6k7k8k9nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHlalblcldmFlFJ4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4J4J4J4lEmEjqjrjsjtnGk3k3k3k3LILJLKLJLKKrk3k3k3k3k3k3k3k3k3k3k3k3k3k3LILJLKLJLKKrk3k3k3k3k3k3nHkKkLkMkNl1lFJ4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4lEl0j6j7j8j9nGk3k3k3k3LYLZLaLZLaK7k3k3k3k3k3k3k3k3k3k3k3k3k3k3LYLZLaLZLaK7k3k3k3k3k3k3nHkakbkckdmFlFJ4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4lEmEkqkrksktnGk3k3k3k3LYLZLaLZLaK7k3k3k3k3k3k3k3k3k3k3k3k3k3k3LYLZLaLZLaK7k3k3k3k3k3k3nHlKlLlMlNl1lFJ4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4lEl0k6k7k8k9nGk3k3k3k3LoLpLqLpLqLLk3k3k3k3k3k3k3k3k3k3k3k3k3k3LoLpLqLpLqLLk3k3k3k3k3k3nHlalblcldmFlFJ4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4lEmEkqkrksktnGk3k3k3k3k3k3KpKqk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHlKlLlMlNl1lFJ4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4lEl0k6k7k8k9nGk3k3k3k3k3k3K5K6k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHlalblcldmFlFJ4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4lEmEjqjrjsjtnGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHkKkLkMkNl1lFJ4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4lEl0j6j7j8j9nGk3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3nHkakbkckdmFlFJ4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4lEmEm0lmmGmGn0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1mHmHlnm1mFlFJ4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4lEl0nElWmGnwmXmXmXmXmXmXmXmXmXmXmXmXmXmXj2j3iIkpkpkpiJj2j3mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxmHlXnFl1lFJ4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4lEmEm0lmnQmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXkGkHiYk5k5k5iZkGkHmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnRlnm1mFlFJ4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4lEl0nEmwl3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2kWkXh8h8h8h9h+kWkXl2l3l2l3l2l3l2l3l2l3l2l3l2l3l3l2l3mxnFl1lFJ4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4lEmEmQnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnUnVnUnVmRmFlFJ4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4lElwmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmVmUmVmUmVlxlFJ4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4lQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlRJ4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK snbattlearena_inside_03.nw 30 54 3 1 22.5 45.5
+SIGN 31 42
+Welcome to the Battle Arena
+library. Have a browse!
+SIGNEND
+SIGN 0 0
+Argg.. I'm reading, go away.
+SIGNEND
+SIGN 0 0
+Give this a read when i'm done.
+SIGNEND
+SIGN 0 0
+Bah, can't ever find what
+I want..
+SIGNEND
+SIGN 0 0
+This library has many decades
+of wisdom. From techniques,
+to war stories, to personal 
+diaries.. there's so much..
+SIGNEND
+SIGN 0 0
+Duelling is hard.. I love to relax
+with a good book.
+SIGNEND
+SIGN 0 0
+Damn, where'd that librarian
+go?
+SIGNEND
+SIGN 0 0
+Leave me alone.
+SIGNEND
+SIGN 0 0
+I need help with these stairs!
+SIGNEND
+SIGN 0 0
+This place has the best
+collection ever.
+SIGNEND
+SIGN 0 0
+Sigh, I can't find the book i'm
+looking foor, umm..
+SIGNEND
+SIGN 0 0
+Whoa, almost fell.
+SIGNEND
+SIGN 0 0
+Guide to forging gelats.
+SIGNEND
+SIGN 0 0
+This place isn't very organized.
+SIGNEND
+SIGN 0 0
+Can't reach!!!
+SIGNEND
+NPC - 21 42
+// SpeechStore NPC by Lord Izlude
+if (created) {
+  showcharacter;
+  setcharprop #3,head16.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,gray;
+  setcharprop #C2,darkblue;
+  setcharprop #C3,darkblue;
+  setcharprop #C4,darkblue;
+  setcharprop #n,Knight;
+  setcharprop #2,shield3.gif;
+  shieldpower = 1;
+  dir = 2;
+  sprite = 19;
+  x+=0.5;
+}
+if (playertouchsme) say 2;
+NPCEND
+NPC - 40 42
+// Graal v1.27 NPC by Stefan Knorr
+if (created) {
+  showcharacter;
+  setcharprop #3,head16.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,gray;
+  setcharprop #C2,darkblue;
+  setcharprop #C3,darkblue;
+  setcharprop #C4,darkblue;
+  setcharprop #n,Knight;
+  setcharprop #2,shield3.gif;
+  shieldpower = 1;
+  dir = 2;
+  sprite = 19;
+  x+=0.5;
+}
+if (playertouchsme) say 5;
+NPCEND
+NPC - 18 42
+// Graal v1.27 NPC by Stefan Knorr
+if (created) {
+  showcharacter;
+  setcharprop #3,head16.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,gray;
+  setcharprop #C2,darkblue;
+  setcharprop #C3,darkblue;
+  setcharprop #C4,darkblue;
+  setcharprop #n,Knight;
+  setcharprop #2,shield3.gif;
+  dir = 2;
+  sprite = 19;
+  x+=0.5;
+}
+if (playertouchsme) say 3;
+NPCEND
+NPC - 16 45
+// Graal v1.27 NPC by Stefan Knorr
+if (created) {
+  showcharacter;
+  setcharprop #3,head16.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,gray;
+  setcharprop #C2,darkblue;
+  setcharprop #C3,darkblue;
+  setcharprop #C4,darkblue;
+  setcharprop #n,Knight;
+  setcharprop #2,shield3.gif;
+  dir = 3;
+  sprite = 19;
+}
+if (playertouchsme) say 4;
+NPCEND
+NPC - 19 48
+// Graal v1.27 NPC by Stefan Knorr
+if (created) {
+  showcharacter;
+  setcharprop #3,head16.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,gray;
+  setcharprop #C2,darkblue;
+  setcharprop #C3,darkblue;
+  setcharprop #C4,darkblue;
+  setcharprop #n,Knight;
+  setcharprop #2,shield3.gif;
+  dir = 0;
+  sprite = 37;
+  x+=0.5;
+}
+if (playertouchsme) say 1;
+NPCEND
+NPC - 36 45
+// Graal v1.27 NPC by Stefan Knorr
+if (created) {
+  showcharacter;
+  setcharprop #3,head16.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,gray;
+  setcharprop #C2,darkblue;
+  setcharprop #C3,darkblue;
+  setcharprop #C4,darkblue;
+  setcharprop #n,Knight;
+  setcharprop #2,shield3.gif;
+  dir = 3;
+  sprite = 19;
+}
+if (playertouchsme) say 7;
+NPCEND
+NPC - 43 45
+// Graal v1.27 NPC by Stefan Knorr
+if (created) {
+  showcharacter;
+  setcharprop #3,head16.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,gray;
+  setcharprop #C2,darkblue;
+  setcharprop #C3,darkblue;
+  setcharprop #C4,darkblue;
+  setcharprop #n,Knight;
+  setcharprop #2,shield3.gif;
+  dir = 1;
+  sprite = 19;
+}
+if (playertouchsme) say 9;
+NPCEND
+NPC - 39 21
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+Techniques of the Ninja;
+NPCEND
+NPC - 43 29
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+It may be wise to take heart in#b
+what people say.;
+NPCEND
+NPC - 21 21
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+SuperNick's log#b
+#b
+SuperNickx2@hotmail.com;
+NPCEND
+NPC - 25 21
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+Contact me on#b
+AIM: SuperNickX;
+NPCEND
+NPC - 27 21
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+Lots of books..;
+NPCEND
+NPC - 35 21
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+Join our ranks.;
+NPCEND
+NPC - 17 21
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+*You open the book and discover#b
+there is nothing but blank pages*;
+NPCEND
+NPC - 17 29
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+Legend of the Graal;
+NPCEND
+NPC - 19 26
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+Weapon guide. How to become#b
+a perfect warrior.;
+NPCEND
+NPC - 21 29
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+Sparring techniques#b
+#b
+- By SuperNick;
+NPCEND
+NPC - 23 29
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+The Stealth Technique;
+NPCEND
+NPC - 25 29
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+Battle royal. SuperNick and his#b
+foes.#b
+14/04/04;
+NPCEND
+NPC - 27 29
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+SuperNick's personal diary;
+NPCEND
+NPC - 31 42
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+Welcome to the Battle Arena#b
+library. Have a browse!;
+NPCEND
+NPC - 37 29
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+This library holds many books.;
+NPCEND
+NPC - 41 29
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+In this castle not everything is#b
+what it seems,  there are many#b
+secret passages that lead to#b
+treasures and new areas.;
+NPCEND
+NPC - 35 29
+join sign;
+
+//#CLIENTSIDE
+if (playerenters) setstring this.text,
+Battle arena construction log..#b
+#b
+14/04/04 -#b
+Added new rooms#b
+Fixed multiple problems#b
+New tile and NPC additions#b
+New outdoor levels#b
+New hidden secrets;
+NPCEND
+NPC - 37 9
+
+//#CLIENTSIDE
+/*
+function onCreated() {
+  setshape(1,32,32);
+}
+
+function onActionPull(pulldir) {
+  if (pulldir == 2)
+    npcs[testnpc(30.5,9.5)].trigger("Activate",NULL);
+}
+*/
+NPCEND
+NPC - 30 9
+/*
+join("warp_jewel");
+function onCreated() {
+  this.loctype  = "spars";
+  this.locindex = 1;
+}
+*/
+
+//#CLIENTSIDE
+/*
+function onCreated() {
+  this.loctype  = "spars";
+  this.locindex = 1;
+}
+*/
+NPCEND

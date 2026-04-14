@@ -1,0 +1,282 @@
+GLEVNW01
+BOARD 0 0 64 0 lAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlB
+BOARD 0 1 64 0 lElglllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllllklllklllhlF
+BOARD 0 2 64 0 lEl0mAmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmlmkmlmBl1lF
+BOARD 0 3 64 0 lEmEm0mglHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGjojpjojphshththujojpjojplHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlHlGlGlHmhm1mFlF
+BOARD 0 4 64 0 lEl0nElWnAmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWj4j5j4j5iKbJbKiMj4j5j4j5mWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnBlXnFl1lF
+BOARD 0 5 64 0 lEmEm0lmmGngmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWkIkJkIkJiabZbaickIkJkIkJmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnhmHlnm1mFlF
+BOARD 0 6 64 0 lEl0nElWmGmGnknWnWnWnWnWnWnWnWnWnWnWnWnWKsKtKsKtKsKtkYkZkYkZnWnWnWnWkYkZkYkZKsKtKsKtKsKtnWnWnWnWnWnWnWnWnWnWnWnWnWnlmHmHlXnFl1lF
+BOARD 0 7 64 0 lEmEm0lmmGmGnGm3m2m3m2m3m2m3m2m3m2m3m2m3K8K9K8K9K8K9m2m3m2m3m2m3m2m3m2m3m2m3K8K9K8K9K8K9m2m3m2m3m2m3m2m3m2m3m2m3m2nHmHmHlnm1mFlF
+BOARD 0 8 64 0 lEl0nElWmGmGnGmnbqbrmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnbqbrmmnHmHmHlXnFl1lF
+BOARD 0 9 64 0 lEmEm0lmmGmGnGm3b6b7m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3b6b7m2nHmHmHlnm1mFlF
+BOARD 0 10 64 0 lEl0nElWmGmGnGmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmnHmHmHlXnFl1lF
+BOARD 0 11 64 0 lEmEm0lmmGmGn0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1mHmHlnm1mFlF
+BOARD 0 12 64 0 lEl0nElWmGmGmAmlmkmlmkmkmlmkmlkoC6C5komkmlkoC6C5komkmlkoC6C5komkmlkoC6C5komkmlkoC6C5komkmlkoC6C5komkmlmkmlmkmlmkmlmBmHmHlXnFl1lF
+BOARD 0 13 64 0 lEmEm0lmmGmGm0mglHlGlHlHlGjojplHlGlHlGjojplHlGlHlGjojplHlGlHlGjojplHlGlHlGjojplHlGlHlGjojplHlGlHlGjojplHlGlGlGlHmhm1mHmHlnm1mFlF
+BOARD 0 14 64 0 lEl0nElWmGmGnElWnAmWmWmWmWj4j5mWmWmWmWj4j5mWmWmWmWj4j5mWmWmWmWj4j5mWmWmWmWj4j5mWmWmWmWj4j5mWmWmWmWj4j5mWmWmWmWnBlXnFmHmHlXnFl1lF
+BOARD 0 15 64 0 lEmEm0lmmGmGm0lmmGngmWmWmWkIkJmWmWmWmWkIkJmWmWmWmWkIkJmWmWmWmWkIkJmWmWmWmWkIkJmWmWmWmWkIkJmWmWmWmWkIkJmWmWmWnhmHlnm1mHmHlnm1mFlF
+BOARD 0 16 64 0 lEl0nElWmGmGnElWmGmGnknWnWkYkZnWnWnWnWkYkZnWnWnWnWkYkZnWnWnWnWkYkZnWnWnWnWkYkZnWnWnWnWkYkZnWnWnWnWkYkZnWnWnlmHmHlXnFmHmHlXnFl1lF
+BOARD 0 17 64 0 lEmEm0lmmGmGm0lmmGmGnGm3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 18 64 0 lEl0nElWmGmGnElWmGmGnGmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 19 64 0 lEmEm0lmmGmGm0lmmGmGnGm3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 20 64 0 lEl0nElWmGmGnElWmGmGnGmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 21 64 0 lEmEm0lmmGmGm0lmmGmGnGm3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 22 64 0 lEl0nElWmGmGnElWmGmGnGmnmmmnmmmnkokoknknknknknknknknknknknknknknknknknknknknknknknknknknknknkokommmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 23 64 0 lEmEm0lmmGmGm0lmmGmGnGm3m2m3m2m3kokoknknknknknknknknknknknknknknknknknknknknknknknknknknknknkokom2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 24 64 0 lEl0nElWmGmGnElWmGmGnGmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 25 64 0 lEmEm0lmmGmGm0lmmGmGnGm3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 26 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 27 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 28 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnkokommmnmmmnkokoknknknknknknknknknknknknknknknknkokommmnmmmnkokommmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 29 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3kokom2m3m2m3kokoknknknknknknknknknknknknknknknknkokom2m3m2m3kokom2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 30 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnk4k4mmmnmmmnk4k4mmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnk4k4mmmnmmmnk4k4mmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 31 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3k4k4m2m3m2m3k4k4m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3k4k4m2m3m2m3k4k4m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 32 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnk4k4mmmnmmmnkokommmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnkokommmnmmmnk4k4mmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 33 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3k4k4m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3k4k4m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 34 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnk4k4mmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnk4k4mmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 35 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3k4k4m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3k4k4m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 36 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnk4k4mmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnk4k4mmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 37 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3k4k4m2m3m2m3kokom2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3kokom2m3m2m3k4k4m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 38 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnk4k4mmmnmmmnk4k4mmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnk4k4mmmnmmmnk4k4mmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 39 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3k4k4m2m3m2m3k4k4m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3k4k4m2m3m2m3k4k4m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 40 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnk4k4mmmnmmmnkokoknknknknknknknknknknknknknknknknkokommmnmmmnk4k4mmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 41 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3k4k4m2m3m2m3kokoknknknknknknknknknknknknknknknknkokom2m3m2m3k4k4m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 42 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnk4k4mmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnk4k4mmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 43 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3k4k4m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3k4k4m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 44 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnk4k4mmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnk4k4mmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 45 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3k4k4m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3k4k4m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 46 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnkokoknknknknknknknknknkommmnmmmnmmmnmmmnkoknknknknknknknknknkokommmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 47 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3kokoknknknknknknknknknkom2m3m2m3m2m3m2m3koknknknknknknknknknkokom2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 48 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 49 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 50 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 51 64 0 lEmEm0lmmGmGnElWmGmGnGm3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2nHmHmHlnm1mHmHlnm1mFlF
+BOARD 0 52 64 0 lEl0nElWmGmGm0lmmGmGnGmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmnHmHmHlXnFmHmHlXnFl1lF
+BOARD 0 53 64 0 lEmEm0lmmGmGnElWmGmGn0nXnXjmjnnXnXnXnXjmjnnXnXnXnXjmjnnXnXnXnXnXnXnXnXnXnXjmjnnXnXnXnXjmjnnXnXnXnXjmjnnXnXn1mHmHlnm1mHmHlnm1mFlF
+BOARD 0 54 64 0 lEl0nElWmGmGnElWmGnwmXmXmXj2j3mXmXmXmXj2j3mXmXmXmXj2j3mXmXiIjJjKjJjKiJmXmXj2j3mXmXmXmXj2j3mXmXmXmXj2j3mXmXmXnxmHlXnFmHmHlXnFl1lF
+BOARD 0 55 64 0 lEmEm0lmmGmGm0lmnQmXmXmXmXkGkHmXmXmXmXkGkHmXmXmXmXkGkHmXmXiYi5i6i5i6iZmXmXkGkHmXmXmXmXkGkHmXmXmXmXkGkHmXmXmXmXnRlnm1mHmHlnm1mFlF
+BOARD 0 56 64 0 lEl0nElWmGmGnEmwl3l2l3l2l3kWkXl2l3l3l3kWkXl2l3l3l3kWkXl2l3h8h9h9h9h9h+l2l3kWkXl3l3l2l3kWkXl2l3l3l3kWkXl3l3l2l2l3mxnFmHmHlXnFl1lF
+BOARD 0 57 64 0 lEmEm0lmmGmGmQnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnVmRmHmHlnm1mFlF
+BOARD 0 58 64 0 lEl0nElWmGnwmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxmHlXnFl1lF
+BOARD 0 59 64 0 lEmEm0lmnQmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnRlnm1mFlF
+BOARD 0 60 64 0 lEl0nEmwl3l2l3l3l3l2l3l3l3l3l3l2l3l2l3l3l3l3l3l2l3l3l3l2l3l3l3l3l3l2l3l3l3l2l3l3l3l3l3l2l3l3l3l2l3l3l3l3l3l2l3l3l3l3l2l3mxnFl1lF
+BOARD 0 61 64 0 lEmEmQnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnUnVnUnVmRmFlF
+BOARD 0 62 64 0 lElwmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmVmUmVmUmVlxlF
+BOARD 0 63 64 0 lQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlR
+SIGN 0 0
+So, you ignored all the warnings
+and came anyway... but no matter,
+you are no threat to me.  Sardon
+put me in charge of guarding this
+spell because he knows how
+powerful I am...
+Tell you what.  You have three
+seconds to run, and then I will
+destroy you.
+SIGNEND
+NPC dlstatue.png 8 7
+
+NPCEND
+NPC dlstatue.png 54 7
+
+NPCEND
+NPC dlwizardani.mng 31 48
+//Wizard baddy
+//by Sardon
+//#CLIENTSIDE
+if (playerenters&&playerscount=1) {unset dlwizard; x=31; y=48;
+  this.health=10;   //number of hits the baddy can take
+  this.wait=1;            //set to 1 if you want baddies to wait for dlwizard flag before appearing
+timeout=.05; this.act=random(0,10); this.hit=0; this.4=0;
+if (this.wait==1) {hidelocal}
+}
+if (this.wait==0) {
+if (playerx>x-2 && playerx<x+1.5 && playery>y-2 && playery<y+1.5 && this.3==0) {hurt 1}
+if (timeout && this.4<this.health) {this.act+=.5;
+  if (this.1==0 || (this.1>=3&&this.1<=4)) {
+    if (this.3==0) {
+      if (x-1<playerx) {x+=.2+(this.4/80)}
+      if (x-1>playerx) {x-=.2+(this.4/80)}
+      if (y<playery) {y+=.2+(this.4/80)}
+      if (y>playery) {y-=.2+(this.4/80)}}}
+  if (this.act>19 && this.1==0) {
+    if(this.4<5)this.1=random(1,4);
+    else this.1=random(3,7)}
+  if(this.1>6){this.2+=1;
+    if(this.2=1){setimg dlwizardact.png}
+    if(this.2=10){this.radius=1;this.x=((playerx+.5)-x);
+      this.y=(playery-y); this.move=.1; this.r2=0}
+    if(this.2>=14){this.2=11; this.move+=.1;
+      if(this.r2<4){this.r2+=1;this.radius=this.radius*1.5}
+      else this.radius-=1;
+      putexplosion 1,x+(this.x*this.move)-this.radius,y+(this.y*this.move);
+      putexplosion 1,x+(this.x*this.move)+this.radius,y+(this.y*this.move);
+      if(this.move>=1){this.2=0; this.act=random(0,10); this.1=0;
+      setimg dlwizardani.png; this.radius=0}}
+}
+  if(this.1>5&&this.1<=6){this.2+=1;
+    if(this.2=1){setimg dlwizardact.png}
+    if(this.2=10){this.radius=0}
+    if(this.2>=15){this.radius+=2;this.2=11;
+    putexplosion 2,x-this.radius,y-this.radius;
+    putexplosion 2,x+this.radius,y-this.radius;
+    putexplosion 2,x+this.radius,y+this.radius;
+    putexplosion 2,x-this.radius,y+this.radius}
+    if(this.radius>=15){this.2=0; this.act=random(0,10); this.1=0;
+      setimg dlwizardani.png; this.radius=0}
+  }
+  if(this.1>4&&this.1<=5){this.2+=.5;
+    if(this.2=1){setimg dlwizardact.png}
+    if(this.2=10){this.radius=0;this.angle=0}
+    if(this.2>=10){
+    this.x=x+.5+cos(this.angle)*this.radius;
+    this.y=y+.5+sin(this.angle)*this.radius;
+    putexplosion 1,this.x,this.y;
+    this.radius+=.2; this.angle+=.314}
+    if(this.radius>=20){this.2=0; this.act=random(0,10); this.1=0;
+      setimg dlwizardani.png; this.radius=0; this.angle=0}
+  }
+  if (this.1>0 && this.1<2) {this.2+=.5;
+    if (this.2==1) {setimg dlwizardact.png}
+    if (this.2==10) {shootfireblastup;
+      shootfireblastdown; shootfireblastright;
+      shootfireblastleft; this.2=0; this.act=random(0,10); this.1=0;
+      setimg dlwizardani.png}}
+  if (this.1>=2 && this.1<3) {this.2+=.5;
+    if (this.2==1) {setimg dlwizardact.png}
+    if (this.2==10) {putexplosion 4,x,y;
+      putexplosion 1,x-2,y-2; putexplosion 1,x-2,y+2;
+      putexplosion 1,x+2,y+2; putexplosion 1,x+2,y-2;
+      this.2=0; this.act=random(0,10); this.1=0; setimg dlwizardani.png}}
+  if (this.1>=3&&this.1<=4) {this.2+=.5;
+    if (this.2==1) {hidelocal; this.3=1} if (this.2==2) {showlocal}
+    if (this.2==3) {hidelocal} if (this.2==4) {showlocal}
+    if (this.2==5) {hidelocal} if (this.2==6) {showlocal}
+    if (this.2==7) {hidelocal} if (this.2==8) {showlocal}
+    if (this.2==9) {hidelocal; x=playerx+random(-20,20); y=playery+random(-20,20)}
+    if (this.2==31) {showlocal;} if (this.2==32) {hidelocal; this.3=0}
+    if (this.2==33) {showlocal} if (this.2==34) {hidelocal}
+    if (this.2==35) {showlocal} if (this.2==36) {hidelocal}
+    if (this.2==37) {showlocal} if (this.2==38) {hidelocal}
+    if (this.2==39) {showlocal; this.2=0; this.act=random(0,10); this.1=0}}
+timeout=.05}
+if (this.1<3||this.1>4) {
+  if (washit || wasshot || waspelt) {
+   if(this.hit>2){this.hit=0;play compudead.wav;putleaps 2,x+.5,y;
+    this.1=3; this.2=0; this.3=1; setimg dlwizardani.png;
+    this.4+=1;
+   }else{this.hit+=1; putleaps 4,x+.5,y}
+}}
+if (this.4>=this.health) {hidelocal; this.2=40; this.act=21; this.1=5; this.3=1;
+set wizbossdead; stopmidi}
+}
+if (this.wait==1) {
+  if (dlwizard) {this.wait=0; showlocal}
+  if (timeout) {timeout=.05}
+}
+NPCEND
+NPC dlwizardani.mng 31 48
+//NPC debuged by Ragnarok created by Sardon
+if (playerenters&&isleader) {timeout=.1;this.1=0}
+if(timeout){
+  if(this.1=0)timeout=.1;
+  if(this.1=1){set dlwizard;this.1=2}
+}
+if(dlwizard||wizbossdead){
+hidelocal
+}
+else showlocal;
+if(playertouchsme){say 0}
+if(playerendsreading){this.1=1;timeout=3.9;timershow;
+play stef87.mid}
+NPCEND
+NPC pics1.png 30 54
+// NPC edited by Ragnarok {Guardian Knight}
+if(playerenters){
+setimgpart pics1.png,752,112,64,32;
+drawunderplayer;
+}
+if (playerenters) {
+showlocal;
+timeout=.5;
+}
+if(wizbossdead){
+hidelocal
+}
+if(timeout){
+timeout=.5
+}
+NPCEND
+NPC pics1.png 32 55
+// NPC made by Ragnarok †GK† Leader †SM† ¤Aphrodite's¤
+if (playerenters) {
+timeout=.05;
+setimgpart pics1.png,1168,176,32,16;
+drawunderplayer;
+dontblock;
+}
+if (playertouchsme&&wizbossdead) {
+playerx=30.5;
+playery=17;
+setlevel sardontower26.nw;
+}
+if (timeout) {
+timeout=.05;
+if (wizbossdead) {
+showlocal;
+}
+else hidelocal;
+}
+NPCEND
+NPC pics1.png 30 55
+// NPC made by Ragnarok †GK† Leader †SM† ¤Aphrodite's¤
+if (playerenters) {
+timeout=.05;
+setimgpart pics1.png,1168,176,32,16;
+drawunderplayer;
+dontblock;
+}
+if (playertouchsme&&wizbossdead) {
+playerx=30.5;
+playery=17;
+setlevel sardontower26.nw;
+}
+if (timeout) {
+timeout=.05;
+if (wizbossdead) {
+showlocal;
+}
+else hidelocal;
+}
+NPCEND
+NPC - 32 9
+// NPC made by Tyhm (LAT)
+if (playerenters) {
+  play stef40.mid;
+  if(isleader) this.speed=0.0628;
+  timereverywhere;
+  timeout=0.05;
+}
+if (timeout) {
+  if (abs(playerx-30.5)+abs(playery-6)<3&&!stowersave) {
+    set stowersave;
+    setstring saveloc,#L #v(playerx) #v(playery);
+    play extra.wav;
+    playerhearts=playerfullhearts;
+    //    setlevel2 #L,playerx,playery;
+    setmap map.png,bigmap.txt,8,8;
+  }
+  for(this.i2=0;this.i2<6.283;this.i2+=1.2566){
+    this.x1=x;
+    this.y1=y;
+    for(this.i1=2;this.i1<6;this.i1++){
+      this.x1=this.x1+cos(this.angle-(this.i1*this.angle)+this.i2)*((11-this.i1)/10);
+      this.y1=this.y1+sin(this.angle-(this.i1*this.angle)+this.i2)*((11-this.i1)/10);
+      showimg ((this.i2*10)+this.i1),kstar2.mng,this.x1,this.y1;
+    }
+  }
+  this.angle=(this.angle+0.0628)%6.28;
+  timereverywhere;
+  timeout=0.05;
+}
+NPCEND

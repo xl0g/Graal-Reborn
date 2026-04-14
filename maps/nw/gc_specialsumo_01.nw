@@ -1,0 +1,268 @@
+GLEVNW01
+BOARD 0 0 64 0 X2WnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnXW
+BOARD 0 1 64 0 23W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W323
+BOARD 0 2 64 0 23f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/23
+BOARD 0 3 64 0 23f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/23
+BOARD 0 4 64 0 23f/f/f/f/f/f/f/f/f/f/f/f/f/f/G2HFHEHFHEHFHEHFHEHFHEHFHEHFHEHFHEHFHEHFHEHFHEHFHEHFHEHFHEHFHEHFHEHXf/f/f/f/f/f/f/f/f/f/f/f/f/f/23
+BOARD 0 5 64 0 23f/f/f/f/f/f/f/f/f/f/f/f/f/G2HGGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHnHXf/f/f/f/f/f/f/f/f/f/f/f/f/23
+BOARD 0 6 64 0 23f/f/f/f/f/f/f/f/f/f/f/f/G2HGGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHnHXf/f/f/f/f/f/f/f/f/f/f/f/23
+BOARD 0 7 64 0 23f/f/f/f/f/f/f/f/f/f/f/G2HGGOGOHIHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZH6GOGOHnHXf/f/f/f/f/f/f/f/f/f/f/23
+BOARD 0 8 64 0 23f/f/f/f/f/f/f/f/f/f/G2HGGOGOHIFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCH6GOGOHnHXf/f/f/f/f/f/f/f/f/f/23
+BOARD 0 9 64 0 23f/f/f/f/f/f/f/f/f/G2HGGOGOHIFCFCGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZFCFCH6GOGOHnHXf/f/f/f/f/f/f/f/f/23
+BOARD 0 10 64 0 23f/f/f/f/f/f/f/f/G2HGGOGOHIFCFCG5GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHJFCFCH6GOGOHnHXf/f/f/f/f/f/f/f/23
+BOARD 0 11 64 0 23f/f/f/f/f/f/f/f/HUGOGOHIFCFCG5GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHJFCFCH6GOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 12 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGOHIHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZH6GOGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 13 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOHIFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCH6GOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 14 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoHVHWFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHVHWGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 15 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4HlHmGYGZGYGZFCFCFCFCFCFCGYGZGYGZFCFCFCFCFCFCGYGZGYGZHlHmGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 16 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCGbGOGOGOGOHJGYGZGYGZGbGOGOGOGOGoGYGZGYGZG5GOGOGOGOGoFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 17 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCGrGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOG4FCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 18 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCGbGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGoFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 19 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCGrGOGOGOGOGOGOHJHYHZGrGOGOGOGOG4HYHZG5GOGOGOGOGOGOG4FCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 20 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCFCH6GOGOGOGOGOGOHJFCFCH6GOGOHIFCFCG5GOGOGOGOGOGOHIFCFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 21 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCFCGbGOGOGOGOGOGOGOHJFCGbGOGOGoFCG5GOGOGOGOGOGOGOGoFCFCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 22 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCFCGrGOGOH6GOGOGOGOGOHJGrGOGOG4G5GOGOGOGOGOHIGOGOG4FCFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 23 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCFCGbGOGOGoH6GOGOGOGOGOHJGOGOG5GOGOGOGOGOHIGbGOGOGoFCFCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 24 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCFCGrGOGOG4FCH6GOGOGOGOGOGOGOGOGOGOGOGOHIFCGrGOGOG4FCFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 25 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCFCG5GOGOGZFCFCH6GOGOGOGOGOGOGOGOGOGOHIFCFCGYGOGOHJFCFCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 26 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCGbGOGOGOGOHJGYGZH6GOGOGOGOGOGOGOGOHIGYGZG5GOGOGOGOGoFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 27 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCGrGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOG4FCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 28 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCGbGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGoFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 29 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCGrGOGOGOGOHIHYHZG5GOGOGOGOGOGOGOGOHJHYHZH6GOGOGOGOG4FCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 30 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCFCH6GOGOHZFCFCG5GOGOGOGOGOGOGOGOGOGOHJFCFCHYGOGOHIFCFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 31 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCFCFCGOGOGoFCG5GOGOGOGOGOGOGOGOGOGOGOGOHJFCGbGOGOGoFCFCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 32 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCFCGbGOGOG4G5GOGOGOGOGOHIGOGOH6GOGOGOGOGOHJGrGOGOG4FCFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 33 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCFCGrGOGOG5GOGOGOGOGOHIGbGOGOGoH6GOGOGOGOGOHJGOGOGoFCFCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 34 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCFCFCGOGOGOGOGOGOGOHIFCGrGOGOG4FCH6GOGOGOGOGOGOGOG4FCFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 35 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCFCG5GOGOGOGOGOGOHIFCFCG5GOGOHJFCFCH6GOGOGOGOGOGOHJFCFCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 36 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCGbGOGOGOGOGOGOHIGYGZG5GOGOGOGOHJGYGZH6GOGOGOGOGOGOGoFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 37 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCGrGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOG4FCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 38 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoFCGbGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGoFCGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 39 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4FCGrGOGOGOGOHIHYHZHYHZH6GOGOGOGOHIHYHZHYHZH6GOGOGOGOG4FCGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 40 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOGoHVHWHYHZHYHZFCFCFCFCFCFCHYHZHYHZFCFCFCFCFCFCHYHZHYHZHVHWGbGOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 41 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOG4HlHmFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCHlHmGrGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 42 64 0 23f/f/f/f/f/f/f/f/HkGOGOGoFCGbGOGOHJFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCG5GOGOGoFCGbGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 43 64 0 23f/f/f/f/f/f/f/f/HUGOGOG4FCGrGOGOGOHJGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZG5GOGOGOG4FCGrGOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 44 64 0 23f/f/f/f/f/f/f/f/HkGOGOHJFCFCH6GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHIFCFCG5GOGOG7f/f/f/f/f/f/f/f/23
+BOARD 0 45 64 0 23f/f/f/f/f/f/f/f/GmGWGOGOHJFCFCH6GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHIFCFCG5GOGOG3HHf/f/f/f/f/f/f/f/23
+BOARD 0 46 64 0 23f/f/f/f/f/f/f/f/f/GmGWGOGOHJFCFCHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZHYHZFCFCG5GOGOG3HHf/f/f/f/f/f/f/f/f/23
+BOARD 0 47 64 0 23f/f/f/f/f/f/f/f/f/f/GmGWGOGOHJFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCG5GOGOG3HHf/f/f/f/f/f/f/f/f/f/23
+BOARD 0 48 64 0 23f/f/f/f/f/f/f/f/f/f/f/GmGWGOGOHJGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZGYGZG5GOGOG3HHf/f/f/f/f/f/f/f/f/f/f/23
+BOARD 0 49 64 0 23f/f/f/f/f/f/f/f/f/f/f/f/GmGWGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOG3HHf/f/f/f/f/f/f/f/f/f/f/f/23
+BOARD 0 50 64 0 23f/f/f/f/f/f/f/f/f/f/f/f/f/GmGWGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOG3HHf/f/f/f/f/f/f/f/f/f/f/f/f/23
+BOARD 0 51 64 0 23f/f/f/f/f/f/f/f/f/f/f/f/f/f/GmH2H3H2H3H2H3H2H3H2H3H2H3H2H3H2H3H2H3H2H3H2H3H2H3H2H3H2H3H2H3H2H3HHf/f/f/f/f/f/f/f/f/f/f/f/f/f/23
+BOARD 0 52 64 0 23f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/23
+BOARD 0 53 64 0 XVWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnf/f/WnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnXm
+BOARD 0 54 64 0 W3WXW3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3f/f/W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3WXW3
+BOARD 0 55 64 0 IdWXnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwTwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoWXId
+BOARD 0 56 64 0 IdWXTwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwWXId
+BOARD 0 57 64 0 IdWXn4TwFiKpKqKpKqKpKqKpKqKpKqKpKqKpKqFlnpTwFiKpKqKpKqKpKqFln4TwTwn5FiKpKqKpKqKpKqFlTwnoFiKpKqKpKqKpKqKpKqKpKqKpKqKpKqFlTwn5WXId
+BOARD 0 58 64 0 IdWXTwn4GCKpKqKpKqKpKqKpKqKpKqKpKqKpKqF1TwnpGCKpKqKpKqKpKqF1TwTwTwTwGCKpKqKpKqKpKqF1noTwGCKpKqKpKqKpKqKpKqKpKqKpKqKpKqF1n5TwWXId
+BOARD 0 59 64 0 IdWXTwnoGSGTGUGTGUGTGUGTGUGTGUGTGUGTGUGVTwn5GSGTGUGTGUGTGUGVTwTwTwTwGSGTGUGTGUGTGUGVn4TwGSGTGUGTGUGTGUGTGUGTGUGTGUGTGUGVnpTwWXId
+BOARD 0 60 64 0 IdWXnoTwn5GSGVTwn5TwnoTwn5TwnoTwn5GSGVTwn5TwnoGSGVTwnoGSGVTwnoTwTwnpTwGSGVnpTwGSGVnpTwn4TwGSGVn4TwnpTwn4TwnpTwn4TwGSGVn4TwnpWXId
+BOARD 0 61 64 0 IdWXTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5n4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwWXId
+BOARD 0 62 64 0 IdWXn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwnoTwn5TwTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4TwnpTwn4WXId
+BOARD 0 63 64 0 IdXVWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnXWnonpX2WnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnXmId
+LINK gc_studioe_02.nw 31 63 2 1 36.5 28
+NPC classic_gc_sumopiece.png 31 53
+if (playerchats) {
+  if (strequals(#g,Game Coordinator) || control == 1) {
+    if (strequals(#c,Open)) hide;
+    if (strequals(#c,Close)) show;
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,32,32;
+}
+NPCEND
+NPC - 17 50
+if (created) {
+  level.nostats = 1;
+  level.nodamage = 1; // makes start pk not work
+}
+NPCEND
+NPC - 20 50
+if (playerchats && strequals(#c,done)) {
+  playerdir = 2;
+  playerx = 30.5;
+  playery = 59;
+}
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  if (indexof(dead,#m) > -1 || strequals(#s(client.hd_isdead),true)) {
+    playerdir = 2;
+    playerx = 30.5;
+    playery = 55;
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC - 23 50
+//#CLIENTSIDE
+if (playerchats && strequals(#c,watch)) {
+  this.focus = 1;
+  this.focusx = playerx * 16;
+  this.focusy = playery * 16;
+  if (this.focusx < screenwidth / 2) this.focusx = screenwidth / 2;
+  if (this.focusx > 1024 - screenwidth / 2) this.focusx = 1024 - screenwidth / 2 - 16;
+  if (this.focusy < screenheight / 2) this.focusy = screenheight / 2;
+  if (this.focusy > 1024 - screenheight / 2) this.focusy = 1024 - screenheight / 2 - 16;
+
+  movement_handlekeys = 0.1;
+  movement_handlesword = 0.1;
+  movement_handleitems = 0.1;
+  timeout = 0.05;
+}
+if (timeout) {
+  if (keydown2(keycode(s),true)) {
+    this.focus = 0;
+    resetfocus;
+  }
+  elseif (this.focus == 1) {
+    if (keydown(0) && this.focusy >= screenheight / 2 + 16) this.focusy -= 16;
+    if (keydown(1) && this.focusx >= screenwidth / 2 + 16) this.focusx -= 16;
+    if (keydown(2) && this.focusy <= 1024 - screenheight / 2 - 32) this.focusy += 16;
+    if (keydown(3) && this.focusx <= 1024 - screenwidth / 2 - 32) this.focusx += 16;
+    setfocus this.focusx / 16,this.focusy / 16;
+
+    movement_handlekeys = 0.1;
+    movement_handlesword = 0.1;
+    movement_handleitems = 0.1;
+    timeout = 0.05;
+  }
+}
+NPCEND
+NPC sharkleft.mng 40 13
+if(created){
+setshape 1,32,32;
+dontblock;
+}
+
+
+if (playerchats) {
+  if (strequals(#g,Game Coordinator) || control == 1)  {
+    if (strequals(#e(0,5,#c),start)) {
+      if (strequals(#e(6,2,#c),PK) || strequals(#e(6,4,#c),NPCs) || strequals(#e(6,9,#c),noweapons) || strequals(#e(7,1,#c),)) {
+        message Start!;
+        timeout = 2;
+      }
+    } elseif (strequals(#c,stop)) {
+      message Stop!;
+      timeout = 2;
+    }
+  }
+}
+if (timeout) message;
+
+//#CLIENTSIDE
+if(created){
+dontblock;
+setimg sharkleft.mng;
+}
+NPCEND
+NPC sharkright.mng 21 41
+if(created){
+setshape 1,32,32;
+dontblock;
+}
+
+clink=findNPC("gc_rankings");
+if (playerchats) {
+  if (strequals(#g,Game Coordinator) || control == 1)  {
+    if (strequals(#e(0,5,#c),start)) {
+      if (strequals(#e(6,4,#c),NPCs)) save[0] = 2;
+      elseif (strequals(#e(6,2,#c),PK)) save[0] = 3;
+      elseif (strequals(#e(6,9,#c),noweapons)) save[0] = 4;
+      elseif (strequals(#e(7,1,#c),)) save[0] = 1;
+      else break;
+      message Start!;
+      timeout = 2;
+    } elseif (strequals(#c,stop)) {
+      save[0] = 0;
+      level.nodamage = 1;
+      message Stop, HAMMERTIME!;
+      timeout = 2;
+    }
+    if (save[0] == 3) level.nodamage = 0;
+    else level.nodamage = 1;
+  }
+  if (strequals(#c,Commands)) say2 Commands:#bstart - Starts a non-pk match#bstart pk - starts a pk match#bstart noweapons - starts a#b   match with no swords#bstop - Stops a match;
+}
+if (timeout) {
+  message;
+}
+if (playerenters && strequals(#g,Game Coordinator)) say2 Say 'Commands' for commands;
+if (actionfullheal) {
+  if (save[0] in |1,2|) {
+    setstring clientr.stat_hp,#s(clientr.stat_maxhp);
+  }
+}
+function onActionstats(){
+  (clink.("gc_" @ player.account @ "_sumo_lost"))++;
+}
+//#CLIENTSIDE
+if(created){
+dontblock;
+setimg sharkright.mng;
+}
+if (playerenters || timeout) {
+  if (!strequals(#g,Game Coordinator)) movement_handlepause = 0.1;
+  if (playery <= 46) {
+    if (save[0] >= 1) {
+      if (save[0] == 2) { }
+      if (save[0] == 4) {
+        movement_handlesword = 0.1;
+        movement_handleitems = 0.1;
+      }
+      if (save[0] in |1,2| && strtofloat(#s(clientr.stat_hp)) < strtofloat(#s(clientr.stat_maxhp))) {
+        if (this.triggered < 1) {
+          triggeraction x,y,fullheal,;
+          this.triggered = 1;
+        }
+      }
+      if (playery >= 12 && onwater(playerx + 1.5,playery + 2) && !strequals(#g,Game Coordinator)) {
+        playerx = 30.5;
+        playery = 57;
+        playerdir = 2;
+        triggeraction(x,y,"stats",NULL);
+      }
+    }
+    else {
+      if (!strequals(#g,Game Coordinator)) {
+        movement_handlesword = 0.1;
+        movement_handleitems = 0.1;
+      }
+      else {
+        //
+      }
+    }
+  }
+  else {
+    if (!strequals(#g,Game Coordinator)) {
+      movement_handlesword = 0.1;
+      movement_handleitems = 0.1;
+    }
+    else {
+      //
+    }
+  }
+
+  // lower delay for triggering next full health
+  if (this.triggered > 0) this.triggered -= 0.05;
+
+  timeout = 0.05;
+}
+NPCEND
+NPC - 21 41
+//#CLIENTSIDE
+function onCreated(){
+setshape(1,32,32);
+}
+NPCEND
+NPC - 40 13
+//#CLIENTSIDE
+function onCreated(){
+setshape(1,32,32);
+}
+NPCEND

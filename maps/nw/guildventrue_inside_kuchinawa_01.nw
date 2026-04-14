@@ -1,0 +1,340 @@
+GLEVNW01
+BOARD 0 0 64 0 gYgXgYgXgYgbgcgdgKgdgkglgngoLvYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYL/gJgKgPgegGgXgYgXgYgUw3w4w3w4gNgUgJgKgGgXgYgXgYNFNFgXgbgcgdgk
+BOARD 0 1 64 0 gogngogngogLgMgNgUgNgUgVgJgKL/aVaWaXaYYYYYYYYYYYYYYYYYYYYYaVaWaXaYLvgngogogPgOgZgagngogkw3w4w3w4gdgJgKgJgKgZgagngoNFNFgngLgMgNgU
+BOARD 0 2 64 0 gKgJgKgJgKgbgcgdgKgdgkglgngoLva1a2amamaWaXaWaXaWaXaWaXaWaXanama3a4L/gJgKgKgXgPgXgYgJgKgUxBxCxBxCgNgZgagZgJgKgJgKgKNFNFgJgbgcgdgk
+BOARD 0 3 64 0 gagZgagZgagHgMgNgUgNgUgVgJgK2/LfM6a1a2a3a3a2anamanama3a3a2a3a4M5Le+wgngogagngogZgagZgagkwpwqwpwqgdgpgqgpgZgamImJNFNFNFNFgHgMgNgU
+BOARD 0 4 64 0 gYgXgYgXgYgXgPgdgKgdgkglgngoCgYv2/LeLfLeLfM6a1a2a3a4M5LfLeLfLe+wYvCDgJgKgogJgKgXgYgXgYvkuOvIvYvZu7v/t2uGgpgqmYmZNFNFNFNFgXgPgdgk
+BOARD 0 5 64 0 gogngogngogngogNgUgNgUgVgJgK9YYvCgzwzxzyYv2/LeLfLeLf+wYvzwzxzyCDYv9ZgngogKgZgagngogngovUvItDtEtCu7v/unNFNFNFmompNFNFgJgKgngogNgU
+BOARD 0 6 64 0 gkgJgKgJgKgJgKgdgKgdgkglgngogUYv9Y0A0B0CYvCgYvCFCGYvCDYv0A0B0C9ZYvgNgJgKgPgpgqgdgkgdgkvkvJuYuZu5u7t2uGNFNFNFm4m5NFNFgZgagJgKgJgk
+BOARD 0 7 64 0 gUgGgegGgegGgegNgUgNgUgVgJgKgkY/gngogngoYv9YYvCVCWYv9ZYvgngogngoY/gdgngogogNgUgNgUgNgUgNzDzEzDzEu7unNFNFNFNFNFNFNFNFgpgqgJgKgegG
+BOARD 0 8 64 0 gkgegGgOgPgOgPgdgKgdgkglgngogngogJgKgJgKY/gJYvNFNFYvgKY/gJgKgJgKgngogJgKgKgdgkgdgkgdgkgdw0wzw0wzgNgUgVgWNFNFNFNFNFNFNFNFgZgagJgK
+BOARD 0 9 64 0 gUgPgOgGgegGgegNgUgNgUgPgJgKgegNgUgPgOgGgegNY/NFNFY/gogPgOgGgegNgUgNgUgPgOgGgegNgUgNgUgNw3w4w3w4gdgkgUgVgIgHgINFNFNFNFNFgpgqgZgO
+BOARD 0 10 64 0 gkgegPgOgPgOgPgdgKgdgkgegPgOgPgdgkgegPgOgPgdgKNFNFgJgKgegPgOgPgdgkgdgkgegPgOgPgdgkgdgkgdw3w4w3w4gNgUgkgegYgXgYgWNFNFNFNFNFNFgpgc
+BOARD 0 11 64 0 gogngogngogngogNgUgNgUgVgdgkgMgNgogngogngogngoNFNFgngogVgdgkgMgNgUgngogngogNgUgNgUgNgovkw3w4w3w4gdgkgogngogngogVgWNFNFNFNFNFgLgM
+BOARD 0 12 64 0 gKgJgkgJgKgJgKgdgKgdgkglgNgUgcgdgkgJgKgJgKgJgKNFNFgJgKglgNgUgcgdgkgJgKgJgkgJgKgJgKgJgKvUxBxCxBxCvngJgkgJgKgJgkgNgUgVgWNFNFNFgbgc
+BOARD 0 13 64 0 gOgNgUgGgegGgOgNgUgNgUgVgdgkgMgNgUgGgegGgOgngoNFNFgngogVgdgkgMgNgogGgOgNgUgGgagZgagZgOvkwpwqwpwqu3gNgUgGgagZgagdgkglgmNFNFNFgLgM
+BOARD 0 14 64 0 gcgdgkgegGgegGgdgKgdgkglgNgUgcgdgkgegGgegGgJgKNFNFgJgKglgNgUgcgdgkgegGgdgkglgGgegGgegcvUuotCtCtCu7gdgkglgGgegGgegNgUgVgWNFNFgbgc
+BOARD 0 15 64 0 gMgNgUgPgOgPgOgNgUgNgUgVgdgkgMgNgUgPgOgPgOgngoNFNFgngogVgdgkgMgNgUgPgOgNgUgVgOgPgOgPgMvku4tCtCtCu7gNgUgVgOgPgOgPgdgkglgmNFNFgLgM
+BOARD 0 16 64 0 gPgdgkgegPgOgPgdgKgdgkgegYgXgPgdgkgegPgOgPgJgKNFNFgJgKglgNgUgcgdgkgOgPgdgkgegYgXgYgXgPvUuotCtCtCu7gdgkgegYgXgYgXgPgUgVgWNFNFgbgc
+BOARD 0 17 64 0 gogNgogngogngogNgogngogngogngogNgogngogngogngoNFNFgngogVgdgkgMgNgUgngogNgogngogngogngovku4tCtCtCu7gNgogngogngogngogkglgmNFNFNFgL
+BOARD 0 18 64 0 gKgJgKgJgKgJgKgJgkgJgkgJgKgJgKgJgKgJgKgJgKgJgKNFNFgJgKgegYgXgPgdgkgJgKgJgkgJgKgJgKgJgKvUuotCtCtCu7gJgkgJgKgJgKgJgUgVgWgHgINFNFgb
+BOARD 0 19 64 0 gagZgagZgagZgOgNgUgGgagZgagZgagZgagJgKgJgKgngoNFNFgngogngogngogNgogZgOgNgUgGgagZgagZgavku4tCtCtCu7gNgUgGgagZgagZgkglgmgpgqNFNFgL
+BOARD 0 20 64 0 gYgXgYgXgYgbgcgdgkgegGgXgYgXgYgpgqgGgagZgagJgKNFNFgJgKgJgKgJgKgJgKgbgcgdgkgegGgZgagXgYvUuotCtCtCu7gdgkgegGgXgYgNgUgVgWNFNFNFNFgb
+BOARD 0 21 64 0 gogngogngogLgMgNgUgPgOgZgagngogNgUgNgUgNgUgNgUNFNFgngogGgOgZgagZgagJgKgNgUgPgOgXgYgngovku4tCtCtCu7gNgUgPgOgZgagdgkglgmNFNFNFgLgM
+BOARD 0 22 64 0 gKgJgKgJgKgbgcgdgkgegGgXgYgJgKgdgkgdgkgdgkgdgkNFNFgJgKgegGgJgKgJgKmImJgdgkgegGgZgagJgKvUvJuYuZu5u7gdgkgegGgXgYgNgUgVgWNFNFNFgbgc
+BOARD 0 23 64 0 gagZgagZgagHgMgNgUgPgOgZgagZgagngoNFNFNFNFNFNFNFNFgngogPgOgZgagZgamYmZgJgKgngogXgYgJgKvkzDzEzDzEu7gNgUgXgYgXgYgdgkglgmNFNFgLgMgN
+BOARD 0 24 64 0 gYgXgYgXgYgXgPgdgkgegYgXgYgXgYgJgKNFNFNFNFNFNFNFNFgJgKgOgPgJgKgpgqmompgZgagJgKgngogZgaumv2v3v2v3oRgdgkgngogngomImJgmNFNFNFgbgcgd
+BOARD 0 25 64 0 gogngogngogngogNgogngogngogngogNgUNFNFgngogNgUgNgUgngogngogZgaNFNFm4m5gpgqgZgagJgKgpgqtKtLtKtLoRohgJgKgJgKgJgKmYmZgHgINFNFgLgMgN
+BOARD 0 26 64 0 gkgJgKgJgKgJgKgJgKgdgkgdgkgJgKgdgkNFNFgJgKgdgkgdgkgJgKgJgKgpgqNFNFNFNFNFNFgpgqgZgauHt3tatbtatboht2gZgagZgagZgamompgpgqNFNFgbgcgd
+BOARD 0 27 64 0 gUgGgegGgegGgegGgOgNgUgngogNgUNFNFNFNFgngogYgngUgVgWgagZgaNFNFNFNFNFNFNFNFNFNFgpgqNFuHtntmtntmtnuGgpgqgpgqgpgqm4m5NFNFNFNFgJgKgJ
+BOARD 0 28 64 0 gkgegGgOgPgOgPgegGgdgkgJgKgdgkNFNFNFNFgJgKgUgVgkmImJgqgpgqNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgJgKgZgOgN
+BOARD 0 29 64 0 gUgPgOgGgegGgegPgOgNgUgngoNFNFNFNFNFNFgngogkglgmmYmZNFNFNFNFNFNFNFNFNFNFNFNFUcUdUdUdUdUdUdUdUdUdUdUdUdUdUdUeNFNFNFNFNFgZgagpgcgd
+BOARD 0 30 64 0 gkgegPgOgPgOgPgOgPgdgkgJgKNFNFNFNFNFNFgJgKgUgVgWmompNFNFNFNFNFNFNFNFNFNFNFNFUsUtUtUtKpKqUtKpKqUtKpKqUtUtUtUuNFNFNFNFNFgpgqNFgbgc
+BOARD 0 31 64 0 gogngogngogngogngogNmImJgUNFNFNFgJgKgKgJgJgkglgmm4m5NFNFNFNFNFNFNFNFNFNFNFNFUsUtUtUtK5K6UtK5K6UtK5K6UtUtUtUuNFNFNFNFNFNFNFgLgMgN
+BOARD 0 32 64 0 gKgJgkgJgKgJgKgJgJgKmYmZgJgKNFNFgZgagJgKgZgJgKNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFUsUtUtLILJLJLJLJLKLKLKLKKrKpKqUuNFNFNFNFNFNFNFgbgcgd
+BOARD 0 33 64 0 gOgNgUgGgegGgOgUgGgamompgZgaNFNFgpgqgZgagpgZgaNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFUsUtUtLYLZLZLZLZLaLaLaLaK7K5K6UuNFNFNFNFNFNFNFgLgMgN
+BOARD 0 34 64 0 gcgdgkgegGgegGgkglgmm4m5gpgqNFNFNFNFgpgqNFgpgqNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFUsKpKqLYLZLZLZLZLaLaLaLaK7UtUtUuNFNFNFNFNFNFNFgbgcgd
+BOARD 0 35 64 0 gMgNgUgPgOgPgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFUsK5K6LYLZLZLZLZLaLaLaLaK7KpKqUuNFNFNFNFNFNFgLgMgNgL
+BOARD 0 36 64 0 gPgdgkgegPgOgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFUsUtUtLYLZLZLZLZLaLaLaLaK7K5K6UuNFNFNFNFNFNFgbgcgdgb
+BOARD 0 37 64 0 gogNgogngogUgVgWNFoQNFNFNFoQNFoQNFNFNFNFoQNFNFoQoQoQoQNFNFNFoQoQoQoQNFNFNFNFUsKpKqLYLZLZLZLZLaLaLaLaK7UtUtUuNFNFNFNFNFNFNFgLgMgN
+BOARD 0 38 64 0 gKgJgKgJgKgkglgmNFoQNFNFoQNFNFoQNFNFNFNFoQNFoQNFNFNFNFNFNFoQNFNFNFNFoQNFNFNFUsK5K6LoLpLqLqLqLpLqLqLqLLUtUtUuNFNFNFNFNFNFNFgbgcgd
+BOARD 0 39 64 0 gagZgagZgUgVgWNFNFoQNFoQNFNFNFoQNFNFNFNFoQNFNFoQNFNFNFNFNFoQNFNFNFNFoQNFNFNFUsUtUtUtUtKpKqUtKpKqUtKpKqUtUtUuNFNFNFNFNFNFNFNFgLgM
+BOARD 0 40 64 0 gYgXgYgXgkglgmNFNFoQoQNFNFNFNFoQNFNFNFNFoQNFNFNFoQoQoQNFNFoQNFNFNFNFoQNFNFNFUsUtUtUtUtK5K6UtK5K6UtK5K6UtUtUuNFNFNFNFNFNFNFNFgbgc
+BOARD 0 41 64 0 gogngogngUgVgWNFNFoQNFoQNFNFNFoQNFNFNFNFoQNFNFNFNFNFNFoQNFoQNFNFNFNFoQNFNFNFU8U9U9U9U9U9U9U9U9U9U9U9U9U9U9U+NFNFNFNFNFNFNFgLgMgN
+BOARD 0 42 64 0 gKgJgKgJgkglgmNFNFoQNFNFoQNFNFoQNFNFNFNFoQNFNFNFNFNFNFoQNFoQNFNFNFNFoQNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgd
+BOARD 0 43 64 0 gagZgagZgUgVgWNFNFoQNFNFNFoQNFNFoQoQoQoQNFNFoQoQoQoQoQNFNFNFoQoQoQoQNFNFNFNFNFNFNFNFtot4t5t4t5t4t5t4uJNFNFNFNFNFNFNFNFNFNFNFgLgM
+BOARD 0 44 64 0 gYgXgYgXgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFtotptKtLtKtLtKtLv/unNFNFNFNFNFNFNFNFmImJNFgbgc
+BOARD 0 45 64 0 gogngogUgVgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFUcUdUdUdUdUdUdUdUdUeNFNFNFtot4t5t4t5tpv/tatbtatbtatboRunNFNFNFNFNFNFNFNFmYmZgLgMgN
+BOARD 0 46 64 0 gkgJgKgkglgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFUsUtUtUtKpKqUtUtUtUuNFNFtotpv/tKtLoRtKtLu2vEvFvEvFvXogunNFNFNFNFNFNFNFNFmompgbgcgd
+BOARD 0 47 64 0 gagZgagZgagZgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFUsUtUtUtK5K6UtUtUtUuNFtotptKtLtatbohtatbvUuOuOuOuOu7oRunNFNFNFNFNFNFNFNFm4m5NFgLgM
+BOARD 0 48 64 0 gYgXgYgXgYgXgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFUsUtUtLILJLJKrUtUtUuNFuXv/tatbu2vEvFvEvFvGvIv6uOuOu7ogunNFNFNFNFNFNFNFNFNFgHgIgbgc
+BOARD 0 49 64 0 gogngogngogngUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFUsKpKqLYLZLaK7KpKqUuNFuXtKtLu2vGuOvItCtCtCtCu5uOu3vHoRunNFNFNFNFNFNFNFgHgIgXgYgHgI
+BOARD 0 50 64 0 gKgJgKgJgKgJgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFUsK5K6LYdxdxK7K5K6UuNFuXtatbvkuOvItCtCtCtCubuOu3vHv/ohunNFNFNFNFNFNFNFgXgYgngogXgY
+BOARD 0 51 64 0 gagZgagZgagZgUgVgWNFNFNFUcUdUdUdUdUdUdUdUdUdU9U+UtUtLYLZLaK7UtUtUuNFuXoRu2vGvItCtCtCtCtCuruOu7v/tKtLunNFNFNFNFNFNFNFgngoNFNFgngo
+BOARD 0 52 64 0 gYgXgYgXgYgXgkglgmNFNFNFUsUtUtUtUtUtUtUtUtUtUtUtUtUtLYdxdxK7UtUtUuNFuXogvkvItCtCtCtCtCtCtCu3vHv/tatbunNFNFNFNFNFNFNFLELFLGLHgJgK
+BOARD 0 53 64 0 gogngogngogUgVgWNFNFNFNFUsUtUtLILJVvdgLKKrUtUtUtKpKqLYLZLaK7KpKqUuNFuXoRvUtCtCtCtCtCtCuYuZu7tKtLv/t2uGNFNFNFNFNFNFNFLULVLWLXgZga
+BOARD 0 54 64 0 gkgJgkgJgKgkglgmNFNFNFNFUsUtUtLYdxV/dwdxK7UtUtUtK5K6LYLZLaK7K5K6UuNFuXogvktCtCtCuYuZu5u3v2vHtatbLELFLGLHNFNFNFNFNFNFLULVLWLXgpgq
+BOARD 0 55 64 0 gUgNgUgNgUgVgWNFNFNFNFNFUsUtUtLYK7KpKqLYK7UtUtUtUtUtLoLpLqLLUtUtUuNFuXoRvUtCtCu5uOu3v2vHtKtLv/t2LULVLWLXNFNFNFNFNFNFLULVLWLXNFNF
+BOARD 0 56 64 0 gkgdgkgdgkglgmNFNFNFNFNFUsUtUtLoLLK5K6LoLLUtUtUtUtUtUtKpKqUtUtUtUuNFuXogvktCtCu3v/vHtKtLtatbt2uGLULVLWLXNFNFNFNFNFNF8NkRkS8PNFNF
+BOARD 0 57 64 0 gUgNgUgVgWNFNFNFNFNFNFNFUsUtUtUtUtUtUtUtUtUtUtUtUtUtUtK5K6UtUtUtmImJuXoRvUtCtCu7tKtLmImJv/t2uGNFLULVLWLXNFNFNFNFNFNF8d8e8e8fNFNF
+BOARD 0 58 64 0 gkgdgkglgmNFNFNFNFNFNFNFU8U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9mYmZuXogvktCtCu7tatbmYmZtnuGNFNF8NkRkSkTNFNFNFNFNFNF8t8u8u8vNFNF
+BOARD 0 59 64 0 gUgNgUgVgWmYmZNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFmompuXoRvUtCtCu7tKtLmompNFNFNFNF8d8e8e8fNFNFNFNFNFNFNFNFNFNFNFNF
+BOARD 0 60 64 0 gkgdgkglgmmompNFNFgHgINFNFNFNFgHgINFNFNFNFNFNFgHgINFNFNFNFNFNFNFm4m5uXohvktCtCu7tatbm4m5NFNFNFNF8t8u8u8vNFNFNFNFNFNFNFNFNFNFNFNF
+BOARD 0 61 64 0 gUgNgUgVgIm4m5gHgIgXgYgHgINFNFgXgYgHgINFNFNFNFgXgYgHgINFNFNFNFgHgMgNgUgVzazazazagMgNgUgVgIgHgIgHgIgHgIgHgINFNFgHgINFNFNFNFgHgMgN
+BOARD 0 62 64 0 gkgdgkgegYgXgYgXgYgngogXgYgHgIgngogXgYgHgIgHgIgngogXgYgHgIgHgIgXgPgdgkgegXgYgXgYgPgdgkgegYgXgYgXgYgXgYgXgYgHgIgXgYgHgIgHgIgXgPgd
+BOARD 0 63 64 0 gogngogngogngogngogdgkgngogXgYgdgkgngogXgYgXgYgHgIgngogXgYgXgYgngogNgogngngogngogogNgogngogngogngogngogNgogXgYgngogXgYgXgYgngogN
+LINK guildventrue_inside_kuchinawa_01.nw 44 46 4 1 45 21
+LINK guildventrue_inside_kuchinawa_01.nw 44 23 4 1 45 46.5
+LINK guildventrue_inside_kuchinawa_02.nw 23 7 2 1 31.5 39.5
+LINK guildventrue_catacomb_01.nw 57 0 2 1 28.5 44
+NPC classic_tomb.png 48 54
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+dontblock;
+drawunderplayer;
+}
+NPCEND
+NPC classic_tomblid.png 48 53
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (playerchats) {
+  if (strequals(#c,open shiden)) {
+    x = 44;
+  }
+}
+if (playerchats) {
+  if (strequals(#c,close shiden)) {
+    x = 48;
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,105;
+  x = 48;
+  drawoverplayer;
+}
+NPCEND
+NPC candle.mng 51 25
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC wateranilava.mng 44 8
+//#CLIENTSIDE
+if (created) {
+dontblock;
+drawunderplayer;
+}
+NPCEND
+NPC wateranilava.mng 44 -2
+//#CLIENTSIDE
+if (created) {
+dontblock;
+drawunderplayer;
+}
+NPCEND
+NPC rockdooru.png 56 0
+//#CLIENTSIDE
+if (created) {
+drawunderplayer;
+dontblock;
+}
+NPCEND
+NPC fire.mng 59 42
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC bloodstrek2.png 46 5
+// NPC made by Kúsø Gørë (Ventrue)
+if (created) {dontblock; drawunderplayer;
+}
+if (playertouchsme) { draw under player;
+}
+NPCEND
+NPC fire.mng 42 55
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 32 55
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 5 56
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 10 29
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 24 26
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 33 20
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 54 1
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 55 22
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 58 5
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 49 1
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 59 28
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 37 24
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 21 32
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 12 32
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 29 24
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 16 32
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 15 4
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+  x = 14.5;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 25 6
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+  x = 24.5;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC candle.mng 31 4
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+  x = 31.5;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 31 25
+// NPC made by Kuso
+//#CLIENTSIDE
+	// Level effect
+	if (playerenters) {seteffect 0,0,0,0.2;
+	}
+NPCEND
+NPC classic_tomblid.png 58 51
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (playerchats) {
+  if (strequals(#c,open kuso)) {
+    x = 62;
+  }
+}
+if (playerchats) {
+  if (strequals(#c,close kuso)) {
+    x = 58;
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,105;
+  x = 58;
+  drawoverplayer;
+}
+NPCEND
+NPC classic_tomb.png 58 52
+// NPC made by Steven (Darkshire)
+//#CLIENTSIDE
+if (created) {
+dontblock;
+drawunderplayer;
+}
+NPCEND
+NPC candle.mng 21 6
+// NPC made by Emperor Darken Of Dark Chaos [Dark Chaos]
+//#CLIENTSIDE
+if (created) {
+ x = 21.5;
+}
+if (playertouchsme) {
+}
+NPCEND

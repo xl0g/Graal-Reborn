@@ -1,0 +1,433 @@
+GLEVNW01
+BOARD 0 0 64 0 gHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgIgHgMgNgUgVgXgVgMgNgUgVgIgNgUgVgWdndpdndndpdndngLgMgNgUgXgVgIgHgMgXgVgVgIgHgMgXgV
+BOARD 0 1 64 0 gXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegZglgPgdgkgegYgdgkglgmdpdodndndndndngbgcgdgkgZglgYgXgPgZglgegYgXgPgZgl
+BOARD 0 2 64 0 gngogNgogXgVgngogNgogXgVgngogNgogngogngogNgogngogXgVgNgogXgVgngogNgogngogNgUgVgWdndndndndpdngLgMgNgUgNgogngogXgVgNgogngogXgVgNgo
+BOARD 0 3 64 0 gJgKgJgkgZglgJgKgJgkgZglgJgKgJgkgJgKgJgKgJgkgJgKgZglgJgkgZglgJgKgJgkgJgKgdgkglgmdndpdodndndngbgcgdgkgJgkgJgKgZglgJgkgJgKgZglgJgk
+BOARD 0 4 64 0 gZgOgNgUgGgagZgOgXgVgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgGgagZgOgXgVgGgNgUgVgWd5dndndnhHhGdndpgLgMgNgUgXgVgagZgOgXgVgGgagZgOgXgV
+BOARD 0 5 64 0 gpgcgdgkglgmgpgcgZglglgmgpgcgdgkglgXgVgcgdgkglgmgpgcgZglglgXgVgcgZglglgdgkglgmdndndndphXhWdndngbgcgdgkgZglgmgpgXgZglglgXgVgcgZgl
+BOARD 0 6 64 0 gHgMgNgUgVgIgHgMgXgVgVgIgHgMgXgVgVgZglgMgNgUgVgIgHgMgNgUgVgZglgMgNgUgNgUgVgWdndpdndndnhHhGdndndngLgMgNgUgVgIgHgZgXgVgVgZglgMgNgU
+BOARD 0 7 64 0 gXgPgdgkgegYgXgPgZglgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgdgkglgmdndnhWhXhWhXhWhXdndngbgcgdgkgegYgXgPgZglgegYgXgPgdgk
+BOARD 0 8 64 0 gngogNgogXgVgngogNgogngogngogNgogngogngogNgogngogXgVgNgogngogngogNgUgVgWdndndnhHhGhHhGhHhGhHdndndngLgMgNgUgXgXgVgNgogXgVgngogNgo
+BOARD 0 9 64 0 gJgKgJgkgZglgJgKgJgkgJgKgJgKgJgkgJgKgJgKgJgkgJgKgZglgJgkgJgKgJgKgdgkglgmdpdnhWhXhWhXhWhXhWhXhWdndngbgcgdgkgZgZglgJgkgZglgJgKgJgk
+BOARD 0 10 64 0 gZgOgXgVgGgagZgOgXgVgXgVgZgOgNgUgGgagZgOgXgVgGgagZgOgXgVgXgVgNgUgVgWdndndndnhGhHhGhHhGhHdnhHhGdngLgMgNgUgXgXgVgVgNgUgZglgZgOgXgV
+BOARD 0 11 64 0 gpgcgZglglgXgVgcgZglgZgXgPgVgdgkglgmgpgcgZglglgXgVgcgZglgZglgdgkglgmdodndnhXhWhXhWhXhWhXhWhXhWdngbgcgdgkgZgZglgVgdgkglgXgVgcgZgl
+BOARD 0 12 64 0 gHgMgNgUgVgZgHgMgXgVgVgZglgMgNgUgVgIgHgMgNgUgVgZglgMgNgUgVgNgUgVgWdpdndpdnhHhGhHhGhHhGhHhGhHhGdndndngLgMgNgUgZglgNgUgVgZglgMgNgU
+BOARD 0 13 64 0 gXgPgdgkgegYgXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegdgkglgmdndndpdndnhWhXhWhXhWhXhWhXhWhXdndngbgcgdgkgZglgdgkgegYgXgPgdgk
+BOARD 0 14 64 0 gngogXgVgXgVgngogNgogngogngogNgogngogngogNgogngogngogXgVgVgNgUgVgWdndpdndndphGhHhGhHhGhHhGhHhGhHdndodngLgMgNgUgXgXgVgngogngogXgV
+BOARD 0 15 64 0 gJgKgZglgZglgJgKgJgkgJgKgJgKgJgkgJgKgJgKgJgkgJgKgJgKgZglglgdgkglgmdndpdndpdnhWhXhWhXhWhXdnhXhWdndndpdngbgcgdgkgZgZglgJgKgJgKgZgl
+BOARD 0 16 64 0 gZgOgNgUgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgNgUgVgWdndndndpdydndnhHhGhHhGhHhGhHhGdndndndndngLgMgNgUgNgUgGgagZgOgNgU
+BOARD 0 17 64 0 gpgcgdgkglgXgPgcgdgkglgmgpgcgdgkglgXgPgcgdgkglgmgpgcgZglgdgkglgmdydnM/dndndndndndndnhWhXhWdndndndndndnd5gbgcgdgkgdgkglgXgVgcgdgk
+BOARD 0 18 64 0 gHgMgNgUgXgZglgMgNgUgVgIgHgMgXgVgVgZglgMgXgVgVgIgHgMgNgUgVgWdndndnM/M/M/dndpdndpdnhHhGhHhGdndndndndpdndnjQjCgLgMgNgUgVgZglgMgNgU
+BOARD 0 19 64 0 gXgPgdgkgZglgXgPgdgkgegYgXgPgZglgegYgXgPgZglgegYgXgPgdgkglgmdndnM/M/M/dndndodndpdphXhWhXhWdndodndpdydndpizihgbgcgdgkgegYgXgPgdgk
+BOARD 0 20 64 0 gngogXgVgngogngogNgogXgVgngogNgogngogngogXgVgngogXgVgNgUgVgWdndpdndnM/M/dpdndpdndndnhGhHdpdndndndndndndndngLgMgNgUgXgXgVgngogNgo
+BOARD 0 21 64 0 gJgKgZglgJgKgJgKgJgkgZglgJgKgJgkgJgKgJgKgZglgJgKgZglgdgkglgmdndpdndndnM/M/dndndnd5dndndndndpdndndndndodpdngbgcgdgkgZgZglgJgKgJgk
+BOARD 0 22 64 0 gZgOgNgUgGgagZgOgNgUgGgagZgOgNgUgGgagZgOgNgUgXgXgVgNgUgVgWdndndndndDdEdEdEdEdEdEdEdEdEdEdEdEdEdEdGdndpdndngMgNgUgNgUgGgagZgOgXgV
+BOARD 0 23 64 0 gXgVgdgkgXgXgPgcgdgkglgmgpgcgdgkgXgVgVgcgdgkgZgZglgdgkglgmdpdpdndpdlc/dUdUdUdUdUdUdUdUdUdUdUdUc/dmdndpdndpgcgdgkgdgkglgmgpgcgZgl
+BOARD 0 24 64 0 gZglgXgVgZgZglgMgNgUgVgIgHgMgNgUgZglgXgVgXgVgNgogXgNgUgVgWdpdndpdndldmdjdkdkdkdkdkdkdkdkdkdkdXdldmdndpdndngLgMgNgUgXgVgIgHgMgNgU
+BOARD 0 25 64 0 gngogZglgngogXgPgdgkgegYgXgPgdgkgegYgZglgZglgJgkgZgdgkglgmdndpdndndldmBABBBCBDBDBDBDBDBDBFBGBHdldmdndndndngbgcgdgkgZglgYgXgPgdgk
+BOARD 0 26 64 0 gJgKgngogJgKgngogNgogXgPgZglgNgogZglgngogZglgngogngogagmdndndndndndldmBQBRBSBTBUBUBUBUBTBVBRBXdldmdndndpdndngLgMgNgUgngogXgVgNgo
+BOARD 0 27 64 0 gZgagJgKgZgagJgKgJgkgngogngogJgkgngogJgKgngogJgKgJgKgqdndpdndndpdndldmBQBRBSBUBUBUBUBUBUBVBRBXdldmdndydndndngbgcgdgkgJgKgZglgJgk
+BOARD 0 28 64 0 gpgqgZgagpgqgZgagngogJgKgJgKgngogJgKgngogJgKgZgagZgadpdpdndpdndndndldmBQBRBSBUBUBUBUBUBUBVBRBXdldmdodndndndnd5dpgLgMgNgUgXgVgXgV
+BOARD 0 29 64 0 dndngpgqhWhXgpgqgJgKgZgagZgagJgKgZgagJgKgZgagpgqgpgqdndndndndndndpdldmBQBRBSBUBUBUBUBUBUBVBRBXdldmdnM/M/M/dndndngbgcgdgkgZglgZgl
+BOARD 0 30 64 0 dndndnd5hGhHhGhHgZgagpgqgpgqgZgagpgqgZgagpgqdndndpdndndpdndndydndndldmBQBRBSBTBUBUBUBUBTBVBRBXdldmdndpdyM/M/M/gLgMgNgUgXgVgVgNgU
+BOARD 0 31 64 0 dndnLbdnhWhXhWhXgpgqhWhXhWdngpgqhWhXgpgqdndndndnM/M/M/dndndndndndndldmBQBhBiBjBjBjBjBjBjBWCkCldldmdnM/M/M/M/dngbgcgdgkgZgXgVgdgk
+BOARD 0 32 64 0 dndnLbdpdnhHhGhHhGhHhGhHhGhHhGhHhGhHdpd5dpdndpdndpdndodpdndndndpdndldmBQBxBRBRBRBRBRBRBRBRC0CldldmdndndpM/M/M/dngLgMgNgUgZglgNgo
+BOARD 0 33 64 0 dnLbLbLbdndndnhXhWhXhWhXhWhXhWhXdndndndndodndpdndpdnM/M/M/dndpdndndldmCACBBRBRBkBlBmBnBRBRDEDFdldmM/M/M/M/M/dndpgbgcgdgkgZglgJgk
+BOARD 0 34 64 0 dnLbdnLbdndnhGhHhGhHhGhHhGhHhGhHdpdndndndndpdndndpdndndpM/M/M/dndndldmCQCRCRCRB0B1B2B3CRCRCRBzdldmdndnM/M/M/M/M/dngLgMgNgUgOgXgV
+BOARD 0 35 64 0 dnLbdydndndnhWhXhWhXhWhXhWhXhWhXdndndpdndydndndndndndnM/M/M/dndndndldmCgChCiCjCEiLiLCHChCiCjCDdldmdpM/M/M/dndodndngbgcgdgkgcgZgl
+BOARD 0 36 64 0 dpdndpdpgHgIgHgIhGhHhGhHhGhHhGhHdndndndpdpdpdndpM/M/M/M/dndpdndndndldmCwCxCyCzCUibibCXCxCyCzCTdldmdndndndndpdpdpdndngLgMgNgUgNgU
+BOARD 0 37 64 0 gHgIgHgIgXgYgXgYgHgIhWhXhWhXhWhXhWhXdndndndnM/M/M/dndnM/M/M/dndndpdlc/dEdEdEdGdpdndndpdDdEdEdEc/dmdpdndpdndndndndndngbgcgdgkgdgk
+BOARD 0 38 64 0 gXgYgXgYgngogngogXgYgHgIhGhHgHgIhGhHdndndndpdnM/M/M/dndnM/M/M/dpdndTdUdUdUdUdWM/M/M/dndTdUdUdUdUdWdndndndndydndndngLgMgNgUgXgXgV
+BOARD 0 39 64 0 gngogngogJgKgJgKgngogXgYgHgIgXgYgHgIgHgIdndndndnM/M/M/M/M/M/M/M/dndjdkdkdkdkdXdnM/M/M/djdkdkdkdkdXdndndpdpdndpdndngbgcgdgkgZgZgl
+BOARD 0 40 64 0 gJgKgJgKgXgVgXgVgJgKgngogXgYgngogXgYgXgYgHgIdndpdpM/M/M/M/M/M/dpdndndndpdndndpdpM/M/dndpdndpdndpdndndodpdndodndngLgMgNgUgZgOgXgV
+BOARD 0 41 64 0 gXgVgXgVgVglgZglgngogJgKgngogJgKgngogngogXgYdndodndnM/M/M/M/dndndydodndndpdndnM/M/M/M/dndndndndydndndndndpdndodngbgcgdgkgXgVgZgl
+BOARD 0 42 64 0 gXgVgNgUgXgVgXgVgJgKgXgVgJgKgNgUgJgKgJgKgngogIdndpdndndodpdpdndndndndndndndnM/M/M/M/dndndndndndndndndndndndndndpgLgMgNgUgZglgNgU
+BOARD 0 43 64 0 gZglgdgkgZglgXgVgZglgZglgXgPgdgkgegYgXgVgJgKgVgWdndndndndndodndndpdndndpdndndndpdpdndpdndpdnKpKqdndndpdodndpdndygbgcgdgkgXgPgdgk
+BOARD 0 44 64 0 gngogNgogngogZglgNgogngogngogNgogngogXgXgVgNgUgVgWdnM/M/M/gHgMgNgUgVgIdndnM/M/M/M/dndndndndnK5K6dndndndndndodndndpgLgMgNgUgXgXgV
+BOARD 0 45 64 0 gJgKgJgkgJgKgZglgJgkgJgKgJgKgJgkgJgKgZgZglgdgkglgmdpdndndngXgPgdgkgegYdndndnM/M/dndndpdnLILJLKLJLKKrdndndndndpdnd5gbgcgdgkgZgZgl
+BOARD 0 46 64 0 gZgOgNgUgGgagZglgXgVgGgagZgOgNgUgGgagZgOgNgUgVgWdndndodpdngngogNgogngodndndpdndpdndnKpKqLYLZLaLZLaK7KpKqdndndpdngLgMgNgUgXgVgNgU
+BOARD 0 47 64 0 gXgVgdgkglgXgVgcgZglglgXgVgcgdgkglgXgVgcgdgkglgmdndpdndpdngJgKgJgkgJgKgIdndpdodndndpK5K6LYLZLaLZLaK7K5K6dndndndngbgcgdgkgXgVgdgk
+BOARD 0 48 64 0 gZglgNgUgVgZglgMgNgUgVgZglgMgNgUgVgZglgMgNgUgVgWdndndndndngZgOgNgUgNgUgVgWdpdndndndndndnLoLpLqLpLqLLdndndpdngLgMgNgUgXgVgZglgNgU
+BOARD 0 49 64 0 gXgPgdgkgegYgXgPgdgkgegYgXgPgdgkgegYgXgPgdgkglgmd5dndydndpgpgcgdgkgdgkglgmdndndydndndndndndnKpKqdndndndpdndngbgcgdgkgZglgZglgdgk
+BOARD 0 50 64 0 gngogNgogngogXgVgNgogngogngogNgogngogXgVgVgNgUgVgWdndndndngLgMgNgUgXgNgUgVgIdndndpdpdndndndpK5K6dndpdndogLgMgNgUgNgogngogXgVgNgo
+BOARD 0 51 64 0 gJgKgJgkgJgKgZglgJgkgJgKgJgKgJgkgJgKgZglglgdgkglgmdpdpdndngbgcgdgkgZgdgkgegYdndndndndndndndndndndndndndngbgcgdgkgJgkgJgKgZglgJgk
+BOARD 0 52 64 0 gZgOgNgUgGgagZgOgNgUgGgagZgOgNgUgXgVgZgOgNgUgVgWdndndodndndngHgMgNgUgXgVgngodpdndndndpdnM/M/dndpdndngLgMgNgUgXgXgVgVgGgagZgOgXgV
+BOARD 0 53 64 0 gpgcgdgkglgXgVgcgdgkglgmgpgcgdgkgZglgVgcgdgkglgmdndndndndpdngXgPgdgkgZglgJgKdndpdnhXhWdndnM/M/M/M/dpgbgcgdgkgZgZglglglgXgVgcgZgl
+BOARD 0 54 64 0 gHgMgNgUgVgZglgMgNgUgVgIgHgMgXgVgVgZglgNgUgVgWjQjCdpdndndndngngogNgogNgUgGgadndpdnhHhGhHdpdoM/M/dndpgLgMgNgUgXgVgNgUgVgZglgMgNgU
+BOARD 0 55 64 0 gXgPgdgkgegYgXgPgdgkgegYgXgPgZglgegYgXgdgkglgmizihdndydydndogJgKgJgkgdgkglgmdndnhWhXhWhXhWdndpdndydngbgcgdgkgXgVgdgkgegYgXgPgdgk
+BOARD 0 56 64 0 gXgVgNgogngogngogNgogngogngogXgVgngogngogNgUgVgWdpdndydpdndngZgOgNgUgGgadndndnhHhGhHhGhHhGdpdndngLgMgNgUgngogZglgXgVgngogXgVgNgo
+BOARD 0 57 64 0 gZglgJgkgJgKgJgKgJgkgJgKgJgKgZglgJgKgJgKgdgkglgmdndnM/M/dpdngpgcgdgkglgmdndndnhXhWhXhWhXhWhXdndngbgcgdgkgJgKgZglgZglgJgKgZglgJgk
+BOARD 0 58 64 0 gZgOgNgUgGgagZgOgNgUgGgagZgOgXgVgGgXgVgNgUgVgWdndnM/M/dnM/M/dndndndpdndpdndndpdnhGhHdnhHhGhHhGdndpgLgMgNgUgXgXgVgNgUgGgagZgOgNgU
+BOARD 0 59 64 0 gpgcgdgkglgXgVgcgdgkglgmgpgcgZglglgZglgdgkglgmdndpdndpM/M/dndndndndndpdndpdnhWhXhWhXhWhXhWhXhWdndngbgcgdgkgZgXgVgdgkglgXgVgcgdgk
+BOARD 0 60 64 0 gHgMgXgVgVgZglgMgNgUgVgIgHgMgNgUgVgXgVgMgNgUgVgWdndndodndndndpdodnhHhGdndnhHhGhHhGhHhGhHhGhHdndndpdngLgMgNgUgZglgNgUgVgZglgMgXgV
+BOARD 0 61 64 0 gXgPgZglgegYgXgPgdgkgegYgXgPgdgkgegZglgPgdgkglgmd5dndndpdndndnhXhWhXhWhXhWhXhWhXhWhXhWhXhWhXhWhXdndngbgcgdgkgZglgdgkgegYgXgPgZgl
+BOARD 0 62 64 0 gngogNgogngogngogXgVgngogXgVgNgogngogXgVgVgNgUgVgWdndndndndnhGhHhGhHhGhHhGhHhGhHhGhHhGhHhGhHhGhHdndpdngLgMgNgUgXgVgXgXgVgngogNgo
+BOARD 0 63 64 0 gJgKgJgkgJgKgJgKgZglgJgKgZglgJgkgJgKgZglglgdgkglgmdndpdpdndnhWhXhWhXhWhXhWhXhWhXhWhXhWhXhWdndndndndpdngbgcgdgkgZglgZgZglgJgKgJgk
+LINK guildventrue_inside_inn_01.nw 40 34 2 1 30.5 39
+SIGN 37 40
+
+          #i(vvwallbanner.png)  Ventrue Inn  #i(vvwallbanner.png)
+SIGNEND
+SIGN 43 40
+
+          #i(vvwallbanner.png)  Ventrue Inn  #i(vvwallbanner.png)
+SIGNEND
+NPC - 20 7
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (playerenters) {seteffect 0,0,0,0.4;
+}
+NPCEND
+NPC houseraft.png 33 22
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC handlamp1on.mng 46 45
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  setimgpart handlamp1on.mng,0,0,32,48;
+  drawoverplayer;
+
+  //glow
+  showimg 1,light2.png,x-3,y-2.5;
+  changeimgcolors 1,1,0.35,0,0.62;
+  changeimgzoom 1,0.5;
+}
+NPCEND
+NPC light2.png 19 22
+// NPC made by Stev (Ventrue Vampires)
+if (created) {
+  dontblock; drawunderplayer;
+  changeimgzoom 1,3;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,0.35,0.6;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 36 35
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  setimgpart light2.png,50,50,30,90;
+  dontblock; drawunderplayer;
+  x = 36.6;
+  y = 35.2;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .5,.5,.5,0.90;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 44 35
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  setimgpart light2.png,50,50,30,90;
+  dontblock; drawunderplayer;
+  x = 43.6;
+  y = 35.2;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .5,.5,.5,0.90;
+  drawaslight;
+}
+NPCEND
+NPC stonetable2.png 44 45
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 46 43
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC darkpillar.png 23 54
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {setimgpart darkpillar.png,0,0,32,32; drawunderplayer;
+}
+NPCEND
+NPC darkpillar.png 52 18
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {setimgpart darkpillar.png,0,0,32,32; drawunderplayer;
+}
+NPCEND
+NPC handlamp1on.mng 12 28
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  setimgpart handlamp1on.mng,0,0,32,48;
+  showimg 1,light2.png,x-3,y-2.5;
+  changeimgcolors 1,1,0.35,0,0.62;
+  changeimgzoom 1,3;
+}
+NPCEND
+NPC vampseal.png 39 27
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {dontblock; drawoverplayer;x = x+.5; y = y+.5;
+}
+NPCEND
+NPC stonechair.png 42 46
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC stonechair.png 46 49
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC stonechair.png 50 46
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC light2.png 37 24
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+y=y+.5;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,0,0,0.66;
+  drawaslight;
+}
+NPCEND
+NPC halloweenc-fog.png 34 6
+// NPC made by Stev (Potamus)
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setcoloreffect 1,1,1,0.4;
+}
+NPCEND
+NPC halloweenc-fog.png 14 30
+// NPC made by Stev (Potamus)
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setcoloreffect 1,1,1,0.4;
+}
+NPCEND
+NPC halloweenc-fog.png 35 49
+// NPC made by Stev (Potamus)
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setcoloreffect 1,1,1,0.4;
+}
+NPCEND
+NPC halloweenc-fog2.png 36 40
+// NPC made by Stev (Potamus)
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setcoloreffect 1,1,1,0.4;
+}
+NPCEND
+NPC halloweenc-fog2.png 29 18
+// NPC made by Stev (Potamus)
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setcoloreffect 1,1,1,0.4;
+}
+NPCEND
+NPC halloweenc-fog2.png 43 27
+// NPC made by Stev (Potamus)
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setcoloreffect 1,1,1,0.4;
+}
+NPCEND
+NPC kcavelamp.mng 22 25
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {setimgpart kcavelamp.mng,32,0,32,62; drawunderplayer; dontblock;
+}
+NPCEND
+NPC vvsign.png 43 39
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,32,32;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC vvsign.png 37 39
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,32,32;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC rockgateu.png 40 35
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {drawunderplayer;
+}
+if (playertouchsme) {hide;
+}
+if (playerenters) {show;
+}
+NPCEND
+NPC - 25 19
+if (playerchats) {
+  if (strequals(#c,citadel)) {
+    if (strequals(#g,Ventrue)||strequals(#g,Ventrue Vampires)) {
+      setlevel2 guildventrue_catacomb_15.nw,18.5,50;
+    }
+  }
+}
+NPCEND
+NPC classic_ventruesupportnorth.png 12 27
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+}
+NPCEND
+NPC classic_ventruesupporteast.png 55 40
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+}
+NPCEND
+NPC classic_ventruesupporteast.png 50 12
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+}
+NPCEND
+NPC classic_ventruesupportwest.png 28 14
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+}
+NPCEND
+NPC classic_ventruesupportwest.png 19 58
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+}
+NPCEND
+NPC classic_ventruesupportsouth.png 2 36
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+}
+NPCEND
+NPC classic_waterdrop.mng 44 -4
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawoverplayer;
+}
+if (playerenters) {
+  hide;
+  timeout = 1.5;
+}
+if (timeout) {
+  show;
+}
+NPCEND
+NPC classic_waterdrop.mng 38 51
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawoverplayer;
+}
+if (playerenters) {
+  hide;
+  timeout = 1;
+}
+if (timeout) {
+  show;
+}
+NPCEND
+NPC classic_waterdrop.mng 12 22
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawoverplayer;
+}
+if (playerenters) {
+  hide;
+  timeout = .5;
+}
+if (timeout) {
+  show;
+}
+NPCEND
+NPC handlamp1on.mng 52 17
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  setimgpart handlamp1on.mng,0,0,32,48;
+  y = y-.5;
+
+  //Glow
+  showimg 1,light2.png,x-3,y-2.5;
+  changeimgcolors 1,1,0.35,0,0.62;
+  changeimgzoom 1,3;
+}
+NPCEND
+NPC handlamp1on.mng 23 53
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  setimgpart handlamp1on.mng,0,0,32,48;
+  y = y-.5;
+
+  //Glow
+  showimg 1,light2.png,x-3,y-2.5;
+  changeimgcolors 1,1,0.35,0,0.62;
+  changeimgzoom 1,3;
+}
+NPCEND
+NPC - 22 34
+join("baddy_rat");
+NPCEND
+NPC - 27 29
+join("baddy_rat");
+NPCEND

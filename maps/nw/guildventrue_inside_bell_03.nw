@@ -1,0 +1,545 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4inhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhnhmhni1J4J4
+BOARD 0 8 64 0 J4J4J4J4hijQhhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhghhhgjCjQhhhghhhghhhghhhghhhgkQkRkSkThhhghhhghhhgjCiFJ4J4
+BOARD 0 9 64 0 J4J4J4J4hyiCjBhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxhwhxjTh1iCjBhwhxhwhxhwhxhwhxhwAAAAAAhwhxhwhxhwhxjTh1iVJ4J4
+BOARD 0 10 64 0 J4J4J4J4hiiSiTjAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAjDhkh1iSiTjAiBiAiBiAiBiAiBiAAAAAAAiAiBiAiBiAjDhkh1iFJ4J4
+BOARD 0 11 64 0 J4J4J4J4hyiCiDiEv/v/v/v/v/v/v/v/v/v/LELFLGLFLGLFLGLHv/v/v/v/v/v/v/v/v/v/hzh0h1iCiDiEqPqPKpKqqPqPqPqPLmLmLmLmqPqPqPqPhzh0h1iVJ4J4
+BOARD 0 12 64 0 J4J4J4J4hiiSiTiUv/v/v/v/v/v/v/v/v/v/LULVLWLVLWLVLWLXv/v/v/v/v/v/v/v/v/v/hjhkhliSiTiUqPqPK5K6zzz1z1z1z1z1z1z1z1z1z0qPhjhkhliFJ4J4
+BOARD 0 13 64 0 J4J4J4J4hyiCiDiEv/v/k3k2k2k2k2k2k2k2LULVLWLVLWLVLWLXk2k2k2k2k2k2k2k3v/v/hzh0h1iCiDiEqPqPk2k20FFCFCFCFCFCFCFCFCFC00qPhzh0h1iVJ4J4
+BOARD 0 14 64 0 J4J4J4J4hiiSiTiUv/v/k2qPqPqPqPqPqPqPKpKqKpKqKpKqKpKqqPqPqPqPqPqPqPk2v/v/hjhkhliSiTiUqPqPk2k20FFCFDFEFCFCFCFCFCFC00qPhjhkhliFJ4J4
+BOARD 0 15 64 0 J4J4J4J4hyiCiDiEv/v/k2qPqPqPqPqPqPqPK5K6K5K6K5K6K5K6qPqPqPqPqPqPqPk2v/v/hzh0h1iCiDiEqPqPqPqP0FFCFCFCFCFCFDFEFCFC00qPhzh0h1iVJ4J4
+BOARD 0 16 64 0 J4J4J4J4hikUiTiUk3k2k3qPqPqPqPqPqPqPK5K6K5K6K5K6K5K6qPqPqPqPqPqPqPk2v/v/hjhkhliSiTiUqPqPqPqP0FFCFCFCFCFCFCFCFCFC00qPhjhkhliFJ4J4
+BOARD 0 17 64 0 J4J4J4J4hikkkrksktqPqPqPqPqPqPqPqPqPLkLlLlLlLlLlLlLnqPqPqPqPqPqPqPk2v/v/hzh0h1iCiDiEqPqPqPqP0FFCFCFCFCFCFCFCFCFC00qPhzh0h1iVJ4J4
+BOARD 0 18 64 0 J4J4J4J4hykUk7k8k9qPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hjhkhliSiTiUqPqPqPqP0FFCFCFDFEFCFCFCFCFC00qPhjhkhliFJ4J4
+BOARD 0 19 64 0 J4J4J4J4hikkkrksktqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hzh0h1iCiDiEqPqPqPqP0T0UFCFCFCFCFDFEFC0T0UqPhzh0h1iVJ4J4
+BOARD 0 20 64 0 J4J4J4J4hykUk7k8k9qPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hjhkhliSiTiUqPqPqPqP0j0k0V0V0Vk5k50V0V0j0kqPhjhkhliFJ4J4
+BOARD 0 21 64 0 J4J4J4J4hikkiDiEk3k2k3qPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hzh0h1iCiDiEqPqPqPqPzFzFzFzFzFk5k5zFzFzFzFqPhzh0h1iVJ4J4
+BOARD 0 22 64 0 J4J4J4J4hyiSiTiUv/v/k2qPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hjhkhliSiTiUqPqPqPqPqPqPqPqPk2k2k2k2qPqPqPqPhjhkhliFJ4J4
+BOARD 0 23 64 0 J4J4J4J4hiiCiDiEv/v/k2qPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hzh0h1iCiDiEqPqPqPqPqPqPqPqPk2k3k3k2qPqPqPqPhzh0h1iVJ4J4
+BOARD 0 24 64 0 J4J4J4J4hyiSiTiUv/v/k2qPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hjhkhliSiTiUqPqPqPqPqPqPqPqPk2k2k2k2qPqPqPqPhjhkhliVJ4J4
+BOARD 0 25 64 0 J4J4J4J4hiiCiDiEv/v/k2qPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hzh0h1iCiDiEqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPhzh0h1iFJ4J4
+BOARD 0 26 64 0 J4J4J4J4hiiSiTiUv/v/k3k2k2zYzazazazazbk2k215k2k215k2k2k2k2k2k3qPqPk2v/v/hjhkhliSiTiyh3h2h3h2h3jgqPqPjih2h3h2h3h2h3h2ixhkhliVJ4J4
+BOARD 0 27 64 0 J4J4J4J4hyiCiDiEv/v/v/v/v/2Z1o1p1o1p2Zv/v/15v/v/15v/v/v/v/v/k2qPqPk2v/v/hzh0h1iCiiiGiHiGiHiGiHjwqPqPjyiGiHiGiHiGiHiGiHiwh1iFJ4J4
+BOARD 0 28 64 0 J4J4J4J4hiiSiTiU12zYzazb122Jv/v/v/v/2J12zZ12k3k31qzYzazb12v/k2qPqPk2v/v/hjhkhliziXiWiXiWiXiWiXJ4v/v/J4iWiXiWiXiWiXiWiXiWihiVJ4J4
+BOARD 0 29 64 0 J4J4J4J4hyiCiDiE0Xk3k2k2k2122o2n2o2o12k2k2k2k2k2k2k2k2k30Xv/k2qPqPk2v/v/hzh0jHhghhhghhhghhhghhJ4v/v/J4hghhhghhhghhhghhhgjCiFJ4J4
+BOARD 0 30 64 0 J4J4J4J4hiiSiTiU03k2qPk3qPk3qPk3qPk3qPk3qPk3qPk3qPk3qPk203v/k2qPqPk2v/v/hjjWhxhwhxhwhxhwhxhwhxjjv/v/jlhwhxhwhxhwhxhwhxjThliVJ4J4
+BOARD 0 31 64 0 J4J4J4J4hyiCiDiE1Hk2k3qPk3qPk3qPKpKqk3KpKqqPk3qPk3qPk3k20nv/k2qPqPk2v/v/jXiAiBiAiBiAiBiAiBiAiBjzv/v/j1iAiBiAiBiAiBiAjDh0h1iFJ4J4
+BOARD 0 32 64 0 J4J4J4J4hikUiTiU12k2qPk3qPk3qPk3K5K6qPK5K6k3qPk3qPk3qPk203v/k2qPqPk2v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/hjhkhliVJ4J4
+BOARD 0 33 64 0 J4J4J4J4hykkkrksktk2k3qPk3qPk3LILJLKLJLKLKKrk3qPk3qPk3k20nv/k2qPqPk2v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/hzh0h1iFJ4J4
+BOARD 0 34 64 0 J4J4J4J4hikUk7k8k9k2qPk3qPKpKqLYLZLaLZLaLadxKpKqqPk3qPk203v/k3qPqPk3k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k3v/v/hjhkhliVJ4J4
+BOARD 0 35 64 0 J4J4J4J4hikkkrksktk2k3qPk3K5K6LYdxLaLZLaLaK7K5K6k3qPk3k20nv/k2qPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hzh0h1iVJ4J4
+BOARD 0 36 64 0 J4J4J4J4hykUk7k8k9k2qPk3qPk3qPLoLpLqLpLqLqLLqPk3qPk3qPk203v/k2qPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hjhkhliFJ4J4
+BOARD 0 37 64 0 J4J4J4J4hikkiDiE12k2k3qPk3qPk3qPKpKqk3KpKqqPk3qPk3qPk3k20nv/k2qPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hzh0h1iVJ4J4
+BOARD 0 38 64 0 J4J4J4J4hyiSiTiU0Xk2qPk3qPk3qPk3K5K6qPK5K6k3qPk3qPk3qPk203v/k2qPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPqPk2v/v/hjhkhliFJ4J4
+BOARD 0 39 64 0 J4J4J4J4hiiCiDiE03k2k3qPk3qPk3qPk3qPk3qPk3qPk3qPk3qPk3k20nv/k3k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k3v/v/hzh0h1iVJ4J4
+BOARD 0 40 64 0 J4J4J4J4hyiSiTiU1Hk3k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k31Hv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/hjhkhliFJ4J4
+BOARD 0 41 64 0 J4J4J4J4hiiCiDiE12zYzazZzZzazZzZzazZzazZzazZzZzazZzZzazb12v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/hzh0h1iVJ4J4
+BOARD 0 42 64 0 J4J4J4J4hyiSiTiyh3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3h2h3jgjhjhjih2h3h2ixhkhliFJ4J4
+BOARD 0 43 64 0 J4J4J4J4hyiCiiiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHiGiHjwv/v/jyiGiHiGiHiwh1iVJ4J4
+BOARD 0 44 64 0 J4J4J4J4hyiziXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXiWiXkAkBkCkDiWiXiWiXiWihiFJ4J4
+BOARD 0 45 64 0 J4J4J4J4jGiQiRiRiQiRiQiRiQiRiQiRiQiQiRiRiQiRiQiRiQiRiRiQiRiQiRiQiRiQiRiQiQiRiRiQiRiQiQiRiRiQiRiQiRiQiRiQiRiQiQiRiRiQiRiQiRjUJ4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK guildventrue_inside_bell_02.nw 52 44 2 1 21.5 20.5
+SIGN 41 31
+Sting Darkmane, Bells grandsire
+and the best GC ever to haunt
+the halls of graal.
+SIGNEND
+SIGN 29 10
+The name under this frame has 
+been scratched out and 
+changed so many times it's hard 
+to make out SaveD. 
+Bell's third childe.
+SIGNEND
+SIGN 11 10
+Sir Xero ScorpiO. Husband and 
+father of Bells many children. 
+Also turned that fateful day.
+SIGNEND
+SIGN 13 10
+Jizzabell ScorpiO, married to
+Sir Xero ScorpiO. The Ventrue 
+clan took her mortal life October
+of 2002 after a  raid in the 
+families villiage.
+SIGNEND
+SIGN 27 10
+Dev is Bell's second childe. His
+evil ways are legendary.
+SIGNEND
+SIGN 44 31
+deadstar darkmane, Bells sire and 
+the ancient one.
+SIGNEND
+SIGN 38 31
+Goth Darkmane, Bells great 
+grandsire, bit many a mortal
+in his day.
+SIGNEND
+SIGN 31 10
+Cali, Bells fourth. She may 
+look sweet and kind but I
+wouldn't say it out loud to 
+her if you want to stay alive
+SIGNEND
+SIGN 15 10
+Maxine, my first childe, she fell
+into a deep torpor and will be 
+missed.
+SIGNEND
+NPC vvbell1.png 13 9
+// NPC made by Bell Darkmane (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC vvxero.png 11 9
+// NPC made by Bell Darkmane (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC vvcalipic.png 31 9
+// NPC made by Bell Darkmane (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+NPCEND
+NPC vvagamemnom.png 27 9
+// NPC made by Bell Darkmane (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC vvbellbedred.png 18 9
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer; noplayerkilling;
+}
+NPCEND
+NPC darkstep2.png 51 20
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {dontblock
+}
+NPCEND
+NPC waterani.gif 50 9
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC smoke.mng 46 13
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {dontblock
+}
+NPCEND
+NPC tolit.png 44 10
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created)
+
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC gclamp.mng 52 29
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; setimgpart gclamp.mng,0,0,32,48; x = 52; y = 29.5;
+  //Glow
+  showimg 1,light2.png,x-3,y-2.5;
+  changeimgcolors 1,1,0.35,0,0.62;
+  changeimgzoom 1,3;
+}
+NPCEND
+NPC darkpillar.png 8 10
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+NPCEND
+NPC vvanarchybowlingball.png 30 34
+// NPC made by Bell Darkmane (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {say2 Ouch!
+}
+NPCEND
+NPC vvdeadstarpic.png 44 30
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC vvstingpic.png 41 30
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC vvgothpic.png 38 30
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+NPCEND
+NPC penta.mng 8 9
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.99;
+  drawaslight;
+  dontblock;
+}
+NPCEND
+NPC light2.png 5 6
+// NPC made by Bell Darkmane (The Sabbat)
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,0,0,0.60;
+  drawaslight;
+}
+NPCEND
+NPC darkpillar.png 34 10
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+NPCEND
+NPC penta.mng 34 9
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.99;
+  drawaslight;
+  dontblock;
+}
+NPCEND
+NPC light2.png 48 4
+// NPC made by Bell Darkmane (The Sabbat)
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,0,0,0.60;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 31 6
+// NPC made by Bell Darkmane (The Sabbat)
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,0,0,0.60;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 21 6
+// NPC made by Bell Darkmane (The Sabbat)
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 2,1,0,0.30;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 15 6
+// NPC made by Bell Darkmane (The Sabbat)
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 2,1,0,0.30;
+  drawaslight;
+}
+NPCEND
+NPC darkbedtable.png 13 34
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC empcandle.mng 20 33
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC empcandle.mng 17 33
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created){dontblock; setimgpart empcandle.mng,0,0,32,48; x = x-.5; }
+
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 14 26
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; setcoloreffect 1,1,1,0.99; drawaslight;
+}
+NPCEND
+NPC darkstep2.png 22 27
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC fire.mng 16 26
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; setcoloreffect 1,1,1,0.99; drawaslight;
+}
+NPCEND
+NPC light2.png 13 24
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,0,0,0.80;
+  drawaslight;
+}
+NPCEND
+NPC vvmingtree2.png 55 18
+// NPC made by Bell Darkmane
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC vvwallbanner.png 56 9
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; setimgpart vvwallbanner.png,0,0,32,48; x = 56; y = 8.5;
+  //Glow
+ }
+NPCEND
+NPC zerotp.png 42 10
+// NPC made by Bell Darkmane (The Sabbat)
+//CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC vvmingtree2.png 18 33
+// NPC made by Bell Darkmane
+//#CLIENTSIDE
+if (created) {dontblock; setimgpart vvmingtree2.png,0,0,32,48; x = x-.5;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC vvmingtree2.png 46 18
+// NPC made by Bell Darkmane
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 21 20
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head801.png;
+  setcharprop #C0,lightgray;
+  setcharprop #C1,darkgreen;
+  setcharprop #C2,black;
+  setcharprop #C3,darkgreen;
+  setcharprop #C4,darkgreen;
+  setcharprop #2,greenflm-shield.mng;
+  setcharprop #8, bodyc-kelmagerianbody.png;
+  setcharprop #n, Bell Darkmane (Ventrue Vampires);
+  shieldpower = 3;
+  ap = 69;
+  dir = 2;
+  setcharani classic_angel,wings21.png;
+}
+if(playertouchsme) {dontblock;
+}
+NPCEND
+NPC spiralstaird.png 52 42
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC light2.png 11 24
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,0,0,0.80;
+  drawaslight;
+}
+NPCEND
+NPC vvwallbanner.png 47 9
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; setimgpart vvwallbanner.png,0,0,32,48; x = 47; y = 8.5;
+  //Glow
+ }
+NPCEND
+NPC vvli-esse.png 29 9
+// NPC made by Bell Darkmane (Ventrue Vampires)
+//#CLIENTSIDE
+if (created) {
+}
+NPCEND
+NPC vvmaxy.png 15 9
+// NPC made by Bell (GP)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC redcurtainl.png 6 35
+// NPC made by Bell Ðarkmåne (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC redcurtainl.png 6 17
+// NPC made by Bell Ðarkmåne (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC redcurtainl.png 6 19
+// NPC made by Bell Ðarkmåne (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC redcurtainl.png 6 33
+// NPC made by Bell Ðarkmåne (The Sabbat)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 45 52
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (playerenters) {seteffect 0,0,0,0.2;
+}
+NPCEND
+NPC darkdoorpassageup.png 47 26
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawoverplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbedtable.png 22 34
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC darkbedtable.png 16 37
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC darkbedtable.png 19 37
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC darkbedtable.png 19 31
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC darkbedtable.png 16 31
+// NPC made by Bell Darkmane (The Sabbat)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+NPCEND

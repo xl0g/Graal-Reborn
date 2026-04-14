@@ -1,0 +1,433 @@
+GLEVNW01
+BOARD 0 0 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 1 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 2 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 3 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 4 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 5 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 6 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 7 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 8 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 9 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 10 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 11 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 12 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 13 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 14 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 15 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 16 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 17 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 18 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 19 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 20 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 21 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 22 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 23 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 24 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 25 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 26 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 27 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 28 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 29 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 30 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 31 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 32 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 33 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 34 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 35 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 36 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 37 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 38 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 39 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 40 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 41 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 42 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 43 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 44 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 45 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 46 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 47 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 48 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 49 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 50 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 51 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 52 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 53 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 54 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 55 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 56 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 57 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 58 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 59 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 60 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 61 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 62 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 63 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+NPC classic_key1.png 15 32
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key1.png");
+}
+
+function onPlayertouchsme(){
+hide();
+setstring("client.quest_avalon_tankey",1);
+player.chat = "I found the YELLOW key";
+}
+NPCEND
+NPC classic_key2.png 18 32
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key2.png");
+}
+
+function onPlayertouchsme(){
+hide();
+setstring("client.quest_avalon_greenkey",1);
+player.chat = "I found the GREEN key";
+}
+NPCEND
+NPC classic_key3.png 21 32
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key3.png");
+}
+
+function onPlayertouchsme(){
+hide();
+setstring("client.quest_avalon_bluekey",1);
+player.chat = "I found the BLUE key";
+}
+NPCEND
+NPC classic_key4.png 24 32
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key4.png");
+}
+
+function onPlayertouchsme(){
+hide();
+setstring("client.quest_avalon_redkey",1);
+player.chat = "I found the RED key";
+}
+NPCEND
+NPC classic_key5.png 27 32
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key5.png");
+}
+
+function onPlayertouchsme(){
+hide();
+setstring("client.quest_avalon_purplekey",1);
+player.chat = "I found the PURPLE key";
+}
+NPCEND
+NPC classic_key6.png 30 32
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key6.png");
+}
+
+function onPlayertouchsme(){
+hide();
+setstring("client.quest_avalon_orangekey",1);
+player.chat = "I found the ORANGE key";
+}
+NPCEND
+NPC classic_key7.png 33 32
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key7.png");
+}
+
+function onPlayertouchsme(){
+hide();
+setstring("client.quest_avalon_silverkey",1);
+player.chat = "I found the SILVER key";
+}
+NPCEND
+NPC classic_door1.png 15 18
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+
+function onCreated(){
+setimg("classic_door1.png");
+}
+
+function onPlayertouchsme(){
+if (client.quest_avalon_tankey == 1){
+player.chat = "Door opens";
+hide();
+sleep(3);
+show();
+}
+if (client.quest_avalon_tankey == NULL){
+player.chat = "I need the YELLOW key to open this door";
+}
+}
+NPCEND
+NPC classic_door2.png 18 18
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+
+function onCreated(){
+setimg("classic_door2.png");
+}
+
+function onPlayertouchsme(){
+if (client.quest_avalon_greenkey == 1){
+player.chat = "Door opens";
+hide();
+sleep(3);
+show();
+}
+if (client.quest_avalon_greenkey == NULL){
+player.chat = "I need the GREEN key to open this door";
+}
+}
+NPCEND
+NPC classic_door3.png 21 18
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+
+function onCreated(){
+setimg("classic_door3.png");
+}
+
+function onPlayertouchsme(){
+if (client.quest_avalon_bluekey == 1){
+player.chat = "Door opens";
+hide();
+sleep(3);
+show();
+}
+if (client.quest_avalon_bluekey == NULL){
+player.chat = "I need the BLUE key to open this door";
+}
+}
+NPCEND
+NPC classic_door4.png 24 18
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+
+function onCreated(){
+setimg("classic_door4.png");
+}
+
+function onPlayertouchsme(){
+if (client.quest_avalon_redkey == 1){
+player.chat = "Door opens";
+hide();
+sleep(3);
+show();
+}
+if (client.quest_avalon_redkey == NULL){
+player.chat = "I need the RED key to open this door";
+}
+}
+NPCEND
+NPC classic_door5.png 27 18
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+
+function onCreated(){
+setimg("classic_door5.png");
+}
+
+function onPlayertouchsme(){
+if (client.quest_avalon_purplekey == 1){
+player.chat = "Door opens";
+hide();
+sleep(3);
+show();
+}
+if (client.quest_avalon_purplekey == NULL){
+player.chat = "I need the PURPLE key to open this door";
+}
+}
+NPCEND
+NPC classic_door6.png 30 18
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+
+function onCreated(){
+setimg("classic_door6.png");
+}
+
+function onPlayertouchsme(){
+if (client.quest_avalon_orangekey == 1){
+player.chat = "Door opens";
+hide();
+sleep(3);
+show();
+}
+if (client.quest_avalon_orangekey == NULL){
+player.chat = "I need the ORANGE key to open this door";
+}
+}
+NPCEND
+NPC classic_door7.png 33 18
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+
+function onCreated(){
+setimg("classic_door7.png");
+}
+
+function onPlayertouchsme(){
+if (client.quest_avalon_silverkey == 1){
+player.chat = "Door opens";
+hide();
+sleep(3);
+show();
+}
+if (client.quest_avalon_silverkey == NULL){
+player.chat = "I need the SILVER key to open this door";
+}
+}
+NPCEND
+NPC - 24 44
+message("unsetters");
+NPCEND
+NPC classic_key1.png 15 48
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key1.png");
+}
+
+function onPlayertouchsme(){
+unset("client.quest_avalon_tankey");
+player.chat = "I lost the TAN key";
+}
+NPCEND
+NPC classic_key2.png 18 48
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key2.png");
+}
+
+function onPlayertouchsme(){
+unset("client.quest_avalon_greenkey");
+player.chat = "I lost the GREEN key";
+}
+NPCEND
+NPC classic_key3.png 21 48
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key3.png");
+}
+
+function onPlayertouchsme(){
+unset("client.quest_avalon_bluekey");
+player.chat = "I lost the blue key";
+}
+NPCEND
+NPC classic_key4.png 24 48
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key4.png");
+}
+
+function onPlayertouchsme(){
+unset("client.quest_avalon_redkey");
+player.chat = "I lost the RED key";
+}
+NPCEND
+NPC classic_key5.png 27 48
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key5.png");
+}
+
+function onPlayertouchsme(){
+unset("client.quest_avalon_purplekey");
+player.chat = "I lost the PURPLE key";
+}
+NPCEND
+NPC classic_key6.png 30 48
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key6.png");
+}
+
+function onPlayertouchsme(){
+unset("client.quest_avalon_orangekey");
+player.chat = "I lost the ORANGE key";
+}
+NPCEND
+NPC classic_key7.png 33 48
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+function onCreated(){
+setimg("classic_key7.png");
+}
+
+function onPlayertouchsme(){
+unset("client.quest_avalon_silverkey");
+player.chat = "I lost the SILVER key";
+}
+NPCEND
+NPC - 25 23
+// NPC made by Tajia (LAT)
+//this is for the boss level in avalon quest
+//Keycheck functions
+/*
+function onPlayerenters(){
+//Tan key
+  if (client.quest_avalon_tankey == NULL){
+    setlevel2("avalon_quest_01.nw",32.5,42.5);
+      player.chat = "i need all the keys before i can enter that room i better go find them";
+}
+
+//Blue key
+  if (client.quest_avalon_bluekey == NULL){
+    setlevel2("avalon_quest_01.nw",32.5,42.5);
+      player.chat = "i need all the keys before i can enter that room i better go find them";
+}
+
+//Green key
+  if (client.quest_avalon_greenkey == NULL){
+    setlevel2("avalon_quest_01.nw",32.5,42.5);
+      player.chat = "i need all the keys before i can enter that room i better go find them";
+  }
+
+//Red key
+  if (client.quest_avalon_redkey == NULL){
+    setlevel2("avalon_quest_01.nw",32.5,42.5);
+      player.chat = "i need all the keys before i can enter that room i better go find them";
+}
+
+//Purple key
+  if (client.quest_avalon_purplekey == NULL){
+    setlevel2("avalon_quest_01.nw",32.5,42.5);
+      player.chat = "i need all the keys before i can enter that room i better go find them";
+ }
+
+//Orange Key
+  if (client.quest_avalon_orangekey == NULL){
+    setlevel2("avalon_quest_01.nw",32.5,42.5);
+      player.chat = "i need all the keys before i can enter that room i better go find them";
+ }
+
+//Silver key
+  if (client.quest_avalon_silverkey == NULL){
+    setlevel2("avalon_quest_01.nw",32.5,42.5);
+      player.chat = "i need all the keys before i can enter that room i better go find them";
+}
+
+}
+NPCEND

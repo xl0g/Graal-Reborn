@@ -1,0 +1,367 @@
+GLEVNW01
+BOARD 0 0 64 0 FDFEFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFD
+BOARD 0 1 64 0 FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 2 64 0 FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 3 64 0 FCFDFEFDFEFCFCFCFDFEFDFEFCFCFCFDFEFDFEFCFCFCFDFEFDFEFCFCFCFDFEFDFEFCFCFCFDFEFDFEFCFCFCFDFEFDFEFCFCFCFDFEFDFEFCFCFCFDFEFDFEFCFCFC
+BOARD 0 4 64 0 FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 5 64 0 FEFCFCFCFCFCFCFCFD4c64lflf6p4dFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFC4c64lflf6p4dFCFCFCFCFCFDFEFCFCFCFDFEFC
+BOARD 0 6 64 0 lflflflflflflflflflf65/w/w6olflflflflflflflflflflflflflflflflflflflflflflflflflflflflflflflf65/w/w6olflflflflflflflflflflflflflf
+BOARD 0 7 64 0 /w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w
+BOARD 0 8 64 0 /w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w
+BOARD 0 9 64 0 /w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w
+BOARD 0 10 64 0 /w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w
+BOARD 0 11 64 0 /w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w
+BOARD 0 12 64 0 /w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w
+BOARD 0 13 64 0 lflflflflflflflflflf6p/w/w64lflflflflflflflflflflflflflflflflflflflflflflflflflflflflflflflf6p/w/w64lflflflflflflflflflflflflflf
+BOARD 0 14 64 0 5b5a5b5a5b5a5b5a5b486olflf65485a5b5a5b5a5b5a5b5a5b5a5b5a5b5a5b5a5b5a5b5a5b5a5b5a5b5a5b5a5b486olflf65485a5b5a5b5a5b5a5b5a5b5a5b5a
+BOARD 0 15 64 0 FCFCFCFCFCFCFCFCFC4s5a5b5a5b4tFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC4s5a5b5a5b4tFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 16 64 0 FDFEFCFCFDFEFCFCFCFDFEFCFCFCFCFCFDFEFCFCFDFEFCFCFCFDFEFCFCFCFCFCFDFEFCFCFDFEFCFCFCFDFEFCFCFCFCFCFDFEFCFCFDFEFCFCFCFDFEFCFCFCFDFE
+BOARD 0 17 64 0 FCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFC
+BOARD 0 18 64 0 FCFCFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFEFCFC
+BOARD 0 19 64 0 FCFCFCFCFCFSFSFCFCFCFCFCFCFCFCFCFCFCFCFCFCFSFSFCFCFCFCFCFCFCFCFCFCFCFCFCFCFSFSFCFCFCFCFCFCFCFCFCFCFCFCFCFCFSFSFCFCFCFCFCFCFCFCFC
+BOARD 0 20 64 0 FCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFC
+BOARD 0 21 64 0 FEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFDFEFC64lflflflflflflflflflflflflflflflflflflflflflf6pFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFDFEFC
+BOARD 0 22 64 0 FDFEFCFCFDFEFCFCFCFDFEFCFCFCFCFCFD6465/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w6o6pFCFCFCFCFCFDFEFCFCFDFEFCFCFCFDFEFCFCFCFDFE
+BOARD 0 23 64 0 FCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFC6465/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w/w6o6pFEFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFC
+BOARD 0 24 64 0 FCFCFCFCFCFCFCFDFEFCFCFCFCFCFD6465/w/w/w64lflflflflflflflflflflflflflflflflflf6p/w/w/w6o6pFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFEFCFC
+BOARD 0 25 64 0 FCFCFCFCFCFSFSFCFCFCFCFCFCFC6465/w/w/w6465lvlvlvlvlvlvlvlvlvlvlvlvlvlvlvlvlvlv6o6p/w/w/w6o6pFCFCFCFCFCFCFCFSFSFCFCFCFCFCFCFCFCFC
+BOARD 0 26 64 0 FCFCFDFEFCFCFCFCFCFCFCFDFE6465/w/w/w6465TwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTw6o6p/w/w/w6o6pFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFC
+BOARD 0 27 64 0 FDFEFCFCFCFCFCFCFCFDFEFCFCle/w/w/w6465TwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTw6o6p/w/w/wleFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFDFE
+BOARD 0 28 64 0 FCFCFCFCFCFCFCFCFCFCFCFCFCle/w/w6465TwTwTwTwTwTwTw/w/w/w/w/w/w/w/w/w/wTwTwTwTwTwTwTw6o6p/w/wleFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 29 64 0 FCFCFCFDFEFDFEFCFCFCFCFCFDle/w/wleTwTwTwTwTwTwTwTw/wTwTwTwTwTwTwTw/wTwTwTwTwTwTwTwTwTwle/w/wleFCFCFCFCFDFEFDFEFCFCFCFCFCFDFCFCFC
+BOARD 0 30 64 0 FCFCFCFCFCFCFCFCFCFCFCFCPMle/w/wleTwTwTwTwTwTwTwTw/wTwTwTwTwTwTw/wTwTwTwTwTwTwTwTwTwTwle/w/wleEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 31 64 0 FCFCFCFCFCFCFCFCFCFCFCFCHNle/w/wleTwTwTwTwTwTwTwTwTwTwTw/w/wTw/wTwTwTwTwTwTwTwTwTwTwTwle/w/wleEJFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 32 64 0 FDFEFCFCFDFEFCFCFCFDFEFCHdle/w/wleTwTwTwTwTwTwTwTwTwTw/wTwTw/wTwTwTwTwTwTwTwTwTwTwTwTwle/w/wleEZFDFEFCFCFDFEFCFCFCFDFEFCFCFCFDFE
+BOARD 0 33 64 0 FCFCFDFEFCFCFCFCFCFCFCFDHNle/w/wleTwTwTwTwTwTwTwTwTwTwTwTw/wTwTw/wTwTwTwTwTwTwTwTwTwTwle/w/wleEJFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFC
+BOARD 0 34 64 0 FCFCFCFCFCFCFCFDFEFCFCFCHdle/w/w6o6pTwTwTwTwTwTwTwTwTwTw/wTw/w/wTwTw/wTwTwTwTwTwTwTw6465/w/wleEZFCFCFCFCFCFCFCFDFEFCFCFCFCFEFCFC
+BOARD 0 35 64 0 FCFCFCFCFCFSFSFCFCFCFCFCHNle/w/w/w6o6pTwTwTwTwTwTwTwTw/wTwTwTwTwTwTw/wTwTwTwTwTwTw6465/w/w/wleEJFCFCFCFCFCFSFSFCFCFCFCFCFCFCFCFC
+BOARD 0 36 64 0 FCFCFDFEFCFCFCFCFCFCFCFDHd6o6p/w/w/w6o6pTwTwTwTwTw646p/w/w/w/w/w/w646pTwTwTwTwTw6465/w/w/w6465EZFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFC
+BOARD 0 37 64 0 FEFCFCFCFCFCFCFCFDFEFCFCHNlu6o6p/w/w/w6o6pTwTwTw64656o6plflflflf64656o6pTwTwTw6465/w/w/w6465luEJFEFCFCFCFCFCFCFCFDFEFCFCFCFDFEFC
+BOARD 0 38 64 0 FDFEFCFCFDFEFCFCFCFDFCFCHdlulu6o6p/w/w/w6olflflf6o6p6465/w/w/w/w6o6p6465lflflf65/w/w/w6465luluEZFCFDFEFCFCFCFDFEFCFCFDFEFCFCFDFE
+BOARD 0 39 64 0 FCFCFDFEFCFCFCFCFCFCFCFCHNlvlulu6o6p/w/w/w/w/w/wlu6o65lu/w/w/w/wlu6o65lu/w/w/w/w/w/w6465lululvEJFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFC
+BOARD 0 40 64 0 FCFCFCFCFCFCFCFDFEFCFCFCHdI2lvlulu6o6p/w/w/w/w/wlululululflflflflulululu/w/w/w/w/w6465lululvEmEZFCFCFCFCFDFEFCFCFCFCFCFCFCFEFCFC
+BOARD 0 41 64 0 FCFCFCFCFCFSFSFCFCFCFCFCI0I1I2lvlulu6olflflflflflululululululululululululflflflflf65lululvEmEnEoFCFCFSFSFCFCFCFCFCFCFCFSFSFCFCFC
+BOARD 0 42 64 0 FCFCFDFEFCFCFCFCFCFCFCFDFEI0I1I2lvlulululululululululululvlvlvlvlulululululululululululvEmEnEoFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFC
+BOARD 0 43 64 0 FDFEFCFCFCFCFCFCFCFDFEFCFCFCI0I1I2lvlulululululululululu9p9p9p9plululululululululululvEmEnEoFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFDFE
+BOARD 0 44 64 0 FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCI0I1I2lvlvlvlvlvlvlvlululv9p9p9p9plvlululvlvlvlvlvlvlvEmEnEoFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 45 64 0 FCFCFCFDFEFDFEFCFCFCFCFCFDFEFDFEI0JOJPJOJPJOJPI1I2lvlvEmEnJOJPI1I2lvlvEmEnJOJPJOJPJOJPEoFCFCFCFCFDFEFDFEFCFCFCFCFCFDFEFDFEFCFCFC
+BOARD 0 46 64 0 FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCI0JOJPJOJPEoFCFCI0JOJPJOJPEoFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 47 64 0 FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 48 64 0 FDFEFCFCFDFEFCFCFCFDFEFCFCFDFEFCFCFCFDFEFCFCFDFEFCFCFCFDFEFCFCFDFEFCFCFCFDFEFCFCFDFEFCFCFCFDFEFCFCFDFEFCFCFCFDFEFCFCFDFEFCFCFDFE
+BOARD 0 49 64 0 FCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFC
+BOARD 0 50 64 0 FCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFEFCFC
+BOARD 0 51 64 0 FCFCFCFCFCFSFSFCFCFCFCFCFCFCFSFSFCFCFCFCFCFCFCFSFSFCFCFCFCFCFCFCFSFSFCFCFCFCFCFCFCFSFSFCFCFCFCFCFCFCFSFSFCFCFCFCFCFCFCFSFSFCFCFC
+BOARD 0 52 64 0 FCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFC
+BOARD 0 53 64 0 FDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFDFE
+BOARD 0 54 64 0 FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC64lflf6pFCFCFCFCFCFCFCFCFCFC64lflf6pFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFDFE
+BOARD 0 55 64 0 FCFCFCFDFEFDFEFCFCFCFCFCFDFEFDFEFCFCFCFC6465/w/w6o6pFCFCFCFCFDFEFDFE6465/w/w6o6pFEFDFEFCFCFCFCFCFDFEFDFEFCFCFCFCFCFDFEFDFEFCFCFC
+BOARD 0 56 64 0 FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC4cle/w/w/w/wle4dFCFCFCFCFCFC4cle/w/w/w/wle4dFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFEFCFC
+BOARD 0 57 64 0 FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC4qle/w/w/w/wle4rFCFCFCFCFCFC4qle/w/w/w/wle4rFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 58 64 0 FDFEFCFCFDFEFCFCFCFDFEFCFCFDFEFCFCFCFD46le/w/w/w/wle47FDFEFCFCFDFE46le/w/w/w/wle47FEFCFCFCFDFEFCFCFDFEFCFCFCFDFEFCFCFDFEFCFCFCFC
+BOARD 0 59 64 0 FCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFC4qle/w/w/w/wle4rFCFCFDFEFCFC4qle/w/w/w/wle4rFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFDFE
+BOARD 0 60 64 0 FCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFC46le/w/w/w/wlelflflflflflflflfle/w/w/w/wle47FCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFCFCFCFCFC
+BOARD 0 61 64 0 FCFCFCFCFCFSFSFCFCFCFCFCFCFCFSFSFCFC4c6465/w/w/w/wleP2P2P2P2P2P2P2P2le/w/w/w/w6o6p4dFSFCFCFCFCFCFCFCFSFSFCFCFCFCFCFCFCFSFSFCFCFC
+BOARD 0 62 64 0 FCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFC4c64le/w/w/w/w/wleP2P2P2P2P2P2P2P2le/w/w/w/w/wle6p4dFCFCFCFCFDFEFCFCFCFCFCFCFCFDFEFCFCFCFCFCFC
+BOARD 0 63 64 0 lflflflflflflflflflflflflflflflflflf65le/w/w/w/w/wleP2P2P2P2P2P2P2P2le/w/w/w/w/wle6olflflflflflflflflflflflflflflflflflflflflflf
+NPC classic_tower_corners.png 35 39
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 35 42
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 27 39
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 27 42
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 24 39
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 24 42
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 32 39
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 32 42
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 17 41
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 16 40
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 15 39
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 14 38
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 13 37
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 42 41
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 43 40
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 44 39
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 45 38
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 46 37
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,65,16,112;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 20 26
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 19 27
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 18 28
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 17 29
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 39 26
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 40 27
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 41 28
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 42 29
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),156/255*(1+.3),189/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC - 21 38
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head327.png;
+  setcharprop #C0,lightblue;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,darkgreen;
+  setcharprop #C4,blue;
+  setcharprop #8,body11.png;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 36 38
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head327.png;
+  setcharprop #C0,lightblue;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,darkgreen;
+  setcharprop #C4,blue;
+  setcharprop #8,body11.png;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 9 6
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head327.png;
+  setcharprop #C0,lightblue;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,darkgreen;
+  setcharprop #C4,blue;
+  setcharprop #8,body11.png;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND
+NPC - 49 6
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head327.png;
+  setcharprop #C0,lightblue;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,darkgreen;
+  setcharprop #C4,blue;
+  setcharprop #8,body11.png;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+}
+NPCEND

@@ -1,0 +1,1842 @@
+const BUILTIN_TILE_OBJECTS = `GOBJSET01
+#GROUP Standard
+
+OBJECT 2 2 Bush
+ACAD
+ASAT
+OBJECTEND
+
+OBJECT 2 2 Rooshe
++4+5
+/I/J
+OBJECTEND
+
+OBJECT 2 2 KubolSprout
+5+5/
+6O6P
+OBJECTEND
+
+OBJECT 2 2 Sign
+IAIB
+IQIR
+OBJECTEND
+
+OBJECT 2 2 InsideSign
+VoVp
+V4V5
+OBJECTEND
+
+OBJECT 2 2 Stone
+AiAj
+AyAz
+OBJECTEND
+
+OBJECT 2 2 PushStone
+bkbl
+b0b1
+OBJECTEND
+
+OBJECT 2 2 PullStone
+fOfP
+feff
+OBJECTEND
+
+OBJECT 2 2 PushPullStone
+bkfP
+feb1
+OBJECTEND
+
+OBJECT 8 10 Tree
+f/AJAKALAMANAOf/
+AYAZAaAbAcAdAeAf
+AoApAqArAsAtAuAv
+A4A5A6A7A8A9A+A/
+BIBJBKBLBMBNBOBP
+BYBZBaBbBcBdBeBf
+BoBpBqBrBsBtBuBv
+B4B5B6B7B8B9B+B/
+f/CJCKCLCMCNCOf/
+f/f/CaCbCcCdf/f/
+OBJECTEND
+
+OBJECT 8 10 RedTree
+P/SBSCSDSESFSGP/
+SQSRSSSTSUSVSWSX
+SgShSiSjSkSlSmSn
+SwSxSySzS0S1S2S3
+TATBTCTDTETFTGTH
+TQTRTSTTTUTVTWTX
+BoThTiTjTkTlTmBv
+B4B5B6W1W2B9B+B/
+P/CJCKCLCMCNCOf/
+P/P/CaCbCcCdf/f/
+OBJECTEND
+
+OBJECT 8 10 GoldTree
+P/TxTyTzT0T1T2P/
+UAUBUCUDUEUFUGUH
+UQURUSUTUUUVUWUX
+UgUhUiUjUkUlUmUn
+UwUxUyUzU0U1U2U3
+VAVBVCVDVEVFVGVH
+BoVRVSVTVUVVVWBv
+B4B5B6XFXGB9B+B/
+P/CJCKCLCMCNCOf/
+P/P/CaCbCcCdf/f/
+OBJECTEND
+
+OBJECT 13 14 House
+BABBBCBDBDBDBDBDBDBFBGBHH/
+BQBRBSBTBUBUBUBUBTBVBRBXBy
+BQBRBSBUBUBUBUBUBUBVBRBXCC
+BQBRBSBUBUBUBUBUBUBVBRBXCC
+BQBRBSBUBUBUBUBUBUBVBRBXCC
+BQBRBSBTBUBUBUBUBTBVBRBXCC
+BQBhBiBjBjBjBjBjBjBWCkClCC
+BQBxBRBRBRBRBRBRBRBRC0ClCC
+CACBBRBRBkBlBmBnBRBRDEDFCC
+CQCRCRCRB0B1B2B3CRCRCRBzCC
+CgChCiCjCECFCGCHChCiCjCDCC
+CwCxCyCzCUCVCWCXCxCyCzCTCS
+f/f/f/f/BEAwAxBEf/f/f/f/f/
+f/f/f/f/AwAxAwAxf/f/f/f/f/
+OBJECTEND
+
+OBJECT 2 2 Swamp
+GkGl
+G0G1
+OBJECTEND
+
+OBJECT 2 2 Stone2
+PePf
+PuPv
+OBJECTEND
+
+OBJECT 2 2 Hole
+cqcr
+c6c7
+OBJECTEND
+
+OBJECT 2 4 Platform North
+CeCf
+CuCv
+C+C/
+CoCo
+OBJECTEND
+
+OBJECT 6 6 Platform NorthWest
+H/H/H/H/DGCe
+H/H/H/DwDWCu
+H/H/DwDxDyDz
+H/DwDxDyDzD0
+DwDxDyDzD0D1
+DxDyDzD0D1H/
+OBJECTEND
+
+OBJECT 6 6 Platform NorthEast
+CfDNH/H/EcEM
+CvDdEFH/H/Ec
+ECEDEEEFH/H/
+EBECEDEEEFH/
+EAEBECEDEEEF
+H/EAEBECEDEE
+OBJECTEND
+
+OBJECT 4 2 Platform East
+EQERESET
+EQEhEiEj
+OBJECTEND
+
+OBJECT 4 2 Platform West
+DSDTDUDV
+DiDjDkDV
+OBJECTEND
+
+OBJECT 2 6 Platform South
+CpCp
+C5C6
+DJDK
+DZDa
+DpDq
+D5D6
+OBJECTEND
+
+OBJECT 3 8 Platform Entry West
+H/DsDt
+DsD8D9
+D8CsCt
+C7C8C9
+DLDMf/
+DbDcf/
+DrH/f/
+D7H/f/
+OBJECTEND
+
+OBJECT 3 8 Platform Entry East
+DmDnH/
+D2D3Dn
+CmCnD3
+C2C3C4
+f/DHDI
+f/DXDY
+f/H/Do
+f/H/D4
+OBJECTEND
+
+OBJECT 2 6 DesertPlatform North
+CeCf
+CPCP
+CuCv
+CYCZ
+C+C/
+CqCq
+OBJECTEND
+
+OBJECT 6 2 DesertPlatform West
+DSDTEUDTDUCq
+DiDjEkDjDkCq
+OBJECTEND
+
+OBJECT 6 2 DesertPlatform East
+CqERESGqESET
+CqEhEiG6EiEj
+OBJECTEND
+
+OBJECT 4 4 Big Stone
+FiFjFkFl
+FyFzF0F1
+GCGDGEGF
+GSGTGUGV
+OBJECTEND
+
+OBJECT 10 6 Platform SouthEdges
+FgFhC4F9CqCqF+C7DOET
+FwDYFxC4C5C6C7DeDbDf
+GQGAGBDIDJDKDLDuDvF/
+H/GQGRDYDZDaDbD+F/H/
+H/H/GQGADpDqDvF/H/H/
+H/H/H/GQD5D6F/H/H/H/
+OBJECTEND
+
+OBJECT 3 2 JuleNW
++K+b+c
++a+r+s
+OBJECTEND
+
+OBJECT 3 2 JuleNE
++f98+e
++v+M+u
+OBJECTEND
+
+OBJECT 3 3 JuleSW
+/K/b/c
+/a/r/s
+f//7/8
+OBJECTEND
+
+OBJECT 3 3 JuleSE
+/f9997
+/v+N+L
+//96f/
+OBJECTEND
+
+OBJECT 2 2 JuleNorth
++9++
+/N/O
+OBJECTEND
+
+OBJECT 2 3 JuleSouth
+/d/e
+/t/u
+/9/+
+OBJECTEND
+
+OBJECT 3 2 JuleEast
+/P+t+O
++/+d9+
+OBJECTEND
+
+OBJECT 3 2 JuleWest
++q+7+8
++q+7+8
+OBJECTEND
+
+OBJECT 3 2 JuleINW
+9d9e+P
+9t9uCq
+OBJECTEND
+
+OBJECT 3 2 JuleINE
+9q9b9c
+Cq9r9s
+OBJECTEND
+
+OBJECT 3 3 JuleISW
+9P9fCq
+889vCq
+9M9N9/
+OBJECTEND
+
+OBJECT 3 3 JuleISE
+Cq899O
+Cq8687
+9a9K9L
+OBJECTEND
+
+OBJECT 3 3 BomyStatue
+5r5s5t
+575859
+6L6M6N
+OBJECTEND
+
+OBJECT 4 6 Statue
+GgGhGiGj
+GwGxGyGz
+HAHBHCHD
+HQHRHSHT
+HgHhHiHj
+HwHxHyHz
+OBJECTEND
+
+OBJECT 2 2 Stake
+FKFL
+FaFb
+OBJECTEND
+
+OBJECT 6 8 Slab
+H/FPFMFNFsH/
+FPFfFcFdFrFs
+FeFdFvFdFvFt
+GpFqFdFuFdFt
+GKF6FqFdFvFt
+H/GKF6FqFdFt
+H/H/GKF6F7F8
+H/H/H/GKGLGM
+OBJECTEND
+
+OBJECT 4 4 StonePlatform
+dMdNdOdP
+dcdddedf
+dsdtdudv
+d8d9d+d/
+OBJECTEND
+
+OBJECT 6 5 Grass WaterHole
+f/G2HEHFHXH/
+G2HGGOGOHnHX
+HkGOH1H0GOG7
+GmGWGOGOG3HH
+H/GmH2H3HHH/
+OBJECTEND
+
+OBJECT 6 5 Grass Hole
+H/F2FmFnF3f/
+F2GGCrEtGHF3
+GnEtCrEtCqGX
+GIGJEtEtFoFp
+H/GIF4F5FpH/
+OBJECTEND
+
+OBJECT 4 4 Deep Water
+HIHYHZGP
+GoFDFEGb
+G4FCFSGr
+HJGYGZG5
+OBJECTEND
+
+OBJECT 2 2 Water Stone
+HVHW
+HlHm
+OBJECTEND
+
+OBJECT 7 7 GrassSand
+f/f/E/CpEbf/f/
+H/E/E4CqELEbH/
+E/E4CrCrCqELEb
+EQCqAIEtCrCqDV
+EcEMEtAPCrENEd
+H/EcEMCqENEdH/
+H/H/EcCoEdH/H/
+OBJECTEND
+
+OBJECT 4 2 GrassWay Horizontal
+EQCqCqDV
+EQCqCqDV
+OBJECTEND
+
+OBJECT 2 4 GrassWay Vertical
+CpCp
+CqCq
+CqCq
+CoCo
+OBJECTEND
+
+OBJECT 4 4 Grave
+QmQnQoQp
+Q2Q3Q4Q5
+RGRHRIRJ
+RWRXRYRZ
+OBJECTEND
+
+OBJECT 2 2 GraveYard Ground
+QLQM
+QbQc
+OBJECTEND
+
+OBJECT 2 4 Pillar
+QwQx
+RARB
+RQRR
+RgRh
+OBJECTEND
+
+OBJECT 2 2 Stone Fences
+QJQK
+QZQa
+OBJECTEND
+
+OBJECT 2 3 StoneDoor
+QyQz
+RCRD
+RSRT
+OBJECTEND
+
+OBJECT 4 4 Tree Stump
+AEAFAGAH
+AUAVAWAX
+AkAlAmAn
+A0A1A2A3
+OBJECTEND
+
+OBJECT 4 4 Five Stones
+FGFHFGFH
+FWFIFJFX
+FGFYFZFH
+FWFXFWFX
+OBJECTEND
+
+OBJECT 2 2 Swamp
+GkGl
+G0G1
+OBJECTEND
+
+OBJECT 4 4 Well
+ZpZ5Z6Z7
+aJJ4J4aL
+aJJ4J4aL
+aKaZaaab
+OBJECTEND
+
+OBJECT 4 3 Watering Place
+ZLZMZNZO
+ZbZcZdZe
+ZrZsZtZu
+OBJECTEND
+
+OBJECT 4 4 Red Little Tree
+bsbtbubv
+b8b9b+b/
+cMcNcOcP
+bcbdbebf
+OBJECTEND
+
+OBJECT 4 4 Green Little Tree
+asatauav
+a8a9a+a/
+bMbNbObP
+bcbdbebf
+OBJECTEND
+
+OBJECT 2 2 AlienGround
+gggh
+gwgx
+OBJECTEND
+
+OBJECT 2 2 AlienCrystal
+gAgB
+gQgR
+OBJECTEND
+
+OBJECT 2 2 AlienPipe
+hAhB
+hQhR
+OBJECTEND
+
+OBJECT 2 3 MineTop
+gJgK
+gZga
+gpgq
+OBJECTEND
+
+OBJECT 3 2 MineLeft
+gUgVgW
+gkglgm
+OBJECTEND
+
+OBJECT 2 3 MineBottom
+gHgI
+gXgY
+gngo
+OBJECTEND
+
+OBJECT 3 2 MineRight
+gLgMgN
+gbgcgd
+OBJECTEND
+
+OBJECT 2 2 Water Stone
+HVHW
+HlHm
+OBJECTEND
+
+OBJECT 14 13 Bridge Horizontal
+QCQDQEQEQEQEQEQEQEQEQEQEQEQF
+QSQTQUQUQUQTQUQUQTQUQUQUQTQV
+QhQ0Q0Q0Q0Q0Q0Q0Q0Q0Q0Q0Q0Ql
+QhQ0Q0Q0Q0Q0Q0Q0Q0Q0Q0Q0Q0Ql
+QhQ0Q0Q0Q0Q0Q0Q0Q0Q0Q0Q0Q0Ql
+QhQ0Q0Q0Q0Q0Q0Q0Q0Q0Q0Q0Q0Ql
+QhQ0Q0Q0Q0Q0Q0Q0Q0Q0Q0Q0Q0Ql
+REQDQEQEQEQDQEQDQDQEQEQEQDRF
+QiQjQkQkQkQjQkQkQjQkQkQkQjQG
+KNEhEiQHQIQHQIQHQIQHQIJCJDRV
+EGERESEHEIEJI+I/HNHOHPIyIzJt
+EWEhEiEXEYEZGuGvHdHeHfJCJDJ9
+KMERESEHEIEJHlHmHNHOHPIyIzJt
+OBJECTEND
+
+OBJECT 14 10 Bridge Vertical
+IgIhP/P/P/P/P/P/P/P/P/P/IgIh
+IwIxICIEIDIIIMINIEIHIIIHIwIx
+JAJBICIDIGIFIOIPIJIGIHIIJAJB
+JAJBICIEIFIGIeIfIGIJIIIHJAJB
+JAJBICIFIGIGIKILIGIGIJIIJAJB
+JAJBICIEIFIGIMINIGIJIGIHJAJB
+JAJBICIDIGIFIOIPIJIGIHIIJAJB
+JQJRICIEIFIGIeIfIGIJIIIHJQJR
+JgJhICIDIEIDIMINIHIIIHIIJgJh
+JwJxP/P/P/P/P/P/P/P/P/P/JwJx
+OBJECTEND
+
+OBJECT 4 4 CaveEntry
+JnJoJpJq
+J3J4J4J6
+KHJ4J4KK
+KXKYKZKa
+OBJECTEND
+
+OBJECT 10 6 Waterfalls
+aSaTaSaTaSaTaSaTaSaT
+RiRjRkRjRkRjRkRjRkRz
+RlRmRnRoRnRoRnRoR0R1
+EiRpRnRoRnRoRnRoR2Dj
+ESRwRxRyRxRyRxRyR3DT
+EiEXEYEZQXQYHdHeHfDj
+OBJECTEND
+
+OBJECT 6 3 Green Fences
+aiahahahahaj
+bCaxaxaxaxbD
+bSbBbBbBbBbT
+OBJECTEND
+
+OBJECT 2 3 Letterbox
+WwWx
+XAXB
+XQXR
+OBJECTEND
+
+OBJECT 2 3 Blue Barrel
+Svag
+S/aw
+TPbA
+OBJECTEND
+
+OBJECT 2 6 VillageWay Vertical
+ZvZv
+arZP
+apaq
+a5a6
+a7Zf
+ZvZv
+OBJECTEND
+
+OBJECT 6 2 VillageWay Horizontal
+ZvZfapaqa7Zv
+ZvZPa5a6arZv
+OBJECTEND
+
+#GROUP Castle
+GOBJSET01
+
+OBJECT 7 7 CastleCorner NW
+lAlUlUlUlUlUlU
+lElglllklllkll
+lEl0mAmlmkmlmk
+lEmEm0mglHlGlH
+lEl0nElWnAmWmW
+lEmEm0lmmGngmW
+lEl0nElWmGmGnk
+OBJECTEND
+
+OBJECT 7 7 CastleCorner NE
+lUlUlUlUlUlUlB
+lllklllklllhlF
+mkmlmkmlmBl1lF
+lHlGlHmhm1mFlF
+mWmWnBlXnFl1lF
+mWnhmHlnm1mFlF
+nlmHmHlXnFl1lF
+OBJECTEND
+
+OBJECT 7 7 CastleCorner SE
+n1mHmHlnm1mFlF
+mXnxmHlXnFl1lF
+mXmXnRlnm1mFlF
+l3l2l3mxnFl1lF
+nUnVnUnVmRmFlF
+mVmUmVmUmVlxlF
+lVlVlVlVlVlVlR
+OBJECTEND
+
+OBJECT 7 7 CastleCorner SW
+lEmEm0lmmGmGn0
+lEl0nElWmGnwmX
+lEmEm0lmnQmXmX
+lEl0nEmwl3l2l3
+lEmEmQnVnUnVnU
+lElwmVmUmVmUmV
+lQlVlVlVlVlVlV
+OBJECTEND
+
+OBJECT 7 2 CastleWall West
+lEmEm0lmmGmGnG
+lEl0nElWmGmGnG
+OBJECTEND
+
+OBJECT 7 2 CastleWall East
+nHmHmHlXnFl1lF
+nHmHmHlnm1mFlF
+OBJECTEND
+
+OBJECT 2 7 CastleWall North
+lUlU
+lkll
+mlmk
+lGlH
+mWmW
+mWmW
+nWnW
+OBJECTEND
+
+OBJECT 2 7 CastleWall South
+nXnX
+mXmX
+mXmX
+l2l3
+nVnU
+mUmV
+lVlV
+OBJECTEND
+
+OBJECT 7 7 Castle InsideCorner NW
+lCl0m0lmmGmGnG
+lklinElWmGmGnG
+mlmkmClmmGmGnG
+lHlGlHmimGmGnG
+mWmWmWmWnCmGnG
+mWmWmWmWmWninG
+nWnWnWnWnWnWn3
+OBJECTEND
+
+OBJECT 7 7 Castle InsideCorner NE
+nHmHmHlXm1mFlD
+nHmHmHlnnFljll
+nHmHmHlXmDmlmk
+nHmHmHmjlHlGlH
+nHmHnDmWmWmWmW
+nHnjmWmWmWmWmW
+n2nWnWnWnWnWnW
+OBJECTEND
+
+OBJECT 7 7 Castle InsideCorner SE
+nmnXnXnXnXnXnX
+nHnzmXmXmXmXmX
+nHmHnTmXmXmXmX
+nHmHmHmzl3l2l3
+nHmHmHlXmTnVnU
+nHmHmHlnm1lzmV
+nHmHmHlXnFl1lT
+OBJECTEND
+
+OBJECT 7 7 Castle InsideCorner SW
+nXnXnXnXnXnXnn
+mXmXmXmXmXnynG
+mXmXmXmXnSmGnG
+l3l2l3mymGmGnG
+nUnVmSlWmGmGnG
+mVlym0lmmGmGnG
+lSl0nElWmGmGnG
+OBJECTEND
+
+OBJECT 4 4 CastleStairs
+ioipiqir
+i4i5i6i7
+jIjJjKjL
+jYjZjajb
+OBJECTEND
+
+OBJECT 4 3 CastleDoor North
+hshththu
+iKiLiLiM
+iaibibic
+OBJECTEND
+
+OBJECT 3 4 CastleDoor East
+hqhrit
+jck5i9
+jck5i9
+h6h7jN
+OBJECTEND
+
+OBJECT 4 3 CastleDoor South
+iIkpkpiJ
+iYk5k5iZ
+h8h8h9h+
+OBJECTEND
+
+OBJECT 3 4 CastleDoor West
+ishohp
+i8iLjd
+i8iLjd
+jMh4h5
+OBJECTEND
+
+OBJECT 4 2 CastleCurtain West
+kqkrkskt
+k6k7k8k9
+OBJECTEND
+
+OBJECT 4 2 CastleCurtainEast
+lKlLlMlN
+lalblcld
+OBJECTEND
+
+OBJECT 2 4 CastlePillar
+mImJ
+mYmZ
+momp
+m4m5
+OBJECTEND
+
+OBJECT 2 4 CastlePillar North
+jojp
+j4j5
+kIkJ
+kYkZ
+OBJECTEND
+
+OBJECT 4 2 CastlePillar West
+jqjrjsjt
+j6j7j8j9
+OBJECTEND
+
+OBJECT 2 4 CastlePillar South
+jmjn
+j2j3
+kGkH
+kWkX
+OBJECTEND
+
+OBJECT 4 2 CastlePillar East
+kKkLkMkN
+kakbkckd
+OBJECTEND
+
+OBJECT 2 2 CastleCarpet
+k3k3
+k3k3
+OBJECTEND
+
+OBJECT 1 1 CastleCarpet Border
+k2
+OBJECTEND
+
+OBJECT 2 2 CastleFloor Blue
+mmmn
+m2m3
+OBJECTEND
+
+OBJECT 2 2 CastleFloor Green
+nonp
+n4n5
+OBJECTEND
+
+OBJECT 2 2 CastleFloor Red
+nInJ
+nYnZ
+OBJECTEND
+
+OBJECT 2 2 CastleFloor Yellow
+i+i/
+jOjP
+OBJECTEND
+
+OBJECT 2 2 CastleFloor Sand
+kmkm
+kmkm
+OBJECTEND
+
+OBJECT 2 2 Marble
+ieif
+iuiv
+OBJECTEND
+
+OBJECT 2 2 Blue Ground
+jejf
+jujv
+OBJECTEND
+
+#GROUP House Inside
+GOBJSET01
+
+OBJECT 2 2 Blackness
+J4J4
+J4J4
+OBJECTEND
+
+OBJECT 2 2 Vase
+KsKt
+K8K9
+OBJECTEND
+
+OBJECT 2 3 Barrel
+cYcZ
+cocp
+c4c5
+OBJECTEND
+
+OBJECT 4 5 Bed
+LELFLGLH
+LULVLWLX
+LULVLWLX
+LULVLWLX
+LkLlLlLn
+OBJECTEND
+
+OBJECT 6 4 Table
+LILJLKLJLKKr
+LYLZLaLZLaK7
+LYLZLaLZLaK7
+LoLpLqLpLqLL
+OBJECTEND
+
+OBJECT 6 4 Dining Table
+LILJVvdgLKKr
+LYV+V/dwdxK7
+LYLZLaLZLaK7
+LoLpLqLpLqLL
+OBJECTEND
+
+OBJECT 2 2 Meal
+g+g/
+V/dw
+OBJECTEND
+
+OBJECT 2 2 Chair
+KpKq
+K5K6
+OBJECTEND
+
+OBJECT 3 2 OutsideChair
+Z2Z3Z4
+aGaHaI
+OBJECTEND
+
+OBJECT 6 4 Shelves
+NANBNCNBNCND
+NQNRNSNRNSNT
+NgNhNiNhNiNj
+NwNxNyNxNyNz
+OBJECTEND
+
+OBJECT 4 3 HouseDoor South
+M0M1M1M2
+NENFNFNG
+NUNVNWNX
+OBJECTEND
+
+OBJECT 2 2 HouseGround
+KuKv
+KvKu
+OBJECTEND
+
+OBJECT 2 2 HousePillar North
+LMLN
+LcLd
+OBJECTEND
+
+OBJECT 2 2 HousePillar South
+XiXj
+XyXz
+OBJECTEND
+
+OBJECT 2 2 HousePillar West
+XkXl
+X0X1
+OBJECTEND
+
+OBJECT 2 2 HousePillar East
+XgXh
+XwXx
+OBJECTEND
+
+OBJECT 2 4 Lamp
+eOeP
+eeef
+euev
+e+e/
+OBJECTEND
+
+OBJECT 6 6 Carpet
+UcUdUdUdUdUe
+UsUtUtUtUtUu
+UsUtUtUtUtUu
+UsUtUtUtUtUu
+UsUtUtUtUtUu
+U8U9U9U9U9U+
+OBJECTEND
+
+OBJECT 4 4 HouseWell
+MAMBMCMD
+MQMRMSMT
+MgMhMiMj
+MwMxMyMz
+OBJECTEND
+
+OBJECT 3 5 WashBasin
+WyWzW0
+XCXDXE
+XCXDXE
+XCXDXE
+XSXTXU
+OBJECTEND
+
+OBJECT 6 3 Stove
+VNVOVPdAdBdC
+VdVeVfdQdRdS
+VtVuVudhdhdi
+OBJECTEND
+
+OBJECT 2 2 KitchenGround
+cTcS
+cjci
+OBJECTEND
+
+OBJECT 2 2 MuckDeep
+hGhH
+hWhX
+OBJECTEND
+
+OBJECT 4 3 HouseDoor North
+dIdJdKdL
+dYIdIddb
+dZItItdr
+OBJECTEND
+
+OBJECT 8 3 PubTable
+dDdEdEdFdFdEdEdG
+dTdUdUdVdVdUdUdW
+djdkdkdkdkdkdkdX
+OBJECTEND
+
+OBJECT 3 4 HouseDoor West
+UPcAcB
+UfNFcQ
+UvNFcQ
+U/cwcx
+OBJECTEND
+
+OBJECT 3 4 HouseDoor East
+cCcDcE
+cRNFcU
+cRNFck
+cyczc0
+OBJECTEND
+
+OBJECT 6 4 BookShelf
+cFcGcGcGcGcH
+cVcWcWcWcWcX
+clcmcmdHcmcn
+c1c2c2c2c2c3
+OBJECTEND
+
+OBJECT 2 2 Butterfly Cage
+bibj
+bybz
+OBJECTEND
+
+OBJECT 2 4 WallN
+K/K/
+LPLO
+LfLe
+LmLm
+OBJECTEND
+
+OBJECT 4 2 WallW
+LtL+L/Lb
+LtLuLvLb
+OBJECTEND
+
+OBJECT 2 4 WallS
+M/M/
+MLMK
+MbMa
+MqMq
+OBJECTEND
+
+OBJECT 4 2 WallE
+L6L7L8L9
+L6LrLsL9
+OBJECTEND
+
+OBJECT 4 4 CornerSW
+LtL+L/N0
+LtLuNJMK
+LtNIMbMa
+NHMqMqMq
+OBJECTEND
+
+OBJECT 4 4 CornerSE
+N1L7L8L9
+MLNKLsL9
+MbMaNLL9
+MqMqMqNM
+OBJECTEND
+
+OBJECT 4 4 CornerNE
+K/K/K/M8
+LPLOM7L9
+LfM6L8L9
+NlLrLsL9
+OBJECTEND
+
+OBJECT 4 4 CornerNW
+M3K/K/K/
+LtM4LPLO
+LtL+M5Le
+LtLuLvNk
+OBJECTEND
+
+OBJECT 4 4 InsideCornerSW
+L6L7L82U
+L6LrM7LO
+L62/LfLe
+3fLmLmLm
+OBJECTEND
+
+OBJECT 4 4 InsideCornerSE
+2VL+L/Lb
+LPM4LvLb
+LfLe+wLb
+LmLmLm/Q
+OBJECTEND
+
+OBJECT 4 4 InsideCornerNE
+M/M/M//A
+MLMK+gLb
+MbNIL/Lb
+2FLuLvLb
+OBJECTEND
+
+OBJECT 4 4 InsideCornerNW
+3PM/M/M/
+L62vMLMK
+L6L7NLMa
+L6LrLs2E
+OBJECTEND
+
+#GROUP Snow
+GOBJSET01
+
+OBJECT 11 13 Snow
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+VsVsVsVsVsVsVsVsVsVsVs
+OBJECTEND
+
+OBJECT 2 2 SnowRooshe
+/j/k
+/z/0
+OBJECTEND
+
+OBJECT 2 2 SnowSprout
+6e6f
+6u6v
+OBJECTEND
+
+OBJECT 2 2 SnowStone
+6I6J
+6Y6Z
+OBJECTEND
+
+OBJECT 3 3 SnowBomyStatue
+5e5f5O
+5u585v
+6L6M6N
+OBJECTEND
+
+OBJECT 4 4 SnowTreeSmall
+6E6F6G6H
+6U6V6W6X
+6k6l6m6n
+60616263
+OBJECTEND
+
+OBJECT 8 10 SnowTree
+Vsdzd0d1d2d3d4Vs
+eCeDeEeFeGeHeIeJ
+eSeTeUeVeWeXeYeZ
+eiejekelemeneoep
+eyeze0e1e2e3e4e5
+fCfDfEfFfGfHfIfJ
+fSfTfUfVfWfXfYfZ
+fifjfkflfmfnfofp
+Vsfzf0f1f2f3f4Vs
+VsVseqere6e7VsVs
+OBJECTEND
+
+OBJECT 2 2 SnowChair
+8385
+9H9J
+OBJECTEND
+
+OBJECT 3 2 SnowBench
+838485
+9H9I9J
+OBJECTEND
+
+OBJECT 4 4 SnowTrunk
+7E7F7G7H
+7U7V7W7X
+7k7l7m7n
+70717273
+OBJECTEND
+
+OBJECT 4 4 SnowTrunkHole
+Vs5F4XVs
+5G4k4H42
+4E4I4J41
+Vs4E41Vs
+OBJECTEND
+
+OBJECT 6 6 SnowSand
+VsVsV9V9VsVs
+VsVqdndpVrVs
+Vcdndydnd5VM
+VcdndndpdnVM
+VsV6dpdnV7Vs
+VsVsV8V8VsVs
+OBJECTEND
+
+OBJECT 2 2 SnowSign
+frfs
+f7f8
+OBJECTEND
+
+OBJECT 2 2 SnowSwamp
+g4g5
+hIhJ
+OBJECTEND
+
+OBJECT 12 6 SnowBridge
+eMeNVsVsVsVsVsVsVsVseMeN
+ecedd6d7eKeaebeKd7eLeced
+esetd6eKd7ebead7eKeLeset
+e8e9d6d7eKebeaeKd7eLe8e9
+fMfNd6eKd7eaebd7eKeLfMfN
+fcfdVsVsVsVsVsVsVsVsfcfd
+OBJECTEND
+
+OBJECT 8 7 SnowTownEntrance
+9490919291929394
++I+E+F+G+F+G+H+I
++I+U+V9Y9Z+W+X+I
++IVsVsVsVsVsVs+I
++IVsVsVsVsVsVs+I
++IVsVsVsVsVsVs+I
++YVsVsVsVsVsVs+Y
+OBJECTEND
+
+OBJECT 2 2 SnowStake
+fgfh
+fwfx
+OBJECTEND
+
+OBJECT 2 2 SnowGrass
+WoW4
+W4Wp
+OBJECTEND
+
+OBJECT 13 14 SnowHouse
+WKWLWMWNWNWNWNWNWNWPeAeBVs
+WaWbWcWdWeWeWeWeWdWfWbeRW8
+WaWbWcWeWeWeWeWeWeWfWbeRXM
+WaWbWcWeWeWeWeWeWeWfWbeRXM
+WaWbWcWeWeWeWeWeWeWfWbeRXM
+WaWbWcWdWeWeWeWeWdWfWbeRXM
+WaWrWsWtWtWtWtWtWteQXreRXM
+WaW7WbWbWbWbWbWbWbWbX7eRXM
+XKXLWbWbWuWvegehWbWbVaVbXM
+XaXbXbXbW+W/ewexXbXbXbW9XM
+XnXoXpXqXOXPfAfBXoXpXqXNXM
+X3X4X5X6XeXffQfRX4X5X6XdXc
+VsVsVsVsWOXXXYWOVsVsVsVsVs
+VsVsVsVsXXXYXXXYVsVsVsVsVs
+OBJECTEND
+
+OBJECT 14 15 SnowPlatformEdges
+CqEtCqEtCqF+C5C6F9CqCqEtCqEt
+EtCqEtCqF+C7DJDKC4F9EtCqEtCq
+CqEtCqF+C7DLDZDaFxC4F9CqCqEt
+EtCqF+C7DeDbDpDqGBDIC4F9EtCq
+CqF+C7DLDuDvfKfLGADYFxC4F9Cq
+F+C7DeDbD+XvVsVsX/GRGBDIC4F9
+ERE3DuDvXvVsVsVsVsX/GADYGNDU
+EhEiD+XvVsVsVsVsVsVsX/GRDjDk
+ERESftVsVsVsVsVsVsVsVsfuDTDU
+EhEif9VsVsVsVsVsVsVsVsf+DjDk
+EgECEDXuVsVsVsVsVsVsXtDyDzC1
+CqEgECEDXuVsVsVsVsXtDyDzC1Cq
+EtCqEgECEDXuVsVsXtDyDzC1CqEt
+CqEtCqEgECKdfafbHKDzC1CqEtCq
+EtCqEtCqEgC/C+C/C+C1CqEtCqEt
+OBJECTEND
+
+OBJECT 3 2 SnowFences
+W5WqW5
+XIW6XJ
+OBJECTEND
+
+OBJECT 4 4 SnowGrave
+nKnLnMnN
+nanbncnd
+nqnrnsnt
+n6n7n8n9
+OBJECTEND
+
+OBJECT 2 2 SnowGraveYard
+nenf
+nunv
+OBJECTEND
+
+OBJECT 6 5 SnowWaterHole
+fyhKhYhZhNfy
+hKhaGOGOhdhN
+hLGOH1H0GOhb
+g6g7GOGOhMhc
+fyg6g8g9hcfy
+OBJECTEND
+
+OBJECT 4 4 SnowWell
+meZ5Z6mf
+muJ4J4mv
+muJ4J4mv
+m+aZaam/
+OBJECTEND
+
+OBJECT 6 3 SnowGreenFences
+j+hvhvhvhvj/
+keh/h/h/h/kf
+kuiPiPiPiPkv
+OBJECTEND
+
+OBJECT 7 7 SnowCastleCorner NW
+zM7Q7Q7Q7Q7Q7Q
+7Azs7h7g7h7g7h
+7A7w0M8h8g8h8g
+7A8A8w0sxNxMxN
+7A7w9Axc1Mycyc
+7A8A8wxsyM1Myc
+7A7w9AxcyMyM8C
+OBJECTEND
+
+OBJECT 7 7 SnowCastleCorner NE
+7Q7Q7Q7Q7Q7QzN
+7h7g7h7g7hzt7B
+8g8h8g8h0N7x7B
+xNxMxN0t8x8B7B
+ycyc1Nxd9B7x7B
+yc1NyNxt8x8B7B
+8DyNyNxd9B7x7B
+OBJECTEND
+
+OBJECT 7 7 SnowCastleCorner SE
+8TyNyNxt8x8B7B
+yd1dyNxd9B7x7B
+ydyd1dxt8x8B7B
+x8x9x8099B7x7B
+9R9Q9R9Q0d8B7B
+8R8Q8R8Q8Rz97B
+7R7R7R7R7R7Rzd
+OBJECTEND
+
+OBJECT 7 7 SnowCastleCorner SW
+7A8A8wxsyMyM8S
+7A7w9AxcyM1cyd
+7A8A8wxs1cydyd
+7A7w9A08x8x9x8
+7A8A0c9Q9R9Q9R
+7Az88R8Q8R8Q8R
+zc7R7R7R7R7R7R
+OBJECTEND
+
+OBJECT 7 2 SnowCastleWall West
+7A8A8wxsyMyM7C
+7A7w9AxcyMyM7C
+OBJECTEND
+
+OBJECT 7 2 SnowCastleWall East
+7DyNyNxd9B7x7B
+7DyNyNxt8x8B7B
+OBJECTEND
+
+OBJECT 2 7 SnowCastleWall North
+7Q7Q
+7g7h
+8h8g
+xMxN
+ycyc
+ycyc
+7S7S
+OBJECTEND
+
+OBJECT 2 7 SnowCastleWall South
+7T7T
+ydyd
+ydyd
+x9x8
+9Q9R
+8Q8R
+7R7R
+OBJECTEND
+
+OBJECT 7 7 SnowCastleInsideCorner NW
+zO7w9AxsyMyM7C
+7gzu8wxcyMyM7C
+8g8h0OxsyMyM7C
+xNxMxN0uyMyM7C
+ycycycyc1OyM7C
+ycycycycyc1O7C
+7S7S7S7S7S7S7z
+OBJECTEND
+
+OBJECT 7 7 SnowCastleInsideCorner NE
+7DyNyNxd9B8BzP
+7DyNyNxt8xzv7h
+7DyNyNxd0P8h8g
+7DyNyN0vxNxMxN
+7DyN1Pycycycyc
+7D1Pycycycycyc
+7y7S7S7S7S7S7S
+OBJECTEND
+
+OBJECT 7 7 SnowCastleInsideCorner SE
+7i7T7T7T7T7T7T
+7D1fydydydydyd
+7DyN1fydydydyd
+7DyNyN0/x9x8x9
+7DyNyNxd0f9R9Q
+7DyNyNxt8xz/8R
+7DyNyNxd9B7xzf
+OBJECTEND
+
+OBJECT 7 7 SnowCastleInsideCorner SW
+7T7T7T7T7T7T7j
+ydydydydyd1e7C
+ydydydyd1eyM7C
+x9x8x90+yMyM7C
+9R9Q0excyMyM7C
+8Rz+8wxsyMyM7C
+ze7w9AxcyMyM7C
+OBJECTEND
+
+OBJECT 4 4 SnowCastleStairs
+3I3J3K3L
+3Y3Z3a3b
+3o3p3q3r
+34353637
+OBJECTEND
+
+OBJECT 4 3 SnowCastleDoor North
+4A4B4B4C
+07iLiL4D
+1L22224T
+OBJECTEND
+
+OBJECT 3 4 SnowCastleDoor East
+wOwPyb
+zKk5yr
+zKk5y7
+wewfy7
+OBJECTEND
+
+OBJECT 4 3 SnowCastleDoor South
+yszJzJyt
+y8k5k5y9
+4Q4R4R4S
+OBJECTEND
+
+OBJECT 3 4 SnowCastleDoor West
+yawMwN
+yqiLzL
+yqiLzL
+y6wcwd
+OBJECTEND
+
+OBJECT 4 2 SnowCastleCurtain West
+6g6h6i6j
+6w6x6y6z
+OBJECTEND
+
+OBJECT 4 2 SnowCastleCurtain East
+5A5B5C5D
+5Q5R5S5T
+OBJECTEND
+
+OBJECT 2 4 SnowCastlePillar
+yOyP
+yeyf
+yuyv
+y+y/
+OBJECTEND
+
+OBJECT 2 4 SnowCastlePillar North
+5i5j
+5y5z
+6C6D
+6S6T
+OBJECTEND
+
+OBJECT 4 2 SnowCastlePillar West
+wswtwuwv
+w8w9w+w/
+OBJECTEND
+
+OBJECT 2 4 SnowCastlePillar South
+5g5h
+5w5x
+6A6B
+6Q6R
+OBJECTEND
+
+OBJECT 4 2 SnowCastlePillar East
+4g4h4i4j
+4w4x4y4z
+OBJECTEND
+
+OBJECT 2 2 SnowCastleFloorSand
+y4y4
+y4y4
+OBJECTEND
+
+#GROUP Volcano
+GOBJSET01
+
+OBJECT 2 2 Volcano Obsidian Ground
+p4p4
+p4p4
+OBJECTEND
+
+OBJECT 2 2 Volcano Ash Ground
+qrqr
+qrqr
+OBJECTEND
+
+OBJECT 2 2 Volcano Ash Ground 2
+qqst
+stqq
+OBJECTEND
+
+OBJECT 2 1 Volcano Obsidian Crystals
+oAoB
+OBJECTEND
+
+OBJECT 2 2 Volcano Hot Ground
+ywyx
+zAzB
+OBJECTEND
+
+OBJECT 1 1 Volcano Lava Flower
+oQ
+OBJECTEND
+
+OBJECT 1 2 Volcano Crystal Post
+oR
+oh
+OBJECTEND
+
+OBJECT 1 2 Volcano Crystal Post Down
+oR
+og
+OBJECTEND
+
+OBJECT 1 2 Volcano Crystal Post Connector
+pg
+pw
+OBJECTEND
+
+OBJECT 2 1 Volcano Walk Stone
+owox
+OBJECTEND
+
+OBJECT 2 2 Volcano Bush
+oCoD
+oSoT
+OBJECTEND
+
+OBJECT 2 2 Volcano Sign
+xSxT
+xixj
+OBJECTEND
+
+OBJECT 2 2 Volcano Black Rock
+oioj
+oyoz
+OBJECTEND
+
+OBJECT 13 14 Volcano House
+pApBpCpDpDpDpDpDpDpFpGpHv/
+pQpRpSpTpUpUpUpUpTpVpRpXpy
+pQpRpSpUpUpUpUpUpUpVpRpXqC
+pQpRpSpUpUpUpUpUpUpVpRpXqC
+pQpRpSpUpUpUpUpUpUpVpRpXqC
+pQpRpSpTpUpUpUpUpTpVpRpXqC
+pQphpipjpjpjpjpjpjpWqkpXqC
+pQpxpRpRpRpRpRpRpRpRq0pXqC
+qAqBpRpRpkplpmpnpRpRrEpXqC
+qQqRqRqRp0p1p2p3qRqRqRpzqC
+qgqhqiqjqEqFqGqHqhqiqjqDqC
+qwqxqyqzqUqVqWqXqxqyqzqTqS
+v/v/v/v/pEowoxpEv/v/v/v/v/
+v/v/v/v/owoxowoxv/v/v/v/v/
+OBJECTEND
+
+OBJECT 13 14 Volcano House 2
+21202020202020202020203lv/
+3F3T3S3T3S3T3S3T3S3T3S31py
+3F3T3S3T3S3T3S3T3S3T3S31qC
+3F3T3S3T3S3T3S3T3S3T3S31qC
+3F3T3S3T3S3T3S3T3S3T3S31qC
+3F3T3S3T3S3T3S3T3S3T3S31qC
+3F3T3S3T3S3T3S3T3S3T3S31qC
+3F3T3S3T3S3T3S3T3S3T3S31qC
+3V3T3S3T2w2x3A3B3S3T3S31qC
+3Q3R3R3Rp0p1p2p33R3R3R3UqC
+3g3h3i3jqEqFqGqH3h3i3j3kqC
+3w3x3y3zqUqVqWqX3x3y3z30qS
+v/v/v/v/pEowoxpEv/v/v/v/v/
+v/v/v/v/owoxowoxv/v/v/v/v/
+OBJECTEND
+
+OBJECT 2 4 Volcano Lamp
+3G3H
+3W3X
+3m3n
+3233
+OBJECTEND
+
+OBJECT 6 8 Volcano Grey Stone
+p4tPtMtNtsp4
+tPtftctdtrts
+tetdtdtctdtt
+tetdtctdvrt8
+tetdtdvrv7uM
+tetdvrv7uMp4
+upvLv7uMp4p4
+uKvbuMp4p4p4
+OBJECTEND
+
+OBJECT 4 4 Volcano Rock Boulder
+titjtktl
+tytzt0t1
+uCuDuEuF
+uSuTuUuV
+OBJECTEND
+
+OBJECT 2 2 Volcano Post
+tKtL
+tatb
+OBJECTEND
+
+OBJECT 2 2 Volcano Lava Rock
+tGtH
+tWtX
+OBJECTEND
+
+OBJECT 2 2 Volcano Crystal & Ash Powder
+ukul
+u0u1
+OBJECTEND
+
+OBJECT 2 2 Volcano Crystal & Ash Powder 2
+vovp
+v4v5
+OBJECTEND
+
+OBJECT 2 4 Volcano Platform Up
+qeqf
+quqv
+q+q/
+qoqo
+OBJECTEND
+
+OBJECT 6 6 Volcano Platform NorthWest
+p4p4p4p4rGqe
+p4p4p4rwrWqu
+p4p4rwrWsVrz
+p4rwrWsVrzto
+rwrWsVrztotp
+rWsVrztotpp4
+OBJECTEND
+
+OBJECT 6 6 Volcano Platform NorthEast
+qfrNp4p4p4p4
+qvrdsFp4p4p4
+sCsDrdsFp4p4
+uJsCsDrdsFp4
+uIuJsCsDrdsF
+p4uIuJsCsDrd
+OBJECTEND
+
+OBJECT 4 2 Volcano Platform East
+sQsRsSsT
+sQshsisj
+OBJECTEND
+
+OBJECT 4 2 Volcano Platform West
+rSrTrUrV
+rirjrkrV
+OBJECTEND
+
+OBJECT 2 6 Volcano Platform South
+qpqp
+q5q6
+rJrK
+rZra
+rprq
+r5r6
+OBJECTEND
+
+OBJECT 3 8 Volcano Platform East
+p4rsrt
+rsr8r9
+r8qsqt
+q7q8q9
+rLrMp4
+rbrcp4
+rrp4p4
+rcp4p4
+OBJECTEND
+
+OBJECT 2 6 Volcano Ash Platform North
+qeqf
+qPqP
+quqv
+qYqZ
+qIrl
+qqqq
+OBJECTEND
+
+OBJECT 6 2 Volcano Ash Platform West
+rSrTsUrTrUqq
+rirjskrjrkqq
+OBJECTEND
+
+OBJECT 6 2 Volcano Ash Platform East
+qqsRsSuqsSrP
+qqshsiu6sirf
+OBJECTEND
+
+OBJECT 10 6 Volcano Ash Projection
+tgthq4qrqqqqqrq7rOrP
+twrYrIq4q5q6q7rLrbrf
+uQuArYrIrJrKrLrbrvr/
+p4uQuRrYrZrarbrvr/p4
+p4p4uQuRrprqr+r/p4p4
+p4p4p4uQr5r6r/p4p4p4
+OBJECTEND
+
+OBJECT 4 4 Volcano Cave
+xUxVxWxX
+xkwLwLxn
+x0wLwLx3
+yEyFyGyH
+OBJECTEND
+
+OBJECT 6 6 Lava Pool
+qrqrwBwCqrqr
+qrwJwRwSwKqr
+wHwIzHszwFwG
+wXwYwisowVwW
+qrwZwDwEwaqr
+qrqrwTwUqrqr
+OBJECTEND
+
+OBJECT 6 5 Lava Pool Small
+p4u2vEvFvXp4
+u2vGuOuOvnvX
+vUuOv1v0uOu7
+umuWuOuOu3vH
+p4umv2v3vHp4
+OBJECTEND
+
+OBJECT 4 4 Lava Deep
+vIvYvZuP
+uotDtEub
+u4tCtSur
+vJuYuZu5
+OBJECTEND
+
+OBJECT 2 2 Lava Rock
+vVvW
+vlvm
+OBJECTEND
+
+OBJECT 2 1 Lava Bubble Big
+tDtE
+OBJECTEND
+
+OBJECT 1 1 Lava Small Bubble
+tS
+OBJECTEND
+
+OBJECT 10 6 Lava Falls
+zDzEzDzEzDzEzDzEzDzE
+wywzw0wzw0wzw0wzw0xD
+w1w2w3w4w3w4w3w4xExF
+siw5w3w4w3w4w3w4xGww
+sSxAxBxCxBxCxBxCxHwg
+sisXsYsZwpwqvdvevfww
+OBJECTEND
+
+OBJECT 2 9 Lava North
+xoxp
+x4x5
+q5q6
+rJrK
+rZra
+rprq
+yIyJ
+yYyZ
+yoyp
+OBJECTEND
+
+OBJECT 8 10 Lava NorthWest
+p4p4p4p4p4p4p4rs
+p4p4p4p4p4p4rsr8
+p4p4p4p4p4rsr8q7
+p4p4p4p4rsr8q7re
+p4p4p4rsr8q7rLru
+p4p4rsr8q7rerbrv
+p4rsr8q7rLrur+sm
+rsr8q7rerbrvsmsn
+sQsRs3rur+smsnso
+sQshsirvsmsnsotC
+OBJECTEND
+
+OBJECT 8 11 Lava NorthEast
+wnp4p4p4p4p4p4p4
+wmwnp4p4p4p4p4p4
+wlwmwnp4p4p4p4p4
+sDwlwmwnp4p4p4p4
+sCsDwlwmwnp4p4p4
+uBsCsDwlwmwnp4p4
+uAuBsCsDwlwmwnp4
+wkuAuBsCsDwlwmwn
+wjwkuAuBsCsDwlwm
+wiwjwkuAuBuNwhxb
+tCwiwjwkuAwwwxxr
+OBJECTEND
+
+OBJECT 6 2 Lava East
+vNvOvPrTrUyn
+vdvevfrjrkyX
+OBJECTEND
+
+OBJECT 6 2 Lava West
+sGsRsSsHsIsJ
+sWshsisXsYsZ
+OBJECTEND
+
+OBJECT 7 4 Lava NE Turn
+vdvevfrjwlwmwn
+vNvOvPthq4wlwm
+vdvevfrYtxq4wl
+wiwjwkuAuBtxq4
+OBJECTEND
+
+OBJECT 7 7 Lava SouthEast
+zHzIwosVrzw6xK
+zIwosVrzw6xKxa
+wosVrzw6xKxap4
+sVrzw6xKxap4p4
+qIw6xKxap4p4p4
+sqxIxap4p4oAoB
+s5xap4p4p4p4p4
+OBJECTEND
+
+OBJECT 2 6 Lava South
+sOsP
+sesf
+susv
+q+q/
+spsq
+s5s6
+OBJECTEND
+
+OBJECT 2 9 Lava SW Sliver
+sztC
+sysz
+sxsy
+sDsx
+sCsD
+swsC
+sKsw
+sasK
+p4sa
+OBJECTEND
+
+OBJECT 5 5 Lava Bridge East/West
+zYzazazazb
+zozpzqzpzr
+z3z7z7z7z7
+0Izazaza0J
+z4z5z6z50K
+OBJECTEND
+
+OBJECT 7 5 Lava Bridge North/South
+0L0X0Y0Z0Z0q0a
+0b03040Z0Z0n05
+0b0n0o0Z0Z0n0p
+0b03040Z0Z0n05
+0r1H1I1X1X061J
+OBJECTEND
+
+OBJECT 4 4 Lava Platform
+12131415
+2G2H2I2J
+2W2X2Y2Z
+2m2n2o2p
+OBJECTEND
+`;

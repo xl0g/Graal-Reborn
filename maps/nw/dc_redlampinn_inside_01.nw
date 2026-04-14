@@ -1,0 +1,691 @@
+GLEVNW01
+BOARD 0 0 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 1 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 2 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 3 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 4 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 5 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 6 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 7 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 8 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 9 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 10 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 11 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 12 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 13 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 14 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 15 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 16 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 17 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 18 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 19 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 20 64 0 6K6K6K6K6K6K6a6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6b6K6K6K6K6K6K
+BOARD 0 21 64 0 6K6K6K6K6K6K6cngmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnh6d6K6K6K6K6K6K
+BOARD 0 22 64 0 6K6K6K6K6K6K6cmGngmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWM3K+K/K+K+K/K+K+K/K+K/M8mWmWmWmWmWmWmWmWmWmWmWmWmWmWnhmH6d6K6K6K6K6K6K
+BOARD 0 23 64 0 6K6K6K6K6K6K6cmGmGzYzZzazazbk3cdk3cdk3cdk3dldmk3cdk3cdk3cdLt0i0i0i0i0i0i0i0i0i0iL9dldmcdk3cdk3cdk3cdzYzZzazazbmHmH6d6K6K6K6K6K6K
+BOARD 0 24 64 0 6K6K6K6K6K6K6cmGmG2XZ3Z3Z32Xcdk3cdk3cdk3cddldmcdk3cdk3cdk3djdkdkdkdkdkdkdkdkdkdkdXdldmk3cdk3cdk3cdk32XZ3Z3Z32XmHmH6d6K6K6K6K6K6K
+BOARD 0 25 64 0 6K6K6K6K6K6K6cmGmG2XaHaHaH2Xk3cdk3cdk3cdk3dldmk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cddldmcdk3cdk3cdk3cd2XaHaHaH2XmHmH6d6K6K6K6K6K6K
+BOARD 0 26 64 0 6K6K6K6K6K6K6cmGmGLILJLJLKKrcdk3cdk3cdk3cddldmcdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3dldmk3cdk3cdk3cdk3LILJLKLKKrmHmH6d6K6K6K6K6K6K
+BOARD 0 27 64 0 6K6K6K6K6K6K6cmGmGLYLZLZLaK7k3cdiNlIlIiOk3dlc/dEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdEc/dmcdiNlIlIiOk3cdLYLZLaLaK7mHmH6d6K6K6K6K6K6K
+BOARD 0 28 64 0 6K6K6K6K6K6K6cmGmGLoLpLpLqLLcdk36dipiq6ccddTdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdWk36dipiq6ccdk3LoLpLqLqLLmHmH6d6K6K6K6K6K6K
+BOARD 0 29 64 0 6K6K6K6K6K6K6cmGmG2XZ3Z3Z32Xk3cd6di5i66ck3djKpKqdkdkdkdkKpKqdkdkdkdkKpKqdkdkdkdkKpKqdXcd6di5i66ck3cd2XZ3Z3Z32XmHmH6d6K6K6K6K6K6K
+BOARD 0 30 64 0 6K6K6K6K6K6K6cmGmG2XaHaHaH2Xcdk36djJjK6ccdk3K5K6cdk3cdk3K5K6cdk3cdk3K5K6cdk3cdk3K5K6cdk36djJjK6ccdk32XaHaHaH2XmHmH6d6K6K6K6K6K6K
+BOARD 0 31 64 0 6K6K6K6K6K6K6cmGmGzYzZzazazbk3cd6djZja6ck3cd3233k3cdk3cd3233k3cdk3cd3233k3cdk3cd3233k3cd6djZja6ck3cdzYzZzazazbmHmH6d6K6K6K6K6K6K
+BOARD 0 32 64 0 6K6K6K6K6K6K6cmGmGzYzZzazazbcdk2ipiqipiqk2k3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk2ipiqipiqk2k3zYzZzazazbmHmH6d6K6K6K6K6K6K
+BOARD 0 33 64 0 6K6K6K6K6K6K6cmGmG2XZ3Z3Z32Xk3cdk2ipiqk2k3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk2ipiqk2k3cd2XZ3Z3Z32XmHmH6d6K6K6K6K6K6K
+BOARD 0 34 64 0 6K6K6K6K6K6K6cmGmG2XaHaHaH2Xcdk2ipiqipiqk2k3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk2ipiqipiqk2k32XaHaHaH2XmHmH6d6K6K6K6K6K6K
+BOARD 0 35 64 0 6K6K6K6K6K6K6cmGmGLILJLJLKKrk3cdk2ipiqk2k3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk2ipiqk2k3cdLILJLKLKKrmHmH6d6K6K6K6K6K6K
+BOARD 0 36 64 0 6K6K6K6K6K6K6cmGmGLYLZLZLaK7cdk2ipiqipiqk2k2k2k2k2k2k2k2k2k3cdk3cdk3cdk2k2k2k2k2k2k2k2k2ipiqipiqk2k3LYLZLaLaK7mHmH6d6K6K6K6K6K6K
+BOARD 0 37 64 0 6K6K6K6K6K6K6cmGmGLoLpLpLqLLk3cdk2ipiqipiqipiqipiqipiqipiqk2k2k2k2k2k2ipiqipiqipiqipiqipiqipiqk2k3cdLoLpLqLqLLmHmH6d6K6K6K6K6K6K
+BOARD 0 38 64 0 6K6K6K6K6K6K6cmGmG2XZ3Z3Z32Xcdk3cdk2ipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqipiqk2k3cdk32XZ3Z3Z32XmHmH6d6K6K6K6K6K6K
+BOARD 0 39 64 0 6K6K6K6K6K6K6cmGmG2XaHaHaH2Xk3cdk3cdk2k2k2k2k2k2k2k2k2k2k2ipiqipiqipiqk2k2k2k2k2k2k2k2k2k2k2k3cdk3cd2XaHaHaH2XmHmH6d6K6K6K6K6K6K
+BOARD 0 40 64 0 6K6K6K6K6K6K6cmGmGzYzZzazazbcdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk2ipiqipiqk2k3cdk3cdk3cdk3cdk3cdk3cdk3cdk3zYzZzazazbmHmH6d6K6K6K6K6K6K
+BOARD 0 41 64 0 6K6K6K6K6K6K6cmGmGzYzZzazazbk3cdk3cdk3cdKpKqk3cdk3cdk3cdk3k3k2ipiqk2k3cdk3cdk3cdk3cdKpKqk3cdk3cdk3cdzYzZzazazbmHmH6d6K6K6K6K6K6K
+BOARD 0 42 64 0 6K6K6K6K6K6K6cmGmG2XZ3Z3Z32Xcdk3cdk3cdk3K5K6cdk3cdk3cdk3cdk2ipiqipiqk2k3cdk3cdk3cdk3K5K6cdk3cdk3cdk32XZ3Z3Z32XmHmH6d6K6K6K6K6K6K
+BOARD 0 43 64 0 6K6K6K6K6K6K6cmGmG2XaHaHaH2Xk3cdk3cdLILJLJLKLKKrk3cdk3cdk3k3k2ipiqk2k3cdk3cdk3cdLILJLJLKLKKrk3cdk3cd2XaHaHaH2XmHmH6d6K6K6K6K6K6K
+BOARD 0 44 64 0 6K6K6K6K6K6K6cmGmGLILJLJLKKrcdk3KpKqLYLZLZLaLaK7KpKqcdk3cdk2ipiqipiqk2k3cdk3KpKqLYLZLZLaLaK7KpKqcdk3LILJLKLKKrmHmH6d6K6K6K6K6K6K
+BOARD 0 45 64 0 6K6K6K6K6K6K6cmGmGLYLZLZLaK7k3cdK5K6LYLZLZLaLaK7K5K6k3cdk3k3k2ipiqk2k3cdk3cdK5K6LYLZLZLaLaK7K5K6k3cdLYLZLaLaK7mHmH6d6K6K6K6K6K6K
+BOARD 0 46 64 0 6K6K6K6K6K6K6cmGmGLoLpLpLqLLcdk3cdk3LoLpLpLqLqLLcdk3cdk3cdk2ipiqipiqk2k3cdk3cdk3LoLpLpLqLqLLcdk3cdk3LoLpLqLqLLmHmH6d6K6K6K6K6K6K
+BOARD 0 47 64 0 6K6K6K6K6K6K6cmGmG2XZ3Z3Z32Xk3cdk3cdk3cdKpKqk3cdk3cdk3cdk3k3k2ipiqk2k3cdk3cdk3cdk3cdKpKqk3cdk3cdk3cd2XZ3Z3Z32XmHmH6d6K6K6K6K6K6K
+BOARD 0 48 64 0 6K6K6K6K6K6K6cmGmG2XaHaHaH2Xcdk3cdk3cdk3K5K6cdk3cdk3cdk3cdk2ipiqipiqk2k3cdk3cdk3cdk3K5K6cdk3cdk3cdk32XaHaHaH2XmHmH6d6K6K6K6K6K6K
+BOARD 0 49 64 0 6K6K6K6K6K6K6cmGmGzYzZzazazbk3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdk2ipiqk2k3cdk3cdk3cdk3cdk3cdk3cdk3cdk3cdzYzZzazazbmHmH6d6K6K6K6K6K6K
+BOARD 0 50 64 0 6K6K6K6K6K6K6cmGnwmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXkpkpmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxmH6d6K6K6K6K6K6K
+BOARD 0 51 64 0 6K6K6K6K6K6K6cnwmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXk5k5mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnx6d6K6K6K6K6K6K
+BOARD 0 52 64 0 6K6K6K6K6K6K6q6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6r6K6K6K6K6K6K
+BOARD 0 53 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 54 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 55 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 56 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 57 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 58 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 59 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 60 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 61 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 62 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+BOARD 0 63 64 0 6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K
+LINK dc_redlampinn_inside_02.nw 17 28 2 1 playerx 27
+LINK dc_redlampinn_inside_02.nw 45 28 2 1 playerx 27
+LINK overworld_20.nw 31 52 2 1 18.5 21
+SIGN 31 29
+Welcome to the Red Lamp Inn.
+You can rent a room with us for
+just 50g. You'll be the only one
+that can go into that room for
+10 minutes. We have 4 rooms
+available now. To rent one that no 
+one is using, say "/rent #",
+minus the quotes where # is the 
+number of the room. (Example: 
+"/rent 4" to rent room 4.) Oh,
+and you cannot rent a room that
+has been rented by someone
+else and you may only rent one
+room at a time.
+Say "Beer" if you need a drink.
+Enjoy your stay.
+SIGNEND
+NPC churchseat.png 9 24
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC churchseat.png 13 24
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 13 29
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 9 29
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC churchseat.png 13 33
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 9 33
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC churchseat.png 9 38
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC churchseat.png 13 38
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 13 42
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 13 47
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 9 42
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC churchseat.png 9 47
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC churchseat.png 54 47
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 50 33
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC churchseat.png 54 42
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 54 38
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 54 33
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 54 29
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 54 24
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,80,0,17,30;
+}
+NPCEND
+NPC churchseat.png 50 24
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC churchseat.png 50 29
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC churchseat.png 50 38
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC churchseat.png 50 42
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC churchseat.png 50 47
+if (playerenters) {
+  drawunderplayer;
+  dontblock;
+  setimgpart churchseat.png,0,0,17,30;
+}
+NPCEND
+NPC classic_gc_lampsingle.png 18 20
+
+NPCEND
+NPC light4.png 51 40
+//#CLIENTSIDE
+if(created){
+drawaslight;
+dontblock;
+setcoloreffect 1,.4,0,0.9;
+setzoomeffect 1.5;
+x+=0.5;
+}
+NPCEND
+NPC light4.png 14 17
+//#CLIENTSIDE
+if(created){
+drawaslight;
+dontblock;
+setcoloreffect 1,.4,0,0.9;
+setzoomeffect 1.5;
+x+=0.5;
+}
+NPCEND
+NPC light4.png 3 40
+//#CLIENTSIDE
+if(created){
+drawaslight;
+dontblock;
+setcoloreffect 1,.4,0,0.9;
+setzoomeffect 1.5;
+x+=0.5;
+}
+NPCEND
+NPC light4.png 15 47
+//#CLIENTSIDE
+if(created){
+drawaslight;
+dontblock;
+setcoloreffect 1,.4,0,0.9;
+setzoomeffect 1.5;
+x+=0.5;
+}
+NPCEND
+NPC light4.png 51 25
+//#CLIENTSIDE
+if(created){
+drawaslight;
+dontblock;
+setcoloreffect 1,.4,0,0.9;
+setzoomeffect 1.5;
+x+=0.5;
+}
+NPCEND
+NPC light4.png 41 47
+//#CLIENTSIDE
+if(created){
+drawaslight;
+dontblock;
+setcoloreffect 1,.4,0,0.9;
+setzoomeffect 1.5;
+x+=0.5;
+}
+NPCEND
+NPC light4.png 41 17
+//#CLIENTSIDE
+if(created){
+drawaslight;
+dontblock;
+setcoloreffect 1,.4,0,0.9;
+setzoomeffect 1.5;
+x+=0.5;
+}
+NPCEND
+NPC barrel.png 23 22
+
+NPCEND
+NPC barrel.png 23 23
+
+NPCEND
+NPC barrel.png 23 24
+
+NPCEND
+NPC barrel.png 25 22
+
+NPCEND
+NPC barrel.png 25 23
+
+NPCEND
+NPC barrel.png 25 24
+
+NPCEND
+NPC barrel.png 27 22
+
+NPCEND
+NPC barrel.png 27 23
+
+NPCEND
+NPC bottle.png 31 22
+
+NPCEND
+NPC bottle.png 38 22
+
+NPCEND
+NPC bottle.png 34 22
+
+NPCEND
+NPC bottle.png 35 22
+
+NPCEND
+NPC bottle.png 37 22
+
+NPCEND
+NPC bottle.mng 33 22
+
+NPCEND
+NPC bottle.mng 39 22
+
+NPCEND
+NPC bottle.png 32 22
+
+NPCEND
+NPC bottle.mng 36 22
+
+NPCEND
+NPC bottle.mng 30 22
+
+NPCEND
+NPC - 28 38
+
+function onCreated(){
+setshape(1,32,48);
+}
+
+//#CLIENTSIDE
+// NPC made by Dark Cloud
+
+/*
+public function onSlash() {
+  npcs[testnpc(29,35)].trigger("Activate",NULL);
+}
+*/
+
+if(playerenters){
+  showcharacter;
+  setcharprop#8,body.png;
+  setcharprop#3,head102.png;
+  setcharprop#2,black-scabbard-shield.png;
+  setcharprop#C0,black;
+  setcharprop#C1,black;
+  setcharprop#C2,orange;
+  setcharprop#C3,black;
+  setcharprop#C4,black;
+  x=28.5;
+  setcharprop#n,DC(NBK);
+  ap=100;
+}
+if(playertouchsme) {say2 Hello, I am DC. I orginally created#bthis inn since there weren't#bmany inns around. I also#bcreated it so newbies would#bhave a place to heal from their#bwounds and get away from PKs.#bIt's was the first of its kind on#bClassic, so I hope you enjoy#bits rerelease!;}
+NPCEND
+NPC - 41 40
+//#CLIENTSIDE
+if (playerenters) {
+  showcharacter;
+  setcharprop #3,head210.png;
+  setcharprop #C0,white;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,blue;
+  setcharprop #C4,white;
+  setcharprop #C5,black;
+  setcharprop #C6,white;
+  setcharprop #C7,white;
+  setcharprop #n,Holy Dragoon;
+  setcharprop #1,fusion-sword.png;
+  setcharprop #2,gomtuuspiritstaff-shield.png;
+  setcharprop #8,body2.png;
+  dir = 2;
+  ap = 71;
+  x=41.5;
+  sprite=37;
+}
+if(playertouchsme) {say2 *hic* Hey man, *hic* you stay#baway from my beer. *hic*#bDon't *hic* look at me like that#beither. *hic*;}
+NPCEND
+NPC beer.png 42 43
+
+NPCEND
+NPC - 51 32
+//#CLIENTSIDE
+if (playerenters) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head725.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,gray;
+  setcharprop #C2,gray;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #n,Obby;
+  setcharprop #1,chainwhip-sword.png;
+  setcharprop #2,noxflover-shield.png;
+  setcharprop #8,body12.png;
+  dir = 2;
+  sprite = 37;
+  ap = 15;
+}
+if(playertouchsme) {say2 Whatever Gil, I'll just stick with#bmy lemonade. ;}
+NPCEND
+NPC - 51 37
+//#CLIENTSIDE
+if (playerenters) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head788.png;
+  setcharprop #C0,black;
+  setcharprop #C1,gray;
+  setcharprop #C2,brown;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #n,Gil Core;
+  setcharprop #2,kaizerscabbard-shield.png;
+  setcharprop #8,body13.png;
+  dir = 0;
+  sprite = 37;
+  ap = 23;
+}
+if(playertouchsme) {say2 *sigh*#bNothing like a beer to chase#bthe troubles away.;}
+NPCEND
+NPC beer.png 52 35
+//#CLIENTSIDE
+if(playerenters)
+y=35.7;
+}
+NPCEND
+NPC lemonade.png 51 34
+//#CLIENTSIDE
+if(playerenters)
+y=33.7;
+}
+NPCEND
+NPC - 45 43
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1212.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,blue;
+  setcharprop #C5,black;
+  setcharprop #C6,white;
+  setcharprop #C7,white;
+  setcharprop #n,Albus;
+  setcharprop #1,sword1.png;
+  setcharprop #2,staff-shield.png;
+  setcharprop #8,body13.png;
+  dir = 1;
+  ap = 80;
+  sprite=37;
+  x=45.5;
+}
+if(playertouchsme) {say2 Dangit *hic*, I just used#b*hic* the last of my money#b*hic* on beer. *hic* I bet I can#bsteal *hic* Holy's.;}
+NPCEND
+NPC beer.png 44 44
+
+NPCEND
+NPC - 10 23
+//#CLIENTSIDE
+if (playerenters) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head441.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,darkred;
+  setcharprop #C3,black;
+  setcharprop #C4,darkred;
+  setcharprop #n,Dev;
+  setcharprop #1,chainwhip-sword.png;
+  setcharprop #2,gandsshield.png;
+  setcharprop #8,body.png;
+  dir = 2;
+  sprite = 37;
+  ap = 5;
+}
+if(playertouchsme) {say2 Aren't you going to get anything#bto drink, Willie?;}
+NPCEND
+NPC - 10 28
+//#CLIENTSIDE
+if (playerenters) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1265.png;
+  setcharprop #C0,green;
+  setcharprop #C1,green;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #n,WillieJamal;
+  setcharprop #2,no-shield.png;
+  setcharprop #8,body12.png;
+  dir = 0;
+  sprite = 37;
+  ap = 65;
+}
+if(playertouchsme) {say2 I already had a lemonade,#bI'll get another one later.;}
+NPCEND
+NPC beer.png 9 25
+
+NPCEND
+NPC - 31 24
+
+function onPlayerChats(){
+
+  tokens = player.chat.tokenize();
+  if (tokens[0] == "/rent") {
+    if (tokens[1] in |1,4|) {
+
+      if (serverr.("redlampinn_"@tokens[1]) == 0) {
+
+        if(player.clientr.dcinntime > timevar2){
+          say2("You have already rented a room!");
+        }
+        else{
+
+          if (player.clientr.stat_gelat >= 50) {
+            player.clientr.stat_gelat -= 50;
+            player.clientr.dcinntime = timevar2+600;
+            serverr.("redlampinn_"@tokens[1]) = {player.account,timevar2+600};
+            say2("Enjoy your stay!");
+          }
+
+          else {
+            say2("Sorry, you don't have enough gelat.");
+          }
+        }
+
+      }
+
+      else{
+        say2("Sorry, that room is taken.");
+      }
+
+    }
+  }
+}
+
+//#CLIENTSIDE
+if(playerenters){
+  showcharacter;
+  setcharprop#8,body13.png;
+  setcharprop#3,head452.png;
+  setcharprop#2,ravenchill-bloodscabbard-shield.png;
+  setcharprop#C0,black;
+  setcharprop#C1,black;
+  setcharprop#C2,black;
+  setcharprop#C3,black;
+  setcharprop#C4,darkred;
+  x=30.5;
+  setcharprop#n,Nightmareangel Midnight;
+  ap=34;
+}
+NPCEND
+NPC classic_gc_lampsingle.png 45 20
+
+NPCEND
+NPC classic_gc_lampsingle.png 55 28
+
+NPCEND
+NPC classic_gc_lampsingle.png 55 43
+
+NPCEND
+NPC classic_gc_lampsingle.png 7 43
+
+NPCEND
+NPC classic_gc_lampsingle.png 45 50
+
+NPCEND
+NPC classic_gc_lampsingle.png 7 28
+
+NPCEND
+NPC - 48 14
+join("level_nopk");
+NPCEND
+NPC classic_gc_lampsingle.png 19 50
+
+NPCEND
+NPC - 29 35
+/*
+join("warp_jewel");
+function onCreated() {
+  this.loctype  = "inns";
+  this.locindex = 0;
+}
+*/
+
+//#CLIENTSIDE
+/*
+function onCreated() {
+  this.loctype  = "inns";
+  this.locindex = 0;
+}
+*/
+NPCEND
+NPC beer.png 37 27
+function onCreated(){
+setshape(1,32,48);
+}
+
+function onTimeout(){
+show();
+}
+
+function onPlayertouchsme(){
+  player.ModifyHP(0,0,player.clientr.stat_maxhp);
+  setani("classic_beer","");
+  hide();
+  setTimer(10);
+}
+
+//#CLIENTSIDE
+function onPlayerTouchsMe(){
+  system_moving_drunk.time += 20;
+    movement_handlekeys = 0.5;
+    movement_handlemoving = 0.5;
+}
+NPCEND
+NPC light4.png 3 25
+//#CLIENTSIDE
+if(created){
+drawaslight;
+dontblock;
+setcoloreffect 1,.4,0,0.9;
+setzoomeffect 1.5;
+x+=0.5;
+}
+NPCEND

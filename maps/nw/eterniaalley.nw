@@ -1,0 +1,1351 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 M3K/K/K/K/K/K/K/K/K/cFcGcGcGcGcHK/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/K/M8
+BOARD 0 3 64 0 LtM4LPLOLPLOLPLOLPLOcV1k1lReZDcXLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOM7L9
+BOARD 0 4 64 0 LtL+M5LecFcHLfLedDdGcl1110RuZTcnLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfM6L8L9
+BOARD 0 5 64 0 LtLuLv1Sc1c31S1Sdldmc1c2c2c2c2c31SLtM4M4LPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOM7LrLsL9
+BOARD 0 6 64 0 LtL+L/1STwTwKpKqdldmTwTwTwTwTwTw1SLtM4LeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfLeLfM6L8L7L8L9
+BOARD 0 7 64 0 LtLuLvdDdEdEdEdEc/dmTwTwTwTwTwTw1SLtL+0T0y0y0y0y0y0y0ULmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmNlLrLsLrLsL9
+BOARD 0 8 64 0 LtL+L/dTdUdUdUdUdUdWTwTwTwTwTwTw1SLtLu1C1D0z0z0z0z0z0k1S1S0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0zcCcDcEL7L8L9
+BOARD 0 9 64 0 LtLuLvdjdkdkdkdkdkdXTwTwTwTwTwTw1SLtL+1C1DKpKqKpKqKpKqTw1S1SItItItItItItItItItItItItItItItItItItItItItItItItItItItItcRNFcULrLsL9
+BOARD 0 10 64 0 LtL+L/1STwTwTwTwTwTwTwTwTwTwTwTw1SLtLu1C1DK5K6K5K6K5K6TwTw1SM1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1cRNFckL7L8L9
+BOARD 0 11 64 0 LtLuLv1STwTwTwTwTwTwTwTwTwTwTwTw1SLtL+1C1DKpKqTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 12 64 0 LtL+L/1STwTwTwTwTwTwTwTwTwTwTwTw1SLtLu0j0kK5K6TwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 13 64 0 LtLuLv1STwTwTwTwTwTwTwTwTwTwTwTw1S1j1j1j1STwTwTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 14 64 0 LtL+L/1STwdMdNdOdPTwTwTwTwTwTwTw1S1j1j1j1STwTwTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 15 64 0 LtLuLv1STwdcdddedfTwTwTw0T0y0y0U1SLtL+0T0UKpKqTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 16 64 0 LtL+L/1STwdsdtdudvTwTwTw0j0z1C1D1SLtLu1C1DK5K6TwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 17 64 0 LtLuLv1STwd8d9d+d/TwTwTwKpKq1C1D1SLtL+1C1DKpKqKpKqKpKqTwTw1SItItItItItItItItItItItItItItItItItItItItItItItItItItItItcRNFcULrLsL9
+BOARD 0 18 64 0 LtL+L/1STwTwTwTwTwTwTwTwK5K61C1D1SLtLu1C1DK5K6K5K6K5K6Tw1S1SM1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1cRNFckL7L8L9
+BOARD 0 19 64 0 LtLuLv1STwTwTwTwTwTwTwTwKpKq1C1D1SLtL+1C1D0y0y0y0y0y0UTw1S0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0ycyczc0LrLsL9
+BOARD 0 20 64 0 LtL+L/1STwTwTwTwTwTwTwTwK5K61C1D1SLtLu1C1D0z0z0z0z0z0kTw1S0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0zcCcDcEL7L8L9
+BOARD 0 21 64 0 LtLuLv1STw0T0y0y0UTwTwTwKpKq1C1D1SLtL+1C1DKpKqKpKqKpKqTw1S1SItItItItItItItItItItItItItItItItItItItItItItItItItItItItcRNFcULrLsL9
+BOARD 0 22 64 0 LtL+L/1STw0j0z1C1DTwTwTwK5K61C1D1SLtLu1C1DK5K6K5K6K5K6TwTw1SM1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1cRNFckL7L8L9
+BOARD 0 23 64 0 LtLuLv1STwKpKq1C1DTwTwTw0T0y1C1D1SLtL+1C1DKpKqTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 24 64 0 LtL+L/1STwK5K61C1DTwTwTw0j0z0z0k1SLtLu0j0kK5K6TwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 25 64 0 LtLuLv1STwKpKq1C1DTwTwTwTwTwTwTw1S1j1j1j1STwTwTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 26 64 0 LtL+L/1STwK5K61C1DTwTwTwTwTwTwTw1S1j1j1j1STwTwTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 27 64 0 LtLuLv1STwKpKq1C1DTwTwTw0T0y0y0U1SLtL+0T0UKpKqTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 28 64 0 LtL+L/1STwK5K61C1DTwTwTw0j0z1C1D1SLtLu1C1DK5K6TwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 29 64 0 UPcAcB1STw0T0y1C1DTwTwTwKpKq1C1D1SLtL+1C1DKpKqKpKqKpKqTwTw1SItItItItItItItItItItItItItItItItItItItItItItItItItItItItcRNFcULrLsL9
+BOARD 0 30 64 0 UfNFcQ1STw0j0z0z0kTwTwTwK5K61C1D1SLtLu1C1DK5K6K5K6K5K6Tw1S1SM1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1cRNFckL7L8L9
+BOARD 0 31 64 0 UvNFcQ1STwTwTwTwTwTwTwTwKpKq1C1D1SLtL+1C1D0y0y0y0y0y0UTw1S0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0ycyczc0LrLsL9
+BOARD 0 32 64 0 UfNFcQ1STwTwTwTwTwTwTwTwK5K61C1D1SLtLu1C1D0z0z0z0z0z0kTw1S0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0zcCcDcEL7L8L9
+BOARD 0 33 64 0 UvNFcQ1STw0T0y0y0UTwTwTwKpKq1C1D1SLtL+1C1DKpKqKpKqKpKqTw1S1SItItItItItItItItItItItItItItItItItItItItItItItItItItItItcRNFcULrLsL9
+BOARD 0 34 64 0 U/cwcx1STw0j0z1C1DTwTwTwK5K61C1D1SLtLu1C1DK5K6K5K6K5K6TwTw1SM1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1cRNFckL7L8L9
+BOARD 0 35 64 0 LtLuLv1STwKpKq1C1DTwTwTw0T0y1C1D1SLtL+1C1DKpKqTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 36 64 0 LtL+L/1STwK5K61C1DTwTwTw0j0z0z0k1SLtLu0j0kK5K6TwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 37 64 0 LtLuLv1STwKpKq1C1DTwTwTwTwTwTwTw1S1j1j1j1STwTwTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 38 64 0 LtL+L/1STwK5K61C1DTwTwTwTwTwTwTw1S1j1j1j1STwTwTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 39 64 0 LtLuLv1STwKpKq1C1DTwTwTw0T0y0y0U1SLtL+0T0UKpKqTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 40 64 0 LtL+L/1STwK5K61C1DTwTwTw0j0z1C1D1SLtLu1C1DK5K6TwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 41 64 0 LtLuLv1STw0T0y1C1DTwTwTwKpKq1C1D1SLtL+1C1DKpKqKpKqKpKqTwTw1SItItItItItItItItItItItItItItItItItItItItItItItItItItItItcRNFcULrLsL9
+BOARD 0 42 64 0 LtL+L/1STw0j0z0z0kTwTwTwK5K61C1D1SLtLu1C1DK5K6K5K6K5K6Tw1S1SM1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1cRNFckL7L8L9
+BOARD 0 43 64 0 LtLuLv1STwTwTwTwTwTwTwTwKpKq1C1D1SLtL+1C1D0y0y0y0y0y0UTw1S0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0ycyczc0LrLsL9
+BOARD 0 44 64 0 LtL+L/1STwTwTwTwTwTwTwTwK5K61C1D1SLtLu1C1D0z0z0z0z0z0kTw1S0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0z0zcCcDcEL7L8L9
+BOARD 0 45 64 0 LtLuLv1STw0T0y0y0UTwTwTwKpKq1C1D1SLtL+1C1DKpKqKpKqKpKqTw1S1SItItItItItItItItItItItItItItItItItItItItItItItItItItItItcRNFcULrLsL9
+BOARD 0 46 64 0 LtL+L/1STw0j0z1C1DTwTwTwK5K61C1D1SLtLu1C1DK5K6K5K6K5K6TwTw1SM1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1cRNFckL7L8L9
+BOARD 0 47 64 0 LtLuLv1STwKpKq1C1DTwTwTw0T0y1C1D1SLtL+1C1DKpKqTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 48 64 0 LtL+L/1STwK5K61C1DTwTwTw0j0z0z0k1SLtLu0j0kK5K6TwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 49 64 0 LtLuLv1STwKpKq1C1DTwTwTwTwTwTwTw1S1j1j1j1STwTwTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 50 64 0 LtL+L/1STwK5K61C1DTwTwTwTwTwTwTw1S1j1j1j1STwTwTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 51 64 0 LtLuLv1STwKpKq1C1DTwTwTw0T0y0y0U1SLtL+0T0UKpKqTwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFcULrLsL9
+BOARD 0 52 64 0 LtL+L/1STwK5K61C1DTwTwTw0j0z1C1D1SLtLu1C1DK5K6TwTwTwTwTwTw1S1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1T1TcRNFckL7L8L9
+BOARD 0 53 64 0 LtLuLv1STw0T0y1C1DTwTwTwKpKq1C1D1SLtL+1C1DKpKqKpKqKpKqTwTw1SItItItItItItItItItItItItItItItItItItItItItItItItItItItItcRNFcULrLsL9
+BOARD 0 54 64 0 LtL+L/1STw0j0z0z0kTwTwTwK5K61C1D1SLtLu1C1DK5K6K5K6K5K6Tw1S1SM1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1M1cRNFckL7L8L9
+BOARD 0 55 64 0 LtLuLv1STwTwTwTwTwTwTwTw0T0y1C1D1SLtL+1C1D0y0y0y0y0y0U1S1S0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0ycyczc0LrLsL9
+BOARD 0 56 64 0 LtL+L/1STwTwTwTwTwTwTwTw0j0z0z0k1SLtLu0j0z0z0z0z0z0z0kM/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/N1L7L8L7L8L9
+BOARD 0 57 64 0 LtLuLv1STwTwTwTwTwTwTwTwTwTwTwTw1SLtNIMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLNKLsLrLsL9
+BOARD 0 58 64 0 LtL+L/1S1S1S1S1S1S1S1S1S1S1S1S1S1SLtNINIMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaNLL7L8L9
+BOARD 0 59 64 0 LtLuNJMKMLMKMLMKM0M1M1M2MLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLNKLsL9
+BOARD 0 60 64 0 LtNIMbMaMbMaMbMaNENFNFNGMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaNLL9
+BOARD 0 61 64 0 NHMqMqMqMqMqMqMqNUNVNWNXMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqNM
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK classic_eternia4.nw 9 61 2 1 40.5 33
+LINK eterniaalleybar.nw 0 30 1 4 54 playery+5
+SIGN 6 9
+Care to bowl?
+The ball will be 300g, just
+say yes if you're ready.
+SIGNEND
+SIGN 0 0
+Hey goof, you already have a 
+bowling ball!  Go on down to 
+the lanes, yeesh!
+SIGNEND
+SIGN 0 0
+Uh, you need more than THAT.
+SIGNEND
+SIGN 0 0
+Alright, pick a lane and get bowling!
+SIGNEND
+SIGN 11 5
+Fundamentals of Bowling
+1) Select your ball
+2) Run towards the lane
+3) Fire your ball
+4) Keep running!
+5) Stop before you hit the lane
+6) Control the curve of your
+ball with the up and down keys
+
+As your skill increases,
+so will your accuracy!
+SIGNEND
+SIGN 13 5
+Your Bowling Level Is: 
+#s(bowlinglevel)
+SIGNEND
+SIGN 0 0
+Total - #s(points)
+#t(0) #t(1) #t(2) #t(3) #t(4) #t(5) #t(6) #t(7) #t(8) #t(9) 
+#t(10) #t(11) #t(12) #t(13) #t(14)
+SIGNEND
+NPC nightlord_house_stairs2.png 16 13
+// NPC made by Bobble
+if (created) {
+  dontblock;
+  drawunderplayer;
+  setimgpart nightlord_house_stairs2.png,0,16,64,32;
+}
+NPCEND
+NPC nightlord_house_stairs2.png 16 25
+// NPC made by Bobble
+if (created) {
+  dontblock;
+  drawunderplayer;
+  setimgpart nightlord_house_stairs2.png,0,16,64,32;
+}
+NPCEND
+NPC nightlord_house_stairs2.png 16 37
+// NPC made by Bobble
+if (created) {
+  dontblock;
+  drawunderplayer;
+  setimgpart nightlord_house_stairs2.png,0,16,64,32;
+}
+NPCEND
+NPC zelda.png 6 5
+// NPC made by Bobble
+if (created) {
+  setimgpart zelda.png,0,0,32,32;
+}
+if(playerenters){
+  message Pro Shop;
+  setbackpal pics1.png;
+}
+if (playerchats&&playery<16&&playerx<12) {
+  if(strequals(#c,yes)){
+    if(hasweapon(Bowling Ball)) say 1;
+    else if(playerrupees<300) say 2;
+    else{
+      playerrupees-=300;
+      setstring detlevel,#L #v(playerx) #v(playery);
+      setlevel2 bowlingball.graal,playerx,playery;
+    }
+  }
+}
+NPCEND
+NPC bowlingballicon.png 4 3
+
+NPCEND
+NPC nightlord_house_stairs2.png 16 49
+// NPC made by Bobble
+if (created) {
+  dontblock;
+  drawunderplayer;
+  setimgpart nightlord_house_stairs2.png,0,16,64,32;
+}
+NPCEND
+NPC - 6 13
+// NPC made by Bobble
+if (created) {
+  x=5.5;
+  showcharacter;
+  dontblock;
+}
+
+if(playerenters||playerendsreading){
+  tokenize #s(server.#Lhistats);
+  setcharprop #1,#t(0);
+  setcharprop #2,#t(1);
+  setcharprop #3,#t(2);
+  setcharprop #C0,#t(3);
+  setcharprop #C1,#t(4);
+  setcharprop #C2,#t(5);
+  setcharprop #C3,#t(6);
+  setcharprop #C4,#t(7);
+  setcharprop #8,#t(8);
+  setcharprop #P1,#t(9);
+  setcharani knightpose,;
+}
+NPCEND
+NPC doubledoor2.png 1 30
+// NPC made by Tournament Bowling in Sylphia
+if (playertouchsme) {
+  say2 The 300 Club;
+  if(strtofloat(#s(bowlinghiscore))>299){
+    hidelocal;
+    timereverywhere;
+    timeout=3;
+  }
+}
+if(playerenters||timeout) showlocal;
+NPCEND
+NPC jfparchment.png 4 8
+// NPC made by Jimbo
+if (playertouchsme) {
+  tokenize #s(server.retiredbowlers);
+  say2 Last 30 Champions (Bowled 300)
+  #b #t(0)
+    #b #t(1)
+      #b #t(2)
+        #b #t(3)
+          #b #t(4)
+            #b #t(5)
+              #b #t(6)
+                #b #t(7)
+                  #b #t(8)
+                    #b #t(9)
+                      #b #t(10)
+                        #b #t(11)
+                          #b #t(12)
+                            #b #t(13)
+                              #b #t(14)
+                                #b #t(15)
+                                  #b #t(16)
+                                    #b #t(17)
+                                      #b #t(18)
+                                        #b #t(19)
+                                          #b #t(20)
+                                            #b #t(21)
+                                              #b #t(22)
+                                                #b #t(23)
+                                                  #b #t(24)
+                                                    #b #t(25)
+                                                      #b #t(26)
+                                                        #b #t(27)
+                                                          #b #t(28)
+                                                            #b #t(29);
+}
+NPCEND
+NPC plat.png 5 14
+if(created) drawunderplayer;
+if (playertouchsme) {
+  tokenize #s(server.#Lhiscore);
+  if(timevar-strtofloat(#t(3))>17279) say2 High Roller: Retired #b #t(4) #t(5) #t(6) #t(7)#b Level #t(2);
+  else say2 High Roller: #t(1) points #b #t(4) #t(5) #t(6) #t(7)#b Level #t(2);
+}
+NPCEND
+NPC jfparchment.png 25 9
+//#CLIENTSIDE
+if (playertouchsme) {
+  tokenize #s(bowlingcard);
+  this.swap=strtofloat(#s(points));
+  this.points=0;
+  for(this.i=0;this.i<tokenscount;this.i++){
+    this.points+=strtofloat(#t(this.i));
+  }
+  setstring points,#v(this.points);
+  say 6;
+  setstring points,#v(this.swap);
+}
+NPCEND
+NPC jfparchment.png 25 21
+//#CLIENTSIDE
+if (playertouchsme) {
+  tokenize #s(bowlingcard);
+  this.swap=strtofloat(#s(points));
+  this.points=0;
+  for(this.i=0;this.i<tokenscount;this.i++){
+    this.points+=strtofloat(#t(this.i));
+  }
+  setstring points,#v(this.points);
+  say 6;
+  setstring points,#v(this.swap);
+}
+NPCEND
+NPC jfparchment.png 25 33
+//#CLIENTSIDE
+if (playertouchsme) {
+  tokenize #s(bowlingcard);
+  this.swap=strtofloat(#s(points));
+  this.points=0;
+  for(this.i=0;this.i<tokenscount;this.i++){
+    this.points+=strtofloat(#t(this.i));
+  }
+  setstring points,#v(this.points);
+  say 6;
+  setstring points,#v(this.swap);
+}
+NPCEND
+NPC jfparchment.png 25 45
+//#CLIENTSIDE
+if (playertouchsme) {
+  tokenize #s(bowlingcard);
+  this.swap=strtofloat(#s(points));
+  this.points=0;
+  for(this.i=0;this.i<tokenscount;this.i++){
+    this.points+=strtofloat(#t(this.i));
+  }
+  setstring points,#v(this.points);
+  say 6;
+  setstring points,#v(this.swap);
+}
+NPCEND
+NPC - 58 10
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 16
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 15
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 11
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 56 12
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 56 14
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 55 13
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 22
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 28
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 27
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 23
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 56 24
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 56 26
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 55 25
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 35
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 41
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 40
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 36
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 56 37
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 56 39
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 55 38
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 47
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 53
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 52
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 50
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 48
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 56 49
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 56 51
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 55 50
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  this.skill=1+(1/(strtofloat(#s(bowlinglevel))));
+  triggeraction x+1,y-random(0.95,this.skill),magic,stone,bowlingball;
+  triggeraction x+1,y+2+random(0.95,this.skill),magic,stone,bowlingball;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 39 29
+// NPC made by Bobble
+//#CLIENTSIDE
+if(playerenters){
+  noplayerkilling;
+  setstring points,0;
+  setstring bowlingcard,;
+}
+
+if (playerenters||timeout) {
+  if((strequals(#m,bowling)||this.focused>0)&&playerdir=3){
+    if(this.focused<1) setstring points,0;
+    this.focused++;
+    if(playerx+this.focused>64){
+      freezeplayer 1;
+      this.points=strtofloat(#s(points));
+      if(this.points<1) setani gutterball,;
+      else if(this.points<5) setani crumble,;
+      else if(this.points<6) setani blush,;
+      else if(this.points<7) setani pout,;
+      else if(this.points<8) setani knightpose,;
+      else if(this.points<9) setani winkdown,;
+      else if(this.points<10) setani victory,;
+      else setani yay,;
+      if(this.points<1) setplayerprop #c,Gutterball!;
+      else if(this.points<10) setplayerprop #c,#s(points) !;
+      else{
+        setplayerprop #c,STRIKE!!!;
+        this.points=20;
+      }
+      setstring bowlingcard,#s(bowlingcard) #v(this.points);
+      tokenize #s(bowlingcard);
+      this.frame=tokenscount;
+      setplayerprop #c,Frame #v(this.frame) - #c;
+      this.focused=strtofloat(#s(bowlinglevel));
+      setstring bowlinglevel,#v(this.focused+(this.points/(10*int(this.focused))));
+      if(this.frame>=10){
+        if(this.points<20||this.frame>=15){ //strikes=keep going
+          this.points=0;
+          for(this.i=0;this.i<this.frame;this.i++){
+            this.points+=strtofloat(#t(this.i));
+          }
+          setstring points,#v(this.points);
+          say 6;
+          if(this.points>strtofloat(#s(bowlinghiscore))){
+            setstring bowlinghiscore,#v(this.points);
+            setani victory,;
+            setplayerprop #c,New Personal Best!;
+          }
+          if(!strcontains(#s(server.retiredbowlers),#a)){
+            tokenize #s(server.#Lhiscore);
+            if(timevar-strtofloat(#t(3))>17279){
+              if(!strcontains(#s(server.retiredbowlers),#t(0))&&strtofloat(#t(1))>=300){
+                setstring server.retiredbowlers,#t(0) #s(server.retiredbowlers);
+              }
+              tokenize 0;
+            }
+            if(this.points>strtofloat(#t(1))){
+              setstring server.#Lhiscore,#a #v(this.points) #s(bowlinglevel) #v(timevar) #n;
+              setstring server.#Lhistats,#1 #2 #3 #C0 #C1 #C2 #C3 #C4 #8 #P1;
+              setstring bowlinglevel,#v(this.focused+(this.points/int(this.focused)));
+              setani yay,;
+              setplayerprop #c,New High Score!!!;
+            }
+          }
+          setstring bowlingcard,;
+        }
+      }
+      setstring points,0;
+      resetfocus;
+      this.focused=0;
+    }
+  }
+  if(playerx>27.5){
+    playerx=27.5;
+    if(this.focused>0) this.focused=80;
+    hitplayer 0,0,64,playery+1;
+  }
+  if(strcontains(#m,sit)&&playerdir=3){
+    if(playerx+this.x<40) this.x+=0.5;
+    setfocus playerx+this.x,playery;
+  }else if(this.x>0){
+    this.x-=0.5;
+    setfocus playerx+this.x,playery;
+    if(this.x<1) resetfocus;
+  }
+  timereverywhere;
+  timeout=0.05;
+}
+NPCEND
+NPC - 58 49
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 51
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 37
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 39
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 38
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 24
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 26
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 25
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 12
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 58 14
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND
+NPC - 57 13
+// NPC made by Bobble
+if(playerenters){
+  setshape 1,32,32;
+}
+if (actionmagic&&timeout<=0&&strequals(#p(0),stone)&&strequals(#p(1),bowlingball)){
+  dir=1+(int(random(0,2))*2);
+  if(random(0,2)<1){
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown1.wav;
+    else setcharani bowlingpinsdown,pinsdown2.wav;
+  }else{
+    if(random(0,2)<1) setcharani bowlingpinsdown,pinsdown3.wav;
+    else setcharani bowlingpinsdown,pinsdown4.wav;
+  }
+  timereverywhere;
+  timeout=3;
+  setstring points,#v(strtofloat(#s(points))+1);
+}
+if(playerenters||timeout){
+  setcharani bowlingpins,;
+}
+NPCEND

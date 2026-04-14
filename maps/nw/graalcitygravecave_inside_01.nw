@@ -1,0 +1,226 @@
+GLEVNW01
+BOARD 0 0 64 0 CqCqCqCqCqCqCqCqCqCqCqCqCqCqCqEtCqEtCqEtCqEtCqEtCqCqEhEiFVEtCqEtCqEtEtG8DjDkCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCq
+BOARD 0 1 64 0 EtCqEtCqEtCqEtCqEtCqEtCqEtCqEtEtCqEtCqEtCqEtCqEtEtCqERESFFCqCqCqCqCqEtGsDTDUCqCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCq
+BOARD 0 2 64 0 EtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqCqCqCqCqCqCqCqCqEtCqEhEiFVI9CqEtCqEtCqG8DjDkCqCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCq
+BOARD 0 3 64 0 CqCqCqCqCqCqCqCqCqCqCqCqCqCqCqEtCqEtCqEtCqEtCqEtCqCqEgECEDJdCqEtEtAPFoGsFhC4F9CqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCq
+BOARD 0 4 64 0 EtCqEtCqEtCqEtCqEtCqEtCqEtCqEtEtCqEtCqEtCqEtCqEtEtCqCqERESFFCqEtFoCoFpFwDYFxC4F9EtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCq
+BOARD 0 5 64 0 EtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqCqCqCqCqCqCqCqCqEtCqCqEhEiFVENF5Edf/f/GQGAGBGNIzEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCq
+BOARD 0 6 64 0 CqCqCqCqCqCqCqCqCqCqF+C5C6C5C6F9CqEtCqEtCqEtCqEtCqCqCqERESETFpf/f/f/f/f/GQGRJCJDCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCqCq
+BOARD 0 7 64 0 EtCqEtCqEtCqEtCqEtF+C7DJDKDJDKC4F9CqEtCqEtCqEtCqEtCqEtEhEiEjEFf/AQf/f/f/f/DSDTDUEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCqEtCq
+BOARD 0 8 64 0 EtCqEtCqEtCqEtCqF+C7DeDZDaDZDaFxC4C5C6C5C6F9EtCqEtCqEtEgECEDEEf/f/f/f/f/f/DiDjDkEtCqEtCqF+C5C6C5C6CqEtCqEtCqEtCqEtCqEtCqEtCqEtCq
+BOARD 0 9 64 0 CqCqCqCqEtCrCqF+C7DLDuDpDqDpDqGBDIDJDKDJDKC4F9CqCqCqCqCqERESETf/f/f/f/ABf/FgFhC4F9CqCqF+C7DJDKDJDKC4F9CqCqCqCqCqCqCqCqCqCqCqCqCq
+BOARD 0 10 64 0 EtCqEtCqCqCqF+C7DeDbD+D5D6D5D6GADYDZDaDZDaFxC4F9EtCqEtCqEhEiEjf/AAABf/f/f/FwDYFxC4C5C6C7DeDZDaDZDaDIC4F9EtCqF+F9EtCqEtCqEtCqEtCq
+BOARD 0 11 64 0 EtCqEtEtEtEtERE3DuD+F/KlKmKlKmGQGRDpDqDpDqGBDIC4F9CqEtF+C7DOETf/f/AAf/f/f/GQGAGBDIDJDKDLDuDpDqDpDqDYFxC4C5C6C7C4F9CqEtCqEtCqEtCq
+BOARD 0 12 64 0 EtEtCqEtCqCqEhEiD+F/H/K1K2K1K2H/GQD5D6D5D6GADYFxC4C5C6C7DeDbDff/AAABf/f/f/f/GQGRDYDZDaDbD+D5D6D5D6GAGBDIDJDKDLDIC4F9CqEtCqCqEtEt
+BOARD 0 13 64 0 CqEtCqEtCqEtERESETKlKmKlKmH/KlKmG0G1AQG1G0GQGRGBDIDJDKDLDuDvF/f/f/f/f/f/f/f/f/GQGADpDqDvF/H/H/H/H/GQGRDYDZDaDbDYFxC4F9EtCqEtEtCq
+BOARD 0 14 64 0 CqCqCrCqCqEtEhEiEjK1K2K1K2AQK1K2KlKmGkGlGkGlGQGADYDZDaDbD+F/f/arf/arf/f/f/f/f/f/GQD5D6F/H/H/H/H/H/H/GQGADpDqDvGAGBGNIzCqCqEtCqCq
+BOARD 0 15 64 0 CqCqCrEtCqCqERESETH/KlKmH/H/AAH/K1K2G0G1G0G1G0GQGRDpDqDvF/f/ara6ara6arf/f/f/f/f/f/H/H/H/H/H/H/H/H/H/H/GQD5D6F/GQGRJCJDEtCqCqCqCq
+BOARD 0 16 64 0 CqEtCqEtCqCqEhEiEjH/K1K2H/H/H/HpHoGlAEAFAGAFAGAHGQD5D6F/f/f/f/arapaqarf/f/f/f/f/f/H/H/H/H/H/g2H/H/H/H/H/H/H/H/H/DSDTDUEtCqCrEtCq
+BOARD 0 17 64 0 CqEtCrEtCqF+C7DOETH/AAABKlKmH/H5G0G1AUAVAWAVAWAXAQG1H/H/f/ABg2ara5a6a5arH/H/AAABH/H/H/H/H/H/H/H/H/H/H/H/H/H/H/DwDiDjDkEtEtEtCqCq
+BOARD 0 18 64 0 CqCqCrCrF+C7DeDbDfKlKmH/K1K2AAHpHoGlAkAlAmAlAmAnGkH/H/AAABH/H/H/araqarH/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/DwDxDyDzC1CrEtEtCqCq
+BOARD 0 19 64 0 CqEtCqCqERE3DuDvF/K1K2H/H/ABH/H/H4AQA0A1A2A1A2A3G0H/H/H/H/AAABara5a6arH/H/H/H/H/H/H/H/H/H/H/H/H/H/H/ABH/H/DwDxDyDzC1CqCqEtCrCqCq
+BOARD 0 20 64 0 CrCqCrCqEhEiD+F/H/H/g2H/H/H/H/H/HoHpGkGlGkGlGkGlGkH/H/H/H/H/H/arapaqaparH/H/H/H/H/H/H/H/H/H/AAABH/H/H/H/H/DxDyDzC1CqCrCqCqCqCqCr
+BOARD 0 21 64 0 EtCqEtEtERESETH/H/H/H/H/H/H/H/H/H/H5H4H5H4AQH4H5G0H/H/H/H/H/ara6a5a6a5arH/H/H/H/H/H/H/H/H/H/H/AAABH/AAABH/DSDTDUEtCqEtEtEtEtCqEt
+BOARD 0 22 64 0 EtEtCqEtEhEiEjEFH/H/H/H/H/H/H/H/H/H/H/H/H/H/H/HpHoHpH/H/H/H/H/arapaqarH/H/H/YfH/H/H/H/H/H/H/H/ARH/H/H/H/DwDiDjDkEtEtCqEtCqCqEtEt
+BOARD 0 23 64 0 CqEtCqEtEgECEDEEH/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/ara6a5a6arH/H/H/YvH/H/H/H/QmQnQoQpAhARBgARH/DxDyDzC1CqEtCqEtCqEtEtCq
+BOARD 0 24 64 0 CqCqCrCqCqERESETH/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/ABH/H/araqapaqaparH/H/YvH/H/H/H/Q2Q3Q4Q5H/AhBwAhARDSDTDUCqCqCqCrCqCqEtCqCq
+BOARD 0 25 64 0 CqCqCrEtCqEhEiEjEFH/H/H/H/H/H/H/H/H/H/H/H/H/H/AAABYfH/H/H/ara5a6a5ararH/H/H/Y/H/H/H/H/RGRHRIRJH/H/H/H/AhDiDjDkCqCqCqCrEtCqCqCqCq
+BOARD 0 26 64 0 CqEtCqEtCqEgECEDEEEFH/H/H/H/H/H/H/H/H/H/H/H/H/H/H/YvH/H/araqapaqarH/H/H/H/H/H/H/H/H/AQRWRXRYRZAQH/H/H/H/FgFhC4F9CqEtCqEtCqCrEtCq
+BOARD 0 27 64 0 CqEtCrEtEtEtEgECEDEEH/H/H/H/H/H/H/QmQnQoQpH/H/AAABYvH/H/H/ara5a6a5arAAH/H/H/H/H/H/H/H/G1QLQMG0G1G0H/H/H/FwDYFxC4F9EtCrEtEtEtCqCq
+BOARD 0 28 64 0 CqCqCrCrEtEtCqERESETH/H/H/H/ARBgARQ2Q3Q4Q5H/H/H/H/Y/H/H/H/arapaqarH/H/H/H/H/H/H/H/H/GkGlQbQcQLQMGkH/H/H/GQGAGBGNIzCqCrCrEtEtCqCq
+BOARD 0 29 64 0 CqEtCqCqEtCrCqEhEiEjEFARBgARAhBwAhRGRHRIRJH/H/H/H/H/H/H/ara6a5arAAH/H/H/H/H/AEAFAGAHG0QLQMG1QbQcG0H/H/H/H/GQGRJCJDEtCqCqEtCrCqCq
+BOARD 0 30 64 0 CrCqCrCqCqCqCqEgECEDEEAhBwAhH/H/AQRWRXRYRZAQH/H/H/H/ararapaqaparH/H/H/H/H/H/AUAVAWAXGkQbQcGlGkGlGkH/AAABH/H/DSDTDUCqCrCqCqCqCqCr
+BOARD 0 31 64 0 EtCqEtEtEtEtCqCqERESETH/H/H/H/H/G0QLQMG1G0G1H/H/H/ara5a6a5a6arQmQnQoQpH/H/ARAkAlAmAnH/H/G0G1G0ABH/H/H/H/H/H/DiDjDkCqEtEtEtEtCqEt
+BOARD 0 32 64 0 EtEtCqEtCqCqEtCqEhEiEjEFH/H/H/H/GkQbQcQLQMGlH/araraqapaqaparH/Q2Q3Q4Q5BgARAhA0A1A2A3cqcrH/H/H/H/H/H/H/AAABH/DSDTDUEtCqEtCqCqEtEt
+BOARD 0 33 64 0 CqEtCqEtCqEtEtCqEgECEDEEH/H/H/H/G0G1G0QbQcarara6a5a6a5a6a5a6arRGRHRIRJBwAhH/H/H/H/H/c6c7H/H/H/H/H/ABH/H/g2H/DiDjDkEtCqEtCqEtEtCq
+BOARD 0 34 64 0 CqCqCrCqCqEtCqCqCqERESETH/H/H/H/H/GlQLQMaraqapaqapaqapaqaparAQRWRXRYRZAQH/H/H/H/H/H/QmQnQoQpH/H/H/H/H/H/H/H/FgFhC4F9CqCqCqEtCqCq
+BOARD 0 35 64 0 CqCqCrEtCqCqCqCqCqEhEiEjH/H/H/H/H/G1QbQcH/ara5a6arara5a6a5arQbQcAQQLQMG1H/arH/H/H/H/Q2Q3Q4Q5H/H/H/H/H/H/H/H/FwDYFxC4F9EtCqCqCqCq
+BOARD 0 36 64 0 CqEtCqEtCqCrEtCqEtERESETH/H/H/AQAAGlGkH/H/H/ararH/H/araqarGlGkQLQMQbQcGlaraqarH/H/H/RGRHRIRJH/H/H/H/H/H/H/H/GQGAGBGNIzEtCqCrEtCq
+BOARD 0 37 64 0 CqEtCrEtEtEtCqCqEtEhEiEjH/H/H/H/AEAFAGAHH/H/H/H/H/H/ara6a5arG0QbQcG1G0ara5a6arH/H/H/RWRXRYRZAQH/H/H/H/H/H/H/H/GQGRJCJDEtEtEtCqCq
+BOARD 0 38 64 0 CqCqCrCrEtEtCqCqF+C7DOETH/H/H/AAAUAVAWAXQmQnQoQpH/arapaqarH/GkGlQLQMGkaraparH/H/H/GlGkGlQLQMGkH/H/f/H/H/f/f/f/f/DSDTDUCqEtEtCqCq
+BOARD 0 39 64 0 CqEtCqCqEtCrCqF+C7DeDbDfH/H/H/H/AkAlAmAnQ2Q3Q4Q5H/ara5a6a5ararG1QbQcara6a5arH/ararG1QLQMQbQcG0G1H/f/f/f/f/f/f/DwDiDjDkCqEtCrCqCq
+BOARD 0 40 64 0 CrCqCrCqCqCqCqERE3DuDvF/H/H/H/H/A0A1A2A3RGRHRIRJH/H/araqapaqapararGlaraqapaqaraqaparQbQcGkQLQMGlH/H/H/H/H/H/H/DxDyDzC1CqCqCqCqCr
+BOARD 0 41 64 0 EtCqEtEtEtEtCqEhEiD+F/H/H/H/H/H/H/H/H/AQRWRXRYRZAQarara6a5a6a5a6a5ara5a6a5a6a5a6a5a6arG1G0QbQcG1H/H/H/H/H/H/H/DSDTDUCqEtEtEtCqEt
+BOARD 0 42 64 0 EtEtCqEtCqCqEtEgECEDEEEFH/H/H/H/H/H/GkGlGkQLQMQLaraqapaqapaqapaqapaqapaqapararaqaraqarH/H/GlGkGlH/H/H/H/H/H/DwDiDjDkCqEtCqCqEtEt
+BOARD 0 43 64 0 CqEtCqEtCqEtEtCqEgECEDEEH/H/H/H/H/H/G0QLQMQbQcQbara6a5arara6ara6ara6a5a6arH/H/arH/arH/H/H/H/H/H/H/H/H/H/H/DwDxDyDzC1CqEtCqEtEtCq
+BOARD 0 44 64 0 CqCqCrCqCqEtCqCqCqERESETH/H/H/H/H/H/GkQbQcQLQMGlaraqaparYfarH/arH/araraqaparH/H/H/H/H/H/AAABH/ABH/H/H/H/H/DxDyDzC1CqCrCqCqEtCqCq
+BOARD 0 45 64 0 CqCqCrEtCqCqCqCqCqEhEiEjH/H/H/H/H/H/H/G1G0QbQcara5a6arH/YvH/H/H/H/H/H/ararH/H/H/H/H/H/H/YfH/H/H/H/H/H/H/H/DSDTDUCqCqCrEtCqCqCqCq
+BOARD 0 46 64 0 CqEtCqEtCqCrEtCqEtERESETH/H/H/H/H/H/H/H/GkGlH/H/araqarH/YvH/H/H/H/H/H/H/H/H/H/IAIBH/H/H/YvH/H/H/AAABH/H/DwDiDjDkCqEtCqEtCqCrEtCq
+BOARD 0 47 64 0 CqEtCrEtEtEtCqCqEtEhEiEjH/H/H/H/H/H/ABH/H/H/H/H/H/arH/H/Y/H/H/H/H/H/TwH/H/H/H/IQIRH/H/H/YvAAH/H/H/H/H/H/DxDyDzC1CqEtCrEtEtEtCqCq
+BOARD 0 48 64 0 CqCqCrCrEtEtCqCqF+C7DOETH/H/H/G2HXH/H/G2HXH/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/TwH/H/H/H/H/YvH/H/AAABH/H/H/DSDTDUCqCqCqCrCrEtEtCqCq
+BOARD 0 49 64 0 CqEtCqCqEtCrCqF+C7DeDbDfH/H/G2HGHnHXG2HGHnHXG2HXH/H/H/H/H/H/H/H/H/H/H/TwTwZvH/H/H/H/H/H/AgH/H/H/H/H/H/H/DiDjDkCqCqEtCqCqEtCrCqCq
+BOARD 0 50 64 0 CrCqCrCqCqCqCqERE3DuDvF/H/H/HUGOGOHnHGH1G3/pHGHnpqprH/H/H/H/H/H/H/H/ZvAwAxTwZvH/H/H/H/H/ARH/AQH/H/H/H/H/FgFhC4F9CqCqCrCqCqCqCqCr
+BOARD 0 51 64 0 EtCqEtEtEtEtCqEhEiD+F/H/H/H/HkGOGOH0GOGOHnHGGOG3/pp7H/H/H/H/H/H/ARZvH/ZvTwTwTwZvZvARBgARAhH/H/H/H/H/H/H/FwDYFxC4F9CqEtEtEtEtCqEt
+BOARD 0 52 64 0 EtEtCqEtCqCqF+C7DOETH/H/H/G2HGGOGOGOGOGOGOGOGOG7pbH/H/H/H/AAABH/AhARZvTwTwAwAxZvARAhBwAhH/H/H/H/H/H/H/H/GQGAGBGNIzEtCqEtCqCqEtEt
+BOARD 0 53 64 0 CqEtCqEtCqF+C7DeDbDfH/H/G2HGH1G3GWGOGOGOGOGOGOHn/5prAAH/H/H/H/H/H/AgZvAwAxTwTwZvAgH/H/H/H/H/H/H/H/H/H/H/H/GQGRJCJDEtCqEtCqEtEtCq
+BOARD 0 54 64 0 CqCqCrCqCqERE3DuDvF/H/H/GmGWG3/pHGGOGOGOH1GOH0G3/p/5prH/H/H/H/H/H/ARZvTwH/TwAwAxARH/H/H/H/H/H/H/H/H/H/H/H/H/DSDTDUCqCrCqCqEtCqCq
+BOARD 0 55 64 0 CqCqCrEtCqEhEiD+F/H/H/H/H/GmHHGmGWGOGOGOGOG3H3p6p7p6p7H/AAABH/H/H/AhARH/TwTwZvARAhH/AAABH/H/H/H/H/H/H/H/H/H/DiDjDkCqCrEtCqCqCqCq
+BOARD 0 56 64 0 CqEtCqEtCqERESETH/H/H/H/H/H/H/H/GmH2H3GWG3HHH/H/H/H/H/H/H/H/H/H/H/H/AhZvAwAxTwAhH/AAABH/H/H/H/H/H/H/H/H/H/H/DSDTDUEtCqEtCqCrEtCq
+BOARD 0 57 64 0 CqEtCrEtEtEhEiEjH/H/H/H/H/H/H/H/H/DwEFGmHHDwEFH/H/H/H/H/H/DwCfCeCfCeEFH/f/DwCfCeCfCeEFH/AAH/H/H/H/H/H/H/H/DwDiDjDkEtCrEtEtEtCqCq
+BOARD 0 58 64 0 CqCqCrCrEtERESETH/H/H/H/H/H/DwCfCeDxEECfCeDxEEEFH/H/H/H/DwDxCuCvCuCvEEH/f/DxCuCvCuCvEEEFH/H/H/H/DwCfCeEFDwDxDyDzC1CqCrCrEtEtCqCq
+BOARD 0 59 64 0 CqEtCqCqEtEhEiEjEFH/H/H/H/DwDxCuCvDyEDCuCvDyEDEECfCeCfCeDxDyCYCZCYCZETH/H/DSCYCZCYCZEDEECfCeCfCeDxCuCvEEDxDyDzC1CqEtCqCqEtCrCqCq
+BOARD 0 60 64 0 CrCqCrCqCqEgECEDEECfCeCfCeDxDyCYCZDzECCYCZDzECEDCuCvCuCvDyDzC/C+C/C+C/C+C/C+C/C+C/C+ECEDCuCvCuCvDyCYCZEDDyDzC1CqCrCqCrCqCqCqCqCr
+BOARD 0 61 64 0 EtCqEtEtEtCqEgECEDCuCvCuCvDyDzC/C+C1EgC/C+C1EgECCYCZCYCZDzC1CqCqCqCqCqCqCqCqCqCqCqCqEgECCYCZCYCZDzC/C+ECDzC1CqCqEtCqEtEtEtEtCqEt
+BOARD 0 62 64 0 EtEtCqEtCqCqCqEgECCYCZCYCZDzC1EtCqEtCqCqEtEtEtEgC/C+C/C+C1EtCqEtCqCqEtEtEtCqEtCqCqEtEtEgC/C+C/C+C1CqCqEgC1CqCqEtEtEtCqEtCqCqEtEt
+BOARD 0 63 64 0 CqEtCqEtCqCqCqCqEgC/C+C/C+C1CqEtCqEtCqEtEtCqEtCqEtCqEtEtCqEtCqEtCqEtEtCqEtCqEtCqEtEtCqEtCqCqCqCqEtCqEtCqEtCqEtEtCqEtCqEtCqEtEtCq
+LINK graalcity_outside_06.nw 35 60 2 1 48.5 12
+NPC - 46 1
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  seteffect 0,0,0,0.60;
+  timeout = .05;
+}
+NPCEND
+NPC lampanimation.mng 25 26
+if (created) {
+  setimgpart lampanimation.mng,0,0,19,35;
+  dontblock;
+}
+x=x-.07;
+NPCEND
+NPC lampanimation.mng 38 23
+if (created) {
+  setimgpart lampanimation.mng,0,0,19,35;
+  dontblock;
+}
+x=x-.07;
+NPCEND
+NPC lampanimation.mng 28 45
+if (created) {
+  setimgpart lampanimation.mng,0,0,19,35;
+  dontblock;
+}
+x=x-.07;
+NPCEND
+NPC light4.png 26 42
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC light4.png 41 43
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC lampanimation.mng 44 46
+if (created) {
+  setimgpart lampanimation.mng,0,0,19,35;
+  dontblock;
+}
+x=x-.07;
+NPCEND
+NPC classic_rock_1.png 42 32
+join("rock_1");
+NPCEND
+NPC classic_bush.png 16 14
+join("bush");
+NPCEND
+NPC classic_bush.png 10 15
+join("bush");
+NPCEND
+NPC classic_bush.png 11 11
+join("bush");
+NPCEND
+NPC classic_bush.png 13 11
+join("bush");
+NPCEND
+NPC classic_bush.png 14 13
+join("bush");
+NPCEND
+NPC classic_bush.png 9 13
+join("bush");
+NPCEND
+NPC classic_bush.png 11 13
+join("bush");
+NPCEND
+NPC light4.png 22 23
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC light4.png 35 20
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC halloweenc-fog.png 38 2
+
+if (created) {
+  setimg halloweenc-fog.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.33;
+setzoomeffect 2;
+  drawaslight;
+}
+NPCEND
+NPC halloweenc-fog.png 6 -3
+
+if (created) {
+  setimg halloweenc-fog.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.33;
+setzoomeffect 2;
+  drawaslight;
+}
+NPCEND
+NPC halloweenc-fog.png 27 26
+
+if (created) {
+  setimg halloweenc-fog.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.33;
+setzoomeffect 2;
+  drawaslight;
+}
+NPCEND
+NPC halloweenc-fog.png 12 33
+
+if (created) {
+  setimg halloweenc-fog.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.33;
+setzoomeffect 2;
+  drawaslight;
+}
+NPCEND
+NPC halloweenc-fog.png 34 48
+
+if (created) {
+  setimg halloweenc-fog.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.33;
+setzoomeffect 2;
+  drawaslight;
+}
+NPCEND

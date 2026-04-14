@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"image/color"
 	"math"
 
@@ -48,15 +49,26 @@ var menuEntries = []menuEntry{
 // ── Map entries ──────────────────────────────────────────────────────────────
 
 type mapEntry struct {
-	name string
-	file string
-	desc string
+	name  string
+	file  string
+	desc  string
+	isGMap bool
 }
 
 var mapEntries = []mapEntry{
-	{"GraalReborn City", "GraalRebornMap.tmx", "Main map"},
-	{"City Entry", "GraalCityEntry.tmx", "City entrance"},
-	{"Interior", "interior1.tmx", "Interior"},
+	// ── TMX maps ──
+	{"GraalReborn City", "GraalRebornMap.tmx", "Main map", false},
+	{"City Entry", "GraalCityEntry.tmx", "Entry", false},
+	{"Interior", "interior1.tmx", "Interior", false},
+	// ── GMAP worlds ──
+	{"Balamb Island", "balambisland.gmap", "World", true},
+	{"Balamb Island 2", "balambisland2.gmap", "World", true},
+	{"Classic iPhone", "classiciphone.gmap", "World", true},
+	{"Newcastle", "newcastle_main.gmap", "World", true},
+	{"Underground Caves", "destiny_undergroundcaves.gmap", "World", true},
+	{"Rail Cave", "railsystemcave.gmap", "World", true},
+	{"Test Fort", "testfort4.gmap", "World", true},
+	{"Cliff Climber", "event_cliffclimber.gmap", "Event", true},
 }
 
 // ── PanelMenu ─────────────────────────────────────────────────────────────────
@@ -72,13 +84,17 @@ type PanelMenu struct {
 	// Active sub-panel: "" | "News" | "Keys" | "Maps" | "Inventory" | ...
 	activeSub string
 
-	// RequestMap is set when the player selects a map.
-	// The Game reads and clears this each frame.
+	// RequestMap is set when the player selects a TMX map.
 	RequestMap string
 
+	// RequestGMap is set when the player selects a GMAP world.
+	RequestGMap string
+
 	// RequestInventory is set when the player clicks the Inventory icon.
-	// The Game reads and clears this each frame.
 	RequestInventory bool
+
+	// Maps panel scroll offset (in entries)
+	mapsScroll int
 }
 
 func NewPanelMenu() *PanelMenu {
@@ -186,10 +202,36 @@ func (m *PanelMenu) handleSubClick(mx, my, subY int) {
 	if m.activeSub != "Maps" {
 		return
 	}
-	for idx := range mapEntries {
-		bx, by, bw, bh := mapBtnRect(subY, idx)
+
+	// Scroll arrows
+	upX, upY, upW, upH := mapsScrollUpRect(subY)
+	if mx >= upX && mx < upX+upW && my >= upY && my < upY+upH {
+		if m.mapsScroll > 0 {
+			m.mapsScroll--
+		}
+		return
+	}
+	dnX, dnY, dnW, dnH := mapsScrollDownRect(subY)
+	if mx >= dnX && mx < dnX+dnW && my >= dnY && my < dnY+dnH {
+		if m.mapsScroll < len(mapEntries)-mapsVisible {
+			m.mapsScroll++
+		}
+		return
+	}
+
+	for slot := 0; slot < mapsVisible; slot++ {
+		idx := m.mapsScroll + slot
+		if idx >= len(mapEntries) {
+			break
+		}
+		bx, by, bw, bh := mapBtnRect(subY, slot)
 		if mx >= bx && mx < bx+bw && my >= by && my < by+bh {
-			m.RequestMap = mapEntries[idx].file
+			e := mapEntries[idx]
+			if e.isGMap {
+				m.RequestGMap = e.file
+			} else {
+				m.RequestMap = e.file
+			}
 			m.isOpen = false
 			m.activeSub = ""
 			return
@@ -376,34 +418,107 @@ func (m *PanelMenu) drawSubPanel(screen *ebiten.Image, topY int, title string, l
 // ── Maps sub-panel ────────────────────────────────────────────────────────────
 
 const (
-	mapBtnW   = 360
-	mapBtnH   = 34
-	mapBtnGap = 6
+	mapBtnW    = 440
+	mapBtnH    = 34
+	mapBtnGap  = 5
+	mapTitleH  = 22
+	mapArrowH  = 18
+	mapsVisible = 5 // max entries shown at once
 )
 
-func mapBtnRect(subY, idx int) (x, y, w, h int) {
-	titleH := 20
+func mapBtnRect(subY, slot int) (x, y, w, h int) {
 	bx := screenW/2 - mapBtnW/2
-	by := subY + titleH + 8 + idx*(mapBtnH+mapBtnGap)
+	by := subY + mapTitleH + 4 + slot*(mapBtnH+mapBtnGap)
 	return bx, by, mapBtnW, mapBtnH
 }
 
+func mapsScrollUpRect(subY int) (x, y, w, h int) {
+	_, lastBy, _, lastBh := mapBtnRect(subY, mapsVisible-1)
+	return screenW/2 - mapBtnW/2, lastBy + lastBh + 6, mapBtnW/2 - 4, mapArrowH
+}
+
+func mapsScrollDownRect(subY int) (x, y, w, h int) {
+	_, lastBy, _, lastBh := mapBtnRect(subY, mapsVisible-1)
+	return screenW/2 + 4, lastBy + lastBh + 6, mapBtnW/2 - 4, mapArrowH
+}
+
+func mapsSubPanelH(subY int) int {
+	_, upY, _, upH := mapsScrollUpRect(subY)
+	return upY + upH + 8 - subY
+}
+
 func (m *PanelMenu) drawMapsPanel(screen *ebiten.Image, subY int, alpha uint8) {
-	ph := 20 + len(mapEntries)*(mapBtnH+mapBtnGap) + 14
+	ph := mapsSubPanelH(subY)
 	DrawRect(screen, 0, subY, pmW, ph, color.RGBA{175, 198, 238, alpha})
-	DrawRect(screen, 0, subY, pmW, 20, color.RGBA{55, 95, 175, alpha})
+	DrawRect(screen, 0, subY, pmW, mapTitleH, color.RGBA{55, 95, 175, alpha})
 	DrawRect(screen, 0, subY, pmW, 2, color.RGBA{120, 165, 230, alpha})
 	title := "Choose a map"
-	DrawText(screen, title, pmW/2-len(title)*fontW/2, subY+14, color.RGBA{255, 255, 255, alpha})
+	DrawText(screen, title, pmW/2-len(title)*fontW/2, subY+mapTitleH-5, color.RGBA{255, 255, 255, alpha})
 
-	for i, entry := range mapEntries {
-		bx, by, bw, bh := mapBtnRect(subY, i)
-		DrawRect(screen, bx, by, bw, bh, color.RGBA{75, 115, 195, alpha})
-		DrawRect(screen, bx, by, bw, 2, color.RGBA{145, 185, 240, alpha})
-		DrawText(screen, ">>", bx+8, by+bh-7, color.RGBA{255, 215, 70, alpha})
-		DrawText(screen, entry.name, bx+28, by+bh-7, color.RGBA{255, 255, 255, alpha})
-		descX := bx + bw - len(entry.desc)*fontW - 8
-		DrawText(screen, entry.desc, descX, by+bh-7, color.RGBA{195, 215, 255, alpha})
+	// Entries
+	for slot := 0; slot < mapsVisible; slot++ {
+		idx := m.mapsScroll + slot
+		if idx >= len(mapEntries) {
+			break
+		}
+		e := mapEntries[idx]
+		bx, by, bw, bh := mapBtnRect(subY, slot)
+
+		// Button background — blue for TMX, teal for GMAP
+		var btnCol, topCol, arrowCol color.RGBA
+		if e.isGMap {
+			btnCol = color.RGBA{35, 110, 115, alpha}
+			topCol = color.RGBA{80, 185, 195, alpha}
+			arrowCol = color.RGBA{120, 240, 250, alpha}
+		} else {
+			btnCol = color.RGBA{75, 115, 195, alpha}
+			topCol = color.RGBA{145, 185, 240, alpha}
+			arrowCol = color.RGBA{255, 215, 70, alpha}
+		}
+		DrawRect(screen, bx, by, bw, bh, btnCol)
+		DrawRect(screen, bx, by, bw, 2, topCol)
+
+		// Badge: [TMX] or [GMAP]
+		badge := "[TMX]"
+		if e.isGMap {
+			badge = "[GMAP]"
+		}
+		DrawText(screen, badge, bx+8, by+bh-7, arrowCol)
+
+		nameX := bx + len(badge)*fontW + 14
+		DrawText(screen, e.name, nameX, by+bh-7, color.RGBA{255, 255, 255, alpha})
+
+		descX := bx + bw - len(e.desc)*fontW - 8
+		DrawText(screen, e.desc, descX, by+bh-7, color.RGBA{195, 215, 255, alpha})
+	}
+
+	// Scroll arrows (only when needed)
+	if len(mapEntries) > mapsVisible {
+		upX, upY, upW, upH := mapsScrollUpRect(subY)
+		dnX, dnY, dnW, dnH := mapsScrollDownRect(subY)
+
+		upActive := m.mapsScroll > 0
+		dnActive := m.mapsScroll < len(mapEntries)-mapsVisible
+
+		upCol := color.RGBA{60, 60, 80, alpha}
+		if upActive {
+			upCol = color.RGBA{75, 115, 195, alpha}
+		}
+		DrawRect(screen, upX, upY, upW, upH, upCol)
+		DrawText(screen, "▲ Up", upX+upW/2-2*fontW, upY+upH-4, color.RGBA{255, 255, 255, alpha})
+
+		dnCol := color.RGBA{60, 60, 80, alpha}
+		if dnActive {
+			dnCol = color.RGBA{75, 115, 195, alpha}
+		}
+		DrawRect(screen, dnX, dnY, dnW, dnH, dnCol)
+		DrawText(screen, "▼ Down", dnX+dnW/2-3*fontW, dnY+dnH-4, color.RGBA{255, 255, 255, alpha})
+
+		// Counter
+		counter := fmt.Sprintf("%d/%d", m.mapsScroll+1, len(mapEntries)-mapsVisible+1)
+		DrawText(screen, counter,
+			pmW/2-len(counter)*fontW/2, upY+upH-4,
+			color.RGBA{180, 200, 230, alpha})
 	}
 }
 

@@ -1,0 +1,831 @@
+GLEVNW01
+BOARD 0 0 64 0 CQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBz
+BOARD 0 1 64 0 BQBXngmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnhBQBX
+BOARD 0 2 64 0 BQBXmGngmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWnhmHBQBX
+BOARD 0 3 64 0 BQBXmGmGngmWmWmWmWmWmWmImJmWmWmImJmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmWmImJmWmWmImJmWmWmWmWmWmWnhmHmHBQBX
+BOARD 0 4 64 0 BQBXmGmGmGk2k2k2k2k2k2mYmZk2k2mYmZk2k2mImJk2k2k2k2k2k2k2k2k2k2mImJk2k2k2k2k2k2k2k2k2k2mImJk2k2mYmZk2k2mYmZk2k2k2k2k2k2mHmHmHBQBX
+BOARD 0 5 64 0 BQBXmGmGmGk2nYnInYnIcdm4m5k2nYm4m5nIcdmYmZk2nYnInYmImJnInYk2nYmYmZnIcdnInYmImJnInYnIcdmYmZk2nYm4m5nIcdm4m5k2nYnInYnIk2mHmHmHBQBX
+BOARD 0 6 64 0 BQBXmGmGmGk2k2nJk2nJnZnJnZnJk2nJk2nJnZm4m5nJk2nJk2mYmZnJnZnJk2m4m5nJnZnJnZmYmZnJk2nJnZm4m5nJk2nJk2nJnZnJnZnJk2nJk2nJk2mHmHmHBQBX
+BOARD 0 7 64 0 BQBXmGmGmGk2cdnInYnIk2nInYnIcdnInYnIk2nInYnIcdnInYm4m5nInYnIcdnInYnIk2nInYm4m5nInYnIk2nInYnIcdnInYnIk2nInYnIcdnInYnIk2mHmHmHBQBX
+BOARD 0 8 64 0 BQBXmGmGmGk2nZnJcdnJnZcdnZnJnZnJcdnJnZcdnZnJnZnJcdnJnZcdnZnJnZnJcdnJnZcdnZnJnZnJcdnJnZcdnZnJnZnJcdnJnZcdnZnJnZnJcdnJk2mHmHmHBQBX
+BOARD 0 9 64 0 BQBXmGmGmGk2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2mHmHmHBQBX
+BOARD 0 10 64 0 BQBXmGmGnwmXYvTnToYvmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXYvTnToYvmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXYvTnToYvmXnxmHmHBQBX
+BOARD 0 11 64 0 BQBXBBBBBBBBYvTnToYvBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBYvTnToYvBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBYvTnToYvBBBBBBBBBQBX
+BOARD 0 12 64 0 BQBXCRCRCRCRYvTnToYvCRCRCRCRCRCRCRCRCRCRCRCRmImJCRCRCRCRCRCRYvTnToYvCRCRCRCRCRCRmImJCRCRCRCRCRCRCRCRCRCRCRCRYvTnToYvCRCRCRCRBQBX
+BOARD 0 13 64 0 BQBXmGmGngmWYvTnToYvmWmWmWmWmWmWmWmWmWmWmWmWmYmZmWmWmWmWmWmWYvTnToYvmWmWmWmWmWmWmYmZmWmWmWmWmWmWmWmWmWmWmWmWYvTnToYvmWnhmHmHBQBX
+BOARD 0 14 64 0 BQBXmGmGmGk2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2m4m5k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2m4m5k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2mHmHmHBQBX
+BOARD 0 15 64 0 BQBXmGmGmGk2cdnInYnInYnInYk2cdnInYnInYnInYk2cdnInYnInYnInYk2cdnInYnInYnInYk2cdnInYnInYnInYk2cdnInYnInYnInYk2cdnInYnIk2mHmHmHBQBX
+BOARD 0 16 64 0 BQBXmGmGmGk2nZnJnZk2nZk2nZnJnZnJnZk2nZk2nZnJnZnJnZk2nZmImJnZnJnJnZnJnZmImJnJnZnJnZk2nZk2nZnJnZnJnZk2nZk2nZnJnZnJnZk2k2mHmHmHBQBX
+BOARD 0 17 64 0 BQBXmGmGmGk2nYnInYnIcdnInYk2nYnInYnIcdnInYk2nYnInYnInImYmZnYnImImJnInYmYmZk2nYnInYnIcdnInYk2nYnInYnIcdnInYk2nYnInYnIk2mHmHmHBQBX
+BOARD 0 18 64 0 BQBXmGmGmGk2k2nJk2nJnZnJnZnJk2nJk2nJnZnJnZnJk2nJk2nJnJm4m5k2nJmYmZnJnZm4m5nJk2nJk2nJnZnJnZnJk2nJk2nJnZnJnZnJk2nJk2nJk2mHmHmHBQBX
+BOARD 0 19 64 0 BQBXmGmGmGk2cdnInYnIk2nInYnIcdnInYnIk2nInYnIcdnInYnIk2nInYnIcdm4m5nIk2nInYnIcdnInYnIk2nInYnIcdnInYnIk2nInYnIcdnInYnIk2mHmHmHBQBX
+BOARD 0 20 64 0 BQBXmGmGmGk2nZnJcdnJnZcdnZnJnZnJcdnJnZcdnZnJnZmImJnJnZcdnZnJnZnJnZnJnZcdnZnJnZmImJnJnZcdnZnJnZnJcdnJnZcdnZnJnZnJcdnJk2mHmHmHBQBX
+BOARD 0 21 64 0 BQBXmGmGmGk2cdnInYnInYnInYk2cdnInYnInYk2nYk2cdmYmZnYnYnInYk2cdk2cdnInYnInYk2nZmYmZnInYnInYk2cdnInYnInYnInYk2cdnInYnIk2mHmHmHBQBX
+BOARD 0 22 64 0 BQBXmGmGmGk2nZnJnZk2nZk2nZnJnZnJnZk2nZnJnZnJnZm4m5nZnZk2nZnJnZk2nYk2nIk2nZnJnYm4m5k2nZk2nZnJnZnJnZk2nZk2nZnJnZnJnZk2k2mHmHmHBQBX
+BOARD 0 23 64 0 BQBXmGmGmGk2nYnInYnIcdnInYk2nYnInYnInYnInYk2nYnInZcdcdnImImJnYcdcdnImImJnYk2nZcdnYnIcdnInYk2nYnInYnIcdnInYk2nYnInYnIk2mHmHmHBQBX
+BOARD 0 24 64 0 BQBXmGmGmGk2k2nJk2nJnZnJnZnJk2nJk2nJnZnJnZKpKqnJk2nJnZnJmYmZk2nZk2nJmYmZnZnJk2nJk2KpKqnJnZnJk2nJk2nJnZnJnZnJk2nJk2nJk2mHmHmHBQBX
+BOARD 0 25 64 0 BQBXmGmGmGk2cdnInYnIk2nInYnIcdnInYnIk2nInYK5K6nInYnIk2nIm4m5cdcdnInIm4m5nYnIcdnInYK5K6nInYnIcdnInYnIk2nInYnIcdnInYnIk2mHmHmHBQBX
+BOARD 0 26 64 0 BQBXmGmGmGk2nZnJcdnJnZcdnZnJnZnJcdnJnZcdLILJLKKrcdnJnZcdnZnJnZnZnJnJnZcdnZnJnZnJLILJLKKrnZnJnZnJcdnJnZcdnZnJnZnJcdnJk2mHmHmHBQBX
+BOARD 0 27 64 0 BQBXmGmGmGk2cdnInYnInYnInYk2cdnInYnIKpKqLYLZLaK7KpKqnYnInYk2cdnZcdnInYnInYk2KpKqLYLZLaK7KpKqcdnInYnInYnInYk2cdnInYnIk2mHmHmHBQBX
+BOARD 0 28 64 0 BQBXmGmGmGk2nZnJnZk2nZk2nZnJnZnJnZk2K5K6LYLZLaK7K5K6nZk2nZnJnZnYk2k2nZk2nZnJK5K6LYLZLaK7K5K6nZnJnZk2nZk2nZnJnZnJnZk2k2mHmHmHBQBX
+BOARD 0 29 64 0 BQBXmGmGmGk2nYnInYnIcdnInYk2nYnInYnIcdnILoLpLqLLnYnIcdnInYk2nYnZnJnIcdnInYk2nYnILoLpLqLLnYk2nYnInYnIcdnInYk2nYnInYnIk2mHmHmHBQBX
+BOARD 0 30 64 0 BQBXmGmGmGk2k2nJk2nJnZnJnZnJk2nJk2nJnZnJnZKpKqnJk2nJnZnJnZnJk2nYk2nJnZnJnZnJk2nJk2KpKqnJnZnJk2nJk2nJnZnJnZnJk2nJk2nJk2mHmHmHBQBX
+BOARD 0 31 64 0 BQBXmGmGmGk2cdnInYnIk2nInYnIcdnInYnIk2nInYK5K6nInYnIk2nInYnIcdnYcdnIk2nInYnIcdnInYK5K6nInYnIcdnInYnIk2nInYnIcdnInYnIk2mHmHmHBQBX
+BOARD 0 32 64 0 BQBXmGmGmGk2nZnJcdnJnZcdnZnJnZnJcdnJnZcdnZnJnZnJcdnJnZcdnZnJnZnZnJnJnZcdnZnJnZnJcdnJnZcdnZnJnZnJcdnJnZcdnZnJnZnJcdnJk2mHmHmHBQBX
+BOARD 0 33 64 0 BQBXmGmGmGk2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2nInYk2cdVoVpnInYnInYk2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2mHmHmHBQBX
+BOARD 0 34 64 0 BQBXmGmGnwmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnyk2k2nZnJnZV4V5k2nZk2nZk2nzmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxmHmHBQBX
+BOARD 0 35 64 0 BQBXmGnwmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnymGk2nInYk2nYnInYnIcdnInYk2mHnzmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxmHBQBX
+BOARD 0 36 64 0 BQBXnwmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnymGmGk2nJnZnJk2nJk2nJnZnJnZk2mHmHnzmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxBQBX
+BOARD 0 37 64 0 5MBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5NmGmGmGk2nInYnIcdnInYnIk2nInYk2mHmHmH5MBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5N
+BOARD 0 38 64 0 CQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzmGmGmGk2cdnZnJnZnJcdnJnZcdnZk2mHmHmHCQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBz
+BOARD 0 39 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nInYmImJnInYmImJnInYk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2k2nZmYmZnJnZmYmZk2nZk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nInYm4m5nInYm4m5nInYk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nJnZnJk2nJk2nJnZnJnZk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nInYnIcdnInYnIk2nInYk2mHmHmHBQBXJ4J4k5k5J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2cdnZmImJnJcdmImJcdnZk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nInYmYmZnInYmYmZnInYk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2k2nZm4m5nJnZm4m5k2nZk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nInYk2nYnInYnIcdnInYk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nJnZnJk2nJk2nJnZnJnZk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nInYmImJnInYmImJnInYk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2cdnZmYmZnJcdmYmZcdnZk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nInYm4m5nInYm4m5nInYk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2k2nZnJnZnJnZk2nZk2nZk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nInYk2nYnInYnIcdnInYk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nJnZmImJnJk2mImJnJnZk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2nInYmYmZnInYmYmZnInYk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2cdnZm4m5nJcdm4m5cdnZk2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGmGk2k2k2k2k2k2k2k2k2k2k2k2mHmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGmGnwnzmXmXjmjnkpkpjmjnmXmXnynxmHmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXmGnwmXnxnzmXj2j3k5k5j2j3mXnynwmXnxmHBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4BQBXnwmXmXmXnxnzkGkHkGkHkGkHnynwmXmXmXnxBQBXJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J45MBBBBBBBBBBBBBBkWkXkWkXkWkXBBBBBBBBBBBBBB5NJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4CQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK faq_tools.nw 31 60 2 1 30.5 4
+SIGN 19 6
+Name: Gazboy
+Era: Era of Creation
+Reign: Beginning - Feb.-Mar. 2001
+Gazboy, along with Lycia, created 
+the FAQ division back in 2000, 
+he ran the division for several 
+months as Chief with Lycia's help. 
+However, Lycia ran away to better 
+things on G2001, so Gazboy was 
+left to run it alone. A few months 
+later, he became very inactive and 
+left most of the Chief duties to 
+his Asst. Chief, Pozion. Gaz was 
+eventually fired by the admins and 
+replaced with the Senior Captain, 
+ShadowFox.
+SIGNEND
+SIGN 25 7
+Name: ShadowFox
+Era: Era of Building
+Reign: Mar. 2000 - May 2000
+ShadowFox took over as Chief
+when Gazboy was fired as admin.
+Things ran smoothly for her for 
+the first month. Then, however,
+she became very inactive and 
+mean to Graalians seeking help,
+not answering questions or yelling
+at people who did ask. Lycia, 
+FAQ's co-creator, decided to take 
+her 'baby' back, illegally. She told
+Zorro, the Account Admin, that
+Galen had given the go-ahead to 
+be FAQ Chief. She was then 
+given the Chief postion by Zorro,
+thinking it was Galen's wish.
+She undid some of SF's work
+in FAQ and implimented her own.
+After about a week, the admins 
+realized she had gotten the 
+position illegally and gave it back 
+to ShadowFox. Though it was
+only a couple of weeks later
+that ShadowFox was fired and 
+the Chief postion was given to
+her Asst. Chief, BloodySin.
+SIGNEND
+SIGN 31 6
+Name: BloodySin
+Era: Era of FAQ's Prime
+Reign: May 2000 - June 2000
+BloodySin took over FAQ with a
+large team, ready and raring to 
+go and make FAQ as best as 
+possible. He did just that.
+For the first month, he held a 
+series of hiring sessions and hired
+a lot of hardworking people.
+The time after these hirings is
+known as FAQ's prime, meaning
+FAQ was at its best at this time.
+He then tried to fix up the 
+internal workings of FAQ. He 
+successfully deleted the rank
+tags of FAQ, leaving only the FAQ
+rank. About this time though, he
+too started to become inactive
+and defensive, the admins were
+starting to get complaints about 
+him. Contego, the FAQ Asst. 
+Chief, tried to overtake BloodySin
+on these charges, but was 
+unsuccesful and was fired by
+BloodySin. That didn't last for 
+long however, Mr. Bear, the Chief 
+Gaming Officer, had enough
+complaints about him and decided
+to make some changes to the
+FAQ team#.
+SIGNEND
+SIGN 37 7
+Name: Lara
+Era: Era of Decline
+Reign: June 2000 - August 2000
+#.and so he did, Mr. Bear decided
+to change the name of FAQ to
+'Graal Public Help' and put Lara
+in charge of it. Many of the 
+members did NOT like this at all,
+many of them quit FAQ/GPH,
+about half the team to be exact.
+Lara had to get accounts for 
+the remaining members of GPH. 
+About this time, the guild mirror 
+had gone down, so no new tags 
+could be created for the members. 
+On top of that, Mr. Bear decided 
+to AGAIN change to name of the 
+division to Graal Help. This means 
+Lara would again have to get 
+accounts for her members, plus a 
+couple of designated new joiners. 
+Just when she had all the accounts 
+made, the mass account reset came 
+for the new Graal with 8 hearts and 
+level 2 swords. This means the 
+Graal Help team had no tags and 
+had to deal with mass chaos on 
+Graal. Finally, the server peace 
+was re-established and the Guild 
+Mirror had gone back up about a 
+week later. It was a little to late 
+though, most members went 
+inactive and barely went on, 
+leaving the job to the hardworking 
+GHs such as Goth, DarkReaper,
+JZ, and Dark Cloud. They 
+sometimes put in as much as 40
+hours per week. Sad thing was 
+though, Lara didn't care, she went 
+about her ways and became a GP
+while staying GH Admin, not giving
+an ounce of attention to it. Finally,
+after weeks/months of begging,
+she decided to hire for GH. 
+This was a terrible hiring session,
+her posts didn't even make sense
+and she didn't pick very many good
+people, only one, Devine, who had
+put in a lot of time and was very
+deticated to his work. About 
+2 days after hiring, Lord Matt,
+a new GH, got in trouble for
+massing and such. Instead of
+talking it over or suspending
+him, Lara propmtly fired him for
+runing her day. Dark Cloud, a GH 
+Captain, tried to calm her down,
+but it was unsuccessful. Lara
+and Lord Matt got into a verbal
+battle during the next week.
+Nightlord, the CGO, decided
+that Lara has gone on far enough
+destroying the division. He sent
+Zorro, a Gaming Officer, to correct
+the situation, and so he did. He
+took adminship of the GH team
+and fired Lara. He announced
+that he would give new ranks 
+tomorrow and the rest of team
+not on this list of ranks would be 
+fired. Tomorrow came#.
+SIGNEND
+SIGN 43 6
+Name: Devine
+Era: Era of Decline
+Reign: August 2001 - Sep. 2001
+#.the post was on the GH board.
+It read:
+GH Chief: Devine
+GH Asst. Chief: Goth
+GH Sr. Captain: DarkReaper
+GH Captain1: Dark Cloud
+GH Captain2: JZ.
+
+Most of the team on this list was 
+suprised that DEVINE was
+Chief, he had only been in GH for 
+a month. What was Zorro's 
+explaination? He said that Devine
+had been a good GH the past 
+month and that he had good 
+experience in being an admin.
+This didn't prove to be true 
+however. During the time he was
+Cheif(a short time), all he did was
+play on RC, he expected his other
+members to do the management
+work. Well, nothing DID get done.
+Hiring never commenced even
+though there were only 5 members.
+So, after about a month of stalling,
+Contego, the Account Admin
+decided to step in and correct the
+situation. He took adminship from
+Zorro and dropped Devine's rank
+to Captain, Devine later quit 
+because of this. Since Goth had 
+left for college, the new Chief of 
+GH was#.
+SIGNEND
+SIGN 22 14
+Name: DarkReaper
+Era: Era of Rebuilding
+Reign: Sep. 2000 - March 2001
+#. the new Chief of FAQ was 
+DarkReaper, yes, FAQ. Contego
+and DarkReaper decided to
+recreate the name FAQ, along 
+with it's rank tags. DarkReaper 
+had two things to do.
+1.Pick an Asst. Chief out of the
+two people left.
+2.Revive FAQ from only 3 
+members.
+Yes, GH had taken it's toll on
+the divsion, then team went from
+15 to 3. No matter though,
+in about 3 weeks, then FAQ divison
+hired 2 people with the help of
+Dark Cloud and JZ. Soon after that
+the hired more, which hired 5-6
+members. FAQ was live again.
+Sadly though, DarkReaper 
+disappeared without a trace in
+December and hadn't made
+contact with anyone. Finally,
+after 2 1/2 months. Dark Cloud 
+deicided to give the case to the 
+HRO's. They gave two weeks for
+Reaper to return. Slowly, time
+ticked away, but on the last day,
+Reaper made contact to Dark
+Cloud and said he would be
+resigning and that Dark Cloud
+should take the postion over.
+Dark Cloud did exactly that the 
+day later#.
+SIGNEND
+SIGN 40 14
+Name: Dark Cloud
+Era: Era of Steadiness
+Reign: March 2001 - Oct. 2002
+Stepping into the Admin position 
+after the dissapearence of the
+ last admin, Dark Cloud had a 
+very small team to work with. 
+Unfortunately most of the team 
+he rebuilt, saw FAQ as a quick 
+stepping stool to GP, an off they 
+went.
+DC however, was able to rebuild
+ the team to its' former 
+structure. Eventually however 
+the calls of women and
+ sunshine were too tempting 
+for DC and he left FAQ to its' 
+successor.
+SIGNEND
+SIGN 27 18
+Name: WillieJamal
+Era: Era of Slowness
+Reign: Oc.t 2002 - Dec. 2003
+So it was that WillieJamal
+took over FAQ. Things running
+smoothly. After the decline in
+numbers from several hundred
+to around fifty, in the number
+of players. FAQ became less 
+challenging, and so FAQ
+rolled on smoothly. The team
+did not change a great deal
+during Willie's term. Hirings 
+and firing ran as normal. But
+few changes ever occured 
+to the FAQ roster. So on one
+quiet December night Willie 
+decided to get away from it all
+and handing over the reins of 
+FAQ. He left.
+SIGNEND
+SIGN 35 18
+Name: Selflon
+Era: Era of Continued Slowness
+Reign: Dec. 2003 - Sept. 2004
+Nothing truly eventful happened 
+during Selflon's reign, but 
+due to his good nature, 
+easygoing style, and overall
+ ability, he is widely regarded 
+as one of the best Admins
+ that FAQ has ever had.
+Due to a fairly major Staff
+Restructuring project. He
+transferred to LAT adminship,
+leaving in charge...
+SIGNEND
+SIGN 23 22
+Name: Thermo
+Era: Era of Continued Slowness
+Reign: Oct. 2004 - Sept. 2006
+Again, nothing amazing 
+happend during Thermo's 
+reign as Admin. FAQ 
+continued to slow down in 
+its activity as Classic 
+continued to lose itself.  
+Thermo, tired of classic, 
+decided to hand his title to...
+SIGNEND
+SIGN 39 22
+Name: Dragonfly
+Era: Era of Peace
+Reign: Oct. 2006 - Dec. 2006
+SIGNEND
+SIGN 31 34
+Welcome to the FAQ 
+Administrator's past and 
+present room.
+In this room you can learn 
+about the past,and present of all
+the Admins
+SIGNEND
+SIGN 28 25
+Name: Tatsumi
+Era: Era of Continued Slowness/
+Era of Decline
+Reign: Dec. 2006 - June 2007
+July  2008 - January 2009
+Tatsumi's somewhat heavy 
+handed approach combined with 
+his apathy due to the slowness 
+of Classic, both contributed to 
+the division's steady decline 
+during his reign.  Eventually, 
+after giving up on the state of 
+Classic, he quit.  His replacement 
+was to be his former Assistant 
+Admin...
+SIGNEND
+SIGN 31 19
+Name: Mighty
+Era: Era of Development
+Reign: June 2007 - July 2008
+During mighty's reign, 
+he ran a smooth team, 
+nothing special going 
+on, development was 
+where the main focus
+ was. Quests were being 
+worked on, new toys 
+were being released 
+to keep players occupied 
+and so forth.
+Mighty finally decided it 
+was time for him to move up, 
+and so he took a spot 
+as GP and gave 
+FAQ back to...
+SIGNEND
+SIGN 34 25
+Name: Ranger
+Era: 
+Reign: January 2009 - ???
+SIGNEND
+NPC - 18 2
+if(created){
+showcharacter;
+setcharprop#3,head556.png;
+setcharprop#2,no-shield.png;
+setcharprop#8,body.png;
+setcharprop#C0,black;
+setcharprop#C1,black;
+setcharprop#C2,black;
+setcharprop#C3,black;
+setcharprop#C4,black;
+  x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC - 24 3
+if(created){
+showcharacter;
+setcharprop#3,head1135.png;
+setcharprop#2,no-shield.png;
+setcharprop#8,body2.png;
+setcharprop#C0,black;
+setcharprop#C1,gray;
+setcharprop#C2,orange;
+setcharprop#C3,black;
+setcharprop#C4,white;
+  x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC - 30 2
+if(created){
+showcharacter;
+setcharprop#3,head890.png;
+setcharprop#2,gsl-gladiator-shield.png;
+setcharprop#8,body2.png;
+setcharprop#C0,gray;
+setcharprop#C1,black;
+setcharprop#C2,black;
+setcharprop#C3,black;
+setcharprop#C4,gray;
+  x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC - 36 3
+if(created){
+showcharacter;
+setcharprop#3,head1221.png;
+setcharprop#2,noxmagic-shield.mng;
+setcharprop#8,body8.png;
+setcharprop#C0,orange;
+setcharprop#C1,darkred;
+setcharprop#C2,orange;
+setcharprop#C3,darkred;
+setcharprop#C4,white;
+  x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC - 42 2
+if(created){
+showcharacter;
+setcharprop#3,head666.gif;
+setcharprop#2,no-shield.png;
+setcharprop#8,body.png;
+setcharprop#C0,black;
+setcharprop#C1,black;
+setcharprop#C2,black;
+setcharprop#C3,black;
+setcharprop#C4,black;
+  x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC - 21 11
+if(created){
+showcharacter;
+setcharprop#2,deathscythe-shield.png;
+setcharprop#3,head903.png;
+setcharprop#8,body10.png;
+setcharprop#C1,white;
+setcharprop#C0,white;
+setcharprop#C2,brown;
+setcharprop#C3,brown;
+setcharprop#C4,black;
+  x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC - 26 14
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1124.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,gray;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #C5,black;
+  setcharprop #C6,white;
+  setcharprop #C7,white;
+   setcharprop #1,sword1.png;
+  setcharprop #2,no-shield.png;
+  setcharprop #8,body12.png;
+  x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC - 39 10
+// NPC made by Selflon
+if (created) {
+  showcharacter;
+  setcharprop#1,noxdark-sword.png;
+  setcharprop#2,fortis-staff-shield.png;
+  setcharprop#3,head102.png;
+  setcharprop#8,body13.png;
+  setcharprop#C1,darkblue;
+  setcharprop#C0,orange;
+  setcharprop#C2,black;
+  setcharprop#C3,black;
+  setcharprop#C4,black;
+  x = x+.5;
+  y = y+.5;
+
+}
+NPCEND
+NPC - 34 14
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head169.png;
+  setcharprop #C0,black;
+  setcharprop #C1,red;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #n,;
+  setcharprop #c,;
+  setcharprop #1,darkflame-sword.png;
+  swordpower = 1;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  setcharprop #8,body10.png;
+  dir = 2;
+  setcharani cn_idle,;
+  hearts = 0;
+  x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC - 22 18
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,headc-thermo.png;
+  setcharprop #C0,gray;
+  setcharprop #C1,black;
+  setcharprop #C2,red;
+  setcharprop #C3,black;
+  setcharprop #C4,white;
+  setcharprop #n,;
+  setcharprop #c,;
+  setcharprop #1,swordc-rone.png;
+  swordpower = 3;
+  setcharprop #2,suit-shield.png;
+  shieldpower = 1;
+  setcharprop #8,bodyc-suit.png;
+  dir = 2;
+  setcharani cn_idle,;
+  hearts = 0;
+  x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC pottedplant.png 47 3
+// NPC made by Exodus Dynasty (Imperial)
+//#CLIENTSIDE
+dontblock;
+NPCEND
+NPC pottedplant.png 51 3
+// NPC made by Exodus Dynasty (Imperial)
+//#CLIENTSIDE
+dontblock;
+NPCEND
+NPC pottedplant.png 15 3
+// NPC made by Exodus Dynasty (Imperial)
+//#CLIENTSIDE
+dontblock;
+NPCEND
+NPC pottedplant.png 11 3
+// NPC made by Exodus Dynasty (Imperial)
+//#CLIENTSIDE
+dontblock;
+NPCEND
+NPC fire.mng 33 52
+// NPC made by Quicksilver (NBK)
+//#CLIENTSIDE
+setcoloreffect 1,1,1,.99;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC fire.mng 29 52
+// NPC made by Quicksilver (NBK)
+//#CLIENTSIDE
+setcoloreffect 1,1,1,.99;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC fire.mng 33 47
+// NPC made by Quicksilver (NBK)
+//#CLIENTSIDE
+setcoloreffect 1,1,1,.99;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC fire.mng 29 47
+// NPC made by Quicksilver (NBK)
+//#CLIENTSIDE
+setcoloreffect 1,1,1,.99;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC fire.mng 29 42
+// NPC made by Quicksilver (NBK)
+//#CLIENTSIDE
+setcoloreffect 1,1,1,.99;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC fire.mng 33 42
+// NPC made by Quicksilver (NBK)
+//#CLIENTSIDE
+setcoloreffect 1,1,1,.99;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC fire.mng 29 37
+// NPC made by Quicksilver (NBK)
+//#CLIENTSIDE
+setcoloreffect 1,1,1,.99;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC fire.mng 33 37
+// NPC made by Quicksilver (NBK)
+//#CLIENTSIDE
+setcoloreffect 1,1,1,.99;
+dontblock;
+drawoverplayer;
+NPCEND
+NPC amz_chair.png 21 24
+//#CLIENTSIDE
+if (created)
+dontblock;
+drawunderplayer;
+NPCEND
+NPC amz_chair.png 18 27
+//#CLIENTSIDE
+if (created)
+dontblock;
+drawunderplayer;
+NPCEND
+NPC amz_chair.png 24 27
+//#CLIENTSIDE
+if (created)
+dontblock;
+drawunderplayer;
+NPCEND
+NPC amz_chair.png 21 30
+//#CLIENTSIDE
+if (created){
+dontblock;
+drawunderplayer;
+noplayerkilling;
+}
+NPCEND
+NPC amz_chair.png 41 24
+//#CLIENTSIDE
+if (created)
+dontblock;
+drawunderplayer;
+NPCEND
+NPC amz_chair.png 38 27
+//#CLIENTSIDE
+if (created)
+dontblock;
+drawunderplayer;
+NPCEND
+NPC amz_chair.png 44 27
+//#CLIENTSIDE
+if (created)
+dontblock;
+drawunderplayer;
+NPCEND
+NPC amz_chair.png 41 30
+//#CLIENTSIDE
+if (created)
+dontblock;
+drawunderplayer;
+NPCEND
+NPC - 38 18
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+   setcharprop #3,headc-gal-leiladark-head.png;
+  setcharprop #C0,lightgray;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,darkred;
+  setcharprop #C4,lightgray;
+  setcharprop #2,no-shield.png;
+  setcharprop #8,bodyc-kelcloakbody.png;  dir = 2;
+  setcharani cn_idle,;
+  hearts = 0;
+  x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC - 27 21
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-tatgc.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,darkred;
+  setcharprop #C3,black;
+  setcharprop #C4,darkred;
+  setcharprop #C5,black;
+  setcharprop #C6,white;
+  setcharprop #C7,white;
+  setcharprop #n,;
+  setcharprop #c,;
+  setcharprop #1,;
+  swordpower = 1;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  setcharprop #8,body.png;
+  dir = 2;
+x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC - 14 39
+//NPC Made by Exodus (LAT)
+
+function onPlayerEnters() {
+  if (player.account == "Rufus") {
+    player.setlevel2("brothershouse_inside_03.nw",30.5,30);
+  }
+}
+NPCEND
+NPC - 7 40
+join("gc_tool_partybomb");
+NPCEND
+NPC - 30 15
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-mighty-16.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #C5,black;
+  setcharprop #C6,black;
+  setcharprop #C7,black;
+  setcharprop #n,;
+  setcharprop #c,;
+  setcharprop #1,;
+  swordpower = 1;
+  setcharprop #2,darkman-shield.mng;
+  shieldpower = 1;
+  setcharprop #8,body3.png;
+  dir = 2;
+x = x+.5;
+  y = y+.5;
+}
+NPCEND
+NPC - 33 21
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head376.png;
+  setcharprop #C0,gray;
+  setcharprop #C1,black;
+  setcharprop #C2,gray;
+  setcharprop #C3,gray;
+  setcharprop #C4,black;
+  setcharprop #P1,hat104.png;
+  swordpower = 1;
+  setcharprop #2,black-scabbard-shield.png;
+  shieldpower = 1;
+  setcharprop #8,body13.png;
+  dir = 2;
+  x = x+.5;
+  y = y+.5;
+}
+NPCEND

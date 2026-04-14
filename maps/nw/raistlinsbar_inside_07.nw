@@ -1,0 +1,613 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J45M5NBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5M5NJ4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4CQBzCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCQBzJ4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4BQBXnznynzlEljlilFnynzlEljlilFnynzlEljlilFnynzlEljlilFnynzlEljlilFnynzlEljlilFnynzlEljlilFnynzlEljlilFnyBQBXJ4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4BQBXnjninjlQlVlVlRninjlQlVlVlRninjlQlVlVlRninjlQlVlVlRninjlQlVlVlRninjlQlVlVlRninjlQlVlVlRninjlQlVlVlRniBQBXJ4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4BQBXnznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznyBQBXJ4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4BQBXnjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjniBQBXJ4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4BQBXlglllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllhBQBXJ4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4BQBXl0FCFCQXFCFCQYFCFCQXFCFCQYFCFCQXFCFCQYFCFCQXFCFCQYFCFCQXFCFCQYFCFCQXFCFCQYFCFCQXFCFCQYFCFCQXFCFCQYl1BQBXJ4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4BQBXl0FCFClzmVmVlyFCFClzmVmVlyFCFClzmVmVlyFCFClzmVmVlyFCFClzmVmVlyFCFClzmVmVlyFCFClzmVmVlyFCFClzmVmVmVlxBQBXJ4J4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4BQBXl0HJG5l1j4j5l0HJG5l1j4j5l0HJG5l1j4j5l0HJG5l1j4j5l0HJG5l1j4j5l0HJG5l1j4j5l0HJG5l1j4j5l0HJG5l1j4j5j4j5BQBXJ4J4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4BQBXlwmVmVlxkYkZlwmVmVlxkYkZlwmVmVlxkYkZlwmVmVlxkYkZlwmVmVlxkYkZlwmVmVlxkYkZlwmVmVlxkYkZlwmVmVlxkYkZkYkZ5M5NBBBBBBBB5M5N
+BOARD 0 19 64 0 J4J4J4J4BQBXj4j5j4j5nmnnj4j5j4j5nmnnj4j5j4j5nmnnj4j5j4j5nmnnj4j5j4j5nmnnj4j5j4j5nmnnj4j5j4j5nmnnj4j5j4j5nmnXnXnnCQBzCRCRCRCRCQBz
+BOARD 0 20 64 0 J4J4J4J4BQBXkYkZkYkZnHnGkYkZkYkZnHnGkYkZkYkZnHnGkYkZkYkZnHnGkYkZkYkZnHnGkYkZkYkZnHnGkYkZkYkZnHnGkYkZkYkZnHcdnInGmWmWmWmWmWmWmWmW
+BOARD 0 21 64 0 J4J4J4J4BQBXnmnXnXnXn1n0nXnXnXnXn1n0nXnXnXnXn1n0nXnXnXnXn1n0nXnXnXnXn1n0n0nXnXnXn1n0nXnXnXnXn1n0nXnXnXnXn1cdcdn0nXnXnXnXnXnXnXnn
+BOARD 0 22 64 0 J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnG
+BOARD 0 23 64 0 J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnG
+BOARD 0 24 64 0 J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnG
+BOARD 0 25 64 0 J4J4J4J4BQBXn2nWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnlcdcdcdcdnknWnWnWnWnWnWnWn3
+BOARD 0 26 64 0 J4J4J4J4BQBXBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5NnHcdcdcdcdnG5M5NBBBBBBBB5M5N
+BOARD 0 27 64 0 J4J4J4J4BQBXCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBznHcdcdcdcdnGCQBzCRCRCRCRCQBz
+BOARD 0 28 64 0 J4J4J4J4BQBXnznynzlEljlilFnynzlEljlilFnynzlEljlilFnynzlEljlilFnynzlEljlilFnynzlEljlilFnynzlEljlilFnynHcdcdcdcdnGBQBXmWmWmWmWmWmW
+BOARD 0 29 64 0 J4J4J4J4BQBXnjninjlQlVlVlRninjlQlVlVlRninjlQlVlVlRninjlQlVlVlRninjlQlVlVlRninjlQlVlVlRninjlQlVlVlRninHcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 30 64 0 J4J4J4J4BQBXnznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynHcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 31 64 0 J4J4J4J4BQBXnjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninHcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 32 64 0 J4J4J4J4BQBXlglllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllhnHcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 33 64 0 J4J4J4J4BQBXl0FCFCQXFCFCQYFCFCQXFCFCQYFCFCQXFCFCQYFCFCQXFCFCQYFCFCQXFCFCQYFCFCQXFCFCQYFCFCQXFCFCQYl1nHcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 34 64 0 J4J4J4J4BQBXl0FCFClzmVmVlyFCFClzmVmVlyFCFClzmVmVlyFCFClzmVmVlyFCFClzmVmVlyFCFClzmVmVlyFCFClzmVmVmVlxnHcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 35 64 0 J4J4J4J4BQBXl0HJG5l1j4j5l0HJG5l1j4j5l0HJG5l1j4j5l0HJG5l1j4j5l0HJG5l1j4j5l0HJG5l1j4j5l0HJG5l1j4j5j4j5nHcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 36 64 0 J4J4J4J4BQBXlwmVmVlxkYkZlwmVmVlxkYkZlwmVmVlxkYkZlwmVmVlxkYkZlwmVmVlxkYkZlwmVmVlxkYkZlwmVmVlxkYkZkYkZnHcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 37 64 0 J4J4J4J4BQBXj4j5j4j5nmnnj4j5j4j5nmnnj4j5j4j5nmnnj4j5j4j5nmnnj4j5j4j5nmnnj4j5j4j5nmnnj4j5j4j5nmnXnXnXn1cdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4BQBXkYkZkYkZnHnGkYkZkYkZnHnGkYkZkYkZnHnGkYkZkYkZnHnGkYkZkYkZnHnGkYkZkYkZnHnGkYkZkYkZnHcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4BQBXnmnXnXnXn1n0nXnXnXnXn1n0nXnXnXnXn1n0nXnXnXnXn1n0nXnXnXnXn1n0nXnXnXnXn1n0nXnXnXnXn1cdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4BQBXn2nWnWnWnWnWnWnlcdcdcdcdnklglllllhnlcdcdcdcdnklglllllhnlcdcdcdcdnklglllllhnlcdcdcdcdnknWnWnWnWnWnWn3BQBXJ4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4BQBXk3k3k3k3k3k3k3nHcdcdcdcdnGl0xyxzl1nHcdcdcdcdnGl0xyxzl1nHcdcdcdcdnGl0xyxzl1nHcdcdcdcdnGk3k3k3k3k3k3k3BQBXJ4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4BQBXk3mImJk3k3mImJnHcdcdcdcdnGl0yCyDl1nHcdcdcdcdnGl0yCyDl1nHcdcdcdcdnGl0yCyDl1nHcdcdcdcdnGmImJk3k3mImJk3BQBXJ4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4BQBXk3mYmZk3k3mYmZnHcdcdcdcdnGlwmVmVlxnHcdcdcdcdnGlwmVmVlxnHcdcdcdcdnGlwmVmVlxnHcdcdcdcdnGmYmZk3k3mYmZk3BQBXJ4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4BQBXk3m4m5k3k3m4m5nHcdcdcdcdnGj4j5j4j5nHcdcdcdcdnGj4j5j4j5nHcdcdcdcdnGj4j5j4j5nHcdcdcdcdnGm4m5k3k3m4m5k3BQBXJ4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4BQBXk3k3k3k3k3k3k3nHcdcdcdcdnGkYkZkYkZnHcdcdcdcdnGkYkZkYkZnHcdcdcdcdnGkYkZkYkZnHcdcdcdcdnGk3k3k3k3k3k3k3BQBXJ4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4BQBXnmnXnXnXnXnXnXn1cdcdcdcdn0nXnXnXnXn1cdcdcdcdn0nXnXnXnXn1cdcdcdcdn0nXnXnXnXn1cdcdcdcdn0nXnXnXnXnXnXnnBQBXJ4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4BQBXn2nWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWn3BQBXJ4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J45M5NBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5M5NJ4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4CQBzCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCQBzJ4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4nznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznyJ4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4njninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjniJ4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4nznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznynznyJ4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4njninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjninjniJ4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4YcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcJ4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK raistlinsbar_inside_06.nw 63 21 1 5 0 21
+NPC waterani.png 52 12
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 46 12
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 40 12
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 34 12
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 28 12
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 22 12
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 16 12
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 10 12
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 10 30
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 16 30
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 46 30
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 40 30
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 34 30
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 28 30
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC waterani.png 22 30
+if (created) {
+  setimgpart waterani.png,32,16,32,64;
+}
+NPCEND
+NPC - 24 42
+//#CLIENTSIDE
+if (playerenters) {
+  seteffect 0,0,0,0.40;
+}
+NPCEND
+NPC - 6 20
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,Layzie;
+NPCEND
+NPC - 12 20
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,Kasper Chill;
+NPCEND
+NPC - 18 20
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,Primeagen Chill;
+NPCEND
+NPC - 24 20
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,NoMaD Chill;
+NPCEND
+NPC - 30 20
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,Blade Chill;
+NPCEND
+NPC - 36 20
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,Ibonic*;
+NPCEND
+NPC - 42 20
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,Lonely Mirage;
+NPCEND
+NPC - 48 20
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,K-Dawg Loxeus;
+NPCEND
+NPC - 6 38
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,Shadow;
+NPCEND
+NPC - 12 38
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,Rave;
+NPCEND
+NPC - 18 38
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,FrozenHeat;
+NPCEND
+NPC - 24 38
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,WuTAnG WaRRiOr;
+NPCEND
+NPC - 30 38
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,LordSk8er Pain;
+NPCEND
+NPC - 36 38
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,Sabre Pain;
+NPCEND
+NPC - 42 38
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,Exodus;
+NPCEND
+NPC - 19 48
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,#s(vince_diesel)     Ex-AMP/Melancholy Mirage#b
+  One Of Classic's Best Sparers#b;
+NPCEND
+NPC - 29 48
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,#s(vince_diesel)          Relentless Mirage#b
+  One Of Classic's Best Sparers#b;
+NPCEND
+NPC - 39 48
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,#s(vince_diesel)         Zodiac Bloodvayne#b
+  One Of Classic's Best Sparers#b;
+NPCEND
+NPC - 6 14
+function onCreated() {
+  showcharacter();
+  headimg = "head923.png";
+  colors[0] = "orange";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body5.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 6.5;
+  y = 14;
+}
+NPCEND
+NPC - 12 14
+function onCreated() {
+  showcharacter();
+  headimg = "head194.png";
+  colors[0] = "black";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "zero-shield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 12.5;
+  y = 14;
+}
+NPCEND
+NPC - 18 14
+function onCreated() {
+  showcharacter();
+  headimg = "head193.png";
+  colors[0] = "black";
+  colors[1] = "black";
+  colors[2] = "yellow";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 18.5;
+  y = 14;
+}
+NPCEND
+NPC - 24 14
+function onCreated() {
+  showcharacter();
+  headimg = "head318.png";
+  colors[0] = "black";
+  colors[1] = "brown";
+  colors[2] = "orange";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "blackshield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 24.5;
+  y = 14;
+}
+NPCEND
+NPC - 30 14
+function onCreated() {
+  showcharacter();
+  headimg = "head107.png";
+  colors[0] = "white";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "white";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "blackshield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 30.5;
+  y = 14;
+}
+NPCEND
+NPC - 36 14
+function onCreated() {
+  showcharacter();
+  headimg = "head1212.png";
+  colors[0] = "blue";
+  colors[1] = "black";
+  colors[2] = "white";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "ibonic01-shield.mng";
+  shieldpower = 3;
+  bodyimg = "body14.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 36.5;
+  y = 14;
+}
+NPCEND
+NPC - 42 14
+function onCreated() {
+  showcharacter();
+  headimg = "head223.png";
+  colors[0] = "orange";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 42.5;
+  y = 14;
+}
+NPCEND
+NPC - 48 14
+function onCreated() {
+  showcharacter();
+  headimg = "head26.png";
+  colors[0] = "orange";
+  colors[1] = "white";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "darkred";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 48.5;
+  y = 14;
+}
+NPCEND
+NPC - 6 32
+function onCreated() {
+  showcharacter();
+  headimg = "head524.png";
+  colors[0] = "black";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 6.5;
+  y = 32;
+}
+NPCEND
+NPC - 12 32
+function onCreated() {
+  showcharacter();
+  headimg = "head117.png";
+  colors[0] = "orange";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 12.5;
+  y = 32;
+}
+NPCEND
+NPC - 18 32
+function onCreated() {
+  showcharacter();
+  headimg = "head524.png";
+  colors[0] = "black";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 18.5;
+  y = 32;
+}
+NPCEND
+NPC - 24 32
+function onCreated() {
+  showcharacter();
+  headimg = "head129.png";
+  colors[0] = "black";
+  colors[1] = "darkblue";
+  colors[2] = "darkblue";
+  colors[3] = "black";
+  colors[4] = "darkblue";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body3.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 24.5;
+  y = 32;
+}
+NPCEND
+NPC - 30 32
+function onCreated() {
+  showcharacter();
+  headimg = "head385.png";
+  colors[0] = "orange";
+  colors[1] = "white";
+  colors[2] = "blue";
+  colors[3] = "red";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 30.5;
+  y = 32;
+}
+NPCEND
+NPC - 36 32
+function onCreated() {
+  showcharacter();
+  headimg = "head136.png";
+  colors[0] = "black";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 36.5;
+  y = 32;
+}
+NPCEND
+NPC - 42 32
+function onCreated() {
+  showcharacter();
+  headimg = "head133.png";
+  colors[0] = "black";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "shield3.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 42.5;
+  y = 32;
+}
+NPCEND
+NPC - 19 43
+function onCreated() {
+  showcharacter();
+  headimg = "head418.png";
+  colors[0] = "yellow";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "red";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 19.5;
+  y = 43;
+}
+NPCEND
+NPC - 29 43
+function onCreated() {
+  showcharacter();
+  headimg = "head926.png";
+  colors[0] = "orange";
+  colors[1] = "white";
+  colors[2] = "blue";
+  colors[3] = "red";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "shield3.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 29.5;
+  y = 43;
+}
+NPCEND
+NPC - 39 43
+function onCreated() {
+  showcharacter();
+  headimg = "head912.png";
+  colors[0] = "gray";
+  colors[1] = "gray";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "gray";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+ x = 39.5;
+  y = 43;
+}
+NPCEND
+NPC fire.mng 49 43
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+setcoloreffect 0.255471,0.5802576,0.2521119,0.7;
+}
+NPCEND
+NPC fire.mng 53 43
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+setcoloreffect 0.255471,0.5802576,0.2521119,0.7;
+}
+NPCEND
+NPC fire.mng 7 43
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+setcoloreffect 0.255471,0.5802576,0.2521119,0.7;
+}
+NPCEND
+NPC fire.mng 11 43
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+setcoloreffect 0.255471,0.5802576,0.2521119,0.7;
+}
+NPCEND
+NPC - 31 54
+join("level_nopk");
+NPCEND

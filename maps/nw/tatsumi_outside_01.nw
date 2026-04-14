@@ -1,0 +1,359 @@
+GLEVNW01
+BOARD 0 0 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 1 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 2 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 3 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 4 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 5 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 6 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 7 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 8 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 9 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 10 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 11 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 12 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 13 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 14 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 15 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 16 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 17 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 18 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 19 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 20 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 21 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 22 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 23 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 24 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 25 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/f/f/H/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 26 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/f/AAABH/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 27 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/f/f/H/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 28 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/5MBCBDBDBDBDBDBDBF5Nf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 29 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/BQBSBRBTBRBRBTBRBVBXBDBDBDBDBDBDBDBDBDBDBDBDBF5NH/H/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 30 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/BQBSBRBRBRBRBRBRBVBXBRBRBRBRBRBRBRBRBRBRBRBRBVBXByH/H/H/H/H/H/AAf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 31 64 0 f/f/f/H/H/H/H/H/H/f/f/H/f/H/BQBiBjBjBjBjBjBjBWBXBRBRBRBRBRBRBRBRBRBRBTBRBVBXCPEFH/H/H/AAABH/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 32 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/BQBRBRBRBRBRBRBRBRBXBRBRBRBRBRBRBRk3BRBRBRBRBVBXCPCCH/H/H/KpKqABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 33 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/AACQCRCRCRCRCRCRCRCRBzBRBRBRBRBRBRBRBRBRBRBRBRBVBXCPCCH/H/H/K5K6H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 34 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/LfiLiLLeLfLeLfiLiLLeBRBRBRBRBRBRBRBRBRBRBRBRBVBXCPCCH/LILJLKLJLKKrf/f/f/f/AAABH/H/H/H/f/f/f/f/f/f/f/
+BOARD 0 35 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/LfibibLeLfLeLfibibLeBRBRBRBRBRBRBRBRBRBRBRBRBVBXCPCCf/LYLZLaLZLaK7KpKqH/H/f/f/H/H/H/H/f/f/f/f/f/f/f/
+BOARD 0 36 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/LfLeLfLeLfLeLfLeLfLeBRBRBRBRBRBRBRBRBRBRBRBRBVBXCPCCf/LYLZLaLZLaK7K5K6H/H/f/f/H/H/H/H/f/f/f/f/f/f/f/
+BOARD 0 37 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/BQBSBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBVBXCPCCf/LoLpLqLpLqLLH/H/f/f/f/f/f/f/H/H/H/H/H/H/H/f/f/
+BOARD 0 38 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/BQBSBRBTBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBTBRBVBXCPCCH/H/H/KpKqH/H/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/f/f/
+BOARD 0 39 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/BQBSBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBVBXCPCCH/H/H/K5K6H/H/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/f/f/
+BOARD 0 40 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/BQBiBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBWBXCPCCH/H/H/H/AAABH/H/H/f/f/f/f/f/f/H/H/H/H/H/H/H/f/f/
+BOARD 0 41 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/BQBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBXCPCCH/H/H/H/H/H/H/H/H/H/H/f/f/H/H/H/H/H/H/H/H/H/f/f/
+BOARD 0 42 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/CQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzCPCCH/H/H/H/H/H/H/H/H/H/H/f/f/H/H/H/H/H/H/H/H/H/f/f/
+BOARD 0 43 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/LeLfLeLfLeBQBSBRBRBRBRBRBRBRBRBRBRBVBXLfLeLfLeLfCPCCH/H/H/H/H/H/H/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/f/f/
+BOARD 0 44 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/LeLfiLiLLeBQBSBRBTBRBRBRBRBRBRBTBRBVBXLfiLiLLeLfCPCCH/H/H/H/H/H/H/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/f/f/
+BOARD 0 45 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/LeLfibibLeBQBSBRBRBRBRBRBRBRBRBRBRBVBXLfibibLeLfCPCSH/H/H/H/H/H/H/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/f/f/
+BOARD 0 46 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/LeLfLeLfLeCABiBjBjBjBjBjBjBjBjBjBjBWBXLfLeLfLeLfCSH/H/H/H/H/H/H/H/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/f/f/
+BOARD 0 47 64 0 f/f/f/f/f/f/H/BoBpBqBrBsBtBuBvH/H/H/H/BQBRBRBRBRBRBRBRBRBRBRBRBRBXCPCCH/H/BoBpBqBrBsBtBuBvH/H/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/f/f/
+BOARD 0 48 64 0 f/f/f/f/f/f/H/B4B5B6B7B8B9B+B/H/H/H/H/CQCRCRCRCRCRCRCRCRCRCRCRCRBzCPCCH/H/B4B5B6B7B8B9B+B/H/H/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/f/f/
+BOARD 0 49 64 0 f/f/f/f/f/f/AAABCJCKCLCMCNCOH/H/H/H/H/LeLfiLiLLeB0B1B2B3LeiLiLLfLeCPCCH/AAABCJCKCLCMCNCOH/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/f/f/
+BOARD 0 50 64 0 f/f/f/f/f/f/H/H/H/CaCbCcCdH/H/ABH/H/H/LeLfibibLeCENFNFCHLeibibLfLeCPCSH/H/H/H/CaCbCcCdH/H/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/f/f/
+BOARD 0 51 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/LeLfLeLfLeCHibibCELeLfLeLfLeCSH/H/H/H/H/H/H/H/H/H/H/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/f/f/
+BOARD 0 52 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/H/H/H/H/H/TwAwAxTwH/ABH/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/f/f/
+BOARD 0 53 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/H/H/H/H/H/TwAwAxTwH/H/H/H/H/H/H/H/H/H/H/H/AAABH/H/H/H/H/H/H/H/H/H/H/H/H/f/f/f/f/f/f/H/f/f/
+BOARD 0 54 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/TwAwAxTwH/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/H/H/H/f/f/f/f/f/f/H/f/f/
+BOARD 0 55 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/H/AAABH/H/H/H/H/H/H/H/H/H/f/f/f/f/f/f/H/f/f/
+BOARD 0 56 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/AAABH/H/H/H/H/H/H/H/AAH/H/H/H/H/H/H/H/H/f/f/
+BOARD 0 57 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/f/f/
+BOARD 0 58 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/AAABH/f/f/
+BOARD 0 59 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/AAABH/H/H/f/f/
+BOARD 0 60 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/H/AAABH/H/f/f/
+BOARD 0 61 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 62 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 63 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/H/H/H/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+LINK pw_tats_enter.nw 25 49 2 1 30.5 33
+NPC door.png 25 50
+// NPC made by Bell Ðarkmåne (The Sabbat)
+//#CLIENTSIDE
+if (created) {drawunderplayer;
+}
+if (playerenters) {show;
+}
+if (playertouchsme) {hide;
+}
+NPCEND
+NPC p_tynewindow.png 15 34
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC p_tynewindow.png 16 44
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC p_tynewindow.png 34 44
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC p_tynewindow.png 21 34
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC p_tynewindow.png 21 49
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC p_tynewindow.png 29 49
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC light2.png 21 34
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimg light2.png;
+  setimgpart light2.png,50,50,30,48;
+  dontblock; drawunderplayer;
+}
+if (playerenters) {
+  setcoloreffect .5,.5,.5,0.40;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 15 34
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimg light2.png;
+  setimgpart light2.png,50,50,30,48;
+  dontblock; drawunderplayer;
+}
+if (playerenters) {
+  setcoloreffect .5,.5,.5,0.40;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 21 49
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimg light2.png;
+  setimgpart light2.png,50,50,30,48;
+  dontblock; drawunderplayer;
+}
+if (playerenters) {
+  setcoloreffect .5,.5,.5,0.40;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 34 44
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimg light2.png;
+  setimgpart light2.png,50,50,30,48;
+  dontblock; drawunderplayer;
+}
+if (playerenters) {
+  setcoloreffect .5,.5,.5,0.40;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 16 44
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimg light2.png;
+  setimgpart light2.png,50,50,30,48;
+  dontblock; drawunderplayer;
+}
+if (playerenters) {
+  setcoloreffect .5,.5,.5,0.40;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 29 49
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimg light2.png;
+  setimgpart light2.png,50,50,30,48;
+  dontblock; drawunderplayer;
+}
+if (playerenters) {
+  setcoloreffect .5,.5,.5,0.40;
+  drawaslight;
+}
+NPCEND
+NPC treetopgreen.png 7 41
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC pottedplant.png 28 53
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC pottedplant.png 34 47
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC pottedplant.png 22 53
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC pottedplant.png 16 47
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC stonetable2.png 41 34
+// NPC made by Tatsumi Darkblade ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC stonechair.png 43 32
+// NPC made by Tatsumi Darkblade ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 38 34
+// Graal2002 NPC by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-notoalpena4.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,yellow;
+  setcharprop #C4,yellow;
+  setcharprop #2,no-shield;
+  setcharprop #8,body7.png;
+  setcharprop #n,Luda ;
+  dir = 3;
+  x = x+.5;
+  setcharani idle,;
+  setcharani sit,;
+}
+if (playertouchsme) {message ...i can take you mighty ; sleep2; message;
+}
+NPCEND
+NPC stonechair.png 39 35
+// NPC made by Tatsumi Darkblade ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 42 31
+// Graal2002 NPC by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,classichead-newcappa.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,orange;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield;
+  setcharprop #8,body.png;
+  setcharprop #n,cappa Coterie (Ventrue);
+  dir = 2;
+  x = x+.5;
+  setcharani idle,;
+setcharani sit,;
+}
+if (playertouchsme) {message Now, now, lets keep the peace!; sleep2; message;
+}
+NPCEND
+NPC stonechair.png 43 38
+// NPC made by Tatsumi Darkblade ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 47 34
+// Graal2002 NPC by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head420.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,gray;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield;
+  setcharprop #8,body3.png;
+  setcharprop #n,»Mîghtÿ;
+  dir = 1;
+  x = x-.5;
+  setcharani idle,;
+  setcharani sit,;
+}
+if (playertouchsme) {message Bring it!; sleep2; message;
+}
+NPCEND
+NPC stonechair.png 47 35
+// NPC made by Tatsumi Darkblade ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {dontblock; drawunderplayer;
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC treetopgreen.png 37 41
+// NPC made by Bell Ðarkmåne (Ventrue)
+//#CLIENTSIDE
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND

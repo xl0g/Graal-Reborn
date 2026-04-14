@@ -1,0 +1,609 @@
+GLEVNW01
+BOARD 0 0 64 0 X2WnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnXW
+BOARD 0 1 64 0 WXW3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3WX
+BOARD 0 2 64 0 WXW3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3WX
+BOARD 0 3 64 0 WXW3W3W3W3W3W3X2WnWnWnWnWnXWW3X2WnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnXWW3X2WnWnWnWnWnXWW3W3W3W3WX
+BOARD 0 4 64 0 WXW3W3W3W3W3W3WXXHXHXHXHXHWXW3WXW3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3W3WXW3WXXHXHXHXHXHWXW3W3W3W3WX
+BOARD 0 5 64 0 WXW3W3W3W3X2WnXmTwTwTwTwTwXVWnXWmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnX2WnXmTwTwTwTwTwXVWnXWW3W3WX
+BOARD 0 6 64 0 WXXHXHXHXHWXXHTwTwTwTwTwTwTwXHWXm2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3WXXHTwTwTwTwTwTwTwXHWXW3W3WX
+BOARD 0 7 64 0 WXf/f/f/f/WXTwTwTwTwTwTwTwTwTwWXmmmnX2WnWnWnWnWnWnWnWnWnWnWnWnXWmmmnX2WnWnWnWnWnWnWnWnWnWnWnWnXWmmmnWXTwTwTwTwTwTwTwTwTwWXXHXHWX
+BOARD 0 8 64 0 WXf/f/f/f/WXTwTwTwTwTwTwTwTwTwWXm2m3WXW3W3W3W3W3W3W3W3W3W3W3W3ioipiqirW3W3W3W3W3W3W3W3W3W3W3W3WXm2m3WXTwTwTwTwTwTwTwTwTwWXf/f/WX
+BOARD 0 9 64 0 WXf/f/f/f/WXTwTwTwTwTwTwTwTwTwWXmmmnWXW3W3W3W3W3W3W3W3W3eOePW3i4i5i6i7W3eOePW3W3W3W3W3W3W3W3W3WXmmmnWXTwTwTwTwTwTwTwTwTwWXf/f/WX
+BOARD 0 10 64 0 WXf/f/f/f/XVWnXWioipibiqirX2WnXmm2m3WXW3W3W3W3W3W3W3W3W3eeefW3jIjJjKjLW3eeefW3W3W3W3W3W3W3W3W3WXm2m3XVWnXWioipibiqirX2WnXmf/f/WX
+BOARD 0 11 64 0 WXf/f/f/f/W3W3WXi4i5ibi6i7WXW3W3mmmnWXXHXHXHXHXHXHXHXHXHeuevXHjYjZjajbXHeuevXHXHXHXHXHXHXHXHXHWXmmmnGCW3WXi4i5ibi6i7WXW3F1ABf/WX
+BOARD 0 12 64 0 WXf/f/f/f/W3W3XVWnWnWnWnWnXmW3W3m2m3WXnWnWnWnWnWnWnWnWnWe+e/nWn3cdcdn2nWe+e/nWnWnWnWnWnWnWnWnWWXm2m3GCW3XVWnWnWnWnWnXmW3F1f/f/WX
+BOARD 0 13 64 0 WXf/f/f/f/W3W3W3W3W3W3W3W3W3W3W3mmmnWXcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdWXmmmnGCW3GCW3W3W3W3W3F1W3F1f/f/WX
+BOARD 0 14 64 0 WXf/f/f/f/W3W3W3W3iLiLiLW3W3W3W3m2m3WXcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdWXm2m3GCW3GCW3iLiLiLW3F1W3F1f/f/WX
+BOARD 0 15 64 0 WXf/f/AAABW3W3W3W3iLiLiLW3W3W3W3mmmnWXcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdWXmmmnGCW3GCW3iLiLiLW3F1W3F1f/f/WX
+BOARD 0 16 64 0 WXf/f/f/nmW3W3W3W3ibibibW3W3W3W3m2m3WXcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdWXm2m3GCW3GCW3ibibibW3F1W3F1f/f/WX
+BOARD 0 17 64 0 WXf/f/f/nHW3W3W3W3C6C5C6W3W3W3XHmmmnWXcdcdcdcdcdcdcdcdcdcdcdcd0I0J0I0JcdcdcdcdcdcdcdcdcdcdcdcdWXmmmnGCW3GCW3C6C5C6W3F1W3F1nnAAWX
+BOARD 0 18 64 0 WXAAABf/nHW3W3W3W3W3W3W3W3W3W3WXm2m3WXcdcdcdcdcdcdcdcdcdcdcdcdxn1o1pxkcdcdcdcdcdcdcdcdcdcdcdcdWXm2m3WXW3GCW3W3W3W3W3F1W3F1nGf/WX
+BOARD 0 19 64 0 WXf/f/f/nHW3W3W3W3W3W3W3W3W3W3WXmmmnWXcdcdcdcdcdcdcdcdcdcdcdcdx32H2Ix0cdcdcdcdcdcdcdcdcdcdcdcdWXmmmnWXW3GCW3W3W3W3W3F1W3F1nGf/WX
+BOARD 0 20 64 0 WXf/f/f/nHW3W3W3W3W3W3W3W3W3W3WXm2m3WXcdcdcdcdcdcdcdcdcdcdcdcd2W2X2Y2ZcdcdcdcdcdcdcdcdcdcdcdcdWXm2m3WXW3GCW3W3W3W3W3F1W3F1nGf/WX
+BOARD 0 21 64 0 WXf/f/f/nHW3W3W3W3iLiLiLW3W3W3WXmmmnWXcdcdcdcdcdcdcdcdcdcdcdcd2m2n2o2pcdcdcdcdcdcdcdcdcdcdcdcdWXmmmnWXW3GCW3iLiLiLW3F1W3F1nGf/WX
+BOARD 0 22 64 0 WXf/f/f/nHW3W3W3W3iLiLiLW3W3W3WXm2m3WXcdcdcdcdcdcdcdcdcdcdcdcd1Hcdcd1HcdcdcdcdcdcdcdcdcdcdcdcdWXm2m3WXW3GCW3iLiLiLW3F1W3F1nGf/WX
+BOARD 0 23 64 0 WXf/g1f/nHW3W3W3W3ibibibW3W3W3WXmmmnWXcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdWXmmmnWXW3GCW3ibibibW3F1W3F1nGf/WX
+BOARD 0 24 64 0 WXf/f/f/nHW3W3W3W3C6C5C6W3W3W3WXm2m3WXcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdWXm2m3WXW3GCW3C6C5C6W3F1W3F1nGf/WX
+BOARD 0 25 64 0 WXf/f/f/nHn2XHW3X2WnWnWnXWW3XHWXmmmnWXcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdWXmmmnWXXHGCX2WnWnWnXWF1XHn3nGf/WX
+BOARD 0 26 64 0 WXf/f/f/n2nWnlW3WXR/YIZyWXW3nkWXm2m3WXcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdWXm2m3WXnlGCWXR/YIZyWXF1nknWn3f/WX
+BOARD 0 27 64 0 WXf/f/f/f/f/nHn2WXSPYYaCWXn3nGWXmmmnWXcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdWXmmmnWXnHn2WXSPYYaCWXn3nGf/f/f/WX
+BOARD 0 28 64 0 WXf/f/f/f/f/n2nWn3f/f/f/n2nWn3WXm2m3WXcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdWXm2m3WXn2nWn3f/f/f/n2nWn3f/f/f/WX
+BOARD 0 29 64 0 WXf/f/f/f/f/f/g2f/f/AAABf/f/f/WXmmmnXVWnWnWnWnWnWnWnWnWnXWcdcdcdcdcdcdcdcdX2WnWnWnWnWnWnWnWnWnXmmmmnWXf/f/f/f/f/f/f/f/AAAAf/AAWX
+BOARD 0 30 64 0 WXf/f/f/f/f/f/f/f/f/f/AAf/f/f/WXm2m3m2W3W3W3W3W3W3W3W3W3WXcdcdcdcdcdcdcdcdWXW3W3W3W3W3W3W3W3W3m3m2m3WXAAAAABf/f/f/f/f/f/f/f/f/WX
+BOARD 0 31 64 0 WXf/f/f/f/f/f/f/f/f/f/f/f/f/f/WXmmmnmmmnmmmnmmmnmmmnmmmnWXcdcdcdcdcdcdcdcdWXmmmnmmmnmmmnmmmnmmmnmmmnWXg2f/f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 32 64 0 Xmf/f/f/f/f/g1f/f/f/f/f/ABAAABWXm2m3m2m3m2m3m2m3m2m3m2m3WXcdcdcdcdcdcdcdcdWXm2m3m2m3m2m3m2m3m2m3m2m3WXf/f/f/f/f/f/f/f/ABf/f/f/WX
+BOARD 0 33 64 0 W3f/f/f/f/f/f/f/f/f/f/f/f/f/f/XVC5C6C5C6C5C6C5C6C5C6WnWnXmcdcdcdcdcdcdcdcdXVWnWnC5C6C5C6C5C6C5C6C5C6Xmf/f/f/f/f/f/f/ABf/f/f/f/WX
+BOARD 0 34 64 0 W3f/f/f/f/f/f/f/f/f/f/f/f/f/f/W3W3W3W3W3W3W3W3W3W3W3W3W3W3cdcdcdcdcdcdcdcdW3W3W3W3W3W3W3W3W3W3W3W3W3W3f/f/f/f/f/f/f/g1f/f/f/f/WX
+BOARD 0 35 64 0 W3f/f/f/f/f/f/f/f/f/f/f/f/f/f/W3W3W3W3W3W3W3W3W3W3W3eOePW3cdcdcdcdcdcdcdcdW3eOePW3W3W3W3W3W3W3W3W3W3W3AAABf/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 36 64 0 W3f/f/f/g1f/f/f/f/f/f/f/f/f/f/W3W3W3W3W3W3W3W3W3W3W3eeefW3cdcdcdcdcdcdcdcdW3eeefW3W3W3W3W3W3W3W3W3W3W3f/f/f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 37 64 0 W3f/f/f/f/f/f/f/f/f/AAABf/f/f/f/XHXHXHXHXHXHXHXHXHXHeuevnXnXnXnXnXnXnXnXnXnXeuevXHXHXHXHXHXHXHXHXHXHf/f/g3f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 38 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/e+e/f/f/f/f/f/f/f/f/f/f/e+e/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 39 64 0 f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/WX
+BOARD 0 40 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 41 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAf/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 42 64 0 f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/WX
+BOARD 0 43 64 0 f/f/f/f/f/f/f/f/f/g1f/f/f/ABf/f/f/f/f/f/AAf/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/g3f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/f/f/WX
+BOARD 0 44 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/AAf/f/f/f/f/f/AAABf/f/f/f/f/f/f/g3f/f/f/f/f/f/WX
+BOARD 0 45 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/WX
+BOARD 0 46 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 47 64 0 f/f/f/f/f/f/f/f/f/AAf/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 48 64 0 XWf/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/ABf/f/f/f/AAABf/f/f/AAABg1f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABAAABf/AAf/f/WX
+BOARD 0 49 64 0 WXf/f/f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ABf/f/f/f/AAABf/f/f/AAABg1AAABf/f/f/f/WX
+BOARD 0 50 64 0 WXf/f/f/AAABf/f/f/f/f/f/ABf/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/g2g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 51 64 0 WXg1f/f/f/f/f/f/f/f/f/f/ABf/f/f/f/AAABf/f/g1f/f/f/f/f/f/f/f/AAABf/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/f/f/WX
+BOARD 0 52 64 0 WXf/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/AAABf/f/g1f/f/f/AAABf/f/AAABf/f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 53 64 0 WXf/g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/g3f/f/f/f/AQf/ABf/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/AAf/f/WX
+BOARD 0 54 64 0 WXABf/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/AAABf/ABf/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/g3f/f/f/f/AQf/f/f/f/f/f/f/WX
+BOARD 0 55 64 0 WXABf/f/f/f/AAABf/f/f/AAf/f/f/f/f/f/f/f/f/ABf/f/f/f/AAABf/f/f/AAABg1AAABf/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/WX
+BOARD 0 56 64 0 WXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g3f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/f/f/f/f/f/WX
+BOARD 0 57 64 0 WXf/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/f/f/f/f/f/AAABf/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 58 64 0 WXf/f/AAABf/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/AAf/f/f/f/f/WX
+BOARD 0 59 64 0 WXf/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/AAf/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/AAf/f/f/f/f/f/f/f/f/g3f/f/f/f/AQf/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 60 64 0 WXf/f/f/f/f/f/g3f/f/f/f/AQf/f/f/f/f/f/f/f/f/f/f/f/f/f/g3f/f/f/f/AQf/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/f/f/f/WX
+BOARD 0 61 64 0 WXAAABf/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 62 64 0 WXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/WX
+BOARD 0 63 64 0 XVWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnXm
+LINK gc_battlegrounds_02.nw 0 39 1 9 61 playery
+LINK gc_battlegrounds_redinside_01.nw 54 12 3 1 25.5 35.5
+LINK gc_battlegrounds_redinside_01.nw 54 13 3 1 25.5 49.5
+LINK gc_battlegrounds_redinside_04.nw 9 13 3 1 25.5 49.5
+LINK gc_battlegrounds_redinside_04.nw 9 12 3 1 25.5 35.5
+NPC - 31 19
+join gc_bg_systems;
+function onSlash(){
+  if(player.guild=="Babord Infantry"){
+    for (pobj: allplayers) {
+      if (pobj.level.starts("gc_battlegrounds_")) {
+        player.fullheal();
+        if (pobj.guild == "Game Coordinator") {
+          pobj.chat := "Babord Wins!";
+          clink=findNPC("gc_rankings");
+          (clink.("gc_" @ pobj.account @ "_bghosted"))++;
+          pobj.setlevel2("gc_waitingroom_01.nw",52,9.5);
+        }
+        elseif (pobj.guild == "Babord Infantry") {
+          pobj.chat := "Babord Wins!";
+          clink=findNPC("gc_rankings");
+          (clink.("gc_" @ pobj.account @ "_bg_wins"))++;
+          pobj.setlevel2("gc_waitingroom_01.nw",52,9.5);
+        }
+        else {
+          pobj.chat := "Babord Wins!";
+          clink=findNPC("gc_rankings");
+          (clink.("gc_" @ pobj.account @ "_bg_losses"))++;
+          pobj.setlevel2("gc_gc_01.nw",31.5,32);
+        }
+      }
+    }
+  }
+}
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head405.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,darkred;
+  setcharprop #C3,red;
+  setcharprop #C4,brown;
+  setcharprop #2,shield1.gif;
+  setcharprop #P1,hat16.png;
+  setcharprop #8,bodyc-sage2.mng;
+  shieldpower = 1;
+  dir = 2;
+  setcharani sit,;
+  x=31.5;
+}
+NPCEND
+NPC gate1.png 28 30
+function onCreated(){
+  y=30.25;
+  this.dhearts=900;
+  chat="HP: " @ int((this.dhearts/900)*100) @ "%";
+  serverr.gc_bg_stats[3] = int((this.dhearts/900)*100) @ "%";
+  setTimer(1);
+}
+function onPlayerChats(){
+  if (player.guild == "Game Coordinator")
+    if (player.chat == "/reset"){
+    this.dhearts=900;
+    chat="HP: " @ int((this.dhearts/900)*100) @ "%";
+    serverr.gc_bg_stats[3] = int((this.dhearts/900)*100) @ "%";
+    show();
+  }
+}
+function onSlash(){
+  if(this.dhearts > 0 && player.guild == "Babord Infantry"){
+    this.dhearts -= 1;
+    chat="HP: " @ int((this.dhearts/900)*100) @ "%";
+    serverr.gc_bg_stats[3] = int((this.dhearts/900)*100) @ "%";
+    setTimer(1.5);
+  }
+  if(this.dhearts == 0){
+    setimg("gate2.png");
+    clink=findNPC("gc_rankings");
+    (clink.("gc_" @ player.account @ "_bg_gates"))++;
+    serverr.gc_bg_stats[3] = int((this.dhearts/900)*100) @ "%";
+    setTimer(1.5);
+  }
+}
+function onTimeOut(){
+  if(this.dhearts<900 && this.dhearts != 0 && serverr.gc_bgbalanced = "true"){
+
+    this.dhearts ++;
+    chat="HP: " @ int((this.dhearts/900)*100) @ "%";
+    serverr.gc_bg_stats[3] = int((this.dhearts/900)*100) @ "%";
+  }
+  setTimer(.02);
+}
+//#CLIENTSIDE
+if(strequals(#g,Destiny Knights)){
+  dontblock;
+}
+NPCEND
+NPC classic_gcbgpiece2.png 40 33
+// NPC made by Non-stereotypical Arab
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gcbgpiece2.png 16 33
+// NPC made by Non-stereotypical Arab
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_tower_corners.png 15 34
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,65,16,112;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 60 14
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 13 16
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 60 19
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,16,16,112;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 50 34
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,65,16,112;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 60 10
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 5 14
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 50 13
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 50 10
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 50 10
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 52 12
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 52 16
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 52 21
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,16,16,112;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 58 21
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,16,16,112;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 58 16
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 58 12
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 7 16
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 5 10
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 7 12
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 7 12
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 5 19
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,16,16,112;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 15 10
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 13 12
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 15 13
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,0,16,80;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 7 21
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,16,16,112;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 0 33
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,31,16,112;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 13 21
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,16,16,112;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 18 30
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 47 30
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 13 6
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 7 6
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 52 6
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 58 6
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 56 21
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 54 21
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 11 21
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 9 21
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 37 37
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 28 37
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 56 14
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 54 14
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_gcbgpiece3.png 54 17
+// NPC made by N
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gcbgpiece3.png 9 17
+// NPC made by N
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_tower_corners.png 9 14
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,16,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_tower_corners.png 11 14
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_tower_corners.png,0,112,16,32;
+  setcoloreffect 123/255*(1+.3),189/255*(1+.3),148/255*(1+.3),1;
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_gcbgpiece3.png 54 24
+// NPC made by N
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC classic_gcbgpiece3.png 9 24
+// NPC made by N
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 9 20
+function onCreated(){
+  setshape(1,48,16);
+}
+function onPlayerTouchsMe(){
+ setlevel2("gc_battlegrounds_redinside_05.nw",25.5,50.5);
+}
+NPCEND
+NPC - 54 20
+function onCreated(){
+  setshape(1,48,16);
+}
+function onPlayerTouchsMe(){
+ setlevel2("gc_battlegrounds_redinside_02.nw",25.5,50.5);
+}
+NPCEND

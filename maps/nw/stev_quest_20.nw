@@ -1,0 +1,479 @@
+GLEVNW01
+BOARD 0 0 64 0 iBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAyLp4p4p4p4yLiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiA
+BOARD 0 1 64 0 iBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAyLp4p4p4p4yLiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiA
+BOARD 0 2 64 0 iBiAx7y5y5y5y5y5y5y5x7iAiBiAx7y5y5y5x7p4p4p4p4x7y5y5y5x7iAiBx7y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5x7iBiAiBiAiBiA
+BOARD 0 3 64 0 iBiAyLp4p4p4p4p4p4p4yLiAiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiAiBiAiBiA
+BOARD 0 4 64 0 iBiAyLp4p4p4p4p4p4p4yLiAiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiAiBiAiBiA
+BOARD 0 5 64 0 iBiAyLp4p4p4p4p4p4p4yLiAiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4x7y5y5y5y5y5y5
+BOARD 0 6 64 0 iBiAyLp4p4p4p4p4p4p4yLiAiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 7 64 0 iBiAx7y5y5x7p4x7y5y5x7iAiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 8 64 0 iBiAiBiAiByLp4yLiBiAiBiAiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 9 64 0 iBiAiBiAiByLp4yLiBiAiBiAiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4
+BOARD 0 10 64 0 iBiAx7y5y5x7p4x7y5y5y5y5y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4x7y5y5y5y5y5y5y5y5y5y5x7p4p4p4p4x7y5y5y5y5y5y5
+BOARD 0 11 64 0 iBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4yLiBiAiBiAiBiAiBiAiBiAyLp4p4p4p4yLiBiAiBiAiBiA
+BOARD 0 12 64 0 iBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4yLiBiAiBiAiBiAiBiAiBiAyLp4p4p4p4yLiBiAiBiAiBiA
+BOARD 0 13 64 0 iBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4x7y5y5y5y5y5y5y5y5y5y5x7p4p4p4p4x7y5y5y5x7iBiA
+BOARD 0 14 64 0 iBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 15 64 0 iBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 16 64 0 iBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiAiBx7y5y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 17 64 0 iBiAyLp4p4p4p4p4p4p4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4yLiAiBiAiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 18 64 0 iBiAyLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4yLiAiBiAiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 19 64 0 iBiAyLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4yLiAiBx7y5y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 20 64 0 iBiAyLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4x7y5y5x7iBiA
+BOARD 0 21 64 0 iBiAx7y5x7p4p4p4x7y5y5y5y5y5y5x7iAiByLp4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiAiBiAiBiA
+BOARD 0 22 64 0 iBiAiBiAyLp4p4p4yLiBiAiBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiAiBiAiBiA
+BOARD 0 23 64 0 iBiAiBiAyLp4p4p4yLiBiAiBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4x7y5y5x7iBiA
+BOARD 0 24 64 0 iBiAx7y5x7p4p4p4x7y5x7iBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 25 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4yLiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 26 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4yLiBiAyLp4p4p4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 27 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4yLiBiAyLp4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 28 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiBx7y5y5y5x7p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiAyLp4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 29 64 0 iBiAyLp4p4p4p4p4x7y5x7iBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 30 64 0 iBiAyLp4p4p4p4p4yLiBiAiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 31 64 0 iBiAyLp4p4p4p4p4yLiBiAiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 32 64 0 iBiAyLp4p4p4p4p4x7y5x7iBiAiBx7y5y5y5x7p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 33 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 34 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 35 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiBx7y5y5y5x7p4p4p4p4p4p4p4p4yLiAiByLp4p4x7y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4x7y5y5y5x7iBiA
+BOARD 0 36 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4yLiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiAiBiAiBiA
+BOARD 0 37 64 0 iBiAx7y5x7p4p4p4p4p4yLiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4yLiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiAiBiAiBiA
+BOARD 0 38 64 0 iBiAiBiAyLp4p4p4p4p4yLiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4x7y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4x7y5y5y5x7iBiA
+BOARD 0 39 64 0 iBiAiBiAyLp4p4p4p4p4yLiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 40 64 0 iBiAx7y5x7p4p4p4p4p4yLiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 41 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4yLiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 42 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiAyLp4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 43 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiAyLp4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 44 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiBx7y5y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 45 64 0 iBiAyLp4p4p4p4p4x7y5x7iBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 46 64 0 iBiAyLp4p4p4p4p4yLiBiAiBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 47 64 0 iBiAyLp4p4p4p4p4yLiBiAiBiAiBx7y5y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 48 64 0 iBiAyLp4p4p4p4p4x7y5x7iBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiAyLp4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 49 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiAyLp4p4p4p4yLiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 50 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiByLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4x7y5y5x7p4p4p4p4yLiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 51 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiBx7y5y5y5x7p4p4p4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 52 64 0 iBiAyLp4p4p4p4p4p4p4yLiBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4yLiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 53 64 0 iBiAx7y5x7p4p4p4p4p4yLiBiAiBiAiBiAiByLp4p4p4p4p4p4p4p4yLiBiAyLp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 54 64 0 iBiAiBiAyLp4p4p4p4p4yLiBiAiBx7y5y5y5x7p4p4p4p4p4p4p4p4x7y5y5x7p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yLiBiA
+BOARD 0 55 64 0 iBiAiBiAyLp4p4p4p4p4yLiBiAiByLvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFvEvFyLiBiA
+BOARD 0 56 64 0 x7y5y5y5x7p4p4p4p4p4yLiBiAiByLtCtCtCtCtCtCtCtStCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtDtEtCtCtCtCtCtCtCyLiBiA
+BOARD 0 57 64 0 p4p4p4p4p4p4p4p4p4p4yLiBiAiByLtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtDtEtCtCtCtCtCtCtCtCtCtStCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCyLiBiA
+BOARD 0 58 64 0 p4p4p4p4p4p4p4p4p4p4yLiBiAiByLtCtCtCtStCtCtCtDtEtCtCtCtCtCtCtCtCtCtCtCtCtCtCtStCtCtCtCtCtCtCtCtDtEtCtCtCtCtCtStCtCtCtCtCtCyLiBiA
+BOARD 0 59 64 0 p4p4p4p4p4p4p4p4p4p4yLiBiAiByLtCtCtCtCtCtCtCtCtCtCtCtCtCtStCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtStCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtDyLiBiA
+BOARD 0 60 64 0 p4p4p4p4p4p4p4p4p4p4yLiBiAiByLtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtStCtCtCtCtCtCtCtCtCtCtCtCtCtCtStCtCtCtCtCtCtCtCtCtCtCyLiBiA
+BOARD 0 61 64 0 x7y5y5y5y5y5y5y5y5y5x7iBiAiBx7y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5y5x7iBiA
+BOARD 0 62 64 0 iBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiA
+BOARD 0 63 64 0 iBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiAiBiA
+LINK stev_quest_20.nw 15 56 46 1 0 58
+LINK stev_quest_21.nw 63 6 1 4 23 31
+LINK stev_quest_19.nw 0 57 1 4 61 9
+NPC classic_bowmansouth.png 5 4
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  setshape 1,33,48;
+  x=x+.3;
+}
+if (playerenters) {
+  timeout = 0.05;
+}
+if (timeout) {
+  shootarrow down;
+  sleep 2;
+  timeout = 0.05;
+  return;
+}
+NPCEND
+NPC classic_bowmanwest.png 12 18
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  setshape 1,48,48;
+}
+if (playerenters) {
+  timeout = 0.05;
+}
+if (timeout) {
+  shootarrow left;
+  sleep 2;
+  timeout = 0.05;
+  return;
+}
+NPCEND
+NPC classic_fallingblock.png 19 -1
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,64;
+}
+if (playerenters) {
+  timeout =0.05;
+}
+if (timeout) {
+  y = -1;
+  sleep 0.05;
+  y = 0;
+  sleep 0.05;
+  y = 1;
+  sleep 0.05;
+  y = 2;
+  sleep 0.05;
+  y = 3;
+  sleep 0.05;
+  y = 4;
+  sleep 0.05;
+  y = 5;
+  sleep 0.05;
+  y = 6;
+  sleep 0.05;
+  y = 7;
+  sleep 0.05;
+  y = 8;
+  sleep 0.05;
+  y = 53;
+  sleep 0.05;
+  putleaps 2,x,y;
+  putleaps 2,x+1,y+1;
+  putleaps 2,x+2,y;
+  putleaps 2,x,y+2;
+  putleaps 2,x+2,y+2;
+  y = -2;
+  timeout = 0.05;
+  return;
+
+}
+//You get the idea of this script! When the y = 53 or so, the rock breaks and another spawns! Improve it!
+NPCEND
+NPC - 12 7
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #2,shield1.gif;
+  shieldpower = 1;
+  dir = 2;
+  setcharprop #c,IMPROVE THIS SCRIPT ->;
+}
+NPCEND
+NPC classic_fallingblock.png 41 35
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,64;
+}
+if (playerenters) {
+  show;
+}
+if (exploded) {
+  putleaps 2,x,y;
+  putleaps 2,x+1,y+1;
+  putleaps 2,x+2,y;
+  putleaps 2,x,y+2;
+  putleaps 2,x+2,y+2;
+  hide;
+}
+NPCEND
+NPC barrel.png 41 32
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  setshape 1,32,48;
+}
+if (playerenters) {
+  show;
+}
+if (playertouchsme) {
+  putexplosion2 2,2,x,y;
+  putleaps 3,x,y;
+  hide;
+}
+if (exploded) {
+  putexplosion2 2,2,x,y;
+  putleaps 3,x,y;
+  hide;
+}
+NPCEND
+NPC barrel.png 43 32
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  setshape 1,32,48;
+}
+if (playerenters) {
+  show;
+}
+if (playertouchsme) {
+  putexplosion2 2,2,x,y;
+  putleaps 3,x,y;
+  hide;
+}
+if (exploded) {
+  putexplosion2 2,2,x,y;
+  putleaps 3,x,y;
+  hide;
+}
+NPCEND
+NPC classic_stevspike.png 59 34
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+if (playertouchsme) {
+  setlevel2 stev_quest_20.nw,0,59;
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_stevspike.png,0,0,32,16;
+  drawunderplayer;
+  setshape 1,32,16;
+}
+if (playerenters) {
+  timeout = 0.05;
+}
+if (timeout) {
+  timereverywhere;
+  show;
+  sleep 1;
+  hide;
+  sleep 1;
+  show;
+  timeout = 1;
+  return;
+}
+NPCEND
+NPC classic_stevspike.png 57 34
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+if (playertouchsme) {
+  setlevel2 stev_quest_20.nw,0,59;
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_stevspike.png,0,0,32,16;
+  drawunderplayer;
+  setshape 1,32,16;
+}
+if (playerenters) {
+  timeout = 0.05;
+}
+if (timeout) {
+  timereverywhere;
+  show;
+  sleep 1;
+  hide;
+  sleep 1;
+  show;
+  timeout = 1;
+  return;
+}
+NPCEND
+NPC classic_bowmaneast.png 15 29
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  setshape 1,48,48;
+}
+if (playerenters) {
+  timeout = 0.05;
+}
+if (timeout) {
+  shootarrow right;
+  sleep 2;
+  timeout = 0.05;
+  return;
+}
+NPCEND
+NPC classic_bowmaneast.png 15 48
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  setshape 1,48,48;
+}
+if (playerenters) {
+  timeout = 0.05;
+}
+if (timeout) {
+  shootarrow right;
+  sleep 2;
+  timeout = 0.05;
+  return;
+}
+NPCEND
+NPC classic_fallingblock.png 53 10
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  setshape 1,64,64;
+}
+if (playerenters) {
+  show;
+}
+if (playertouchsme) {
+  putleaps 2,x,y;
+  putleaps 2,x+1,y+1;
+  putleaps 2,x+2,y;
+  putleaps 2,x,y+2;
+  putleaps 2,x+2,y+2;
+  hide;
+}
+NPCEND
+NPC classic_stevspike.png 37 23
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+if (playertouchsme) {
+  setlevel2 stev_quest_20.nw,0,59;
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_stevspike.png,0,0,32,16;
+  drawunderplayer;
+  setshape 1,32,16;
+}
+if (playerenters) {
+  timeout = 0.05;
+}
+if (timeout) {
+  timereverywhere;
+  show;
+  sleep 1;
+  hide;
+  sleep 1;
+  show;
+  timeout = 1;
+  return;
+}
+NPCEND
+NPC classic_stevspike.png 39 23
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+if (playertouchsme) {
+  setlevel2 stev_quest_20.nw,0,59;
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_stevspike.png,0,0,32,16;
+  drawunderplayer;
+  setshape 1,32,16;
+}
+if (playerenters) {
+  timeout = 0.05;
+}
+if (timeout) {
+  timereverywhere;
+  show;
+  sleep 1;
+  hide;
+  sleep 1;
+  show;
+  timeout = 1;
+  return;
+}
+NPCEND
+NPC classic_stevspike.png 38 23
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+if (playertouchsme) {
+  setlevel2 stev_quest_20.nw,0,59;
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_stevspike.png,0,0,32,16;
+  drawunderplayer;
+  setshape 1,32,16;
+}
+if (playerenters) {
+  timeout = 0.05;
+}
+if (timeout) {
+  timereverywhere;
+  show;
+  sleep 1;
+  hide;
+  sleep 1;
+  show;
+  timeout = 1;
+  return;
+}
+NPCEND
+NPC - 11 53
+join("gc_tool_grav");
+NPCEND
+NPC classic_bowmanwest.png 58 17
+// NPC made by Stev (LAT)
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  setshape 1,48,48;
+}
+if (playerenters) {
+  timeout = 0.05;
+}
+if (timeout) {
+  shootarrow left;
+  sleep 2;
+  timeout = 0.05;
+  return;
+}
+NPCEND
+NPC - 10 30
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #2,shield1.gif;
+  shieldpower = 1;
+  dir = 2;
+  setcharprop #c,Arrows should hurt :S;
+}
+NPCEND
+NPC - 38 30
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #2,shield1.gif;
+  shieldpower = 1;
+  dir = 2;
+  setcharprop #c,Explosion should hurt :S;
+}
+NPCEND
+NPC classic_stevspike.png 15 43
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+if (playertouchsme) {
+  setlevel2 stev_quest_20.nw,0,58;
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_stevspike.png,0,0,32,16;
+  drawunderplayer;
+  setshape 1,32,16;
+}
+NPCEND
+NPC classic_stevspike.png 17 43
+// NPC made by Steven Darkshire ¤Tal'mahe'Ra¤ (Ventrue)
+if (playertouchsme) {
+  setlevel2 stev_quest_20.nw,0,58;
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart classic_stevspike.png,0,0,32,16;
+  drawunderplayer;
+  setshape 1,32,16;
+}
+NPCEND

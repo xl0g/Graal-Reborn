@@ -1,0 +1,617 @@
+GLEVNW01
+BOARD 0 0 64 0 ceccccmI6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6smJcecccccccccccccccccccc
+BOARD 0 1 64 0 cccecc6d6K6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6b6cccccccccccceccccceGOGO
+BOARD 0 2 64 0 cecccc6d6cNqNqNrNqNqNrNqNrN6N7NrNqNqNrNqNqNrNqNrNrN6N7N7N7N7N7N7NrNrNqNqNqNrNqNqNqNrN6N7NrNrNqNqNqNqNr6d6cccccccceGOGOccceGOGOGO
+BOARD 0 3 64 0 GOceGO6d6cNqNqNrNqNqNrNqUqIdIdUpNqNqNrNqNqNrNqNqUqIdIdIdIdIdIdIdUpNqNqNqNqNrNqNqNqUqIdIdUpNrNqNqNqNqNr6d6cccccGOGOGOGOccGOGOGOGO
+BOARD 0 4 64 0 GOGOGO6d6cNqNqJeJfNqNrNqUqItItUpNqNqNrJeJfNrNqNqUqItItItItItItItUpNqNqNqJeJfNqNqNqUqItItUpNrNqNqJeJfNr6d6cccceGOGOGOGOGOGOGOGOGO
+BOARD 0 5 64 0 GOH1GO6d6cNqNqJuJvNqNrNqNqNqNqNrNqNqNrJuJvNrNqNqNqNqNqNqNqNqNqNqNrNrNqNqJuJvNqNqNqNqNrNqNqNrNqNqJuJvNr6d6cGOGOGOGOGOGOGOGOGOGOGO
+BOARD 0 6 64 0 GOGOGO6d6cN6N6J+J/N6N7N6N6N6N6N7N6N6N7J+J/N7N6N6N6N6N6N6N6N6N6N6N6N7N6N6J+J/N6N6N6N6N7N6N6N7N6N6J+J/N76d6cGOGOGOGOH1GOGOGOGOGOGO
+BOARD 0 7 64 0 GOGOGO6d6cGOGOGOGOHIFCFCFCFCHVHWFCG5GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHJFCFCFCFCFCFDFEFCFCFCFC6d6cGOGOGOGOGOGOGOGOGOGOGO
+BOARD 0 8 64 0 GOGOGO6d6ceOePGOGOHJFCFCFCFCHlHmG5GOGOGOGOGOGOGOGOGOGOGOHIH6GOGOGOGOGOGOGOGOGOGOGoG5HJFCFCFCFCFCFCFCFC6d6cGOGOGOGOHIHYHZGPGOGOGO
+BOARD 0 9 64 0 GOGOGO6d6ceeefGOGOGOHJG5HJGYGZFCH6GOGOH1GOGOGOGOGOGOGOGOHJFCH6GOGOGOH1GOGOGOGOGOG4H6GOGoFCFCFCFCFCFCFC6d6cGOGOGOHIFCFCFCFCGPGOGO
+BOARD 0 10 64 0 GOGOGO6d6ceuevceccGOGOGOGOGOGOHJG5GOGOGOGOGOGOGOmI6s6s6s6s6s6smJGOGOGOGOGOGOGOmI6s6s6s6s6s6smJFCFCFCFC6d6cGOGOHIFCFCFDFEFCFCGPGO
+BOARD 0 11 64 0 GOGOGO6d6ce+e/ccccceGOGOGOGOGOGOGOGOGOGOGOGOGOHI6d6a6t6t6t6t6b6cGOGOGOGOGOGOHI6d6a6t6t6t6t6b6cFCFCFCFC6d6cGOHIFCFCFCFCFCFCFCGbGO
+BOARD 0 12 64 0 6s6s6s6r6q6s6s6s6s6s6s6s6s6sGOGO6s6s6s6s6s6s6s6s6r6cFCFCFCFC6d6q6s6s6s6s6s6s6s6r6cFCFCFCFC6d6q6s6s6s6s6r6q6s6s6s6s6s6s6s6s6s6s6s
+BOARD 0 13 64 0 6t6t6t6t6t6t6t6t6t6t6t6t6t6tGOGO6t6t6t6t6t6t6t6t6t8/FCFCFCFC8+6t6t6t6b6a6t6t6t6t8/FCFCFCFC8+6t6t6t6b6a6t6t6t6t6t6t6t6t6t6t6t6t6t
+BOARD 0 14 64 0 NrN6N7NrNrN6N7NrNrNqNqNqNqNqGOGONqNqNqNrNqNqNrNqNqNrNqNrNqNqNrNqNqNr6d6cNqNrNrNqNqNrNqNqNrNqNqNqNr6d6cNqNqNrN6N6N6N6N6N6N6N7NrNr
+BOARD 0 15 64 0 UqIdIdUpUqIdIdUpNrNqNqNqNqNqGOGONqNqNqNrNqNqNrNqNqNrNqNrNqNqNrNqNqNr6d6cNqNrNrNqNqNrNqNqNrNqNqNqNr6d6cNqNqUqIdIdIdIdIdIdIdIdUpNq
+BOARD 0 16 64 0 UqItItUpUqItItUpNrNqNqNqNqNqGOGONqNqNqNrNqNqNrNqNqNrNqNrNqNqNrNqNqNr6d6cNqNrNrNqNqNrNqNqNrNqJeJfNr6d6cNqNqUqItItItItItItItItUpNq
+BOARD 0 17 64 0 NrNqNqNqNqNrNqNqNrNqNqNqNqUqwLwLUpNrNqeOePNqNrNqNqNrNqNrNqNqNrNqNqNr6d6ceOePNrNqNqNrNqNqNrNqJuJvNr6d6cNqNqNrNqNqNqNqNqNqNqNqNrNq
+BOARD 0 18 64 0 N7N6N6N6N6N7N6N6N7N6N6N6N65dItIt5cN7N6eeefN6N7N6N6N7N6N7N6N6N7N6N6N76d6ceeefN7N6N6N7N6N6N7N6J+J/N76d6cN6N6N6N7N7N7N7N7N7N7N6N7N6
+BOARD 0 19 64 0 GOGOGOHJFCFCFCFCFCFCG5GOGOcecccccccccceuevceGOGOGOHIFCFCFCFCH6GOGOGO6d6ceuevceGoFCFDFCFCFCFCFCFCG56d6cGOGOHJFDFEFCGrGOGOGOGOHIFC
+BOARD 0 20 64 0 GOGOGOGOHJG5HJFCFCG5GOGOGOcccccecccccce+e/ccGOGOHIFCFDFCFCFCFCH6GOGO6d6ce+e/ccG4FCFCFCFCFCFCFCG5GO6d6cGOGOGOGoFCFCG5GOH1GOHIFCFC
+BOARD 0 21 64 0 GOH1GOGOGOGOGOGoFCH6GOGOGOGOceccccccceccceccGOGOHJFCFCFCFCFCFCGbGOGO6d6ccececcHJG5HJFCHVHWFCGbGOGO6d6cGOGOGOG4FCG5GOGOGOGOGoFCFC
+BOARD 0 22 64 0 GOGOGOGOGOGOGOG4FCG5GOGOceccccccceGOGOGOccGOGOGOHIFCFCFCFCFCFCGrGOGO6d6cccccGOGOGOGOGoHlHmFCGrGOGO6d6cGOH1GOHJFCH6HIH6GOGOG4FCFC
+BOARD 0 23 64 0 GOGOGOGOGOGOGOHJG5GOGOGOGOGOGOceccGOGOGOGOGOGOHIFCFCFCFCFCFCFCFCH6HI6d6cccH1GOGOGOGOG4FCG5HJG5GOGO6d6cGOGOGOGOGoFCFCFCH6HIFCFCFE
+BOARD 0 24 64 0 GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHJGYGZFCFCFCFCFCFCFCFE6d6cGOGOGOGOGOGOHJG5GOGOGOGOGO6d6cGOGOGOGOG4FCFCFCFCFCFCFCFC
+BOARD 0 25 64 0 GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHJFCFCFCFCHVHWFC6d6cGOGOGOGOGOGOGOGOGOGOGOH1GO6d6cGOGOGOGOHJG5HJFCFCFCFCFCFC
+BOARD 0 26 64 0 GOGOGOGOHIHYHZGPGOGOGOH1GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHJmI6s6s6s6s6s6r6cGOGOGOGOH1GOGOGOGOGOGOGOGO6d6cGOGOGOGOGOGOGOGoFDFEFCFCGY
+BOARD 0 27 64 0 GOGOGOHIFCFCFCGbGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHI6d6a6t6t6t6t6b6cGOGOGOGOGOGOGOGOGOGOGOGOGO6d6cGOGOGOGOGOGOGOG4FCG5HJG5GO
+BOARD 0 28 64 0 GOGOHIFCHVHWFCGrGOGOGOmI6s6s6s6s6s6s6s6s6s6sGOGO6s6s6s6s6r6cFCFCFCFC6d6q6s6s6sGOGO6s6s6s6smJGOGOGO6d6cGOGOeOePGOGOGOHJG5GOGOGOGO
+BOARD 0 29 64 0 GOGOGoFCHlHmFCGbGOGOGO6d6K6t6t6t6t6t6t6t6t6tGOGO6t6t6t6t6t8/FCFCFCFC8+6t6t6t6tGOGO6t6t6t6b6cGOGOGO6d6cGOGOeeefGOGOGOGOGOGOGOGOGO
+BOARD 0 30 64 0 GOGOG4FCFDFEFCGrGOGOHI6d6cNrN6N7NrNqNrNqNqNrGOGONqNrNqNqNrNqNqNrNqNqNqNqNrNqNqGOGONqNqNq6d6cGOGOGO6d6cGOGOeuevGOGOGOGOGOGOGOGOGO
+BOARD 0 31 64 0 GOGOGoFCFCFCFCG5GOHIFC6d6cUqIdIdUpNqNrNqNqNrGOGONqNrNqNqNrNqNqNrNqNqNqNqNrNqNqGOGONqNqNq6d6cGOGOHI6d6q6s6se+e/GOGO6s6s6s6s6s6smJ
+BOARD 0 32 64 0 GOGOG4FCFCFCG5GOGOGoFC6d6cUqItItUpNqNrNqNqNrGOGONqNrNqNqNrNqNqNrNqNqNqNqNrNqNqGOGONqNqNq6d6cGOHIFC8+6t6t6t6t6tGOGO6t6t6t6t6t6b6c
+BOARD 0 33 64 0 GOGOHJGYGZG5GOGOGOG4FC6d6cNqNrNrNqNqNrNqNqUqwLwLUpNrNqNqNrNqNqNrNqNqNqNqNrNqUqwLwLUpNqNq6d6cGOHJFCUpNqNrNqNqNqGOGONqNrNqNqNq6d6c
+BOARD 0 34 64 0 GOGOGOGOGOGOGOGOHIFCFC6d6cN6N7N7N6N6N7N6N65dItIt5cN7N6N6N7N6N6N7N6N6N6N6N7N65dItIt5cN6N66d6cGOGOHJUpNqNrNqNqNqGOGONqNrNqNqNq6d6c
+BOARD 0 35 64 0 GOGOGOGOGOGOGOHIFCHVHW6d6cGOGOHJFCFCH6GOceccccccccceHJFCFDFEFCFCFCFCFCFCH6GOGOccccccccGO6d6cGOGOGOUpNqNrNqNqNqGOGONqNrNqNqNq6d6c
+BOARD 0 36 64 0 GOGOGOGOGOGOGOHJFCHlHm6d6cGOH1GOHJFCFCH6GOGOceccccccGOHJFCFCFCFCFCFCFCFCG5GOccccccGOGOGO6d6cGOGOGOUpNqNrNqNqUqwLwLUpNrNqNqNq6d6c
+BOARD 0 37 64 0 GOGOGOGOGOGOGOGOGoFCFC6d6cGOGOGOHIFCFCG5GOGOccceccGOceHIFCG5HJFCFCFDFCGbGOccccccGOccGOGO6d6cGOGOGO5cN6N7N6N65dItIt5cN7N6N6N66d6c
+BOARD 0 38 64 0 GOGOH1GOGOGOGOGOG4FDFE6d6cHIHYHZFCFCGbGOGOceGOGOGOGOGOHJFCH6GOHJGYGZFCGrccGOceccGOGOGOGO6d6cGOGOGOG4FCFCFCG5GOceccccccccccce6d6c
+BOARD 0 39 64 0 GOGOGOGOGOGOGOGOHJFCFC6d6cFCFCFDFEFCGrGOGOGOGOGOGOGOGOGOHJG5GOGOGOGOHJG5GOGOGOceGOGOGOHI6d6cGOGOHIFCGYGZG5GOccccccccccceGOGO6d6c
+BOARD 0 40 64 0 GOGOGOGOGOGOGOGOGOGoFC6d6cFCFCFCFCFCG5GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOHIFC6d6cGOGOHJG5GOGOGOccceGOceGOccGOGOHI6d6c
+BOARD 0 41 64 0 GOGOGOGOGOGOGOGOGOG4FC6d6cFCFCFCFCGbGOGOGOGOGOH1GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGoFC6d6cGOGOGOGOGOGOceGOceGOGOGOceGOHIFC6d6c
+BOARD 0 42 64 0 GOGOGOGOGOGOGOGOHIFCFC6d6cFCFCFCFCGrGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOeOePGOGOGOGOG4FC6d6cGOH1GOGOGOGOGOGOGOHIH6HIHYHZFCFC6d6c
+BOARD 0 43 64 0 GOGOGOGOGOGOGOHIFCFCFC6d6cFDFCFCFCFCH6GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOeeefGOHIH6HIHVHW6d6cH6GOGOGOGOGOGOGOGOHJFDFEFCFCFCFC6d6c
+BOARD 0 44 64 0 GOGOGOGOGOGOGOHJFCFCFC6d6cFCFCFCFCFCG5GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOeuevGOGoFCFCHlHm6d6cFCH6GOGOGOGOGOGOGOGOGoFCFCFCFCFC6d6c
+BOARD 0 45 64 0 6s6s6s6s6s6s6s6s6s6s6s6r6q6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6sGOGO6s6se+e/GO6s6s6s6s6s6r6q6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6r6q
+BOARD 0 46 64 0 6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6b6a6t6t6t6t6t6t6t6t6t6t6t6t6t6tGOGO6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6b6a6t6t
+BOARD 0 47 64 0 NqNrNqNqNrNqNqNrNqNqNrNqNqNqNrNq6d6cNqNqNqNrNqNqNqNrNqNqNrNqNqNrGOGONrNqNqNrNqNrNqNqNrNqNqNrNqNrN6N7NrNqNrN6N7NrNqNqNqNr6d6cNqNr
+BOARD 0 48 64 0 NqNrNqNqNrNqNqNrNqNqNrNqNqNqNrNq6d6cNqNqNqNrNqNqNqNrNqNqNrNqNqNrGOGONrNqNqNrNqNrNqNqNrNqNqNrNqUqIdIdUpNqUqIdIdUpNqNqNqNr6d6cNqNr
+BOARD 0 49 64 0 NqNrNqNqNrNqJeJfNqNqNrNqNqNqNrNq6d6cNqNqNqNrNqNqJeJfNqNrNrNqNqNrGOGONrNqNqNrNqNrNqNqeOePNqNqNrUqItItUpNqUqItItUpNqNqNqNr6d6cNqNr
+BOARD 0 50 64 0 NqNrNqNqNrNqJuJvNqNqNrNqNqNqeOeP6d6cNqNqNqNrNqNqJuJvNqNrNrVoVpUqwLwLUpNrNqNrNqNrNqNqeeefNqNqNqNqNrNqNqNqNrNqNqNrNqNqNqNr6d6cNqNr
+BOARD 0 51 64 0 N6N7N6N6N7N6J+J/N6N6N7N6N6N6eeef6d6cN6N6N6N7N6N6J+J/N6N7N7V4V55dItIt5cN7N6N7N6N7N6N6euevN6N6N6N6N7N6N6N6N7N6N6N7N6N6N6N76d6cN6N7
+BOARD 0 52 64 0 GOGOGOGOGOGOGOGOGOGOcccccccceuev6d6cGOGOGOGOGOGOHIFDFCFCG5GOGOGOGOGOGOHIFCFCFCGbGOcce+e/ccceceGOGOGOHIFCFCH6GOH1GOGOGOGO6d6cGOGO
+BOARD 0 53 64 0 GOHIHYHZGPGOGOGOH1GOGOcecccce+e/6d6cH6GOGOGOGOHIFCFCFCG5GOGOGOGOGOGOHIFCFCFEFCGrGOGOcecececcccGOGOHIFCFEFCG5GOGOGOGOGOHI6d6cGOGO
+BOARD 0 54 64 0 GOGoFCFCFCGPGOGOGOGOGOGOceGOcecc6d6cFCH6GOGOGOHJFCHVHWH6GOGOGOGOGOGOHJFCFCFCFCG5GOGOGOGOceceGOGOGOHJFCFCG5GOGOGOHIH6HIFC6d6cGOGO
+BOARD 0 55 64 0 GOG4FCFDFEFCGPGOGOGOGOGOGOGOGOce6d6cFCFCHYHZH6HIFCHlHmGbGOGOGOH1GOGOGOHJG5HJG5GOGOGOGOGOGOGOGOGOH1GOGoFCH6HIH6GOGoFCHVHW6d6cGOGO
+BOARD 0 56 64 0 GOHJFCFCFCFCFCGPGOGOGOGOGOGOGOce6d6cFDFEFCFCFCFCFCFCFCGrGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGOG4FCFCFDFEH6G4FCHlHm6d6cGOGO
+BOARD 0 57 64 0 GOGOHJFCFCFCFCFCHYHZGPGOGOGOGOGO6d6q6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6r6cGOGO
+BOARD 0 58 64 0 GOGOGOHJFCFCFCFCFCFCGbGOGOGOGOGO8+6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t8/GOGO
+BOARD 0 59 64 0 GOGOGOGOGoFCHVHWFCFCGrGOGOGOGOGOUpNqNrN6N7NrNqNrNqNqNqNrNqNqNqNqNqNrN6N7N7N7N7N7NrNqNqNrNqNrN6N7N7N7N7NrNqNrNqNqNrN6N7NrNqUqGOH1
+BOARD 0 60 64 0 GOGOGOGOG4FCHlHmFCFCG5GOGOGOGOGOUpNqUqIdIdUpNqNrNqNqNqNrNqNqNqNqNqUqIdIdIdIdIdIdUpNqNqNrNqUqIdIdIdIdIdUpNqNrNqNqUqIdIdUpNqUqGOGO
+BOARD 0 61 64 0 GOGOGOGOHJFCFCFCFCG5GOGOGOGOGOGOUpNqUqItItUpNqNrNqNqNqJeJfNqNqNqNqUqItItItItItItUpNqNqJeJfUqItItItItItUpJeJfNqNqUqItItUpNqUqGOGO
+BOARD 0 62 64 0 GOH1GOGOGOHJGYGZG5GOGOGOH1GOGOGOUpNqNqNrNqNqNqNrNqNqNqJuJvNqNqNqNqNqNrNqNqNqNqNqNqNqNqJuJvNqNqNqNqNqNqNqJuJvNqNqNqNrNqNqNqUqGOGO
+BOARD 0 63 64 0 GOGOGOGOGOGOGOGOGOGOGOGOGOGOGOGO5cN6N7N6N6N6N6N7N6N6N6J+J/N6N6N6N6N7N6N6N6N7N6N6N6N6N6J+J/N6N6N6N6N6N6N6J+J/N6N6N6N7N6N6N65dGOGO
+LINK avalon_quest_basement_01.nw 50 7 1 5 1.5 10
+SIGN 29 51
+Where two waterfalls divide, the 
+Yellow key should hide.
+SIGNEND
+NPC classic_avalonquest_wall.png 39 28
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall.png 55 31
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall.png 14 12
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall.png 22 28
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall.png 32 45
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 16 12
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 17 12
+
+NPCEND
+NPC classic_avalonquest_wall2.png 18 12
+
+NPCEND
+NPC classic_avalonquest_wall2.png 12 12
+
+NPCEND
+NPC classic_avalonquest_wall2.png 10 12
+
+NPCEND
+NPC classic_avalonquest_wall2.png 20 28
+
+NPCEND
+NPC classic_avalonquest_wall2.png 17 28
+
+NPCEND
+NPC classic_avalonquest_wall2.png 24 28
+
+NPCEND
+NPC classic_avalonquest_wall2.png 26 28
+
+NPCEND
+NPC classic_avalonquest_wall2.png 20 28
+
+NPCEND
+NPC classic_avalonquest_wall2.png 18 28
+
+NPCEND
+NPC classic_avalonquest_wall2.png 36 28
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 36 28
+
+NPCEND
+NPC classic_avalonquest_wall2.png 37 28
+
+NPCEND
+NPC classic_avalonquest_wall2.png 41 28
+
+NPCEND
+NPC classic_avalonquest_wall2.png 42 28
+
+NPCEND
+NPC classic_avalonquest_wall2.png 53 31
+
+NPCEND
+NPC classic_avalonquest_wall2.png 51 31
+
+NPCEND
+NPC classic_avalonquest_wall2.png 57 31
+
+NPCEND
+NPC classic_avalonquest_wall2.png 58 31
+
+NPCEND
+NPC classic_avalonquest_wall2.png 58 31
+
+NPCEND
+NPC classic_avalonquest_wall2.png 60 31
+
+NPCEND
+NPC classic_avalonquest_wall2.png 58 31
+
+NPCEND
+NPC classic_avalonquest_wall2.png 34 45
+
+NPCEND
+NPC classic_avalonquest_wall2.png 36 45
+
+NPCEND
+NPC classic_avalonquest_wall2.png 38 45
+
+NPCEND
+NPC classic_avalonquest_wall2.png 40 45
+
+NPCEND
+NPC classic_avalonquest_wall2.png 30 45
+
+NPCEND
+NPC classic_avalonquest_wall2.png 28 45
+
+NPCEND
+NPC classic_avalonquest_wall2.png 28 45
+
+NPCEND
+NPC classic_avalonquest_wall2.png 28 45
+
+NPCEND
+NPC classic_avalonquest_wall2.png 8 12
+
+NPCEND
+NPC classic_avalonquest_wall2.png 20 12
+
+NPCEND
+NPC classic_avalonquest_wall2.png 16 12
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 12 12
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 20 28
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 24 28
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 37 28
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 41 28
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 53 31
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 57 31
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 30 45
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 34 45
+//#CLIENTSIDE
+
+function onPlayertouchsme(){
+dontblock();
+drawoverplayer();
+}
+NPCEND
+NPC classic_avalonquest_wall2.png 24 28
+
+NPCEND
+NPC waterani.gif 26 14
+
+NPCEND
+NPC waterani.gif 41 14
+
+NPCEND
+NPC waterani.gif 30 30
+
+NPCEND
+NPC classic_window.png 5 15
+
+NPCEND
+NPC classic_window.png 1 15
+
+NPCEND
+NPC classic_window.png 13 3
+
+NPCEND
+NPC classic_window.png 42 3
+
+NPCEND
+NPC classic_window.png 54 15
+
+NPCEND
+NPC classic_window.png 56 15
+
+NPCEND
+NPC classic_window.png 58 15
+
+NPCEND
+NPC classic_window.png 60 15
+
+NPCEND
+NPC classic_window.png 48 48
+
+NPCEND
+NPC classic_window.png 53 48
+
+NPCEND
+NPC classic_window.png 34 60
+
+NPCEND
+NPC classic_window.png 36 60
+
+NPCEND
+NPC classic_window.png 38 60
+
+NPCEND
+NPC classic_window.png 19 60
+
+NPCEND
+NPC classic_window.png 57 60
+
+NPCEND
+NPC classic_window.png 14 31
+
+NPCEND
+NPC classic_ventruesupportnorth.png 52 14
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 62 14
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 39 2
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 45 2
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 10 2
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 16 2
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 11 47
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 0 47
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 22 59
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 54 59
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 32 59
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 40 59
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 26 47
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 57 47
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 51 47
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 50 47
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 44 47
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC light2.png 16 14
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 2 5
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 33 14
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 33 39
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 39 46
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 11 47
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC classic_ventruesupportnorth.png 22 2
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_ventruesupportnorth.png 33 2
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_window.png 26 3
+
+NPCEND
+NPC classic_window.png 28 3
+
+NPCEND
+NPC classic_window.png 30 3
+
+NPCEND
+NPC classic_window.png 25 3
+
+NPCEND
+NPC classic_window.png 27 3
+
+NPCEND
+NPC classic_window.png 29 3
+
+NPCEND
+NPC light2.png 50 25
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect .40,.50,.89,0.99;
+  drawaslight;
+}
+NPCEND
+NPC classic_ventruesupportnorth.png 54 59
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_window.png 46 60
+
+NPCEND
+NPC classic_window.png 49 60
+
+NPCEND
+NPC classic_window.png 47 60
+
+NPCEND
+NPC classic_window.png 48 60
+
+NPCEND
+NPC classic_ventruesupportnorth.png 22 47
+//#CLIENTSIDE;
+drawunderplayer;
+NPCEND
+NPC classic_door4.png 22 33
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+
+function onCreated(){
+setimg("classic_door4.png");
+}
+
+function onPlayertouchsme(){
+if (client.quest_avalon_redkey == 1){
+player.chat = "Door opens";
+hide();
+sleep(3);
+show();
+}
+if (client.quest_avalon_redkey == NULL){
+player.chat = "I need the Scarlet key to open this door.";
+}
+}
+NPCEND
+NPC classic_door3.png 39 33
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+
+function onCreated(){
+setimg("classic_door3.png");
+}
+
+function onPlayertouchsme(){
+if (client.quest_avalon_bluekey == 1){
+player.chat = "Door opens";
+hide();
+sleep(3);
+show();
+}
+if (client.quest_avalon_bluekey == NULL){
+player.chat = "I need the Cobalt key to open this door.";
+}
+}
+NPCEND
+NPC classic_door2.png 55 36
+// NPC made by Tajia (LAT)
+//#CLIENTSIDE
+
+function onCreated(){
+setimg("classic_door2.png");
+}
+
+function onPlayertouchsme(){
+if (client.quest_avalon_greenkey == 1){
+player.chat = "Door opens";
+hide();
+sleep(3);
+show();
+}
+if (client.quest_avalon_greenkey == NULL){
+player.chat = "I need the Olive key to open this door.";
+}
+}
+NPCEND

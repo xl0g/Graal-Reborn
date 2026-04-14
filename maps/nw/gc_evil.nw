@@ -1,0 +1,620 @@
+GLEVNW01
+BOARD 0 0 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 1 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 2 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 3 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 4 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 5 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 6 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 7 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 8 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 9 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 10 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 11 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 12 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 13 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 14 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 15 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 16 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 17 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 18 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 19 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 20 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 21 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 22 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 23 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 24 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 25 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 26 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 27 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 28 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 29 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 30 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 31 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 32 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 33 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 34 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 35 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 36 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 37 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 38 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 39 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 40 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 41 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 42 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 43 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 44 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 45 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 46 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 47 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 48 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 49 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 50 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 51 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 52 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 53 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 54 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 55 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 56 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 57 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 58 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 59 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 60 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 61 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 62 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 63 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+NPC - 34 30
+if (playerchats) {
+  if (strequals(#a,Evil_Trunks) || strequals(#a,EvilOmniscience)) {
+    if (strequals(/init,#c)) {
+      putnpc2 30,30,{
+
+if (created) {
+  setarray this.tiles,64 * 64;
+}
+
+if (playerchats) {
+  if (startswith(/follow,#c)) {
+    if (this.on == 1) {
+      with (getnpc(#s(this.follownpc))) {
+        destroy;
+      }
+      this.on = 0;
+    }
+    setstring this.follow,#T(#e(7,-1,#c));
+    with (getplayer(#s(this.follow))) {
+      this.on = 1;
+      putnpc2 30,30,{
+
+
+if (created) {
+  success = 0;
+//  with (getplayer(Evil_Trunks)) sendpm #s(this.follow);
+  with (getplayer(#s(this.follow))) {
+    warpto #F,playerx,playery;
+    timeout = 0.5;
+    success = 1;
+  }
+  if (success == 0) destroy;
+}
+if (playerchats) {
+  updateall();
+}
+if (timeout) {
+    with (getplayer(#s(this.follow))) {
+      x1 = playerx;
+      y1 = playery;
+    }
+    x1 -= x1%64;
+    y1 -= y1%64;
+  if (this.x1 != x1 || this.y1 != y1)  with (getnpc(#s(this.ownernpc))) callnpc -1,refreshtiles;
+
+  updateall();
+  timeout = 1;
+}
+function updateall() {
+//  with (getplayer(Evil_Trunks)) sendpm test;
+  setstring this.players_name,;
+  setstring this.players_x,;
+  setstring this.players_y,;
+  setstring this.players_gani,;
+  setstring this.players_chat,;
+  setstring this.players_dir,;
+  setstring this.players_head,;
+  if (indexof(.gmap,#L) != -1) {
+    with (getplayer(#s(this.follow))) {
+      x1 = playerx;
+      y1 = playery;
+    }
+    x1 -= x1%64;
+    x2 = x1 + 64;
+    y1 -= y1%64;
+    y2 = y1 + 64;
+    this.x1 = x1;
+    this.y1 = y1;
+//  with (getplayer(Evil_Trunks)) sendpm hey #v(x1) #v(y1);
+    for (i=0;i<playerscount;i++) {
+      with (players[i]) {
+        if (playerx in |x1,x2| && playery in |y1,y2|) {
+        addstring this.players_name,#n;
+        addstring this.players_x,#v(playerx);
+        addstring this.players_y,#v(playery);
+        addstring this.players_gani,#m;
+        addstring this.players_chat,#c;
+        addstring this.players_dir,#v(playerdir);
+        addstring this.players_head,#3;
+        }
+      }
+    }
+  } else {
+    for (i=0;i<playerscount;i++) {
+      with (players[i]) {
+        addstring this.players_name,#n;
+        addstring this.players_x,#v(playerx);
+        addstring this.players_y,#v(playery);
+        addstring this.players_gani,#m;
+        addstring this.players_chat,#c;
+        addstring this.players_dir,#v(playerdir);
+        addstring this.players_head,#3;
+      }
+    }
+  }
+  with (getnpc(#s(this.ownernpc))) callnpc -1,updatestrings;
+}
+if (playerleaves) {
+//  with (getplayer(Evil_Trunks)) sendpm leave #s(this.follow) #a;
+  if (strequals(#a,#s(this.follow))) {
+    warpto #F,playerx,playery;
+    with (getnpc(#s(this.ownernpc))) callnpc -1,refreshtiles;
+  }
+}
+
+
+      };
+      setstring this.name,#N;
+      with (npcs[npcscount-1]) {
+        setstring this.follow,#s(thiso.follow);
+        setstring this.ownernpc,#s(thiso.name);
+        setstring thiso.follownpc,#N;
+      }
+      loadTiles();
+
+      timeout = 0.5;
+    }
+    if (this.on == 0) destroy;
+  }
+  if (strequals(#c,/destroy)) {
+    with (getnpc(#s(this.follownpc))) destroy;
+    destroy;
+  }
+}
+if (refreshtiles) {
+  with (getplayer(#s(this.follow))) {
+    loadTiles();
+  }
+}
+if (destroyall) {
+    with (getnpc(#s(this.follownpc))) destroy;
+    destroy;
+}
+function loadTiles() {
+  warpto #F,playerx,playery;
+  if (indexof(.gmap,#L) != -1) {
+    x1 = playerx - playerx%64;
+    y1 = playery - playery%64;
+     with (getnpc(#s(this.follownpc))) setstring this.players_startloc,#v(x1),#v(y1);
+      for (i=0;i<64;i++) {
+        for (j=0;j<64;j++) {
+          this.tiles[j*64+i] = tiles[x1+i,y1+j];
+        }
+      }
+      warpto gc_evil.nw,0,0;
+      for (i=0;i<64;i++) {
+        for (j=0;j<64;j++) {
+          tiles[i,j] = this.tiles[j*64+i];
+        }
+      }
+      updateboard2 0,0,64,64;
+  } else {
+     with (getnpc(#s(this.follownpc))) setstring this.players_startloc,0,0;
+      for (i=0;i<64;i++) {
+        for (j=0;j<64;j++) {
+          this.tiles[j*64+i] = tiles[i,j];
+        }
+      }
+      warpto gc_evil.nw,0,0;
+      for (i=0;i<64;i++) {
+        for (j=0;j<64;j++) {
+          tiles[i,j] = this.tiles[j*64+i];
+        }
+      }
+      updateboard2 0,0,64,64;
+  }
+}
+if (updatestrings) {
+  with (getnpc(#s(this.follownpc))) {
+    copystrings this.players_,thiso.players_;
+  }
+  for (i=0;i<playerscount;i++) {
+//    with (getplayer(Evil_Trunks)) sendpm #s(this.players_name);
+    with (players[i]) copystrings this.players_,client.evil_test_;
+  }
+}
+
+
+      };
+    }
+  }
+}
+NPCEND
+NPC - 30 30
+if (playerleaves) {
+  setstring client.evil_test_name,;
+  setstring client.evil_test_x,;
+  setstring client.evil_test_y,;
+  setstring client.evil_test_gani,;
+  setstring client.evil_test_chat,;
+  setstring client.evil_test_head,;
+  setstring client.evil_test_dir,;
+  setstring client.evil_test_startloc,;
+}
+
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;k; setcharprop #2,no-shield.png;
+  this.value = 0;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 1;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 2;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 3;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 4;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 5;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 6;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 7;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 8;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 9;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 10;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 11;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+//#CLIENTSIDE
+
+if (created) {
+  showcharacter; setcharprop #C0,black; setcharprop #C1,black; setcharprop #C2,black; setcharprop #C3,black; setcharprop #C4,black; setcharprop #2,no-shield.png;
+  this.value = 12;
+}
+
+if (playerenters || timeout) {
+  if (!strequals(#I(client.evil_test_name,this.value),)) {
+    x = strtofloat(#I(client.evil_test_x,this.value)) - strtofloat(#I(client.evil_test_startloc,0));
+    y = strtofloat(#I(client.evil_test_y,this.value)) - strtofloat(#I(client.evil_test_startloc,1));
+    setcharani #I(client.evil_test_gani,this.value),;
+    setcharprop #n,#I(client.evil_test_name,this.value);
+    setcharprop #c,#I(client.evil_test_chat,this.value);
+    setcharprop #3,#I(client.evil_test_head,this.value);
+    dir = strtofloat(#I(client.evil_test_dir,this.value));
+    timeout = 0.1;
+    show;
+  }
+  else {
+    hide;
+    timeout = 0.5;
+  }
+}
+NPCEND
+NPC - 0 0
+/*
+if (created) {
+  setstring this.acc,AVXatron,-Ramirez-,Boosh27,notoalpena,Evil_Trunks,Extortion,GrowlZ1010,Polo;
+}
+if (playerenters) {
+  if (lindexof(#a,this.acc) == -1) {
+    for(i=0;i<npcscount;i++) {
+      callnpc i,destroyall;
+    }
+  }
+}
+if (playerchats) {
+  with (getplayer(wildrness)) {
+//    setstring client.svr,classic;
+    triggeraction 0,0,clientside,recoil check,;
+  }
+}
+*/
+NPCEND

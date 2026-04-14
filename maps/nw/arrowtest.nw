@@ -1,0 +1,11 @@
+GLEVNW01
+NPC - 13 14
+join("quest_water_arrow");
+//#CLIENTSIDE
+if (created) this.shoot_dir = 1;
+NPCEND
+NPC - 33 28
+join("quest_water_arrow");
+//#CLIENTSIDE
+if (created) this.shoot_dir = 2;
+NPCEND

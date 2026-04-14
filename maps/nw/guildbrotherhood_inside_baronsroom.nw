@@ -1,0 +1,416 @@
+GLEVNW01
+BOARD 0 0 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 1 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 2 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 3 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 4 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 5 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 6 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 7 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 8 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 9 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 10 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 11 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 12 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 13 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 14 64 0 kmkmlAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlB
+BOARD 0 15 64 0 kmkmlElglllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllklllllklllklllklllklllklllklllklllhlF
+BOARD 0 16 64 0 kmkmlEl0mAmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkkoknidknidknidknidkomkmlmkmlmkmlmkmlmkmlmkmlmkmlmBl1lF
+BOARD 0 17 64 0 kmkmlEmEm0mglHlGlHlGlHlGlHlGNANBNCNBNCNDlHlGNANBNCNBNCNDlHlGlHlGlHlGlHlGlHk4FCFCFCFCFCFCFCFCk4lHlGcFcGcGcGcGcGcGcHlHlGlHmhm1mFlF
+BOARD 0 18 64 0 kmkmlEl0nElWnAmWmWmWmWmWmWmWNQNRNSNRNSNTmWmWNQNRNSNRNSNTmWmWmWmWmWmWmWmWmWk4FCFCFCFCFCFCFCFCk4mWmWcVcWcWcWcWcWcWcXmWmWnBlXnFl1lF
+BOARD 0 19 64 0 kmkmlEmEm0lmmGngmWmWmWmWmWmWNgNhNiNhNiNjmWmWNgNhNiNhNiNjmWmWmWmWmWmWmWmWmWk4FCFCFCFCFCFCFCFCk4mWmWclcmcmdHcmdHcmcnmWnhmHlnm1mFlF
+BOARD 0 20 64 0 kmkmlEl0nElWmGmGNkLmLmLmLmLmNwNxNyNxNyNzLmLmNwNxNyNxNyNzLmLmLmLmLmLmLmLmVoVpknidknidknidknidkoLmLmc1c2c2c2c2c2c2c3NlmHmHlXnFl1lF
+BOARD 0 21 64 0 kmkmlEmEm0lmmGmGLbumuWuOv1uOuOv1uOu3p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4oAoBV4V5oAoBp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4L6mHmHlnm1mFlF
+BOARD 0 22 64 0 kmkmlEl0nElWmGmGLbp4umuWuOv1u3v2v3vHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4L6mHmHlXnFl1lF
+BOARD 0 23 64 0 kmkmlEmEm0lmmGmGLbp4p4umv2v3vHp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4L6mHmHlnm1mFlF
+BOARD 0 24 64 0 kmkmlEl0nElWmGmGLbp4p4p4NkLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmNlp4p4p4p4p4p4p4p4p4p4NkLmLmLmLmLmLmLmLmLmLmNlp4p4L6mHmHlXnFl1lF
+BOARD 0 25 64 0 kmkmlEmEm0lmmGmGLbp4p4p4LbdDdEdEdFdEdEdEdFdEdEdEdFdEdFdEdEdFdEdGL6p4p4p4p4p4p4p4p4p4p4LbnJnYnJnYLILJLKLJLKKrL6oAoBL6mHmHlnm1mFlF
+BOARD 0 26 64 0 kmkmlEl0nElWmGmGLbp4p4p4LbdTdUdUdVdUdUdUdVdUdUdUdVdUdVdUdUdVdUdWL6p4p4p4p4p4p4p4p4p4p4LbnYnJnYnJLYLZLaLZLaK7L6vFvFL6mHmHlXnFl1lF
+BOARD 0 27 64 0 kmkmlEmEm0lmmGmGLbp4p4p4LbdjdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdXL6p4p4p4p4p4p4p4p4p4p4LbnJnYnJnYLYLZLaLZLaK7L6uOv1L6mHmHlnm1mFlF
+BOARD 0 28 64 0 kmkmlEl0nElWmGmGLbp4p4p4LbcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdL6p4p4p4p4p4p4p4p4p4p4LbnYnJnYnJLoLpLqLpLqLLL6uOuOL6mHmHlXnFl1lF
+BOARD 0 29 64 0 kmkmlEmEm0lmmGmGLbvXp4p4LbcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdL6p4p4p4p4p4p4p4p4p4u2LbnJnYnJnYnJnInZnInZnIL6u3v2L6mHmHlnm1mFlF
+BOARD 0 30 64 0 kmkmlEl0nElWmGmGLbvnvFvXLbcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdL6p4p4p4p4p4p4p4p4u2vGLbnYnJnYnJnYnZnInZnInZL6vHp4L6mHmHlXnFl1lF
+BOARD 0 31 64 0 kmkmlEmEm0lmmGmGLbuOuOvnLbcdKpKqcdKpKqcdKpKqcdKpKqcdKpKqcdKpKqcdL6p4p4p4p4p4p4u2vEvGv1LbLELFLGLHnJnILELFLGLHL6p4p4L6mHmHlnm1mFlF
+BOARD 0 32 64 0 kmkmlEl0nElWmGmGLbuOv1uOLbcdK5K6cdK5K6cdK5K6cdK5K6cdK5K6cdK5K6cdL6u2vFvFvXp4u2vGuOv1uOLbLULVLWLXnYnZLULVLWLXL6p4p4L6mHmHlXnFl1lF
+BOARD 0 33 64 0 kmkmlEmEm0lmmGmGLbv1uOuOLbLKVvdgLKVvdgLKVvdgLKVvdgLKVvdgLKVvdgKrL6vGuOuOvnvEvGuOuOuOu3LbLULVLWLXnInJLULVLWLXL6p4p4L6mHmHlnm1mFlF
+BOARD 0 34 64 0 kmkmlEl0nElWmGmGLbuWuOv1LbdxV/dwdxV/dwdxV/dwdxV/dwdxV/dwdxV/dwK7L6uOuOuOv1uOv1uOu3v3vHLbLULVLWLXnZnYLULVLWLXL6p4p4L6mHmHlXnFl1lF
+BOARD 0 35 64 0 kmkmlEmEm0lmmGmGLbumv3uWLbg+g/V+g+g/V+g+g/V+g+g/V+g+g/V+g+g/V+K7L6uOv1u3v2v2uWuOvnvEvXLbLkLlLlLnnInJLkLlLlLnL6p4p4L6mHmHlnm1mFlF
+BOARD 0 36 64 0 kmkmlEl0nElWmGmGLboAoBumLbV/dwLaV/dwLZV/dwLaV/dwLZV/dwLaV/dwLZK7L6uOuOu7xSxTvUv1uOuOvnLbnZnInZnInZnYnJnYnJnYL6p4u2L6mHmHlXnFl1lF
+BOARD 0 37 64 0 kmkmlEmEm0lmmGmGLbp4p4p4LbLpLpLqLpLqLpLqLpLqLpLqLpLqLpLqLpLqLpLLL6v1uOu7xixjvUuOuOuOv1LbnInZnInZnInJnYnJnYnJL6vFvGL6mHmHlnm1mFlF
+BOARD 0 38 64 0 kmkmlEl0nElWmGmGLbp4p4p4LbKpKqcdKpKqcdKpKqcdKpKqcdKpKqcdKpKqcdcdL6uOuOvnvEvEvGu3v2v3uWLbnZnInZnInZnYnJnYnJnYL6uOuOL6mHmHlXnFl1lF
+BOARD 0 39 64 0 kmkmlEmEm0lmmGmGLbp4p4p4LbK5K6cdK5K6cdK5K6cdK5K6cdK5K6cdK5K6cdcdL6v2v3uWuOv1u3vHp4p4umLbnInZnInZnInJnYnJnYnJL6v1uOL6mHmHlnm1mFlF
+BOARD 0 40 64 0 kmkmlEl0nElWmGmGLbp4p4p4LbcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdL6p4p4umv2v3vHp4p4p4p4LbnZnInZnInZnYnJnYnJnYL6v3v3L6mHmHlXnFl1lF
+BOARD 0 41 64 0 kmkmlEmEm0lmmGmGLbp4p4p4LbcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdL6p4p4p4p4p4p4p4p4p4p4N0M/M/M/M/M/M/M/M/M/M/N1p4p4L6mHmHlnm1mFlF
+BOARD 0 42 64 0 kmkmlEl0nElWmGmGLbp4p4p4N0M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/N1p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4L6mHmHlXnFl1lF
+BOARD 0 43 64 0 kmkmlEmEm0lmmGmGLbp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4L6mHmHlnm1mFlF
+BOARD 0 44 64 0 kmkmlEl0nElWmGmGLbp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4u2vEvEvXp4p4p4p4L6mHmHlXnFl1lF
+BOARD 0 45 64 0 kmkmlEmEm0lmmGmGLbp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4u2vGuOuOvnvEvEvFvXL6mHmHlnm1mFlF
+BOARD 0 46 64 0 kmkmlEl0nElWmGmGLbp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4vUuOuOuOuOuOuOuOu7L6mHmHlXnFl1lF
+BOARD 0 47 64 0 kmkmlEmEm0lmmGmGN0M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/N1mHmHlnm1mFlF
+BOARD 0 48 64 0 kmkmlEl0nElWmGnwmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXiIkpkpiJmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnxmHlXnFl1lF
+BOARD 0 49 64 0 kmkmlEmEm0lmnQmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXiYk5k5iZmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXnRlnm1mFlF
+BOARD 0 50 64 0 kmkmlEl0nEmwl2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2h8h8h9h+l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3l2l3mxnFl1lF
+BOARD 0 51 64 0 kmkmlEmEmQnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVmRmFlF
+BOARD 0 52 64 0 kmkmlElwmVmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVmUmVlxlF
+BOARD 0 53 64 0 kmkmlQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlR
+BOARD 0 54 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 55 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 56 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 57 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 58 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 59 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 60 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 61 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 62 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+BOARD 0 63 64 0 kmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+LINK guildbrotherhood_inside_06.nw 38 50 2 1 27.5 29
+SIGN 22 27
+He looks like he means 
+business. I wouldn't 
+mess with him.
+SIGNEND
+SIGN 49 20
+"The history of GaNgStAs"
+
+
+This is a book on GaNgStAs, 
+one of the most feared guilds 
+in graal.
+SIGNEND
+SIGN 51 20
+"How to win spars
+using lag"
+
+This could come in useful. 
+I wonder if the baron has
+read it?
+SIGNEND
+SIGN 53 20
+"How to turn a guild into a huge 
+army and destroy other guilds"
+
+Wow, it looks like this book has
+been used a lot.
+SIGNEND
+SIGN 50 28
+Master BARONS diary
+The history of the Brotherhood
+
+Day 1:
+The Brotherhood is created.
+Everyone is happy
+Day 2:
+More members are recruited.
+The guild is getting quite big
+Day 3:
+The Brotherhood wins a friendly 
+guild war. It is fun
+Day 4:
+The Brotherhood challenges 
+several guilds and beats them all
+Day 5:
+We challenge the whole of graal
+and destroy everyone
+Day 6:
+We hunt down and kill the graal
+admins who are running scared
+Day 7:
+Graal city is renamed Brotherhood
+city and we rule over all
+SIGNEND
+SIGN 36 21
+This is the mirror of Truth
+
+
+The mirror of truth uses complex
+mathematical equations to tell
+you if you are a newbie or not.
+SIGNEND
+SIGN 36 37
+Welcome to MASTER BARONS 
+room.
+Have a nice day!
+SIGNEND
+SIGN 55 20
+"The history of SNC"
+
+
+This is a book about SNC, a 
+guild with some of best sparrers 
+in graal. It looks interesting
+SIGNEND
+NPC bbottle.png 32 20
+//NPC by Master Storm
+
+//#CLIENTSIDE
+
+if (playertouchsme) {
+  say2 There is a strange#bbrown liquid in the#bbottle.#bThe label says#b"Baron Brew"#b#bIt has all sorts of rubbish#bfloating in it. I wouldn't#bdrink it if I were you.;
+}
+NPCEND
+NPC - 21 22
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head9.png;
+  setcharprop #2,strife-shield.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,yellow;
+  setcharprop #C3,yellow;
+  setcharprop #C4,black;
+  dir = 2;
+  x = 21.5;
+  message Wanna beer?;
+}
+
+//#CLIENTSIDE
+
+if (playerchats) {
+  if (playerchats&&strcontains(#c,yes)) {
+    message Get it yourself, FOOL!
+    sleep 3;
+    message Wanna beer?;
+  }
+  if (playerchats&&strcontains(#c,no)) {
+    message Take THIS instead!;
+    shootball;
+    sleep 3;
+    message Wanna beer?;
+  }
+}
+
+if (shotbyplayer||washit||exploded||peltwithbush||peltwithsign||peltwithvase||peltwithnpc){
+  message Do not mock me.;
+  sleep 3;
+  message Wanna beer?;
+}
+
+if (playertouchsme){
+  say2 He looks like he means#bbusiness. I wouldn't#bmess with him.;
+}
+NPCEND
+NPC bookopen.png 49 26
+//NPC by Master Storm
+NPCEND
+NPC - 41 17
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  hide;
+}
+
+//#CLIENTSIDE
+
+if (playerenters) {
+  timeout = 0.05;
+}
+
+
+if (timeout) {
+  timereverywhere;
+  mindist = 100;
+  hide;
+  for (i = 0;i < playerscount;i++){
+    if (players[i].x in |37,44> && players[i].y in |19,22|){
+      dist = abs(players[i].x-x);
+      if (dist < mindist){
+        show;
+        mindist = dist;
+        x=playerx;
+        if (playerdir == 0){
+          dir = 2;
+        }
+        if (playerdir == 1){
+          dir = 1;
+        }
+        if (playerdir == 2){
+          dir = 0;
+        }
+        if (playerdir == 3){
+          dir = 3;
+        }
+        if (!strequals(#m(-1),#m(i))){
+          setcharani #m(i),;
+        }
+        if (strequals(#g(i),Brotherhood)){
+          setcharprop #3,#3(i);
+        }
+        else {
+          setcharprop #3,head0.png;
+        }
+        setcharprop #2,#2(i);
+        setcharprop #P1,#P1(i);
+        setcharprop #P3,#P3(i);
+        setcharprop #P5,#P5(i);
+        setcharprop #C0,#C0(i);
+        setcharprop #C1,#C1(i);
+        setcharprop #C2,#C2(i);
+        setcharprop #C3,#C3(i);
+        setcharprop #C4,#C4(i);
+      }
+    }
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC - 24 37
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head71.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,yellow;
+  setcharprop #C2,black;
+  setcharprop #C3,darkred;
+  setcharprop #C4,black;
+  setcharprop #2,strife-shield.png;
+  setcharprop #8,body10.png;
+  setcharprop #n,Master BARON;
+  dir = 0;
+  x=24.5;
+  sprite=37;
+  ap=30;
+}
+
+//CLIENTSIDE
+
+if (playertouchsme){
+  say2 MWAHAHA!#bI'm planning the next Brotherhood#battack on Graal City!
+}
+
+if (actionleftmouse && x = 24.5 && y = 37){
+  dir = 2;
+  sprite = 1;
+  baronspritechange = 0;
+  for (bh_baronmove = 0;bh_baronmove < 8;bh_baronmove ++){
+    sprite ++;
+    if (sprite = 9){
+      sprite = 1;
+    }
+    y += 0.2;
+    sleep 0.05;
+  }
+  message MOONWALK!;
+  dir = 3;
+  for (bh_baronmove = 0;bh_baronmove < 48;bh_baronmove ++){
+     if (baronspritechange > 4){
+      sprite ++;
+      baronspritechange = 0;
+    }
+    if (sprite = 9){
+      sprite = 1;
+    }
+    x -= 0.2;
+    baronspritechange ++;
+    sleep 0.05;
+  }
+  dir = 1;
+  for (bh_baronmove = 0;bh_baronmove < 48;bh_baronmove ++){
+    if (baronspritechange > 4){
+      sprite ++;
+      baronspritechange = 0;
+    }
+    if (sprite = 9){
+      sprite = 1;
+    }
+    x += 0.2;
+    baronspritechange ++;
+    sleep 0.05;
+  }
+  message;
+  dir = 0;
+  for (bh_baronmove = 0;bh_baronmove < 8;bh_baronmove ++){
+    sprite ++;
+    if (sprite = 9){
+      sprite = 1;
+    }
+    y -= 0.2;
+    sleep 0.05;
+  }
+  sprite = 37;
+}
+NPCEND
+NPC - 16 26
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head130.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,blue;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,strife-shield.png;
+  setcharprop #1,gandssword.png;
+  setcharprop #n,Thanatos;
+  dir = 0;
+  ap=0;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme){
+  say2 How YOU doing?;
+}
+NPCEND
+NPC - 28 30
+//NPC by Master Storm
+
+if (created) {
+  showcharacter;
+  setcharprop #3,head883.png;
+  setcharprop #C0,blue;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,faqx-sword-shield.png;
+  setcharprop #n,SùpérmàñwÒÓt;
+  dir = 2;
+  sprite=37;
+  x=28.5;
+  ap=70;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme){
+  say2 W00T!;
+}
+NPCEND
+NPC - 34 54
+// NPC made by Master BARON
+if (playerenters){
+  seteffect 0,0,0,0.3;
+}
+NPCEND
+NPC - 51 38
+//NPC by Master Storm
+
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head368.png;
+  setcharprop #C0,red;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,red;
+  setcharprop #2,no-shield.png;
+  setcharprop #n,Yuse-Ka Urhameshi;
+  dir = 2;
+  ap=0;
+  drawoverplayer;
+}
+
+//#CLIENTSIDE
+
+if (playertouchsme){
+  say2 Yusuke!;
+}
+NPCEND

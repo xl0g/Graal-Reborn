@@ -1,0 +1,438 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4M3K+K/K+NANBNBNCNBNBNCNBNCNDdIdJdKdLNANBNCNCNBNBNCNBNBNCNBNBNCNBNCNDdIdJdKdLNANBNBNCNBNBNCNBNCNDK/K+K/M8J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4LtM4LPLONQNRNRNSNRNRNSNRNSNTdYIdIddbNQNRNSNSNRNRNSNRNRNSNRNRNSNRNSNTdYIdIddbNQNRNRNSNRNRNSNRNSNTLPLOM7L9J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4LtL+M5LeNgNhNhNiNhNhNiNhNiNjdZItItdrNgNhNiNiNhNhNiNhNhNiNhNhNiNhNiNjdZItItdrNgNhNhNiNhNhNiNhNiNjLfM6L8L9J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4LtLuLvNkNwNxNxNyNxNxNyNxNyNzLmLmLmLmVoVpNyNyNxNxNyNxNxNyNxNxNyNxNyNzLmLmLmLmVoVpNxNyNxNxNyNxNyNzNlL7LsL9J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4LtL+L/LbnknWnWnWnWnWnWnWnWnWnWnWnWnWV4V5nWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWV4V5nWnWnWnWnWnWnWnlL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4LtLuLvLbnGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnLILJLKLJLKLKLJLKLJLKKrmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4LtL+L/LbnGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3LYLZLaLZLaLaLZLaLZLaK7m3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4LtLuLvLbnGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnLYLZLaLZLaLaLZLaLZLaK7mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4LtL+L/LbnGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3LYLZLaK7LqLqLpLYLZLaK7m3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4LtLuLvLbnGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnLYLZLaK7Z2Z3Z4LYLZLaK7mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4LtL+L/LbnGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3LoLpLqLLaGaHaILoLpLqLLm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4LtLuLvLbnGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6LrLsL9J4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4LtL+L/LbnGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nHL6L7L8L9J4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4LtLuLvLbnGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6LrLsL9J4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4LtL+L/LbnGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nHL6L7L8L9J4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4LtLuLvLbnGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6LrLsL9J4J4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J4UPcAcBLbnGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnx7y5y5x7m3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nHL6L7L8L9J4J4J4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4J4UfNFcQLbnGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3yLxyxzyLmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6LrLsL9J4J4J4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4J4UvNFcQLbnGmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnyLyCyDyLm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 19 64 0 J4J4J4J4J4U/cwcxLbnGm3mnm3mnm3mnKpKqm3mnm3mnm3mnm3mnm3mnm3x7y5y5x7mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 20 64 0 J4J4J4J4J4LtL+L/LbnGmnm3mnm3mnm3K5K6mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 21 64 0 J4J4J4J4J4LtLuLvLbnGm3mnm3mnLILJVvdgLKKrm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 22 64 0 J4J4J4J4J4LtL+L/LbnGmnm3KpKqLYV+V/dwdxK7KpKqmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 23 64 0 J4J4J4J4J4LtLuLvLbnGm3mnK5K6LYLZLaLZLaK7K5K6m3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6cCcDcEJ4J4J4J4J4J4J4
+BOARD 0 24 64 0 J4J4J4J4J4LtL+L/LbnGmnm3mnm3LoLpLqLpLqLLmnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nHL6cRNFcUJ4J4J4J4J4J4J4
+BOARD 0 25 64 0 J4J4J4J4J4LtLuLvLbnGm3mnm3mnm3mnKpKqm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6cRNFckJ4J4J4J4J4J4J4
+BOARD 0 26 64 0 J4J4J4J4J4LtL+L/LbnGmnm3mnm3mnm3K5K6mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3nHL6cyczc0J4J4J4J4J4J4J4
+BOARD 0 27 64 0 J4J4J4J4J4LtLuLvLbnGm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnnHL6L7L8L9J4J4J4J4J4J4J4
+BOARD 0 28 64 0 J4J4J4J4J4LtL+L/Lbn0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnnmnm3mnm3mnm3mnm3mnm3nmnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1L6LrLsL9J4J4J4J4J4J4J4
+BOARD 0 29 64 0 J4J4J4J4J4LtLuL/N0M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/koSfSfSfSfSfSfSfSfSfSfko3PM/M/M/M/M/M/M/M/M/M/M/M/M/M/M/N1LrL8L9J4J4J4J4J4J4J4
+BOARD 0 30 64 0 J4J4J4J4J4LtL+NJMLMLMKMLMKMLMKMLMKMLMLMKMLMKMLMK+gk4SfSfSfSfSfSfSfSfSfSfk4L62vMLMLMKMLMKMLMKMLMKMLMKMLMKMLMKNKLsL9J4J4J4J4J4J4J4
+BOARD 0 31 64 0 J4J4J4J4J4LtNIMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaNIL/k4SfSfSfSfSfSfSfSfSfSfk4L6L7NLMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaNLL9J4J4J4J4J4J4J4
+BOARD 0 32 64 0 J4J4J4J4J4NHMrMqMrMrMqMrMqMrMqMqMrMqMrMqMrMq2FL+Lvk4SfSfSfSfSfSfSfSfSfSfk4L6LrL8MrMqMrMqMrMqMrMqMrMqMrMqMrMqMrMqNMJ4J4J4J4J4J4J4
+BOARD 0 33 64 0 J4J4J4J4J4M3K+K/K+K/K+K/K+K/K+K/K/K+K/K+K/K+2VLuL/k4SfSfSfSfSfSfSfSfSfSfk4L6L7LsK/K+K/K+K/K+K/K+K/K+K/K+K/K/K+K/M8J4J4J4J4J4J4J4
+BOARD 0 34 64 0 J4J4J4J4J4LtM4LPLOLPLOLPLOLPLOLPLOLPLOLPLOLPLOM4Lvk4SfSfSfSfSfSfSfSfSfSfk4L6LrM7LOLPLOLPLOLPLOLPLOLPLOLPLOLPLOM7L9J4J4J4J4J4J4J4
+BOARD 0 35 64 0 J4J4J4J4J4LtL+M5LeLfLeLfLeLfLeLfLeLfLfLeLfLeLfLe+wk4SfSfSfSfSfSfSfSfSfSfk4L62/LfLfLeLfLeLfLeLfLeLfLeLfLeLfLfM6L8L9J4J4J4J4J4J4J4
+BOARD 0 36 64 0 J4J4J4J4J4LtLuLvNkLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmkoSfSfSfSfSfSfSfSfSfSfko3fLmLmLmLmLmLmLmLmLmLmLmLmLmLmLmNlL7LsL9J4J4J4J4J4J4J4
+BOARD 0 37 64 0 J4J4J4J4J4LtL+L/LbnknWnWnWnWnWnWnWnWnWnWnWnWnWnWnWn3mnm3mnm3mnm3mnm3mnm3n2nWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnlL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4J4LtLuLvLbnGbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrm3mnm3mnm3mnm3mnm3mnbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrnHL6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4J4LtL+L/LbnGb6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7mnm3mnm3mnm3mnm3mnm3b6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4LtLuLvLbnGbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrm3mnm3mnm3mnm3mnm3mnbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrnHL6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4LtL+L/LbnGb6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7mnm3mnm3mnm3mnm3mnm3b6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4LtLuLvLbnGbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrm3mnm3mnm3mnm3mnm3mnbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrnHL6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4J4LtL+L/LbnGb6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7mnm3mnm3mnm3mnm3mnm3b6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4LtLuLvLbnGbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrm3mnm3mnm3mnm3mnm3mnbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrnHL6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4J4LtL+L/LbnGb6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7mnm3mnm3mnm3mnm3mnm3b6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4LtLuLvLbnGbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrm3mnm3mnm3mnm3mnm3mnbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrnHL6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4LtL+L/LbnGb6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7mnm3mnm3mnm3mnm3mnm3b6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4LtLuLvLbnGbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrm3mnm3mnm3mnm3mnm3mnbqbrbqbrbqbrbqbrbqbrbqbrbqbrbqbrnHL6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4LtL+L/LbnGb6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7mnm3mnm3mnm3mnm3mnm3b6b7b6b7b6b7b6b7b6b7b6b7b6b7b6b7nHL6LrL8L9J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4LtLuLvLbn0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1L6L7LsL9J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4LtL+L/N0M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/M/N1LrL8L9J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4LtLuNJMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLM0M1M1M2MKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKMLMKNKLsL9J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4LtNIMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaNENFNFNGMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaMbMaNLL9J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4NHMrMqMrMqMrMqMrMqMrMqMrMqMrMqMrMqMrMqMrMqMrMqMrNUNVNWNXMqMrMqMrMqMrMqMrMqMrMqMrMqMrMqMrMqMrMqMrMqMrMqNMJ4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK chriskillem_bedroom_01.nw 6 17 1 2 53.5 40
+LINK chriskillem_cafe_01.nw 55 24 1 2 5.5 33
+LINK chriskillem_inside_02.nw 30 53 2 1 17.5 10
+LINK chriskillem_room_02.nw 40 1 2 1 40.5 52
+LINK chriskillem_icearena_01.nw 20 1 2 1 10.5 57
+SIGN 31 19
+Hi I am Chris Kill'em!
+I am sorry i could not be
+here in person, but i think
+this hologram of me could
+do the trick! To your left #l
+is my room! you should go 
+check it out! To your lower right #r
+is my personal Cafe, that I will
+open to you! And the Top well, 
+and to your left is the Hockey 
+Arena, and to the top right is
+my Master Bedroom, i suggest
+you visit these places!
+Thanks for coming to my house!
+SIGNEND
+SIGN 31 8
+By the looks of his desk
+it looks like he has been
+cramming for a huge History
+Final
+SIGNEND
+SIGN 43 4
+The Master Bedroom
+SIGNEND
+SIGN 23 4
+Chris Kill'em Ice Arena
+SIGNEND
+NPC - 36 38
+join healthpot;
+NPCEND
+NPC - 38 38
+join healthpot;
+NPCEND
+NPC - 40 38
+join healthpot;
+NPCEND
+NPC - 42 38
+join healthpot;
+NPCEND
+NPC - 44 38
+join healthpot;
+NPCEND
+NPC - 46 38
+join healthpot;
+NPCEND
+NPC - 48 38
+join healthpot;
+NPCEND
+NPC - 50 38
+join healthpot;
+NPCEND
+NPC - 36 40
+join healthpot;
+NPCEND
+NPC - 38 40
+join healthpot;
+NPCEND
+NPC - 40 40
+join healthpot;
+NPCEND
+NPC - 42 40
+join healthpot;
+NPCEND
+NPC - 44 40
+join healthpot;
+NPCEND
+NPC - 46 40
+join healthpot;
+NPCEND
+NPC - 48 40
+join healthpot;
+NPCEND
+NPC - 50 40
+join healthpot;
+NPCEND
+NPC - 36 42
+join healthpot;
+NPCEND
+NPC - 38 42
+join healthpot;
+NPCEND
+NPC - 40 42
+join healthpot;
+NPCEND
+NPC - 42 42
+join healthpot;
+NPCEND
+NPC - 44 42
+join healthpot;
+NPCEND
+NPC - 46 42
+join healthpot;
+NPCEND
+NPC - 48 42
+join healthpot;
+NPCEND
+NPC - 50 42
+join healthpot;
+NPCEND
+NPC - 50 44
+join healthpot;
+NPCEND
+NPC - 48 44
+join healthpot;
+NPCEND
+NPC - 46 44
+join healthpot;
+NPCEND
+NPC - 44 44
+join healthpot;
+NPCEND
+NPC - 42 44
+join healthpot;
+NPCEND
+NPC - 40 44
+join healthpot;
+NPCEND
+NPC - 38 44
+join healthpot;
+NPCEND
+NPC - 36 44
+join healthpot;
+NPCEND
+NPC - 36 46
+join healthpot;
+NPCEND
+NPC - 38 46
+join healthpot;
+NPCEND
+NPC - 40 46
+join healthpot;
+NPCEND
+NPC - 42 46
+join healthpot;
+NPCEND
+NPC - 44 46
+join healthpot;
+NPCEND
+NPC - 46 46
+join healthpot;
+NPCEND
+NPC - 48 46
+join healthpot;
+NPCEND
+NPC - 50 46
+join healthpot;
+NPCEND
+NPC - 50 48
+join healthpot;
+NPCEND
+NPC - 48 48
+join healthpot;
+NPCEND
+NPC - 46 48
+join healthpot;
+NPCEND
+NPC - 44 48
+join healthpot;
+NPCEND
+NPC - 42 48
+join healthpot;
+NPCEND
+NPC - 40 48
+join healthpot;
+NPCEND
+NPC - 38 48
+join healthpot;
+NPCEND
+NPC - 36 48
+join healthpot;
+NPCEND
+NPC - 10 38
+join healthpot;
+NPCEND
+NPC - 12 38
+join healthpot;
+NPCEND
+NPC - 10 40
+join healthpot;
+NPCEND
+NPC - 12 40
+join healthpot;
+NPCEND
+NPC - 10 42
+join healthpot;
+NPCEND
+NPC - 12 42
+join healthpot;
+NPCEND
+NPC - 10 44
+join healthpot;
+NPCEND
+NPC - 12 44
+join healthpot;
+NPCEND
+NPC - 10 46
+join healthpot;
+NPCEND
+NPC - 12 46
+join healthpot;
+NPCEND
+NPC - 10 48
+join healthpot;
+NPCEND
+NPC - 12 48
+join healthpot;
+NPCEND
+NPC - 14 38
+join healthpot;
+NPCEND
+NPC - 16 38
+join healthpot;
+NPCEND
+NPC - 18 38
+join healthpot;
+NPCEND
+NPC - 14 40
+join healthpot;
+NPCEND
+NPC - 16 40
+join healthpot;
+NPCEND
+NPC - 18 40
+join healthpot;
+NPCEND
+NPC - 14 42
+join healthpot;
+NPCEND
+NPC - 16 42
+join healthpot;
+NPCEND
+NPC - 18 42
+join healthpot;
+NPCEND
+NPC - 14 44
+join healthpot;
+NPCEND
+NPC - 16 44
+join healthpot;
+NPCEND
+NPC - 18 44
+join healthpot;
+NPCEND
+NPC - 14 46
+join healthpot;
+NPCEND
+NPC - 16 46
+join healthpot;
+NPCEND
+NPC - 18 46
+join healthpot;
+NPCEND
+NPC - 14 48
+join healthpot;
+NPCEND
+NPC - 16 48
+join healthpot;
+NPCEND
+NPC - 18 48
+join healthpot;
+NPCEND
+NPC - 20 38
+join healthpot;
+NPCEND
+NPC - 22 38
+join healthpot;
+NPCEND
+NPC - 24 38
+join healthpot;
+NPCEND
+NPC - 20 40
+join healthpot;
+NPCEND
+NPC - 22 40
+join healthpot;
+NPCEND
+NPC - 24 40
+join healthpot;
+NPCEND
+NPC - 20 42
+join healthpot;
+NPCEND
+NPC - 22 42
+join healthpot;
+NPCEND
+NPC - 24 42
+join healthpot;
+NPCEND
+NPC - 20 44
+join healthpot;
+NPCEND
+NPC - 22 44
+join healthpot;
+NPCEND
+NPC - 24 44
+join healthpot;
+NPCEND
+NPC - 20 46
+join healthpot;
+NPCEND
+NPC - 22 46
+join healthpot;
+NPCEND
+NPC - 24 46
+join healthpot;
+NPCEND
+NPC - 20 48
+join healthpot;
+NPCEND
+NPC - 22 48
+join healthpot;
+NPCEND
+NPC - 24 48
+join healthpot;
+NPCEND
+NPC killem.png 30 16
+
+	//#CLIENTSIDE
+
+	function onPlayerenters(){
+	timeout=.01;}
+
+	function onTimeout(){
+	if(this.1=1){show;
+	this.1=0;}
+	if (random(0,5)>4.5){hide; this.1=1;}
+	timeout=.01;}
+	
+NPCEND
+NPC - 40 12
+//#CLIENTSIDE
+// Graal v1.3 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head144.png;
+  setcharprop #C0,black;
+  setcharprop #C1,black;
+  setcharprop #C2,darkgreen;
+  setcharprop #C3,black;
+  setcharprop #C4,darkgreen;
+  setcharprop #n,Chris Kill'em;
+  setcharprop #2,shield3.png;
+ap=0;  shieldpower = 1;
+  dir = 3;
+}
+NPCEND
+NPC - 45 12
+//#CLIENTSIDE
+// Graal v1.3 NPC by Stefan Knorr
+if (created)
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head102.png;
+  setcharprop #C0,darkblue;
+  setcharprop #C1,yellow;
+  setcharprop #C2,yellow;
+  setcharprop #C3,darkblue;
+  setcharprop #C4,darkblue;
+  setcharprop #n,Jeb The Killa;
+  setcharprop #2,goldshield2.png;
+  setcharprop #1,broadgoldsword.png;
+  ap=0;
+  shieldpower = 1;
+  dir = 1;
+  sprite=0;
+NPCEND

@@ -1,0 +1,932 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4jAiAiBiAiBiAiBiAiBiAiBiAiBjDjAiAiBiAiBiAiBiAiBiAiBiAiBjDJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iEjRiQiRiQiRiQiRiQiRiQiRjShziEjRiQiRiQiRiQiRiQiRiQiRjShzJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iEiF7a7b7a7b7a7b7a7b7a7bhihjiEiF7a7b7a7b7a7b7a7b7a7bhihjJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iUiV7b7a7b7a7b7a7b7a7b7ahyhziUiV7b7a7b7a7b7a7b7a7b7ahyhzJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iEiFk2k2k2k2k2k2k2k2k2k2hihjiEiFk2k2k2k2k2k2k2k2k2k2hihjJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iUiVk2ZPapaqNFNFapaqark2hyhziUiVk2arapaqNFNFapaqZPk2hyhzJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iEiFk2a7a5a6ZPara5a6ZPk2hihjiEiFk2ZPa5a6arZPa5a6a7k2hihjJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iUiVk2k2k2k2a7ZPk2k2k2k2hyhziUiVk2k2k2k2ZPa7k2k2k2k2hyhzJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iEijhnhnhni1NFNFinhnhnhnighjiEijhnhnhni1NFNFinhnhnhnighjJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iyh3h2h3ikiFNFNFhii2h2h3h3ixiyh3h2h3ikiFNFNFhii2h2h3h3ixJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4667b7a7biEiFk2k2hihj8O8O8O8O8O8O8O8OiEiFk2k2hihj7a7b7a67J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 19 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J47K7a7b7aiUiVNFNFhyhz8O8O8O8O8O8O8O8OiUiVNFNFhyhz7b7a7b7LJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 20 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iEijhnhnighj8O8O8O8O8O8O8O8OiEijhnhnighjJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 21 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iyh3h2h3h3ix8O8O8O8O8O8O8O8Oiyh3h2h3h3ixJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 22 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4jAiAiBiAiBjD8O8O8O8O8O8O8O8OjAiAiBiAiBjDJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 23 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iEjRiQiRjShz8O8O8O8O8O8O8O8OiEjRiQiRjShzJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 24 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4jAiAiBiAjFiViLiLhyjXiBiAiBiAiBiAiBiAjFiViLiLhyjXiBiAiBjDJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 25 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iEjRiQiRiRjUj0j0jGiRiQiRiQiRiQiRiQiRiRjUj0j0jGiRiQiRjShzJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 26 64 0 jAiAiBiAiBiAiBiAiBjDJ4J4J4J4J4J4J4J4iEiF7a7b7a67NFNF667b7a7b7a7b7a7b7a7b7a67NFNF667b7a7bhihjJ4J4J4J4J4J4J4J4jAiAiBiAiBiAiBiAiBjD
+BOARD 0 27 64 0 iEjRiQiRiQiRiQiRjShzJ4J4J4J4J4J4J4J4iUiV7b7a7b7LNFNF7K7a7b7a7b7a7b7a7b7a7b7LNFNF7K7a7b7ahyhzJ4J4J4J4J4J4J4J4iEjRiQiRiQiRiQiRjShz
+BOARD 0 28 64 0 iEiF7a7b7a7b7a7bhyjXiBiAiBiAiBjDjAiAjFiVk2k2k2k2NFNFk2k2k2k2k2k2k2k2k2k2k2k2NFNFk2k2k2k2hyjXiBjDjAiAiBiAiBiAjFiV7a7b7a7b7a7bhihj
+BOARD 0 29 64 0 iUiV7b7a7b7a7b7ajGiRiQiRiQiRjShziEjRiRjUk2mompNFk2k2NFNFNFNFNFNFNFNFNFNFNFNFk2k2NFNFNFk2jGiRjShziEjRiQiRiQiRiRjU7b7a7b7a7b7ahyhz
+BOARD 0 30 64 0 iEiFk2k2k2k2k2k2667b7a7b7a7bhihjiEiF7b67k2m4m5NFarNFNFNFNFNFNFNFNFNFNFarZPNFarNFmompNFk2667bhihjiEiF7a7b7a7b7a67k2k2k2k2k2k2hihj
+BOARD 0 31 64 0 iUiVk2ZPa7NFNFk27K7a7b7a7b7ahyhziUiV7a7Lk2NFNFNFNFNFarNFNFNFNFNFNFarZPapaqarNFNFm4m5NFk27K7ahyhziUiV7b7a7b7a7b7Lk2NFNFZPa7k2hyhz
+BOARD 0 32 64 0 iEiFk2apaqark2NFNFNFNFNFk2NFhihjiEiFapaqZPk2NFNFNFarZPNFNFNFNFNFarapaqa5a6a7NFNFNFNFk2arapaqhihjiEiFNFk2NFNFNFNFNFk2arapaqk2hihj
+BOARD 0 33 64 0 iUiVk2a5a6ZPk2NFNFNFNFNFk2NFhyhziUiVa5a6a7k2NFNFZPapaqarNFNFNFNFZPa5a6arZPNFNFNFNFNFk2ZPa5a6hyhziUiVNFk2NFNFNFNFNFk2ZPa5a6k2hyhz
+BOARD 0 34 64 0 iEiFk2ZParNFNFk2inhnhnhnhnhnighjiEijhni1k2NFNFNFa7a5a6ZPNFarNFNFara7apaqarNFNFNFNFNFNFk2inhnighjiEijhnhnhnhnhni1k2NFNFarZPk2hihj
+BOARD 0 35 64 0 iUiVk2k2k2k2k2k2hii2h2h3h2h3h3ixiyh3ikiFk2NFNFarapaqapaqarNFNFarapaqa5a6ZPNFNFNFNFNFNFk2hii2h3ixiyh3h2h3h2h3ikiFk2k2k2k2k2k2hyhz
+BOARD 0 36 64 0 iEijhnhnhnhnhnhnighj8O8O8O8O8O8O8O8OiEiFk2NFNFZPa5a6a5a6ZPNFNFZPa5a6ZPa7NFNFNFNFNFNFNFk2hihj8O8O8O8O8O8O8O8OiEijhnhnhnhnhnhnighj
+BOARD 0 37 64 0 iyh3h2h3h2h3h2h3h3ix8O8O8O8O8O8O8O8OiUiVk2NFNFNFarZParapaqarinhnhni1arNFNFNFNFNFNFNFNFk2hyhz8O8O8O8O8O8O8O8Oiyh3h2h3h2h3h2h3h3ix
+BOARD 0 38 64 0 jAiAiBiAiBiAiBiAiBjD8O8O8O8O8O8O8O8OiEiFk2NFNFarNFNFZPa5a6ZPhii2ikiFZPNFNFNFNFNFNFNFNFk2hihj8O8O8O8O8O8O8O8OjAiAiBiAiBiAiBiAiBjD
+BOARD 0 39 64 0 iEjRiQiRiQiRiQiRjShz8O8O8O8O8O8O8O8OiUiVk2NFNFNFNFNFNFarapaqhyjXjFiVNFNFNFNFNFNFNFNFNFk2hyhz8O8O8O8O8O8O8O8OiEjRiQiRiQiRiQiRjShz
+BOARD 0 40 64 0 iEiF7a7b7a7b7a7bhyjXiBiAiBiAiBjDjAiAjFiVk2NFNFNFNFNFNFZPa5a6jGiRiRjUNFNFNFNFNFNFNFNFNFk2hyjXiBjDjAiAiBiAiBiAjFiV7a7b7a7b7a7bhihj
+BOARD 0 41 64 0 iUiV7b7a7b7a7b7ajGiRiQiRiQiRjShziEjRiRjUk2NFNFNFNFNFNFNFara7667b7a67NFNFNFNFNFNFNFNFNFk2jGiRjShziEjRiQiRiQiRiRjU7b7a7b7a7b7ahyhz
+BOARD 0 42 64 0 iEiFk2k2k2k2k2k2667b7a7b7a7bhihjiEiF7b67k2NFNFNFarNFNFNFNFZP7K7a7b7LNFNFNFNFNFNFNFNFNFk2667bhihjiEiF7a7b7a7b7a67k2k2k2k2k2k2hihj
+BOARD 0 43 64 0 iUiVk2ZPa7NFNFk27K7a7b7a7b7ahyhziUiV7a7Lk2NFNFNFNFNFNFNFNFa7a5a6a7NFNFNFNFNFNFNFNFNFNFk27K7ahyhziUiV7b7a7b7a7b7Lk2NFNFarZPk2hyhz
+BOARD 0 44 64 0 iEiFk2apaqZPk2NFNFNFNFNFk2NFhihjiEiFapaqark2NFNFNFNFNFNFNFNFZPa7NFNFNFNFNFNFNFNFNFNFk2ZPapaqhihjiEiFNFk2NFNFNFNFNFk2ZPapaqk2hihj
+BOARD 0 45 64 0 iUiVk2a5a6a7k2NFNFNFNFNFk2NFhyhziUiVa5a6ZPk2NFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFk2a7a5a6hyhziUiVNFk2NFNFNFNFNFk2a7a5a6k2hyhz
+BOARD 0 46 64 0 iEiFk2a7ZPNFNFk2inhnhnhnhnhnighjiEijhni1k2NFNFNFNFNFNFNFNFNFNFNFNFarNFNFNFNFNFNFNFNFNFk2inhnighjiEijhnhnhnhnhni1k2NFNFZPa7k2hihj
+BOARD 0 47 64 0 iUiVk2k2k2k2k2k2hii2h2h3h2h3h3ixiyh3ikiFk2NFNFNFNFNFNFNFNFNFarZPNFNFNFNFNFNFNFNFNFNFNFk2hii2h3ixiyh3h2h3h2h3ikiFk2k2k2k2k2k2hyhz
+BOARD 0 48 64 0 iEijhnhnhnhnhnhnighj7a7b7a7b7a67667aiEiFk2NFmompNFNFNFNFNFZPapaqarNFNFNFNFNFNFNFmompNFk2hihj7a67667b7a7b7a7biEijhnhnhnhnhnhnighj
+BOARD 0 49 64 0 iyh3h2h3h2h3h2h3h3ix7b7a7b7a7b7L7K7biUiVk2NFm4m5NFNFNFNFNFa7a5a6ZPNFNFNFNFNFNFNFm4m5NFk2hyhz7b7L7K7a7b7a7b7aiyh3h2h3h2h3h2h3h3ix
+BOARD 0 50 64 0 667b7a7b7a7b7a7b7a67J4J4J4J4J4J4J4J4iEiFk2NFNFNFNFNFNFNFNFNFZPa7apaqarNFNFNFNFNFNFNFNFk2hihjJ4J4J4J4J4J4J4J4667b7a7b7a7b7a7b7a67
+BOARD 0 51 64 0 7K7a7b7a7b7a7b7a7b7LJ4J4J4J4J4J4J4J4iUiVk2k2k2k2k2k2k2k2k2arapaqa5a6ZPk2k2k2k2k2k2k2k2k2hyhzJ4J4J4J4J4J4J4J47K7a7b7a7b7a7b7a7b7L
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iEijhnhnhnhnhnhnhnhnhni1a5a6ara7inhnhnhnhnhnhnhnhnhnighjJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iyh3h2h3h2h3h2h3h2h3ikiFapaqZPk2hii2h2h3h2h3h2h3h2h3h3ixJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4667b7a7b7a7b7a7b7a7biEiFa5a6a7k2hihj7a7b7a7b7a7b7a7b7a67J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J47K7a7b7a7b7a7b7a7b7aiUiVarapaqZPhyhz7b7a7b7a7b7a7b7a7b7LJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iEiFZPa5a6a7hihjJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iUiVk2arZPk2hyhzJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iEijhnNFNFhnighjJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4iyh3kQNFNFkTh3ixJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4667bjjNFNFjl7a67J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J47K7ajzNFNFj17b7LJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4NFNFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4NFNFJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+NPC portcullusdoor2.png 24 24
+// NPC made by Luda
+//#CLIENTSIDE
+function onCreated() {
+  setimgpart("portcullusdoor2.png",40,0,32,32);
+  setshape(1,32,32);
+  y+=1/16
+}
+NPCEND
+NPC portcullusdoor2.png 38 24
+// NPC made by Luda
+//#CLIENTSIDE
+function onCreated() {
+  setimgpart("portcullusdoor2.png",40,0,32,32);
+  setshape(1,32,32);
+  drawunderplayer();
+}
+NPCEND
+NPC darkpillar.png 21 27
+// NPC made by Luda (LOA)
+//#CLIENTSIDE;
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC fire.mng 40 26
+//#CLIENTSIDE
+function onCreated() {
+  this.setcoloreffect(0.5,0,0.5,0.99);
+  this.dontblock();
+  this.drawoverplayer();
+}
+NPCEND
+NPC kcavelamp.mng 20 23
+//#CLIENTSIDE
+function onCreated() {
+  setimgpart("kcavelamp.mng",32,0,32,80);
+  dontblock();
+}
+NPCEND
+NPC kcavelamp.mng 42 23
+//#CLIENTSIDE
+function onCreated() {
+  setimgpart("kcavelamp.mng",32,0,32,80);
+  dontblock();
+}
+NPCEND
+NPC kcavelamp.mng 18 39
+//#CLIENTSIDE
+function onCreated() {
+  setimgpart("kcavelamp.mng",32,0,32,80);
+  dontblock();
+}
+NPCEND
+NPC kcavelamp.mng 44 39
+//#CLIENTSIDE
+function onCreated() {
+  setimgpart("kcavelamp.mng",32,0,32,80);
+  dontblock();
+}
+NPCEND
+NPC darkpillar.png 22 46
+// NPC made by Luda (LOA)
+//#CLIENTSIDE;
+function onCreated() {
+  dontblock();
+}
+NPCEND
+NPC darkpillar.png 40 46
+// NPC made by Luda (LOA)
+//#CLIENTSIDE;
+function onCreated() {
+  dontblock();
+}
+NPCEND
+NPC - 21 11
+//#CLIENTSIDE
+function onCreated() {
+  showcharacter();
+  head      = "head13.png";
+  colors[0] = "orange";
+  colors[1] = "white";
+  colors[2] = "purple";
+  colors[3] = "black";
+  colors[4] = "black";
+  dir = 2;
+  setcharani("classic_sit",NULL);
+  nick = "Older Brother";
+  this.x1 = x+2.5;
+  this.y1 = y+11.75;
+  if (clientr.warplocs_recreations != 0) {
+    setcharani("classic_idle",NULL);
+    x = this.x1;
+    y = this.y1;
+  }
+}
+function onActionCutScene() {
+  dir = 3;
+  setcharani("classic_walk",NULL);
+  onTimeOut();
+}
+function onTimeOut() {
+  setTimer(0.05);
+  if (x<this.x1) {
+    x+=0.25;
+  } else if (y<this.y1) {
+    dir = 2;
+    y+=0.25;
+  } else if (!this.readme) {
+    this.readme = true;
+    setcharani("classic_idle",NULL);
+    say2("What brings you here child?"
+      NL "Is that what"
+      NL "         I think it is?"
+      NL "A Warp Ring?"
+      NL "Well, I lost my own in coming,"
+      NL "and it cannot be used in here."
+      NL "This is a place where many"
+      NL "ancients were imprisoned"
+      NL "after their search had ended."
+      NL "\"What search,\" you ask?"
+      NL "Why, the search for the four"
+      NL "Graals."
+      NL "We have often changed from our"
+      NL "old ways, but the four Graals..."
+      NL "they have always remained."
+      NL "They unlock the gate to other"
+      NL "parts of this world, and they"
+      NL "are the only way I might return.\n"
+      NL "Do you seek the Graals?\n"
+      NL "I see that you do..."
+      NL "I have a token that I can"
+      NL "give to you. It's a Warp Jewel."
+      NL "Take it outside and use it with"
+      NL "the Warp Ring. It will"
+      NL "return you to my dwelling."
+      NL "You may want to seek the"
+      NL "king and earn his trust."
+      NL "He has been searching for"
+      NL "the Graals as well."
+      NL "The castle is heavily"
+      NL "guarded, Good luck,"
+      NL "young adventurer...");
+  }
+}
+
+function onPlayerEnters() {
+  level.md_brother = npcs.index(this);
+}
+NPCEND
+NPC - 40 13
+//#CLIENTSIDE
+// Graal v1.4 NPC by Stefan Knorr
+function onCreated() {
+  // Initialize the attributes
+  showcharacter();
+  head      = "head30.png";
+  colors[0] = "gray";
+  colors[1] = "gray";
+  colors[2] = "orange";
+  colors[3] = "gray";
+  colors[4] = "darkblue";
+  nick = "Tyhm";
+  shieldpower = 1;
+  dir = 2;
+}
+
+function onPlayerEnters() {
+  level.md_tyhm = npcs.index(this);
+  for (temp.i=0; temp.i<10; temp.i++){
+    showimg(200+temp.i,"bosschain.png",(x-1)+(temp.i*0.3),(y-3)+(temp.i/2));
+    changeimgvis(200+temp.i,0);
+  }
+  setcharani("sit",NULL);
+}
+NPCEND
+NPC - 58 28
+//#CLIENTSIDE
+function onPlayerEnters() {
+  level.md_kevin = npcs.index(this);
+}
+function onCreated() {
+  // Initialize the attributes
+  showcharacter();
+  head      = "head26.png";
+  colors[0] = "orange";
+  colors[1] = "white";
+  colors[2] = "orange";
+  colors[3] = "orange";
+  colors[4] = "red";
+  shield    = "no-shield.png";
+  nick      = "Kevin Azite";
+  body      = "body14.png";
+  rupees = 999999999999;
+  hp     = 200;
+  ap=0;
+  shieldpower = 1;
+  dir = 3;
+  sprite = 40;
+}
+NPCEND
+NPC - 2 44
+// Graal2001 NPC by Stefan Knorr
+//#CLIENTSIDE
+function onCreated() {
+  // Initialize the attributes
+  showcharacter();
+  head      = "head17.png";
+  colors[0] = "cynober";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "cynober";
+  colors[4] = "blue";
+  nick      = "Antago";
+  shield    = "antago-shield.png";
+  shieldpower = 1;
+  dir = 3;
+  ap=70;
+}
+function onPlayerEnters() {
+  level.md_antago = npcs.index(this);
+}
+NPCEND
+NPC classic_midascover.png 27 58
+//#CLIENTSIDE
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_rock_1.png 4 44
+
+NPCEND
+NPC classic_rock_1.png 5 46
+
+NPCEND
+NPC classic_rock_1.png 5 42
+
+NPCEND
+NPC classic_rock_1.png 3 42
+
+NPCEND
+NPC classic_rock_1.png 5 43
+//#CLIENTSIDE
+function onCreated() {
+  drawoverplayer();
+}
+NPCEND
+NPC classic_rock_1.png 4 42
+//#CLIENTSIDE
+function onCreated() {
+  drawoverplayer();
+}
+NPCEND
+NPC classic_rock_1.png 5 45
+//#CLIENTSIDE
+function onCreated() {
+  drawoverplayer();
+}
+NPCEND
+NPC classic_rock_1.png 6 42
+//#CLIENTSIDE
+function onCreated() {
+  drawoverplayer();
+}
+NPCEND
+NPC - 2 29
+//#CLIENTSIDE
+function onCreated() {
+  // Initialize the attributes
+  showcharacter();
+  head = "head836.png";
+  body = "body2.png";
+  colors[0] = "black";
+  colors[1] = "black";
+  colors[2] = "darkred";
+  colors[3] = "black";
+  colors[4] = "darkred";
+  nick = "Chancellor Timemutt (LOG)";
+  ap=100;
+  shield = "no-shield.png";
+  shieldpower = 1;
+  dir = 2;
+}
+
+function onPlayerEnters() {
+  level.md_timemutt = npcs.index(this);
+  // Initialize the this. variables
+  this.dirgo = {0,-1,-1,0,0,1,1,0};
+  this.walkmode = 1;
+  if (this.walkmode>1)
+    this.walkmode = 1;
+  this.x1 = x-20;
+  this.x2 = x+20;
+  this.y1 = x-20;
+  this.y2 = x+20;
+  this.speed = 0.3;
+  this.mode = 0;
+  setcharani("idle",NULL);
+  this.runcounter = int(random(10,40));
+  onTimeOut();
+}
+
+// Walking stuff
+function onTimeOut() {
+  if (this.mode==0) { // WALKING
+    setcharani("walk",NULL);
+    this.newx = x + this.dirgo[dir*2] * this.speed;
+    this.newy = y + this.dirgo[dir*2+1] * this.speed;
+    this.runcounter--;
+    if (this.walkmode==1) { // RANDOM
+      if (this.runcounter>0) {
+        this.testx = this.newx + 1.5 + this.dirgo[dir*2];
+        this.testy = this.newy + 2+ this.dirgo[dir*2+1];
+        if (onwall(this.testx,this.testy)) {
+          dir = (dir+2)%4;
+          this.runcounter = int(random(0,60));
+        } else {
+          x = this.newx;
+          y = this.newy;
+        }
+      } else {
+        this.runcounter = int(random(10,40));
+        dir = (dir+1+int(random(0,2))*2)%4;
+      }
+    } else if (this.walkmode==2) { // LEFTRIGHT
+      if (dir!=1 && dir!=3) dir = 3;
+      else {
+        x = this.newx;
+        y = this.newy;
+        if ((dir==1 && x<=this.x1) || (dir==3 && x>=this.x2))
+          dir = (dir+2)%4;
+      }
+    } else if (this.walkmode==3) { // UPDOWN
+      if (dir!=0 && dir!=2) dir = 2;
+      else {
+        x = this.newx;
+        y = this.newy;
+        if ((dir==0 && y<=this.y1) || (dir==2 && y>=this.y2))
+          dir = (dir+2)%4;
+      }
+    } else if (this.walkmode==4) { // RECTANGLE
+      x = this.newx;
+      y = this.newy;
+      if ((dir==0 && y<=this.y1) || (dir==1 && x<=this.x1) ||
+        (dir==2 && y>=this.y2) || (dir==3 && x>=this.x2))
+          dir = (dir+3)%4;
+    }
+    if (this.walkmode>1 && this.runcounter<=0)
+      this.runcounter = 20;
+    setTimer(0.05);
+  }
+}
+NPCEND
+NPC - 16 44
+join("cutscene");
+//#CLIENTSIDE
+
+function onPlayerEnters() {
+  setshape(1,32,32);
+  this.targets = {npcs[level.md_antago],NULL};
+  this.cameraModes = {system_camera.CHASE,NULL};
+  this.times = {-1,NULL};
+}
+
+function onPlayerTouchsMe() {
+  if (!this.touched) {
+    cutscene();
+    this.touched = true;
+    say2("Good day sir, would you care to"
+      NL "make a donation? I need to"
+      NL "maintain the wall around Destiny..."
+      NL "we have a few stones"
+      NL "in surplus, but every day we"
+      NL "lose a few to keep the wall"
+      NL "strong. Can you help? I can"
+      NL "only pay a few gelat for each"
+      NL "stone...");
+  }
+}
+
+function onPlayerEndsReading() {
+  if (this.touched) {
+    this.touched = false;
+    cutscene::onAdvanceScene();
+  }
+}
+NPCEND
+NPC - 16 32
+join("cutscene");
+//#CLIENTSIDE
+
+function onPlayerEnters() {
+  setshape(1,32,32);
+  this.targets = {npcs[level.md_timemutt],NULL};
+  this.cameraModes = {system_camera.CHASE,NULL};
+  this.times = {-1,NULL};
+}
+
+function onPlayerTouchsMe() {
+  if (!this.touched) {
+    cutscene();
+    this.touched = true;
+    say2("What?  You want to speak to"
+      NL "the king?  I'm afraid that's"
+      NL "impossible, young man.  The"
+      NL "King is far too busy with affairs"
+      NL "of the state to be trifled with"
+      NL "by every peasant with a"
+      NL "problem.  If you want to be of"
+      NL "use, speak with Cassio, the"
+      NL "Captain of the Guard.  He's"
+      NL "doubtless sleeping in the"
+      NL "barracks again...");
+  }
+}
+
+function onPlayerEndsReading() {
+  if (this.touched) {
+    this.touched = false;
+    cutscene::onAdvanceScene();
+  }
+}
+NPCEND
+NPC - 56 32
+//#CLIENTSIDE
+// Graal v1.3 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,orange;
+  setcharprop #C3,gray;
+  setcharprop #C4,orange;
+  setcharprop #8,body5.png;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+  swordpower = 0;
+}
+
+if (playerenters || wasthrown) {
+  // Initialize the this. variables
+  message;
+  this.huntspeed = 0.4;
+  dirgo = {0,-1,-1,0,0,1,1,0};
+  timeout = 0.05;
+  this.mode = 0;
+  sprite = 0;
+  this.runcounter = int(random(10,40));
+}
+
+// Sword attacking stuff
+if (timeout && (this.mode==0 || this.mode==2)) {
+  // Look for Kevin
+  mindist = 1000;
+  for (i=0; i<npcscount; i++)
+      if (npcs[i].hearts>0 && npcs[i].id>=0) {
+    dx = npcs[i].x - x;
+    dy = npcs[i].y - y;
+    if (abs(dx)>abs(dy)) {
+      if (dx>0) pdir=3; else pdir=1;
+    } else {
+      if (dy>0) pdir=2; else pdir=0;
+    }
+    if (pdir==dir) {
+      dist = (dx*dx+dy*dy)^0.5;
+      if (dist<mindist) {
+        cansee = 1;
+        if (abs(dx)>abs(dy)) k = int(abs(dx));
+        else k = int(abs(dy));
+        for (j=0; j<=k-2; j++)
+          if (onwall(x+1.5+dx*j/k,y+2+dy*j/k)) cansee = 0;
+        if (cansee!=0) {
+          mindist = dist;
+          aimplayer = i;
+          this.aimx = npcs[i].x;
+          this.aimy = npcs[i].y;
+        }
+      }
+    }
+  }
+  if (mindist<=3) {
+    this.runcounter = -1;
+    this.mode = 3; // SLAYING
+    sprite = 19;
+    timeout = 0.05;
+  } else if (mindist<20) {
+    if (this.mode!=2) message Stop!;
+    this.runcounter = 100;
+    this.mode = 2; // HUNTING
+  } else timeout = 0.05;
+}
+if (timeout && this.mode==3) { // SLAYING
+  this.runcounter++;
+  if (this.runcounter>=4) {
+    this.runcounter = 100;
+    this.mode = 2; // HUNTING
+    sprite = 0;
+  } else {
+    sprite = 19+this.runcounter;
+  }
+  message;
+  timeout = 0.05;
+}
+if (timeout && this.mode==2) { // HUNTING
+  sprite = (sprite%8)+1;
+  this.runcounter--;
+  if (this.runcounter>0 && aimplayer<npcscount && npcs[aimplayer].hearts>0) {
+    // Get new direction
+    dx = npcs[aimplayer].x-x;
+    dy = npcs[aimplayer].y-y;
+    if (abs(dx)>abs(dy)) {
+      if (dx>0) dir=3; else dir=1;
+    } else {
+      if (dy>0) dir=2; else dir=0;
+    }
+
+    // Test if we can do a step
+    dx = this.aimx-x;
+    dy = this.aimy-y;
+    if (abs(dx)<=1 && abs(dy)<=1) {
+      this.aimx = npcs[aimplayer].x;;
+      this.aimy = npcs[aimplayer].y;
+      dx = this.aimx-x;
+      dy = this.aimy-y;
+    }
+    if (abs(dx)>abs(dy)) {
+      if (dx>0) testdir=3; else testdir=1;
+    } else {
+      if (dy>0) testdir=2; else testdir=0;
+    }
+    len = (dx*dx+dy*dy)^0.5;
+    addx = (dx/len)*this.huntspeed;
+    addy = (dy/len)*this.huntspeed;
+    testx = x + 1.5;
+    testy = y + 2;
+    if (!onwall(testx+addx,testy+addy)) {
+      // Do a step
+      x += addx;
+      y += addy;
+   } else if (!onwall(testx+addx,testy)) x += addx;
+   else if (!onwall(testx,testy+addy)) y += addy;
+  } else {
+    this.mode = 0; // WALKING
+    this.walkmode = 1; // RANDOM
+    this.runcounter = int(random(10,40));
+    sprite = 0;
+    dir = (dir+2)%4;
+    message;
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC - 46 32
+join("cutscene");
+//#CLIENTSIDE
+
+function onPlayerEnters() {
+  setshape(1,32,32);
+  this.targets = {npcs[level.md_kevin],NULL};
+  this.cameraModes = {system_camera.CHASE,NULL};
+  this.times = {-1,NULL};
+}
+
+function onPlayerTouchsMe() {
+  if (!this.touched) {
+    cutscene();
+    this.touched = true;
+    say2("OH MY GOD I AM DROWNING"
+      NL "ON SOLID LAND\n"
+      NL "..."
+      NL "Is he having a seizure?");
+  }
+}
+
+function onPlayerEndsReading() {
+  if (this.touched) {
+    this.touched = false;
+    cutscene::onAdvanceScene();
+  }
+}
+NPCEND
+NPC - 56 41
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head40.png;
+  setcharprop #C0,black;
+  setcharprop #C1,darkblue;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #C5,black;
+  setcharprop #C6,white;
+  setcharprop #C7,white;
+  setcharprop #n,Gëmëtzë£ HâüS Twä¢tôR (US);
+  setcharprop #2,no-shield.png;
+  setcharprop #8,body12.png;
+  dir = 2;
+  ap = 20;
+}
+NPCEND
+NPC - 57 42
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head530.png;
+  setcharprop #C0,white;
+  setcharprop #C1,black;
+  setcharprop #C2,lightgray;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #C5,black;
+  setcharprop #C6,white;
+  setcharprop #C7,white;
+  setcharprop #n,Quackers Twä¢†ôR (US);
+  setcharprop #2,no-shield.png;
+  setcharprop #8,body10.png;
+  dir = 2;
+  ap = 100;
+}
+//#CLIENTSIDE
+function onPlayerEnters() {
+  level.md_US = npcs.index(this);
+}
+NPCEND
+NPC - 55 43
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head451.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,gray;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #C5,black;
+  setcharprop #C6,white;
+  setcharprop #C7,white;
+  setcharprop #n,HâWk Twä¢†ôR (US);
+  setcharprop #2,no-shield.png;
+  setcharprop #8,body12.png;
+  dir = 2;
+  ap = 0;
+}
+NPCEND
+NPC - 59 44
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head824.png;
+  setcharprop #C0,black;
+  setcharprop #C1,darkblue;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #C5,black;
+  setcharprop #C6,white;
+  setcharprop #C7,white;
+  setcharprop #n,Gør†håµr ‡MìdÑíght‡ (US);
+  setcharprop #2,no-shield.png;
+  setcharprop #8,body12.png;
+  dir = 2;
+  ap = 21;
+}
+NPCEND
+NPC - 59 40
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1124.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,gray;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #C5,black;
+  setcharprop #C6,white;
+  setcharprop #C7,white;
+  setcharprop #n,Wi££ieJama£ Twä¢†ôR (US);
+  setcharprop #2,no-shield.png;
+  setcharprop #8,body12.png;
+  dir = 2;
+  ap = 30;
+}
+NPCEND
+NPC - 46 44
+join("cutscene");
+//#CLIENTSIDE
+
+function onPlayerEnters() {
+  setshape(1,32,32);
+  this.targets = {npcs[level.md_US],NULL};
+  this.cameraModes = {system_camera.CHASE,NULL};
+  this.times = {-1,NULL};
+}
+
+function onPlayerTouchsMe() {
+  if (!this.touched) {
+    cutscene();
+    this.touched = true;
+    say2("Long Live Uncommon Society!!!"
+      NL "Down with Ventrue!!!");
+  }
+}
+
+function onPlayerEndsReading() {
+  if (this.touched) {
+    this.touched = false;
+    cutscene::onAdvanceScene();
+  }
+}
+NPCEND
+NPC - 38 24
+join("cutscene");
+//#CLIENTSIDE
+
+function onPlayerEnters() {
+  setshape(1,32,32);
+  temp.i = testnpc(x+3.5,y-9);
+  this.targets = {npcs[level.md_tyhm],NULL};
+  this.cameraModes = {system_camera.CHASE,NULL};
+  this.times = {-1,NULL};
+}
+
+function onPlayerTouchsMe() {
+  if (!this.touched) {
+    cutscene();
+    this.touched = true;
+    say2("Yeah, yeah, I know...\n\n"
+      NL "\"Don't take candy \nfrom strangers\"...\n"
+      NL "I mean, she seemed \ninnocent enough...\n"
+      NL "I guess you never can tell...");
+  }
+}
+
+function onPlayerEndsReading() {
+  if (this.touched) {
+    this.touched = false;
+    cutscene::onAdvanceScene();
+  }
+}
+NPCEND
+NPC - 24 24
+join("cutscene");
+function onActionTalked() {
+  clientr.warplocs_recreations |= 1;
+}
+function onCreated() {
+  setshape(1,32,32);
+}
+//#CLIENTSIDE
+
+function onPlayerEnters() {
+  setshape(1,32,32);
+  this.i = testnpc(x-1.5,y-11);
+  this.targets = {npcs[level.md_brother],NULL};
+  this.cameraModes = {system_camera.CHASE,NULL};
+  this.times = {-1,NULL};
+  setTimer(0.05);
+}
+
+function onTimeOut() {
+  setTimer(0.05);
+  if (this.touched) {
+    freezeplayer(0.1);
+    movement_handlekeys = 0.1;
+  }
+}
+
+function onPlayerTouchsMe() {
+  if (!this.touched) {
+    if (!clientr.warplocs_recreations) {
+      cutscene();
+      triggeraction(x-1.5,y-11,"CutScene",NULL);
+      setani(gani_idle,NULL);
+    } else {
+      say2("Have you talked to the King?");
+    }
+    this.touched = true;
+  }
+}
+function onPlayerEndsReading() {
+  if (this.touched) {
+    if (!clientr.warplocs_recreations) {
+      freezeplayer(0.5);
+      movement_handlekeys = 0.5;
+      setani("classic_holdup","classic_warpjewel.png");
+      triggeraction(x+1,y+1,"Talked",NULL);
+      cutscene::onAdvanceScene();
+    }
+    this.touched = false;
+  }
+}
+NPCEND
+NPC classic_drawover.png 24 20
+//#CLIENTSIDE
+function onCreated() {
+  drawoverplayer();
+}
+NPCEND
+NPC - 0 0
+join("level_questlevel");
+NPCEND
+NPC darkpillar.png 40 28
+// NPC made by Luda (LOA)
+//#CLIENTSIDE;
+function onCreated() {
+  dontblock();
+}
+NPCEND
+NPC fire.mng 21 25
+//#CLIENTSIDE
+function onCreated() {
+  this.setcoloreffect(0.5,0,0.5,0.99);
+  this.dontblock();
+  this.drawoverplayer();
+}
+NPCEND
+NPC fire.mng 22 44
+//#CLIENTSIDE
+function onCreated() {
+  this.setcoloreffect(0.5,0,0.5,0.99);
+  this.dontblock();
+  this.drawoverplayer();
+}
+NPCEND
+NPC fire.mng 40 44
+//#CLIENTSIDE
+function onCreated() {
+  this.setcoloreffect(0.5,0,0.5,0.99);
+  this.dontblock();
+  this.drawoverplayer();
+}
+NPCEND
+NPC classic_icon_midasdungeon.png 31 41
+//#CLIENTSIDE
+function onCreated(){
+  this.setshape(1,32,32);
+  this.gmapname = "midas_dungeon.gmap";
+  //x,y
+  this.gmapsize = {256,128};
+  this.mapimgsize = {225, 112};
+  //original, old, new, spring, summer, autumn, winter
+  this.gmapimages = {"classic_midasdungeon_old.png","classic_midasdungeon_old.png",NULL,NULL,NULL,NULL,NULL};
+  //function, type, x (pixels), y (pixels)
+  this.orderedconditions = {
+    {"BrothersJewel",6,75,0},
+    {"JointKey",6,193,28},
+  };
+  this.ganimap = "no-image.png";
+}
+
+function onPlayerTouchsMe(){
+  if(player.dir == 0){
+    system_map.SetupMap(this);
+  }
+}
+NPCEND

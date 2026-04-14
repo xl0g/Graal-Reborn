@@ -1,0 +1,384 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4mImJJ4J4J4J4J4J4J4J4J4J4mI6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6smJJ4J4J4J4J4J4J4J4J4J4mImJJ4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4mI6s6s6s6r6q6s6s6s6s6s6s6s6s6s6s6r6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6q6s6s6s6s6s6s6s6s6s6s6r6q6s6s6smJJ4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J46d6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6cJ4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J46d6K6K6a6t6t6b6K6K6K6K6K6K6K6K6a6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6b6K6K6K6K6K6K6K6K6a6t6t6b6K6K6cJ4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J46d6K6K6cNqNr8+6t6t6b6K6K6a6t6t8/CVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCW8+6t6t6b6K6K6a6t6t8/NqNr6d6K6K6cJ4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J46d6K6K6cNqhShThUhV6d6K6K6cNrNqCDCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCgNrNq6d6K6K6chShThUhVNr6d6K6K6cJ4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J46d6K6K6cNqB0B1B2B36d6K6K6cNrNqCDCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCgNrNq6d6K6K6cB0B1B2B3Nr6d6K6K6cJ4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J46d6K6K6cNqCEiLiLCH6d6K6K6cNrNqCDCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCVCWCgNrNq6d6K6K6cCEiLiLCHNr6d6K6K6cJ4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J46d6K6K6cN6CUibibCX6d6K6K6cN7N65dnYnInYnInYnInYnInYnInYnInYnInYnInYnInYnInYnI5cN7N66d6K6K6cCUibibCXN76d6K6K6cJ4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J46d6K6K6cnZnJnZnJnZ6d6K6K6cm2mm3fLmNlnZnJnZnJnZnJnZnJnZnJnZnJnZnJnZnJnZnJNkLm/Qm2mm6d6K6K6cnJnZnJnZnJ6d6K6K6cJ4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J46d6K6K6cnYnInYnInY6d6K6K6cm3mnm3mnL6nYnInYnInYnInYnInYnInYnInYnInYnInYnILbm3mnm3mn6d6K6K6cnInYnInYnI6d6K6K6cJ4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4J46d6K6K6cnZnJnZnJnZ6d6K6K6cm2mmm2mm3fLmNlnZnJnZnJnZnJnZnJnZnJnZnJnZnJNkLm/Qm2mmm2mm6d6K6K6cnJnZnJnZnJ6d6K6K6cJ4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4J46d6K6K6cnYnInYnInY6d6K6K6cm3mnm3mnm3mnL6nYnInYnInYnInYnInYnInYnInYnILbm3mnm3mnm3mn6d6K6K6cnInYnInYnI6d6K6K6cJ4J4J4J4J4
+BOARD 0 19 64 0 J4J4J4J4J46d6K6K6cnZnJnZnJnZ6d6K6K6cm2mmm2mmm2mm3fLmNlnZnJnZnJnZnJnZnJnZnJNkLm/Qm2mmm2mmm2mm6d6K6K6cnJnZnJnZnJ6d6K6K6cJ4J4J4J4J4
+BOARD 0 20 64 0 J4J4J4J4J46d6K6K6cnYnInYnInY6d6K6K6cm3mnm3mnm3mnm3mnL6nYnInYnInYnInYnInYnILbm3mnm3mnm3mnm3mn6d6K6K6cnInYnInYnI6d6K6K6cJ4J4J4J4J4
+BOARD 0 21 64 0 J4J4J4J4J46d6K6K6cnZnJnZnJnZ6d6K6K6cm2mmm2mmm2mmm2mm3fLmNlnZnJnZnJnZnJNkLm/Qm2mmm2mmm2mmm2mm6d6K6K6cnJnZnJnZnJ6d6K6K6cJ4J4J4J4J4
+BOARD 0 22 64 0 J4J4J4J4J46d6K6K6cnYnInYnInY6d6K6K6cLILJLKLJLKLJLKLJLKKrL6nYnInYnInYnILbLILJLKLJLKLJLKLJLKKr6d6K6K6cnInYnInYnI6d6K6K6cJ4J4J4J4J4
+BOARD 0 23 64 0 J4J4J4J4J46d6K6K6cnZnJnZnJnZ6d6K6K6cLYLZLaLZLaLZLaLZLaK7L6nZnJnZnJnZnJLbLYLZLaLZLaLZLaLZLaK76d6K6K6cnJnZnJnZnJ6d6K6K6cJ4J4J4J4J4
+BOARD 0 24 64 0 J4J4J4J4J46d6K6K6cnYnInYnInY6d6K6K6cLYLZLaLZLaLZLaLZLaK7L6nYnInYnInYnILbLYLZLaLZLaLZLaLZLaK76d6K6K6cnInYnInYnI6d6K6K6cJ4J4J4J4J4
+BOARD 0 25 64 0 mI6s6s6s6s6r6K6K6cnZnJnZnJnZ6d6K6K6q6s6s6s6s6s6s6s6s6s6s6snZnJnZnJnZnJ6s6s6s6s6s6s6s6s6s6s6s6r6K6K6cnJnZnJnZnJ6d6K6K6q6s6s6s6smJ
+BOARD 0 26 64 0 6d6K6K6K6K6K6K6K6cnYnInYnInY6d6K6K6K6K6K6K6K6K6K6K6K6K6K6KnYnInYnInYnI6K6K6K6K6K6K6K6K6K6K6K6K6K6K6cnInYnInYnI6d6K6K6K6K6K6K6K6c
+BOARD 0 27 64 0 6d6K6K6K6K6K6K6K6cnZnJnZnJnZ6d6K6K6K6K6K6K6K6K6K6K6K6K6K6KnZnJnZnJnZnJ6K6K6K6K6K6K6K6K6K6K6K6K6K6K6cnJnZnJnZnJ6d6K6K6K6K6K6K6K6c
+BOARD 0 28 64 0 6d6K6K6a6t6t6t6t8/nYnInYnInY8+6t6t6t6t6t6t6t6t6t6t6t6t6t6tnYnInYnInYnI6t6t6t6t6t6t6t6t6t6t6t6t6t6t8/nInYnInYnI8+6t6t6t6t6b6K6K6c
+BOARD 0 29 64 0 6d6K6K6cNrNqNrNqCDnZnJnZnJnZCgNqNrNqNqNrNqNrNqNrNqNrNqeOePnZnJnZnJnZnJeOePNrNqNrNqNrNqNrNqNrNqNrNqCDnJnZnJnZnJCgNqNrNqNr6d6K6K6c
+BOARD 0 30 64 0 6d6K6K6cNrNqNrNqCDnYnInYnInY5cN6N7N6N6N7N6N7N6N7N6N7N6eeefnYnInYnInYnIeeefN7N6N7N6N7N6N7N6N7N6N7N65dnInYnInYnICgNqNrNqNr6d6K6K6c
+BOARD 0 31 64 0 6d6K6K6cNrNqNrNqCDnZnJnZnJnZnJLbm2mmm2mmm2mmm2mmm2mmm2euevnZnJnZnJnZnJeuevmmm2mmm2mmm2mmm2mmm2mmL6nZnJnZnJnZnJCgNqNrNqNr6d6K6K6c
+BOARD 0 32 64 0 6d6K6K6cN7N6N7N65dnYnInYnInYnIN0M//Am3mnm3mnm3mnm3mnm3e+e/nYnInYnInYnIe+e/mnm3mnm3mnm3mnm3mn3PM/N1nYnInYnInYnI5cN6N7N6N76d6K6K6c
+BOARD 0 33 64 0 6d6K6K6cm2mmm2mm3fLmNlnZnJnZnJnZnJLbm2mmm2mmm2mmm2mmm2mmL6nZnJnZnJnZnJLbm2mmm2mmm2mmm2mmm2mmL6nZnJnZnJnZnJNkLm/Qm2mmm2mm6d6K6K6c
+BOARD 0 34 64 0 6d6K6K6cm3mnm3mnm3mnL6nYnInYnInYnIN0M//Am3mnm3mnm3mnm3mnL6nYnInYnInYnILbm3mnm3mnm3mnm3mn3PM/N1nYnInYnInYnILbm3mnm3mnm3mn6d6K6K6c
+BOARD 0 35 64 0 6d6K6K6cm2mmm2mmm2mm3fLmNlnZnJnZnJnZnJLbm2mmm2mmm2mmm2mmL6nZnJnZnJnZnJLbm2mmm2mmm2mmm2mmL6nZnJnZnJnZnJNkLm/Qm2mmm2mmm2mm6d6K6K6c
+BOARD 0 36 64 0 6d6K6K6cm3mnm3mnm3mnm3mnL6nYnInYnInYnIN0M//Am3mnm3mnm3mnL6nYnInYnInYnILbm3mnm3mnm3mn3PM/N1nYnInYnInYnILbm3mnm3mnm3mnm3mn6d6K6K6c
+BOARD 0 37 64 0 6d6K6K6cm2mmm2mmm2mmm2mm3fLmNlnZnJnZnJnZnJLbm2mmm2mmm2mmL6nZnJnZnJnZnJLbm2mmm2mmm2mmL6nZnJnZnJnZnJNkLm/Qm2mmm2mmm2mmm2mm6d6K6K6c
+BOARD 0 38 64 0 6d6K6K6cm3mnm3mnm3mnm3mnm3mnL6nYnInYnInYnIN0M//Am3mnm3mnL6nYnInYnYnYnILbm3mnm3mn3PM/N1nYnInYnInYnILbm3mnm3mnm3mnm3mnm3mn6d6K6K6c
+BOARD 0 39 64 0 6d6K6K6cm2mmm2mmm2mmm2mmm2mm3fLmNlnZnJnZnJnZnJLbm2mmm2mmL6nZnJnZnJnZnJLbm2mmm2mmL6nZnJnZnJnZnJNkLm/Qm2mmm2mmm2mmm2mmm2mm6d6K6K6c
+BOARD 0 40 64 0 6d6K6K6cm3mnm3mnm3mnm3mnm3mnm3mnL6nYnInYnInYnIN0M//Am3mnL6nYnInYnInYnILbm3mn3PM/N1nYnInYnInYnILbm3mnm3mnm3mnm3mnm3mnm3mn6d6K6K6c
+BOARD 0 41 64 0 6d6K6K6cm2mmm2mmm2mmm2mmm2mmm2mm3fLmNlnZnJnZnJnZnJLbm2mmL6nZnJnZnJnZnJLbm2mmL6nZnJnZnJnZnJNkLm/Qm2mmm2mmm2mmm2mmm2mmm2mm6d6K6K6c
+BOARD 0 42 64 0 6d6K6K6cm3mnm3mnm3mnm3mnm3mnm3mnm3mnL6nYnInYnInYnIN0M//AL6nYnInYnInYnILb3PM/N1nYnInYnInYnILbm3mnm3mnm3mnm3mnm3mnm3mnm3mn6d6K6K6c
+BOARD 0 43 64 0 6d6K6K6cm2mmm2mmm2mmm2mmm2mmm2mmm2mm3fLmNlnZnJnZnJnZnJLbL6nZnJnZnJnZnJLbL6nZnJnZnJnZnJNkLm/Qm2mmm2mmm2mmm2mmm2mmm2mmm2mm6d6K6K6c
+BOARD 0 44 64 0 6d6K6K6cm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnL6nYnInYnInYnIN0N1nYnInYnInYnIN0N1nYnInYnInYnILbm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mn6d6K6K6c
+BOARD 0 45 64 0 6d6K6K6cm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mm3fLmLmLmNlnZnJnZnJnZnJnZnJnZnJnZnJnZnJNkLmLmLm/Qm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mm6d6K6K6c
+BOARD 0 46 64 0 6d6K6K6cm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnL6nYnInYnInYnInYnInYnInYnInYnILbm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mn6d6K6K6c
+BOARD 0 47 64 0 6d6K6K6cm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mm3fLmLmLmNlnZnJnZnJnZnJNkLmLmLm/Qm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mm6d6K6K6c
+BOARD 0 48 64 0 6d6K6K6cm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnL6nYnInYnInYnILbm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mn6d6K6K6c
+BOARD 0 49 64 0 6d6K6K6cm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmL6nZnJnZnJnZnJLbm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mm6d6K6K6c
+BOARD 0 50 64 0 6d6K6K6cm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnL6nYnInYnInYnILbm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mn6d6K6K6c
+BOARD 0 51 64 0 6d6K6K6cm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmL6nZnJnZnJnZnJLbm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mm6d6K6K6c
+BOARD 0 52 64 0 6d6K6K6cm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnL6nYnInYnInYnILbm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mnm3mn6d6K6K6c
+BOARD 0 53 64 0 6d6K6K6cm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmL6nZnJnZnJnZnJLbm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mmm2mm6d6K6K6c
+BOARD 0 54 64 0 6d6K6K6cm3mnm3mnm3mnmImJm3mnm3mnm3mnm3mnm3mnmImJm3mnm3mnL6nYnInYnInYnILbm3mnm3mnmImJm3mnm3mnm3mnm3mnm3mnmImJm3mnm3mnm3mn6d6K6K6c
+BOARD 0 55 64 0 6d6K6K6q6s6s6s6s6s6s6r6q6s6s6s6s6s6s6s6s6s6s6r6q6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6r6q6s6s6s6s6s6s6s6s6s6s6r6q6s6s6s6s6s6s6r6K6K6c
+BOARD 0 56 64 0 6d6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6K6c
+BOARD 0 57 64 0 6d6K6K6K6K6K6K6K6K6a6t6t6b6K6K6K6K6K6K6K6K6a6t6t6b6K6K6K6K6K6K6K6K6K6K6K6K6K6K6a6t6t6b6K6K6K6K6K6K6K6K6a6t6t6b6K6K6K6K6K6K6K6K6c
+BOARD 0 58 64 0 8+6t6t6t6t6t6t6t6t8/NqNr8+6t6t6t6t6t6t6t6t8/NqNr8+6t6t6t6t6t6t6t6t6t6t6t6t6t6t8/NqNr8+6t6t6t6t6t6t6t6t8/NqNr8+6t6t6t6t6t6t6t6t8/
+BOARD 0 59 64 0 NrNqNrNqNqNrNqNrNqCDNqNrCgNrNqNrNqNrNqNrNqCDNqNrCgNrNqNrNqhShThUhThUhVNrNqNrNqCDNqNrCgNrNqNrNqNrNqNrNqCDNqNrCgNrNqNrNqNrNqNrNqNq
+BOARD 0 60 64 0 NrNqNrNqNqNrNqNrNqCDNqNrCgNrNqNrNqNrNqNrNqCDNqNrCgNrNqNrNqB0B1B2B1B2B3NrNqNrNqCDNqNrCgNrNqNrNqNrNqNrNqCDNqNrCgNrNqNrNqNrNqNrNqNq
+BOARD 0 61 64 0 NrNqNrNqNqNrNqNrNqCDN6N7CgNrNqNrNqNrNqNrNqCDN6N7CgNrNqNrNqCEiLiLiLiLCHNrNqNrNqCDN6N7CgNrNqNrNqNrNqNrNqCDN6N7CgNrNqNrNqNrNqNrNqNq
+BOARD 0 62 64 0 N7N6N7N6N6N7N6N7N65dJ4J45cN7N6N7N6N7N6N7N65dJ4J45cN7N6N7N6CUibibibibCXN7N6N7N65dJ4J45cN7N6N7N6N7N6N7N65dJ4J45cN7N6N7N6N7N6N7N6N6
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK gc_swat_inside_04.nw 30 55 4 1 38.5 21
+LINK gc_swat_inside_06.nw 51 12 2 1 51.5 53
+LINK gc_swat_inside_06.nw 11 12 2 1 9.5 53
+NPC classic_castlecover.png 29 25
+//#CLIENTSIDE
+dontblock;
+drawoverplayer;
+NPCEND
+NPC stefanbook.png 22 23
+// NPC made by Luda (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC stefanbook.png 40 23
+// NPC made by Luda (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC safe.png 44 14
+drawunderplayer;
+NPCEND
+NPC safe.png 44 12
+drawoverplayer;
+NPCEND
+NPC safe.png 42 14
+drawunderplayer;
+NPCEND
+NPC safe.png 42 12
+drawoverplayer;
+NPCEND
+NPC safe.png 18 14
+drawunderplayer;
+NPCEND
+NPC safe.png 20 14
+drawunderplayer;
+NPCEND
+NPC safe.png 18 12
+drawoverplayer;
+NPCEND
+NPC safe.png 20 12
+drawoverplayer;
+NPCEND
+NPC - 14 9
+// NPC made by Exodus (LAT)
+// EDITED BY DC
+if (created) {
+  setshape 1,32,32;
+}
+if (actionwarpplayer) {
+  if(player.guild == "SWAT"){
+    setlevel2 gc_swat_01.nw,30.5,60;
+  }
+  else
+    setlevel2 gc_swat_inside_01.nw,30.5,30.5;
+}
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  if (strequals(#s(clientr.hd_isdead),true)  || strequals(#s(client.hd_isdead),1)) {
+    if (this.time <= 0) {
+      triggeraction x+1,y+1,warpplayer,;
+      this.time = 1;
+    }
+  }
+  if (this.time > 0) this.time -= 0.05;
+  timeout = 0.05;
+}
+NPCEND
+NPC light4.png 32 26
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,1,1,.59;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.5) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC light4.png 24 26
+//#CLIENTSIDE
+if (created) {
+
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,1,1,.59;
+  drawaslight;
+  this.zoom = 1;
+  timeout = 0.05;
+}
+if (timeout) {
+if (this.zoom<=1) {
+this.ds=1;
+}
+else if (this.zoom>=1.5) {
+this.ds=0;
+}
+if (this.ds==1) {
+this.zoom += 0.02;
+setzoomeffect this.zoom;
+}
+else if (this.ds==0) {
+this.zoom -= 0.03;
+setzoomeffect this.zoom;
+}
+timeout = 0.05;
+}
+NPCEND
+NPC - 19 17
+function onCreated() {
+  showcharacter();
+  headimg     = "headc-ricespice.png";
+  shieldimg   = "gun-shield.png";
+  colors[0]   = "orange";
+  colors[1]   = "blue";
+  colors[2]   = "blue";
+  colors[3]   = "black";
+  colors[4]   = "black";
+  nick        = "Bank Security";
+
+  shieldpower = 1;
+  dir         = 2;
+ sprite = 24;
+}
+NPCEND
+NPC - 43 17
+function onCreated() {
+  showcharacter();
+  headimg     = "head612.png";
+  shieldimg   = "gun-shield.png";
+  colors[0]   = "brown";
+  colors[1]   = "blue";
+  colors[2]   = "blue";
+  colors[3]   = "black";
+  colors[4]   = "black";
+  nick        = "Bank Security";
+  attr[1]     = "hat92.png";
+  shieldpower = 1;
+  dir         = 1;
+ sprite = 24;
+}
+NPCEND
+NPC classic_castlebiggate.png 29 28
+function onCreated(){
+  this.dhearts=1500;
+  chat="HP: " @ int((this.dhearts/1500)*100) @ "%";
+  serverr.gc_swat_stats.replace(1,int((this.dhearts/1500)*100) @ "%");
+  setTimer(1);
+
+}
+function onPlayerChats(){
+  if (player.guild == "Game Coordinator")
+    if (player.chat == "/reset"){
+    this.dhearts=1500;
+    chat="HP: " @ int((this.dhearts/1500)*100) @ "%";
+    serverr.gc_swat_stats.replace(1,int((this.dhearts/1500)*100) @ "%");
+    show();
+  }
+}
+function onSlash(){
+  if(serverr.gc_swatbalanced="true"){
+    if(player.guild="Terrorist"){
+      if(this.dhearts > 0){
+        this.dhearts -= 1;
+        chat="HP: " @ int((this.dhearts/1500)*100) @ "%";
+        serverr.gc_swat_stats.replace(1,int((this.dhearts/1500)*100) @ "%");
+        setTimer(1.5);
+      }
+      if(this.dhearts == 0){
+        hide();
+        setTimer(1.5);
+      }
+    }
+    else if(player.guild="SWAT" && this.dhearts < 1500){
+      this.dhearts += .5;
+      chat="HP: " @ int((this.dhearts/1500)*100) @ "%";
+      serverr.gc_swat_stats.replace(1,int((this.dhearts/1500)*100) @ "%");
+    }
+  }
+}
+  function onTimeOut(){
+    if(this.dhearts<1500){
+      setTimer(.02);
+      if(serverr.gc_swatbalanced="true"){
+        this.dhearts ++;
+        chat="HP: " @ int((this.dhearts/1500)*100) @ "%";
+        serverr.gc_swat_stats.replace(1,int((this.dhearts/1500)*100) @ "%");
+      }
+    }
+  }
+NPCEND
+NPC classic_gc_ludamoneybag.png 25 22
+
+NPCEND
+NPC classic_gc_ludamoneybag.png 31 16
+join gc_swat_systems;
+function onPlayerTouchsMe() {
+  if(player.guild=="Terrorist"){
+    for (pobj: allplayers) {
+      if (pobj.level.starts("gc_swat_")) {
+        player.fullheal();
+        if (pobj.guild == "Game Coordinator") {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",24,30.5);
+        }
+        elseif (pobj.guild == "Terrorist") {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",24,30.5);
+        }
+        else {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",34,30.5);
+        }
+      }
+    }
+  }
+}
+NPCEND
+NPC classic_gc_ludamoneybag.png 42 22
+
+NPCEND
+NPC - 17 25
+ join level_nopause;
+NPCEND
+NPC classic_gc_ludamoneybag.png 31 15
+
+function onPlayerTouchsMe() {
+  if(player.guild=="Terrorist"){
+    for (pobj: allplayers) {
+      if (pobj.level.starts("gc_swat_")) {
+        player.fullheal();
+        if (pobj.guild == "Game Coordinator") {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",24,30.5);
+        }
+        elseif (pobj.guild == "Terrorist") {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",24,30.5);
+        }
+        else {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",34,30.5);
+        }
+      }
+    }
+  }
+}
+NPCEND
+NPC classic_gc_ludamoneybag.png 30 15
+
+function onPlayerTouchsMe() {
+  if(player.guild=="Terrorist"){
+    for (pobj: allplayers) {
+      if (pobj.level.starts("gc_swat_")) {
+        player.fullheal();
+        if (pobj.guild == "Game Coordinator") {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",24,30.5);
+        }
+        elseif (pobj.guild == "Terrorist") {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",24,30.5);
+        }
+        else {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",34,30.5);
+        }
+      }
+    }
+  }
+}
+NPCEND
+NPC classic_gc_ludamoneybag.png 32 15
+
+function onPlayerTouchsMe() {
+  if(player.guild=="Terrorist"){
+    for (pobj: allplayers) {
+      if (pobj.level.starts("gc_swat_")) {
+        player.fullheal();
+        if (pobj.guild == "Game Coordinator") {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",24,30.5);
+        }
+        elseif (pobj.guild == "Terrorist") {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",24,30.5);
+        }
+        else {
+          pobj.chat := "Terrorists Win!";
+          pobj.setlevel2("gc_swat_entrance.nw",34,30.5);
+        }
+      }
+    }
+  }
+}
+NPCEND

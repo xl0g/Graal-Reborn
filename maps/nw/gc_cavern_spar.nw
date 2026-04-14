@@ -1,0 +1,382 @@
+GLEVNW01
+BOARD 0 0 64 0 NFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFgJgKNFNFNFNF
+BOARD 0 1 64 0 NFgUgGgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKgZgagJgKNFNF
+BOARD 0 2 64 0 NFgkglgmgZgagpgqgZgagpgqgZgagpgqgZgagpgqgZgagpgqgZgagpgqgZgagpgqgZgagpgqgZgagpgqgZgagpgqgZgagpgqgZgagpgqgZgagpgqgZgagpgqgZgOgNk5
+BOARD 0 3 64 0 gUgVgWNFgpgqNFNFgpgqNFNFgpgqNFNFgpgqNFNFgpgqNFNFgpgqNFNFgpgqNFNFgpgqNFNFgpgqNFNFgpgqNFNFgpgqNFNFgpgqNFNFgpgqNFNFgpgqNFNFgpgcgdk5
+BOARD 0 4 64 0 gkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgN
+BOARD 0 5 64 0 NFgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgd
+BOARD 0 6 64 0 NFgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNk5
+BOARD 0 7 64 0 gUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNF2XZ3Z3Z3Z32YNFNFNFNFNFNFNFNFgbgcgdk5
+BOARD 0 8 64 0 gkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNF2oaHaHaHaH2oNFNFNFNFNFNFNFNFNFgLgMgN
+BOARD 0 9 64 0 NFgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFdDdEdEdEdEdEdEdGNFNFNFNFNFNFNFNFgbgcgd
+BOARD 0 10 64 0 NFgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFdlc/c/c/c/c/c/dmNFNFNFNFNFNFNFgLgMgNk5
+BOARD 0 11 64 0 gUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFdlc/c/c/c/c/c/dmNFNFNFNFNFNFNFgbgcgdk5
+BOARD 0 12 64 0 gkglgmNFNFNFNFNF2XZ3Z3Z3Z32YNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFdTdUdUdUdUdUdUdWNFNFNFNFNFNFNFNFgLgMgN
+BOARD 0 13 64 0 NFgUgVgWNFNFNFNF2oaHaHaHaH2oNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFdj2XZ3Z3Z3Z32YdXNFNFNFNFNFNFNFNFgbgcgd
+BOARD 0 14 64 0 NFgkglgmNFNFNFdDdEdEdEdEdEdEdGNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNF2oaHaHaHaH2oNFNFNFNFNFNFNFNFgLgMgNk5
+BOARD 0 15 64 0 gUgVgWNFNFNFNFdlc/c/c/c/c/c/dmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdk5
+BOARD 0 16 64 0 gkglgmNFNFNFNFdlc/c/c/c/c/c/dmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgN
+BOARD 0 17 64 0 NFgUgVgWNFNFNFdTdUdUdUdUdUdUdWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgd
+BOARD 0 18 64 0 NFgkglgmNFNFNFdj2XZ3Z3Z3Z32YdXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNk5
+BOARD 0 19 64 0 gUgVgWNFNFNFNFNF2oaHaHaHaH2oNFNFNFNFKpKqNFNFKpKqNFNFKpKqNFNFKpKqNFNFKpKqNFNFKpKqNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdk5
+BOARD 0 20 64 0 gkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFK5K6NFNFK5K6NFNFK5K6NFNFK5K6NFNFK5K6NFNFK5K6NFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgN
+BOARD 0 21 64 0 NFgUgVgWNFNFNFNFNFNFNFNFNFNF2KBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB2LNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgd
+BOARD 0 22 64 0 NFgkglgmNFNFNFNFNFNFNFNFNFNFBQBXCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNk5
+BOARD 0 23 64 0 gUgVgWNFNFNFNFNFNFNFNFNFNFNFBQBXUcUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUeBQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdk5
+BOARD 0 24 64 0 gkglgmNFNFNFNFNFNFNFNFNFNFNFBQBXUskmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmUuBQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgN
+BOARD 0 25 64 0 NFgUgVgWNFNFNFNFNFNFNFNFNFNFBQBXUskmbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgkmUuBQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgd
+BOARD 0 26 64 0 NFgkglgmNFNFNFNFNFNFNFNFNFNFBQBXUskmbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgkmUuBQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNk5
+BOARD 0 27 64 0 gUgVgWNFNFNFNFNFNFNFNFNFNFNFBQBXUskmmompbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgmompkmUuBQBXNFNFNFNFNFNFNFNFNFNFNFLELHNFNFNFgbgcgdk5
+BOARD 0 28 64 0 gkglgmNFNFNFNFNFNFNFNFNFNFNFBQBXUskmm4m5bgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgm4m5kmUuBQBXNFNFNFNFNFNFNFNFNFNFNFKpKqNFNFNFNFgLgMgN
+BOARD 0 29 64 0 NFgUgVgWNFNFNFNFNFNFNFKpKqNFBQBXUskmbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgkmUuBQBXNFKpKqNFNFNFNFNFNFNFNFK5K6NFNFNFNFgbgcgd
+BOARD 0 30 64 0 NFgkglgmNFNFNFNFNFNFNFK5K6NFCQBzUskmbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgkmUuCQBzNFK5K6NFNFNFNFNFNFdDdEdEdEdEdGNFgLgMgNk5
+BOARD 0 31 64 0 gUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFUskmbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgkmUuNFNFNFNFNFNFNFNFVoVpNFdlc/c/c/c/dmNFgbgcgdk5
+BOARD 0 32 64 0 gkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFUskmbgbgbgbgbgbgbgbgbgnznXnXnybgbgbgbgbgbgbgbgbgkmUuNFNFNFNFNFNFNFNFV4V5NFdTdUdUdUdUdWNFNFgLgMgN
+BOARD 0 33 64 0 NFgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFUskmbgbgbgnInJbgbgbgbgnHjejfnGbgbgbgbgnInJbgbgbgkmUuNFNFNFNFNFNFNFNFNFNFNFdjdkdkdkdkdXNFNFgbgcgd
+BOARD 0 34 64 0 NFgkglgmNFNFNFNFNFNFNFNFNFNFNFNFUskmbgbgbgnYnZbgbgbgbgnHjujvnGbgbgbgbgnYnZbgbgbgkmUuNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNF
+BOARD 0 35 64 0 gUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFUskmbgbgbgbgbgbgbgbgbgnjnWnWnibgbgbgbgbgbgbgbgbgkmUuNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNF
+BOARD 0 36 64 0 gkglgmNFNFNFNFNFNFNFNFNFNFNF2K2LUskmbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgkmUu2K2LNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNF
+BOARD 0 37 64 0 NFgUgVgWNFNFNFNFNFNFNFKpKqNFBQBXUskmbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgkmUuBQBXNFKpKqNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNF
+BOARD 0 38 64 0 NFgkglgmNFNFNFNFNFNFNFK5K6NFBQBXUskmbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgkmUuBQBXNFK5K6NFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgN
+BOARD 0 39 64 0 gUgVgWNFNFNFNFNFNFNFNFNFNFNFBQBXUskmmompbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgmompkmUuBQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgd
+BOARD 0 40 64 0 gkglgmNFNFNFNFNFNFNFNFNFNFNFBQBXUskmm4m5bgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgm4m5kmUuBQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNk5
+BOARD 0 41 64 0 NFgUgVgWNFNFNFNFNFNFNFNFNFNFBQBXUskmbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgkmUuBQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdk5
+BOARD 0 42 64 0 NFgkglgmNFNFNFNFNFNFNFNFNFNFBQBXUskmbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgkmUuBQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgN
+BOARD 0 43 64 0 gUgVgWNFNFNFNFNFNFNFNFNFNFNFBQBXUskmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmUuBQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgd
+BOARD 0 44 64 0 gkglgmNFNFNFNFNFNFNFNFNFNFNFBQBXU8U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U9U+BQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNk5
+BOARD 0 45 64 0 NFgUgVgWNFNFNFNFNFNFNFNFNFNFBQBXBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBQBXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdk5
+BOARD 0 46 64 0 NFgkglgmNFNFNFNFNFNFNFNFNFNFCQCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRBzNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgN
+BOARD 0 47 64 0 gUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFKpKqNFNFKpKqNFNFKpKqNFNFKpKqNFNFKpKqNFNFKpKqNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgd
+BOARD 0 48 64 0 gkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFK5K6NFNFK5K6NFNFK5K6NFNFK5K6NFNFK5K6NFNFK5K6NFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgNk5
+BOARD 0 49 64 0 NFgUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgdk5
+BOARD 0 50 64 0 NFgkglgmNFNFNF2XZ3Z3Z3Z32YNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNF2XZ3Z3Z3Z32YNFNFNFNFgLgMgN
+BOARD 0 51 64 0 gUgVgWNFNFNFNF2oaHaHaHaH2oNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNF2oaHaHaHaH2oNFNFNFNFgbgcgd
+BOARD 0 52 64 0 gkglgmNFNFNFdDdEdEdEdEdEdEdGNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFdDdEdEdEdEdEdEdGNFNFgLgMgNk5
+BOARD 0 53 64 0 NFgUgVgWNFNFdlc/c/c/c/c/c/dmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFdlc/c/c/c/c/c/dmNFNFgbgcgdk5
+BOARD 0 54 64 0 NFgkglgmNFNFdlc/c/c/c/c/c/dmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFdlc/c/c/c/c/c/dmNFNFNFgLgMgN
+BOARD 0 55 64 0 gUgVgWNFNFNFdTdUdUdUdUdUdUdWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFdTdUdUdUdUdUdUdWNFNFNFgbgcgd
+BOARD 0 56 64 0 gkglgmNFNFNFdj2XZ3Z3Z3Z32YdXNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFdj2XZ3Z3Z3Z32YdXNFNFgLgMgNk5
+BOARD 0 57 64 0 NFgUgVgWNFNFNF2oaHaHaHaH2oNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNF2oaHaHaHaH2oNFNFNFgbgcgdk5
+BOARD 0 58 64 0 NFgkglgmNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgLgMgN
+BOARD 0 59 64 0 gUgVgWNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFNFgbgcgd
+BOARD 0 60 64 0 gkglgmNFgHgINFNFgHgINFNFgHgINFNFgHgINFNFgHgINFNFgHgINFNFgHgINFNFgHgINFNFgHgINFNFgHgINFNFgHgINFNFgHgINFNFgHgINFNFgHgINFNFgHgMgNNF
+BOARD 0 61 64 0 NFgUgVgIgXgYgHgIgXgYgHgIgXgYgHgIgXgYgHgIgXgYgHgIgXgYgHgIgXgYgHgIgXgYgHgIgXgYgHgIgXgYgHgIgXgYgHgIgXgYgHgIgXgYgHgIgXgYgHgIgXgPgdNF
+BOARD 0 62 64 0 NFgkgegYgngogXgYgngogXgYgngogXgYgngogXgYgngogXgYgngogXgYgngogXgYgngogXgYgngogXgYgngogXgYgngogXgYgngogXgYgngogXgYgngogXgYgngoNFNF
+BOARD 0 63 64 0 NFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFgngoNFNFNFNF
+LINK gc_cavern.nw 63 34 1 4 14.5 20
+NPC - 38 39
+//#CLIENTSIDE
+
+if (playerchats) {
+  if (strequals(#c,watch)) {
+    this.focus = 1;
+    this.focusx = playerx * 16;
+    this.focusy = playery * 16;
+    if (this.focusx < screenwidth  / 2 - 24)   this.focusx = screenwidth  / 2 - 24;
+    if (this.focusx > 1024 - screenwidth  / 2) this.focusx = 1008 - screenwidth  / 2;
+    if (this.focusy < screenheight / 2 - 24)   this.focusy = screenheight / 2 - 24;
+    if (this.focusy > 1024 - screenheight / 2) this.focusy = 1008 - screenheight / 2;
+    movement_handlemoving = -1;
+    movement_handlekeys   = -1;
+    dynamicfocus();
+  }
+}
+
+if (timeout) {
+  dynamicfocus();
+}
+
+function dynamicfocus() {
+  if (this.focus != 0) timeout = 0.05;
+  if (this.focus == 1) {
+    if (keydown(0) && this.focusy >= screenheight / 2 - 24)        this.focusy -= 16;
+    if (keydown(1) && this.focusx >= screenwidth  / 2 - 24)        this.focusx -= 16;
+    if (keydown(2) && this.focusy <= 1024 - screenheight / 2 - 16) this.focusy += 16;
+    if (keydown(3) && this.focusx <= 1024 - screenwidth  / 2 - 32) this.focusx += 16;
+    setfocus this.focusx / 16,this.focusy / 16;
+    if (keydown(5)) this.focus = 2;
+  } else if (this.focus == 2) {
+    this.dx      = this.focusx / 16 - playerx;
+    this.dy      = this.focusy / 16 - playery;
+    this.pull    = (this.dx ^ 2 + this.dy ^ 2)^ .5 / 10;
+    this.pangle  = getangle(this.dx,this.dy);
+    this.focusx -= cos(this.pangle) * this.pull * 16;
+    this.focusy += sin(this.pangle) * this.pull * 16;
+    setfocus this.focusx / 16,this.focusy / 16;
+    if (this.focusx / 16 in < playerx - .5,playerx + .5> && this.focusy / 16 in <playery - .5,playery + .5>){
+      this.focus = 0;
+      resetfocus;
+      movement_handlemoving = 0;
+      movement_handlekeys   = 0;
+    }
+  }
+}
+NPCEND
+NPC - 54 27
+function onCreated() {
+  showcharacter();
+  nick      = "Massokre";
+  headimg   = "headc-massokrehead.png";
+  swordimg  = "swordc-massokresword.png";
+  shieldimg = "aznshatterblade-shield.png";
+  bodyimg   = "body.png";
+  setcharani("sit","");
+  for (this.i = 0; this.i <= 7; this.i++) {
+    if (this.i == 0)          colors[this.i] = "orange";
+    else if (this.i in |1,5|) colors[this.i] = "black";
+    else                      colors[this.i] = "white";
+  }
+  dir = 2;
+  x   = 54.5;
+  ap  = 100;
+}
+function onWashit() {
+  if (player.account == "jake13jake") {
+    if (x == 56.5) {
+      x = 54.5;
+      nick = "Massokre";
+      setcharani("sit","");
+    } else {
+      x = 56.5;
+      nick = "";
+      setcharani("idle","");
+    }
+  }
+}
+NPCEND
+NPC - 50 32
+//#CLIENTSIDE
+if (playerenters){
+  setshape 1,32,16;
+}
+
+if (playertouchsme) {
+  if (playerdir == 0) {
+    say2 Say "start" and a bomb will
+    #bappear for you in  the middle.
+    #b
+    #bSay "watch" to focus on the
+    #barena.
+    #b
+    #bPush "S" when
+    #byou are finished watching.;
+  }
+}
+NPCEND
+NPC - 55 33
+//#CLIENTSIDE
+if (playerenters){
+  setshape 1,32,16;
+}
+
+if (playertouchsme) {
+  if (playerdir == 0) {
+    say2 Welcome to my sparring arena!;
+  }
+}
+NPCEND
+NPC greyclicked.png 38 25
+function onCreated() {
+  setimgpart("greyclicked.png",0,0,32,32);
+  drawoverplayer();
+  dontblock();
+}
+
+function onActionleftmouse() {
+  crb = putnpc2(27.5,32,"join bomb;");
+  crb.bomb = "bomb1.png,bomb.wav";
+}
+
+function onPlayerchats() {
+  if (player.chat == "start"){
+    crb = putnpc2(27.5,32,"join bomb;");
+    crb.bomb = "bomb1.png,bomb.wav";
+  }
+}
+NPCEND
+NPC greyclicked.png 38 37
+function onCreated() {
+  setimgpart("greyclicked.png",0,0,32,32);
+  drawoverplayer();
+  dontblock();
+}
+//#CLIENTSIDE
+if (playerenters){
+  this.focus = 0;
+}
+if (playerdies) {
+  this.focus = 0;
+  resetfocus;
+}
+
+if (actionleftmouse) {
+  if (this.focus = 0) {
+    this.focus = 1;
+    timereverywhere;
+    timeout = .05;
+  } else {
+    this.focus = 0;
+    resetfocus;
+  }
+}
+if (timeout) {
+  if (this.focus == 1) {
+    setfocus 27.5,32.5;
+    timeout = .05;
+  }
+}
+NPCEND
+NPC greyclicked.png 18 25
+function onCreated() {
+  setimgpart("greyclicked.png",0,0,32,32);
+  drawoverplayer();
+  dontblock();
+}
+function onActionleftmouse() {
+  if (player.clientr.stat_hp < player.clientr.stat_maxhp) player.clientr.stat_hp++;
+}
+NPCEND
+NPC greyclicked.png 18 37
+function onCreated() {
+  setimgpart("greyclicked.png",0,0,32,32);
+  drawoverplayer();
+  dontblock();
+}
+function onActionleftmouse() {
+  if (player.clientr.stat_hp > 1) player.clientr.stat_hp--;
+}
+NPCEND
+NPC churchseat.png 51 56
+function onCreated() {
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC churchseat.png 51 50
+function onCreated() {
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC churchseat.png 46 13
+function onCreated() {
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC churchseat.png 46 7
+function onCreated() {
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC churchseat.png 8 12
+function onCreated() {
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC churchseat.png 8 18
+function onCreated() {
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC churchseat.png 7 56
+function onCreated() {
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC churchseat.png 7 50
+function onCreated() {
+  drawunderplayer();
+  dontblock();
+}
+NPCEND
+NPC bottle.png 46 10
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC bottle.png 54 31
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC bottle.png 51 9
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC bottle.png 13 16
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC bottle.png 8 14
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC bottle.png 11 52
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC bottle.png 53 54
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC bottle.png 56 53
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC bottle.png 51 52
+function onCreated() {
+  drawunderplayer();
+}
+NPCEND
+NPC massroofcorners.png 14 21
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart massroofcorners.png,0,0,32,32;
+}
+NPCEND
+NPC massroofcorners.png 14 45
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart massroofcorners.png,0,32,32,32;
+}
+NPCEND
+NPC massroofcorners.png 42 45
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart massroofcorners.png,32,32,32,32;
+}
+NPCEND
+NPC massroofcorners.png 42 21
+function onCreated() {
+  drawunderplayer();
+}
+//#CLIENTSIDE
+if (created) {
+  setimgpart massroofcorners.png,32,0,32,32;
+}
+NPCEND
+NPC - 38 27
+sparringzone
+//#CLIENTSIDE
+sparringzone
+NPCEND

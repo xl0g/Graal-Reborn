@@ -1,0 +1,363 @@
+GLEVNW01
+BOARD 0 0 64 0 f/YvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvGnZfapaqa7GXYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYv
+BOARD 0 1 64 0 ABY/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/GnZPa5a6a7GXY/Y/Y/Y/Y/Y/Y/Y/cYcZcYcZY/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/Y/
+BOARD 0 2 64 0 f/AAABf/OLYHYIYIYIYIYIYIYIYIYIYIYJAAABKoK4KoAAABf/f/f/f/AAABGnapaqapaqGHF3AAABAAABf/f/GkcocpcocpYHYIYIYIYIYIYIYIYIYIYIYJf/f/AJAK
+BOARD 0 3 64 0 f/f/HoYHYIYXYYZ8Z9Z+Z/YYYYYYYYYYYZByK3K4K3AAABf/f/AQAAABF2FmGGa5a6a5a6a7GHF3f/f/AAABf/G0cYcZcYcZYXYYYYYYYYYYYYYYYYYYYYYZByAYAZAa
+BOARD 0 4 64 0 f/GkGlYXYYYXYYaMaNaOaPYYYYYYYYYYYZCCK4KoK4KoK4AAABf/f/f/GnZfapaqapaqapaqa7GHF3AAABAAABGkcocpcocpYXYYYYYYYYYYYYYYYYYYYYYZCCAoApAq
+BOARD 0 5 64 0 ABG0G1YXYYYXYYacadaeafYYYYYYYYYYYZCCK3AAABK4K3K4K3AAABF2GGZPa5a6a5a6a5a6a7EtGHF3AAABf/G0cYcZcYcZYXYYYYYYYYYYYYYYYYYYYYYZCCA4A5A6
+BOARD 0 6 64 0 f/GkGlYXYYYXYYYYYYYYYYYYYYYYYYYYYZCCAAABK4KoAAABK4KoK4GnZfapaqapaqapaqapaqa7EtGHF3f/f/GkcocpcocpYXYYYYYYYYYYYYYYYYYYYYYZCCBIBJBK
+BOARD 0 7 64 0 f/G0G1YXYYYXYYYYYYYYYYYYYYYYYYYYYZCCK3K4K3K4K3AAABK4F2GGZPa5a6a5a6a5a6a5a6a7EtEtGXAAABG0c4c5cYcZYXYYYYYYYYYYYYYYYYYYYYYZCCBYBZBa
+BOARD 0 8 64 0 g3GkGlYKYcYXYYYYYYYYYYYYYYYYYYYYYZCCK4AAABAAABf/F2FmGGZfapaqapaqapaqapaqapaqa7FoFpf/f/H4GkGlcocpYXYYYYYYYMYNYOYPYYYYYYYZCCBoBpBq
+BOARD 0 9 64 0 f/G0G1KiKjYKYcYcYcYcYcYcYcYcYcYcYLCCK3K4AAABf/F2GGZfapaqa5a6a5a6a5a6a5a6a5a6a7GHF3f/f/AAABG1c4c5YKYcYcYcB0B1B2B3YcYcYcYLCCB4B5B6
+BOARD 0 10 64 0 f/f/H4KyKzKiKjKjKjCECFCGCHZzZzZzKkCCK4AAABKoF2GGEtZPa5a6ZParZParZParZParZfapaqa7GHF3AAABf/H4G0G1KiKjKjKjCEIdIdCHcYcZcYcZCCf/CJCK
+BOARD 0 11 64 0 f/AAABAAABKyKzKzKzCUCVCWCXaDaDaDK0CSK3K4K3K4GnZfapaqarZParFoF5F4F5F4F5GJZPa5a6a7EtGXf/f/f/f/f/f/KyKzKzKzCUItItCXcocYcZcpCSf/f/Ca
+BOARD 0 12 64 0 AAABAAABf/AAABf/f/BEarZPBEAAABf/OLAQAAABK4F2GGZPa5a6a7EtFoFpK4KoK4K4KoGIGJZfapaqa7GXf/AAABIAIBf/AAABf/f/BEarZPBEc4cocpc5F2FnF3f/
+BOARD 0 13 64 0 f/f/f/AAABf/F2FmFnZfapaqa7f/WwWxAAABK3K4K3GnZfapaqa7EtFoFpK4ZpZ6Z6Z6Z7K4GnZPa5a6a7GHF3f/f/IQIRf/f/AAABF2Zfapaqa7F3c4c5f/GnCrGXAA
+BOARD 0 14 64 0 f/AAABf/AAABGnEtEtZPa5a6a7f/XAXBf/AAABKoF2GGZPa5a6a7FoFpACADaJG5GOHJaLKoGIGJZfapaqa7GXf/AAABF2FmFnF3F2GGZPa5a6a7GHFnF3f/GIGJGHFn
+BOARD 0 15 64 0 ABf/AAABf/f/GIGJEtEtZfapaqa7XQXRAAABAAABGnZfapaqa7FoFpK4ASATaJGOGOGOaLK4F2GGZPa5a6a7GXAAABF2GGEtEtGHGGZfapaqa7EtEtAPGHFnFmGGCqEt
+BOARD 0 16 64 0 AAABf/f/AAABf/GIGJEtZPa5a6a7FnF3f/AAABf/GnZPa5a6a7GHF3KoAQKoaJGOGOGOaLKoGnZfapaqa7EtGHF3F2GGEtarZParZPara5a6a7EtCrCqCrEtEtCqCrFo
+BOARD 0 17 64 0 f/AAABAAABf/AAABGIGJEtZfapaqa7GHF3f/AAABGIGJZfapaqa7GXIAIBK4aJGOGOGOaLK4GnZPa5a6a7EtEtGHGGarZPapaqapaqapaqa7EtEtEtFoGJEtFoGJEtGX
+BOARD 0 18 64 0 FnFnFmFnFmFnFnFmFnGGEtZPa5a6a7EtGHFmFnF3F2GGZPa5a6a7GXIQIRKoaJGOGOGOaLKoGIGJZfapaqa7EtarZPapaqa5a6a5a6a5a6a7EtAPFoFpGIF5/pGGFoFp
+BOARD 0 19 64 0 ZParZParZParZParZParZPapaqarZParZParZPGHGGEtEtZfapaqGHF3K3K4aJH6GOHIaLK4K3GnZPa5a6a7ZPapaqa5a6ara7ara7FoF4F5F4F5FpAAABf/GnAIGXAA
+BOARD 0 20 64 0 aqapaqapaqapaqapaqapaqa5a6apaqapaqapaqarZPEtEtZPa5a6a7GHF3KoaKaaaaaaabKoF2GGarapaqapaqa5a6ara7EtFoF4F5FpYHYIYIYIYIYJAAABGIF5Fpf/
+BOARD 0 21 64 0 a6a5a6a5a6a5a6a5a6a5a6apaqa5a6a5a6a5a6apaqarZPZfapaqa7EtGHFmFnFmFnFmFnFmGGarZPa5a6a5a6ara7FoF4F5FpAAABf/YXYYYYYYYYYZByf/AAABf/f/
+BOARD 0 22 64 0 Zfa7Zfa7Zfa7Zfa7Zfa7Zfa7Zfa7Zfa7ZfarZPa5a6apaqZPa5a6a7arZParZParZParZParZPapaqapa7ara7EtFoFpAAABAAABAAABYXYYYYYYYYYZCCf/f/f/AAAB
+BOARD 0 23 64 0 F4F5F4F5F4F5F4F5F4F5F4F5F4F5F4F5F4F5GJarZPa5a6apaqapaqapaqapaqapaqapaqapaqa5a6arFoF4F5F4FpAAABYHYIYIYIYIYIYIYIYIYIYIYIYIYJAAABAA
+BOARD 0 24 64 0 f/f/AAABAAABf/f/AAABf/AAABKoK4KoK4KoGIF5GJarZPa5a6a5a6a5a6a5a6a5a6a5a6a5a6ara7FoFpYHYIYIYIYIYIYXYYYYYYYYYYYYYYYYYYYYYYYYYZByf/f/
+BOARD 0 25 64 0 AAABf/AAABAAABf/f/AAABK4K3K4K3AAABK4K3K4GIGJCqarZParZParZParZPa5a6a7ZPara7FoF4Fpf/YXYYYYYYYYYYYXYYYYYYYYYYYYYYYYYYYYYYYYYZCCf/f/
+BOARD 0 26 64 0 f/AAABHoGkGlGkGlGkGlGkGlHpAAABf/AAABK4AAABGIF4F5F4F5F4F5GJEtZfapaqa7APEtFoFpAAABf/YXYYYYYYYYYYYXYYYYYYYYYYYYYYYYYYYYYYYYYZCCf/AA
+BOARD 0 27 64 0 f/f/YHYIYIYIYIYIYIYIYIYIYIYJf/AAABf/AAABf/AAABAAABf/AAABGIGJZPa5a6a7EtFoFpf/f/f/f/YXYYYYYYYYYYYXYYYYYYYYYYYYYYYYYYYYYYYYYZCCf/AA
+BOARD 0 28 64 0 ABf/YXYYZ8Z9Z+Z/YYYYYYYYYYYZYIYIYIYIYIYIYIYJP/AQf/AAABAAABGIGJZfapaqa7GXf/AAABAAABYKYcYcYcYcYcYXYYYYYYYYYYYYYYYYYYYYYYYYYZCCAAAB
+BOARD 0 29 64 0 AAABYXYYaMaNaOaPYYYYYYYYYYYZYYYYYYYYYYYYYYYZByf/AAABf/f/AAABGnZPa5a6a7GXAAABf/AAABKiKjKjKjKjKjYXYYYYYYYYYYYYYYYYYYYYYYYYYZCCf/AA
+BOARD 0 30 64 0 f/f/YXYYacadaeafYYYYYYYYYYYZYYYYYYYYYYYYYYYZCCAAABAAABAAABf/GnZfapaqa7GXf/f/AAABAQKyKzKzKzKzKzYKYcYcYcYcYcYcYcYcYcYcYcYcYLCCAAAB
+BOARD 0 31 64 0 f/f/YXYYYYYYYYYYYYYYYYYYYYYZYYYYYYYYYYYYYYYZCCf/f/f/AAABAAABGnZPa5a6a7GHF3AAABf/f/AAABf/AAABf/KiKjCECFCGCHKjKjCEkpkpCHKjKkCCf/f/
+BOARD 0 32 64 0 f/f/YXYYYYYYYYYYYYYYYYYYYYYZYYYYYYYYYYYYYYYZCCf/AAABf/AAABf/GIGJZfapaqa7GXf/f/AAABf/AAABf/f/f/KyKzCUCVCWCXKzKzCUk5k5CXKzK0CSAAAB
+BOARD 0 33 64 0 f/f/YXYYYYYYYYYYYYYYYYYYYYYZYYYYYYYYYYYYYYYZCCf/FGFHFGFHAAABf/GnZPa5a6a7GHF3AAABf/IAIBAAABf/AAABP/BEarZPBEf/f/BEZParBEf/AAABf/f/
+BOARD 0 34 64 0 f/f/YXYYYYYYYYYYYYYYYYYYYYYZYYYYYYYYYYYYYYYZCCFGFJFIFJFIFHf/f/GIGJZfapaqa7GHF3f/f/IQIRf/f/AAABP/f/Zfapaqa7F2FmZfa5a6a7FmFnF3f/AA
+BOARD 0 35 64 0 f/f/YXYYYYYYYYYYYYYYYYYYYYYZYYYYYYYYYYYYYYYZCCFWFIFYFZFJFXf/AAABGnZPa5a6a7EtGHF3f/f/AAABf/f/f/F2FmZPa5a7FmGGEtZPapaqarEtEtGHFnFm
+BOARD 0 36 64 0 ABf/YXYYYYYYYYYYYYYYYYYYYYYZYYYYYYYYYYYYYYYZCCf/FWFXFWFXf/AAABAQGIGJZfapaqa7AIGHFmF3f/f/AAABf/GnZfapaqa7EtEtEtapa5a6arZParZParZP
+BOARD 0 37 64 0 AAABYXYYYYYYYYYYYYYYYYYYYYYZYYYYYYYYYYYYYYYZCCf/AAABAAABIAIBAAABf/GnZPa5a6a7CqEtEtGHFmFmFmFmFmGGZPa5a6arEtEtarZPapaqapaqapaqapaq
+BOARD 0 38 64 0 ABf/YXYYYYYYYYYYYYYYYYYYYYYZYcYcYcYcYcYcYcYLCCf/F2FmFnF3IQIRf/AAABGnZfapaqa7arZParZParZParZParZParZParZParZPapaqa5a6a5a6a5a6a5a6
+BOARD 0 39 64 0 f/f/YKYcYcYcYcYcYcYcYcYcYcYLKjKjKjKjKjKjKjKkCCF2GGCqCrGHF3f/AAABf/GnZPa5a5a6apaqapaqapaqapaqapaqapaqapaqapaqa5a6a7Zfa7Zfa7Zfa7Zf
+BOARD 0 40 64 0 f/f/KiKjKjKjCEIdIdCHKjKjKjKkKzKzKzKzKzKzKzK0CSGnCqEtEtEtGXAAABAAABGnZfaqapaqa5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a7ZfFoF4F5F4F5F4F5F4
+BOARD 0 41 64 0 f/f/KyKzKzKzCUItItCXKzKzKzK0CSAAABf/KlKmf/f/f/GnCrEtCqFoFpF2FmFmFmGGZPa5a6ara7Zfa7Zfa7Zfa7Zfa7Zfa7Zfa7Zfa7ZfFoF4FpK4K3AAABK4K3K4
+BOARD 0 42 64 0 AAABf/KlKmf/BEf/f/BEf/f/f/f/AQf/KlKmK1K2AAABF2GGCqEtEtGHFmGGEtEtEtZfapaqa7a7EtEtAPFoF4F5F4F5F4F5F4F5F4F5F4F5FpKoK4KoAAABAAABK4Ko
+BOARD 0 43 64 0 K3AAABK1K2f/F2FmFnFmF3WwWxf/AAABK1K2f/f/f/AAGnEtEtEtEtEtEtCqCqarZPZPa5a6arEtCqCqFoFpf/AAABK4AAABK3AQK3AAABAAABK4AAABK3K4K3K4AAAB
+BOARD 0 44 64 0 f/KlKmf/f/F2GGa5a6arGXXAXBAAABf/AAABf/AAAQf/GIGJCqEtEtCqEtarZPaqaqapaqapa7CrEtEtGXAAABKoK4Kof/asatauavf/AAABf/AAABf/AAABK4AAABKo
+BOARD 0 45 64 0 f/K1K2f/F2GGZfapaqa7GXXQXRf/f/AAABAAABf/f/AAABGIGJEtEtarZPapaqa5a6a5a6a5arCqCrFoFpf/f/AAABAAABa8a9a+a/AAABAAABK4AAABK3AAABK4K3K4
+BOARD 0 46 64 0 f/f/f/F2GGCqZPa5a6arGHFmFmFmFmFmFmFmFmFmFmFmFmFmGGarZPapaqa5a6a7ZfZPapaqa7CqFoFpf/f/AAABK4Kof/bMbNbObPABK4KoK4KoK4KoK4KoK4HoGkGl
+BOARD 0 47 64 0 f/AAABGnAIEta7Zfapa7ZParZParZParZParZParZParZParZPapaqa5a6a7ZfCqAIZfa5a6a7FoFpAAABAAABK4K3K4f/bcbdbebfK4K3AAABKlKmasatauavFGFHFG
+BOARD 0 48 64 0 ABf/F2GGEtEtEtZPa5a6a5apaqapaqapaqapaqapaqapaqapaqa5a6a7ZfEtEtAPEtZPapaqarGXAAABK4KoK4AQK4AAABKoK4KoK4AQABKoK4K1K2a8a9a+a/FWFIFJ
+BOARD 0 49 64 0 AAABGnEtCrEtEta7Zfapaqa5a6a5a6a5a6a5a6a5a6a5a6a5a6a7ZfAICqCrEtCqCqZfa5a6a7GXK3K4K3K4K3AAABK4K3K4K3K4AAABK3K4KlKmg1bMbNbObPFGFYFZ
+BOARD 0 50 64 0 f/f/GIGJCqCrAPEtZPa5a6a7Zfa7Zfa7Zfa7Zfa7Zfa7Zfa7ZfFoF4F5F4GJEtEtEtZPaqarFoFpK4AAABKoK4KoK4KoAAABAAABK4KoK4KoK1K2g2bcbdbebfFWFXFW
+BOARD 0 51 64 0 AAABf/GIGJEtCqEta7Zfa7ZfFoF4F5F4F5F4F5F4F5F4F5F4F5FpAAABYfGIGJEtZfapaqa7GXYfK3K4AQK4AAasatauavAAABK4K3K4AAABf/f/KlKmAQg1KlKmG0G1
+BOARD 0 52 64 0 ABAAABf/GIF4F5F4GJEtEtFoFpYff/Yff/AJAKALAMANAOf/f/Yff/YfYvf/GnEtZPa5a6arGXYvYfKoYfAAABa8a9a+a/f/f/KoYfKoYff/g2f/K1K2KlKmK1K2f/AA
+BOARD 0 53 64 0 f/YfAAABf/KlKmf/GIF4F5FpYfYvYfYvAYAZAaAbAcAdAeAfYfYvYfYvYvf/GnZfapaqa7FoFpYvYvYfYvYff/bMbNbObPf/f/YfYvYfYvYff/AAABf/K1K2f/AAABAA
+BOARD 0 54 64 0 YfYvYff/f/K1K2AAABf/f/YfYvYvYvYvAoApAqArAsAtAuAvYvYvYvYvYvYvGnZPa5a6arGXYvYvYvYvYvYvYfbcbdbebfABYfYvYvYvYvYvYff/AAABf/AAABf/AAAB
+BOARD 0 55 64 0 YvYvhEf/Yff/Yff/Yff/YfYvYvYvYvYvA4A5A6A7A8A9A+A/YvYvYvYvYvYvGnZfapaqa7GXYvYvYvYvYvYvYvYff/Yff/YfYvYvYvYvYvYvYvAAYff/YfABYff/Yff/
+BOARD 0 56 64 0 YvYvhEYfYvYfYvYfYvYfYvYvYvYvYvYvBIBJBKBLBMBNBOBPYvYvYvYvYvYvGnZPa5a6arGXYvYvYvYvYvYvYvYvYfYvYfYvYvYvYvYvYvYvYvYfYvYfYvYfYvYfYvYf
+BOARD 0 57 64 0 YvYvYvYvYvYvYvYvYvYvYvYvY/Y/Y/Y/BYBZBaBbBcBdBeBfY/Y/Y/Y/Y/Y/GnZfapaqa7GXY/Y/Y/Y/Y/Y/YvYvYvYvYvYvYvYvY/Y/Y/Y/YvYvYvYvYvYvYvYvYvYv
+BOARD 0 58 64 0 Y/Y/YvYvYvYvYvYvYvYvYvYvGkGlGkGlBoBpBqBrBsBtBuBvGkGlGkGlGkF2GGZPa5a6arGXGkGlGkGlGkGlYvYvYvYvYvYvYvY/GkGlGkGlYvYvYvYvYvYvYvYvYvYv
+BOARD 0 59 64 0 f/f/Y/YvYvYvYvYvYvYvYvY/G0G1G0G1B4B5B6B7B8B9B+B/G0G1G0G1G0GnCqEtapaqa7GXG0G1G0G1G0G1Y/YvYvYvYvYvY/f/G0G1G0G1Y/YvYvYvYvYvYvYvYvYv
+BOARD 0 60 64 0 f/f/f/Y/Y/Y/Y/Y/Y/Y/Y/GkGlGkGlGkGlCJCKCLCMCNCOGkGlGkGlGkGlGnEtEtEta7EtGHF3GkGlGkGlGkGlY/Y/Y/Y/Y/f/GkGlGkGlGkGlY/Y/Y/Y/Y/Y/Y/Y/Y/
+BOARD 0 61 64 0 HoHpHoHpHoHpHoHpHoHpHoG0G1G0G1G0G1HpCaCbCcCdHoG0G1G0G1G0G1GIGJCqEtEtCqEtGXG0G1G0G1G0G1Hpf/f/f/f/HoG0G1G0G1G0G1HpHoHpHoHpHoHpHoHp
+BOARD 0 62 64 0 GkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGIGJEtCqEtFoFpGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGlGkGl
+BOARD 0 63 64 0 G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1F2GGEtEtFoFpG0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1
+LINK nimda_house_01.nw 10 11 2 1 46.5 53
+LINK nimda_house_02.nw 7 40 2 1 16.5 52
+LINK nimda_infocenter_01.nw 56 31 2 1 31.5 58
+SIGN 11 45
+  Inside you find a flyer from
+the Nimda Inn:
+
+"Great service, great beds!
+Come stay at Nimda Inn.
+Located West of the town
+entrance
+SIGNEND
+SIGN 45 13
+  ~ Storage House ~
+SIGNEND
+SIGN 41 34
+  ~ Nimda Information Center ~
+
+Come inside for all your Nimda
+information needs!
+Gift shop now open!
+SIGNEND
+SIGN 27 18
+    ~ Nimda Tourist Spot ##10 ~
+    
+    ~ Nimda Town Well ~
+This well has been in the
+town of Nimda and was once
+used by the very first mayor.
+For more information please
+visit the information center at 
+the town entrance.
+SIGNEND
+SIGN 0 0
+  Female Tourist:
+"Wow, this well is mega cool!
+I can't believe I'm this close to
+the well that the first mayor of
+Nimda used!"
+SIGNEND
+SIGN 0 0
+  Tourist Guide Joe:
+"Yo so like this is the well
+that our like ancestors and
+stuff made. Our, like first mayor
+used it and stuff. So, like check
+out the information center for
+more info"
+SIGNEND
+SIGN 0 0
+
+SIGNEND
+SIGN 0 0
+
+SIGNEND
+SIGN 28 38
+   ~Nimda Tourist Spot ##29~  
+
+~Nimda Rock-Pile~
+
+This rock-pile is said to
+have been put together
+by a famous group of
+sailors that stoped a 
+pirate raid on the town.
+For more information, please
+visit the information center near
+the town entrance!
+SIGNEND
+SIGN 0 0
+"This town is so full of history!
+After I'm done here, I'm gonna
+check out the docks"
+SIGNEND
+SIGN 0 0
+"Barely anyone checks out
+the famous rock-pile. I don't
+know why, I mean, just look
+at it!"
+SIGNEND
+SIGN 0 0
+   Tourist Guide Billy:
+"This rock-pile was made
+over 200 years ago by a 
+heroic group of sailors that
+stoped a pirate raid. Please
+check out the information
+center for more information"
+SIGNEND
+SIGN 0 0
+  Male Tourist:
+"I know this isn't a tourist spot.
+But I love the way the flowers
+bounce up and down"
+SIGNEND
+SIGN 50 32
+             Exit Only
+Please Enter through the
+other door.
+SIGNEND
+SIGN 14 15
+  Inside you find a bill from
+the mayor of Nimda:
+
+"The plans of the previous
+mayor included removing your
+house. However, I placed the
+new tourists attraction outside
+the town."
+SIGNEND
+SIGN 0 0
+  Man:
+"The previous mayor wanted
+to kick us out of our house! But
+there aren't forests in which you
+can hunt near the most towns!"
+SIGNEND
+NPC townsign.png 29 50
+//#CLIENTSIDE
+function onCreated(){
+  drawoverplayer;
+  dontblock;
+  chat="Nimda";
+}
+NPCEND
+NPC - 31 21
+// Graal v1.4 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head225.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,black;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #8,body5.png;
+  setcharprop #2,camera-shield.png;
+  shieldpower = 1;
+  dir = 0;
+  setcharani idle,;
+}
+NPCEND
+NPC - 35 15
+// Graal v1.4 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head289.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,darkblue;
+  setcharprop #C4,orange;
+  setcharprop #8,body5.png;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+  setcharani idle,;
+}
+NPCEND
+NPC - 36 18
+// Graal v1.4 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #C0,black;
+  setcharprop #C1,gray;
+  setcharprop #C2,black;
+  setcharprop #C3,gray;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield.png;
+  setcharprop #3,head235.png;
+  setcharprop #8,body13.png;
+  setcharprop #n,-Dark Corrupt-;
+  ap=0;
+  shieldpower = 1;
+  dir = 1;
+  setcharani idle,;
+}
+NPCEND
+NPC - 22 35
+// Graal v1.4 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head318.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,black;
+  setcharprop #C3,darkblue;
+  setcharprop #C4,orange;
+  setcharprop #8,body5.png;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 2;
+  setcharani idle,;
+}
+NPCEND
+NPC - 24 39
+// Graal v1.4 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1300.png;
+  setcharprop #C0,black;
+  setcharprop #C1,darkblue;
+  setcharprop #C2,darkblue;
+  setcharprop #C3,black;
+  setcharprop #C4,darkblue;
+  setcharprop #n,The Rule;
+  setcharprop #2,mynana-shield.png;
+  setcharprop #8,body13.png;
+  shieldpower = 1;
+  ap=36;
+  dir = 0;
+  setcharani idle,;
+}
+NPCEND
+NPC - 48 48
+// Graal v1.4 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head365.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,darkred;
+  setcharprop #C3,darkred;
+  setcharprop #C4,black;
+  setcharprop #8,body5.png;
+  setcharprop #2,camera-shield.png;
+  shieldpower = 1;
+  dir = 3;
+  setcharani idle,;
+}
+NPCEND
+NPC door.png 53 10
+//#CLIENTSIDE
+// NPC made by Omniflare (LAT)
+if (playerenters) {show;
+}
+if (playertouchsme) {hide;
+sleep.6;
+show;
+}
+NPCEND
+NPC - 16 13
+// Graal v1.4 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head1116.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,white;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #8,body2.png;
+  setcharprop #2,no-shield.png;
+  shieldpower = 1;
+  dir = 1;
+  setcharani idle,;
+}
+NPCEND
+NPC classic_bush.png 3 42
+join bush;
+NPCEND
+NPC classic_bush.png 1 44
+join bush;
+NPCEND
+NPC classic_bush.png 16 42
+join bush;
+NPCEND
+NPC classic_bush.png 18 41
+join bush;
+NPCEND
+NPC door.png 7 40
+join door;
+NPCEND
+NPC classic_bush.png 55 47
+join bush;
+NPCEND
+NPC classic_bush.png 54 49
+join bush;
+NPCEND
+NPC classic_bush.png 56 51
+join bush;
+NPCEND
+NPC classic_bush.png 58 52
+join bush;
+NPCEND
+NPC classic_bush.png 60 51
+join bush;
+NPCEND
+NPC door.png 56 31
+join("door");
+NPCEND

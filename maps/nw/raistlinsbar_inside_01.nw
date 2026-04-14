@@ -1,0 +1,672 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4J45M5NBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5M5NJ4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J4J4CQBzCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCRCQBzJ4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4J4J4BQBXmjmimjmimjmimjmimjmimjmimjmiCEmimjCEmimjCEmimjCEmimjCEmimjCEmihqhrhrhohohpmiCEmimjCEmimjCEBQBXJ4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4J4J4J4BQBXmzmymzmymzmymzmymzmymzmymzmyCHmymzCHmymzCHmymzCHmymzCHmymzCHmyiKIdIdIdIdiMmyCHmymzCHmymzCHBQBXJ4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4J4J4J4BQBXmjmimjmimjmimjmimjmimjmimjmiCEmimjCEmimjCEmimjCEmimjCEmimjCEmiiaItItItIticmiCEmimjCEmimjCEBQBXJ4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4J4J4J4BQBXmzmymzmymzmymzmymzmymzmymzmyCHmymzCHmymzCHmymzCHmymzCHmymzCHmyhE6/6/6/6/hEmyCHmymzCHmymzCHBQBXJ4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4J4J4J4BQBXdDdEdEdEdEdEdEdEdEdGYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcCX7P7P7P7PCXYcYcYcYcYcYcYcYcBQBXJ4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4J4J4J4BQBXdldmdUdUdUdUdUdUdUdWTvbQbQbhdDdEdGp4p4p4KpKqdDdEdEdGKpKqp4p4p4CX7f7f7f7fCXp4p4KpKqdDdEdEdGBQBXJ4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4J4J4J4BQBXdldmm4m5bgm4m5bgm4m5Tvbgbgbhdlc/dmp4p4p4K5K6dlc/c/dmK5K6p4p4p4hE7v7v7v7vhEp4p4K5K6dlc/c/dmBQBXJ4J4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J4J4J4J4BQBXdldmbgbgbgbgbgbgbgbgT/bwbwbxdlc/dmp4p4p4m4m5dTdUdUdWm4m5p4p4p4Y/cdcdcdcdY/p4p4m4m5dTdUdUdWBQBXJ4J4J4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4J4J4J4J4BQBXdldmbgbgbgbgbgbgbgbgbgbgbgbgdTdUdWp4p4p4p4p4djKpKqdXp4p4p4p4p4nHcdcdcdcdnGp4p4p4p4djKpKqdXBQBXJ4J4J4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4J4J4J4J4BQBXdldmbgbgbgbgbgbgbgbgbgbgbgbgbhp4p4p4p4p4p4p4p4K5K6p4p4p4p4p4p4nHcdcdcdcdnGp4p4p4p4p4K5K6p4BQBXJ4J4J4J4J4J4J4
+BOARD 0 19 64 0 J4J4J4J4J4J4J4J4BQBXdldmbgbgbgbgbgbgbgbgbgbgbgbgbhp4p4p4p4p4p4p4p4m4m5p4p4p4p4p4p4nHcdcdcdcdnGp4p4p4p4p4m4m5p4BQBXJ4J4J4J4J4J4J4
+BOARD 0 20 64 0 J4J4J4J4J4J4J4J4BQBXdldEdEdEdEdEdEdEdEdEdEdEdEdEdEdEdmp4p4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnGp4p4p4p4p4p4p4p4BQBXJ4J4J4J4J4J4J4
+BOARD 0 21 64 0 J4J4J4J4J4J4J4J4BQBXdTdUdUdUdUdUdUdUdUdUdUdUdUdUdUdUdWp4p4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnGp4p4p4p4p4p4p4p4BQBXJ4J4J4J4J4J4J4
+BOARD 0 22 64 0 J4J4J4J4J4J4J4J4BQBXKpKqmWmWKpKqmWmWmWmWmWKpKqmWmWKpKqp4p4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnGp4p4p4p45MBBBBBBBQBXJ4J4J4J4J4J4J4
+BOARD 0 23 64 0 J4J4J4J4J4J4J4J4BQBXK5K6p4p4K5K6p4nmnXnnp4K5K6p4p4K5K6p4p4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnGp4p4p4p4CQCRCRCRBQBXJ4J4J4J4J4J4J4
+BOARD 0 24 64 0 J4J4J4J4J4J4J4J4BQBXm4m5p4p4m4m5nmn1cdn0nnm4m5p4p4m4m5p4p4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdnGp4p4p4p4mWmWmWmWBQBXJ4J4J4J4J4J4J4
+BOARD 0 25 64 0 5M5NBBBBBBBBBBBB5M5Np4p4p4p4p4nmn1cdcdcdn0nnp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdn0nXnXnXnXnXnXnXnXBQBXJ4J4J4J4J4J4J4
+BOARD 0 26 64 0 CQBzCRCRCRCRCRCRCQBzp4p4p4p4p4nHcdcdcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdcdcdcdcdcdcdcdcdcdBQBXJ4J4J4J4J4J4J4
+BOARD 0 27 64 0 BQBXmjmimjmimjmimjCHp4p4p4p4p4nHcdcdcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdcdcdcdcdcdcdcdcdcdBQBXJ4J4J4J4J4J4J4
+BOARD 0 28 64 0 BQBXmzmymzmymzmymzCEp4p4p4p4p4nHcdcdcdcdcdnGp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4nHcdcdcdcdcdcdcdcdcdcdcdcdcdBQBXJ4J4J4J4J4J4J4
+BOARD 0 29 64 0 BQBXmjmimjmimjmimjCEp4p4p4p4p4nHcdcdcdcdcdn0nXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn1cdcdcdcdcdnknWnWnWnWnWnWnWBQBXJ4J4J4J4J4J4J4
+BOARD 0 30 64 0 BQBXmzmymzmymzmymzCHp4p4p4p4p4nHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGp4p4p45MBBBBBBBQBXJ4J4J4J4J4J4J4
+BOARD 0 31 64 0 BQBXYcYcYcYcYcYcYcYLp4p4p4p4p4nHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGp4p4p4CQCRCRCRBQBXJ4J4J4J4J4J4J4
+BOARD 0 32 64 0 BQBXnmnXnXnXnXnXnXnXnXnXnXnXnXn1cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGp4p4p4mWmWmWmWBQBXJ4J4J4J4J4J4J4
+BOARD 0 33 64 0 BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnknWnWnWnWnWnWnlcdcdcdcdcdcdcdcdcdnknWnWnWnWnWnWnWnWnWn3p4p4p4dlc/c/dmBQBXJ4J4J4J4J4J4J4
+BOARD 0 34 64 0 BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGp4p4p4p4p4p4n2nlcdcdcdcdcdcdcdnkn3p4p4p4p4p4p4p4p4p4p4p4p4p4dTdUdUdWBQBXJ4J4J4J4J4J4J4
+BOARD 0 35 64 0 BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGp4p4p4p4p4p4mImJnlcdcdcdcdcdnkmImJp4p4p4p4p4p4p4p4p4p4p4p4p4djKpKqdXBQBXJ4J4J4J4J4J4J4
+BOARD 0 36 64 0 BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGp4p4p4p4p4p4mYmZnHcdcdcdcdcdnGmYmZp4p4p4p4p4p4p4p4p4p4p4p4p4p4K5K6p4BQBXJ4J4J4J4J4J4J4
+BOARD 0 37 64 0 BQBXnHcdcdcdcdnknWnWnWnWnWnWnWnWnWnWnWnWn3p4p4p4p4p4p4m4m5nHcdcdcdcdcdnGm4m5p4p4p4p4p4p4p4p4p4p4p4p4p4p4m4m5p4BQBXJ4J4J4J4J4J4J4
+BOARD 0 38 64 0 BQBXhEcdcdcdcdhE5M5NBBBBBBBBBBBBBBBB5M5NmImJp4p4p4p4p4p4p4nHcdcdcdcdcdnGp4p4p4p4p4p4p4mImJ5M5NBBBBBBBBBBBBBBBBBQBXJ4J4J4J4J4J4J4
+BOARD 0 39 64 0 BQBXCX6/6/6/6/CXCQBzCRCRCRCRCRCRCRCRCQBzmYmZp4p4p4p4p4p4p4nHcdcdcdcdcdnGp4p4p4p4p4p4p4mYmZCQBzCRCRCRCRCRCRCRCRBQBXJ4J4J4J4J4J4J4
+BOARD 0 40 64 0 BQBXCX7P7P7P7PCXBQBXCEmjmimjmimjmiCECgCDm4m5p4p4p4p4p4p4p4nHcdcdcdcdcdnGp4p4p4p4p4p4p4m4m5CgCDCEmjmimjmimjmiCEBQBXJ4J4J4J4J4J4J4
+BOARD 0 41 64 0 BQBXhE7f7f7f7fhEBQBXCHmzmymzmymzmyCHCgCD6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/6/CgCDCHmzmymzmymzmyCHBQBXJ4J4J4J4J4J4J4
+BOARD 0 42 64 0 BQBXY/7v7v7v7vY/BQBXCEYbYdYbYdYbYdCECgCD7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7P7PCgCDCEYbYdYbYdYbYdCEBQBXJ4J4J4J4J4J4J4
+BOARD 0 43 64 0 5M5NBBBBBBBBBBBBBQBXCHmzmymzmymzmyCHCgCD7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7fCgCDCHmzmymzmymzmyCHBQBXJ4J4J4J4J4J4J4
+BOARD 0 44 64 0 CQBzCRCRCRCRCRCRBQBXYcYcYcYcYcYcYcYc5c5d7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v7v5c5dYcYcYcYcYcYcYcYcBQBXJ4J4J4J4J4J4J4
+BOARD 0 45 64 0 CHmimjmimjmimjmiBQBXp4p4nmnXnXnXnXnXnXnXnXnXnXnnp4p4p4p4p4nHcdcdcdcdcdnGp4p4p4p4p4nmnXnXnXnXnXnXnXnXnXnXnnp4p4BQBXJ4J4J4J4J4J4J4
+BOARD 0 46 64 0 CEmymzmymzmymzmyBQBXp4nmn1cdcdcdcdcdcdcdcdcdcdn0nnp4p4p4p4nHcdcdcdcdcdnGp4p4p4p4nmn1cdcdcdcdcdcdcdcdcdcdn0nnp4BQBXJ4J4J4J4J4J4J4
+BOARD 0 47 64 0 CEmimjmimjmimjmiBQBXnmn1cdcdcdcdcdcdcdcdcdcdcdcdn0nnp4p4p4nHcdcdcdcdcdnGp4p4p4nmn1cdcdcdcdcdcdcdcdcdcdcdcdn0nnBQBXJ4J4J4J4J4J4J4
+BOARD 0 48 64 0 CHmymzmymzmymzmyBQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdn0nXnXnXn1cdcdcdcdcdn0nXnXnXn1cdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4J4
+BOARD 0 49 64 0 YKYcYcYcYcYcYcYcBQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4BQBXnHcdcdcdcdcdcdcdcdcdcdcdcdcdcdnknWnlcdcdcdcdcdcdcdcdcdnknWnlcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGBQBXJ4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4BQBXn2nlcdcdcdcdcdcdcdcdcdcdcdcdnkn3p4n2nlcdcdcdcdcdcdcdnkn3p4n2nlcdcdcdcdcdcdcdcdcdcdcdcdnkn3BQBXJ4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4BQBXp4n2nlcdcdcdcdcdcdcdcdcdcdnkn3p4p4p4n2nlcdcdcdcdcdnkn3p4p4p4n2nlcdcdcdcdcdcdcdcdcdcdnkn3p4BQBXJ4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4BQBXp4p4n2nWnWnWnWnWnWnWnWnWnWn3p4p4p4p4p4nHcdcdcdcdcdnGp4p4p4p4p4n2nWnWnWnWnWnWnWnWnWnWn3p4p4BQBXJ4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J45M5NBBBBBBBBp4p4BBBBBBBBBBBBBBBBp4p4BBBBBBBBBBBBBBBBBBBBBBBBBBp4p4BBBBBBBBBBBBBBBBp4p4BBBBBBBB5M5NJ4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4CQBzCRCRCRCRp4p4CRCRCRCRCRCRCRCRp4p4CRCRCRCRCRCRCRCRCRCRCRCRCRp4p4CRCRCRCRCRCRCRCRp4p4CRCRCRCRCQBzJ4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4CHmimjmimjYKp4p4YLmimjmimjmimjYKp4p4YLmimjCHhqhrhrhohpCHmimjYKp4p4YLmimjmimjmimjYKp4p4YLmimjmimjCEJ4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4CEmymzmymzCHp4p4CEmymzmymzmymzCHp4p4CEmymzCEiKiLiLiLiMCEmymzCHp4p4CEmymzmymzmymzCHp4p4CEmymzmymzCHJ4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4CEmimjmimjCEp4p4CHmimjmimjmimjCEp4p4CHmimjCEiaibibibicCEmimjCEp4p4CHmimjmimjmimjCEp4p4CHmimjmimjCEJ4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4CHmymzmymzYKYcYcYLmymzmymzmymzYKYcYcYLmymzCHko7v7v7vkoCHmymzYKYcYcYLmymzmymzmymzYKYcYcYLmymzmymzCHJ4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4YKYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYLJ4J4J4J4J4J4J4
+LINK raistlinsbar_inside_03.nw 42 10 4 1 53 16
+LINK raistlinsbar_inside_02.nw 54 25 1 5 5 41
+LINK raistlinsbar_inside_08.nw 3 42 4 1 30 4
+LINK overworld_96.nw 30 57 5 1 29.5 23
+NPC classic_wallbar.png 10 9
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_bar.png 24 18
+if (playerchats && strcontains(#c,SNC4Lyfe)) {
+   hide;
+  sleep 2;
+   show;
+   }
+NPCEND
+NPC shieldc-nmapoolstick.png 12 40
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_pool-table.png 42 47
+if (created) {
+block;
+}
+NPCEND
+NPC shieldc-nmapoolstick.png 49 40
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC pottedplant.png 12 20
+
+NPCEND
+NPC pottedplant.png 23 20
+
+NPCEND
+NPC note.png 24 15
+
+NPCEND
+NPC - 32 19
+//#CLIENTSIDE
+if (playerenters) {
+  seteffect 0,0,0,0.40;
+}
+NPCEND
+NPC stefanbook.png 52 33
+
+NPCEND
+NPC beer.png 10 15
+if (playertouchsme) {
+  playerhearts = playerfullhearts;
+}
+NPCEND
+NPC candle.mng 20 19
+
+NPCEND
+NPC candle.mng 15 19
+
+NPCEND
+NPC classic_balk.png 14 57
+if (created) {
+  drawoverplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_balk.png 24 57
+if (created) {
+  drawoverplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_balk.png 39 57
+if (created) {
+  drawoverplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_balk.png 49 57
+if (created) {
+  drawoverplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_pool-table.png 13 47
+if (created) {
+  block;
+}
+NPCEND
+NPC beer.png 10 18
+
+NPCEND
+NPC - 43 16
+function onCreated() {
+  showcharacter();
+   nick = "Holy (Security)";
+  headimg = "head285.png";
+  colors[0] = "orange";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  ap = 0;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+  x = 42.5;
+  y = 14;
+}
+function onPlayerTouchsMe(){
+ say2("HEY! NO ENTRANCE!");
+}
+function onPlayerChats(){
+ if (player.chat != "Evigkyla") return(0);
+ hide();
+ setTimer(5);
+}
+function onTimeout(){
+ show();
+}
+NPCEND
+NPC - 17 17
+function onCreated() {
+  showcharacter();
+  nick = "Denim(Bartender)";
+  headimg = "head19.png";
+  colors[0] = "orange";
+  colors[1] = "black";
+  colors[2] = "black";
+  colors[3] = "black";
+  colors[4] = "black";
+  swordpower = 3;
+  shieldimg = "longtie-shield.png";
+  shieldpower = 3;
+  ap = 0;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+}
+NPCEND
+NPC - 20 43
+function onCreated() {
+  showcharacter();
+   nick = "Castrol Majere";
+  headimg = "headc-steve2.png";
+  colors[0] = "black";
+  colors[1] = "black";
+  colors[2] = "orange";
+  colors[3] = "black";
+  colors[4] = "darkblue";
+  swordpower = 3;
+  shieldimg = "shieldc-nmapoolstick.png";
+  shieldpower = 3;
+  ap = 0;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+}
+function onPlayerTouchsMe(){
+ say2("hmm hey.. Raistlin's bar is nice");
+}
+NPCEND
+NPC - 24 50
+function onCreated() {
+  showcharacter();
+   nick = "Soul";
+  headimg = "head440.png";
+  colors[0] = "orange";
+  colors[1] = "black";
+  colors[2] = "white";
+  colors[3] = "black";
+  colors[4] = "white";
+  swordpower = 3;
+  shieldimg = "shieldc-nmapoolstick.png";
+  shieldpower = 3;
+  ap = 100;
+  bodyimg = "body17.png";
+  dir = 1;
+  setcharani("classic_idle","");
+}
+function onPlayerTouchsMe(){
+ say2("It's so warm and cosy here");
+}
+NPCEND
+NPC - 52 43
+function onCreated() {
+  showcharacter();
+   nick = "Excalibur";
+  headimg = "head144.png";
+  colors[0] = "black";
+  colors[1] = "black";
+  colors[2] = "orange";
+  colors[3] = "black";
+  colors[4] = "green";
+  swordpower = 3;
+  shieldimg = "shieldc-nmapoolstick.png";
+  shieldpower = 3;
+  ap = 0;
+  bodyimg = "body.png";
+  dir = 2;
+  setcharani("classic_idle","");
+}
+function onPlayerTouchsMe(){
+ say2("Hey! I suck at pool!");
+}
+NPCEND
+NPC - 13 22
+function onCreated() {
+  showcharacter();
+  nick = "Brian";
+  headimg = "head163.png";
+  colors[0] = "white";
+  colors[1] = "white";
+  colors[2] = "orange";
+  colors[3] = "white";
+  colors[4] = "darkgreen";
+  swordpower = 3;
+  shieldimg = "no-shield.png";
+  shieldpower = 3;
+  ap = 0;
+  bodyimg = "body.png";
+  dir = 0;
+  sprite = 37;
+  setcharani("classic_sit","");
+  x = 24.5;
+  y = 21;
+}
+
+function onPlayerTouchsMe(){
+ say2("Hey Denim! Give me a beer *hic*");
+}
+NPCEND
+NPC pottedplant.png 20 38
+
+NPCEND
+NPC pottedplant.png 43 38
+
+NPCEND
+NPC light4.png 43 46
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 0.4,0.55,1,0.5;
+}
+NPCEND
+NPC light4.png 14 46
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 0.4,0.55,1,0.5;
+}
+NPCEND
+NPC - 17 22
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text,#b  Welcome to the Red Dragon Inn;
+NPCEND
+NPC - 52 34
+join sign;
+//#CLIENTSIDE
+if (created) setstring this.text, A list of VIP people.#b
+that can enter the VIP rooms;
+NPCEND
+NPC bottle.png 14 12
+
+NPCEND
+NPC bottle.png 18 12
+
+NPCEND
+NPC bottle.png 16 12
+
+NPCEND
+NPC bottle.png 14 20
+
+NPCEND
+NPC - 42 29
+//#CLIENTSIDE
+if (playertouchsme) {
+  this.spin=1;
+  timeout=0.05;
+}
+if(timeout){
+  if (this.spin in |1,5|){
+    freezeplayer 0.05;
+    setani idle,;
+    if (this.time>0) this.time-=1;
+    if (this.time=<0){
+      playerdir++;
+      if (playerdir=>4) playerdir=0;
+      this.spin++;
+      this.time=5;
+    }
+  }
+  if (this.spin>=5) {
+    this.spin=0;
+    <<triggeraction for setlevel>>
+  }
+  timeout=0.05;
+}
+NPCEND
+NPC pottedplant.png 27 35
+
+NPCEND
+NPC pottedplant.png 36 35
+
+NPCEND
+NPC classic_lucka_open.png 21 14
+drawunderplayer;
+dontblock;
+NPCEND
+NPC classic_lucka.png 21 14
+function onCreated(){
+  setshape(1,32,32);
+}
+function onActionWarp(){
+  setlevel2("raistlinsbar_inside_04.nw",61,22);
+}
+//#CLIENTSIDE
+if (playertouchsme) {
+  this.spin=1;
+  timeout=0.05;
+hide;
+	  sleep 2;
+	   show;
+}
+if(timeout){
+  if (this.spin in |1,5|){
+    movement_handlekeys = 0.1;
+    movement_handleganis = 0.1;
+    setani idle,;
+    if (this.time>0) this.time-=1;
+    if (this.time=<0){
+      playerdir++;
+      if (playerdir=>4) playerdir=0;
+      this.spin++;
+      this.time=2;
+    }
+  }
+  if (this.spin>=5) {
+    this.spin=0;
+    triggeraction x+1,y+1,warp,;
+  }
+  timeout=0.05;
+}
+NPCEND
+NPC classic_window.png 49 60
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_window.png 39 60
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_window.png 24 60
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_window.png 14 60
+function onCreated() {
+  dontblock();
+  drawoverplayer();
+}
+NPCEND
+NPC classic_cult_chair.png 25 22
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_cult_chair.png 21 22
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_cult_chair.png 10 22
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_cult_chair.png 14 22
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_cult_chair.png 52 17
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC light2.png 14 60
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC light2.png 24 60
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC light2.png 39 60
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC light2.png 49 60
+function onCreated() {
+  dontblock();
+}
+//#CLIENTSIDE
+if (created){
+  drawaslight;
+  setcoloreffect 1,1,1,0.4;
+  setimgpart light2.png,50,70,32,58;
+}
+NPCEND
+NPC - 34 19
+join("level_nopk");
+NPCEND
+NPC classic_stair.png 41 12
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_cult_chair.png 30 14
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_cult_chair.png 33 17
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_cult_chair.png 36 14
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC pottedplant.png 33 14
+
+NPCEND
+NPC bottle.png 35 14
+
+NPCEND
+NPC bottle.png 32 15
+
+NPCEND
+NPC safe.png 11 12
+
+NPCEND
+NPC airshipbeer.png 25 9
+if (playertouchsme) {
+  playerhearts = playerfullhearts;
+}
+NPCEND
+NPC airshipbeer.png 28 9
+if (playertouchsme) {
+  playerhearts = playerfullhearts;
+}
+NPCEND
+NPC airshipbeer.png 31 9
+if (playertouchsme) {
+  playerhearts = playerfullhearts;
+}
+NPCEND
+NPC airshipbeer.png 34 9
+if (playertouchsme) {
+  playerhearts = playerfullhearts;
+}
+NPCEND
+NPC light2.png 17 16
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawaslight;
+  setzoomeffect 1.135774;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC light2.png 17 16
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawaslight;
+  setzoomeffect 1.135774;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC light2.png 12 16
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawaslight;
+  setzoomeffect 1.135774;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC light2.png 12 16
+//#CLIENTSIDE
+if (created) {
+  dontblock;
+  drawaslight;
+  setzoomeffect 1.135774;
+  setcoloreffect 1,0.4,0,0.4;
+}
+NPCEND
+NPC classic_stair.png 2 38
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC airshipbeer.png 37 9
+if (playertouchsme) {
+  playerhearts = playerfullhearts;
+}
+NPCEND
+NPC classic_cult_chair.png 52 35
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC classic_cult_chair.png 49 14
+function onCreated() {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC bottle.png 51 14
+
+NPCEND
+NPC bottle.png 54 15
+
+NPCEND
+NPC light4.png 49 29
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 0.4,0.55,1,0.5;
+}
+NPCEND
+NPC pottedplant.png 52 14
+
+NPCEND
+NPC light4.png 49 11
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 0.4,0.55,1,0.5;
+}
+NPCEND
+NPC light4.png 30 11
+//#CLIENTSIDE
+if (created) {
+  drawaslight;
+  dontblock;
+  setzoomeffect 3;
+  setcoloreffect 0.4,0.55,1,0.5;
+}
+NPCEND

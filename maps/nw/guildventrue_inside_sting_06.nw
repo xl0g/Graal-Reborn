@@ -1,0 +1,587 @@
+GLEVNW01
+BOARD 0 0 64 0 oRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgp4p4p4p4p4p4p4p4oRpgoRpgoRpgoR8N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8PoR
+BOARD 0 1 64 0 ogpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwp4p4p4p4p4p4p4p4ohpwohpwohpwoh8N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8Pog
+BOARD 0 2 64 0 oRv/v/v/v/v/v/v/yQyRpApBpCpDpDpDpDpDpDpFpGpHv/v/v/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yQyRyQyRyQyR8N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8PoR
+BOARD 0 3 64 0 ogv/v/v/v/v/v/v/ygyhpQpRpSpTpUpUpUpUpTpVpRpXpyv/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4ygyhygyhygyh8N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8Pog
+BOARD 0 4 64 0 oRv/v/v/v/v/v/v/yQyRpQpRpSpUpUpUpUpUpUpVpRpXqCv/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yQyRyQyRyQyR8N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8PoR
+BOARD 0 5 64 0 ogyQyRyQyRyQyRv/ygyhpQpRpSpTpUpUpUpUpTpVpRpXqCv/p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yQyRygyhygyhygyh8N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8Pog
+BOARD 0 6 64 0 oRygyhygyhygyhv/yQyRpQphpipjpjpjpjpjpjpWqkpXqCv/p4p4p4p4p4p4p4p4v/v/p4p4p4p4v/ygyhyQyRyQyRyQyR8N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8PoR
+BOARD 0 7 64 0 ogv/v/v/v/v/v/v/ygyhpQpxpRpRpRpRpRpRpRpRq0pXqCv/p4p4p4p4p4p4p4p4v/v/v/v/v/v/v/v/v/ygyhygyhygyh8N8O8O8O8O8O8O8O8O8O8O8O8O8O8O8Pog
+BOARD 0 8 64 0 oRv/v/v/v/v/v/v/yQyRqAqBpRpRpkplpmpnpRpRrEpXqCv/p4p4p4p4p4p4p4p4oAoQoBv/v/v/v/v/v/v/v/yQyRyQyR8d8N8O8O8O8O8O8O8O8O8O8O8O8O8P8foR
+BOARD 0 9 64 0 ogv/v/v/v/v/v/v/ygyhqQqRqRqRp0p1p2p3qRqRqRpzqCv/p4p4p4p4p4p4p4p4v/oAoQv/v/v/v/v/v/oAoQygyhygyhv/8e8e8e8N8P8O8O8O8O8N8P8e8e8ev/og
+BOARD 0 10 64 0 oRyQyRyQyRyQyRv/yQyRqgqhqiqjqEqFqGqHqhqiqjqDqCv/v/p4p4p4p4p4p4v/v/v/v/v/KpKqv/v/v/v/v/v/v/yQyRyQyRyQyR8e8e8O8O8O8O8e8eyQyRyQyRoR
+BOARD 0 11 64 0 ogygyhygyhygyhv/ygyhqwqxqyqzqUqVqWqXqxqyqzqTqSv/v/v/p4p4p4p4oBv/v/v/v/v/K5K6v/v/oBv/v/v/v/ygyhygyhygyhoAv/owoxowoxv/oBygyhygyhog
+BOARD 0 12 64 0 oRv/v/v/v/v/v/v/v/v/v/v/v/v/pEowoxpEv/v/v/v/v/v/v/v/v/v/oAoQv/v/v/v/LILJLKLJLKKrv/v/v/v/v/v/v/v/v/v/v/v/owoxowoxowoxv/yQyRyQyRoR
+BOARD 0 13 64 0 ogv/v/v/v/v/v/v/v/v/v/v/v/v/owoxowoxv/v/v/v/v/v/v/v/v/v/v/v/v/v/KpKqLYLZLaLZLaK7KpKqv/v/v/v/v/v/v/v/v/owoxowoxowoxv/v/ygyhygyhog
+BOARD 0 14 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/owoxowoxowoxv/v/v/v/v/v/v/v/v/v/v/v/v/K5K6LYLZLaLZLaK7K5K6v/v/v/v/v/v/v/owoxowoxowoxv/v/v/v/v/v/yQyRoR
+BOARD 0 15 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/LoLpLqLpLqLLv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/p4oBv/v/oBygyhog
+BOARD 0 16 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/KpKqv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/oQv/v/yQyRoR
+BOARD 0 17 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/K5K6v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/ygyhog
+BOARD 0 18 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/yQyRoR
+BOARD 0 19 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/ygyhog
+BOARD 0 20 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/yQyRoR
+BOARD 0 21 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/ygyhog
+BOARD 0 22 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/KpKqv/v/v/v/v/oR
+BOARD 0 23 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/K5K6v/v/oBv/v/og
+BOARD 0 24 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/LILJLKLJLKKrv/v/v/oR
+BOARD 0 25 64 0 v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/KpKqLYLZLaLZLaK7KpKqv/og
+BOARD 0 26 64 0 oRv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/K5K6LYLZLaLZLaK7K5K6v/oR
+BOARD 0 27 64 0 ogv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/LoLpLqLpLqLLv/v/v/og
+BOARD 0 28 64 0 oRp4p4p4p4p4p4p4v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/KpKqv/v/v/v/v/oR
+BOARD 0 29 64 0 ogp4p4p4p4p4p4p4p4v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/K5K6v/v/v/v/v/og
+BOARD 0 30 64 0 oRp4p4p4p4p4p4p4p4oApApBpCpDpDpDpDpDpDpFpGpHv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/oR
+BOARD 0 31 64 0 ogp4p4p4p4p4p4p4p4v/pQpRpSpTpUpUpUpUpTpVpRpXpyv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/og
+BOARD 0 32 64 0 oRp4p4p4p4p4p4p4p4v/pQpRpSpUpUpUpUpUpUpVpRpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/oR
+BOARD 0 33 64 0 ogp4p4p4p4p4p4p4p4v/pQpRpSpUpUpUpUpUpUpVpRpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/og
+BOARD 0 34 64 0 oRp4p4p4p4p4p4p4p4v/pQpRpSpUpUpUpUpUpUpVpRpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/21202020v/v/v/2020202020202020202020202020203lv/v/v/oR
+BOARD 0 35 64 0 ogp4p4p4p4p4p4p4p4v/pQpRpSpUpUpUpUpUpUpVpRpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCv/v/v/tCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/og
+BOARD 0 36 64 0 oRv/p4p4p4p4p4p4oAv/pQpRpSpUpUpUpUpUpUpVpRpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCv/v/v/tCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/oR
+BOARD 0 37 64 0 ogv/v/p4p4p4p4v/v/v/pQpRpSpUpUpUpUpUpUpVpRpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCv/v/v/tCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/og
+BOARD 0 38 64 0 oRv/v/v/v/v/v/v/v/oBpQpRpSpUpUpUpUpUpUpVpRpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCC5C5C6tCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/oR
+BOARD 0 39 64 0 ogv/oAv/v/v/v/v/v/v/pQpRpSpUpUpUpUpUpUpVpRpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtStCtCtCtCtCtCtC31v/v/v/og
+BOARD 0 40 64 0 oRv/v/p4p4p4p4p4p4p4pQpRpSpUpUpUpUpUpUpVpRpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/oR
+BOARD 0 41 64 0 ogv/p4p4p4p4p4p4p4p4pQpRpSpTpUpUpUpUpTpVpRpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtStCtCtCtC31v/v/v/og
+BOARD 0 42 64 0 oRv/p4p4p4p4p4p4p4p4pQphpipjpjpjpjpjpjpWqkpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/oR
+BOARD 0 43 64 0 ogv/p4p4p4p4p4p4p4p4pQpxpRpRpRpRpRpRpRpRq0pXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/og
+BOARD 0 44 64 0 oRv/p4p4p4p4p4p4p4p4qAqBpRpRpkplpmpnpRpRrEpXqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtStCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/oR
+BOARD 0 45 64 0 ogv/p4p4p4p4p4p4p4p4qQqRqRqRp0p1p2p3qRqRqRpzqCv/oBv/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtStCtCtCtCtCtCtC31v/v/v/og
+BOARD 0 46 64 0 oRoAp4p4p4p4p4p4p4p4qgqhqiqjqEqFqGqHqhqiqjqDqCv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/oR
+BOARD 0 47 64 0 ogv/p4p4p4p4p4p4p4p4qwqxqyqzqUqVqWqXqxqyqzqTqSv/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/og
+BOARD 0 48 64 0 oRoBv/p4p4p4p4p4p4v/v/v/v/v/pEowoxpEv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/oR
+BOARD 0 49 64 0 ogv/oBp4p4p4p4p4v/v/v/v/v/v/owoxowoxv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/og
+BOARD 0 50 64 0 oRv/v/v/v/v/v/v/v/v/v/v/v/v/v/owoxowoxv/v/v/v/oAv/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/oR
+BOARD 0 51 64 0 ogv/v/v/v/v/v/v/v/v/v/v/v/v/oAv/owoxowoxv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtStCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/og
+BOARD 0 52 64 0 oRv/v/v/v/v/KpKqv/v/v/v/v/v/v/owoxowoxv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtStCtCtCtC31v/v/v/oR
+BOARD 0 53 64 0 ogv/v/v/v/v/K5K6v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/og
+BOARD 0 54 64 0 oRv/v/v/LILJLKLJLKKrv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/oR
+BOARD 0 55 64 0 ogv/v/v/LYLZLaLZLaK7v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/og
+BOARD 0 56 64 0 oRv/v/v/LYLZLaLZLaK7v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/3FtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtCtC31v/v/v/oR
+BOARD 0 57 64 0 ogv/v/v/LoLpLqLpLqLLv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/3Q0q040Z0Z0Z0q3R3R3R3R3R3R3R3R3R3R3R3R3R3R3R3Uv/v/v/og
+BOARD 0 58 64 0 oRv/v/v/v/v/KpKqv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/060o0Z0Z0Z06v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/oR
+BOARD 0 59 64 0 ogv/v/v/v/v/K5K6v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/og
+BOARD 0 60 64 0 oRv/v/v/v/v/v/v/v/oAv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/oR
+BOARD 0 61 64 0 ogv/v/v/v/v/v/v/v/v/v/oBv/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/v/og
+BOARD 0 62 64 0 oRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRoR
+BOARD 0 63 64 0 ohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohoh
+LINK guildventrue_inside_sting_07.nw 0 14 1 12 61 playery
+LINK guildventrue_inside_sting_05.nw 53 7 4 1 27.5 58.5
+LINK guildventrue_inside_sting_04.nw 15 47 2 1 29.5 43
+LINK guildventrue_inside_sting_09.nw 15 11 2 1 26.5 24
+SIGN 49 13
+        The Petrified Church
+SIGNEND
+SIGN 1 13
+       #r The Petrified Church
+       #d Sting's Fashion Store
+SIGNEND
+SIGN 35 57
+               Pool Rules
+      Do whatever WE want :[
+SIGNEND
+SIGN 19 14
+           Moonie's House
+SIGNEND
+
+NPC divingboard.png 41 32
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC deadtree.png 24 2
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC deadtree.png 1 28
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC deadtree.png 2 40
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC stonetable2.png 54 24
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC stonetable2.png 34 12
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC stonetable2.png 4 54
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC stonechair.png 36 10
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC stonechair.png 6 52
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC stonechair.png 6 58
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC darkflower.png 42 9
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darkflower.png 33 8
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darkflower.png 34 9
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darkflower.png 29 12
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darkflower.png 58 16
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darksign.png 35 56
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC deadtree.png 32 -3
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darksign.png 1 12
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC destinyeviltemple.png 47 -1
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 40 13
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC stonechair.png 36 16
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC stonechair.png 32 13
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC stonechair.png 56 22
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC stonechair.png 60 25
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC stonechair.png 56 28
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC stonechair.png 52 25
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {dontblock; drawunderplayer;
+}
+NPCEND
+NPC greyunclicked.png 1 2
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darksign.png 19 13
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darksign.png 49 12
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC greyunclicked.png 3 2
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC greyunclicked.png 5 2
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC greyunclicked.png 5 7
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC greyunclicked.png 3 7
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC greyunclicked.png 1 7
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 8 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 1 5
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 3 5
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 5 5
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 5 10
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 8 4
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 8 6
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 8 8
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 61 20
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 1 10
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 3 10
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 8 10
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 39 5
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 41 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 43 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 45 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 45 4
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 43 4
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 41 4
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 41 6
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 43 6
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 45 6
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 45 8
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 43 8
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 45 10
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 10
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 49 10
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 59 10
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 61 10
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 61 12
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 59 12
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 61 14
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 61 16
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 61 18
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND

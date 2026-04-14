@@ -1,0 +1,154 @@
+GLEVNW01
+BOARD 0 0 64 0 FCFCFCFCPMPNO9DyDzC/C+C/C+C/C+C/C+C/C+C/C+C/C+ECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 1 64 0 FCFCFCPMPNO9DyDzQAEqEpEqEpEqEpEqEpEqEpEqEpEqEpEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 2 64 0 FCFCPMPNO9DyDzQAQQE6E5E6E5E6E5E6E5E6E5E6E5E6E5EKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 3 64 0 EOEPPNO9DyDzQAQQQg0g0hf/f/f/f/f/f/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 4 64 0 EeEfO9DyDzQAQQQgf/0w0xf/f/f/f/f/f/f/f/f/K4f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 5 64 0 EuEvDyDzQAQQQgf/f/f/f/f/Yff/AAABf/f/f/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 6 64 0 C+C/C+QAQQQgf/f/f/f/f/f/Yvf/f/f/f/f/f/f/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 7 64 0 EpEqEpQQQgf/f/f/f/f/f/f/Yvf/f/pqqKqLqLqKqLprf/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 8 64 0 E5E6E5Qgf/f/f/f/f/f/AQf/Y/f/pqHHf/f/AQf/f/Gmprf/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 9 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/pqHHf/KpKqf/f/f/f/pbf/f/f/AQf/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 10 64 0 f/f/f/f/f/f/f/f/f/f/pqqKqLHHf/f/K5K6f/f/AAABpbf/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 11 64 0 f/f/AAABf/f/f/f/f/f/paf/K4f/LILJLJLKLKKrf/f/Gmprf/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 12 64 0 f/f/f/f/f/f/f/f/f/f/paf/f/f/LYLZLZLaLaK7f/f/f/Gmprf/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 13 64 0 f/f/f/f/f/f/f/f/f/f/paf/KpKqLYLZLZLaLaK7KpKqf/f/Gmprf/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 14 64 0 f/f/ABf/f/f/f/K4f/f/paf/K5K6LYLZLZLaLaK7K5K6f/ABf/pbf/f/f/f/AAf/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 15 64 0 f/f/f/f/f/f/f/f/f/f/paf/f/f/LYLZLZLaLaK7f/f/f/f/f/pbf/f/f/f/f/f/f/f/P/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 16 64 0 f/f/f/f/f/f/f/f/f/f/p6HXf/f/LoLpLpLpLpLLf/f/f/f/G2p7f/f/f/f/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 17 64 0 AJAKALAMANAOf/f/f/f/f/p6HXf/AAf/KpKqf/f/f/f/G2qbp7f/f/f/f/f/f/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 18 64 0 AZAaAbAcAdAeAff/ABf/f/f/p6HXf/f/K5K6f/f/AQf/pbf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 19 64 0 ApAqArAsAtAuAvf/f/f/f/f/f/p6HXf/f/f/f/f/f/G2p7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/P/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 20 64 0 A5A6A7A8A9A+A/f/f/K4f/f/f/f/p6qaqbqaqbqaqbp7f/f/f/ABf/f/f/f/f/AQf/K4f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 21 64 0 BJBKBLBMBNBOBPf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/P/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 22 64 0 BZBaBbBcBdBeBff/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 23 64 0 AMDCDDDADBALAMANAOf/f/f/f/f/AQf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/K4f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 24 64 0 AcAdAeAZAaAbAcAdAeAff/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EaEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 25 64 0 AsAtAuApAqArAsAtAuAvf/f/f/AAABf/f/f/f/f/AQf/f/f/f/f/f/K4f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EaYvEwECExEyEzFCFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 26 64 0 A8A9A+A5A6A7A8A9A+A/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAf/f/f/YvEKEwECExEyEzFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 27 64 0 BMBNBOBJBKBLBMBNBOBPf/f/f/f/f/f/f/pqqKqLprf/f/f/f/f/f/f/f/f/f/AAf/f/f/pqqKqLprf/f/f/f/f/f/f/Y/koknknknknknknknknknknknknknknknko
+BOARD 0 28 64 0 BcBdBeBZBaBbBcBdBeBff/f/f/f/f/f/f/paf/f/Gmprf/f/f/f/f/f/f/f/f/f/f/f/pqHHf/f/Gmprf/f/f/f/f/f/pq7f7f7f7f7f7f7f7f7f7fKpKqLILJLKKrk4
+BOARD 0 29 64 0 DADBALAMDCDDBsBtBuBvf/f/f/f/f/f/f/paf/AJAKALAMANAOAJAKALAMANAOAJAKALAMANAOf/KoGmprf/f/f/f/f/pa7f7f7f7f7f7f7f7f7f7fK5K6LYLZLaK7k4
+BOARD 0 30 64 0 AZAaAbAcAdAeDRB9B+B/f/f/f/f/f/f/f/paAYAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAff/f/pbf/f/f/f/f/pa7f7f7f7f7f7f7f7f7f7f7f7fLYLZLaK7k4
+BOARD 0 31 64 0 ApAqArAsAtAuDhCNCOf/f/f/f/f/f/f/f/paAoApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuAvf/AQpbf/f/f/f/f/pa7f7f7f7f7f7f7f7f7f7fKpKqLYLZLaK7k4
+BOARD 0 32 64 0 A5A6A7A8A9A+A/Cdf/f/f/f/f/f/f/f/f/paA4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/f/G2p7AQf/f/f/f/p67f7f7f7f7f7f7f7f7f7fK5K6LoLpLpLLk4
+BOARD 0 33 64 0 BJBKBLBMBNBOBPf/f/f/AQK4f/f/f/f/pqHHBIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPqbp7f/f/f/f/f/f/f/koknknknknknknknknknknknknknknknko
+BOARD 0 34 64 0 BZBaBbBcBdBeBff/f/f/f/f/f/f/f/pqHHf/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBff/0Qf/f/f/f/f/f/f/EGERESEHEIEZ46YvYv47FCFC46YvYv47FC
+BOARD 0 35 64 0 AMDCDDDADBALAMANAOf/f/f/f/f/f/paf/f/BoBpBqDDDADBALAMDCDDDADBALAMDCDDDADBALAMANAOf/f/f/f/f/f/f/EWEhEiEXEYEJ4s5a5b4tFCFC4s5a5b4tFC
+BOARD 0 36 64 0 AcAdAeAZAaAbAcAdAeAff/f/f/f/f/paAAABB4B5YvDQAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeAff/f/f/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 37 64 0 AsAtAuApAqArAsAtAuAvf/f/f/f/f/paf/f/f/CJYvDgApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuAvf/f/f/f/f/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 38 64 0 A8A9A+A5A6A7A8A9A+A/f/f/f/f/f/p6HXf/f/f/Y/A4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/f/f/AQf/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 39 64 0 BMBNBOBJBKBLBMBNBOBPf/f/f/f/f/f/p6HXf/AQf/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/f/f/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 40 64 0 BcBdBeBZBaBbBcBdBeBff/f/AAf/f/f/f/p6HXf/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBfAQf/f/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 41 64 0 DADBALAMDCDDBsBtBuBvf/f/f/f/f/f/f/f/p6AJAKALAMDCDDDADBALAMDCDDDADBALAMDCDDBsBtBuBvf/f/f/Kof/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 42 64 0 AZAaAbAcAdAeDRB9B+B/f/f/f/f/f/f/f/f/AYAZAaAbAcAdAeAZAaAbAcAdAeAZAaAbAcAdAeDRB9B+B/f/f/f/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 43 64 0 ApAqArAsAtAuDhCNCOf/f/f/f/f/f/f/f/f/AoApAqArAsAtAuApAqArAsAtAuApAqArAsAtAuDhCNCOf/f/f/f/ABf/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 44 64 0 A5A6A7A8A9A+A/Cdf/f/f/f/f/f/f/f/f/f/A4A5A6A7A8A9A+A5A6A7A8A9A+A5A6A7A8A9A+A/Cdf/f/f/Kof/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 45 64 0 BJBKBLBMBNBOBPf/f/AAABf/f/f/f/f/f/f/BIBJBKBLBMBNBOBJBKBLBMBNBOBJBKBLBMBNBOBPf/f/f/f/f/f/f/f/f/EWEhEiEXEYEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 46 64 0 BZBaBbBcBdBeBff/f/f/f/f/f/f/f/f/f/f/BYBZBaBbBcBdBeBZBaBbBcBdBeBZBaBbBcBdBeBff/f/f/f/f/AQf/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 47 64 0 BpBqBrBsBtBuBvf/f/f/f/f/f/f/AQf/f/f/BoBpBqBrBsBtBuBpBqBrBsBtBuBpBqBrBsBtBuBvf/f/AAABf/f/f/f/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 48 64 0 B5B6B7B8B9B+B/f/f/f/f/f/f/f/f/f/f/f/B4B5B6B7B8B9B+B5B6B7YvB9B+B5B6B7B8B9B+B/f/f/f/f/f/f/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 49 64 0 CJCKCLCMCNCOf/f/f/f/f/f/f/f/f/f/f/f/f/CJCKCLCMCNCOCJCKCLYvCNCOCJCKCLCMCNCOf/f/f/f/f/f/f/f/f/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 50 64 0 f/CaCbCcCdprf/f/f/f/f/f/f/f/f/f/f/f/f/f/CaCbCcCdf/f/CaCbY/Cdf/f/CaCbCcCdf/f/f/f/f/f/f/f/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 51 64 0 f/f/f/f/f/pbf/f/f/f/Kof/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 52 64 0 G2qaqbqaqbp7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Kof/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 53 64 0 p7f/f/f/H/H/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/f/AQf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EWEhEiEXEYEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 54 64 0 f/f/f/f/KoH/H/DGCeCfCeCfCeCfCeCfCeCfCeCfDnf/f/f/f/DsCeCfDNH/f/f/f/f/f/f/f/f/f/AQf/f/f/f/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 55 64 0 f/f/f/f/H/H/DwDWCuCvCuCvCuCvCuCvCuCvCuCvkokpkpkpkpkoCuCvDdEFf/f/f/f/f/f/f/f/f/f/f/f/ABf/f/f/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 56 64 0 f/f/f/f/H/DwDxDyDzC/C+C/C+C/C+C/C+C/C+C/k4kpkpkpkpk4C+ECEDEEEFf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 57 64 0 f/f/f/f/DwDxDyDzD0CoCoCoCoCoCoCoCoCoCoCokokpkpkpkpkoCoEBECEDEEEFf/f/f/f/AAf/f/f/f/f/f/f/f/f/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 58 64 0 f/f/f/f/DxDyDzD0D1f/f/f/f/AJAKALAMANAOpqqKqLprf/f/f/f/EAEBECEDEEEFf/f/f/f/f/f/f/f/f/f/f/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 59 64 0 f/f/f/f/DSDTDUDVf/f/K4f/AYAZAaAbAcAdAeAfAQG2p7f/f/f/f/f/EAEBECEDEEEFf/f/f/f/f/f/f/f/f/AAABf/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 60 64 0 f/f/f/DwDiDjDkDVf/AAf/f/AoApAqArAsAtAuAvG2p7f/f/f/f/f/f/f/EAEBECEDEEEFf/f/f/f/f/f/f/f/f/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 61 64 0 f/f/f/DxDyDzD0D1f/f/ABf/A4A5A6A7A8A9A+A/pbf/f/f/f/Kof/f/f/f/EAEBECEDEEEFf/f/f/f/f/f/f/f/f/f/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 62 64 0 f/f/DwDSDTDUDVf/f/f/f/f/BIBJBKBLBMBNBOBPGmprf/f/f/f/f/f/f/f/f/EAEBECEDEEEFf/f/f/f/f/f/f/f/f/f/EGERESEHEIEZFCFCFCFCFCFCFCFCFCFCFC
+BOARD 0 63 64 0 f/f/DxDyDzD0D1f/AQf/f/f/BYBZBaBbBcBdBeBf0QGmprf/f/f/f/f/f/f/f/f/EAEBECEDEEEFf/f/f/f/f/f/f/f/f/EWEhEiEXEYEJFCFCFCFCFCFCFCFCFCFCFC
+LINK gc_survivor_05.nw 0 63 64 1 playerx 0
+LINK gc_survivor_01.nw 0 0 1 64 61 playery
+NPC lampanimation.mng 28 48
+// NPC made by DC (NBK)
+if (created) {
+setimgpart lampanimation.mng,0,0,20,40;
+}
+NPCEND
+NPC light4.png 24 45
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light4.png;
+  dontblock;
+x+=.5;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,.6,.6,0.99;
+  drawaslight;
+  setzoomeffect 2;
+}
+NPCEND
+NPC lampanimation.mng 20 36
+// NPC made by DC (NBK)
+if (created) {
+setimgpart lampanimation.mng,0,0,20,40;
+}
+NPCEND
+NPC light4.png 16 33
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light4.png;
+  dontblock;
+x+=.5;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,.6,.6,0.99;
+  drawaslight;
+  setzoomeffect 2;
+}
+NPCEND
+NPC light4.png 8 3
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light4.png;
+  dontblock;
+x+=.5;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,.6,.6,0.99;
+  drawaslight;
+  setzoomeffect 2;
+}
+NPCEND
+NPC lampanimation.mng 12 6
+// NPC made by DC (NBK)
+if (created) {
+setimgpart lampanimation.mng,0,0,20,40;
+}
+NPCEND
+NPC lampanimation.mng 46 25
+// NPC made by DC (NBK)
+if (created) {
+setimgpart lampanimation.mng,0,0,20,40;
+}
+NPCEND
+NPC light4.png 42 22
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light4.png;
+  dontblock;
+x+=0.5;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,.6,.6,0.99;
+  drawaslight;
+  setzoomeffect 2;
+}
+NPCEND
+NPC - 31 31
+this.spawnpoint = {"gc_gc_01.nw",30.5,30};
+join("gc_level_spawn");
+NPCEND
+NPC - 34 31
+join("level_nopause");
+NPCEND

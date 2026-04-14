@@ -1,0 +1,160 @@
+GLEVNW01
+BOARD 0 0 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 1 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 2 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 3 64 0 k5lAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlBk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 4 64 0 k5lElTlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlSlFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 5 64 0 k5lElFmAmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmkmlmlmkmkmBlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 6 64 0 k5lElFnElglllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllhnFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 7 64 0 k5lElFm0l0k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 8 64 0 k5lElFnEl013k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 9 64 0 k5lElFm0l0k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 10 64 0 k5lElFnEl013k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 11 64 0 k5lElFm0l0k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 12 64 0 k5lElFnEl013k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 13 64 0 k5lElFm0l0k213k213k213k213k213koknknknknknknknknknknknknknknknknknknknknknknknknknknknknknknknkol1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 14 64 0 k5lElFnEl013k213k213k213k213k2k4lzmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVlyl1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 15 64 0 k5lElFm0l0k213k213k213k213k213k4l1lglllllllllllllllllllllllllllllllllllllllllllllllllllllllllhl0l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 16 64 0 k5lElFnEl013k213k213k213k213k2k4l1l0k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3l1l0l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 17 64 0 k5lElFm0l0k213k213k213k213k213k4l1l0k2k3k2k3k2k2k3k2k3k2k3k2k3k2k2k3k2k3k2k3k2k3k2k2k3k2k3k2l1l0l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 18 64 0 k5lElFnEl013k213k213k213k213k2k4l1l0k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3l1l0l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 19 64 0 k5lElFm0l0k213k213k213k213k213k4l1l0k2k3k2k3k2k2k3k2k3k2k3k2k3k2k2k3k2k3k2k3k2k3k2k2k3k2k3k2l1l0l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 20 64 0 k5lElFnEl0koknknknknknknknknknkol1l0k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3l1l0l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 21 64 0 k5lElFm0lwmVmVmVmVmVmVmVmVmVmVmVlxl0k2k3k2k3k2k2k3k2k3k2k3k2k3k3k3k3k2k3k2k3k2k3k2k2k3k2k3k2l1l0l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 22 64 0 k5lElFnEknVoVpknknknknknknknknknknkok3k2k3k2k3k3k2k3k2k3k2k3k3k3k3k3k3k2k3k2k3k2k3k3k2k3k2k3l1l0l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 23 64 0 lAlClFjrjtV4V5k3k2k3k2k3k2k3k2k3k2k4k2k3k2k3k2k2k3k2k3k2k3k3k3k3k3k3k3k3k2k3k2k3k2k2k3k2k3k2l1l0l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 24 64 0 lElTlRj7j9k2k3k2k3k2k3k2k3k2k3k2k3kok3k2k3k2k3k3k2k3k2k3k3k3k3k3k3k3k3k3k3k2k3k2k3k3k2k3k2k3l1l0l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 25 64 0 lElFk5jcjck3k2k3k2k3k2k3k2k3k2k3k2k3k2k3k2k3nInJk3k2k3k3k3k3k3k3k3k3k3k3k3k3k2k3nInJk3k2k3k2l1l0l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 26 64 0 lElFk5jcjck3k2k3k2k3k2k3k2k3k2k3k2k3k2k3k2k3nYnZk3k2k3k3k3k3k3k3k3k3k3k3k3k3k2k3nYnZk3k2k3k2l1l0l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 27 64 0 lElDlBjrjtk2k3k2k3k2k3k2k3k2k3k2k3kok3k2k3k2k3k3k2k3k2k3k3k3k3k3k3k3k3k3k3k2k3k2k3k3k2k3k2k3l1l0l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 28 64 0 lQlSlFj7j9k3k2k3k2k3k2k3k2k3k2k3k2k4k2k3k2k3k2k2k3k2k3k2k3k3k3k3k3k3k3k3k2k3k2k3k2k2k3k2k3k2l1l0l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 29 64 0 k5lElFm0knknknknknknknknknknknknknkok3k2k3k2k3k3k2k3k2k3k2k3k3k3k3k3k3k2k3k2k3k2k3k3k2k3k2k3l1l0l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 30 64 0 k5lElFnElglllllllllllllllllllllllhl0k2k3k2k3k2k2k3k2k3k2k3k2k3k3k3k3k2k3k2k3k2k3k2k2k3k2k3k2l1l0l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 31 64 0 k5lElFm0l0koknknknknknknknknknkol1l0k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3l1l0l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 32 64 0 k5lElFnEl013k213k213k213k213k2k4l1l0k2k3k2k3k2k2k3k2k3k2k3k2k3k2k2k3k2k3k2k3k2k3k2k2k3k2k3k2l1l0l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 33 64 0 k5lElFm0l0k213k213k213k213k213k4l1l0k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3l1l0l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 34 64 0 k5lElFnEl013k213k213k213k213k2k4l1l0k2k3k2k3k2k2k3k2k3k2k3k2k3k2k2k3k2k3k2k3k2k3k2k2k3k2k3k2l1l0l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 35 64 0 k5lElFm0l0k213k213k213k213k213k4l1l0k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3k2k3k2k3k3k2k3k2k3l1l0l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 36 64 0 k5lElFnEl013k213k213k213k213k2k4l1lwmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVlxl0l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 37 64 0 k5lElFm0l0k213k213k213k213k213k4ljllllllllllllllllllllllllllllVoVplllllllllllllllllllllllllllllil1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 38 64 0 k5lElFnEl013k213k213k213k213k2koknknknknknknknknknknknknknknknV4V5knknknknknknknknknknknknknknkol1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 39 64 0 k5lElFm0l0k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 40 64 0 k5lElFnEl013k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 41 64 0 k5lElFm0l0k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 42 64 0 k5lElFnEl013k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 43 64 0 k5lElFm0l0k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 44 64 0 k5lElFnEl013k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 45 64 0 k5lElFm0l0k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 46 64 0 k5lElFnEl013k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 47 64 0 k5lElFm0l0k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 48 64 0 k5lElFnEl013k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 49 64 0 k5lElFjrjtk213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 50 64 0 k5lElFj7j913k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 51 64 0 k5lElFJ4jdk213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 52 64 0 k5lElFJ4jd13k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 53 64 0 k5lElFjrjtk213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 54 64 0 k5lElFj7j913k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 55 64 0 k5lElFm0l0k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 56 64 0 k5lElFnEl013k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 57 64 0 k5lElFm0l0k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k2l1m1lElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 58 64 0 k5lElFnEl013k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213k213l1nFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 59 64 0 k5lElFnElwmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVmVlxnFlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 60 64 0 k5lElFmQnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUnVnUmRlElFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 61 64 0 k5lElDlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlClFk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 62 64 0 k5lQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlRk5k5k5k5k5k5k5k5k5k5k5k5
+BOARD 0 63 64 0 k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5
+LINK gc_studiod_01.nw 2 25 1 2 50 playery
+LINK gc_studiod_01.nw 3 51 1 2 49 playery
+SIGN 5 23
+For GCs:
+say 'open' to open 
+say 'close' to close
+say 'start' to place bomb
+SIGNEND
+SIGN 31 38
+For a better view say
+'watch'.
+SIGNEND
+NPC - 2 17
+//#CLIENTSIDE
+if (playerchats) {
+  if (strequals(#c,watch)) {
+    this.focusb = 1;
+    this.focusx = playerx * 16;
+    this.focusy = playery * 16;
+    if (this.focusx < screenwidth / 2) this.focusx = screenwidth / 2;
+    if (this.focusx > 1024 - screenwidth / 2) this.focusx = 1024 - screenwidth / 2 - 16;
+    if (this.focusy < screenheight / 2) this.focusy = screenheight / 2;
+    if (this.focusy > 1024 - screenheight / 2) this.focusy = 1024 - screenheight / 2 - 16;
+    movement_handlekeys = 0.05;
+    movement_handleitems = 0.05;
+    movement_handlesword = 0.05;
+    timeout = 0.05;
+  }
+}
+if (timeout) {
+  if (keydown2(keycode(s),true)) {
+    this.focusb = 0;
+    resetfocus;
+  }
+  elseif (this.focusb == 1) {
+    if (keydown(0) && this.focusy >= screenheight / 2 + 16) this.focusy -= 16;
+    if (keydown(1) && this.focusx >= screenwidth / 2 + 16) this.focusx -= 16;
+    if (keydown(2) && this.focusy <= 1024 - screenheight / 2 - 32) this.focusy += 16;
+    if (keydown(3) && this.focusx <= 1024 - screenwidth / 2 - 32) this.focusx += 16;
+    setfocus this.focusx / 16,this.focusy / 16;
+    movement_handlekeys = 0.05;
+    movement_handleitems = 0.05;
+    movement_handlesword = 0.05;
+    timeout = 0.05;
+  }
+}
+NPCEND
+NPC - 2 13
+if (playerchats && strequals(#g,Game Coordinator)) {
+  if (strequals(#c,start)) save[0] = 1;
+  if (strequals(#c,Stop)) save[0] = 0;
+
+}
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  ;
+  if (!strequals(#g,Game Coordinator)) {
+    movement_handlepause = 0.1;
+    if (save[0] == 0 || playery>37 || playerx<17) {
+      movement_handleitems = 0.1;
+      movement_handlesword = 0.1;
+    }
+
+    elseif (save[0] == 1 && playery<37 && playerx>17) {
+
+    }
+
+  }timeout=.05;
+      }
+NPCEND
+NPC - 2 9
+join("level_sparlevel");
+NPCEND
+NPC - 27 36
+//#CLIENTSIDE
+//REMOVE CARRIED OBJECT - NON-THROWING
+
+function onPlayerEnters() {
+  if (system_gani.mask in {"carry","hidden"}) {
+    system_gani.mask = "walk";
+    system_gani.mode = "walk";
+    system_gani.updateAni();
+    player.attr[3] = "";
+  }
+}
+
+//#CLIENTSIDE
+//REMOVE CARRIED OBJECT - THROWING
+
+function onPlayerEnters() {
+  if (system_gani.mask in {"carry","hidden"}) {
+    system_action.throwing();
+  }
+}
+NPCEND

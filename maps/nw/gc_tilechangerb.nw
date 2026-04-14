@@ -1,0 +1,438 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlBlDlClAlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlUlBJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lElglllllllllllllllllllllllllllllhlDlUlUlClglllllllllllllllllllllllllllllhlFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0mAmlmlmlmlmlmlmlmlmlmlmlmlmBljlllllllllimAmlmlmlmlmlmlmlmlmlmlmlmlmBl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0mglGlHlGlGlHlGlHlGlHlGmhmDmlmlmlmlmlmlmCmglHlGlHlGlHlGlHlHlGlHmhm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWnAmWmWmWmWmWmWmWmWnBmjlGlHlGlHlGlHlGlHminAmWmWmWmWmWmWmWmWnBlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lmmGngmWmWmWmWmWmWnhnDmWmWmWmWmWmWmWmWmWmWnCngmWmWmWmWmWmWnhmHlnm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnknWnWnWnWnlnDmWmWmWmWmWmWmWmWmWmWmWmWnCnknWnWnWnWnlmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGm2m3m2cen2nWnWnWnWnWnWnWnWnWnWnWnWnWnWn3m2m3m2cenHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGmmm2mmmncemnmmmnmmuxvgvgvgvguwmnmmcemmmncemnmmmnnHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGcem3m2m3m2cem2m3cevDvCvCvCvCvSm3cem3m2m3m2cem2m3nHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGmmmnmmcemmmnmmcemmvDvCvCvCvCvScemmmnmmcemmmnmmcenHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGm2m3cem3m2m3cem3m2uhvTvTvTvTugm3m2m3cem3m2m3cem3nHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGcemnmmmnmmcemmmncemnmmmnmmcemmmncemnmmmnmmcemmmnnHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGm2cem2m3cem3m2m3m2cem2m3cem3m2m3m2cem2m3cem3m2m3nHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGmmmncemnmmmncemnmmmncemnmmmncemnmmmncemnmmmncemnnHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGm2m3uxvgvgvgvguwm2m3m2cem2m3m2ceuxvgvgvgvguwm2cenHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGmmcevDvCvCvCvCvSmmcemmmncemnmmmnvDvCvCvCvCvSmmmnnHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGcem3vDvCvCvCvCvScem3m2m3m2cem2m3vDvCvCvCvCvSm2m3nHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGmmmnuhvTvTvTvTugmmmnmmcemmmnmmceuhvTvTvTvTugmmcenHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 19 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGm2m3cem3m2m3cem3m2m3cem3m2m3cem3m2m3cem3m2m3cem3nHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 20 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGcemnmmmnmmcemmmncemnmmmnmmcemmmncemnmmmnmmcemmmnnHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 21 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGm2cem2m3cem3m2m3m2cem2m3cem3m2m3m2cem2m3cem3m2m3nHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 22 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGmmmncemnmmmncemnmmuxvgvgvgvguwmnmmmncemnmmmncemnnHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 23 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGm2m3m2cem2m3m2cem2vDvCvCvCvCvScem2m3m2cem2m3m2cenHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 24 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGmmcemmmncemnmmmnmmvDvCvCvCvCvSmnmmcemmmncemnmmmnnHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 25 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGcem3m2m3m2cem2m3ceuhvTvTvTvTugm3cem3m2m3m2cem2m3nHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 26 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGnGmmmnmmcenmnXnXnXnXnXnXnXnXnXnXnXnXnXnXnnmmmnmmcenHmHmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 27 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGmGn0nXnXnXnXn1nTmXmXmXmXmXmXmXmXmXmXmXmXnSn0nXnXnXnXn1mHmHlnm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 28 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lWmGnwmXiIkpkpiJmXnRnTmXmXmXmXmXmXmXmXmXmXnSnQmXmXmXmXmXmXnxmHlXm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 29 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0lmnQmXmXiYk5k5iZmXmXnRmzl3l2l3l2l3l2l3l2mynQmXmXmXmXmXmXmXmXnRlnm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 30 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0m0mwl2l3l2h8h8h9h+l3l2l3mxmTnVnVnVnVnVnVmSmwl2l3l2l3l2l3l2l3l2l3mxm1l1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 31 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lEl0mQnVnVnVnVnVnVnVnVnVnVnVnVmRlzmVmVmVmVlymQnVnVnVnVnVnVnVnVnVnVnVnVmRl1lFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 32 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lElwmVmVmVmVmVmVmVmVmVmVmVmVmVmVlxlTlVlVlSlwmVmVmVmVmVmVmVmVmVmVmVmVmVmVlxlFJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 33 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4lQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlRJ4J4lQlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlVlRJ4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 34 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 35 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 36 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 37 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+NPC - 31 4
+//An Original Tile Editor Script
+//Author: Massokre
+//Jan 19, 2005
+
+//Special Thanks to Master Storm who
+//explained how triggeraction params work.
+
+//NOTES:
+//tileset_01.png is first 1024px strip of pics1.png
+//tileset_02.png is second 1024px strip.
+//The content assumes an 8px border.
+//Find 2048, width of two images combined.
+
+//June 22 2005 Note: don't mess with the triggeraction again you motherfuckers!
+//You know that this script is not identical to the weapon because it's *cough* local.
+//So be wary to keep the setshape for the triggeraction and not to do serverside action
+//for a weapon that only myself and other tilers have.
+function onPlayerChats(){
+  if(player.guild == "Game Coordinator"){
+    if(player.chat == "start"){
+      save[0]=1;
+    }
+    if(player.chat == "stop"){
+      save[0]=0;
+    }
+  }
+}
+function onCreated() {
+  setshape 1,32,32;
+  save[0]=0;
+}
+
+function onActionsettiles() {
+  for (this.i = 0; this.i < params[2]; this.i++) {
+    for (this.j = 0; this.j < params[3]; this.j++) {
+      this.tilex      = params[0] + this.i;
+      this.tiley      = params[1] + this.j;
+      this.drawx      = params[4] + this.i;
+      this.drawy      = params[5] + this.j;
+      this.tiley     += int(this.tilex/16)*32;
+      this.tilex      = this.tilex % 16;
+      tiles[this.drawx,this.drawy] = this.tilex + this.tiley * 16;
+    }
+  }
+  updateboard2(params[4],params[5],params[2],params[3]);
+}
+
+//#CLIENTSIDE
+
+if (playerenters) {
+  if (!stequals(#L,#s(gc_tilechangerb))) {
+    this.fired = 0;
+    hideimgs 200,210;
+  }
+}
+
+if (playerenters) {
+  this.fired    = 1;
+  this.window   = {  24,   24,  168,  168}; //x1,y1,x2,y2
+  //the coord values of the following are in relative to window.
+  this.scrollx  = {   8,  136, -128,    0}; //x1,y1,x2,y2
+  this.scrolly  = { 136,    8,    0, -128}; //x1,y1,x2,y2
+  this.resize   = { 136,  136,    0,    0}; //x1,y1,x2,y2
+  this.content  = {   0,    0,  128,  128}; //x,y,w,h
+  this.cselect  = {   0,    0,    0,    0}; //x,y,w,h
+  this.cscrollx = 0;
+  this.cscrolly = 0;
+  this.mode     = 0;
+  /*
+  Modes (in drawing order)
+  -1 - Placing Content
+  0 - Off
+  1 - Moving Window
+  2 - Moving ScrollX
+  3 - Moving ScrollY
+  4 - Resizing Window
+  5 - Selecting Content
+   */
+  draw();
+  timeout = 0.05;
+}
+
+if (mousedown) {
+  if(save[0]=1){
+    if (this.fired == 1) {
+      if (rightmousebutton) {
+        this.mode = 0;
+        hideimgs 206,209;
+        draw();
+      } else if (leftmousebutton) {
+        if (mousescreenx in |this.window[0],this.window[2]| && mousescreeny in |this.window[1],this.window[3]|) {
+          hideimg 206;
+          if (mousescreenx in |this.window[0] + this.scrollx[0] + this.cscrollx,this.window[2] + this.scrollx[2] + this.cscrollx| && mousescreeny in |this.window[1] + this.scrollx[1],this.window[3] + this.scrollx[3]|) {
+            mode_two();
+          } else if (mousescreenx in |this.window[0] + this.scrolly[0],this.window[2] + this.scrolly[2]| && mousescreeny in |this.window[1] + this.scrolly[1] + this.cscrolly,this.window[3] + this.scrolly[3] + this.cscrolly|) {
+            mode_three();
+          } else if (mousescreenx in |this.window[0] + this.resize[0],this.window[2] + this.resize[2]| && mousescreeny in |this.window[1] + this.resize[1],this.window[3] + this.resize[3]|) {
+            mode_four();
+          } else if (mousescreenx in <this.window[0] + 8,this.window[2] - 8> && mousescreeny in <this.window[1] + 8,this.window[3] - 8>) {
+            mode_five();
+          } else {
+            mode_one();
+          }
+        } else if (this.mode == -1) {
+          this.mousex = int(mousex - .5);
+          this.mousey = int(mousey - .5);
+          triggeraction x+1,y+1,settiles,#v(this.cselect[0]),#v(this.cselect[1]),#v(this.cselect[2]),#v(this.cselect[3]),#v(this.mousex),#v(this.mousey);
+        }
+      }
+      timeout = .05;
+    }
+  }
+}
+
+if (timeout) {
+  if (this.mode == 1) {
+    this.width      = this.window[2] - this.window[0];
+    this.height     = this.window[3] - this.window[1];
+    this.window[0]  = mousescreenx - this.init_mousex;
+    this.window[1]  = mousescreeny - this.init_mousey;
+    this.window[2]  = this.window[0] + this.width;
+    this.window[3]  = this.window[1] + this.height;
+    draw();
+  } else if (this.mode == 2) {
+    if (mousescreenx - this.init_mousex in |0,this.window[2] - this.window[0] - 24|) this.cscrollx = mousescreenx - this.init_mousex;
+    else if (mousescreenx - this.init_mousex < 0) this.cscrollx = 0;
+    else this.cscrollx = this.window[2] - this.window[0] - 24;
+    this.content[0] = this.cscrollx * (2048 - this.content[2]) / (this.content[2] - 8);
+    this.content[0] = int(this.content[0] / 16 + .5) * 16;
+    draw();
+  } else if (this.mode == 3) {
+    if (mousescreeny - this.init_mousey in |0,this.window[3] - this.window[1] - 24|) this.cscrolly = mousescreeny - this.init_mousey;
+    else if (mousescreeny - this.init_mousey < 0) this.cscrolly = 0;
+    else this.cscrolly = this.window[3] - this.window[1] - 24;
+    this.content[1] = this.cscrolly * (imgheight(tileset_01.png) - this.content[3]) / (this.content[3] - 8);
+    this.content[1] = int(this.content[1] / 16 + .5) * 16;
+    draw();
+  } else if (this.mode == 4) {
+    this.window[2]  = mousescreenx - this.init_mousex;
+    this.width      = this.window[2] - this.window[0];
+    this.width      = int(this.width / 16) * 16;
+    this.window[2]  = this.window[0] + this.width;
+    this.window[3]  = mousescreeny - this.init_mousey;
+    this.height     = this.window[3] - this.window[1];
+    this.height     = int(this.height / 16) * 16;
+    this.window[3]  = this.window[1] + this.height;
+    if (this.width  < 32) this.window[2] = this.window[0] + 32;
+    if (this.height < 32) this.window[3] = this.window[1] + 32;
+    if (this.width  > screenwidth) this.window[2] = this.window[0] + screenwidth;
+    if (this.width  > imgwidth(tileset_01.png) + imgwidth(tileset_02.png) + 16) this.window[2] = this.window[0] + imgwidth(tileset_01.png) + imgwidth(tileset_02.png) + 16;
+    if (this.height > screenheight) this.window[3] = this.window[1] + screenheight;
+    if (this.height > imgheight(tileset_01.png) + 16) this.window[3] = this.window[1] + imgheight(tileset_01.png) + 16;
+    this.content[2] = this.window[2] - this.window[0] - 16;
+    this.content[3] = this.window[3] - this.window[1] - 16;
+    this.cscrollx   = this.content[0] / ((imgwidth(tileset_01.png) + imgwidth(tileset_02.png) - this.content[2]) / (this.content[2] - 8));
+    this.cscrolly   = this.content[1] / ((imgheight(tileset_01.png) - this.content[3]) / (this.content[3] - 8));
+    this.content[0] = this.cscrollx * (imgwidth(tileset_01.png) + imgwidth(tileset_02.png) - this.content[2]) / (this.content[2] - 8);
+    this.content[0] = int(this.content[0] / 16 + .5) * 16;
+    this.content[1] = this.cscrolly * (imgheight(tileset_01.png) - this.content[3]) / (this.content[3] - 8);
+    this.content[1] = int(this.content[1] / 16 + .5) * 16;
+    if (this.content[0] + this.content[2] > imgwidth(tileset_01.png) + imgwidth(tileset_02.png)) this.content[0] = imgwidth(tileset_01.png) + imgwidth(tileset_02.png) - this.content[2];
+    if (this.content[1] + this.content[3] > imgheight(tileset_01.png)) this.content[1] = imgheight(tileset_01.png) - this.content[3];
+    this.resize[0]  = this.window[2] - this.window[0] - 8;
+    this.resize[1]  = this.window[3] - this.window[1] - 8;
+    this.scrollx[1] = this.window[3] - this.window[1] - 8;
+    this.scrollx[2] = this.window[0] - this.window[2] + 16;
+    this.scrolly[0] = this.window[2] - this.window[0] - 8;
+    this.scrolly[3] = this.window[1] - this.window[3] + 16;
+    draw();
+  } else if (this.mode == 5) {
+    if (leftmousebutton) {
+      if (int((mousescreenx - this.window[0])/16 + .5) in |0,this.content[2] / 16|) this.mousex = int((mousescreenx - this.window[0]) / 16 + .5);
+      else if (int((mousescreenx - this.window[0])/16 + .5) > 0) this.mousex = this.content[2] / 16;
+      else this.mousex = 0;
+      if (int((mousescreeny - this.window[1])/16 + .5) in |0,this.content[3] / 16|) this.mousey = int((mousescreeny - this.window[1]) / 16 + .5);
+      else if (int((mousescreeny - this.window[1])/16 + .5) > 0) this.mousey = this.content[3] / 16;
+      else this.mousey = 0;
+    } else {
+      if (this.mousex - this.init_mousex > 0) this.cselect[0] = this.init_mousex + this.content[0] / 16;
+      else this.cselect[0] = this.mousex + this.content[0] / 16;
+      this.cselect[2] = abs(this.init_mousex - this.mousex);
+      if (this.mousey - this.init_mousey > 0) this.cselect[1] = this.init_mousey + this.content[1] / 16;
+      else this.cselect[1] = this.mousey + this.content[1] / 16;
+      this.cselect[3] = abs(this.init_mousey - this.mousey);
+      if (this.cselect[2] == 0) this.cselect[2] = 1;
+      if (this.cselect[3] == 0) this.cselect[3] = 1;
+      this.mode = -1;
+    }
+    if (this.mousex <= this.init_mousex && !this.leftbound == 1) {
+      this.init_mousex++;
+      this.leftbound = 1;
+    } else if (this.leftbound == 1 && this.mousex >= this.init_mousex) {
+      this.init_mousex--;
+      this.leftbound = 0;
+    }
+    if (this.mousey <= this.init_mousey && !this.upperbound == 1) {
+      this.init_mousey++;
+      this.upperbound = 1;
+    } else if (this.upperbound == 1 && this.mousey >= this.init_mousey) {
+      this.init_mousey--;
+      this.upperbound = 0;
+    }
+    draw_selection();
+  } else if (this.mode == -1) {
+    draw_selection();
+  }
+  if (this.mode != 0 && this.fired != 0) timeout = .05;
+  if (this.fired == 0) hideimgs 206,208;
+}
+
+function mode_one() {
+  if (this.mode <= 0) {
+    this.init_mousex = mousescreenx - this.window[0];
+    this.init_mousey = mousescreeny - this.window[1];
+    this.mode        = 1;
+    timeout          = .05;
+  }
+}
+function mode_two() {
+  if (this.mode <= 0) {
+    this.init_mousex = mousescreenx - this.cscrollx;
+    this.mode        = 2;
+    timeout          = .05;
+  }
+}
+
+function mode_three() {
+  if (this.mode <= 0) {
+    this.init_mousey = mousescreeny - this.cscrolly;
+    this.mode        = 3;
+    timeout          = .05;
+  }
+}
+
+function mode_four() {
+  if (this.mode <= 0) {
+    this.init_mousex = mousescreenx - this.window[2];
+    this.init_mousey = mousescreeny - this.window[3];
+    this.mode        = 4;
+    timeout          = .05;
+  }
+}
+
+function mode_five() {
+  if (this.mode <= 0) {
+    this.init_mousex = int((mousescreenx - this.window[0]) / 16 - .5);
+    this.init_mousey = int((mousescreeny - this.window[1]) / 16 - .5);
+    this.leftbound   = 0;
+    this.upperbound  = 0;
+    this.mode        = 5;
+    timeout          = .05;
+  }
+}
+function draw() {
+  setarray this.draw_window,8;
+  setarray this.draw_scrollx,8;
+  setarray this.draw_scrolly,8;
+  setarray this.draw_resize,6;
+  for (this.i = 0; this.i < 4; this.i++) {
+    this.draw_window[2*this.i]    = this.window[2*int(this.i/2)];
+    this.draw_window[2*this.i+1]  = this.window[(2*int((this.i + 1)/2) % 2) + 1];
+    this.draw_scrollx[2*this.i]   = this.draw_window[2*this.i] + this.scrollx[2*int(this.i/2)] + this.cscrollx;
+    this.draw_scrollx[2*this.i+1] = this.draw_window[2*this.i+1] + this.scrollx[(2*int((this.i + 1)/2) % 2) + 1];
+    this.draw_scrolly[2*this.i]   = this.draw_window[2*this.i] + this.scrolly[2*int(this.i/2)];
+    this.draw_scrolly[2*this.i+1] = this.draw_window[2*this.i+1] + this.scrolly[(2*int((this.i + 1)/2) % 2) + 1] + this.cscrolly;
+    if (this.i == 0) continue;
+    this.draw_resize[2*this.i-2]    = this.draw_window[2*this.i] + this.resize[2*int(this.i/2)];
+    this.draw_resize[2*this.i-1]  = this.draw_window[2*this.i+1] + this.resize[(2*int((this.i + 1)/2) % 2) + 1];
+  }
+  showpoly        200,this.draw_window;
+  changeimgcolors 200,0,0,0,0;
+  showpoly        201,this.draw_scrollx;
+  showpoly        202,this.draw_scrolly;
+  showpoly        203,this.draw_resize;
+  setarray this.draw_content,8;
+  for (this.i = 0; this.i < 8; this.i++) {
+    if (this.i % 7 in |0,2|) this.draw_content[this.i] = this.draw_window[this.i] + 8;
+    else this.draw_content[this.i] = this.draw_window[this.i] - 9;
+  }
+  showpoly        210,this.draw_content;
+  changeimgvis    210,5;
+  if (this.content < 1024) {
+    showimg         204,tileset_01.png,this.window[0] + 8,this.window[1] + 8;
+    changeimgpart   204,this.content[0],this.content[1],this.content[2],this.content[3];
+  } else hideimg 204;
+  if (this.content[0] + this.content[2] > 1024) {
+    if (this.content[0] < 1024) {
+      showimg       205,tileset_02.png,this.window[2] - this.content[0] - this.content[2] + 1016,this.window[1] + 8;
+      changeimgpart 205,this.content[0] - imgwidth(tileset_01.png),this.content[1],this.content[0] + this.content[2] - 1024,this.content[3];
+    } else {
+      showimg       205,tileset_02.png,this.window[0] + 8,this.window[1] + 8;
+      changeimgpart 205,this.content[0] - imgwidth(tileset_01.png),this.content[1],this.content[2],this.content[3];
+    }
+  } else hideimg  205;
+  for (this.i = 0; this.i < 6; this.i++) {
+    changeimgvis (200 + this.i),(4 + this.i);
+  }
+}
+
+function draw_selection() {
+  if (this.mode == 5) {
+    showpoly 206,{this.window[0] + 8 + this.mousex * 16,this.window[1] + 8 + this.mousey * 16,this.window[0] + 8 + this.mousex * 16,this.window[1] + 8 + this.init_mousey * 16};
+    showpoly 207,{this.window[0] + 8 + this.init_mousex * 16,this.window[1] + 8 + this.init_mousey * 16,this.window[0] + 8 + this.init_mousex * 16,this.window[1] + 8 + this.mousey * 16};
+    showpoly 208,{this.window[0] + 8 + this.init_mousex * 16,this.window[1] + 8 + this.init_mousey * 16,this.window[0] + 8 + this.mousex * 16,this.window[1] + 8 + this.init_mousey * 16};
+    showpoly 209,{this.window[0] + 8 + this.mousex * 16,this.window[1] + 8 + this.mousey * 16,this.window[0] + 8 + this.init_mousex * 16,this.window[1] + 8 + this.mousey * 16};
+    for (this.i = 6; this.i < 10; this.i++) {
+      changeimgvis (200 + this.i),(4 + this.i);
+    }
+  } else if (this.mode == -1) {
+    hideimgs      206,209;
+    setarray this.draw_cselect,8;
+    this.draw_cselect[0] = int(mousex - .5);
+    this.draw_cselect[1] = int(mousey - .5);
+    this.draw_cselect[2] = int(mousex - .5);
+    this.draw_cselect[3] = int(mousey - .5) + this.cselect[3] - 1/16;
+    this.draw_cselect[4] = int(mousex - .5) + this.cselect[2] - 1/16;
+    this.draw_cselect[5] = int(mousey - .5) + this.cselect[3] - 1/16;
+    this.draw_cselect[6] = int(mousex - .5) + this.cselect[2] - 1/16;
+    this.draw_cselect[7] = int(mousey - .5);
+    showpoly 206,this.draw_cselect;
+    changeimgvis 206,0;
+    if (this.cselect[0] < 64) {
+      showimg       207,tileset_01.png,int(mousex - .5),int(mousey - .5);
+      changeimgpart 207,this.cselect[0] * 16,this.cselect[1] * 16,this.cselect[2] * 16,this.cselect[3] * 16;
+      changeimgvis  207,0;
+    } else hideimg 207;
+    if (this.cselect[0] + this.cselect[2] > 64) {
+      if (this.cselect[0] < 64) {
+        showimg       208,tileset_02.png,int(mousex - .5) + 64 - this.cselect[0],int(mousey - .5);
+        changeimgpart 208,0,this.cselect[1] * 16,(this.cselect[0] + this.cselect[2] - 64) * 16,this.cselect[3] * 16;
+        changeimgvis  208,0;
+      } else {
+        showimg       208,tileset_02.png,int(mousex - .5),int(mousey - .5);
+        changeimgpart 208,this.cselect[0] * 16 - imgwidth(tileset_01.png),this.cselect[1] * 16,this.cselect[2] * 16,this.cselect[3] * 16;
+        changeimgvis  208,0;
+      }
+    }
+  }
+}
+NPCEND
+NPC - 11 43
+join gc_level_sparring;
+NPCEND
+NPC - 19 43
+if (playerchats && strequals(#g,Game Coordinator)) {
+  if (strequals(#c,start)) save[0] = 1;
+  if (strequals(#c,start ring)) save[0] = 2;
+  if (strequals(#c,start outside)) save[0] = 3;
+  if (strequals(#c,Stop)) save[0] = 0;
+  if (strequals(#c,pause on)) save[1] = 1;
+  if (strequals(#c,pause off)) save[1] = 0;
+  if (strequals(#c,commands)) say2
+  Commands are:
+  #bstart
+    #bstart ring
+      #bstart outside
+        #bstop
+          #bpause on
+            #bpause off;
+}
+//#CLIENTSIDE
+if (playerenters || timeout) {
+  if (!strequals(#g,Game Coordinator)) {
+    if (save[1] == 0) movement_handlepause = 0.1;
+    if (save[0] == 0) {
+      movement_handleitems = 0.1;
+      movement_handlesword = 0.1;
+    }
+  }
+  timeout = 0.05;
+}
+NPCEND

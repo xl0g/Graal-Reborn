@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"image"
 	"image/color"
 	"math"
 	"time"
@@ -24,39 +25,19 @@ func (g *Game) drawPlaying(screen *ebiten.Image) {
 
 	camX, camY := g.camera()
 
-	if g.gameMap != nil {
-		g.gameMap.Draw(screen, camX, camY)
-	} else {
-		screen.Fill(color.RGBA{40, 70, 40, 255})
-	}
+	// ── World layer (drawn to worldBuf, then scaled onto screen) ──
+	viewW := int(float64(screenW) / g.zoom)
+	viewH := int(float64(screenH) / g.zoom)
 
-	g.drawWorldGralats(screen, camX, camY)
-	g.drawWorldItems(screen, camX, camY)
+	g.worldBuf.Clear()
+	g.drawWorld(g.worldBuf, camX, camY)
 
-	onMainMap := g.currentMapName == "GraalRebornMap.tmx" || g.currentMapName == ""
+	src := g.worldBuf.SubImage(image.Rect(0, 0, viewW, viewH)).(*ebiten.Image)
+	op := &ebiten.DrawImageOptions{}
+	op.GeoM.Scale(g.zoom, g.zoom)
+	screen.DrawImage(src, op)
 
-	g.mu.Lock()
-	if onMainMap {
-		for _, n := range g.npcs {
-			n.Draw(screen, camX, camY)
-		}
-	}
-	for _, p := range g.otherPlayers {
-		p.Draw(screen, camX, camY)
-	}
-	g.mu.Unlock()
-
-	g.localChar.Draw(screen, camX, camY)
-
-	if g.signDialog == "" && g.npcDialog == "" && !g.profileOpen {
-		if g.gameMap != nil {
-			g.gameMap.DrawSignPrompts(screen, camX, camY)
-		}
-		if onMainMap {
-			g.drawNPCPrompt(screen, camX, camY)
-		}
-	}
-
+	// ── UI layer (always at native resolution, not zoomed) ──
 	g.drawHUD(screen)
 	g.chat.Draw(screen)
 	g.panelMenu.Draw(screen)
@@ -85,6 +66,50 @@ func (g *Game) drawPlaying(screen *ebiten.Image) {
 	if g.localChar != nil && g.localChar.AnimState == AnimDead {
 		g.drawDeadOverlay(screen)
 	}
+	if g.debugOverlay {
+		g.drawDebugOverlay(screen)
+	}
+}
+
+// drawWorld renders all world-space elements into dst using the given camera offset.
+// dst is typically g.worldBuf (large enough for max zoom-out).
+func (g *Game) drawWorld(dst *ebiten.Image, camX, camY float64) {
+	vw := float64(screenW) / g.zoom
+	vh := float64(screenH) / g.zoom
+	if g.activeGMap != "" {
+		g.chunkMgr.Draw(dst, camX, camY, vw, vh)
+	} else if g.gameMap != nil {
+		g.gameMap.Draw(dst, camX, camY)
+	} else {
+		dst.Fill(color.RGBA{40, 70, 40, 255})
+	}
+
+	g.drawWorldGralats(dst, camX, camY)
+	g.drawWorldItems(dst, camX, camY)
+
+	onMainMap := g.currentMapName == "GraalRebornMap.tmx" || g.currentMapName == ""
+
+	g.mu.Lock()
+	if onMainMap {
+		for _, n := range g.npcs {
+			n.Draw(dst, camX, camY)
+		}
+	}
+	for _, p := range g.otherPlayers {
+		p.Draw(dst, camX, camY)
+	}
+	g.mu.Unlock()
+
+	g.localChar.Draw(dst, camX, camY)
+
+	if g.signDialog == "" && g.npcDialog == "" && !g.profileOpen {
+		if g.gameMap != nil {
+			g.gameMap.DrawSignPrompts(dst, camX, camY)
+		}
+		if onMainMap {
+			g.drawNPCPrompt(dst, camX, camY)
+		}
+	}
 }
 
 // ──────────────────────────────────────────────────────────────
@@ -94,26 +119,30 @@ func (g *Game) drawPlaying(screen *ebiten.Image) {
 func (g *Game) camera() (camX, camY float64) {
 	cww, cwh := g.worldSize()
 
-	if cww <= screenW {
-		camX = -(float64(screenW) - float64(cww)) / 2
+	// At zoom level z, the viewport covers (screenW/z) × (screenH/z) world units.
+	viewW := float64(screenW) / g.zoom
+	viewH := float64(screenH) / g.zoom
+
+	if float64(cww) <= viewW {
+		camX = -(viewW - float64(cww)) / 2
 	} else {
-		camX = g.localChar.X + float64(frameW)/2 - float64(screenW)/2
+		camX = g.localChar.X + float64(frameW)/2 - viewW/2
 		if camX < 0 {
 			camX = 0
 		}
-		if camX > float64(cww-screenW) {
-			camX = float64(cww - screenW)
+		if camX > float64(cww)-viewW {
+			camX = float64(cww) - viewW
 		}
 	}
-	if cwh <= screenH {
-		camY = -(float64(screenH) - float64(cwh)) / 2
+	if float64(cwh) <= viewH {
+		camY = -(viewH - float64(cwh)) / 2
 	} else {
-		camY = g.localChar.Y + float64(frameH)/2 - float64(screenH)/2
+		camY = g.localChar.Y + float64(frameH)/2 - viewH/2
 		if camY < 0 {
 			camY = 0
 		}
-		if camY > float64(cwh-screenH) {
-			camY = float64(cwh - screenH)
+		if camY > float64(cwh)-viewH {
+			camY = float64(cwh) - viewH
 		}
 	}
 	return
@@ -718,6 +747,85 @@ func (g *Game) drawNPCPrompt(screen *ebiten.Image, camX, camY float64) {
 // ──────────────────────────────────────────────────────────────
 // Utility
 // ──────────────────────────────────────────────────────────────
+
+// ──────────────────────────────────────────────────────────────
+// Debug overlay (F3)
+// ──────────────────────────────────────────────────────────────
+
+func (g *Game) drawDebugOverlay(screen *ebiten.Image) {
+	if g.localChar == nil {
+		return
+	}
+	camX, camY := g.camera()
+	vw := float64(screenW) / g.zoom
+	vh := float64(screenH) / g.zoom
+
+	// ── Chunk rectangles ──────────────────────────────────────
+	if g.activeGMap != "" {
+		g.chunkMgr.mu.Lock()
+		for _, ch := range g.chunkMgr.chunks {
+			// world-space corners → screen-space (account for zoom)
+			sx := int((ch.OriginX-camX)*g.zoom)
+			sy := int((ch.OriginY-camY)*g.zoom)
+			sw := int(chunkPixelW * g.zoom)
+			sh := int(chunkPixelH * g.zoom)
+			if sx+sw < 0 || sx > screenW || sy+sh < 0 || sy > screenH {
+				continue
+			}
+			// green border
+			DrawRect(screen, sx, sy, sw, 2, color.RGBA{0, 255, 80, 180})
+			DrawRect(screen, sx, sy+sh-2, sw, 2, color.RGBA{0, 255, 80, 180})
+			DrawRect(screen, sx, sy, 2, sh, color.RGBA{0, 255, 80, 180})
+			DrawRect(screen, sx+sw-2, sy, 2, sh, color.RGBA{0, 255, 80, 180})
+			// chunk label
+			lbl := fmt.Sprintf("%d,%d", ch.GridCol, ch.GridRow)
+			DrawText(screen, lbl, sx+4, sy+fontH+2, color.RGBA{0, 255, 80, 220})
+		}
+		// loading chunks (red)
+		for key := range g.chunkMgr.loading {
+			var gc, gr int
+			fmt.Sscanf(key, "%d,%d", &gc, &gr)
+			sx := int((float64(gc*chunkPixelW)-camX)*g.zoom)
+			sy := int((float64(gr*chunkPixelH)-camY)*g.zoom)
+			sw := int(chunkPixelW * g.zoom)
+			sh := int(chunkPixelH * g.zoom)
+			DrawRect(screen, sx, sy, sw, 2, color.RGBA{255, 80, 0, 160})
+			DrawRect(screen, sx, sy+sh-2, sw, 2, color.RGBA{255, 80, 0, 160})
+			DrawRect(screen, sx, sy, 2, sh, color.RGBA{255, 80, 0, 160})
+			DrawRect(screen, sx+sw-2, sy, 2, sh, color.RGBA{255, 80, 0, 160})
+		}
+		g.chunkMgr.mu.Unlock()
+	}
+
+	// ── Info panel ────────────────────────────────────────────
+	lines := []string{
+		fmt.Sprintf("F3 debug | zoom %.2f×  (scroll=zoom, min %.2f max %.2f)", g.zoom, zoomMin, zoomMax),
+		fmt.Sprintf("pos  X=%.0f  Y=%.0f", g.localChar.X, g.localChar.Y),
+		fmt.Sprintf("cam  X=%.0f  Y=%.0f  vp=%dx%d", camX, camY, int(vw), int(vh)),
+	}
+	if g.activeGMap != "" {
+		g.chunkMgr.mu.Lock()
+		pGCol := int(g.localChar.X) / chunkPixelW
+		pGRow := int(g.localChar.Y) / chunkPixelH
+		loaded := len(g.chunkMgr.chunks)
+		loading := len(g.chunkMgr.loading)
+		g.chunkMgr.mu.Unlock()
+		chunksX := int(math.Ceil(vw/float64(chunkPixelW))) + 1
+		chunksY := int(math.Ceil(vh/float64(chunkPixelH))) + 1
+		lines = append(lines,
+			fmt.Sprintf("gmap %s | chunk [%d,%d]", g.activeGMap, pGCol, pGRow),
+			fmt.Sprintf("chunks loaded=%d loading=%d radius=%dx%d", loaded, loading, chunksX, chunksY),
+		)
+	} else if g.gameMap != nil {
+		lines = append(lines, fmt.Sprintf("tmx %s", g.currentMapName))
+	}
+
+	ph := len(lines)*(fontH+3) + 8
+	DrawRect(screen, 0, screenH-ph-2, 520, ph+4, color.RGBA{0, 0, 0, 180})
+	for i, l := range lines {
+		DrawText(screen, l, 6, screenH-ph+(i*(fontH+3))+fontH, color.RGBA{80, 255, 120, 255})
+	}
+}
 
 func formatPlaytime(seconds int) string {
 	if seconds <= 0 {

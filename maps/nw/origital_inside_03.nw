@@ -1,0 +1,216 @@
+GLEVNW01
+BOARD 0 0 64 0 ARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARAR
+BOARD 0 1 64 0 AgAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAg
+BOARD 0 2 64 0 ARf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AQf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 3 64 0 Agf/f/f/f/f/g2f/f/KlKmf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/cqcrf/f/f/f/f/f/f/f/f/f/f/f/f/f/KlKmf/f/f/f/f/f/f/f/f/f/cqcrf/f/Ag
+BOARD 0 4 64 0 ARf/f/f/f/f/f/f/f/K1K2f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/c6c7f/f/f/f/f/f/f/f/f/f/f/f/f/f/K1K2f/f/f/f/f/f/f/f/f/f/c6c7f/f/AR
+BOARD 0 5 64 0 Agf/f/f/f/f/f/f/f/f/f/cqcrf/f/g3f/f/f/f/f/f/AiAjf/KlKmf/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 6 64 0 ARf/f/f/f/f/f/f/f/f/f/c6c7f/f/f/f/f/f/f/f/f/AyAzf/K1K2f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 7 64 0 Agf/f/f/f/f/f/f/f/f/f/f/f/cqcrf/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/AAABf/g1f/f/AAABf/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 8 64 0 ARf/f/AAABf/f/f/f/f/f/f/f/c6c7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AiAjf/f/f/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/AR
+BOARD 0 9 64 0 Agf/f/f/f/f/f/aiahahahahahahahahahahahahahahahahahahahahahahahahahahahahajf/f/f/f/f/AyAzf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 10 64 0 ARf/f/f/f/f/f/ayboaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxboazf/f/cqcrf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/YfYfYfYfYfYfYf
+BOARD 0 11 64 0 Agg2f/f/f/f/f/ayazbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBayazf/f/c6c7f/f/f/f/f/f/f/f/f/f/f/IAIBf/f/f/YvYvYvYvYvYvYv
+BOARD 0 12 64 0 ARf/f/f/f/f/f/ayazG1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0G1G0ayazf/f/f/f/f/f/f/f/AAABf/f/f/f/f/IQIRf/f/f/YvYvYvYvYvYvYv
+BOARD 0 13 64 0 Agf/f/f/f/f/f/ayazGlTxTyTzT0T1T2GkGlGkGlQmQnQoQpGkGlGkGlTxTyTzT0T1T2Glayazf/f/f/f/f/f/f/KlKmf/a7ara7ara7ara7a7f/a7Y/Y/Y/Y/Y/Y/Y/
+BOARD 0 14 64 0 ARf/AAABf/KlKmayazUAUBUCUDUEUFUGUHG1OzPCQ2NFNFQ5PFO0G0UAUBUCUDUEUFUGUHayazf/AAABf/f/f/f/K1K2f/ara5a6a5a5a6a5a6apaqf/a6a5f/f/f/f/
+BOARD 0 15 64 0 Agf/f/f/f/K1K2ayazUQURUSUTUUUVUWUXGlOwPSRGNFNFRJPWOxGkUQURUSUTUUUVUWUXayazf/f/f/f/f/f/f/f/f/f/a7apaqapapaqapaqa5a5a5a6f/apf/f/f/
+BOARD 0 16 64 0 ARf/f/f/f/f/f/ayazUgUhUiUjUkUlUmUnG1OwPiRWNFNFRZPnOxG0UgUhUiUjUkUlUmUnayazf/f/f/f/f/f/f/f/f/g3ara5a6a5a5a6a5a6a6f/YfYfYfYfYfYfYf
+BOARD 0 17 64 0 Agf/AiAjf/f/f/ayazUwUxUyUzU0U1U2U3GlOwPiTwTwTwTwPnOxGkUwUxUyUzU0U1U2U3ayazf/f/f/f/AAABf/f/f/f/a7a5a6a5a5a6a5a6arf/YvYvYvYvYvYvYv
+BOARD 0 18 64 0 ARf/AyAzf/f/f/ayazVAVBVCVDVEVFVGVHG1OwPiTwTwTwTwPnOxG0VAVBVCVDVEVFVGVHayazf/f/f/f/f/f/f/f/f/f/ara5a6a5a6ararf/f/arYvYvYvYvYvYvYv
+BOARD 0 19 64 0 Agf/f/f/f/f/f/ayazBoVRVSVTVUVVVWBvGlPALBPwPxPxPyLCPBGkBoVRVSVTVUVVVWBvayazf/g2f/f/f/f/f/f/f/f/a7apaqapaqarf/f/f/f/Y/Y/Y/Y/Y/Y/Y/
+BOARD 0 20 64 0 ARf/f/f/g1AAABayazB4B5B6XFXGB9B+B/G1PQOyPwPxPxPyO1PRG0B4B5B6XFXGB9B+B/ayazf/f/f/f/f/f/f/f/f/f/ara5a6a5a6a7f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 21 64 0 Agf/f/f/f/f/f/ayazGlCJCKCLCMCNCOGkGlPgPwPxPxPxPxPyPhGkGlCJCKCLCMCNCOGkayazf/f/f/f/f/f/f/f/f/f/a7a5a6a5a6arf/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 22 64 0 ARf/f/KlKmf/f/ayazQJQKCaCbCcCdG1G0G1PwPxPxPxPxPxPxPyG0G1G0CaCbCcCdQJQKayazf/f/f/f/f/f/AAABf/f/ara5a6a5a6a7f/f/AiAjf/f/f/f/f/f/AR
+BOARD 0 23 64 0 Agf/f/K1K2f/f/ayazQZQaGlGkGlara7arara7a7arara7ara7ara7arararGkGlGkQZQaayazf/f/f/f/f/f/f/f/f/f/a7apaqapaqarf/f/AyAzf/f/cqcrABf/Ag
+BOARD 0 24 64 0 ARf/f/f/f/f/f/ayazG1QJQKG0G1a7aqapaqapaqapaqapaqapaqapaqapa7G0G1QJQKG0ayazf/AiAjf/f/f/f/f/f/f/a7a5a6a5a6a7f/f/f/f/f/f/c6c7f/f/AR
+BOARD 0 25 64 0 AgAAABf/f/f/f/ayazGlQZQaGkGlara6a5a6a5a6a5a6a5a6a5a6a5a6a5arGkGlQZQaGkayazf/AyAzf/f/f/f/f/f/f/ara5a6a5a6arf/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 26 64 0 ARf/f/f/f/f/f/ayazQJQKG1G0G1a7aqapaqapaqapaqapaqapaqapaqapa7G0G1G0QJQKayazf/AAABf/f/f/f/f/f/f/a7a5a6a5a6a7f/f/f/f/f/f/f/f/g2f/AR
+BOARD 0 27 64 0 Agf/f/f/f/f/f/ayazQZQaGlGkGlara7a7arara7a5a6a5a6a7a7arara7arGkGlGkQZQaayazf/f/f/f/f/f/f/f/f/f/arapaqapaqarf/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 28 64 0 ARf/cqcrf/f/f/ayboahahahahahahahahajf/arapaqapaqarf/aiahahahahahahahahahazf/f/f/f/f/f/f/f/f/f/a7a5a6a5a6a7f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 29 64 0 Agf/c6c7f/f/f/bCaxaxaxaxaxaxaxaxaxbDf/a7a5a6a5a6a7f/bCaxaxaxaxaxaxaxaxaxbDf/f/cqcrf/f/f/f/f/f/ara5a6a5a6a7ABf/f/f/f/f/f/f/f/f/Ag
+BOARD 0 30 64 0 ARf/f/f/f/f/f/bSbBbBbBbBbBbBbBbBbBbTf/arapaqapaqarf/bSbBbBbBbBbBbBbBbBbBbTf/f/c6c7f/f/f/f/f/AAa7a5a6a5a6arf/f/f/g3f/f/f/f/f/f/AR
+BOARD 0 31 64 0 Agf/f/g3f/f/f/AAABf/f/f/f/f/f/asatauava7a5a6a5a6a7asatauavf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g1f/arapaqapaqa7f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 32 64 0 ARf/f/f/f/f/f/f/f/f/f/f/5+5/f/a8a9a+a/arapaqapaqara8a9a+a/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/a7a5apa5a6arf/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 33 64 0 Agf/f/f/f/f/f/f/f/f/f/f/6O6Pf/bMbNbObPa7a5a6a5a6a7bMbNbObPf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ara5apa5a6arf/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 34 64 0 ARf/f/f/f/f/f/f/f/f/f/f/AAf/f/bcbdbebfarapaqapaqarbcbdbebff/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/a7apapapaqa7f/f/f/f/f/AAABf/f/f/AR
+BOARD 0 35 64 0 Agf/f/AAABf/f/f/f/KlKmf/f/f/f/f/f/f/f/a7a5a6a5a6a7f/f/f/f/AAABf/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/ara5apa5a6arf/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 36 64 0 ARf/f/f/f/f/f/f/f/K1K2f/f/f/f/f/f/f/f/arapaqapaqarAAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/a7a5apa5a6a7f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 37 64 0 Agf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ara5a6a5a6a7arf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/arapaqapaqarf/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 38 64 0 ARf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KlKma7apaqapaqapa7ara7arara7ara7ara7ararara7arara7ara7ara7ara7a5a6a5a6a7f/f/f/f/f/f/KlKmf/f/AR
+BOARD 0 39 64 0 Agf/g3f/f/f/f/f/f/f/f/f/f/f/f/f/f/K1K2ara5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6arf/cqcrf/f/f/K1K2f/f/Ag
+BOARD 0 40 64 0 ARf/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/a7apaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqapaqa7f/c6c7f/AAABf/f/f/f/AR
+BOARD 0 41 64 0 Agf/f/f/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/ara7a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6a5a6arg1f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 42 64 0 ARf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/a7ara7ara7ara7ara7ara7ararara7ara7ara7ararara7arara7ara7ara7ara7a7f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 43 64 0 Agf/f/f/AAKlKmf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/AiAjf/f/f/f/f/Ag
+BOARD 0 44 64 0 ARAAABf/f/K1K2f/f/f/f/f/f/f/cqcrf/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/AiAjf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AyAzf/f/f/f/f/AR
+BOARD 0 45 64 0 Agf/f/f/f/f/f/f/f/f/f/f/f/f/c6c7f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/AyAzf/f/f/f/g2f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 46 64 0 ARf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 47 64 0 Agf/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/g3f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/f/g1Ag
+BOARD 0 48 64 0 ARAiAjf/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KlKmf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 49 64 0 AgAyAzf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/K1K2f/f/f/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/g1FPFMFNFsH/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 50 64 0 ARf/f/f/f/f/f/f/f/f/f/f/f/f/FiFkFjFlf/f/f/f/f/AAABf/f/f/f/f/f/g2f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAFPFfFcFdFrFsf/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 51 64 0 Agf/f/f/f/f/DmF3f/f/f/f/f/FiGEGDF0GDFlf/F2Dtf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/cqcrf/f/KlKmf/f/f/f/FeFdFvFvFvFtf/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 52 64 0 ARf/f/f/f/f/D2GHF3f/f/f/f/GSGTGTGTGUGVF2GGD9f/f/f/f/f/f/f/f/f/AAABf/f/f/f/c6c7f/f/K1K2f/f/f/f/F6FqFdFvFdF8f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 53 64 0 Agf/f/f/f/f/CmCnGHFmFnFnFnFmFnFmFmFnFnGGCsCtf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/f/GKF6F7F7F8GMf/KlKmAAABf/f/f/f/f/Ag
+BOARD 0 54 64 0 ARf/f/f/f/f/C2C3C4C5C6C5C6C5C6C5C6C5C6C7C8C9f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/GKGLGLGMf/f/K1K2f/f/f/f/f/f/f/AR
+BOARD 0 55 64 0 Agf/f/g3f/f/f/DHDIDJJnJoJpJqDKDJDKDJDKDLDMf/f/f/f/f/AAABf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 56 64 0 ARf/f/f/f/f/f/DXDYDZJ3k5k5J6DaDZDaDZDaDbDcf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/H/H/f/f/f/f/f/f/f/f/g2f/f/f/f/f/AR
+BOARD 0 57 64 0 Agf/f/f/f/f/f/H/DoDpKHk5k5KKDqDpDqDpDqDrH/f/f/f/f/f/f/f/f/KlKmf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 58 64 0 ARf/f/f/f/f/f/H/D4D5KXKYKZKaD6D5D6D5D6D7H/f/f/f/f/f/f/f/f/K1K2ABf/f/f/f/f/f/f/f/AAABf/f/f/f/f/AiAjf/f/f/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 59 64 0 Agf/f/cqcrf/f/f/f/f/f/AAABf/f/f/f/f/f/f/f/g1f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AyAzf/f/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 60 64 0 ARf/f/c6c7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/g2f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/AAABf/f/f/AR
+BOARD 0 61 64 0 Agf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 62 64 0 ARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARAR
+BOARD 0 63 64 0 AhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAh
+LINK origital_inside_04.nw 11 55 2 1 8.5 60
+LINK origital_inside_01.nw 63 14 1 2 .3 26
+LINK origital_inside_08.nw 21 14 2 1 32 32
+SIGN 21 16
+Dedicated to a certain 
+low-fat dairy creamer.
+~you know who you are.
+
+*passes out*
+SIGNEND
+SIGN 52 12
+Graveyard 
+#l   #x #y #z
+SIGNEND
+NPC - 0 1
+//#CLIENTSIDE
+seteffect 0,0,0,.5;
+NPCEND
+NPC oritombstone.png 20 13
+//NPC Made by Exodus (LAT)
+
+	function onPlayerChats() {
+	  if (player.chat == "ORI OWNS ME") {hide();sleep(3);show();
+
+	  }
+	}
+NPCEND
+NPC light2.png 9 12
+//#CLIENTSIDE
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,1,1,0.4;
+  drawaslight;
+}
+NPCEND
+NPC - 29 23
+//#CLIENTSIDE
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head23.png;
+  setcharprop #C0,black;
+  setcharprop #C1,white;
+  setcharprop #C2,cynober;
+  setcharprop #C3,black;
+  setcharprop #C4,black;
+  setcharprop #2,shield3.png;
+  setcharprop #8,body.png;
+  setcharprop #n,Luda;
+  shieldpower = 1;
+  dir = 1;
+
+}
+
+if (playertouchsme)
+  {
+  sprite = 25;
+  message If you wanna know a secret, say "ORI OWNS ME";
+  sleep 1;
+  sprite = 0;
+  sleep 2;
+  message;
+}
+NPCEND
+NPC light2.png 18 12
+//#CLIENTSIDE
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,1,1,0.4;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 27 12
+//#CLIENTSIDE
+// NPC made by Stefan Knorr
+if (created) {
+  setimg light2.png;
+  dontblock;
+}
+if (playerenters) {
+  setcoloreffect 1,1,1,0.4;
+  drawaslight;
+}
+NPCEND
+NPC - 10 51
+//#CLIENTSIDE
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,headc-sirkwang.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,black;
+  setcharprop #C2,darkblue;
+  setcharprop #C3,pink;
+  setcharprop #C4,black;
+  setcharprop #2,no-shield.png;
+  setcharprop #n,*Sir Kwang;
+  shieldpower = 1;
+  dir = 2;
+  sprite = 15;
+  x = x+.5;
+}
+NPCEND
+NPC - 44 13
+join("bush");
+NPCEND
+NPC - 25 5
+join("bush");
+NPCEND
+NPC - 9 3
+join("bush");
+NPCEND
+NPC - 5 14
+join("bush");
+NPCEND
+NPC - 9 35
+join("bush");
+NPCEND
+NPC - 17 38
+join("bush");
+NPCEND
+NPC - 5 43
+join("bush");
+NPCEND
+NPC - 29 57
+join("bush");
+NPCEND
+NPC - 25 48
+join("bush");
+NPCEND
+NPC - 41 51
+join("bush");
+NPCEND
+NPC - 54 53
+join("bush");
+NPCEND
+NPC - 59 38
+join("bush");
+NPCEND
+NPC - 47 3
+join("bush");
+NPCEND

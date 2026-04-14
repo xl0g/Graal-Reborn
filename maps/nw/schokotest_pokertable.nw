@@ -1,0 +1,605 @@
+GLEVNW01
+BOARD 0 0 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 1 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 2 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 3 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 4 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 5 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 6 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 7 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 8 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 9 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3mI6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6smJm2m3m2m3m2
+BOARD 0 10 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmn8+6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t8/mmmnmmmnmm
+BOARD 0 11 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3hChChChChChChChChChChChChChChChChChChChCm2m3m2m3m2
+BOARD 0 12 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnhChChChChChChChChChChChChChChChChChChChCmmmnmmmnmm
+BOARD 0 13 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3hChChChChChChChChChChChChChChChChChChChCm2m3m2m3m2
+BOARD 0 14 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnhChChChChChChChChChChChChChChChChChChChDmmmnmmmnmm
+BOARD 0 15 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3N6N6N6N6N6N6N6N6N6N6N6N6N6N6N6N6N6N6N6N7m2m3m2m3m2
+BOARD 0 16 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnnInJnInJnInJnInJnInJnInJnInJnInJnInJnInJmmmnmmmnmm
+BOARD 0 17 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3nYnZnYnZnYnZnYnZnYnZnYnZnYnZnYnZnYnZnYnZm2m3m2m3m2
+BOARD 0 18 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnnInJnInJnInJnInJnInJnInJnInJnInJnInJnInJmmmnmmmnmm
+BOARD 0 19 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3nYnZnYnZnYnZnYnZnYnZnYnZnYnZnYnZnYnZnYnZm2m3m2m3m2
+BOARD 0 20 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmI6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6smJmmmnmmmnmm
+BOARD 0 21 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m38+6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t8/m2m3m2m3m2
+BOARD 0 22 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnhChChChChChChChChCB0B1B2B1B2B3hChChChChDmmmnmmmnmm
+BOARD 0 23 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3TfbQbQbRhChChChChChChChChCCEJ4J4J4J4CHhChChChChDm2m3m2m3m2
+BOARD 0 24 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnTvbgbgbhhChChCB0B1B2B3hChCCHJ4J4J4J4CEhChChChChDmmmnmmmnmm
+BOARD 0 25 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3TvbgbgbhhChChCCEnInJCHhChDCEJ4J4J4J4CHhChChChChDm2m3m2m3m2
+BOARD 0 26 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnT/bwbwbxN6N6N6CHnYnZCEN6N7CXJ4J4J4J4CXN6N6N6N6N7mmmnmmmnmm
+BOARD 0 27 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 28 64 0 mnmmmnmmmnmmmnmmmnnonpnonpmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 29 64 0 m3m2m3m2m3m2m3m2m3n4n5n4n5m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 30 64 0 mnmmmnmmmnmmmnmmmnnonpnonpmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 31 64 0 m3m2m3m2m3m2m3m2m3n4n5n4n5m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 32 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 33 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 34 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 35 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 36 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 37 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 38 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 39 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 40 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 41 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 42 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 43 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 44 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 45 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 46 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 47 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 48 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 49 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 50 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 51 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 52 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 53 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 54 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 55 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 56 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 57 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 58 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 59 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 60 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 61 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+BOARD 0 62 64 0 mnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmmmnmm
+BOARD 0 63 64 0 m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2m3m2
+LINK schokotest_bubbleboss.nw 9 28 4 4 15 10
+LINK schokotest_pokertable.nw 43 25 2 1 42 17
+NPC classic_rock_1.png 36 34
+// NPC made by Schoko Raven (LAT)
+join("motion_functions");
+//#CLIENTSIDE
+
+function onCreated() {
+
+  change_counter = 10;
+
+  phases = {"follow","play","bounceplay","bounce","roll","sit","dead"};
+  phase = 0;
+
+  walk_angle = 0;
+
+  nick = "Pet Rock   ";
+  ap = 100;
+
+  color_changed = 0;
+  color = 1;
+
+  waveyz = 0;
+
+  onTimeout();
+}
+
+function onTimeout() {
+  setTimer(0.05);
+
+  if (player.chat.starts("Rock") || player.chat.starts("Pet rock") || player.chat.starts("rock") || player.chat.starts("Pet Rock")) {
+
+    if (phase != 5 && player.chat.ends("sit")) {
+      phase = 5;
+      change_counter = random(3,5);
+    }
+    if (phase != 6 && player.chat.ends("play dead")) {
+      phase = 6;
+      change_counter = random(3,5);
+    }
+    if (phase != 0 && player.chat.ends("come") || player.chat.ends("follow") || player.chat.ends("follow me")) {
+      phase = 0;
+      change_counter = random(5,7);
+    }
+    if (phase != 1 && player.chat.ends("go play")) {
+      phase = 1;
+      change_counter = random(10,12);
+    }
+    if (phase != 3 && player.chat.ends("bounce") || player.chat.ends("jump")) {
+      phase = 3;
+      change_counter = random(3,5);
+    }
+    if (phase != 4 && player.chat.ends("roll") || player.chat.ends("roll over")) {
+      phase = 4;
+      centerx = x-1;
+      centery = y;
+      walk_angle = 0;
+      i = 0;
+      change_counter = random(5,7);
+    }
+    if (phase != 2 && player.chat.ends("bounce around")) {
+      phase = 2;
+      change_counter = random(7,12);
+    }
+    if (color_changed != 1 && (player.chat.ends("change color") || player.chat.ends("dress up") || player.chat.ends("color change"))) {
+      color = 3 - color;
+      setimg("classic_rock_" @ color @ ".png");
+      color_changed = 1;
+    }
+  }
+  if (color_changed == 1 && !(player.chat.ends("change color") || player.chat.ends("dress up") || player.chat.ends("color change"))) {
+      color_changed = 0;
+  }
+  if (change_counter == 0) {
+    change_counter = int(random(3,10));
+
+    z = 0;
+
+    phase = int(random(0,4));
+  }
+
+  this.("" @ phases[phase])();
+
+  change_counter -= 0.05;
+
+}
+
+// Follow player
+function follow() {
+
+  chat = "Following master!";
+
+
+  if (abs(player.x - x) + abs(player.y - y) > 5) {
+
+    temp.angle = -getangle(player.x - x, player.y - y);
+    dx = random(.3,.8) * cos(temp.angle);
+    dy = random(.3,.8) * sin(temp.angle);
+    dir = getdir(player.x - x, player.y - y);
+
+    moveXY(dx,dy,this);
+  }
+
+}
+
+function play() {
+
+  chat = "La, la, la!";
+
+  if (random(1,10) > 8) {
+    walk_angle = random(-6.28,6.28);
+  }
+  else {
+    walk_angle = random(walk_angle-.39,walk_angle+.39);
+  }
+
+  dx = random(.3,.8) * cos(walk_angle);
+  dy = random(.3,.8) * sin(walk_angle);
+  dir = getdir(cos(walk_angle),sin(walk_angle));
+
+  moveXY(dx,dy,this);
+}
+
+function sit() {
+  chat = "Sit, sit, sit.";
+}
+
+function dead() {
+  chat = "oh, oh, I'm shot!";
+}
+
+function bounce() {
+  chat = "Boingy boingy!";
+  waveyz += .5;
+  z = 1 + sin(waveyz);
+  if (waveyz = 6.28) {
+    waveyz = -6.28;
+  }
+}
+
+function bounceplay() {
+  chat = "La, la, boingy boingy!";
+
+  waveyz += .5;
+  z = 1 + sin(waveyz);
+  if (waveyz = 6.28) {
+    waveyz = -6.28;
+  }
+
+  if (random(1,10) > 8) {
+  walk_angle = random(-6.28,6.28);
+  }
+  else {
+    walk_angle = random(walk_angle-.39,walk_angle+.39);
+  }
+
+  dx = random(.3,.8) * cos(walk_angle);
+  dy = random(.3,.8) * sin(walk_angle);
+  dir = getdir(cos(walk_angle),sin(walk_angle));
+
+  moveXY(dx,dy,this);
+
+}
+
+function roll() {
+  chat = "Roll, roll, roll in the hay!";
+
+  if (random(0,1000) <1)
+    roll_dir = 0 - roll_dir;
+
+  walk_angle = walk_angle + roll_dir * .39;
+  x = centerx + cos(walk_angle);
+  y = centery + sin(walk_angle);
+  dir = getdir(cos(walk_angle), sin(walk_angle));
+
+}
+NPCEND
+NPC - 0 0
+// NPC made by Schoko Raven (LAT)
+
+//#CLIENTSIDE
+function onPlayerEnters() {
+  seteffect(0,0,0,0);
+}
+NPCEND
+NPC classic_quest_key.png 35 23
+// NPC made by Schoko Raven (LAT)
+
+function onPlayerTouchsMe() {
+  if (clientr.schokomagickey != 1) {
+    player.chat = "Yes, I found Schoko's Magic Key!";
+    clientr.schokomagickey = 1;
+    client.schokomagickey = 1;
+  }
+}
+
+//#CLIENTSIDE
+
+onCreated() {
+  onTimeout();
+}
+
+onTimeout() {
+  setTimer(0.05);
+  if (client.schokomagickey = 1) {
+    hide();
+  }
+}
+NPCEND
+NPC classic_keyhole_stone.png 28 18
+// NPC made by Schoko Raven (LAT)
+
+function onPlayerTouchsMe() {
+  player.chat = "Keys reset.";
+  clientr.schokomagickey = 0;
+  client.schokomagickey = 0;
+  clientr.schokokey1 = 0;
+  client.schokokey1 = 0;
+}
+
+//#CLIENTSIDE
+
+onCreated() {
+
+}
+
+onTimeout() {
+
+}
+NPCEND
+NPC - 49 23
+// NPC made by Schoko Raven (LAT)
+
+function onCreated() {
+  setshape(1,32,48);
+}
+
+function onActionWarpPlayer() {
+  if (player.clientr.schokomagickey == 1) {
+    player.setlevel2("schokotest_pokertable.nw",49,17);
+  }
+
+
+
+}
+
+
+//#CLIENTSIDE
+
+function onCreated() {
+  this.img = "classic_gate_boss.png";
+  this.ptx = 0;
+  this.pty = 0;
+  this.w   = 2;
+  this.h   = 4;
+  this.doorcolor_init  = 1;
+  this.doorcolor_loss  = 0.1;
+  this.doorcolor_min   = 0.1;
+  this.speed_open  = .1;
+  this.speed_close = .3;
+  this.close_pause = 1;
+  this.open_dir    = 1;
+
+  finished_opening = false;
+
+  setshape(1,this.w*16,this.h*16);
+  this.init_x      = x;
+  this.init_y      = y;
+  showimg(200,this.img,this.init_x,this.init_y);
+  changeimgpart(200,this.ptx,this.pty,this.w*16,this.h*16);
+  changeimgcolors(200,this.doorcolor_init,this.doorcolor_init,this.doorcolor_init,1);
+  changeimgvis(200,0);
+}
+
+function onPlayerTouchsMe() {
+
+  if (client.schokomagickey == 1) {
+
+    if (this.opening == 0) {
+      this.show_x   = this.init_x;
+      this.show_y   = this.init_y;
+      this.show_ptx = this.ptx;
+      this.show_pty = this.pty;
+      this.show_w   = this.w;
+      this.show_h   = this.h;
+      this.show_doorcolor = this.doorcolor_init;
+      this.opening  = 1;
+      setTimer(0.05);
+    }
+
+    player.chat = "Yes, I can use Schoko's Magic Key for this door!";
+  }
+  else {
+    player.chat = "Looks like I have to find Schoko's Magic Key before I can go through here.";
+  }
+}
+
+
+function onTimeOut() {
+  if (this.opening == 1) {
+
+    player.y -= .1;
+    finished_opening = false;
+
+    if (this.show_doorcolor > this.doorcolor_min) {
+      this.show_doorcolor -= this.doorcolor_loss * this.speed_open * 10;
+    } else {
+      this.show_doorcolor = this.doorcolor_min;
+    }
+    this.show_x   += this.speed_open * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+    this.show_y   += this.speed_open * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+    this.show_ptx += this.speed_open * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+    this.show_pty += this.speed_open * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+    this.show_w   -= this.speed_open * abs(vecx(this.open_dir));
+    this.show_h   -= this.speed_open * abs(vecy(this.open_dir));
+    x = this.show_x;
+    y = this.show_y;
+    setshape(1,this.show_w*16,this.show_h*16);
+    if (this.show_w > 0 && this.show_h > 0) {
+      showimg(200,this.img,this.show_x,this.show_y);
+      changeimgpart(200,this.show_ptx,this.show_pty,this.show_w*16,this.show_h*16);
+      changeimgcolors(200,this.show_doorcolor,this.show_doorcolor,this.show_doorcolor,1);
+      changeimgvis(200,0);
+      setTimer(0.05);
+    } else {
+      hideimg(200);
+      this.show_x   -= this.speed_open * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+      this.show_y   -= this.speed_open * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+      this.show_ptx -= this.speed_open * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+      this.show_pty -= this.speed_open * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+      this.show_w   += this.speed_open * abs(vecx(this.open_dir));
+      this.show_h   += this.speed_open * abs(vecy(this.open_dir));
+      this.opening = 2;
+      setTimer(this.close_pause);
+    }
+  } else {
+
+    if (finished_opening == false) {
+      finished_opening = true;
+      triggeraction(this.init_x+1,this.init_y+1,"WarpPlayer",null);
+    }
+
+    if (this.show_doorcolor < this.doorcolor_init) {
+      this.show_doorcolor += this.doorcolor_loss * this.speed_close * 10;
+    } else {
+      this.show_doorcolor = this.doorcolor_init;
+    }
+    this.show_x   -= this.speed_close * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+    this.show_y   -= this.speed_close * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+    this.show_ptx -= this.speed_close * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+    this.show_pty -= this.speed_close * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+    this.show_w   += this.speed_close * abs(vecx(this.open_dir));
+    this.show_h   += this.speed_close * abs(vecy(this.open_dir));
+    x = this.show_x;
+    y = this.show_y;
+    setshape(1,this.show_w*16,this.show_h*16);
+    if (this.show_w < this.w || this.show_h < this.h) {
+      showimg(200,this.img,this.show_x,this.show_y);
+      changeimgpart(200,this.show_ptx,this.show_pty,this.show_w*16,this.show_h*16);
+      changeimgcolors(200,this.show_doorcolor,this.show_doorcolor,this.show_doorcolor,1);
+      changeimgvis(200,0);
+      setTimer(0.05);
+    } else {
+      x = this.init_x;
+      y = this.init_y;
+      setshape(1,this.w*16,this.h*16);
+      showimg(200,this.img,this.init_x,this.init_y);
+      changeimgpart(200,this.ptx,this.pty,this.w*16,this.h*16);
+      changeimgcolors(200,this.doorcolor_init,this.doorcolor_init,this.doorcolor_init,1);
+      changeimgvis(200,0);
+      this.opening = 0;
+    }
+  }
+}
+NPCEND
+NPC - 51 23
+// NPC made by Schoko Raven (LAT)
+
+function onCreated() {
+  setshape(1,32,48);
+}
+
+function onActionWarpPlayer() {
+  if (player.clientr.schokomagickey == 1) {
+    player.setlevel2("schokotest_pokertable.nw",49,17);
+  }
+
+
+
+}
+
+
+//#CLIENTSIDE
+
+function onCreated() {
+  setstring this.img,classic_gate_boss.png;
+  this.ptx = 32;
+  this.pty = 0;
+  this.w   = 2;
+  this.h   = 4;
+  this.doorcolor_init  = 1;
+  this.doorcolor_loss  = 0.1;
+  this.doorcolor_min   = 0.1;
+  this.speed_open  = .1;
+  this.speed_close = .3;
+  this.close_pause = 1;
+  this.open_dir    = 3;
+
+  finished_opening = false;
+
+  setshape(1,this.w*16,this.h*16);
+  this.init_x      = x;
+  this.init_y      = y;
+  showimg(200,this.img,this.init_x,this.init_y);
+  changeimgpart(200,this.ptx,this.pty,this.w*16,this.h*16);
+  changeimgcolors(200,this.doorcolor_init,this.doorcolor_init,this.doorcolor_init,1);
+  changeimgvis(200,0);
+}
+
+function onPlayerTouchsMe() {
+
+  if (client.schokomagickey == 1) {
+
+    if (this.opening == 0) {
+      this.show_x   = this.init_x;
+      this.show_y   = this.init_y;
+      this.show_ptx = this.ptx;
+      this.show_pty = this.pty;
+      this.show_w   = this.w;
+      this.show_h   = this.h;
+      this.show_doorcolor = this.doorcolor_init;
+      this.opening  = 1;
+      setTimer(0.05);
+    }
+
+    player.chat = "Yes, I can use Schoko's Magic Key for this door!";
+  }
+  else {
+    player.chat = "Looks like I have to find Schoko's Magic Key before I can go through here.";
+  }
+}
+
+
+function onTimeOut() {
+  if (this.opening == 1) {
+
+    player.y -= .1;
+    finished_opening = false;
+
+    if (this.show_doorcolor > this.doorcolor_min) {
+      this.show_doorcolor -= this.doorcolor_loss * this.speed_open * 10;
+    } else {
+      this.show_doorcolor = this.doorcolor_min;
+    }
+    this.show_x   += this.speed_open * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+    this.show_y   += this.speed_open * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+    this.show_ptx += this.speed_open * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+    this.show_pty += this.speed_open * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+    this.show_w   -= this.speed_open * abs(vecx(this.open_dir));
+    this.show_h   -= this.speed_open * abs(vecy(this.open_dir));
+    x = this.show_x;
+    y = this.show_y;
+    setshape(1,this.show_w*16,this.show_h*16);
+    if (this.show_w > 0 && this.show_h > 0) {
+      showimg(200,this.img,this.show_x,this.show_y);
+      changeimgpart(200,this.show_ptx,this.show_pty,this.show_w*16,this.show_h*16);
+      changeimgcolors(200,this.show_doorcolor,this.show_doorcolor,this.show_doorcolor,1);
+      changeimgvis(200,0);
+      setTimer(0.05);
+    } else {
+      hideimg(200);
+      this.show_x   -= this.speed_open * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+      this.show_y   -= this.speed_open * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+      this.show_ptx -= this.speed_open * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+      this.show_pty -= this.speed_open * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+      this.show_w   += this.speed_open * abs(vecx(this.open_dir));
+      this.show_h   += this.speed_open * abs(vecy(this.open_dir));
+      this.opening = 2;
+      setTimer(this.close_pause);
+    }
+  } else {
+
+    if (finished_opening == false) {
+      finished_opening = true;
+      triggeraction(this.init_x+1,this.init_y+1,"WarpPlayer",null);
+    }
+
+    if (this.show_doorcolor < this.doorcolor_init) {
+      this.show_doorcolor += this.doorcolor_loss * this.speed_close * 10;
+    } else {
+      this.show_doorcolor = this.doorcolor_init;
+    }
+    this.show_x   -= this.speed_close * abs(vecx(this.open_dir)) * (this.open_dir-1)/2;
+    this.show_y   -= this.speed_close * abs(vecy(this.open_dir)) * (this.open_dir)/2;
+    this.show_ptx -= this.speed_close * abs(vecx(this.open_dir)) * (3-this.open_dir)/2 * 16;
+    this.show_pty -= this.speed_close * abs(vecy(this.open_dir)) * (2-this.open_dir)/2 * 16;
+    this.show_w   += this.speed_close * abs(vecx(this.open_dir));
+    this.show_h   += this.speed_close * abs(vecy(this.open_dir));
+    x = this.show_x;
+    y = this.show_y;
+    setshape(1,this.show_w*16,this.show_h*16);
+    if (this.show_w < this.w || this.show_h < this.h) {
+      showimg(200,this.img,this.show_x,this.show_y);
+      changeimgpart(200,this.show_ptx,this.show_pty,this.show_w*16,this.show_h*16);
+      changeimgcolors(200,this.show_doorcolor,this.show_doorcolor,this.show_doorcolor,1);
+      changeimgvis(200,0);
+      setTimer(0.05);
+    } else {
+      x = this.init_x;
+      y = this.init_y;
+      setshape(1,this.w*16,this.h*16);
+      showimg(200,this.img,this.init_x,this.init_y);
+      changeimgpart(200,this.ptx,this.pty,this.w*16,this.h*16);
+      changeimgcolors(200,this.doorcolor_init,this.doorcolor_init,this.doorcolor_init,1);
+      changeimgvis(200,0);
+      this.opening = 0;
+    }
+  }
+}
+NPCEND
+NPC classic_key1.png 37 24
+join("quest_dungeon_key");
+function onCreated() {
+  this.keyID = "avalonquest_a";
+}
+//#CLIENTSIDE
+function onCreated() {
+  this.keyID = "avalonquest_a";
+}
+NPCEND
+NPC classic_door1.png 43 25
+join("quest_dungeon_door");
+function onCreated() {
+  this.doorID = "avalonquest_a";
+}
+//#CLIENTSIDE
+onCreated() {
+  this.doorID = "avalonquest_a";
+}
+NPCEND

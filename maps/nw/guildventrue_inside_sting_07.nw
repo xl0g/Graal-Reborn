@@ -1,0 +1,946 @@
+GLEVNW01
+BOARD 0 0 64 0 oRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRpgoRsGsRzDzEzDzEzDzEzDzEzEzDzErUyn
+BOARD 0 1 64 0 ogpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohpwohsWshwywzw0wzw0wzw0w0wzw0xDrkyX
+BOARD 0 2 64 0 oRyQyRyQyRyQyRyQyRyQyRyQyRoBpApBpCpDpDpDpDpDpDpDpDpDpDpDpDpDpFpGpHp4p4yQyRyQyRyQyRyQyRyQyRyQyRp4p4sGsRw1w2w3w4w3w4w3w3w4xExFrUyn
+BOARD 0 3 64 0 ogygyhygyhygyhygyhygyhygyhoBpQpRpSpTpUpUpUpUpUpUpUpUpUpUpUpTpVpRpXpyp4ygyhygyhygyhygyhygyhygyhyQyRsWshsiw5w3w4w3w4w3w3w4xGrjrkyX
+BOARD 0 4 64 0 oRyQyRyQyRyQyRyQyRyQyRyQyRp4pQpRpSpUpUpUpUpUpUpUpUpUpUpUpUpUpVpRpX2020202020202020202020203loAygyhsGsRsSxAxBxCxBxCxBxBxCxHrTrUyn
+BOARD 0 5 64 0 ogygyhygyhygyhygyhygyhygyhoApQpRpSpUpUpUpUpUpUpUpUpUpUpUpUpUpVpRpXp4p4p4p4p4p4p4p4p4p4p4p431pyyQyRsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 6 64 0 oRyQyRyQyRp4p4p4p4p4p4p4p4p4pQpRpSpUpUpUpUpUpUpUpUpUpUpUpUpUpVpRpXp4p4p4p4p4p4p4p4p4p4p4p431qCygyhsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 7 64 0 ogygyhygyhp4p4p4p4p4p4p4p4p4pQpRpSpUpUpUpUpUpUpUpUpUpUpUpUpUpVpRpXp4p4p4p4p4p4p4p4p4p4p4p431qCyQyRsWshsisXsYsZtStCtCvdvevfrjrkyX
+BOARD 0 8 64 0 oRyQyRp4p4p4p4p4p4p4p4p4p4p4pQpRpSpUpUpUpUpUpUpUpUpUpUpUpUpUpVpRpXp4p4p4p4p4p4p4p4p4p4p4p431qCygyhsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 9 64 0 ogygyhp4p4oBp4p4p4p4p4p4p4p4pQpRpSpUpUpUpUpUpUpUpUpUpUpUpUpUpVpRpXp4p4p4p4KpKqp4p4KpKqp4p431qCyQyRsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 10 64 0 oRp4p4p4p4p4p4p4p4p4p4p4oAp4pQpRpSpTpUpUpUpUpUpUpUpUpUpUpUpTpVpRpXp4p4p4p4K5K6p4p4K5K6p4p431qCygyhsGsRsSsHsIsJtCtStCvNvOvPrTrUyn
+BOARD 0 11 64 0 ogp4p4p4p4p4p4p4p4p4p4p4p4p4pQphpipjpjpjpjpjpjpjpjpjpjpjpjpjpWqkpX3R3R3R3R3R3R3R3R3R3R3R3R3UqCyQyRsWshsisXsYsZtStCtSvdvevfrjrkyX
+BOARD 0 12 64 0 oRp4p4p4p4p4p4p4p4p4p4p4p4p4pQpxpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRq0pX3g3g3g3g3g3g3g3g3g3h3i3j3kqCygyhsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 13 64 0 ogp4p4p4p4p4p4p4p4p4p4p4p4p4qAqBpRpRpRpRpRpRpkplpmpnpRpRpRpRpRrEpX3g3g3g3g3g3g3g3g3g3x3y3z30qSyQyRsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 14 64 0 oRp4p4p4p4p4p4p4p4p4p4p4p4p4qQqRqRqRqRqRqRqRp0p1p2p3qRqRqRqRqRqRpzqCp4p4p4p4p4p4p4oQp4p4oAoQoBygyhzYzazazazazazazazazazazazazazb
+BOARD 0 15 64 0 ogp4p4p4p4p4p4p4p4p4p4p4oBp4qgqhqiqjqPqhqiqjqEqFqGqHqPqPqPqhqiqjqDqCp4p4oAoBp4p4oAststqqstqqstqqstzozpzqzpzqzpzqzpzqzpzqzpzqzpzp
+BOARD 0 16 64 0 oRp4p4p4p4p4p4p4p4p4p4p4p4oAqwqxqyqzpEqxqyqzqUqVqWqXpEpEpEqxqyqzqTqSp4p4p4p4p4oAp4qqk2k2k2k2k2k2k2z3z7z7z7z7z7z7z7z7z7z7z7z7z7z7
+BOARD 0 17 64 0 ogp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4oQp4p4pEowoxpEyQyRyQyRyQyRyQyRp4p4p4p4p4p4oBstk2k3k3k3k3k3k3z3z7z7z7z7z7z7z7z7z7z7z7z7z7z7
+BOARD 0 18 64 0 oRp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4oAp4p4oBowoxoBygyhygyhygyhygyhp4p4p4p4p4p4p4qqk2k3k3k3k3k3k3z3z7z7z7z7z7z7z7z7z7z7z7z7z7z7
+BOARD 0 19 64 0 ogp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4oQoBp4p4oAowoxoBp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4stk2k3k3k3k3k3k3z3z7z7z7z7z7z7z7z7z7z7z7z7z7z7
+BOARD 0 20 64 0 oRp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4qqk2k2qqp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4qqk2k3k3k3k3k3k3z3z7z7z7z7z7z7z7z7z7z7z7z7z7z7
+BOARD 0 21 64 0 ogp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4qqk2k2k2k2qqoBp4p4p4p4p4oBp4p4p4p4p4p4p4stk2k3k3k3k3k3k3z3z7z7z7z7z7z7z7z7z7z7z7z7z7z7
+BOARD 0 22 64 0 oRp4p4p4p4p4p4oBp4p4p4p4p4p4p4p4p4p4p4p4oAstk2k3k3k2stoBp4p4p4p4p4p4p4p4p4p4p4p4p4stk2k3k3k3k3k3k3z3z7z7z7z7z7z7z7z7z7z7z7z7z7z7
+BOARD 0 23 64 0 ogp4p4oBp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4oAstk2k2k3k3k2k2stp4p4p4p4p4p4p4p4p4p4p4p4p4stk2k3k3k3k3k3k3z3z7z7z7z7z7z7z7z7z7z7z7z7z7z7
+BOARD 0 24 64 0 oRp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4qqk2k3k3k3k3k2qqoBoBp4p4p4p4p4p4p4p4p4p4p4stk2k3k3k2k2k2k2z3z7z7z7z7z7z7z7z7z7z7z7z7z7z7
+BOARD 0 25 64 0 ogp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4oAstk2k3k3k3k3k2stoBp4p4p4p4p4p4p4p4p4p4p4p4stk2k3k3k2stqqst0Izazazazazazazazazazazazaza0J
+BOARD 0 26 64 0 oRp4p4p4p4p4p4p4yQyRp4p4p4p4p4p4p4p4p4p4qqk2k3k3k3k3k2qqp4p4p4p4p4p4p4p4p4p4p4p4p4stk2k3k3k2qqoAoQz4z5z6z5z6z5z6z5z6z5z6z5z6z50K
+BOARD 0 27 64 0 ogp4p4p4p4p4p4p4ygyhp4p4p4p4p4p4p4p4p4p4stk2k3k3k3k3k2stp4p4p4p4p4p4p4p4p4p4p4p4p4stk2k3k3k2styQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 28 64 0 oRp4p4p4p4p4p4rmp4yQyRp4p4p4p4p4p4p4p4p4qqk2k3k3k3k3k2qqp4p4p4p4p4rsrtp4p4p4p4p4p4qqk2k3k3k2qqygyhsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 29 64 0 ogp4p4p4p4p4p4r2sLygyhp4p4p4p4oAp4p4p4p4stk2k3k3k3k3k2stp4p4p4p4rsr8r9p4p4p4p4p4p4stk2k3k3k2styQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 30 64 0 oRp4p4p4p4p4p4qmqnsLqpqpqpqpqpqpqpqpqpqp0X0Y0Z0Z0Z0Z0Z0qqpqpqpqpr8qsqtp4p4p4p4p4oAqqk2k3k3k2qqygyhsWshsisXsYsZtCtStCvdvevfrjrkyX
+BOARD 0 31 64 0 ogp4p4p4p4p4p4q2q3q4q5q6q5q6q5q6q5q6q5q603040Z0Z0Z0Z0Z0nq5q6q5q6q7q8q9p4p4p4p4p4oAstk2k3k3k2styQyRsGsRsSsHsIsJtCtCtSvNvOvPrTrUyn
+BOARD 0 32 64 0 oRp4p4p4p4p4p4p4rHrIrJrKrJrKrJrKrJrKrJrK030o0Z0Z0Z0Z0Z0nrJrKrJrKrLrMp4p4p4p4p4p4p4qqk2k3k3k2qqygyhsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 33 64 0 ogp4p4p4p4p4p4p4rXrYrZrarZrarZrarZrarZra03040Z0Z0Z0Z0Z0nrZrarZrarbrcp4p4p4p4p4p4p4stk2k3k3k2styQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 34 64 0 oRp4p4p4p4p4p4p4p4rorprqrprqrprqrprqrprq030o0Z0Z0Z0Z0Z0nrprqrprqrrp4p4oAp4p4p4p4p4qqk2k3k3k2qqygyhsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 35 64 0 ogp4p4p4p4p4p4p4p4r4r5r6r5r6r5r6r5r6r5r60n040Z0Z0Z0Z0Z0nr5r6r5r6r7p4p4p4p4p4p4p4p4stk2k3k3k2styQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 36 64 0 tGtHp4p4p4p4p4p4yQyRyQyRyQyRyQyRyQyRyQyR030o0Z0Z0Z0Z0Z0nyQyRoBoBp4p4p4p4p4p4p4p4p4qqk2k3k3k2qqygyhsWshsisXsYsZtCtStCvdvevfrjrkyX
+BOARD 0 37 64 0 tWtXp4p4p4p4p4p4ygyhygyhygyhygyhygyhygyh1H040Z0Z0Z0Z0Z06ygyhp4p4p4p4p4p4p4p4p4p4p4stk2k3k3k2styQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 38 64 0 tGtHyQyRp4p4p4p4p4k2k2p4p4p4p4p4p4p4yQyRqqk2k3k3k3k3k2qqyQyRp4oiojp4p4p4p4p4p4p4p4qqk2k3k3k2qqygyhsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 39 64 0 tWtXygyhp4p4p4p4k2KpKqk2p4p4p4p4p4p4ygyhstk2k3k3k3k3k2stygyhp4oyozp4p4p4p4p4p4p4oAstk2k3k3k2styQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 40 64 0 tGtHyQyRp4p4p4k2k2K5K6k2k2p4p4p4p4p4yQyRqqk2k3k3k3k3k2qqyQyRp4p4p4p4p4p4p4p4p4p4oBqqk2k3k3k2qqygyhsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 41 64 0 tWtXygyhp4k2k2LILJLKLJLKKrk2k2p4p4p4ygyhstk2k3k3k3k3k2stygyhp4p4p4p4p4p4p4p4p4p4p4stk2k3k3k2styQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 42 64 0 tGtHyQyRk2KpKqLYLZLaLZLaK7KpKqk2p4p4yQyRqqk2k3k3k3k3k2qqyQyRp4oBp4p4p4p4p4p4p4p4p4qqk2k3k3k2qqygyhsWshsisXsYsZtCtStCvdvevfrjrkyX
+BOARD 0 43 64 0 tWtXygyhk2K5K6LYLZLaLZLaK7K5K6k2p4p4ygyhstk2k3k3k3k3k2stygyhoBp4p4p4oiojp4p4p4p4p4stk2k3k3k2styQyRsGsRsSsHsIsJtCtCtSvNvOvPrTrUyn
+BOARD 0 44 64 0 tGtHyQyRp4k2k2LoLpLqLpLqLLk2k2p4p4p4yQyRqqk2k3k3k3k3k2qqyQyRp4p4p4p4oyozp4p4p4p4p4qqk2k3k3k2qqygyhsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 45 64 0 tWtXygyhp4p4p4k2k2KpKqk2k2p4p4p4p4oAygyhstk2k3k3k3k3k2stygyhp4p4p4p4p4p4p4p4p4p4p4stk2k3k3k2styQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 46 64 0 tGtHyQyRp4p4k2k2k2K5K6k2k2k2k2k2k2k2k2k2k2k2k3k3k3k3k2qqoAoBp4p4p4p4p4p4p4p4p4p4oAqqk2k3k3k2qqygyhsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 47 64 0 tWtXygyhp4k2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2stqqstqqstqqstqqstqqstqqstqqstk2k3k3k2styQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 48 64 0 tGtHyQyRp4k2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k3k3k2qqygyhsWshsisXsYsZtCtStCvdvevfrjrkyX
+BOARD 0 49 64 0 tWtXygyhp4oAk2k2k2KpKqk2k2k2k2k2k2k2k2k2k2k2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2styQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 50 64 0 tGtHyQyRoAp4p4k2k2K5K6k2k2p4p4p4oBp4p4p4qqk2k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k2qqygyhsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 51 64 0 tWtXygyhp4k2k2LILJLKLJLKKrk2k2p4p4p4p4p4stk2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2styQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 52 64 0 tGtHyQyRk2KpKqLYLZLaLZLaK7KpKqk2p4p4p4p4qqstqqstqqstqqstqqstqqstqqstqqstqqstqqstqqstqqstqqstqqygyhsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 53 64 0 tWtXygyhk2K5K6LYLZLaLZLaK7K5K6k2p4p4oBp4p4p4p4qqstp4p4p4p4p4p4p4p4p4p4p4oAp4p4p4p4p4p4p4p4p4p4yQyRsGsRsSsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 54 64 0 tGtHyQyRp4k2k2LoLpLqLpLqLLk2k2p4p4p4p4oAp4p4qqstqqstp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4ygyhsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 55 64 0 tWtXygyhp4p4p4k2k2KpKqk2k2p4p4p4p4p4p4p4p4qqstqqstqqstp4p4p4p4oBp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4yQyRsGsRsSsHsIsJtStCtSvNvOvPrTrUyn
+BOARD 0 56 64 0 tGtHyQyRp4p4p4p4k2K5K6k2p4p4p4p4p4p4p4p4p4stqqstqqstqqp4p4p4p4p4p4p4p4p4p4p4p4p4p4oAoBp4p4p4p4ygyhsWshsisXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 57 64 0 tWtXygyhp4p4p4p4p4k2k2p4p4p4p4p4p4p4p4p4p4stqqqqstqqstp4p4p4p4p4oAp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4EhsHsIsJtStCtCvNvOvPrTrUyn
+BOARD 0 58 64 0 tGtHyQyRp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4qqststqqstqqp4p4p4p4p4oAp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4ERsXsYsZtCtCtCvdvevfrjrkyX
+BOARD 0 59 64 0 tWtXygyhp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4stqqqqstqqstp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4EhsHsIsJtCtCtCvNvOvPrTrUyn
+BOARD 0 60 64 0 tGtHyQyRyQyRyQyRyQyRyQyRyQyRyQyRyQyRp4p4p4qqststqqstqqp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4ERsXsYsZtCtStCvdvevfrjrkyX
+BOARD 0 61 64 0 tWtXygyhygyhygyhygyhygyhygyhygyhygyhp4p4p4stqqqqstqqstp4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4p4EhsHsIsJtCtCtSvNvOvPrTrUyn
+BOARD 0 62 64 0 tGtHtGtHtGtHtGtHtGtHtGtHtGtHtGtHtGtHp4p4p4qqstqqstqqstp4p4oBp4p4tGtHtGtHtGtHtGtHtGtHtGtHtGtHtGtHtGtHtGtHsXsYsZvVvWtCvdvevfrjrkyX
+BOARD 0 63 64 0 tWtXtWtXtWtXtWtXtWtXtWtXtWtXtWtXtWtXp4p4p4stqqstqqstqqp4p4p4p4p4tWtXtWtXtWtXtWtXtWtXtWtXtWtXtWtXtWtXtWtXsHsIsJvlvmtCvNvOvPrTrUyn
+LINK overworld_07.nw 20 63 10 2 27 9.5
+LINK guildventrue_inside_sting_01.nw 23 16 2 1 22.5 38
+LINK guildventrue_inside_sting_06.nw 63 14 1 12 0 playery
+LINK guildventrue_inside_sting_03.nw 54 5 5 1 24.5 47
+LINK guildventrue_inside_sting_02.nw 33 7 2 2 15 21
+SIGN 20 18
+            Sting's Mansion
+           Visitors Welcome
+
+
+                    ......
+
+
+           (Solicitors Not)
+SIGNEND
+NPC deadtree.png 10 19
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC deadtree.png 1 10
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC stonetable2.png 7 41
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC stonetable2.png 7 51
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darksign.png 20 17
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkflower.png 48 26
+//#CLIENTSIDE
+if (playerenters) {drawunderplayer; dontblock}
+NPCEND
+NPC darkflower.png 41 14
+//#CLIENTSIDE
+if (created) {drawunderplayer; dontblock}
+NPCEND
+NPC darkflower.png 45 14
+//#CLIENTSIDE
+if (created) {drawunderplayer; dontblock}
+NPCEND
+NPC darkflower.png 19 17
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darkflower.png 18 19
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC darkstep3.png 33 7
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 37 9
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 41 9
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC pentathing.png 59 1
+//#CLIENTSIDE
+// NPC made by Sting Ðarkmåne (Ventrue Vampires)
+if (playerenters) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC stonechair.png 13 52
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 9 49
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 9 55
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 5 52
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 9 45
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 13 42
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 9 39
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC stonechair.png 5 42
+//#CLIENTSIDE
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC wateranilava.mng 55 0
+if (created) {
+  drawunderplayer; 
+  dontblock;
+}
+x = x-.5;
+NPCEND
+NPC - 1 1
+//#CLIENTSIDE
+if (playerenters)  {
+  timeout = 10;
+}
+if (playerenters&&isleader || timeout) {
+  if (!onwall(x+1,y+1)) putnpc darkbush.png,bush.txt,x,y;
+  timeout = 10;
+}
+NPCEND
+NPC - 53 26
+// NPC made by Massokre
+//#CLIENTSIDE
+if (created) {
+  setshape 1,112,16;
+}
+if (playertouchsme && playerdir==0) {
+  disabledefmovement;
+  movement_handlekeys = 0.1;
+  movement_handlesword = 0.1;
+  movement_handleganis = 0.1;
+  movement_handlerecoil = 0.1;
+  setani classic_invisibility,;
+  timeout = .05;
+}
+if (timeout) {
+  if (playery in <10,27>) {
+    setani classic_invisibility,;
+    movement_handlekeys = 0.1;
+    movement_handleganis = 0.1;
+    movement_handlerecoil = 0.1;
+    movement_handlesword = 0.1;
+    playerx = 55;
+    if (keydown(0)) playery -= playershieldpower*.1+.3;
+    if (keydown(2)) playery += playershieldpower*.1+.3;
+    timeout = .05;
+  }
+}
+NPCEND
+NPC - 53 14
+// NPC made by Massokre
+//#CLIENTSIDE
+if (created) {
+  setshape 1,112,16;
+}
+if (playertouchsme && playerdir==2) {
+  disabledefmovement;
+  movement_handlekeys = 0.1;
+  movement_handleganis = 0.1;
+  movement_handlesword = 0.1;
+  movement_handlerecoil = 0.1;
+  setani classic_invisibility,;
+  timeout = .05;
+}
+
+if (timeout) {
+  if (playery in <10,27>) {
+    setani classic_invisibility,;
+    movement_handlesword = 0.1;
+    movement_handlekeys = 0.1;
+    movement_handlerecoil = 0.1;
+    movement_handleganis = 0.1;
+    playerx = 55;
+    if (keydown(0)) playery -= playershieldpower*.1+.3;
+    if (keydown(2)) playery += playershieldpower*.1+.3;
+    timeout = .05;
+  }
+}
+NPCEND
+NPC - 24 6
+// NPC made by Stev (Ventrue Vampires)
+//#CLIENTSIDE
+if (playerenters) {
+  seteffect 0,0,0,0.4;
+}
+NPCEND
+NPC - 53 57
+// NPC made by Massokre
+//#CLIENTSIDE
+if (created) setshape 1,16,16;
+if (playertouchsme && playerdir == 1) {
+  disabledefmovement;
+  play jump.wav;
+  movement_handleganis = 0.1;
+  setani classic_sit,;
+  timeout = .05;
+}
+if (timeout) {
+  if (strequals(#m,classic_sit) && playerx > 46) {
+    movement_handleganis = 0.1;
+    playerx--;
+    playery += -cos(playerx);
+    timeout = .05;
+  } else {
+    if (playery > 59) playery=59;
+    setani classic_idle,;
+    enabledefmovement;
+  }
+}
+NPCEND
+NPC darkbush.png 47 9
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 55
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 53
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 51
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 49
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 47
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 45
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 43
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 41
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 39
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 37
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 35
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 33
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 31
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 29
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 27
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 13
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 11
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 7
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 5
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 47 3
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 45 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 43 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 41 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 39 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 35 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 11 4
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 28 17
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 30 17
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 26 17
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 11 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 9 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 7 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 5 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 3 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 9 4
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 28 44
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 7 4
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 5 4
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 3 4
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 1 4
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 1 6
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 3 6
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 1 8
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 18 36
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 8 26
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 10 36
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 12 36
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 14 36
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 16 36
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 18 38
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 18 40
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 4 60
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 28 36
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 28 38
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 28 40
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 28 42
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 18 44
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 16 60
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 14 60
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 12 60
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 10 60
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 8 60
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 6 60
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 60
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 58
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 56
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 54
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 52
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 50
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 48
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 46
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 44
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 42
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 40
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 2 38
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 8 36
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 14 32
+//#CLIENTSIDE
+if (playerchats && strequals(#c,watch)) {
+  this.focus = 1;
+  this.focusx = playerx * 16;
+  this.focusy = playery * 16;
+  if (this.focusx < screenwidth / 2 - 24) this.focusx =
+screenwidth / 2 - 24;
+  if (this.focusx > 1024 - screenwidth / 2) this.focusx = 1024 -
+screenwidth / 2 - 16;
+  if (this.focusy < screenheight / 2 - 24) this.focusy =
+screenheight / 2 - 24;
+  if (this.focusy > 1024 - screenheight / 2) this.focusy = 1024
+- screenheight / 2 - 16;
+  movement_handlesword = 0.1;
+  movement_handleitems = 0.1;
+  movement_handlekeys = 0.1;
+  timeout = 0.05;
+}
+if (timeout) {
+  if (keydown(5)) {
+    this.focus = 0;
+    resetfocus;
+  }
+  elseif (this.focus == 1) {
+    if (keydown(0) && this.focusy >= screenheight / 2 - 8)
+this.focusy -= 16;
+    if (keydown(1) && this.focusx >= screenwidth / 2 - 8)
+this.focusx -= 16;
+    if (keydown(2) && this.focusy <= 1024 - screenheight / 2 -
+32) this.focusy += 16;
+    if (keydown(3) && this.focusx <= 1024 - screenwidth / 2 -
+32) this.focusx += 16;
+    setfocus this.focusx / 16,this.focusy / 16;
+    movement_handlesword = 0.1;
+    movement_handleitems = 0.1;
+    movement_handlekeys = 0.1;
+    timeout = 0.05;
+  }
+}
+NPCEND
+NPC darkbush.png 32 17
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 37 2
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 9 28
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC darkbush.png 18 42
+// NPC made by Bell (GP Captain)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND

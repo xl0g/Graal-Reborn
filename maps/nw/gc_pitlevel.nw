@@ -1,0 +1,494 @@
+GLEVNW01
+BOARD 0 0 64 0 Cq899O/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e9P9fCq
+BOARD 0 1 64 0 Cq8687/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u889vCq
+BOARD 0 2 64 0 9a9KiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiMiM9N9/
+BOARD 0 3 64 0 /P+tiMf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 4 64 0 +/+diMf/pqprf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqprf/iM+7+8
+BOARD 0 5 64 0 /P+tiMf/p6p7f/f/f/f/pqprf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqqKqLqKqLqKqKqLqKprf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqprf/f/f/f/p6p7f/iM+7+8
+BOARD 0 6 64 0 +/+diMf/f/f/f/f/f/f/p6p7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/p6qaqbqaqbqaqaqbqap7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/p6p7f/f/f/f/f/f/f/iM+7+8
+BOARD 0 7 64 0 /P+tiMf/f/f/f/f/f/f/G2HXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/G2HXf/f/f/f/f/f/f/iM+7+8
+BOARD 0 8 64 0 +/+diMf/f/f/f/f/f/G2HGHnHXf/f/f/f/f/f/f/f/f/f/f/f/pqqKqLqKqLqKqLqKqLqLqKqLqKprf/f/f/f/f/f/f/f/f/f/f/f/G2HGHnHXf/f/f/f/f/f/iM+7+8
+BOARD 0 9 64 0 /P+tiMf/f/f/f/f/G2HGGOGOHnHXf/f/f/f/f/f/f/f/f/f/f/p6qaqbqaqbqaqbqaqbqbqaqbqap7f/f/f/f/f/f/f/f/f/f/f/G2HGGOGOHnHXf/f/f/f/f/iM+7+8
+BOARD 0 10 64 0 +/+diMf/f/pqprG2HGGOGOGOGOHnHXpqprf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqprG2HGGOGOGOGOHnHXpqprf/f/iM+7+8
+BOARD 0 11 64 0 /P+tiMf/f/p6p7GmGWGOGOGOGOG3HHp6p7f/f/f/f/f/f/pqqKqLqKqLqKqLqKqLqKqLqKqLqLqKqLqKprf/f/f/f/f/f/p6p7GmGWGOGOGOGOG3HHp6p7f/f/iM+7+8
+BOARD 0 12 64 0 +/+diMf/f/f/f/f/GmGWGOGOG3HHf/f/f/f/f/f/f/f/f/p6qaqbqaqbqaqbqaqbqaqbqaqbqbqaqbqap7f/f/f/f/f/f/f/f/f/GmGWGOGOG3HHf/f/f/f/f/iM+7+8
+BOARD 0 13 64 0 /P+tiMf/f/f/f/f/f/GmGWG3HHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/GmGWG3HHf/f/f/f/f/f/iM+7+8
+BOARD 0 14 64 0 +/+diMf/f/f/f/f/f/f/GmHHf/f/f/f/f/f/pqprf/pqqKqLqLqKqLqKqLqKqLqKqLqKqLqKqLqLqKqLqLqKprf/pqprf/f/f/f/f/f/GmHHf/f/f/f/f/f/f/iM+7+8
+BOARD 0 15 64 0 /P+tiMf/f/f/f/f/f/f/pqprf/f/f/f/f/f/p6p7f/p6qaqbqbqaqbqaqbqaqbqaqbqaqbqaqbqbqaqbqbqap7f/p6p7f/f/f/f/f/f/pqprf/f/f/f/f/f/f/iM+7+8
+BOARD 0 16 64 0 +/+diMf/f/f/f/f/f/f/p6p7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/p6p7f/f/f/f/f/f/f/iM+7+8
+BOARD 0 17 64 0 /P+tiMf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqprf/pqprf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqprf/pqprf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 18 64 0 +/+diMf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/papbf/p6p7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/p6p7f/papbf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 19 64 0 /P+tiMf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/papbf/f/f/f/f/f/f/f/f/f/G2HXf/f/f/f/f/f/f/f/f/f/papbf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 20 64 0 +/+diMf/f/f/f/f/f/f/f/f/f/f/f/pqprf/f/papbf/f/f/f/f/f/f/f/f/G2HGHnHXf/f/f/f/f/f/f/f/f/papbf/f/pqprf/f/f/f/f/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 21 64 0 /P+tiMf/f/f/f/f/f/f/f/f/f/f/f/papbf/f/papbf/f/f/f/f/f/f/f/G2HGGOGOHnHXf/f/f/f/f/f/f/f/papbf/f/papbf/f/f/f/f/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 22 64 0 +/+diMf/f/f/f/f/f/f/f/pqprf/f/papbf/f/papbf/f/f/f/f/f/f/G2HGGOGOGOGOHnHXf/f/f/f/f/f/f/papbf/f/papbf/f/pqprf/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 23 64 0 /P+tiMf/f/f/f/f/f/f/f/papbf/f/papbf/f/papbf/f/G2HFHFHFHFHGGOGOG3GWGOGOHnHFHFHFHFHXf/f/papbf/f/papbf/f/papbf/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 24 64 0 +/+diMf/f/f/f/pqprf/f/papbf/f/papbf/f/papbf/G2HGGOGOGOGOGOGOG3HHGmGWGOGOGOGOGOGOHnHXf/papbf/f/papbf/f/papbf/f/pqprf/f/f/f/iM+7+8
+BOARD 0 25 64 0 /P+tiMf/f/f/f/papbf/f/papbf/f/papbf/f/papbG2HGGOGOG3GWGOGOG3HHf/f/GmGWGOGOG3GWGOGOHnHXpapbf/f/papbf/f/papbf/f/papbf/f/f/f/iM+7+8
+BOARD 0 26 64 0 +/+diMf/pqprf/papbf/f/papbf/f/papbf/f/papbGmGWGOGOHnHGGOGOHnHXf/f/G2HGGOGOHnHGGOGOG3HHpapbf/f/papbf/f/papbf/f/papbf/pqprf/iM+7+8
+BOARD 0 27 64 0 /P+tiMf/p6p7f/papbf/f/papbf/f/papbf/f/papbf/GmGWGOGOGOGOGOGOHnHXG2HGGOGOGOGOGOGOG3HHf/papbf/f/papbf/f/papbf/f/papbf/p6p7f/iM+7+8
+BOARD 0 28 64 0 +/+diMf/f/f/f/p6p7f/f/papbf/f/papbf/f/papbf/f/GmH2H3H2H3GWGOGOHnHGGOGOG3H2H3H2H3HHf/f/papbf/f/papbf/f/papbf/f/p6p7f/f/f/f/iM+7+8
+BOARD 0 29 64 0 /P+tiMf/f/f/f/f/f/f/f/papbf/f/papbf/f/papbf/f/f/f/f/f/f/GmGWGOGOGOGOG3HHf/f/f/f/f/f/f/papbf/f/papbf/f/papbf/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 30 64 0 +/+diMf/f/f/f/f/f/f/f/p6p7f/f/papbf/f/papbf/f/f/f/f/f/f/f/GmGWGOGOG3HHf/f/f/f/f/f/f/f/papbf/f/papbf/f/p6p7f/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 31 64 0 /P+tiMf/f/f/f/f/f/f/f/f/f/f/f/papbf/f/papbf/f/f/f/f/f/f/f/f/GmGWG3HHf/f/f/f/f/f/f/f/f/papbf/f/papbf/f/f/f/f/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 32 64 0 +/+diMf/f/f/f/f/f/f/f/f/f/f/f/p6p7f/f/papbf/f/f/f/f/f/f/f/f/f/GmHHf/f/f/f/f/f/f/f/f/f/papbf/f/p6p7f/f/f/f/f/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 33 64 0 +/+diMf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/papbf/pqprf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqprf/papbf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 34 64 0 /P+tiMf/f/f/f/f/f/pqprf/f/f/f/f/f/f/f/p6p7f/p6p7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/p6p7f/p6p7f/f/f/f/f/f/f/f/pqprf/f/f/f/f/f/iM+7+8
+BOARD 0 35 64 0 +/+diMf/f/f/f/f/f/p6p7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/p6p7f/f/f/f/f/f/iM+7+8
+BOARD 0 36 64 0 /P+tiMf/f/f/f/f/f/G2HXf/f/f/f/f/f/f/pqprf/pqqKqLqKqLqKqLqLqKqLqKqLqKqLqKqLqKqLqKqLqKprf/pqprf/f/f/f/f/f/f/G2HXf/f/f/f/f/f/iM+7+8
+BOARD 0 37 64 0 +/+diMf/f/f/f/f/G2HGHnHXf/f/f/f/f/f/p6p7f/p6qaqbqaqbqaqbqbqaqbqaqbqaqbqaqbqaqbqaqbqap7f/p6p7f/f/f/f/f/f/G2HGHnHXf/f/f/f/f/iM+7+8
+BOARD 0 38 64 0 /P+tiMf/f/f/f/G2HGGOGOHnHXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/G2HGGOGOHnHXf/f/f/f/iM+7+8
+BOARD 0 39 64 0 +/+diMf/pqprG2HGGOGOGOGOHnHXpqprf/f/f/f/f/f/f/f/pqqKqLqKqLqKqKqLqKqLqKqLqKqLqKprf/f/f/f/f/f/f/f/pqprG2HGGOGOGOGOHnHXpqprf/iM+7+8
+BOARD 0 40 64 0 /P+tiMf/p6p7GmGWGOGOGOGOG3HHp6p7f/f/f/f/f/f/f/f/p6qaqbqaqbqaqaqbqaqbqaqbqaqbqap7f/f/f/f/f/f/f/f/p6p7GmGWGOGOGOGOG3HHp6p7f/iM+7+8
+BOARD 0 41 64 0 +/+diMf/f/f/f/GmGWGOGOG3HHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/GmGWGOGOG3HHf/f/f/f/iM+7+8
+BOARD 0 42 64 0 /P+tiMf/f/f/f/f/GmGWG3HHf/f/f/f/f/f/f/f/f/f/f/f/f/f/pqqKqLqKqLqKqKqLqKqLqKprf/f/f/f/f/f/f/f/f/f/f/f/f/f/GmGWG3HHf/f/f/f/f/iM+7+8
+BOARD 0 43 64 0 +/+diMf/f/f/f/f/f/GmHHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/p6qaqbqaqbqaqaqbqaqbqap7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/GmHHf/f/f/f/f/f/iM+7+8
+BOARD 0 44 64 0 /P+tiMf/f/f/f/f/f/pqprf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqprf/f/f/f/f/f/iM+7+8
+BOARD 0 45 64 0 +/+diMf/pqprf/f/f/p6p7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/pqqKqLqKqKqLqKprf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/p6p7f/f/f/pqprf/iM+7+8
+BOARD 0 46 64 0 /P+tiMf/p6p7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/p6qaqbqaqaqbqap7f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/p6p7f/iM+7+8
+BOARD 0 47 64 0 +/+diMf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/iM+7+8
+BOARD 0 48 64 0 /P+tiMYff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/Yff/iM+7+8
+BOARD 0 49 64 0 9q9b/tYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYfYvYf/t9e+P
+BOARD 0 50 64 0 Cq9r9s/O/N/O/N/O/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N9t9uCq
+BOARD 0 51 64 0 Cq899O/e/d/e/d/e/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d/e/d9P9fCq
+BOARD 0 52 64 0 Cq8687/u/t/u/t/u/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t/u/t889vCq
+BOARD 0 53 64 0 9a9K9L/+/9/+/9/+/+VoVp/9/+/9/+/9/+/9/+/9/+/9/+/9/+/9/+/9/+/9/+/+/9/+/9/+/9/+/9/+/9/+/9/+/9/+/9/+/9/+/9/+/9/+/9/+/9/+/9/+/99M9N9/
+BOARD 0 54 64 0 /P+tkokokokof/f/koV4V5f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/+q+7+8
+BOARD 0 55 64 0 +/+dkoC/C+kof/f/k4EsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsErEsEr+q+7+8
+BOARD 0 56 64 0 /P+tk4KpKqk4f/f/k4D8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8E7E8Hq+q+7+8
+BOARD 0 57 64 0 +/+dkoK5K6kof/f/koFAFBEtEgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgC1EgHaD1+q+7+8
+BOARD 0 58 64 0 /P+t9+F2FnF3f/bGbHFQFRAICqKpKqCqCrKpKqCrAIKpKqCqCrKpKqCrCrKpKqCrAIKpKqCqCrKpKqCrAIKpKqCqCrKpKqCrAIKpKqCqCrKpKqCrAICqCrHqf/+q+7+8
+BOARD 0 59 64 0 +/+d9+GnEtGHF3bWbXFAFBCrEtK5K6EtCrK5K6CrCrK5K6EtCrK5K6CrCrK5K6CrCrK5K6EtCrK5K6CrCrK5K6EtCrK5K6CrCrK5K6EtCrK5K6CrCrEtCrHqf/+q+7+8
+BOARD 0 60 64 0 /P+t9+GnEtCqGXf/koFQFRCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrCrHqf/+q+7+8
+BOARD 0 61 64 0 +/+d9+GIGJFoFpf/k4FAFBE9E+EME9E+EME9E+EME9EME9E+EME9E+EME9E+E+EME9EME9E+EME9E+EME9EME9E+EME9E+EME9EME9E+EME9E+EME9E+EMHqf/+q+7+8
+BOARD 0 62 64 0 9q9b9c+9+++9+++9ko+9+++9+++9+++9+++9+++9+++9+++9+++9+++9+++9+++9+++9+++9+++9+++9+++9+++9+9+++9+++9+++9+++9+++9+++9+++9+++99d9e+P
+BOARD 0 63 64 0 Cq9r9s/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N/O/N9t9uCq
+NPC ballonblue.png 6 54
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC hackwarptile.mng 31 50
+
+NPCEND
+NPC block.png 31 52
+
+NPCEND
+NPC classic_gccontrol.png 3 55
+
+NPCEND
+NPC block.png 7 58
+function onCreated(){
+ setshape 1,32,32;
+}
+function onPlayerChats(){
+ if (player.guild != "Game Coordinator") return;
+ if (player.chat == "open") hide;
+  else if (player.chat == "close") show;
+}
+//#CLIENTSIDE
+if (created) setshape 1,32,32;
+NPCEND
+NPC zorbibubble.png 12 41
+if (created) this.timer = 3.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 10 45
+if (created) this.timer = 14.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 22 45
+if (created) this.timer = 13.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 38 45
+if (created) this.timer = 8.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 58 45
+if (created) this.timer = 7.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 54 45
+if (created) this.timer = 13.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 42 45
+if (created) this.timer = 13;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 34 45
+if (created) this.timer = 10.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 30 45
+if (created) this.timer = 15.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 18 45
+if (created) this.timer = 7.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 14 45
+if (created) this.timer = 11.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 26 45
+if (created) this.timer = 12.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 50 45
+if (created) this.timer = 11.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 4 41
+if (created) this.timer = 1.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 2 45
+if (created) this.timer = 12.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 6 45
+if (created) this.timer = 8.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 20 41
+if (created) this.timer = 1.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 28 41
+if (created) this.timer = 3;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 44 41
+if (created) this.timer = 2.5;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 36 41
+if (created) this.timer = 3;
+join gc_gravitybubble;
+NPCEND
+NPC zorbibubble.png 52 41
+if (created) this.timer = 4.5;
+join gc_gravitybubble;
+NPCEND
+NPC kubol_tree2.png 29 20
+if (created) {
+  drawunderplayer;
+  dontblock;
+}
+NPCEND
+NPC zorbibubble.png 46 45
+if (created) this.timer = 10;
+join gc_gravitybubble;
+NPCEND
+NPC - 0 0
+//Gravity script
+//#CLIENTSIDE
+if (playerenters) {
+  this.shield = strtofloat(#s(clientr.stat_shield));
+}
+if (playerenters || timeout) {
+  if (playery < 52 && !strequals(#m,classic_dead)) {
+    if (this.lastpd in {0,2}) this.lastpd = 3;
+    if (keydown(0)) {
+      if (movement_handlekeys == 0) {
+        if (this.des == -1 || (this.jumpn < 2 && this.key == 0)) {
+          this.uvel = 0.7;
+          this.unum = 0;
+          this.des = 1;
+          this.dvel = 0;
+          this.jumpn++;
+          this.key = 1;
+        }
+        else {
+          if (this.shield != 3) playery += 0.5;
+          else playery += 0.615;
+        }
+      }
+    }
+    else this.key = 0;
+    if (this.des == 1) {
+      this.unum++;
+      if (!onwall(playerx + 0.8125,playery - 0.0625) && !onwall(playerx + 1.4375,playery - 0.0625) && !onwall(playerx + 2.125,playery - 0.0625)) playery -= this.uvel;
+      else this.uvel = 0.1;
+      if (this.unum >= 5) {
+        this.uvel -= 0.1;
+        if (this.uvel == 0) {
+          this.unum = 0;
+          this.des = 0;
+        }
+      }
+    }
+    for (this.a = 0;this.a <= this.dvel;this.a += 0.0625) {
+      if (onwall(playerx + 0.8125,playery + 3.0625 + this.a) || onwall(playerx + 1.4375,playery + 3.0625 + this.a) || onwall(playerx + 2.125,playery + 3.0625 + this.a) && this.des == 0) {
+        playery += this.a;
+        this.onwall = 1;
+        this.dvel = 0;
+        this.des = -1;
+        this.jumpn = 0;
+        break;
+      }
+    }
+    if (this.des < 1 && this.onwall == 0) {
+      this.des = 0;
+      playery += this.dvel;
+      this.dvel += 0.125;
+    }
+    this.onwall = 0;
+
+    if (movement_handlekeys == 0) {
+      if (playerdir == 0) playerdir = this.lastpd;
+      if (playerdir == 2) playerdir = this.lastpd;
+      this.lastpd = playerdir;
+    }
+  }
+  timeout = 0.05;
+}
+NPCEND
+NPC - 3 0
+function onCreated() {
+  setshape(1,32,32);
+}
+function onPlayerChats() {
+  if (player.guild == "Game Coordinator") {
+    if (player.chat == "reset deaths") {
+      player.chat = "Deaths Reset!";
+      this.accounts = "";
+      this.deaths = "";
+      for (i=0;i < players.size();i++) {
+        this.accounts.add(players[i].account);
+        this.deaths.add("0");
+      }
+      setAttributes();
+    }
+    elseif (player.chat == "start noheal") {
+      player.chat == "Weapons Enabled!";
+      save[0] = 1;
+    }
+    elseif (player.chat == "start heal" || player.chat == "start") {
+      player.chat = "Weapons Enabled!";
+      save[0] = 2;
+    }
+    elseif (player.chat == "stop") {
+      player.chat = "Weapons Disabled!";
+      save[0] = 0;
+    }
+    if (player.chat.starts("deaths")) {
+      tokens = player.chat.tokenize();
+      if (tokens[0] == "deaths") {
+        this.deathscount = tokens[1];
+        player.chat = this.deathscount @ " deaths!";
+      }
+    }
+  }
+}
+function onPlayerEnters() {
+  if (this.accounts.index(player.account) == -1) {
+    this.accounts.add(player.account);
+    this.deaths.add("0");
+    setAttributes();
+  }
+}
+function onActionFellintopit() {
+  if (save[0] == 2) player.ModifyHP(0,0,clientr.stat_maxhp);
+  increaseDeaths();
+  checkElimination();
+}
+function onActionPlayerdied() {
+  increaseDeaths();
+  checkElimination();
+}
+function increaseDeaths() {
+  if (save[0] != 0) {
+    index = this.accounts.index(player.account);
+    deaths = this.deaths[index];
+    this.deaths.replace(index,deaths+1);
+    setAttributes();
+  }
+}
+function checkElimination() {
+  if (save[0] != 0) {
+    index = this.accounts.index(player.account);
+    deaths = this.deaths[index];
+    // check if eliminated
+    if (deaths >= this.deathscount && this.deathscount != 0) {
+      player.x = 30.5;
+      player.y = 56;
+      player.dir = 2;
+      setani("classic_idle","");
+      player.chat = "Eliminated!";
+    }
+  }
+}
+function setAttributes() {
+  attr[1] = this.accounts;
+  attr[2] = this.deaths;
+}
+//#CLIENTSIDE
+if (playerenters || timeout)  {
+
+  if (this.slp > 0 && playery >= 51) {
+    this.slp = 0;
+  }
+  if (this.dead == 1 && playery >= 51) {
+    this.dead = 0;
+  }
+
+  // you fell into the pit
+  if (movement_handlekeys == 0 && !strequals(#g,Game Coordinator) && this.slp == 0 && this.dead == 0 && (playery in |44,47| || playery in |3,4|)) {
+    setani classic_hurt,;
+    triggeraction x,y,fellintopit,;
+    movement_handleganis = 0.45;
+    movement_handlekeys = 0.45;
+    movement_handlesword = 0.45;
+    movement_handleitems = 0.45;
+    this.slp = 0.05;
+  }
+  if (this.slp > 0) {
+    this.slp += 0.05;
+    if (this.slp == 0.55) {
+      this.slp = 0;
+      setani classic_idle,;
+      playerx = int(random(3,58));
+      playery = 5;
+    }
+  }
+
+  // you died
+  if (strequals(#m,classic_dead) && this.slp == 0 && this.dead == 0 && playery < 51) {
+    this.dead = 1;
+    triggeraction x,y,playerdied,;
+  }
+  if (this.dead == 1 && !strequals(#m,classic_dead)) {
+    this.dead = 0;
+    setani classic_idle,;
+    playerx = int(random(3,58));
+    playery = 5;
+  }
+
+  // display deaths for GCs
+  if (strequals(#g,Game Coordinator)) {
+    for (i = 1;i < playerscount;i++) {
+      if (mousex in |players[i].x,players[i].x + 3| && mousey in |players[i].y,players[i].y + 3|) {
+        this.accounts,#P1(-1);
+        this.deaths,#P2(-1);
+        index = lindexof(#a(i),this.accounts);
+        if (index > -1) {
+            showtext 1,screenwidth / 2,screenheight - 20,,bc,#a(i): #I(this.deaths,index);
+            changeimgzoom 1,0.8;
+            changeimgvis 1,4;
+            break;
+        }
+      }
+    }
+  }
+
+  // show your own deaths
+  if (playery < 51) {
+    setstring this.accounts,#P1(-1);
+    setstring this.deaths,#P2(-1);
+    index = lindexof(#a,this.accounts);
+    if (index > -1) {
+      showtext 0,14,7,,b,Deaths: #I(this.deaths,index);
+      changeimgzoom 0,0.7;
+      changeimgvis 0,4;
+    }
+    else hideimg 0;
+  }
+  else hideimg 0;
+
+  if (!strequals(#g,Game Coordinator)) {
+  movement_handlepause = 0.1;
+  // enable and disable weapons
+  if (playery < 51) {
+    if (save[0] == 0) {
+      movement_handlesword = 0.1;
+      movement_handleitems = 0.1;
+    }
+  }  else {
+    movement_handlesword = 0.1;
+    movement_handleitems = 0.1;
+  }
+  }
+
+  timeout = 0.05;
+}
+NPCEND
+NPC - 6 0
+function onPlayerchats() {
+  if (player.chat == "done") {
+    player.x = 30.5;
+    player.y = 56;
+    player.dir = 2;
+    setani("classic_idle","");
+  }
+
+  if (player.guild == "Game Coordinator") {
+    if (player.chat == "commands") {
+      say2(
+"Commands:
+start
+start nopk
+start heal
+stop
+deaths <num>
+reset deaths"
+      );
+    }
+  }
+}
+function onPlayerenters() {
+  if (player.guild == "Game Coordinator") {
+    say2(
+"Commands:
+start
+start nopk
+start heal
+stop
+deaths <num>
+reset deaths"
+    );
+  }
+}
+NPCEND
+NPC - 9 0
+//#CLIENTSIDE
+if (playerchats) {
+  if (strequals(#c,watch) && playery > 52 && playerx > 1) {
+    this.focus = 1;
+    this.focusx = int(playerx * 16);
+    this.focusy = int(playery * 16);
+    if (this.focusx < screenwidth / 2) this.focusx = screenwidth / 2;
+    if (this.focusx > 1024 - screenwidth / 2) this.focusx = 1024 - screenwidth / 2 - 16;
+    if (this.focusy < screenheight / 2) this.focusy = screenheight / 2;
+    if (this.focusy > 1024 - screenheight / 2) this.focusy = 1024 - screenheight / 2 - 16;
+    movement_handlekeys = 0.1;
+    movement_handleitems = 0.1;
+    movement_handlesword = 0.1;
+    movement_handleganis = 0.1;
+    setani classic_dead,;
+    timeout = 0.05;
+  }
+}
+if (timeout) {
+  if (keydown(5)) {
+    this.focus = 0;
+    resetfocus;
+  }
+  elseif (this.focus == 1) {
+    if (keydown(0) && this.focusy >= screenheight / 2 + 16) this.focusy -= 16;
+    if (keydown(1) && this.focusx >= screenwidth / 2 - 16) this.focusx -= 16;
+    if (keydown(2) && this.focusy <= 1024 - screenheight / 2 - 32) this.focusy += 16;
+    if (keydown(3) && this.focusx <= 1024 - screenwidth / 2 - 32) this.focusx += 16;
+    setfocus this.focusx / 16,this.focusy / 16;
+    movement_handlekeys = 0.1;
+    movement_handleitems = 0.1;
+    movement_handlesword = 0.1;
+    movement_handleganis = 0.1;
+    timeout = 0.05;
+  }
+}
+NPCEND

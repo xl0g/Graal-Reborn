@@ -1,0 +1,462 @@
+GLEVNW01
+BOARD 0 0 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 1 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 2 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 3 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 4 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 5 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 6 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 7 64 0 f/f/f/f/f/f/f/f/f/+9+++9+++9++f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 8 64 0 f/f/f/f/f/f/f/f/f//N/O/N/O/N/Of/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 9 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 10 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 11 64 0 f/f/f/f/f/f/+q+7+8f/f/f/f/f/f//P+t+Of/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 12 64 0 f/f/f/f/f/f/+q+7+8f/f/f/f/f/f/+/+d9+f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 13 64 0 f/f/f/f/f/f/+q+7/Mf/f/f/f/f/f//P+t+Of/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 14 64 0 f/f/f/f/f/f/+q+7+8f/f/f/f/f/f/+/+d9+f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 15 64 0 f/f/f/f/f/f/f/f/f//d/e/d/e/d/ef/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 16 64 0 f/f/f/f/f/f/f/f/f//t/u/t/u/t/uf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 17 64 0 f/f/f/f/f/f/f/f/f//9/+/9/+/9/+f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 18 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 19 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 20 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 21 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 22 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 23 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 24 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 25 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 26 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 27 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 28 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 29 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 30 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 31 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 32 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 33 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 34 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 35 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 36 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 37 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 38 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 39 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 40 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 41 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 42 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 43 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 44 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 45 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 46 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 47 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 48 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 49 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 50 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 51 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 52 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 53 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 54 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 55 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 56 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 57 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 58 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 59 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 60 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 61 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 62 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 63 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+NPC - 21 22
+join("bush_nocolors");
+NPCEND
+NPC - 24 22
+join("bush_nocolors");
+NPCEND
+NPC - 21 25
+join("bush_nocolors");
+NPCEND
+NPC - 24 25
+join("bush_nocolors");
+NPCEND
+NPC - 21 28
+join("bush_nocolors");
+NPCEND
+NPC - 24 28
+join("bush_nocolors");
+NPCEND
+NPC - 27 22
+join("bush_nocolors");
+NPCEND
+NPC - 27 25
+join("bush_nocolors");
+NPCEND
+NPC - 27 28
+join("bush_nocolors");
+NPCEND
+NPC - 27 31
+join("bush_nocolors");
+NPCEND
+NPC - 27 34
+join("bush_nocolors");
+NPCEND
+NPC - 24 31
+join("bush_nocolors");
+NPCEND
+NPC - 24 34
+join("bush_nocolors");
+NPCEND
+NPC - 21 31
+join("bush_nocolors");
+NPCEND
+NPC - 21 34
+join("bush_nocolors");
+NPCEND
+NPC - 15 22
+join("rock_1");
+NPCEND
+NPC - 12 34
+join("rock_1");
+NPCEND
+NPC - 12 42
+join("rock_2");
+NPCEND
+NPC - 30 22
+join("bush_nocolors");
+NPCEND
+NPC - 30 25
+join("bush_nocolors");
+NPCEND
+NPC - 30 28
+join("bush_nocolors");
+NPCEND
+NPC - 30 31
+join("bush_nocolors");
+NPCEND
+NPC - 30 34
+join("bush_nocolors");
+NPCEND
+NPC - 33 34
+join("bush_nocolors");
+NPCEND
+NPC - 33 31
+join("bush_nocolors");
+NPCEND
+NPC - 33 28
+join("bush_nocolors");
+NPCEND
+NPC - 33 25
+join("bush_nocolors");
+NPCEND
+NPC - 33 22
+join("ibo_pinkrock");
+NPCEND
+NPC - 36 22
+join("bush_nocolors");
+NPCEND
+NPC - 36 25
+join("bush_nocolors");
+NPCEND
+NPC - 36 28
+join("bush_nocolors");
+NPCEND
+NPC - 36 31
+join("bush_nocolors");
+NPCEND
+NPC - 36 34
+join("bush_nocolors");
+NPCEND
+NPC - 39 34
+join("bush_nocolors");
+NPCEND
+NPC - 39 31
+join("bush_nocolors");
+NPCEND
+NPC - 39 28
+join("bush_nocolors");
+NPCEND
+NPC - 39 25
+join("bush_nocolors");
+NPCEND
+NPC - 39 22
+join("bush_nocolors");
+NPCEND
+NPC - 42 22
+join("bush_nocolors");
+NPCEND
+NPC - 42 25
+join("bush_nocolors");
+NPCEND
+NPC - 42 28
+join("bush_nocolors");
+NPCEND
+NPC - 42 31
+join("bush_nocolors");
+NPCEND
+NPC - 42 34
+join("bush_nocolors");
+NPCEND
+NPC - 45 34
+join("bush_nocolors");
+NPCEND
+NPC - 45 31
+join("bush_nocolors");
+NPCEND
+NPC - 45 28
+join("bush_nocolors");
+NPCEND
+NPC - 45 25
+join("bush_nocolors");
+NPCEND
+NPC - 45 22
+join("bush_nocolors");
+NPCEND
+NPC - 30 39
+join("rock_2");
+NPCEND
+NPC - 33 39
+join("rock_2");
+NPCEND
+NPC - 36 39
+join("rock_2");
+NPCEND
+NPC - 39 39
+join("rock_2");
+NPCEND
+NPC - 42 39
+join("rock_2");
+NPCEND
+NPC - 45 39
+join("rock_2");
+NPCEND
+NPC - 45 42
+join("rock_2");
+NPCEND
+NPC - 42 42
+join("rock_2");
+NPCEND
+NPC - 39 42
+join("rock_2");
+NPCEND
+NPC - 36 42
+join("rock_2");
+NPCEND
+NPC - 33 42
+join("rock_2");
+NPCEND
+NPC - 30 42
+join("rock_2");
+NPCEND
+NPC - 30 45
+join("rock_2");
+NPCEND
+NPC - 33 45
+join("rock_2");
+NPCEND
+NPC - 36 45
+join("rock_2");
+NPCEND
+NPC - 39 45
+join("rock_2");
+NPCEND
+NPC - 42 45
+join("rock_2");
+NPCEND
+NPC - 45 45
+join("rock_2");
+NPCEND
+NPC - 45 48
+join("rock_2");
+NPCEND
+NPC - 42 48
+join("rock_2");
+NPCEND
+NPC - 39 48
+join("rock_2");
+NPCEND
+NPC - 36 48
+join("rock_2");
+NPCEND
+NPC - 33 48
+join("rock_2");
+NPCEND
+NPC - 30 48
+join("rock_2");
+NPCEND
+NPC - 12 54
+join("pushblock");
+NPCEND
+NPC - 15 54
+join("pushblock");
+NPCEND
+NPC - 18 54
+join("pushblock");
+NPCEND
+NPC - 21 54
+join("pushblock");
+NPCEND
+NPC - 24 54
+join("pushblock");
+NPCEND
+NPC - 30 54
+join("pullblock");
+NPCEND
+NPC - 33 54
+join("pullblock");
+NPCEND
+NPC - 36 54
+join("pullblock");
+NPCEND
+NPC - 39 54
+join("pullblock");
+NPCEND
+NPC - 42 54
+join("pullblock");
+NPCEND
+NPC - 45 54
+join("pullblock");
+NPCEND
+NPC - 45 59
+join("stake");
+NPCEND
+NPC - 42 59
+join("stake");
+NPCEND
+NPC - 39 59
+join("stake");
+NPCEND
+NPC - 36 59
+join("stake");
+NPCEND
+NPC - 33 59
+join("stake");
+NPCEND
+NPC - 30 59
+join("stake");
+NPCEND
+NPC - 24 59
+join("healthpot");
+NPCEND
+NPC - 21 59
+join("healthpot");
+NPCEND
+NPC - 18 59
+join("healthpot");
+NPCEND
+NPC - 15 59
+join("healthpot");
+NPCEND
+NPC - 12 59
+join("healthpot");
+NPCEND
+NPC - 12 22
+join("rock_1");
+NPCEND
+NPC - 12 25
+join("rock_1");
+NPCEND
+NPC - 15 25
+join("rock_1");
+NPCEND
+NPC - 15 28
+join("rock_1");
+NPCEND
+NPC - 12 28
+join("rock_1");
+NPCEND
+NPC - 12 31
+join("rock_1");
+NPCEND
+NPC - 15 31
+join("rock_1");
+NPCEND
+NPC - 15 34
+join("rock_1");
+NPCEND
+NPC - 12 39
+join("rock_2");
+NPCEND
+NPC - 15 39
+join("rock_2");
+NPCEND
+NPC - 21 48
+join("rock_2");
+NPCEND
+NPC - 18 42
+join("rock_2");
+NPCEND
+NPC - 15 42
+join("rock_2");
+NPCEND
+NPC - 12 48
+join("rock_2");
+NPCEND
+NPC - 12 45
+join("rock_2");
+NPCEND
+NPC - 15 45
+join("rock_2");
+NPCEND
+NPC - 18 45
+join("rock_2");
+NPCEND
+NPC - 18 48
+join("rock_2");
+NPCEND
+NPC - 15 48
+join("rock_2");
+NPCEND
+NPC - 18 39
+join("rock_2");
+NPCEND
+NPC - 21 39
+join("rock_2");
+NPCEND
+NPC - 24 39
+join("rock_2");
+NPCEND
+NPC - 24 42
+join("rock_2");
+NPCEND
+NPC - 21 42
+join("rock_2");
+NPCEND
+NPC - 21 45
+join("rock_2");
+NPCEND
+NPC - 24 45
+join("rock_2");
+NPCEND
+NPC - 24 48
+join("rock_2");
+NPCEND
+NPC - 21 12
+join("bush_black");
+NPCEND
+NPC - 36 12
+join("bush_blue");
+NPCEND
+NPC - 27 12
+join("bush_gold");
+NPCEND
+NPC - 30 12
+join("bush_red");
+NPCEND
+NPC - 33 12
+join("bush_black");
+NPCEND
+NPC - 24 12
+join("bush_blue");
+NPCEND
+NPC - 39 12
+join("bush_gold");
+NPCEND
+NPC - 42 12
+join("bush_red");
+NPCEND
+NPC - 48 12
+this.spawnpoint = {"zolspub_inside_01.nw",30,30};
+join("gc_level_spawn");
+NPCEND
+NPC - 26 6
+join("level_nopause");
+NPCEND
+NPC - 61 61
+join("ibo_pinkbush");
+NPCEND

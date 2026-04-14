@@ -50,6 +50,8 @@ func main() {
 	mux.HandleFunc("/api/register", handleRegister)
 	mux.HandleFunc("/api/login", handleLogin)
 	mux.HandleFunc("/api/assets/list", handleAssetsList)
+	mux.HandleFunc("/api/maps/chunk", handleMapChunk)
+	mux.HandleFunc("/api/maps/gmap", handleMapGMap)
 	mux.HandleFunc("/ws", handleWebSocket)
 	// Game asset directories (served relative to the project root where the
 	// server binary is expected to run).
@@ -64,13 +66,13 @@ func main() {
 	// then fall back to server/static (index.html, game.wasm, wasm_exec.js).
 	// Allowed root-level extensions to avoid exposing source code / DB.
 	rootAllowed := map[string]bool{
-		".tmx": true,
-		".tsx": true,
-		".png": true,
-		".gif": true,
-		".wav": true,
-		".mp3": true,
-		".ogg": true,
+		".tmx":  true,
+		".tsx":  true,
+		".png":  true,
+		".gif":  true,
+		".wav":  true,
+		".mp3":  true,
+		".ogg":  true,
 	}
 	rootFS := http.FileServer(http.Dir("."))
 
