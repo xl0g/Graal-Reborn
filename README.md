@@ -97,7 +97,7 @@ Press **P** to open your own profile with the same information.
 - [x] Add Lua scripting & expose bindings (cf [Resources documentation](resources/README.md))
 - [ ] Guild / Friends
 - [ ] Improve Inventory
-- [ ] Interactions with world
+- [ ] Interactions with world (WIP)
 - [ ] Improve AI overall and add behavior (agressive, passive, roaming..)
 - [ ] Mounts
 - [ ] Quests 
