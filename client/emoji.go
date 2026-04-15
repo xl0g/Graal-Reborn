@@ -18,9 +18,9 @@ var (
 
 func loadEmojiImages() {
 	emojiSmile, _, _ = ebitenutil.NewImageFromFile(
-		"Assets/offline/levels/emoticons/emoticon_Smile.png")
+		"assets/offline/levels/emoticons/emoticon_Smile.png")
 	emojiFrown, _, _ = ebitenutil.NewImageFromFile(
-		"Assets/offline/levels/emoticons/emoticon_Frown.png")
+		"assets/offline/levels/emoticons/emoticon_Frown.png")
 }
 
 // emojiImageFor returns the emoticon image for a shortcode, or nil.

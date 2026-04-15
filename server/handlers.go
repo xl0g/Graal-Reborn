@@ -97,7 +97,7 @@ func writeJSON(w http.ResponseWriter, code int, v interface{}) {
 	json.NewEncoder(w).Encode(v)
 }
 
-// handleAssetsList lists .png/.gif files in a subdirectory of Assets/offline/levels/.
+// handleAssetsList lists .png/.gif files in a subdirectory of assets/offline/levels/.
 // Query param: dir = "bodies" | "heads" | "hats" | "shields" | "swords"
 // Returns a JSON array of filenames (no path prefix).
 func handleAssetsList(w http.ResponseWriter, r *http.Request) {
@@ -111,7 +111,7 @@ func handleAssetsList(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "invalid dir", http.StatusBadRequest)
 		return
 	}
-	base := filepath.Join("Assets", "offline", "levels", dir)
+	base := filepath.Join("assets", "offline", "levels", dir)
 	entries, err := os.ReadDir(base)
 	if err != nil {
 		writeJSON(w, http.StatusOK, []string{})

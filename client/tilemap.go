@@ -125,7 +125,7 @@ func LoadTMX(path string) (*GameMap, error) {
 			// Inline spritesheet tileset — use classiciphone_pics4.
 			gm.firstGID = ts.FirstGID
 			img, _, _ := ebitenutil.NewImageFromFile(
-				"Assets/offline/levels/tiles/classiciphone_pics4.png")
+				"assets/offline/levels/tiles/classiciphone_pics4.png")
 			gm.tileImg = img
 			if img != nil && gm.TileW > 0 {
 				gm.tileCols = img.Bounds().Dx() / gm.TileW
@@ -271,15 +271,15 @@ func LoadTMX(path string) (*GameMap, error) {
 // findAssetFile searches for a file by base name across common asset dirs.
 func findAssetFile(name string) string {
 	dirs := []string{
-		"Assets/offline/levels/images/classic",
-		"Assets/offline/levels/images/classiciphone",
-		"Assets/offline/levels/images/dc",
-		"Assets/offline/levels/images/downloads",
-		"Assets/offline/levels/images/ce",
-		"Assets/offline/levels/images/light4",
-		"Assets/offline/levels/images/dcvip",
-		"Assets/offline/levels/images",
-		"Assets/offline/levels/tiles",
+		"assets/offline/levels/images/classic",
+		"assets/offline/levels/images/classiciphone",
+		"assets/offline/levels/images/dc",
+		"assets/offline/levels/images/downloads",
+		"assets/offline/levels/images/ce",
+		"assets/offline/levels/images/light4",
+		"assets/offline/levels/images/dcvip",
+		"assets/offline/levels/images",
+		"assets/offline/levels/tiles",
 	}
 	for _, d := range dirs {
 		p := filepath.Join(d, name)
@@ -389,7 +389,12 @@ func (gm *GameMap) NearbySign(px, py float64) string {
 }
 
 // Draw renders all tile layers (frustum-culled).
+// Empty tiles (GID=0 across all layers) are filled with a procedural grass pattern.
 func (gm *GameMap) Draw(screen *ebiten.Image, camX, camY float64) {
+	// First pass: fill "hole" tiles with grass
+	gm.drawGrassFill(screen, camX, camY)
+
+	// Second pass: draw actual tiles
 	for _, layer := range gm.layers {
 		for row := 0; row < gm.Rows; row++ {
 			for col := 0; col < gm.Cols; col++ {
@@ -420,6 +425,88 @@ func (gm *GameMap) Draw(screen *ebiten.Image, camX, camY float64) {
 					continue
 				}
 				gm.drawTile(screen, id, sx, sy)
+			}
+		}
+	}
+}
+
+// drawGrassFill fills empty tile positions (all-layers GID=0) with a grass color pattern.
+func (gm *GameMap) drawGrassFill(screen *ebiten.Image, camX, camY float64) {
+	if gm.Cols == 0 || gm.Rows == 0 || gm.TileW == 0 || gm.TileH == 0 {
+		return
+	}
+	tw := float64(gm.TileW)
+	th := float64(gm.TileH)
+
+	// Determine visible tile range
+	colMin := int(camX/tw) - 1
+	colMax := int((camX+float64(screenW))/tw) + 2
+	rowMin := int(camY/th) - 1
+	rowMax := int((camY+float64(screenH))/th) + 2
+	if colMin < 0 {
+		colMin = 0
+	}
+	if rowMin < 0 {
+		rowMin = 0
+	}
+	if colMax > gm.Cols {
+		colMax = gm.Cols
+	}
+	if rowMax > gm.Rows {
+		rowMax = gm.Rows
+	}
+
+	for row := rowMin; row < rowMax; row++ {
+		for col := colMin; col < colMax; col++ {
+			// Check if all layers are empty at this cell
+			allEmpty := true
+			for _, layer := range gm.layers {
+				if len(layer) > row && len(layer[row]) > col && layer[row][col] != 0 {
+					allEmpty = false
+					break
+				}
+			}
+			if !allEmpty {
+				continue
+			}
+
+			sx := float64(col)*tw - camX
+			sy := float64(row)*th - camY
+
+			// Checkerboard-style grass with variation
+			variation := (col*3 + row*7) % 5
+			var grassClr color.RGBA
+			switch variation {
+			case 0:
+				grassClr = color.RGBA{58, 110, 42, 255}
+			case 1:
+				grassClr = color.RGBA{52, 100, 38, 255}
+			case 2:
+				grassClr = color.RGBA{65, 120, 48, 255}
+			case 3:
+				grassClr = color.RGBA{55, 105, 40, 255}
+			default:
+				grassClr = color.RGBA{60, 115, 44, 255}
+			}
+
+			DrawRect(screen, int(sx), int(sy), int(tw), int(th), grassClr)
+
+			// Subtle darker border to give texture
+			if (col+row)%2 == 0 {
+				DrawRect(screen, int(sx), int(sy), int(tw), 1,
+					color.RGBA{40, 80, 28, 180})
+				DrawRect(screen, int(sx), int(sy), 1, int(th),
+					color.RGBA{40, 80, 28, 180})
+			}
+
+			// Occasional small detail (blade of grass dot)
+			if (col*13+row*17)%7 == 0 {
+				DrawRect(screen, int(sx)+int(tw)/3, int(sy)+int(th)/4, 1, 3,
+					color.RGBA{80, 150, 60, 200})
+			}
+			if (col*11+row*19)%9 == 1 {
+				DrawRect(screen, int(sx)+2*int(tw)/3, int(sy)+int(th)/3, 1, 2,
+					color.RGBA{90, 160, 65, 200})
 			}
 		}
 	}

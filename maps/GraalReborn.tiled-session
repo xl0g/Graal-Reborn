@@ -1,0 +1,540 @@
+{
+    "activeFile": "maps/tmx/graalcity_outside_02.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "maps/tmx",
+        "maps"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "GraalCity0-0.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 803.3333333333335,
+                "y": 591.3333333333333
+            }
+        },
+        "GraalCity0-01.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1904.5454545454547,
+                "y": 831.8181818181818
+            }
+        },
+        "GraalCityEntry.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1753.6666666666665,
+                "y": 1247
+            }
+        },
+        "GraalRebornMap.tmx": {
+            "scale": 3,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 560,
+                "y": 559.8333333333333
+            }
+        },
+        "Test.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 0.25
+        },
+        "classiciphone_pics4.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "interior1.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 160,
+                "y": 160.125
+            }
+        },
+        "maps/tmx/abermose_inside_01.tmx": {
+            "scale": 0.590966796875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 839.302652234983,
+                "y": 748.7730314797985
+            }
+        },
+        "maps/tmx/aeria_cavern_01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.4995695345234,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/aeria_inside_townhall_01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.4995695345234,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/ancienttemplesand2.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.4995695345234,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/avalon_church_01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.4995695345234,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/avalon_quest_15.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.4995695345234,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/avalon_quest_map_09.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.4995695345234,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/babord_bowling_inside_02.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.4995695345234,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/babord_pizza_03.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.4995695345234,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/baddycastle_3.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.4995695345234,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/bartholomew_inside_01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.4995695345234,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/cheet_uncle_01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 388.4887791999082,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/chriskillem_icearena_01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/classic_hell_05.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/classic_tavern-bar01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/classic_tule_clothesshop.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/classic_tule_outside_03.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/classic_tule_outside_06.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/classic_tule_outside_16.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/classic_weddingchapel0.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/classic_weddingchapel01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/classic_weddingchapel02.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/classic_weddinghell0.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/classic_weddinghell01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/gc_chairspar_02.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/gc_chess_01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/gc_chesspieces.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 0.850732421875,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 435.50708833151583,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/gc_connectfour_01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/gc_connectfour_team.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/gc_connectfourpub_01.tmx": {
+            "scale": 0.8006347656249999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.46917118985186,
+                "y": 511.46917118985186
+            }
+        },
+        "maps/tmx/gc_ctf_bluesmall_01.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/gc_ctf_flash_09.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/gc_ctf_race_02.tmx": {
+            "scale": 0.850732421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91184067037824,
+                "y": 511.91184067037835
+            }
+        },
+        "maps/tmx/graalcastle_inside_04.tmx": {
+            "scale": 0.8006347656249999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.46917118985186,
+                "y": 511.46917118985186
+            }
+        },
+        "maps/tmx/graalcastle_inside_b03.tmx": {
+            "scale": 0.8006347656249999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.46917118985186,
+                "y": 511.46917118985186
+            }
+        },
+        "maps/tmx/graalcastle_inside_food.tmx": {
+            "scale": 0.8006347656249999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.46917118985186,
+                "y": 511.46917118985186
+            }
+        },
+        "maps/tmx/graalcity_outside_01.tmx": {
+            "scale": 0.6503417968749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.2696148359487,
+                "y": 511.2696148359487
+            }
+        },
+        "maps/tmx/graalcity_outside_02.tmx": {
+            "scale": 0.6503417968749999,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 31.521886027479542,
+                "y": 511.2696148359487
+            }
+        },
+        "maps/tmx/graalcity_outside_06.tmx": {
+            "scale": 0.6503417968749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.2696148359487,
+                "y": 511.2696148359487
+            }
+        },
+        "maps/tmx/graalcity_outside_08.tmx": {
+            "scale": 0.6503417968749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.2696148359487,
+                "y": 511.2696148359487
+            }
+        },
+        "maps/tmx/graalcity_outside_11.tmx": {
+            "scale": 0.6503417968749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.2696148359487,
+                "y": 511.2696148359487
+            }
+        },
+        "maps/tmx/graalcity_outside_13.tmx": {
+            "scale": 0.6503417968749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.2696148359487,
+                "y": 511.2696148359487
+            }
+        },
+        "maps/tmx/graalcity_outside_15.tmx": {
+            "scale": 0.6503417968749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.2696148359487,
+                "y": 511.2696148359487
+            }
+        },
+        "maps/tmx/graalcity_outside_18.tmx": {
+            "scale": 0.6503417968749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.2696148359487,
+                "y": 511.2696148359487
+            }
+        },
+        "maps/tmx/graalcity_outside_21.tmx": {
+            "scale": 0.8006347656249999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.46917118985186,
+                "y": 511.46917118985186
+            }
+        },
+        "maps/tmx/graalcity_outside_22.tmx": {
+            "scale": 0.8006347656249999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 410.2994450204306,
+                "y": 542.6943953162164
+            }
+        },
+        "maps/tmx/graalcity_outside_23.tmx": {
+            "scale": 0.8006347656249999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 410.2994450204306,
+                "y": 542.6943953162164
+            }
+        },
+        "maps/tmx/graalcity_outside_24.tmx": {
+            "scale": 0.8006347656249999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 410.2994450204306,
+                "y": 542.6943953162164
+            }
+        },
+        "test2.tmx": {
+            "scale": 1.8713020833333331,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 479.8797628656517,
+                "y": 319.8307773664728
+            }
+        }
+    },
+    "last.imagePath": "/home/x0g/Downloads/idbfs.4/idbfs 4/9baef3bed879372ecad88b9873e8b1b0/Login_Classic_iPhone/levels/images/dc",
+    "map.height": 128,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 128,
+    "openFiles": [
+        "classiciphone_pics4.tsx",
+        "GraalRebornMap.tmx",
+        "test2.tmx",
+        "interior1.tmx",
+        "GraalCityEntry.tmx",
+        "Test.tsx",
+        "maps/tmx/abermose_inside_01.tmx",
+        "maps/tmx/aeria_cavern_01.tmx",
+        "maps/tmx/aeria_inside_townhall_01.tmx",
+        "maps/tmx/ancienttemplesand2.tmx",
+        "maps/tmx/avalon_church_01.tmx",
+        "maps/tmx/avalon_quest_15.tmx",
+        "maps/tmx/avalon_quest_map_09.tmx",
+        "maps/tmx/babord_bowling_inside_02.tmx",
+        "maps/tmx/babord_pizza_03.tmx",
+        "maps/tmx/baddycastle_3.tmx",
+        "maps/tmx/bartholomew_inside_01.tmx",
+        "maps/tmx/cheet_uncle_01.tmx",
+        "maps/tmx/chriskillem_icearena_01.tmx",
+        "maps/tmx/classic_hell_05.tmx",
+        "maps/tmx/classic_tavern-bar01.tmx",
+        "maps/tmx/classic_tule_outside_16.tmx",
+        "maps/tmx/classic_tule_outside_06.tmx",
+        "maps/tmx/classic_tule_outside_03.tmx",
+        "maps/tmx/classic_tule_clothesshop.tmx",
+        "maps/tmx/classic_weddingchapel0.tmx",
+        "maps/tmx/classic_weddingchapel01.tmx",
+        "maps/tmx/classic_weddingchapel02.tmx",
+        "maps/tmx/classic_weddinghell01.tmx",
+        "maps/tmx/classic_weddinghell0.tmx",
+        "maps/tmx/gc_ctf_race_02.tmx",
+        "maps/tmx/gc_ctf_flash_09.tmx",
+        "maps/tmx/gc_connectfour_team.tmx",
+        "maps/tmx/gc_ctf_bluesmall_01.tmx",
+        "maps/tmx/gc_connectfour_01.tmx",
+        "maps/tmx/gc_chess_01.tmx",
+        "maps/tmx/gc_chairspar_02.tmx",
+        "maps/tmx/gc_chesspieces.tmx",
+        "maps/tmx/gc_connectfourpub_01.tmx",
+        "maps/tmx/graalcastle_inside_food.tmx",
+        "maps/tmx/graalcastle_inside_b03.tmx",
+        "maps/tmx/graalcastle_inside_04.tmx",
+        "maps/tmx/graalcity_outside_24.tmx",
+        "maps/tmx/graalcity_outside_23.tmx",
+        "maps/tmx/graalcity_outside_21.tmx",
+        "maps/tmx/graalcity_outside_22.tmx",
+        "maps/tmx/graalcity_outside_18.tmx",
+        "maps/tmx/graalcity_outside_15.tmx",
+        "maps/tmx/graalcity_outside_13.tmx",
+        "maps/tmx/graalcity_outside_11.tmx",
+        "maps/tmx/graalcity_outside_08.tmx",
+        "maps/tmx/graalcity_outside_06.tmx",
+        "maps/tmx/graalcity_outside_02.tmx",
+        "maps/tmx/graalcity_outside_01.tmx"
+    ],
+    "project": "GraalReborn.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "classiciphone_pics4.tsx",
+        "GraalRebornMap.tmx",
+        "test2.tmx",
+        "interior1.tmx",
+        "GraalCityEntry.tmx",
+        "Test.tsx",
+        "maps/tmx/abermose_inside_01.tmx",
+        "maps/tmx/aeria_cavern_01.tmx",
+        "maps/tmx/aeria_inside_townhall_01.tmx",
+        "maps/tmx/ancienttemplesand2.tmx",
+        "maps/tmx/avalon_church_01.tmx",
+        "maps/tmx/avalon_quest_15.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.type": 0
+}

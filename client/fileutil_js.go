@@ -29,7 +29,7 @@ func ReadGameFile(path string) ([]byte, error) {
 
 // ListGameDir fetches the list of image files in a server-side directory by
 // calling /api/assets/list?dir=<category>. Used by the cosmetic menu on WASM.
-// dir may be a full path like "Assets/offline/levels/bodies"; only the last
+// dir may be a full path like "assets/offline/levels/bodies"; only the last
 // component ("bodies") is sent to the server.
 func ListGameDir(dir string) []string {
 	origin := js.Global().Get("location").Get("origin").String()

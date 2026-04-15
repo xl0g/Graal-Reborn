@@ -6,7 +6,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"strings"
 )
 
 func main() {
@@ -56,39 +55,16 @@ func main() {
 	// Game asset directories (served relative to the project root where the
 	// server binary is expected to run).
 	mux.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
-	mux.Handle("/Assets/", http.StripPrefix("/Assets/", http.FileServer(http.Dir("Assets"))))
+	mux.Handle("/maps/", http.StripPrefix("/maps/", http.FileServer(http.Dir("maps"))))
 	mux.Handle("/GANITEMPLATE/", http.StripPrefix("/GANITEMPLATE/", http.FileServer(http.Dir("GANITEMPLATE"))))
 
 	staticDir := "server/static"
 	staticFS := http.FileServer(http.Dir(staticDir))
 
-	// Catch-all: serve game assets from project root (.tmx, .tsx, .png…)
-	// then fall back to server/static (index.html, game.wasm, wasm_exec.js).
-	// Allowed root-level extensions to avoid exposing source code / DB.
-	rootAllowed := map[string]bool{
-		".tmx":  true,
-		".tsx":  true,
-		".png":  true,
-		".gif":  true,
-		".wav":  true,
-		".mp3":  true,
-		".ogg":  true,
-	}
-	rootFS := http.FileServer(http.Dir("."))
-
+	// Catch-all: fall back to server/static (index.html, game.wasm, wasm_exec.js).
+	// Game assets are served via dedicated routes: /assets/, /maps/, /GANITEMPLATE/.
 	if _, err := os.Stat(staticDir); err == nil {
 		mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-			// Serve root-level game data files by extension.
-			path := r.URL.Path
-			dot := strings.LastIndex(path, ".")
-			if dot >= 0 && rootAllowed[strings.ToLower(path[dot:])] {
-				// Only allow files directly at root (no path traversal).
-				if !strings.Contains(path[1:], "/") {
-					rootFS.ServeHTTP(w, r)
-					return
-				}
-			}
-			// Everything else (index.html, game.wasm, wasm_exec.js, …) from static.
 			staticFS.ServeHTTP(w, r)
 		})
 	} else {

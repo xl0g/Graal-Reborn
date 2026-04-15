@@ -24,7 +24,9 @@ const (
 	mountedMoveSpeed = 320.0
 
 	// NPC type for horse (must match server constant)
-	NPCTypeHorse = 5
+	NPCTypeHorse      = 5
+	NPCTypeAggressive = 6
+	NPCTypePassive    = 7
 )
 
 // Gani animation states
@@ -60,6 +62,8 @@ var npcTints = []color.RGBA{
 	{255, 160, 200, 255}, // 3 traveler
 	{210, 170, 120, 255}, // 4 farmer
 	{220, 190, 130, 255}, // 5 horse
+	{255, 80, 80, 255},   // 6 aggressive (red)
+	{200, 255, 200, 255}, // 7 passive (light green)
 }
 
 const interpK = 20.0
@@ -370,19 +374,19 @@ func (c *Character) Update(dt float64) {
 			// Ebiten image creation is deferred to the main thread inside AnimImage.Frame().
 			var imgs cosmeticImgs
 			if body != "" {
-				imgs.body = loadAnimImage(filepath.Join("Assets/offline/levels/bodies", body))
+				imgs.body = loadAnimImage(filepath.Join("assets/offline/levels/bodies", body))
 			}
 			if head != "" {
-				imgs.head = loadAnimImage(filepath.Join("Assets/offline/levels/heads", head))
+				imgs.head = loadAnimImage(filepath.Join("assets/offline/levels/heads", head))
 			}
 			if hat != "" {
-				imgs.hat = loadAnimImage(filepath.Join("Assets/offline/levels/hats", hat))
+				imgs.hat = loadAnimImage(filepath.Join("assets/offline/levels/hats", hat))
 			}
 			if shield != "" {
-				imgs.shield = loadAnimImage(filepath.Join("Assets/offline/levels/shields", shield))
+				imgs.shield = loadAnimImage(filepath.Join("assets/offline/levels/shields", shield))
 			}
 			if sword != "" {
-				imgs.sword = loadAnimImage(filepath.Join("Assets/offline/levels/swords", sword))
+				imgs.sword = loadAnimImage(filepath.Join("assets/offline/levels/swords", sword))
 			}
 			c.cosmu.Lock()
 			c.cosImgs = imgs

@@ -11,7 +11,7 @@ var gralatImg *ebiten.Image
 
 func loadGralatImage() {
 	img, _, err := ebitenutil.NewImageFromFile(
-		"Assets/offline/levels/images/downloads/gralats.png")
+		"assets/offline/levels/images/downloads/gralats.png")
 	if err != nil {
 		return
 	}

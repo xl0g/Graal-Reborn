@@ -69,6 +69,15 @@ func (g *Game) drawPlaying(screen *ebiten.Image) {
 	if g.debugOverlay {
 		g.drawDebugOverlay(screen)
 	}
+
+	// Social panel (Friends / Guilds / Quests) — drawn over everything except overlays
+	if g.socialPanel != nil && g.panelMenu != nil {
+		activeSub := g.panelMenu.ActiveSocial()
+		if activeSub != "" {
+			subTop := g.panelMenu.SocialPanelTop()
+			g.socialPanel.Draw(screen, activeSub, subTop)
+		}
+	}
 }
 
 // drawWorld renders all world-space elements into dst using the given camera offset.
@@ -87,7 +96,7 @@ func (g *Game) drawWorld(dst *ebiten.Image, camX, camY float64) {
 	g.drawWorldGralats(dst, camX, camY)
 	g.drawWorldItems(dst, camX, camY)
 
-	onMainMap := g.currentMapName == "GraalRebornMap.tmx" || g.currentMapName == ""
+	onMainMap := g.currentMapName == "maps/GraalRebornMap.tmx" || g.currentMapName == ""
 
 	g.mu.Lock()
 	if onMainMap {
@@ -208,8 +217,69 @@ func (g *Game) drawHUD(screen *ebiten.Image) {
 	invHint := "[I] Inventory"
 	DrawText(screen, invHint, screenW/2-len(invHint)*fontW/2, screenH-8, colTextDim)
 
+	// Minimap (bottom-right, above virtual buttons)
+	g.drawMinimap(screen)
+
 	// Virtual action buttons
 	g.drawVirtualButtons(screen)
+}
+
+// drawMinimap renders a small overview of the current map with player positions.
+func (g *Game) drawMinimap(screen *ebiten.Image) {
+	const (
+		mmW  = 100
+		mmH  = 100
+		mmX  = screenW - mmW - 8
+		mmY  = screenH - mmH - 80 // above virtual buttons
+		mmBorder = 2
+	)
+
+	// Background
+	DrawRect(screen, mmX-mmBorder, mmY-mmBorder, mmW+mmBorder*2, mmH+mmBorder*2,
+		color.RGBA{60, 80, 120, 200})
+	DrawRect(screen, mmX, mmY, mmW, mmH, color.RGBA{8, 14, 28, 220})
+
+	// Label
+	DrawText(screen, "MAP", mmX+mmW/2-fontW*3/2, mmY-3, color.RGBA{150, 170, 210, 200})
+
+	ww, wh := g.worldSize()
+	if ww <= 0 || wh <= 0 || g.localChar == nil {
+		return
+	}
+
+	scaleX := float64(mmW) / float64(ww)
+	scaleY := float64(mmH) / float64(wh)
+
+	// Other players (blue dots)
+	g.mu.Lock()
+	for _, p := range g.otherPlayers {
+		dx := int(p.X*scaleX) + mmX
+		dy := int(p.Y*scaleY) + mmY
+		if dx >= mmX && dx < mmX+mmW && dy >= mmY && dy < mmY+mmH {
+			DrawRect(screen, dx-1, dy-1, 3, 3, color.RGBA{80, 140, 255, 240})
+		}
+	}
+	// NPCs
+	for _, n := range g.npcs {
+		dx := int(n.X*scaleX) + mmX
+		dy := int(n.Y*scaleY) + mmY
+		if dx >= mmX && dx < mmX+mmW && dy >= mmY && dy < mmY+mmH {
+			clr := color.RGBA{100, 200, 100, 200}
+			if n.NPCType == NPCTypeAggressive {
+				clr = color.RGBA{220, 60, 60, 220}
+			} else if n.NPCType == NPCTypePassive {
+				clr = color.RGBA{200, 220, 100, 200}
+			}
+			DrawRect(screen, dx, dy, 2, 2, clr)
+		}
+	}
+	g.mu.Unlock()
+
+	// Local player (white dot, always on top)
+	lx := int(g.localChar.X*scaleX) + mmX
+	ly := int(g.localChar.Y*scaleY) + mmY
+	DrawRect(screen, lx-2, ly-2, 5, 5, color.RGBA{255, 255, 255, 255})
+	DrawRect(screen, lx-1, ly-1, 3, 3, color.RGBA{255, 210, 50, 255})
 }
 
 // drawVirtualButtons renders the grab (glove) and sword virtual buttons.
@@ -494,6 +564,38 @@ func (g *Game) drawViewedProfile(screen *ebiten.Image) {
 	previewX := float64(px+258) + float64(previewAreaW-previewW)/2
 	previewY := float64(py+54) + float64(previewAreaH-previewH)/2
 	p.DrawPreview(screen, g.previewImg, previewX, previewY, previewScale)
+
+	// Add Friend button
+	isFriend := false
+	for _, f := range g.friends {
+		if f.Name == p.Name && f.Status == "accepted" {
+			isFriend = true
+			break
+		}
+	}
+	isPending := false
+	for _, f := range g.friends {
+		if f.Name == p.Name && f.Status == "pending" {
+			isPending = true
+			break
+		}
+	}
+	btnY := py + ph - 36
+	if !isFriend && !isPending {
+		DrawRect(screen, px+18, btnY, 130, 22, color.RGBA{55, 95, 175, 230})
+		DrawText(screen, "+ Add Friend", px+24, btnY+15, colTextWhite)
+		// Click detection is done in handlePlayerClick
+	} else if isPending {
+		DrawText(screen, "Request sent", px+18, btnY+15, colTextDim)
+	} else {
+		DrawText(screen, "♥ Friend", px+18, btnY+15, colTextOK)
+	}
+
+	// Invite to guild button
+	if g.myGuild != nil {
+		DrawRect(screen, px+165, btnY, 130, 22, color.RGBA{95, 55, 175, 230})
+		DrawText(screen, "+ Invite to Guild", px+168, btnY+15, colTextWhite)
+	}
 
 	hint := "[Esc] Close"
 	DrawText(screen, hint, px+(pw-len(hint)*fontW)/2, py+ph-10, colTextDim)

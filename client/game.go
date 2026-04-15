@@ -138,6 +138,14 @@ type Game struct {
 
 	// Debug overlay (F3)
 	debugOverlay bool
+
+	// Social
+	friends        []FriendEntry
+	friendRequests []FriendEntry
+	myGuild        *GuildInfo
+	guildList      []GuildListEntry
+	quests         []QuestEntry
+	socialPanel    *SocialPanel // unified friends/guilds/quests panel
 }
 
 // NewGame initialises the Game. Assets may be nil (graceful fallback).
@@ -167,10 +175,13 @@ func NewGame(bodyImg, headImg, tilesImg *ebiten.Image) *Game {
 	g.chunkMgr = NewChunkManager()
 
 	// Load TMX map
-	g.loadMap("GraalRebornMap.tmx", false)
+	g.loadMap("maps/GraalRebornMap.tmx", false)
 
 	// Panel menu
 	g.panelMenu = NewPanelMenu()
+
+	// Social panel (Friends / Guilds / Quests)
+	g.socialPanel = NewSocialPanel()
 
 	// Emoji images
 	loadEmojiImages()
@@ -186,13 +197,13 @@ func NewGame(bodyImg, headImg, tilesImg *ebiten.Image) *Game {
 
 	// Tap-to-buy icon (shown above priced world items when nearby)
 	g.tapToBuyImg, _, _ = ebitenutil.NewImageFromFile(
-		"Assets/offline/levels/images/dcicon/dcicon_taptobuy0.png")
+		"assets/offline/levels/images/dcicon/dcicon_taptobuy0.png")
 
 	// Virtual action button images
 	g.grabKeyImg, _, _ = ebitenutil.NewImageFromFile(
-		"Assets/offline/levels/images/classiciphone/classiciphone_virtualkey_glove_blue.png")
+		"assets/offline/levels/images/classiciphone/classiciphone_virtualkey_glove_blue.png")
 	g.swordKeyImg, _, _ = ebitenutil.NewImageFromFile(
-		"Assets/offline/levels/images/classiciphone/classiciphone_virtualkey_sword_blue.png")
+		"assets/offline/levels/images/classiciphone/classiciphone_virtualkey_sword_blue.png")
 
 	return g
 }
@@ -422,9 +433,9 @@ func loadAssets() (body, head, tiles *ebiten.Image) {
 		}
 		return img
 	}
-	body = from("assets/character.png")
-	head = from("assets/head.png")
-	tiles = from("assets/tiles.png")
+	body = from("assets/sprites/character.png")
+	head = from("assets/sprites/head.png")
+	tiles = from("assets/sprites/tiles.png")
 	_ = err
 	return
 }

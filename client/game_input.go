@@ -95,6 +95,33 @@ func (g *Game) updatePlaying(dt float64) error {
 		g.inventoryMenu.Open()
 	}
 
+	// Social panel update (Friends / Guilds / Quests)
+	if g.socialPanel != nil && g.panelMenu != nil {
+		activeSub := g.panelMenu.ActiveSocial()
+		if activeSub != "" {
+			subTop := g.panelMenu.SocialPanelTop()
+			if action := g.socialPanel.Update(activeSub, subTop); action != nil && g.conn != nil {
+				msg := map[string]interface{}{"type": action.Type}
+				for k, v := range action.Payload {
+					msg[k] = v
+				}
+				g.conn.SendJSON(msg)
+				// Refresh relevant data after action
+				switch action.Type {
+				case "friend_add", "friend_accept", "friend_remove":
+					g.conn.SendJSON(map[string]string{"type": "friend_list"})
+				case "guild_create", "guild_join", "guild_leave":
+					g.conn.SendJSON(map[string]string{"type": "guild_info"})
+					g.conn.SendJSON(map[string]string{"type": "guild_list"})
+				case "quest_start":
+					g.conn.SendJSON(map[string]string{"type": "quest_list"})
+				case "guild_list":
+					// already sent above
+				}
+			}
+		}
+	}
+
 	// F3 → toggle debug overlay
 	if inpututil.IsKeyJustPressed(ebiten.KeyF3) {
 		g.debugOverlay = !g.debugOverlay
@@ -229,8 +256,12 @@ func (g *Game) updatePlaying(dt float64) error {
 		g.signDialog == "" && g.npcDialog == "" {
 		mx, my := ebiten.CursorPosition()
 		if !g.isOverVirtualButton(mx, my) {
-			// World item dialog buy button
-			if g.worldItemDialog != nil {
+			// Viewed player profile buttons (Add Friend / Invite to Guild)
+			if g.viewedPlayer != nil {
+				if g.handleViewedProfileClick(mx, my) {
+					// click consumed
+				}
+			} else if g.worldItemDialog != nil {
 				if g.handleWorldItemDialogClick(mx, my) {
 					// click was consumed by the dialog
 				} else {
@@ -373,7 +404,7 @@ func (g *Game) updatePlaying(dt float64) error {
 	}
 
 	// Nearest NPC (main map only) and world item
-	if g.currentMapName == "GraalRebornMap.tmx" || g.currentMapName == "" {
+	if g.currentMapName == "maps/GraalRebornMap.tmx" || g.currentMapName == "" {
 		g.nearNPCID, g.nearNPCType = g.nearestNPC()
 	} else {
 		g.nearNPCID, g.nearNPCType = "", -1
@@ -625,6 +656,56 @@ func (g *Game) handleMovement(dt float64) {
 		g.lastSentMoving = c.Moving
 		g.lastSentMounted = c.Mounted
 	}
+}
+
+// handleViewedProfileClick handles clicks on the viewed player profile buttons.
+// Returns true if the click was consumed.
+func (g *Game) handleViewedProfileClick(mx, my int) bool {
+	p := g.viewedPlayer
+	if p == nil {
+		return false
+	}
+	const (
+		pw = 480
+		ph = 300
+		px = screenW/2 - pw/2
+		py = screenH/2 - ph/2
+	)
+
+	// Close button area (Esc is also handled, but clicks outside close)
+	if mx < px || mx > px+pw || my < py || my > py+ph {
+		g.viewedPlayer = nil
+		return true
+	}
+
+	btnY := py + ph - 36
+	// Add Friend button (px+18, btnY, 130, 22)
+	if mx >= px+18 && mx < px+148 && my >= btnY && my < btnY+22 {
+		isFriend := false
+		isPending := false
+		for _, f := range g.friends {
+			if f.Name == p.Name {
+				if f.Status == "accepted" {
+					isFriend = true
+				} else {
+					isPending = true
+				}
+			}
+		}
+		if !isFriend && !isPending && g.conn != nil {
+			g.conn.SendJSON(map[string]interface{}{"type": "friend_add", "target": p.Name})
+		}
+		return true
+	}
+
+	// Invite to Guild button (px+165, btnY, 130, 22)
+	if g.myGuild != nil && mx >= px+165 && mx < px+295 && my >= btnY && my < btnY+22 {
+		// For now just show a message (guild invite system can be expanded)
+		g.chat.AddMessage("", "[Guild] Invite feature coming soon!", true)
+		return true
+	}
+
+	return false
 }
 
 // ──────────────────────────────────────────────────────────────
@@ -919,7 +1000,7 @@ func (g *Game) isBlockedByWorldItem(px, py, pw, ph float64) bool {
 	return false
 }
 
-const defaultWorldItemSprite = "Assets/offline/levels/images/dcvip/dcvip_wobblingfurniture0.gif"
+const defaultWorldItemSprite = "assets/offline/levels/images/dcvip/dcvip_wobblingfurniture0.gif"
 
 func (g *Game) getWorldItemSprite(path string) *ebiten.Image {
 	if path == "" {

@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	cosBase     = "Assets/offline/levels"
+	cosBase     = "assets/offline/levels"
 	cosItemSize = 52 // grid cell size in pixels
 	cosCols     = 10 // thumbnails per row
 	cosRows     = 5  // visible rows
@@ -445,7 +445,7 @@ func (m *CosmeticMenu) Draw(screen *ebiten.Image) {
 
 	files := m.currentFiles()
 	if len(files) == 0 {
-		msg := "No files found in Assets/offline/levels/"
+		msg := "No files found in assets/offline/levels/"
 		DrawText(screen, msg, screenW/2-len(msg)*fontW/2, 200, colTextErr)
 		hint := "[C / Esc] Close"
 		DrawText(screen, hint, screenW/2-len(hint)*fontW/2, screenH-40, colTextDim)

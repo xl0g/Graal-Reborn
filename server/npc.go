@@ -10,16 +10,29 @@ const (
 	mapHeight = 1120.0 // 70 tiles × 16 px — matches GraalRebornMap.tmx
 
 	// NPC type constants (must match client-side NPCTypeHorse)
-	NPCTypeVillager = 0
-	NPCTypeMerchant = 1
-	NPCTypeGuard    = 2
-	NPCTypeTraveler = 3
-	NPCTypeFarmer   = 4
-	NPCTypeHorse    = 5
+	NPCTypeVillager   = 0
+	NPCTypeMerchant   = 1
+	NPCTypeGuard      = 2
+	NPCTypeTraveler   = 3
+	NPCTypeFarmer     = 4
+	NPCTypeHorse      = 5
+	NPCTypeAggressive = 6 // chases players and attacks them
+	NPCTypePassive    = 7 // flees from nearby players
 
 	// Combat
 	npcRespawnTime  = 15.0 // seconds before a dead NPC respawns
 	hitInvincibleDt = 0.5  // seconds of invulnerability after a hit
+
+	// Aggressive NPC constants
+	aggroRange      = 160.0 // pixels — aggro activation distance
+	aggroAttackDist = 28.0  // pixels — melee attack distance
+	aggroAttackCD   = 1.2   // seconds between attacks
+	aggroDamage     = 1     // HP removed per hit
+	aggroSpeed      = 90.0  // chase speed (px/s)
+
+	// Passive NPC constants
+	passiveFleeRange = 100.0 // pixels — flee activation distance
+	passiveFleeSpeed = 120.0 // flee speed (px/s)
 )
 
 // NPC is a server-side entity with wandering AI, optional HP, and mount support.
@@ -46,15 +59,26 @@ type NPC struct {
 	customDialog string
 	customGMin   int
 	customGMax   int
+
+	// Aggressive / Passive AI
+	aggroTarget   string  // player ID being chased (aggressive NPCs)
+	attackCooldown float64 // countdown until next attack
 }
 
 func newNPC(id, name string, x, y float64, npcType int) *NPC {
 	maxHP := 5
 	speed := 70.0 + mrand.Float64()*50.0
 
-	if npcType == NPCTypeHorse {
-		maxHP = 0   // horses cannot be damaged
+	switch npcType {
+	case NPCTypeHorse:
+		maxHP = 0 // horses cannot be damaged
 		speed = 55.0 + mrand.Float64()*30.0
+	case NPCTypeAggressive:
+		maxHP = 8
+		speed = aggroSpeed + mrand.Float64()*20.0
+	case NPCTypePassive:
+		maxHP = 3
+		speed = passiveFleeSpeed + mrand.Float64()*20.0
 	}
 
 	return &NPC{
@@ -79,9 +103,18 @@ func newNPC(id, name string, x, y float64, npcType int) *NPC {
 	}
 }
 
+// playerPos is a lightweight snapshot of a connected player's position.
+type playerPos struct {
+	id   string
+	x, y float64
+	alive bool
+}
+
 // update advances the NPC's AI by dt seconds.
+// players is a snapshot of all connected players (used by aggressive/passive AI).
 // collMap may be nil (NPCs move freely when no map is loaded).
-func (n *NPC) update(dt float64, collMap *CollisionMap) {
+// Returns a non-empty playerID if this NPC just attacked that player.
+func (n *NPC) update(dt float64, collMap *CollisionMap, players []playerPos) (attackedID string) {
 	// Respawn countdown when dead
 	if !n.alive {
 		n.respawnTimer -= dt
@@ -93,23 +126,150 @@ func (n *NPC) update(dt float64, collMap *CollisionMap) {
 			n.state.AnimState = ""
 			n.targetX = n.homeX
 			n.targetY = n.homeY
+			n.aggroTarget = ""
 			n.timer = 2.0
 		}
-		return
+		return ""
 	}
 
 	// Hit invulnerability cooldown
 	if n.hitCooldown > 0 {
 		n.hitCooldown -= dt
 	}
+	if n.attackCooldown > 0 {
+		n.attackCooldown -= dt
+	}
 
 	// When mounted, the horse position is driven by the player's move messages
 	if n.mountedBy != "" {
 		n.state.Moving = false
+		return ""
+	}
+
+	switch n.state.NPCType {
+	case NPCTypeAggressive:
+		return n.updateAggressive(dt, collMap, players)
+	case NPCTypePassive:
+		n.updatePassive(dt, collMap, players)
+		return ""
+	default:
+		n.updateWander(dt, collMap)
+		return ""
+	}
+}
+
+// updateAggressive: chase nearest player; attack when close enough.
+func (n *NPC) updateAggressive(dt float64, collMap *CollisionMap, players []playerPos) string {
+	const npcW, npcH = 28.0, 28.0
+
+	// Find nearest alive player
+	var nearestID string
+	nearestDist := math.MaxFloat64
+	var nearestX, nearestY float64
+	for _, p := range players {
+		if !p.alive {
+			continue
+		}
+		dx := p.x - n.state.X
+		dy := p.y - n.state.Y
+		d := math.Sqrt(dx*dx + dy*dy)
+		if d < nearestDist {
+			nearestDist = d
+			nearestID = p.id
+			nearestX = p.x
+			nearestY = p.y
+		}
+	}
+
+	if nearestID == "" || nearestDist > aggroRange {
+		// No player in range — wander back home
+		n.aggroTarget = ""
+		n.updateWander(dt, collMap)
+		return ""
+	}
+
+	n.aggroTarget = nearestID
+	n.state.Moving = true
+
+	// Attack if close enough
+	if nearestDist <= aggroAttackDist && n.attackCooldown <= 0 {
+		n.attackCooldown = aggroAttackCD
+		return nearestID
+	}
+
+	// Chase player
+	dx := nearestX - n.state.X
+	dy := nearestY - n.state.Y
+	dist := math.Sqrt(dx*dx + dy*dy)
+	if dist < 1 {
+		n.state.Moving = false
+		return ""
+	}
+	step := n.speed * dt
+	newX := clamp(n.state.X+(dx/dist)*step, 1, mapWidth-npcW-1)
+	newY := clamp(n.state.Y+(dy/dist)*step, 1, mapHeight-npcH-1)
+
+	if collMap == nil || !collMap.IsBlocked(newX, n.state.Y, npcW, npcH) {
+		n.state.X = newX
+	}
+	if collMap == nil || !collMap.IsBlocked(n.state.X, newY, npcW, npcH) {
+		n.state.Y = newY
+	}
+	n.setDirFromDelta(dx, dy)
+	return ""
+}
+
+// updatePassive: flee from nearest player when too close.
+func (n *NPC) updatePassive(dt float64, collMap *CollisionMap, players []playerPos) {
+	const npcW, npcH = 28.0, 28.0
+
+	// Find nearest player
+	nearestDist := math.MaxFloat64
+	var nearestX, nearestY float64
+	for _, p := range players {
+		dx := p.x - n.state.X
+		dy := p.y - n.state.Y
+		d := math.Sqrt(dx*dx + dy*dy)
+		if d < nearestDist {
+			nearestDist = d
+			nearestX = p.x
+			nearestY = p.y
+		}
+	}
+
+	if nearestDist > passiveFleeRange {
+		// No player nearby — wander normally
+		n.updateWander(dt, collMap)
 		return
 	}
 
-	// Standard wandering AI
+	// Flee away from player
+	dx := n.state.X - nearestX
+	dy := n.state.Y - nearestY
+	dist := math.Sqrt(dx*dx + dy*dy)
+	if dist < 1 {
+		n.state.Moving = false
+		return
+	}
+	n.state.Moving = true
+	step := passiveFleeSpeed * dt
+	newX := clamp(n.state.X+(dx/dist)*step, 1, mapWidth-npcW-1)
+	newY := clamp(n.state.Y+(dy/dist)*step, 1, mapHeight-npcH-1)
+
+	if collMap == nil || !collMap.IsBlocked(newX, n.state.Y, npcW, npcH) {
+		n.state.X = newX
+	}
+	if collMap == nil || !collMap.IsBlocked(n.state.X, newY, npcW, npcH) {
+		n.state.Y = newY
+	}
+	// Face away from player
+	n.setDirFromDelta(dx, dy)
+}
+
+// updateWander is the standard random wandering AI (used by villagers, guards, etc.).
+func (n *NPC) updateWander(dt float64, collMap *CollisionMap) {
+	const npcW, npcH = 28.0, 28.0
+
 	dx := n.targetX - n.state.X
 	dy := n.targetY - n.state.Y
 	dist := math.Sqrt(dx*dx + dy*dy)
@@ -128,20 +288,16 @@ func (n *NPC) update(dt float64, collMap *CollisionMap) {
 	} else {
 		n.state.Moving = true
 		step := n.speed * dt
-
-		// Try to move with wall-sliding collision (X then Y independently).
-		const npcW, npcH = 28.0, 28.0 // slightly smaller than a tile for smoother sliding
-
 		newX := clamp(n.state.X+(dx/dist)*step, 1, mapWidth-npcW-1)
 		newY := clamp(n.state.Y+(dy/dist)*step, 1, mapHeight-npcH-1)
 
 		blocked := false
-		if !collMap.IsBlocked(newX, n.state.Y, npcW, npcH) {
+		if collMap == nil || !collMap.IsBlocked(newX, n.state.Y, npcW, npcH) {
 			n.state.X = newX
 		} else {
 			blocked = true
 		}
-		if !collMap.IsBlocked(n.state.X, newY, npcW, npcH) {
+		if collMap == nil || !collMap.IsBlocked(n.state.X, newY, npcW, npcH) {
 			n.state.Y = newY
 		} else {
 			blocked = true
@@ -160,19 +316,23 @@ func (n *NPC) update(dt float64, collMap *CollisionMap) {
 		} else {
 			n.stuckTimer = 0
 		}
+		n.setDirFromDelta(dx, dy)
+	}
+}
 
-		if math.Abs(dx) > math.Abs(dy) {
-			if dx > 0 {
-				n.state.Dir = 3
-			} else {
-				n.state.Dir = 1
-			}
+// setDirFromDelta sets the NPC direction based on movement delta.
+func (n *NPC) setDirFromDelta(dx, dy float64) {
+	if math.Abs(dx) > math.Abs(dy) {
+		if dx > 0 {
+			n.state.Dir = 3
 		} else {
-			if dy > 0 {
-				n.state.Dir = 2
-			} else {
-				n.state.Dir = 0
-			}
+			n.state.Dir = 1
+		}
+	} else {
+		if dy > 0 {
+			n.state.Dir = 2
+		} else {
+			n.state.Dir = 0
 		}
 	}
 }

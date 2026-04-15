@@ -34,9 +34,9 @@ func newHub() *Hub {
 	}
 
 	// Load tile collision map (path relative to server working directory).
-	if cm, err := LoadCollisionMap("GraalRebornMap.tmx"); err == nil {
+	if cm, err := LoadCollisionMap("maps/GraalRebornMap.tmx"); err == nil {
 		h.collMap = cm
-		log.Println("[MAP] Collision map loaded from GraalRebornMap.tmx")
+		log.Println("[MAP] Collision map loaded from maps/GraalRebornMap.tmx")
 	} else {
 		log.Printf("[MAP] Could not load collision map: %v — NPCs will ignore walls", err)
 	}
@@ -48,16 +48,18 @@ func newHub() *Hub {
 	}{
 		// Regular NPCs
 		{"Thibaut the Villager", 300, 200, NPCTypeVillager},
-		// {"Marceline the Merchant", 600, 280, NPCTypeMerchant},
-		// {"Galahad the Guard", 800, 160, NPCTypeGuard},
-		// {"Eleanor the Traveller", 420, 480, NPCTypeTraveler},
-		// {"Baptiste the Farmer", 680, 520, NPCTypeFarmer},
-		// {"Sylvain the Innkeeper", 180, 400, NPCTypeMerchant},
-		// {"Noemie the Sorceress", 850, 550, NPCTypeVillager},
-		// Horses (NPCTypeHorse = 5)
-		// {"War Horse", 240, 360, NPCTypeHorse},
-		// {"Grey Mare", 700, 430, NPCTypeHorse},
-		// {"Swift Foal", 450, 570, NPCTypeHorse},
+		{"Marceline the Merchant", 600, 280, NPCTypeMerchant},
+		{"Eleanor the Traveller", 420, 480, NPCTypeTraveler},
+		{"Baptiste the Farmer", 680, 520, NPCTypeFarmer},
+		// Passive animals (flee from players)
+		{"Lapin", 350, 350, NPCTypePassive},
+		{"Biche", 750, 400, NPCTypePassive},
+		{"Poulet", 500, 600, NPCTypePassive},
+		// Aggressive monsters
+		{"Slime Rouge", 200, 700, NPCTypeAggressive},
+		{"Slime Vert", 800, 650, NPCTypeAggressive},
+		{"Gobelin", 550, 800, NPCTypeAggressive},
+		{"Bat", 900, 300, NPCTypeAggressive},
 	}
 
 	for i, def := range npcDefs {
@@ -382,8 +384,46 @@ func (h *Hub) runGameLoop() {
 		}
 
 		h.mu.Lock()
+		// Build player snapshot for NPC AI
+		players := make([]playerPos, 0, len(h.clients))
+		for c := range h.clients {
+			players = append(players, playerPos{
+				id:    c.playerID,
+				x:     c.state.X,
+				y:     c.state.Y,
+				alive: c.state.HP > 0,
+			})
+		}
+		// Update NPCs and collect attacks
+		type npcAttack struct {
+			playerID string
+		}
+		var attacks []npcAttack
 		for _, n := range h.npcs {
-			n.update(dt, h.collMap)
+			if attackedID := n.update(dt, h.collMap, players); attackedID != "" {
+				attacks = append(attacks, npcAttack{playerID: attackedID})
+			}
+		}
+		// Apply NPC attacks to players
+		for _, atk := range attacks {
+			for c := range h.clients {
+				if c.playerID == atk.playerID && c.state.HP > 0 {
+					c.state.HP -= aggroDamage
+					if c.state.HP < 0 {
+						c.state.HP = 0
+					}
+					// Notify attacked player
+					data, _ := json.Marshal(map[string]interface{}{
+						"type": "pvp_damage",
+						"hp":   c.state.HP,
+					})
+					select {
+					case c.send <- data:
+					default:
+					}
+					break
+				}
+			}
 		}
 		h.mu.Unlock()
 

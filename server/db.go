@@ -75,8 +75,50 @@ func initDB(path string) error {
 			y           REAL    NOT NULL DEFAULT 0,
 			price       INTEGER NOT NULL DEFAULT 0,
 			item_id     TEXT    NOT NULL DEFAULT '',
-			map_name    TEXT    NOT NULL DEFAULT 'GraalRebornMap.tmx'
+			map_name    TEXT    NOT NULL DEFAULT 'maps/GraalRebornMap.tmx'
 		)`)
+
+	// Friends system
+	_, _ = database.Exec(`
+		CREATE TABLE IF NOT EXISTS friends (
+			user_id    INTEGER NOT NULL,
+			friend_id  INTEGER NOT NULL,
+			status     TEXT    NOT NULL DEFAULT 'pending',
+			created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+			PRIMARY KEY (user_id, friend_id)
+		)`)
+
+	// Guilds system
+	_, _ = database.Exec(`
+		CREATE TABLE IF NOT EXISTS guilds (
+			id          INTEGER PRIMARY KEY AUTOINCREMENT,
+			name        TEXT    UNIQUE NOT NULL,
+			tag         TEXT    NOT NULL DEFAULT '',
+			leader_id   INTEGER NOT NULL,
+			description TEXT    NOT NULL DEFAULT '',
+			created_at  DATETIME DEFAULT CURRENT_TIMESTAMP
+		)`)
+	_, _ = database.Exec(`
+		CREATE TABLE IF NOT EXISTS guild_members (
+			guild_id   INTEGER NOT NULL,
+			user_id    INTEGER NOT NULL,
+			rank       TEXT    NOT NULL DEFAULT 'member',
+			joined_at  DATETIME DEFAULT CURRENT_TIMESTAMP,
+			PRIMARY KEY (guild_id, user_id)
+		)`)
+	_, _ = database.Exec(`ALTER TABLE users ADD COLUMN guild_id INTEGER DEFAULT 0`)
+
+	// Quest progress
+	_, _ = database.Exec(`
+		CREATE TABLE IF NOT EXISTS player_quests (
+			user_id    INTEGER NOT NULL,
+			quest_id   TEXT    NOT NULL,
+			progress   INTEGER NOT NULL DEFAULT 0,
+			completed  INTEGER NOT NULL DEFAULT 0,
+			started_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+			PRIMARY KEY (user_id, quest_id)
+		)`)
+
 	return nil
 }
 

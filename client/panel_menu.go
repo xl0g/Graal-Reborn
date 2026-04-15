@@ -34,14 +34,14 @@ type menuEntry struct {
 }
 
 var menuEntries = []menuEntry{
-	{"Maps", "Assets/offline/levels/images/dc/dc_menuicons_zoom.png"},
-	{"News", "Assets/offline/levels/images/dc/dc_menuicons_news.png"},
-	{"Shop", "Assets/offline/levels/images/dc/dc_menuicons_shop.png"},
-	{"Friends", "Assets/offline/levels/images/dc/dc_menuicons_friends.png"},
-	{"Guilds", "Assets/offline/levels/images/dc/dc_menuicons_guilds.png"},
-	{"Housing", "Assets/offline/levels/images/dc/dc_menuicons_housing.png"},
-	{"Scores", "Assets/offline/levels/images/dc/dc_menuicons_leaderboards.png"},
-	{"PM", "Assets/offline/levels/images/dc/dc_menuicons_pmhistory.png"},
+	{"Maps", "assets/offline/levels/images/dc/dc_menuicons_zoom.png"},
+	{"News", "assets/offline/levels/images/dc/dc_menuicons_news.png"},
+	{"Shop", "assets/offline/levels/images/dc/dc_menuicons_shop.png"},
+	{"Friends", "assets/offline/levels/images/dc/dc_menuicons_friends.png"},
+	{"Guilds", "assets/offline/levels/images/dc/dc_menuicons_guilds.png"},
+	{"Housing", "assets/offline/levels/images/dc/dc_menuicons_housing.png"},
+	{"Scores", "assets/offline/levels/images/dc/dc_menuicons_leaderboards.png"},
+	{"PM", "assets/offline/levels/images/dc/dc_menuicons_pmhistory.png"},
 	{"Inventory", ""},
 	{"Keys", ""},
 }
@@ -57,9 +57,9 @@ type mapEntry struct {
 
 var mapEntries = []mapEntry{
 	// ── TMX maps ──
-	{"GraalReborn City", "GraalRebornMap.tmx", "Main map", false},
-	{"City Entry", "GraalCityEntry.tmx", "Entry", false},
-	{"Interior", "interior1.tmx", "Interior", false},
+	{"GraalReborn City", "maps/GraalRebornMap.tmx", "Main map", false},
+	{"City Entry", "maps/GraalCityEntry.tmx", "Entry", false},
+	{"Interior", "maps/interior1.tmx", "Interior", false},
 	// ── GMAP worlds ──
 	{"Balamb Island", "balambisland.gmap", "World", true},
 	{"Balamb Island 2", "balambisland2.gmap", "World", true},
@@ -102,7 +102,7 @@ func NewPanelMenu() *PanelMenu {
 		icons: make([]*ebiten.Image, len(menuEntries)),
 	}
 	m.openBtnImg, _, _ = ebitenutil.NewImageFromFile(
-		"Assets/offline/levels/images/classiciphone/classiciphone_friendsbutton_blue.png")
+		"assets/offline/levels/images/classiciphone/classiciphone_friendsbutton_blue.png")
 
 	for i, e := range menuEntries {
 		if e.imgPath != "" {
@@ -343,6 +343,8 @@ func (m *PanelMenu) Draw(screen *ebiten.Image) {
 		})
 	case "Maps":
 		m.drawMapsPanel(screen, subY, alpha)
+	case "Friends", "Guilds", "Quests":
+		// Delegated to SocialPanel — drawn by Game.drawPlaying
 	default:
 		if m.activeSub != "" {
 			m.drawSubPanel(screen, subY, m.activeSub, []string{"Coming soon..."})
@@ -524,6 +526,20 @@ func (m *PanelMenu) drawMapsPanel(screen *ebiten.Image, subY int, alpha uint8) {
 
 func inBtn(mx, my, bx, by, size int) bool {
 	return mx >= bx && mx < bx+size && my >= by && my < by+size
+}
+
+// ActiveSocial returns the active social sub-panel name ("Friends"|"Guilds"|"Quests"|"").
+func (m *PanelMenu) ActiveSocial() string {
+	switch m.activeSub {
+	case "Friends", "Guilds", "Quests":
+		return m.activeSub
+	}
+	return ""
+}
+
+// SocialPanelTop returns the Y coordinate where the social sub-panel starts.
+func (m *PanelMenu) SocialPanelTop() int {
+	return m.panelTop() + pmH
 }
 
 func max(a, b int) int {

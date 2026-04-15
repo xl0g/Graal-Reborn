@@ -31,7 +31,7 @@ type Client struct {
 	isAdmin       bool      // whether this player has admin privileges
 }
 
-const defaultMap = "GraalRebornMap.tmx"
+const defaultMap = "maps/GraalRebornMap.tmx"
 
 var upgrader = websocket.Upgrader{
 	ReadBufferSize:  1024,
@@ -117,8 +117,11 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 	})
 
 	globalHub.register(client)
-	// Send current inventory after registration.
+	// Send current inventory + social data after registration.
 	go sendInventoryTo(client)
+	go handleFriendList(client)
+	go handleGuildInfo(client)
+	go handleQuestList(client)
 	// Notify Lua resources.
 	if globalLuaManager != nil {
 		globalLuaManager.TriggerEvent("onPlayerConnect", playerID, user.Name)
@@ -205,6 +208,390 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 			handleAdminSpawnWorldItem(client, raw)
 		case "admin_remove_world_item":
 			handleAdminRemoveWorldItem(client, raw)
+		// ── Friends ───────────────────────────────────────────
+		case "friend_add":
+			handleFriendAdd(client, raw)
+		case "friend_accept":
+			handleFriendAccept(client, raw)
+		case "friend_remove":
+			handleFriendRemove(client, raw)
+		case "friend_list":
+			handleFriendList(client)
+		// ── Guilds ────────────────────────────────────────────
+		case "guild_create":
+			handleGuildCreate(client, raw)
+		case "guild_join":
+			handleGuildJoin(client, raw)
+		case "guild_leave":
+			handleGuildLeave(client)
+		case "guild_info":
+			handleGuildInfo(client)
+		case "guild_list":
+			handleGuildList(client)
+		// ── Quests ────────────────────────────────────────────
+		case "quest_list":
+			handleQuestList(client)
+		case "quest_start":
+			handleQuestStart(client, raw)
+		}
+	}
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+
+func sendJSON(c *Client, v interface{}) {
+	data, err := json.Marshal(v)
+	if err != nil {
+		return
+	}
+	select {
+	case c.send <- data:
+	default:
+	}
+}
+
+// ── Friends handlers ─────────────────────────────────────────────────────────
+
+func handleFriendAdd(c *Client, raw []byte) {
+	var msg struct {
+		TargetName string `json:"target"`
+	}
+	if json.Unmarshal(raw, &msg) != nil || msg.TargetName == "" {
+		return
+	}
+	targetID, err := dbGetPlayerIDByName(msg.TargetName)
+	if err != nil {
+		sendJSON(c, map[string]interface{}{
+			"type": "friend_result", "success": false, "msg": "Player not found",
+		})
+		return
+	}
+	if targetID == c.userID {
+		sendJSON(c, map[string]interface{}{
+			"type": "friend_result", "success": false, "msg": "You cannot add yourself",
+		})
+		return
+	}
+	dbSendFriendRequest(c.userID, targetID)
+	sendJSON(c, map[string]interface{}{
+		"type": "friend_result", "success": true, "msg": "Friend request sent to " + msg.TargetName,
+	})
+	// Notify the target if they are online
+	globalHub.mu.RLock()
+	for other := range globalHub.clients {
+		if other.userID == targetID {
+			sendJSON(other, map[string]interface{}{
+				"type": "friend_request", "from": c.name,
+			})
+			break
+		}
+	}
+	globalHub.mu.RUnlock()
+}
+
+func handleFriendAccept(c *Client, raw []byte) {
+	var msg struct {
+		FromName string `json:"from"`
+	}
+	if json.Unmarshal(raw, &msg) != nil || msg.FromName == "" {
+		return
+	}
+	fromID, err := dbGetPlayerIDByName(msg.FromName)
+	if err != nil {
+		return
+	}
+	dbAcceptFriend(c.userID, fromID)
+	// Send updated lists to both parties
+	handleFriendList(c)
+	globalHub.mu.RLock()
+	for other := range globalHub.clients {
+		if other.userID == fromID {
+			handleFriendList(other)
+			break
+		}
+	}
+	globalHub.mu.RUnlock()
+}
+
+func handleFriendRemove(c *Client, raw []byte) {
+	var msg struct {
+		TargetName string `json:"target"`
+	}
+	if json.Unmarshal(raw, &msg) != nil {
+		return
+	}
+	targetID, err := dbGetPlayerIDByName(msg.TargetName)
+	if err != nil {
+		return
+	}
+	dbRemoveFriend(c.userID, targetID)
+	handleFriendList(c)
+}
+
+func handleFriendList(c *Client) {
+	friends := dbGetFriends(c.userID)
+	pending := dbGetPendingRequests(c.userID)
+
+	type friendEntry struct {
+		Name   string `json:"name"`
+		Status string `json:"status"`
+		Online bool   `json:"online"`
+	}
+
+	globalHub.mu.RLock()
+	onlineSet := make(map[string]bool)
+	for other := range globalHub.clients {
+		onlineSet[other.name] = true
+	}
+	globalHub.mu.RUnlock()
+
+	var list []friendEntry
+	for _, f := range friends {
+		list = append(list, friendEntry{
+			Name:   f.Username,
+			Status: f.Status,
+			Online: onlineSet[f.Username],
+		})
+	}
+	var reqs []friendEntry
+	for _, p := range pending {
+		reqs = append(reqs, friendEntry{Name: p.Username, Status: "pending", Online: onlineSet[p.Username]})
+	}
+
+	sendJSON(c, map[string]interface{}{
+		"type":     "friend_list",
+		"friends":  list,
+		"requests": reqs,
+	})
+}
+
+// ── Guild handlers ────────────────────────────────────────────────────────────
+
+func handleGuildCreate(c *Client, raw []byte) {
+	var msg struct {
+		Name        string `json:"name"`
+		Tag         string `json:"tag"`
+		Description string `json:"desc"`
+	}
+	if json.Unmarshal(raw, &msg) != nil {
+		return
+	}
+	guildID, err := dbCreateGuild(msg.Name, msg.Tag, msg.Description, c.userID)
+	if err != nil {
+		sendJSON(c, map[string]interface{}{"type": "guild_result", "success": false, "msg": err.Error()})
+		return
+	}
+	sendJSON(c, map[string]interface{}{"type": "guild_result", "success": true,
+		"msg": "Guild '" + msg.Name + "' created!", "guild_id": guildID})
+	handleGuildInfo(c)
+}
+
+func handleGuildJoin(c *Client, raw []byte) {
+	var msg struct {
+		Name string `json:"name"`
+	}
+	if json.Unmarshal(raw, &msg) != nil {
+		return
+	}
+	g, err := dbGetGuildByName(msg.Name)
+	if err != nil {
+		sendJSON(c, map[string]interface{}{"type": "guild_result", "success": false, "msg": "Guild not found"})
+		return
+	}
+	if err2 := dbJoinGuild(g.ID, c.userID); err2 != nil {
+		sendJSON(c, map[string]interface{}{"type": "guild_result", "success": false, "msg": err2.Error()})
+		return
+	}
+	sendJSON(c, map[string]interface{}{"type": "guild_result", "success": true, "msg": "You joined " + g.Name})
+	handleGuildInfo(c)
+}
+
+func handleGuildLeave(c *Client) {
+	if err := dbLeaveGuild(c.userID); err != nil {
+		sendJSON(c, map[string]interface{}{"type": "guild_result", "success": false, "msg": err.Error()})
+		return
+	}
+	sendJSON(c, map[string]interface{}{"type": "guild_result", "success": true, "msg": "You left the guild"})
+	sendJSON(c, map[string]interface{}{"type": "guild_info", "guild": nil})
+}
+
+func handleGuildInfo(c *Client) {
+	guildID := dbGetUserGuildID(c.userID)
+	if guildID == 0 {
+		sendJSON(c, map[string]interface{}{"type": "guild_info", "guild": nil})
+		return
+	}
+	g, err := dbGetGuild(guildID)
+	if err != nil {
+		sendJSON(c, map[string]interface{}{"type": "guild_info", "guild": nil})
+		return
+	}
+	members := dbGetGuildMembers(guildID)
+	type memberEntry struct {
+		Name   string `json:"name"`
+		Rank   string `json:"rank"`
+		Online bool   `json:"online"`
+	}
+	globalHub.mu.RLock()
+	onlineSet := make(map[string]bool)
+	for other := range globalHub.clients {
+		onlineSet[other.name] = true
+	}
+	globalHub.mu.RUnlock()
+
+	var mlist []memberEntry
+	for _, m := range members {
+		mlist = append(mlist, memberEntry{Name: m.Username, Rank: m.Rank, Online: onlineSet[m.Username]})
+	}
+	sendJSON(c, map[string]interface{}{
+		"type": "guild_info",
+		"guild": map[string]interface{}{
+			"id":      g.ID,
+			"name":    g.Name,
+			"tag":     g.Tag,
+			"leader":  g.LeaderName,
+			"desc":    g.Description,
+			"members": mlist,
+		},
+	})
+}
+
+func handleGuildList(c *Client) {
+	guilds := dbListGuilds()
+	type guildEntry struct {
+		ID      int64  `json:"id"`
+		Name    string `json:"name"`
+		Tag     string `json:"tag"`
+		Leader  string `json:"leader"`
+		Members int    `json:"members"`
+	}
+	var list []guildEntry
+	for _, g := range guilds {
+		list = append(list, guildEntry{g.ID, g.Name, g.Tag, g.LeaderName, g.MemberCount})
+	}
+	sendJSON(c, map[string]interface{}{"type": "guild_list", "guilds": list})
+}
+
+// ── Quest handlers ────────────────────────────────────────────────────────────
+
+func handleQuestList(c *Client) {
+	playerQuests := dbGetPlayerQuests(c.userID)
+	progressMap := make(map[string]PlayerQuestRow)
+	for _, pq := range playerQuests {
+		progressMap[pq.QuestID] = pq
+	}
+
+	type questEntry struct {
+		ID          string `json:"id"`
+		Name        string `json:"name"`
+		Description string `json:"desc"`
+		Objective   string `json:"objective"`
+		Progress    int    `json:"progress"`
+		Required    int    `json:"required"`
+		Completed   bool   `json:"completed"`
+		Reward      int    `json:"reward"`
+	}
+
+	var list []questEntry
+	for _, def := range questDefs {
+		pq := progressMap[def.ID]
+		list = append(list, questEntry{
+			ID:          def.ID,
+			Name:        def.Name,
+			Description: def.Description,
+			Objective:   def.Objective,
+			Progress:    pq.Progress,
+			Required:    def.ObjectiveCount,
+			Completed:   pq.Completed,
+			Reward:      def.RewardGralats,
+		})
+	}
+	sendJSON(c, map[string]interface{}{"type": "quest_list", "quests": list})
+}
+
+func handleQuestStart(c *Client, raw []byte) {
+	var msg struct {
+		QuestID string `json:"quest_id"`
+	}
+	if json.Unmarshal(raw, &msg) != nil {
+		return
+	}
+	if err := dbStartQuest(c.userID, msg.QuestID); err != nil {
+		sendJSON(c, map[string]interface{}{"type": "quest_result", "success": false, "msg": err.Error()})
+		return
+	}
+	sendJSON(c, map[string]interface{}{"type": "quest_result", "success": true, "msg": "Quest started!"})
+	handleQuestList(c)
+}
+
+// advanceKillQuest is called when the player kills an aggressive NPC.
+func advanceKillQuest(c *Client) {
+	for _, def := range questDefs {
+		if def.ObjectiveType == "kill_npc" && def.ObjectiveTarget == "aggressive" {
+			prog, completed, reward := dbUpdateQuestProgress(c.userID, def.ID, 1)
+			if completed {
+				sendJSON(c, map[string]interface{}{
+					"type": "quest_complete",
+					"quest_id": def.ID,
+					"name":     def.Name,
+					"reward":   reward,
+				})
+				newTotal := 0
+				database.QueryRow(`SELECT gralats FROM users WHERE id=?`, c.userID).Scan(&newTotal)
+				sendJSON(c, map[string]interface{}{"type": "gralat_update", "gralat_n": newTotal})
+			} else if prog > 0 {
+				sendJSON(c, map[string]interface{}{
+					"type":     "quest_update",
+					"quest_id": def.ID,
+					"progress": prog,
+					"required": def.ObjectiveCount,
+				})
+			}
+		}
+	}
+}
+
+// advanceTalkQuest is called when the player talks to an NPC of a given type.
+func advanceTalkQuest(c *Client, npcTypeName string) {
+	for _, def := range questDefs {
+		if def.ObjectiveType == "talk_npc" && def.ObjectiveTarget == npcTypeName {
+			prog, completed, reward := dbUpdateQuestProgress(c.userID, def.ID, 1)
+			if completed {
+				sendJSON(c, map[string]interface{}{
+					"type": "quest_complete",
+					"quest_id": def.ID,
+					"name":     def.Name,
+					"reward":   reward,
+				})
+			} else if prog > 0 {
+				_ = prog
+			}
+		}
+	}
+}
+
+// advanceGralatQuest updates gralat-collection quests.
+func advanceGralatQuest(c *Client, totalGralats int) {
+	for _, def := range questDefs {
+		if def.ObjectiveType == "collect_gralats" {
+			pq := dbGetPlayerQuests(c.userID)
+			for _, pqr := range pq {
+				if pqr.QuestID == def.ID && pqr.Completed {
+					goto next
+				}
+			}
+			if totalGralats >= def.ObjectiveCount {
+				_, completed, reward := dbUpdateQuestProgress(c.userID, def.ID, def.ObjectiveCount)
+				if completed {
+					sendJSON(c, map[string]interface{}{
+						"type":     "quest_complete",
+						"quest_id": def.ID,
+						"name":     def.Name,
+						"reward":   reward,
+					})
+				}
+			}
+		next:
 		}
 	}
 }
@@ -394,6 +781,7 @@ func handleCollectGralat(c *Client, raw []byte) {
 	default:
 	}
 	log.Printf("[GRALAT] %s collecte %s (+%d → %d)", c.name, msg.GralatID, value, newTotal)
+	go advanceGralatQuest(c, newTotal)
 }
 
 func handleTalkNPC(c *Client, raw []byte) {
@@ -470,6 +858,12 @@ func handleTalkNPC(c *Client, raw []byte) {
 	default:
 	}
 	log.Printf("[NPC] %s -> %s: +%d gralats (%d total)", npc.state.Name, c.name, gralatN, newTotal)
+	switch npc.state.NPCType {
+	case NPCTypeMerchant:
+		go advanceTalkQuest(c, "merchant")
+	case NPCTypeVillager:
+		go advanceTalkQuest(c, "villager")
+	}
 }
 
 // ──────────────────────────────────────────────────────────────
@@ -526,6 +920,15 @@ func handleSwordHit(c *Client, raw []byte) {
 
 	if killed {
 		log.Printf("[COMBAT] %s killed %s", c.name, msg.NPCID)
+		// Advance kill quests if the NPC was aggressive
+		globalHub.mu.RLock()
+		for _, n := range globalHub.npcs {
+			if n.state.ID == msg.NPCID && n.state.NPCType == NPCTypeAggressive {
+				go advanceKillQuest(c)
+				break
+			}
+		}
+		globalHub.mu.RUnlock()
 	} else {
 		log.Printf("[COMBAT] %s hit %s → HP %d", c.name, msg.NPCID, newHP)
 	}

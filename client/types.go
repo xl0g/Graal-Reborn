@@ -63,6 +63,51 @@ type WorldSpawnItem struct {
 	ItemID     string  `json:"item_id,omitempty"`
 }
 
+// FriendEntry represents a friend or pending request.
+type FriendEntry struct {
+	Name   string `json:"name"`
+	Status string `json:"status"` // "accepted" | "pending"
+	Online bool   `json:"online"`
+}
+
+// GuildMemberEntry is one member in a guild roster.
+type GuildMemberEntry struct {
+	Name   string `json:"name"`
+	Rank   string `json:"rank"`
+	Online bool   `json:"online"`
+}
+
+// GuildInfo is the full guild data sent from the server.
+type GuildInfo struct {
+	ID      int64              `json:"id"`
+	Name    string             `json:"name"`
+	Tag     string             `json:"tag"`
+	Leader  string             `json:"leader"`
+	Desc    string             `json:"desc"`
+	Members []GuildMemberEntry `json:"members"`
+}
+
+// GuildListEntry is a compact guild entry for the browse list.
+type GuildListEntry struct {
+	ID      int64  `json:"id"`
+	Name    string `json:"name"`
+	Tag     string `json:"tag"`
+	Leader  string `json:"leader"`
+	Members int    `json:"members"`
+}
+
+// QuestEntry is a single quest with current progress.
+type QuestEntry struct {
+	ID          string `json:"id"`
+	Name        string `json:"name"`
+	Desc        string `json:"desc"`
+	Objective   string `json:"objective"`
+	Progress    int    `json:"progress"`
+	Required    int    `json:"required"`
+	Completed   bool   `json:"completed"`
+	Reward      int    `json:"reward"`
+}
+
 // ServerMessage is a general-purpose struct for unmarshaling server messages.
 type ServerMessage struct {
 	Type       string           `json:"type"`
@@ -98,4 +143,19 @@ type ServerMessage struct {
 	ItemID   string `json:"item_id,omitempty"`
 	Success  bool   `json:"success,omitempty"`
 	Map      string `json:"map,omitempty"`
+
+	// Friends
+	Friends  []FriendEntry `json:"friends,omitempty"`
+	Requests []FriendEntry `json:"requests,omitempty"`
+
+	// Guilds
+	Guild      *GuildInfo       `json:"guild,omitempty"`
+	Guilds     []GuildListEntry `json:"guilds,omitempty"`
+	GuildID    int64            `json:"guild_id,omitempty"`
+
+	// Quests
+	Quests   []QuestEntry `json:"quests,omitempty"`
+	QuestID  string       `json:"quest_id,omitempty"`
+	Progress int          `json:"progress,omitempty"`
+	Required int          `json:"required,omitempty"`
 }

@@ -349,6 +349,79 @@ func (g *Game) handleServerMsg(data []byte) {
 				g.loadMap(name, false)
 			}
 		}
+
+	// ── Friends ───────────────────────────────────────────────
+	case "friend_list":
+		g.friends = msg.Friends
+		g.friendRequests = msg.Requests
+		if g.socialPanel != nil {
+			g.socialPanel.SetFriends(g.friends, g.friendRequests)
+		}
+
+	case "friend_request":
+		g.chat.AddMessage("", fmt.Sprintf("[Friend] %s sent you a friend request!", msg.From), true)
+		if g.conn != nil {
+			// Request an updated list
+			g.conn.SendJSON(map[string]string{"type": "friend_list"})
+		}
+
+	case "friend_result":
+		g.chat.AddMessage("", "[Friend] "+msg.Msg, true)
+
+	// ── Guilds ────────────────────────────────────────────────
+	case "guild_info":
+		g.myGuild = msg.Guild
+		if g.socialPanel != nil {
+			g.socialPanel.SetGuild(g.myGuild)
+		}
+
+	case "guild_list":
+		g.guildList = msg.Guilds
+		if g.socialPanel != nil {
+			g.socialPanel.SetGuildList(g.guildList)
+		}
+
+	case "guild_result":
+		if msg.Success {
+			g.chat.AddMessage("", "[Guild] "+msg.Msg, true)
+		} else {
+			g.chat.AddMessage("", "[Guild] Error: "+msg.Msg, true)
+		}
+
+	// ── Quests ────────────────────────────────────────────────
+	case "quest_list":
+		g.quests = msg.Quests
+		if g.socialPanel != nil {
+			g.socialPanel.SetQuests(g.quests)
+		}
+
+	case "quest_update":
+		for i, q := range g.quests {
+			if q.ID == msg.QuestID {
+				g.quests[i].Progress = msg.Progress
+				break
+			}
+		}
+		if g.socialPanel != nil {
+			g.socialPanel.SetQuests(g.quests)
+		}
+		g.chat.AddMessage("", fmt.Sprintf("[Quest] Progress: %d/%d", msg.Progress, msg.Required), true)
+
+	case "quest_complete":
+		for i, q := range g.quests {
+			if q.ID == msg.QuestID {
+				g.quests[i].Completed = true
+				g.quests[i].Progress = g.quests[i].Required
+				break
+			}
+		}
+		if g.socialPanel != nil {
+			g.socialPanel.SetQuests(g.quests)
+		}
+		g.chat.AddMessage("", fmt.Sprintf("[Quest Complete!] %s — Reward: %d gralats", msg.Name, msg.GralatN), true)
+
+	case "quest_result":
+		g.chat.AddMessage("", "[Quest] "+msg.Msg, true)
 	}
 }
 

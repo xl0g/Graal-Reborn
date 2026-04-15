@@ -377,7 +377,7 @@ func (cm *ChunkManager) HasGMap() bool {
 func (cm *ChunkManager) tileImage() *ebiten.Image {
 	cm.tileOnce.Do(func() {
 		img, _, err := ebitenutil.NewImageFromFile(
-			"Assets/offline/levels/tiles/classiciphone_pics4.png")
+			"assets/offline/levels/tiles/classiciphone_pics4.png")
 		if err != nil {
 			fmt.Println("[CHUNK] could not load tileset:", err)
 			return
