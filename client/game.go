@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 	"sync"
 	"time"
 
@@ -173,8 +174,12 @@ func NewGame(bodyImg, headImg, tilesImg *ebiten.Image) *Game {
 	// GMAP chunk manager (always created; activated when loadGMap is called)
 	g.chunkMgr = NewChunkManager()
 
-	// Load TMX map
-	g.loadMap("maps/GraalRebornMap.tmx", false)
+	// Load spawn map (TMX or GMAP) from config.
+	if strings.HasSuffix(strings.ToLower(Cfg.SpawnMap), ".gmap") {
+		g.loadGMap(Cfg.SpawnMap)
+	} else {
+		g.loadMap(Cfg.SpawnMap, false)
+	}
 
 	// Panel menu
 	g.panelMenu = NewPanelMenu()
@@ -287,6 +292,17 @@ func (g *Game) worldSize() (int, int) {
 	return worldW, worldH
 }
 
+// terrainAt returns the terrain ("water", "lava", or "") at the given rect.
+func (g *Game) terrainAt(x, y, w, h float64) string {
+	if g.activeGMap != "" {
+		return g.chunkMgr.TerrainAt(x, y, w, h)
+	}
+	if g.gameMap != nil {
+		return g.gameMap.TerrainAt(x, y, w, h)
+	}
+	return ""
+}
+
 func (g *Game) loadGMap(name string) {
 	if len(name) < 5 || name[len(name)-5:] != ".gmap" {
 		name += ".gmap"
@@ -371,8 +387,14 @@ func (g *Game) startGame(token, name string) {
 	}
 
 	ww, wh := g.worldSize()
+	spawnX := float64(ww)/2 - float64(frameW)/2
+	spawnY := float64(wh)/2 - float64(frameH)/2
+	if Cfg.SpawnX != 0 || Cfg.SpawnY != 0 {
+		spawnX = Cfg.SpawnX
+		spawnY = Cfg.SpawnY
+	}
 	g.localChar = NewCharacter(g.bodyImg, g.headImg,
-		float64(ww)/2, float64(wh)/2,
+		spawnX, spawnY,
 		name, false, 0)
 	g.localChar.IsLocal = true
 

@@ -80,6 +80,8 @@ type GameMap struct {
 
 	layers    [][][]int         // all layers [layer][row][col]
 	collision [][]bool          // solid tiles
+	water     [][]bool          // water terrain (swim animation)
+	lava      [][]bool          // lava terrain  (lava animation)
 	signs     map[[2]int]string // (col,row) → panneau text
 	switchmap map[[2]int]string // (col,row) → target map filename
 	exitTiles [][2]int          // tiles marked exitmap=true
@@ -200,8 +202,12 @@ func LoadTMX(path string) (*GameMap, error) {
 	}
 
 	gm.collision = make([][]bool, mx.Rows)
+	gm.water = make([][]bool, mx.Rows)
+	gm.lava = make([][]bool, mx.Rows)
 	for i := range gm.collision {
 		gm.collision[i] = make([]bool, mx.Cols)
+		gm.water[i] = make([]bool, mx.Cols)
+		gm.lava[i] = make([]bool, mx.Cols)
 	}
 
 	for _, layer := range mx.Layers {
@@ -209,12 +215,16 @@ func LoadTMX(path string) (*GameMap, error) {
 		gm.layers = append(gm.layers, tiles)
 
 		isCollision := false
+		terrainType := ""
 		signText := ""
 		switchTarget := ""
 		isExitmap := false
 		for _, p := range layer.Props {
 			if p.Name == "collision" && p.Value == "true" {
 				isCollision = true
+			}
+			if p.Name == "terrain" {
+				terrainType = p.Value // "water" or "lava"
 			}
 			if p.Name == "panneau" {
 				signText = p.Value
@@ -232,6 +242,24 @@ func LoadTMX(path string) (*GameMap, error) {
 					rawID := tiles[r][c] & tileGIDMask
 					if rawID != 0 {
 						gm.collision[r][c] = true
+					}
+				}
+			}
+		}
+		if terrainType == "water" {
+			for r := 0; r < layer.Rows; r++ {
+				for c := 0; c < layer.Cols; c++ {
+					if tiles[r][c]&tileGIDMask != 0 {
+						gm.water[r][c] = true
+					}
+				}
+			}
+		}
+		if terrainType == "lava" {
+			for r := 0; r < layer.Rows; r++ {
+				for c := 0; c < layer.Cols; c++ {
+					if tiles[r][c]&tileGIDMask != 0 {
+						gm.lava[r][c] = true
 					}
 				}
 			}
@@ -328,6 +356,23 @@ func (gm *GameMap) IsBlocked(x, y, w, h float64) bool {
 		}
 	}
 	return false
+}
+
+// TerrainAt returns the terrain type ("water", "lava", or "") at the centre
+// of the given world-space rect.
+func (gm *GameMap) TerrainAt(x, y, w, h float64) string {
+	cx := int(x+w/2) / gm.TileW
+	cy := int(y+h/2) / gm.TileH
+	if cx < 0 || cy < 0 || cx >= gm.Cols || cy >= gm.Rows {
+		return ""
+	}
+	if gm.lava != nil && gm.lava[cy][cx] {
+		return "lava"
+	}
+	if gm.water != nil && gm.water[cy][cx] {
+		return "water"
+	}
+	return ""
 }
 
 // WorldW returns the total world width in pixels.
@@ -430,15 +475,15 @@ func (gm *GameMap) Draw(screen *ebiten.Image, camX, camY float64) {
 	}
 }
 
-// drawGrassFill fills empty tile positions (all-layers GID=0) with a grass color pattern.
+// drawGrassFill draws tile GID=firstGID (the first/grass tile) for every cell
+// where all layers are empty (GID=0), matching the level-editor fill behaviour.
 func (gm *GameMap) drawGrassFill(screen *ebiten.Image, camX, camY float64) {
-	if gm.Cols == 0 || gm.Rows == 0 || gm.TileW == 0 || gm.TileH == 0 {
+	if gm.Cols == 0 || gm.Rows == 0 || gm.TileW == 0 || gm.TileH == 0 || gm.tileImg == nil {
 		return
 	}
 	tw := float64(gm.TileW)
 	th := float64(gm.TileH)
 
-	// Determine visible tile range
 	colMin := int(camX/tw) - 1
 	colMax := int((camX+float64(screenW))/tw) + 2
 	rowMin := int(camY/th) - 1
@@ -458,7 +503,6 @@ func (gm *GameMap) drawGrassFill(screen *ebiten.Image, camX, camY float64) {
 
 	for row := rowMin; row < rowMax; row++ {
 		for col := colMin; col < colMax; col++ {
-			// Check if all layers are empty at this cell
 			allEmpty := true
 			for _, layer := range gm.layers {
 				if len(layer) > row && len(layer[row]) > col && layer[row][col] != 0 {
@@ -469,45 +513,11 @@ func (gm *GameMap) drawGrassFill(screen *ebiten.Image, camX, camY float64) {
 			if !allEmpty {
 				continue
 			}
-
 			sx := float64(col)*tw - camX
 			sy := float64(row)*th - camY
-
-			// Checkerboard-style grass with variation
-			variation := (col*3 + row*7) % 5
-			var grassClr color.RGBA
-			switch variation {
-			case 0:
-				grassClr = color.RGBA{58, 110, 42, 255}
-			case 1:
-				grassClr = color.RGBA{52, 100, 38, 255}
-			case 2:
-				grassClr = color.RGBA{65, 120, 48, 255}
-			case 3:
-				grassClr = color.RGBA{55, 105, 40, 255}
-			default:
-				grassClr = color.RGBA{60, 115, 44, 255}
-			}
-
-			DrawRect(screen, int(sx), int(sy), int(tw), int(th), grassClr)
-
-			// Subtle darker border to give texture
-			if (col+row)%2 == 0 {
-				DrawRect(screen, int(sx), int(sy), int(tw), 1,
-					color.RGBA{40, 80, 28, 180})
-				DrawRect(screen, int(sx), int(sy), 1, int(th),
-					color.RGBA{40, 80, 28, 180})
-			}
-
-			// Occasional small detail (blade of grass dot)
-			if (col*13+row*17)%7 == 0 {
-				DrawRect(screen, int(sx)+int(tw)/3, int(sy)+int(th)/4, 1, 3,
-					color.RGBA{80, 150, 60, 200})
-			}
-			if (col*11+row*19)%9 == 1 {
-				DrawRect(screen, int(sx)+2*int(tw)/3, int(sy)+int(th)/3, 1, 2,
-					color.RGBA{90, 160, 65, 200})
-			}
+			// firstGID+3983 selects tile at pixel (240,496) in classiciphone_pics4.png
+			// (col=15, row=31 in a 128-column tileset) — the background grass tile.
+			gm.drawTile(screen, gm.firstGID+3983, sx, sy)
 		}
 	}
 }

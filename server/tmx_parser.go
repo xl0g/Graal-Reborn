@@ -59,13 +59,14 @@ func ParseTMXFile(path string) (*MapChunkResponse, error) {
 	}
 
 	for _, l := range m.Layers {
-		// Check for collision property.
 		isCollision := false
+		terrainType := ""
 		for _, p := range l.Props {
-			if strings.EqualFold(p.Name, "collision") &&
-				(p.Value == "true" || p.Value == "1") {
+			switch {
+			case strings.EqualFold(p.Name, "collision") && (p.Value == "true" || p.Value == "1"):
 				isCollision = true
-				break
+			case strings.EqualFold(p.Name, "terrain"):
+				terrainType = strings.ToLower(p.Value) // "water" or "lava"
 			}
 		}
 
@@ -77,6 +78,7 @@ func ParseTMXFile(path string) (*MapChunkResponse, error) {
 		resp.Layers = append(resp.Layers, MapLayer{
 			Name:      l.Name,
 			Collision: isCollision,
+			Terrain:   terrainType,
 			Data:      data,
 		})
 	}

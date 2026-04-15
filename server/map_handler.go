@@ -20,6 +20,8 @@ const mapsTMXDir = "maps/tmx"
 type MapLayer struct {
 	Name      string `json:"name"`
 	Collision bool   `json:"collision,omitempty"`
+	// Terrain type for non-visual layers: "water" or "lava".
+	Terrain string `json:"terrain,omitempty"`
 	// Flat row-major array of TMX GIDs (0 = empty, 1-based otherwise).
 	Data []int `json:"data"`
 }
@@ -89,6 +91,8 @@ func handleMapChunk(w http.ResponseWriter, r *http.Request) {
 }
 
 // serveMapChunkTMX parses a .tmx file from maps/tmx/ and writes JSON.
+// If the TMX has no terrain layers (old converter output), the corresponding
+// .nw file is parsed to supply collision and terrain data automatically.
 func serveMapChunkTMX(w http.ResponseWriter, name string) {
 	path := filepath.Join(mapsTMXDir, name)
 	if _, err := os.Stat(path); os.IsNotExist(err) {
@@ -100,9 +104,52 @@ func serveMapChunkTMX(w http.ResponseWriter, name string) {
 		http.Error(w, "parse error: "+err.Error(), http.StatusInternalServerError)
 		return
 	}
+
+	// Augment with NW terrain/collision when the TMX was generated without them
+	// (e.g. by an older version of the converter).
+	if !hasTerrainOrCollision(resp) {
+		base := strings.TrimSuffix(name, filepath.Ext(name))
+		nwPath := filepath.Join(mapsNWDir, base+".nw")
+		if lv, err := ParseNWFile(nwPath, 0); err == nil {
+			// Collision.
+			resp.Layers = append(resp.Layers, MapLayer{
+				Name:      "collision",
+				Collision: true,
+				Data:      lv.CollisionGIDs(),
+			})
+			// Water terrain (only when non-empty).
+			if wgids := lv.TerrainGIDs(false); wgids != nil {
+				resp.Layers = append(resp.Layers, MapLayer{
+					Name:    "water",
+					Terrain: "water",
+					Data:    wgids,
+				})
+			}
+			// Lava terrain (only when non-empty).
+			if lgids := lv.TerrainGIDs(true); lgids != nil {
+				resp.Layers = append(resp.Layers, MapLayer{
+					Name:    "lava",
+					Terrain: "lava",
+					Data:    lgids,
+				})
+			}
+		}
+	}
+
 	w.Header().Set("Content-Type", "application/json")
 	w.Header().Set("Cache-Control", "public, max-age=300")
 	_ = json.NewEncoder(w).Encode(resp)
+}
+
+// hasTerrainOrCollision reports whether a chunk response already contains
+// at least one collision or terrain layer (produced by the current converter).
+func hasTerrainOrCollision(resp *MapChunkResponse) bool {
+	for _, l := range resp.Layers {
+		if l.Collision || l.Terrain != "" {
+			return true
+		}
+	}
+	return false
 }
 
 // serveMapChunkNW parses a legacy .nw file from maps/nw/ and writes JSON.
@@ -209,6 +256,23 @@ func buildChunkResponse(lv *NWLevel) *MapChunkResponse {
 		Collision: true,
 		Data:      lv.CollisionGIDs(),
 	})
+
+	// Water terrain layer.
+	if wgids := lv.TerrainGIDs(false); wgids != nil {
+		resp.Layers = append(resp.Layers, MapLayer{
+			Name:    "water",
+			Terrain: "water",
+			Data:    wgids,
+		})
+	}
+	// Lava terrain layer.
+	if lgids := lv.TerrainGIDs(true); lgids != nil {
+		resp.Layers = append(resp.Layers, MapLayer{
+			Name:    "lava",
+			Terrain: "lava",
+			Data:    lgids,
+		})
+	}
 
 	// NPCs — convert GraalScript to Lua.
 	for _, npc := range lv.NPCs {

@@ -20,6 +20,12 @@ type GameConfig struct {
 	// Camera zoom limits.
 	ZoomMin float64 `json:"zoomMin"`
 	ZoomMax float64 `json:"zoomMax"`
+	// Spawn map path and initial position.
+	// spawnMap: path to the .tmx or .gmap file loaded on startup.
+	// spawnX/spawnY: world-pixel position for the local player (0,0 = map centre).
+	SpawnMap string  `json:"spawnMap"`
+	SpawnX   float64 `json:"spawnX"`
+	SpawnY   float64 `json:"spawnY"`
 }
 
 // Cfg is the active configuration. Populated by LoadConfig; defaults match
@@ -32,6 +38,7 @@ var Cfg = GameConfig{
 	MountedSpeed: 320.0,
 	ZoomMin:      0.35,
 	ZoomMax:      2.5,
+	SpawnMap:     "maps/GraalRebornMap.tmx",
 }
 
 // LoadConfig reads config.json from path and merges it into Cfg.

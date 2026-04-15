@@ -83,8 +83,10 @@ type NWLevel struct {
 
 	// Derived: per-layer 64×64 grid (layer index → [row][col] GID)
 	Layers [][][]int
-	// Derived: layer with tile-type collision data
+	// Derived: terrain grids built from tile-type data.
 	Collision [][]bool
+	Water     [][]bool
+	Lava      [][]bool
 }
 
 // NWCols / NWRows: standard dimensions of one NW level.
@@ -209,8 +211,12 @@ func (lv *NWLevel) buildLayers(page int) {
 	}
 
 	lv.Collision = make([][]bool, NWRows)
+	lv.Water = make([][]bool, NWRows)
+	lv.Lava = make([][]bool, NWRows)
 	for r := range lv.Collision {
 		lv.Collision[r] = make([]bool, NWCols)
+		lv.Water[r] = make([]bool, NWCols)
+		lv.Lava[r] = make([]bool, NWCols)
 	}
 
 	for _, b := range lv.Boards {
@@ -225,9 +231,15 @@ func (lv *NWLevel) buildLayers(page int) {
 			}
 			gid := NWTileToGID(idx)
 			row[col] = gid
-			// Mark collision from tile type.
-			if gid > 0 && IsSolid(TileTypeOf(idx, page)) {
+			tt := TileTypeOf(idx, page)
+			if gid > 0 && IsSolid(tt) {
 				lv.Collision[b.Y][col] = true
+			}
+			if gid > 0 && IsWater(tt) {
+				lv.Water[b.Y][col] = true
+			}
+			if gid > 0 && IsLava(tt) {
+				lv.Lava[b.Y][col] = true
 			}
 		}
 	}
@@ -245,6 +257,30 @@ func (lv *NWLevel) CollisionGIDs() []int {
 				gids[r*NWCols+c] = 1
 			}
 		}
+	}
+	return gids
+}
+
+// TerrainGIDs returns a flat slice indicating terrain tiles.
+// Pass lavaMode=false for water, lavaMode=true for lava.
+// Returns nil when the grid is entirely empty (saves JSON bandwidth).
+func (lv *NWLevel) TerrainGIDs(lavaMode bool) []int {
+	grid := lv.Water
+	if lavaMode {
+		grid = lv.Lava
+	}
+	gids := make([]int, NWRows*NWCols)
+	any := false
+	for r := 0; r < NWRows; r++ {
+		for c := 0; c < NWCols; c++ {
+			if grid[r][c] {
+				gids[r*NWCols+c] = 1
+				any = true
+			}
+		}
+	}
+	if !any {
+		return nil
 	}
 	return gids
 }

@@ -58,8 +58,11 @@ func (g *Game) handleServerMsg(data []byte) {
 		g.isAdmin = msg.IsAdmin
 		g.sessionStart = time.Now()
 		if g.localChar != nil {
-			g.localChar.X, g.localChar.Y = msg.X, msg.Y
-			g.localChar.TargetX, g.localChar.TargetY = msg.X, msg.Y
+			// Only use the server's stored position when no explicit spawn is configured.
+			if Cfg.SpawnX == 0 && Cfg.SpawnY == 0 {
+				g.localChar.X, g.localChar.Y = msg.X, msg.Y
+				g.localChar.TargetX, g.localChar.TargetY = msg.X, msg.Y
+			}
 		}
 		if msg.Body != "" || msg.Head != "" || msg.Hat != "" || msg.Shield != "" || msg.Sword != "" {
 			g.cosmeticMenu.SetByFilenames(msg.Body, msg.Head, msg.Hat, msg.Shield, msg.Sword)

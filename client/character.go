@@ -33,14 +33,16 @@ const (
 	AnimSword         = "sword"
 	AnimRide          = "ride"
 	AnimSit           = "sit"
-	AnimGrab          = "grab"          // grab.gani — hold A to grab a wall
-	AnimJuggle        = "juggle"        // juggle.gani (original)
+	AnimGrab          = "grab"           // grab.gani — hold A to grab a wall
+	AnimJuggle        = "juggle"         // juggle.gani (original)
 	AnimClassicJuggle = "classic_juggle" // classic_new_juggle.gani (inventory item)
-	AnimPompoms       = "pompoms"       // ci_pompoms.gani (inventory item)
+	AnimPompoms       = "pompoms"        // ci_pompoms.gani (inventory item)
 	AnimHatTrick      = "hattrick"
 	AnimPush          = "push"
 	AnimDead          = "dead"
 	AnimHurt          = "hurt"
+	AnimSwim          = "swim" // swim.gani — player is on a water tile
+	AnimLava          = "lava" // lava.gani — player is on a lava tile
 )
 
 // ganiFile maps animation state → .gani filename.
@@ -49,6 +51,8 @@ var ganiFile = map[string]string{
 	AnimWalk:  "walk.gani",
 	AnimSword: "sword.gani",
 	AnimRide:  "mount.gani",
+	AnimSwim:  "swim.gani",
+	AnimLava:  "lava.gani",
 }
 
 // npcTints maps NPCType → rendering tint.

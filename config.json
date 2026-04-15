@@ -4,5 +4,8 @@
   "playerSpeed": 700.0,
   "mountedSpeed": 320.0,
   "zoomMin": 0.35,
-  "zoomMax": 2.5
+  "zoomMax": 2.5,
+  "spawnMap": "classiciphone.gmap",
+  "spawnX": 15918,
+  "spawnY": 12003
 }

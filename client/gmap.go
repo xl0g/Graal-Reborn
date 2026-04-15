@@ -24,6 +24,10 @@ const (
 	chunkPixelW = chunkCols * chunkTileW // 1024 px
 	chunkPixelH = chunkRows * chunkTileH // 1024 px
 	chunkRadius = 2                      // load chunks within this radius of the player
+
+	// grassGID is the background grass tile in classiciphone_pics4.png.
+	// Pixel position (240, 496) → col=15, row=31, 128-col tileset → GID = 31*128+15+1 = 3984.
+	grassGID = 3984
 )
 
 // ── JSON types (mirrors server MapChunkResponse / MapGMapResponse) ───────────
@@ -31,6 +35,7 @@ const (
 type chunkLayerJSON struct {
 	Name      string `json:"name"`
 	Collision bool   `json:"collision"`
+	Terrain   string `json:"terrain,omitempty"` // "water" or "lava"
 	Data      []int  `json:"data"`
 }
 
@@ -70,12 +75,19 @@ type Chunk struct {
 	layers [][]int
 	// Collision grid [row][col].
 	collision [][]bool
+	// Terrain grids.
+	water [][]bool
+	lava  [][]bool
 	// NPC data (position in tile units).
 	npcs []chunkNPCJSON
 
 	// Spritesheet reference (shared across all chunks).
 	tileImg  *ebiten.Image
 	tileCols int
+
+	// rendered is the chunk pre-baked to a single offscreen image.
+	// Nil until the first Draw call (must happen on the main Ebiten thread).
+	rendered *ebiten.Image
 }
 
 // IsBlocked reports whether world-space rect (x,y,w,h) hits a solid tile in this chunk.
@@ -102,7 +114,9 @@ func (c *Chunk) IsBlocked(x, y, w, h float64) bool {
 	return false
 }
 
-// Draw renders all tile layers of this chunk with a frustum cull.
+// Draw blits the pre-rendered chunk image to screen, applying a frustum cull.
+// On the first call the chunk is baked to an offscreen image; subsequent frames
+// are a single DrawImage — O(1) instead of O(tiles).
 // vw/vh are the effective viewport dimensions (screenW/zoom × screenH/zoom).
 func (c *Chunk) Draw(screen *ebiten.Image, camX, camY, vw, vh float64) {
 	if c.tileImg == nil {
@@ -116,22 +130,47 @@ func (c *Chunk) Draw(screen *ebiten.Image, camX, camY, vw, vh float64) {
 		return
 	}
 
+	// Bake to offscreen image on first draw (must run on Ebiten's main thread).
+	if c.rendered == nil {
+		c.rendered = ebiten.NewImage(chunkPixelW, chunkPixelH)
+		c.bake()
+	}
+
+	op := &ebiten.DrawImageOptions{}
+	op.GeoM.Translate(ox, oy)
+	screen.DrawImage(c.rendered, op)
+}
+
+// bake renders all tile layers into c.rendered once.
+// After this, Draw only needs one DrawImage call per visible chunk per frame.
+func (c *Chunk) bake() {
+	// Grass fill: draw the grass tile for every cell that is empty in all layers.
+	for row := 0; row < chunkRows; row++ {
+		for col := 0; col < chunkCols; col++ {
+			allEmpty := true
+			for _, layer := range c.layers {
+				if layer[row*chunkCols+col] != 0 {
+					allEmpty = false
+					break
+				}
+			}
+			if allEmpty {
+				drawNWTile(c.rendered, c.tileImg, c.tileCols, grassGID,
+					float64(col*chunkTileW), float64(row*chunkTileH))
+			}
+		}
+	}
+
+	// Tile layers (base, overlay…).
 	for _, layer := range c.layers {
 		for row := 0; row < chunkRows; row++ {
-			sy := oy + float64(row*chunkTileH)
-			if sy+float64(chunkTileH) < 0 || sy > vh {
-				continue
-			}
 			for col := 0; col < chunkCols; col++ {
 				gid := layer[row*chunkCols+col]
 				if gid == 0 {
 					continue
 				}
-				sx := ox + float64(col*chunkTileW)
-				if sx+float64(chunkTileW) < 0 || sx > vw {
-					continue
-				}
-				drawNWTile(screen, c.tileImg, c.tileCols, gid, sx, sy)
+				drawNWTile(c.rendered, c.tileImg, c.tileCols, gid,
+					float64(col*chunkTileW), float64(row*chunkTileH))
 			}
 		}
 	}
@@ -251,8 +290,8 @@ func (cm *ChunkManager) Update(worldX, worldY float64, viewRadius int) {
 		}
 	}
 
-	// Unload chunks that are comfortably outside the visible radius.
-	evictRadius := viewRadius + 2
+	// Evict anything outside the load zone — no extra buffer.
+	evictRadius := viewRadius
 	for key, ch := range cm.chunks {
 		if abs(ch.GridCol-playerGCol) > evictRadius || abs(ch.GridRow-playerGRow) > evictRadius {
 			delete(cm.chunks, key)
@@ -290,10 +329,14 @@ func (cm *ChunkManager) buildChunk(data *chunkJSON, gc, gr int) *Chunk {
 		tileCols: cm.tileImageCols(),
 	}
 
-	// Collision grid.
+	// Terrain grids.
 	ch.collision = make([][]bool, chunkRows)
+	ch.water = make([][]bool, chunkRows)
+	ch.lava = make([][]bool, chunkRows)
 	for r := range ch.collision {
 		ch.collision[r] = make([]bool, chunkCols)
+		ch.water[r] = make([]bool, chunkCols)
+		ch.lava[r] = make([]bool, chunkCols)
 	}
 
 	for _, l := range data.Layers {
@@ -304,6 +347,26 @@ func (cm *ChunkManager) buildChunk(data *chunkJSON, gc, gr int) *Chunk {
 					c := i % chunkCols
 					if r < chunkRows && c < chunkCols {
 						ch.collision[r][c] = true
+					}
+				}
+			}
+		} else if l.Terrain == "water" {
+			for i, gid := range l.Data {
+				if gid != 0 {
+					r := i / chunkCols
+					c := i % chunkCols
+					if r < chunkRows && c < chunkCols {
+						ch.water[r][c] = true
+					}
+				}
+			}
+		} else if l.Terrain == "lava" {
+			for i, gid := range l.Data {
+				if gid != 0 {
+					r := i / chunkCols
+					c := i % chunkCols
+					if r < chunkRows && c < chunkCols {
+						ch.lava[r][c] = true
 					}
 				}
 			}
@@ -351,6 +414,33 @@ func (cm *ChunkManager) IsBlocked(x, y, w, h float64) bool {
 		}
 	}
 	return false
+}
+
+// TerrainAt returns the terrain type ("water", "lava", or "") at the centre
+// of the given world-space rect, querying whichever chunk contains that point.
+func (cm *ChunkManager) TerrainAt(x, y, w, h float64) string {
+	cx := x + w/2
+	cy := y + h/2
+	gc := int(cx) / chunkPixelW
+	gr := int(cy) / chunkPixelH
+	cm.mu.Lock()
+	ch, ok := cm.chunks[chunkKey(gc, gr)]
+	cm.mu.Unlock()
+	if !ok {
+		return ""
+	}
+	lx := int(cx-ch.OriginX) / chunkTileW
+	ly := int(cy-ch.OriginY) / chunkTileH
+	if lx < 0 || ly < 0 || lx >= chunkCols || ly >= chunkRows {
+		return ""
+	}
+	if ch.lava[ly][lx] {
+		return "lava"
+	}
+	if ch.water[ly][lx] {
+		return "water"
+	}
+	return ""
 }
 
 // WorldW / WorldH return the full world size in pixels.

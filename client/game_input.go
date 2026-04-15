@@ -424,13 +424,14 @@ func (g *Game) updatePlaying(dt float64) error {
 	}
 
 	// Advance chunk streaming (GMAP mode).
-	// Compute how many chunks are visible at the current zoom level and load that radius.
+	// viewRadius = how many chunks to load in each direction from the player chunk.
+	// chunksX/Y is the full count visible, so the radius is half that (rounded up).
 	if g.activeGMap != "" {
-		chunksX := int(math.Ceil(float64(screenW)/g.zoom/float64(chunkPixelW))) + 1
-		chunksY := int(math.Ceil(float64(screenH)/g.zoom/float64(chunkPixelH))) + 1
-		viewRadius := chunksX
-		if chunksY > viewRadius {
-			viewRadius = chunksY
+		chunksX := int(math.Ceil(float64(screenW) / g.zoom / float64(chunkPixelW)))
+		chunksY := int(math.Ceil(float64(screenH) / g.zoom / float64(chunkPixelH)))
+		viewRadius := (chunksX + 1) / 2
+		if r := (chunksY + 1) / 2; r > viewRadius {
+			viewRadius = r
 		}
 		if viewRadius < Cfg.ChunkRadius {
 			viewRadius = Cfg.ChunkRadius
@@ -623,6 +624,28 @@ func (g *Game) handleMovement(dt float64) {
 			g.pushTimer = 0
 			if c.AnimState == AnimPush {
 				c.AnimState = AnimIdle
+			}
+		}
+	}
+
+	// Terrain detection — switch to swim/lava animation when standing on
+	// water or lava tiles.  Only overrides idle/walk/swim/lava states; sword,
+	// dead, etc. take priority.
+	if c.AnimState == AnimIdle || c.AnimState == AnimWalk ||
+		c.AnimState == AnimSwim || c.AnimState == AnimLava {
+		terrain := g.terrainAt(c.X, c.Y, float64(frameW), float64(frameH))
+		switch terrain {
+		case "lava":
+			c.AnimState = AnimLava
+		case "water":
+			c.AnimState = AnimSwim
+		default:
+			if c.AnimState == AnimSwim || c.AnimState == AnimLava {
+				if c.Moving {
+					c.AnimState = AnimWalk
+				} else {
+					c.AnimState = AnimIdle
+				}
 			}
 		}
 	}
