@@ -3,3 +3,4 @@ game.db
 game-server
 game-client
 server/static/game.wasm
+maps/*
