@@ -107,4 +107,4 @@ Press **P** to open your own profile with the same information.
 - [ ] Add Map Chunk loading through CDN
 - [ ] Support for IOS, Android & Windows
 
-For more information please check [ARCHITECTURE.MD](ARCHITECTURE.MD)
+For more information please check [ARCHITECTURE.MD](docs/ARCHITECTURE.MD)
