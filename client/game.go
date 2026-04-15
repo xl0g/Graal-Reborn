@@ -20,8 +20,7 @@ const (
 	worldW = mapTilesW * tileSize // 1120
 	worldH = mapTilesH * tileSize // 1120
 
-	zoomMin = 0.35 // most zoomed out
-	zoomMax = 2.5  // most zoomed in
+	// zoomMin and zoomMax are now in Cfg (config.json).
 	// world buffer must be large enough to hold a full viewport at max zoom-out
 	worldBufW = 2320 // int(screenW/zoomMin)+32 = int(800/0.35)+32
 	worldBufH = 1748 // int(screenH/zoomMin)+32 = int(600/0.35)+32

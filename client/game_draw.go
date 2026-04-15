@@ -217,8 +217,10 @@ func (g *Game) drawHUD(screen *ebiten.Image) {
 	invHint := "[I] Inventory"
 	DrawText(screen, invHint, screenW/2-len(invHint)*fontW/2, screenH-8, colTextDim)
 
-	// Minimap (bottom-right, above virtual buttons)
-	g.drawMinimap(screen)
+	// Minimap: only in debug overlay (F3)
+	if g.debugOverlay {
+		g.drawMinimap(screen)
+	}
 
 	// Virtual action buttons
 	g.drawVirtualButtons(screen)
@@ -901,7 +903,7 @@ func (g *Game) drawDebugOverlay(screen *ebiten.Image) {
 
 	// ── Info panel ────────────────────────────────────────────
 	lines := []string{
-		fmt.Sprintf("F3 debug | zoom %.2f×  (scroll=zoom, min %.2f max %.2f)", g.zoom, zoomMin, zoomMax),
+		fmt.Sprintf("F3 debug | zoom %.2f×  (scroll=zoom, min %.2f max %.2f)", g.zoom, Cfg.ZoomMin, Cfg.ZoomMax),
 		fmt.Sprintf("pos  X=%.0f  Y=%.0f", g.localChar.X, g.localChar.Y),
 		fmt.Sprintf("cam  X=%.0f  Y=%.0f  vp=%dx%d", camX, camY, int(vw), int(vh)),
 	}

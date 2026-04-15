@@ -92,9 +92,9 @@ func (g *Game) handleServerMsg(data []byte) {
 				ch.Moving = p.Moving
 				// Recompute velocity from authoritative state so the next
 				// dead-reckoning frame starts from the corrected baseline.
-				drSpeed := moveSpeed
+				drSpeed := Cfg.PlayerSpeed
 				if p.Mounted {
-					drSpeed = mountedMoveSpeed
+					drSpeed = Cfg.MountedSpeed
 				}
 				ch.velX, ch.velY = remoteVel(p.Dir, p.Moving, drSpeed)
 				ch.Gralats = p.Gralats
@@ -171,9 +171,9 @@ func (g *Game) handleServerMsg(data []byte) {
 				if p.Mounted {
 					ch.AnimState = AnimRide
 				}
-				drSpeed := moveSpeed
+				drSpeed := Cfg.PlayerSpeed
 				if p.Mounted {
-					drSpeed = mountedMoveSpeed
+					drSpeed = Cfg.MountedSpeed
 				}
 				ch.velX, ch.velY = remoteVel(p.Dir, p.Moving, drSpeed)
 				ch.SetCosmetics(p.Body, p.Head, p.Hat, p.Shield, p.Sword)

@@ -136,11 +136,11 @@ func (g *Game) updatePlaying(dt float64) error {
 			wy = -1
 		}
 		g.zoom *= 1.0 + wy*0.07
-		if g.zoom < zoomMin {
-			g.zoom = zoomMin
+		if g.zoom < Cfg.ZoomMin {
+			g.zoom = Cfg.ZoomMin
 		}
-		if g.zoom > zoomMax {
-			g.zoom = zoomMax
+		if g.zoom > Cfg.ZoomMax {
+			g.zoom = Cfg.ZoomMax
 		}
 	}
 
@@ -432,6 +432,9 @@ func (g *Game) updatePlaying(dt float64) error {
 		if chunksY > viewRadius {
 			viewRadius = chunksY
 		}
+		if viewRadius < Cfg.ChunkRadius {
+			viewRadius = Cfg.ChunkRadius
+		}
 		g.chunkMgr.Update(g.localChar.X, g.localChar.Y, viewRadius)
 	}
 
@@ -574,9 +577,9 @@ func (g *Game) handleMovement(dt float64) {
 		dy *= 0.7071
 	}
 
-	speed := moveSpeed
+	speed := Cfg.PlayerSpeed
 	if c.Mounted {
-		speed = mountedMoveSpeed
+		speed = Cfg.MountedSpeed
 	}
 
 	newX := c.X + dx*speed*dt

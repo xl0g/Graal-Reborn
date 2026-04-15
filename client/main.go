@@ -11,6 +11,8 @@ import (
 func main() {
 	flag.Parse()
 
+	LoadConfig("config.json")
+
 	ebiten.SetWindowSize(screenW, screenH)
 	ebiten.SetWindowTitle("Go Multiplayer")
 	ebiten.SetWindowResizingMode(ebiten.WindowResizingModeEnabled)

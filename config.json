@@ -1,0 +1,8 @@
+{
+  "serverURL": "localhost:8080",
+  "chunkRadius": 2,
+  "playerSpeed": 700.0,
+  "mountedSpeed": 320.0,
+  "zoomMin": 0.35,
+  "zoomMax": 2.5
+}

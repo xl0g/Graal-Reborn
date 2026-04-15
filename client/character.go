@@ -17,11 +17,8 @@ import (
 // ──────────────────────────────────────────────────────────────
 
 const (
-	frameW  = 32
-	frameH  = 32
-	moveSpeed = 700.0
-
-	mountedMoveSpeed = 320.0
+	frameW = 32
+	frameH = 32
 
 	// NPC type for horse (must match server constant)
 	NPCTypeHorse      = 5

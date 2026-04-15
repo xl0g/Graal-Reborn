@@ -11,6 +11,9 @@ import (
 // mapsNWDir is the root directory of all .nw level files.
 const mapsNWDir = "maps/nw"
 
+// mapsTMXDir is the root directory of all converted .tmx chunk files.
+const mapsTMXDir = "maps/tmx"
+
 // ── JSON response types ──────────────────────────────────────────────────────
 
 // MapLayer is one tile layer inside a chunk response.
@@ -45,13 +48,15 @@ type MapGMapResponse struct {
 	Name   string     `json:"name"`
 	Width  int        `json:"width"`
 	Height int        `json:"height"`
-	Levels [][]string `json:"levels"` // [row][col] → .nw filename
+	Levels [][]string `json:"levels"` // [row][col] → chunk filename (.tmx or .nw)
 }
 
 // ── Handlers ────────────────────────────────────────────────────────────────
 
-// handleMapChunk serves a single NW chunk as JSON.
-// GET /api/maps/chunk?name=gc_island_01.nw
+// handleMapChunk serves a single map chunk as JSON.
+// Accepts both .tmx (preferred) and .nw files.
+// GET /api/maps/chunk?name=aeria_cavern_01.tmx
+// GET /api/maps/chunk?name=balamb_a1.nw  (legacy)
 func handleMapChunk(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet && r.Method != http.MethodHead {
 		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
@@ -65,13 +70,50 @@ func handleMapChunk(w http.ResponseWriter, r *http.Request) {
 	}
 	// Safety: only allow simple filenames, no path traversal.
 	name = filepath.Base(name)
-	if !strings.HasSuffix(strings.ToLower(name), ".nw") {
-		http.Error(w, "only .nw files are served here", http.StatusBadRequest)
-		return
-	}
+	lower := strings.ToLower(name)
+
 	// Ignore __ prefixed files (internal / developer-only).
 	if strings.HasPrefix(name, "__") {
 		http.Error(w, "not found", http.StatusNotFound)
+		return
+	}
+
+	switch {
+	case strings.HasSuffix(lower, ".tmx"):
+		serveMapChunkTMX(w, name)
+	case strings.HasSuffix(lower, ".nw"):
+		serveMapChunkNW(w, name)
+	default:
+		http.Error(w, "only .tmx or .nw files are served here", http.StatusBadRequest)
+	}
+}
+
+// serveMapChunkTMX parses a .tmx file from maps/tmx/ and writes JSON.
+func serveMapChunkTMX(w http.ResponseWriter, name string) {
+	path := filepath.Join(mapsTMXDir, name)
+	if _, err := os.Stat(path); os.IsNotExist(err) {
+		http.Error(w, "not found", http.StatusNotFound)
+		return
+	}
+	resp, err := ParseTMXFile(path)
+	if err != nil {
+		http.Error(w, "parse error: "+err.Error(), http.StatusInternalServerError)
+		return
+	}
+	w.Header().Set("Content-Type", "application/json")
+	w.Header().Set("Cache-Control", "public, max-age=300")
+	_ = json.NewEncoder(w).Encode(resp)
+}
+
+// serveMapChunkNW parses a legacy .nw file from maps/nw/ and writes JSON.
+// If a converted .tmx version exists in maps/tmx/ it is preferred automatically,
+// so existing .gmap files keep working without editing.
+func serveMapChunkNW(w http.ResponseWriter, name string) {
+	// Auto-upgrade: prefer .tmx if it exists.
+	base := strings.TrimSuffix(name, filepath.Ext(name))
+	tmxPath := filepath.Join(mapsTMXDir, base+".tmx")
+	if _, err := os.Stat(tmxPath); err == nil {
+		serveMapChunkTMX(w, base+".tmx")
 		return
 	}
 
@@ -80,13 +122,11 @@ func handleMapChunk(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "not found", http.StatusNotFound)
 		return
 	}
-
 	lv, err := ParseNWFile(path, 0) // page 0 = interior tileset
 	if err != nil {
 		http.Error(w, "parse error: "+err.Error(), http.StatusInternalServerError)
 		return
 	}
-
 	resp := buildChunkResponse(lv)
 	w.Header().Set("Content-Type", "application/json")
 	w.Header().Set("Cache-Control", "public, max-age=300")

@@ -14,7 +14,7 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 )
 
-// ── Tile constants for the NW chunk system ───────────────────────────────────
+// ── Tile constants for the chunk system ──────────────────────────────────────
 
 const (
 	chunkTileW  = 16 // px per tile (matches classiciphone_pics4.tsx)
@@ -60,7 +60,7 @@ type gmapJSON struct {
 
 // ── Chunk ────────────────────────────────────────────────────────────────────
 
-// Chunk holds the parsed data and Ebiten draw resources for one 64×64 NW tile block.
+// Chunk holds the parsed data and Ebiten draw resources for one 64×64 tile block.
 type Chunk struct {
 	// Grid position within the GMAP.
 	GridCol, GridRow int
@@ -159,7 +159,7 @@ func drawNWTile(screen, sheet *ebiten.Image, cols, gid int, sx, sy float64) {
 
 // ── ChunkManager ─────────────────────────────────────────────────────────────
 
-// ChunkManager loads, caches and renders NW map chunks for a GMAP world.
+// ChunkManager loads, caches and renders map chunks (.tmx or .nw) for a GMAP world.
 type ChunkManager struct {
 	mu sync.Mutex
 
@@ -167,7 +167,7 @@ type ChunkManager struct {
 	gmapName string
 	gmWidth  int // GMAP columns (number of NW files per row)
 	gmHeight int // GMAP rows
-	levels   [][]string // [row][col] → .nw filename
+	levels   [][]string // [row][col] → chunk filename (.tmx or .nw)
 
 	// Loaded chunks keyed by "col,row".
 	chunks  map[string]*Chunk
@@ -453,4 +453,9 @@ func abs(x int) int {
 // IsNWFile reports whether name ends with .nw (case-insensitive).
 func IsNWFile(name string) bool {
 	return strings.HasSuffix(strings.ToLower(name), ".nw")
+}
+
+// IsTMXFile reports whether name ends with .tmx (case-insensitive).
+func IsTMXFile(name string) bool {
+	return strings.HasSuffix(strings.ToLower(name), ".tmx")
 }
