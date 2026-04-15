@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="13">
- <tileset firstgid="1" source="../../classiciphone_pics4.tsx"/>
+ <tileset firstgid="1" source="../classiciphone_pics4.tsx"/>
  <layer id="1" name="base" width="64" height="64">
   <data encoding="csv">
 1539,1540,781,782,783,778,779,780,781,782,783,778,779,780,781,782,783,778,779,780,781,782,783,784,0,0,0,832,704,1338,1339,1468,832,521,522,523,524,525,526,527,522,523,524,525,526,527,522,523,524,525,526,527,522,523,524,525,526,527,522,523,524,525,526,527,
@@ -67,10 +67,12 @@
 1,2,0,0,0,0,0,0,0,0,0,1795,1796,1797,2318,1291,2318,1291,2318,1291,9,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,16,
 0,0,0,0,0,0,0,0,0,0,0,1667,1668,1669,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,9,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,
 0,0,0,0,0,0,0,0,0,0,0,1795,1796,1797,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291
-  </data>
+</data>
  </layer>
  <layer id="2" name="collision" width="64" height="64" visible="0">
-  <properties><property name="collision" value="true"/></properties>
+  <properties>
+   <property name="collision" value="true"/>
+  </properties>
   <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -136,64 +138,64 @@
 0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-  </data>
+</data>
  </layer>
  <objectgroup id="3" name="npcs">
-  <object id="1" x="720.0" y="480.0" width="16" height="16">
+  <object id="1" x="720" y="480" width="16" height="16">
    <properties>
     <property name="gani" value="banksign.png"/>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("image_varied");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;image_varied&quot;);
 -- [CLIENT-SIDE — server no-op]
 -- function onCreated(){
--- this.oldtilesimg = "banksign.png";
--- this.newtilesimg = "graalbanksign.png";
--- }]]></property>
+-- this.oldtilesimg = &quot;banksign.png&quot;;
+-- this.newtilesimg = &quot;graalbanksign.png&quot;;
+-- }</property>
    </properties>
   </object>
-  <object id="2" x="800.0" y="528.0" width="16" height="16">
+  <object id="2" x="800" y="528" width="16" height="16">
    <properties>
     <property name="gani" value="door.png"/>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("door");
--- join("image_varied");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;door&quot;);
+-- join(&quot;image_varied&quot;);
 -- [CLIENT-SIDE — server no-op]
 -- function onCreated(){
--- this.oldtilesimg = "classic_olddoor.png";
--- this.newtilesimg = "door.png";
--- }]]></property>
+-- this.oldtilesimg = &quot;classic_olddoor.png&quot;;
+-- this.newtilesimg = &quot;door.png&quot;;
+-- }</property>
    </properties>
   </object>
-  <object id="3" x="256.0" y="288.0" width="16" height="16">
+  <object id="3" x="256" y="288" width="16" height="16">
    <properties>
     <property name="gani" value="door.png"/>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("door");
--- join("image_varied");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;door&quot;);
+-- join(&quot;image_varied&quot;);
 -- [CLIENT-SIDE — server no-op]
 -- function onCreated(){
--- this.oldtilesimg = "classic_olddoor.png";
--- this.newtilesimg = "door.png";
--- }]]></property>
+-- this.oldtilesimg = &quot;classic_olddoor.png&quot;;
+-- this.newtilesimg = &quot;door.png&quot;;
+-- }</property>
    </properties>
   </object>
-  <object id="4" x="768.0" y="144.0" width="16" height="16">
+  <object id="4" x="768" y="144" width="16" height="16">
    <properties>
     <property name="gani" value="door.png"/>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("door");
--- join("image_varied");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;door&quot;);
+-- join(&quot;image_varied&quot;);
 -- [CLIENT-SIDE — server no-op]
 -- function onCreated(){
--- this.oldtilesimg = "classic_olddoor.png";
--- this.newtilesimg = "door.png";
--- }]]></property>
+-- this.oldtilesimg = &quot;classic_olddoor.png&quot;;
+-- this.newtilesimg = &quot;door.png&quot;;
+-- }</property>
    </properties>
   </object>
-  <object id="5" x="816.0" y="176.0" width="16" height="16">
+  <object id="5" x="816" y="176" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("sign_liftable");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;sign_liftable&quot;);
 
 -- [CLIENT-SIDE — server no-op]
 -- if (created) setstring this.text,#b
@@ -201,95 +203,95 @@
 -- #b
 -- The name sounds pretty odd, but#b
 -- these guys are a great bunch of#b
--- people.;]]></property>
+-- people.;</property>
    </properties>
   </object>
-  <object id="6" x="640.0" y="672.0" width="16" height="16">
+  <object id="6" x="640" y="672" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("sign_liftable");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;sign_liftable&quot;);
 
 -- [CLIENT-SIDE — server no-op]
--- if (created) setstring this.text,Graal Online Bank #r #u#b#b#bWe do bankin' right!;]]></property>
+-- if (created) setstring this.text,Graal Online Bank #r #u#b#b#bWe do bankin' right!;</property>
    </properties>
   </object>
-  <object id="7" x="224.0" y="224.0" width="16" height="16">
+  <object id="7" x="224" y="224" width="16" height="16">
    <properties>
     <property name="gani" value="brsign.png"/>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("image_varied");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;image_varied&quot;);
 -- [CLIENT-SIDE — server no-op]
 -- function onCreated(){
--- this.oldtilesimg = "brsign.png";
--- this.newtilesimg = "brsign0.png";
--- this.seasonimage_winter = "classic_christmasrefuge.png";
+-- this.oldtilesimg = &quot;brsign.png&quot;;
+-- this.newtilesimg = &quot;brsign0.png&quot;;
+-- this.seasonimage_winter = &quot;classic_christmasrefuge.png&quot;;
 -- this.seasonimage_winter_x = 908;
--- }]]></property>
+-- }</property>
    </properties>
   </object>
-  <object id="8" x="432.0" y="512.0" width="16" height="16">
+  <object id="8" x="432" y="512" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("image_varied");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;image_varied&quot;);
 
 -- [CLIENT-SIDE — server no-op]
 -- function onCreated(){
--- this.oldtilesimg = "no-image.png";
--- this.newtilesimg = "no-image.png";
--- this.seasonimage_winter = "xmaswreathlarge.png";
--- }]]></property>
+-- this.oldtilesimg = &quot;no-image.png&quot;;
+-- this.newtilesimg = &quot;no-image.png&quot;;
+-- this.seasonimage_winter = &quot;xmaswreathlarge.png&quot;;
+-- }</property>
    </properties>
   </object>
-  <object id="9" x="304.0" y="672.0" width="16" height="16">
+  <object id="9" x="304" y="672" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("image_varied");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;image_varied&quot;);
 
 -- [CLIENT-SIDE — server no-op]
 -- function onCreated(){
--- this.oldtilesimg = "no-image.png";
--- this.newtilesimg = "no-image.png";
--- this.seasonimage_winter = "xmaswreathlarge.png";
--- }]]></property>
+-- this.oldtilesimg = &quot;no-image.png&quot;;
+-- this.newtilesimg = &quot;no-image.png&quot;;
+-- this.seasonimage_winter = &quot;xmaswreathlarge.png&quot;;
+-- }</property>
    </properties>
   </object>
-  <object id="10" x="192.0" y="480.0" width="16" height="16">
+  <object id="10" x="192" y="480" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("image_varied");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;image_varied&quot;);
 
 -- [CLIENT-SIDE — server no-op]
 -- function onCreated(){
--- this.oldtilesimg = "no-image.png";
--- this.newtilesimg = "no-image.png";
--- this.seasonimage_winter = "xmaswreathlarge.png";
--- }]]></property>
+-- this.oldtilesimg = &quot;no-image.png&quot;;
+-- this.newtilesimg = &quot;no-image.png&quot;;
+-- this.seasonimage_winter = &quot;xmaswreathlarge.png&quot;;
+-- }</property>
    </properties>
   </object>
-  <object id="11" x="304.0" y="272.0" width="16" height="16">
+  <object id="11" x="304" y="272" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("image_varied");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;image_varied&quot;);
 
 -- [CLIENT-SIDE — server no-op]
 -- function onCreated(){
--- this.oldtilesimg = "no-image.png";
--- this.newtilesimg = "no-image.png";
--- this.seasonimage_winter = "xmascandycane.png";
--- }]]></property>
+-- this.oldtilesimg = &quot;no-image.png&quot;;
+-- this.newtilesimg = &quot;no-image.png&quot;;
+-- this.seasonimage_winter = &quot;xmascandycane.png&quot;;
+-- }</property>
    </properties>
   </object>
-  <object id="12" x="208.0" y="272.0" width="16" height="16">
+  <object id="12" x="208" y="272" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("image_varied");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;image_varied&quot;);
 
 -- [CLIENT-SIDE — server no-op]
 -- function onCreated(){
--- this.oldtilesimg = "no-image.png";
--- this.newtilesimg = "no-image.png";
--- this.seasonimage_winter = "xmascandycane2.png";
--- }]]></property>
+-- this.oldtilesimg = &quot;no-image.png&quot;;
+-- this.newtilesimg = &quot;no-image.png&quot;;
+-- this.seasonimage_winter = &quot;xmascandycane2.png&quot;;
+-- }</property>
    </properties>
   </object>
  </objectgroup>

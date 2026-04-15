@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="18">
- <tileset firstgid="1" source="../../classiciphone_pics4.tsx"/>
+ <tileset firstgid="1" source="../classiciphone_pics4.tsx"/>
  <layer id="1" name="base" width="64" height="64">
   <data encoding="csv">
 0,0,0,0,0,0,2189,2190,2189,2190,0,0,0,0,0,0,2183,2306,2307,2184,2185,2186,2564,2563,2563,3466,3087,3087,582,275,3087,3087,582,275,3087,3087,582,3540,3667,3667,3667,3667,3667,3667,3538,1291,2318,2060,1800,0,0,0,0,0,0,0,1,2,0,0,0,0,1921,1922,
@@ -67,10 +67,12 @@
 0,0,0,0,0,0,0,0,0,3201,3202,1796,1797,1292,1291,1292,2318,1292,2318,1292,1292,2318,1292,1292,1291,1292,1928,1290,1290,1290,1290,2823,2952,0,0,1,129,2,0,0,0,0,0,2951,2445,2318,1292,2318,1292,2318,1292,2318,1291,1291,3469,1673,1674,1675,1676,1680,1292,2318,1292,3213,
 15,10,11,12,13,14,15,0,0,0,1667,1668,1669,2318,1292,1291,1292,1291,1292,1291,1291,1292,1291,2318,1292,2318,1292,2318,1292,2318,1292,1292,1928,1290,1290,1290,1290,2823,2824,2823,1290,2823,2824,3079,1291,1292,1291,1292,1291,1292,1291,1291,1292,1292,3213,3073,1802,1803,1808,1936,1291,1292,1291,1292,
 143,138,139,140,141,142,143,144,0,0,1795,1796,1797,2318,2318,1292,2318,1292,2318,1292,1292,2318,1292,2318,1292,2318,1292,2318,1292,2318,1292,2318,1292,2318,1292,2318,1292,2318,1292,2318,1292,2318,1292,2318,1292,2318,1292,2318,1292,2318,1292,1292,1291,1291,1291,3213,2692,2693,1936,1291,1292,2318,1292,2318
-  </data>
+</data>
  </layer>
  <layer id="2" name="collision" width="64" height="64" visible="0">
-  <properties><property name="collision" value="true"/></properties>
+  <properties>
+   <property name="collision" value="true"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
@@ -136,10 +138,12 @@
 0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,
 1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,
 1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0
-  </data>
+</data>
  </layer>
  <layer id="3" name="water" width="64" height="64" visible="0">
-  <properties><property name="terrain" value="water"/></properties>
+  <properties>
+   <property name="terrain" value="water"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -205,23 +209,23 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-  </data>
+</data>
  </layer>
  <objectgroup id="4" name="npcs">
-  <object id="1" x="272.0" y="640.0" width="16" height="16">
+  <object id="1" x="272" y="640" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("sign_liftable");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;sign_liftable&quot;);
 
 -- [CLIENT-SIDE — server no-op]
 -- if (created) setstring this.text,
--- SNC Guild House#b;]]></property>
+-- SNC Guild House#b;</property>
    </properties>
   </object>
-  <object id="2" x="192.0" y="592.0" width="16" height="16">
+  <object id="2" x="192" y="592" width="16" height="16">
    <properties>
     <property name="gani" value="door.png"/>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+    <property name="script">-- Auto-converted from GraalScript
 -- // NPC made by Mighty
 -- if (created) {
 -- setimg door.png;
@@ -232,111 +236,111 @@ end
 -- hide;
 -- sleep 3;
 -- show;
--- }]]></property>
+-- }</property>
    </properties>
   </object>
-  <object id="3" x="352.0" y="528.0" width="16" height="16">
+  <object id="3" x="352" y="528" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
-joinResource("bush")]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+joinResource(&quot;bush&quot;)</property>
    </properties>
   </object>
-  <object id="4" x="352.0" y="560.0" width="16" height="16">
+  <object id="4" x="352" y="560" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
-joinResource("bush")]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+joinResource(&quot;bush&quot;)</property>
    </properties>
   </object>
-  <object id="5" x="384.0" y="512.0" width="16" height="16">
+  <object id="5" x="384" y="512" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
-joinResource("bush")]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+joinResource(&quot;bush&quot;)</property>
    </properties>
   </object>
-  <object id="6" x="384.0" y="544.0" width="16" height="16">
+  <object id="6" x="384" y="544" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
-joinResource("bush")]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+joinResource(&quot;bush&quot;)</property>
    </properties>
   </object>
-  <object id="7" x="384.0" y="576.0" width="16" height="16">
+  <object id="7" x="384" y="576" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
-joinResource("bush")]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+joinResource(&quot;bush&quot;)</property>
    </properties>
   </object>
-  <object id="8" x="416.0" y="512.0" width="16" height="16">
+  <object id="8" x="416" y="512" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
-joinResource("bush")]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+joinResource(&quot;bush&quot;)</property>
    </properties>
   </object>
-  <object id="9" x="416.0" y="544.0" width="16" height="16">
+  <object id="9" x="416" y="544" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
-joinResource("bush")]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+joinResource(&quot;bush&quot;)</property>
    </properties>
   </object>
-  <object id="10" x="448.0" y="528.0" width="16" height="16">
+  <object id="10" x="448" y="528" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
-joinResource("bush")]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+joinResource(&quot;bush&quot;)</property>
    </properties>
   </object>
-  <object id="11" x="288.0" y="432.0" width="16" height="16">
+  <object id="11" x="288" y="432" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
-joinResource("bush")]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+joinResource(&quot;bush&quot;)</property>
    </properties>
   </object>
-  <object id="12" x="256.0" y="448.0" width="16" height="16">
+  <object id="12" x="256" y="448" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
-joinResource("bush")]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+joinResource(&quot;bush&quot;)</property>
    </properties>
   </object>
-  <object id="13" x="288.0" y="560.0" width="16" height="16">
+  <object id="13" x="288" y="560" width="16" height="16">
    <properties>
     <property name="gani" value="sncoutsidesign.png"/>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+    <property name="script">-- Auto-converted from GraalScript
 -- [CLIENT-SIDE — server no-op]
 -- drawunderplayer;
 -- if (created) {
--- }]]></property>
+-- }</property>
    </properties>
   </object>
-  <object id="14" x="96.0" y="560.0" width="16" height="16">
+  <object id="14" x="96" y="560" width="16" height="16">
    <properties>
     <property name="gani" value="sncoutsidesign2.png"/>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
+    <property name="script">-- Auto-converted from GraalScript
 -- [CLIENT-SIDE — server no-op]
 -- drawunderplayer;
 -- if (created) {
--- }]]></property>
+-- }</property>
    </properties>
   </object>
-  <object id="15" x="560.0" y="912.0" width="16" height="16">
+  <object id="15" x="560" y="912" width="16" height="16">
    <properties>
     <property name="gani" value="door.png"/>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("door");]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;door&quot;);</property>
    </properties>
   </object>
-  <object id="16" x="608.0" y="816.0" width="16" height="16">
+  <object id="16" x="608" y="816" width="16" height="16">
    <properties>
     <property name="gani" value="door.png"/>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("door");]]></property>
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;door&quot;);</property>
    </properties>
   </object>
-  <object id="17" x="608.0" y="944.0" width="16" height="16">
+  <object id="17" x="608" y="944" width="16" height="16">
    <properties>
-    <property name="script" type="string"><![CDATA[-- Auto-converted from GraalScript
--- join("sign_liftable");
+    <property name="script">-- Auto-converted from GraalScript
+-- join(&quot;sign_liftable&quot;);
 
 -- [CLIENT-SIDE — server no-op]
 -- if (created) setstring this.text,
--- Tatsi's House;]]></property>
+-- Tatsi's House;</property>
    </properties>
   </object>
  </objectgroup>

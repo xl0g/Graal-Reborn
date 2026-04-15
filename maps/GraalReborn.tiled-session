@@ -1,12 +1,17 @@
 {
-    "activeFile": "maps/tmx/graalcity_outside_02.tmx",
+    "activeFile": "tmx/graalcity_outside_10.tmx",
     "expandedProjectPaths": [
         ".",
-        "maps/tmx",
-        "maps"
+        "maps",
+        "tmx",
+        "maps/tmx"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "/home/x0g/Documents/Graal-Reborn/classiciphone_pics4.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
         "GraalCity0-0.tmx": {
             "scale": 0.75,
             "selectedLayer": 0,
@@ -27,8 +32,8 @@
             "scale": 1.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 1753.6666666666665,
-                "y": 1247
+                "x": 1024.3333333333333,
+                "y": 930.9999999999999
             }
         },
         "GraalRebornMap.tmx": {
@@ -47,7 +52,7 @@
         "classiciphone_pics4.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 2,
-            "scaleInEditor": 1
+            "scaleInEditor": 3
         },
         "interior1.tmx": {
             "scale": 4,
@@ -451,85 +456,169 @@
                 "x": 480.14695649753685,
                 "y": 319.8307773664728
             }
+        },
+        "tmx/classic_eternia11.tmx": {
+            "scale": 0.924951171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91891463865284,
+                "y": 511.91891463865284
+            }
+        },
+        "tmx/classic_eternia19.tmx": {
+            "scale": 0.924951171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91891463865284,
+                "y": 511.91891463865284
+            }
+        },
+        "tmx/classic_hell_07.tmx": {
+            "scale": 0.924951171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91891463865284,
+                "y": 511.91891463865284
+            }
+        },
+        "tmx/classic_tavern-quest02.tmx": {
+            "scale": 0.924951171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91891463865284,
+                "y": 511.91891463865284
+            }
+        },
+        "tmx/classic_weddingchapel01.tmx": {
+            "scale": 0.924951171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91891463865284,
+                "y": 511.91891463865284
+            }
+        },
+        "tmx/classiciphone_pics4.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tmx/destiny_fort_inside_04.tmx": {
+            "scale": 0.924951171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91891463865284,
+                "y": 511.91891463865284
+            }
+        },
+        "tmx/draxis_room_01.tmx": {
+            "scale": 0.924951171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91891463865284,
+                "y": 511.91891463865284
+            }
+        },
+        "tmx/graalcity_outside_03.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 0.8915527343749999,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 734.1124924694673,
+                "y": 245.07804370447457
+            }
+        },
+        "tmx/graalcity_outside_07.tmx": {
+            "scale": 0.924951171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91891463865284,
+                "y": 511.91891463865284
+            }
+        },
+        "tmx/graalcity_outside_08.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 686.5,
+                "y": 464.5
+            }
+        },
+        "tmx/graalcity_outside_10.tmx": {
+            "scale": 0.924951171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.91891463865284,
+                "y": 663.2782558200919
+            }
+        },
+        "tmx/graalcity_outside_11.tmx": {
+            "scale": 0.8915527343749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.028040966099,
+                "y": 512.0280409660988
+            }
+        },
+        "tmx/graalcity_outside_14.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 156.5,
+                "y": 365.16666666666663
+            }
+        },
+        "tmx/graalcity_outside_15.tmx": {
+            "scale": 0.8915527343749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.028040966099,
+                "y": 512.0280409660988
+            }
+        },
+        "tmx/graalcity_outside_17.tmx": {
+            "scale": 0.8915527343749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.028040966099,
+                "y": 512.0280409660988
+            }
         }
     },
-    "last.imagePath": "/home/x0g/Downloads/idbfs.4/idbfs 4/9baef3bed879372ecad88b9873e8b1b0/Login_Classic_iPhone/levels/images/dc",
+    "last.externalTilesetPath": "/home/x0g/Documents/Graal-Reborn/maps",
+    "last.imagePath": "/home/x0g/Documents/Graal-Reborn/assets/offline/levels/tiles",
     "map.height": 128,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
     "map.width": 128,
     "openFiles": [
-        "classiciphone_pics4.tsx",
-        "GraalRebornMap.tmx",
-        "test2.tmx",
-        "interior1.tmx",
-        "GraalCityEntry.tmx",
-        "Test.tsx",
-        "maps/tmx/abermose_inside_01.tmx",
-        "maps/tmx/aeria_cavern_01.tmx",
-        "maps/tmx/aeria_inside_townhall_01.tmx",
-        "maps/tmx/ancienttemplesand2.tmx",
-        "maps/tmx/avalon_church_01.tmx",
-        "maps/tmx/avalon_quest_15.tmx",
-        "maps/tmx/avalon_quest_map_09.tmx",
-        "maps/tmx/babord_bowling_inside_02.tmx",
-        "maps/tmx/babord_pizza_03.tmx",
-        "maps/tmx/baddycastle_3.tmx",
-        "maps/tmx/bartholomew_inside_01.tmx",
-        "maps/tmx/cheet_uncle_01.tmx",
-        "maps/tmx/chriskillem_icearena_01.tmx",
-        "maps/tmx/classic_hell_05.tmx",
-        "maps/tmx/classic_tavern-bar01.tmx",
-        "maps/tmx/classic_tule_outside_16.tmx",
-        "maps/tmx/classic_tule_outside_06.tmx",
-        "maps/tmx/classic_tule_outside_03.tmx",
-        "maps/tmx/classic_tule_clothesshop.tmx",
-        "maps/tmx/classic_weddingchapel0.tmx",
-        "maps/tmx/classic_weddingchapel01.tmx",
-        "maps/tmx/classic_weddingchapel02.tmx",
-        "maps/tmx/classic_weddinghell01.tmx",
-        "maps/tmx/classic_weddinghell0.tmx",
-        "maps/tmx/gc_ctf_race_02.tmx",
-        "maps/tmx/gc_ctf_flash_09.tmx",
-        "maps/tmx/gc_connectfour_team.tmx",
-        "maps/tmx/gc_ctf_bluesmall_01.tmx",
-        "maps/tmx/gc_connectfour_01.tmx",
-        "maps/tmx/gc_chess_01.tmx",
-        "maps/tmx/gc_chairspar_02.tmx",
-        "maps/tmx/gc_chesspieces.tmx",
-        "maps/tmx/gc_connectfourpub_01.tmx",
-        "maps/tmx/graalcastle_inside_food.tmx",
-        "maps/tmx/graalcastle_inside_b03.tmx",
-        "maps/tmx/graalcastle_inside_04.tmx",
-        "maps/tmx/graalcity_outside_24.tmx",
-        "maps/tmx/graalcity_outside_23.tmx",
-        "maps/tmx/graalcity_outside_21.tmx",
-        "maps/tmx/graalcity_outside_22.tmx",
-        "maps/tmx/graalcity_outside_18.tmx",
-        "maps/tmx/graalcity_outside_15.tmx",
-        "maps/tmx/graalcity_outside_13.tmx",
-        "maps/tmx/graalcity_outside_11.tmx",
-        "maps/tmx/graalcity_outside_08.tmx",
-        "maps/tmx/graalcity_outside_06.tmx",
-        "maps/tmx/graalcity_outside_02.tmx",
-        "maps/tmx/graalcity_outside_01.tmx"
+        "tmx/graalcity_outside_14.tmx",
+        "tmx/classiciphone_pics4.tsx",
+        "tmx/graalcity_outside_17.tmx",
+        "tmx/graalcity_outside_15.tmx",
+        "tmx/graalcity_outside_11.tmx",
+        "tmx/graalcity_outside_08.tmx",
+        "tmx/graalcity_outside_03.tmx",
+        "tmx/graalcity_outside_07.tmx",
+        "tmx/graalcity_outside_10.tmx"
     ],
     "project": "GraalReborn.tiled-project",
     "property.type": "bool",
     "recentFiles": [
-        "classiciphone_pics4.tsx",
-        "GraalRebornMap.tmx",
-        "test2.tmx",
-        "interior1.tmx",
-        "GraalCityEntry.tmx",
-        "Test.tsx",
-        "maps/tmx/abermose_inside_01.tmx",
-        "maps/tmx/aeria_cavern_01.tmx",
-        "maps/tmx/aeria_inside_townhall_01.tmx",
-        "maps/tmx/ancienttemplesand2.tmx",
-        "maps/tmx/avalon_church_01.tmx",
-        "maps/tmx/avalon_quest_15.tmx"
+        "tmx/graalcity_outside_14.tmx",
+        "tmx/classiciphone_pics4.tsx",
+        "tmx/graalcity_outside_17.tmx",
+        "tmx/graalcity_outside_15.tmx",
+        "tmx/graalcity_outside_11.tmx",
+        "tmx/graalcity_outside_08.tmx",
+        "tmx/graalcity_outside_03.tmx",
+        "tmx/graalcity_outside_07.tmx",
+        "tmx/graalcity_outside_10.tmx",
+        "tmx/draxis_room_01.tmx",
+        "tmx/destiny_fort_inside_04.tmx",
+        "tmx/classic_weddingchapel01.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
