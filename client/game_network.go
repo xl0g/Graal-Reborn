@@ -68,8 +68,14 @@ func (g *Game) handleServerMsg(data []byte) {
 			g.cosmeticMenu.SetByFilenames(msg.Body, msg.Head, msg.Hat, msg.Shield, msg.Sword)
 		}
 		g.sendCosmetics()
-		if g.currentMapName != "" && g.conn != nil {
-			g.conn.SendJSON(map[string]string{"type": "change_map", "map": g.currentMapName})
+		// Re-announce the current map so the server tracks which map this client
+		// is on. In GMAP mode activeGMap holds the name; in TMX mode currentMapName.
+		if g.conn != nil {
+			if g.activeGMap != "" {
+				g.conn.SendJSON(map[string]string{"type": "change_map", "map": g.activeGMap})
+			} else if g.currentMapName != "" {
+				g.conn.SendJSON(map[string]string{"type": "change_map", "map": g.currentMapName})
+			}
 		}
 		g.chat.AddMessage("", fmt.Sprintf("Connected as %s", msg.Name), true)
 

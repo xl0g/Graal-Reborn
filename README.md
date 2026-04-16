@@ -95,7 +95,7 @@ Press **P** to open your own profile with the same information.
 - [x] AI NPCs
 - [x] Improving Sync
 - [x] Add Lua scripting & expose bindings (cf [Resources documentation](resources/README.md))
-- [ ] Guild / Friends
+- [x] Guild / Friends
 - [ ] Improve Instance system
 - [ ] Improve Inventory
 - [ ] Interactions with world (WIP)

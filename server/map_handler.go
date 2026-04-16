@@ -34,6 +34,26 @@ type MapNPC struct {
 	Script string  `json:"script"` // Lua source
 }
 
+// MapSign describes a readable sign in a chunk.
+type MapSign struct {
+	X    int    `json:"x"`
+	Y    int    `json:"y"`
+	Text string `json:"text"`
+}
+
+// MapLink describes a warp/door in a chunk.
+// When the player enters the trigger rectangle (X, Y)–(X+W, Y+H) in tile
+// units, they are teleported to (DestX, DestY) in DestMap.
+type MapLink struct {
+	X       int     `json:"x"`
+	Y       int     `json:"y"`
+	W       int     `json:"w"`
+	H       int     `json:"h"`
+	DestMap string  `json:"destMap"`
+	DestX   float64 `json:"destX"`
+	DestY   float64 `json:"destY"`
+}
+
 // MapChunkResponse is the JSON payload returned by GET /api/maps/chunk.
 type MapChunkResponse struct {
 	Name       string     `json:"name"`
@@ -43,6 +63,8 @@ type MapChunkResponse struct {
 	TileHeight int        `json:"tileheight"`
 	Layers     []MapLayer `json:"layers"`
 	NPCs       []MapNPC   `json:"npcs"`
+	Signs      []MapSign  `json:"signs,omitempty"`
+	Links      []MapLink  `json:"links,omitempty"`
 }
 
 // MapGMapResponse is the JSON payload returned by GET /api/maps/gmap.
@@ -105,19 +127,19 @@ func serveMapChunkTMX(w http.ResponseWriter, name string) {
 		return
 	}
 
-	// Augment with NW terrain/collision when the TMX was generated without them
-	// (e.g. by an older version of the converter).
-	if !hasTerrainOrCollision(resp) {
-		base := strings.TrimSuffix(name, filepath.Ext(name))
-		nwPath := filepath.Join(mapsNWDir, base+".nw")
-		if lv, err := ParseNWFile(nwPath, 0); err == nil {
-			// Collision.
+	// Always try to augment with NW data: signs and links are never stored in
+	// the TMX (the converter doesn't emit them), and collision/terrain fall back
+	// to the NW file when the TMX was produced by an older converter version.
+	base := strings.TrimSuffix(name, filepath.Ext(name))
+	nwPath := filepath.Join(mapsNWDir, base+".nw")
+	if lv, err := ParseNWFile(nwPath, 0); err == nil {
+		// Collision / terrain — only when the TMX doesn't already have them.
+		if !hasTerrainOrCollision(resp) {
 			resp.Layers = append(resp.Layers, MapLayer{
 				Name:      "collision",
 				Collision: true,
 				Data:      lv.CollisionGIDs(),
 			})
-			// Water terrain (only when non-empty).
 			if wgids := lv.TerrainGIDs(false); wgids != nil {
 				resp.Layers = append(resp.Layers, MapLayer{
 					Name:    "water",
@@ -125,7 +147,6 @@ func serveMapChunkTMX(w http.ResponseWriter, name string) {
 					Data:    wgids,
 				})
 			}
-			// Lava terrain (only when non-empty).
 			if lgids := lv.TerrainGIDs(true); lgids != nil {
 				resp.Layers = append(resp.Layers, MapLayer{
 					Name:    "lava",
@@ -133,6 +154,21 @@ func serveMapChunkTMX(w http.ResponseWriter, name string) {
 					Data:    lgids,
 				})
 			}
+		}
+		// Signs and links are always sourced from the NW file.
+		for _, s := range lv.Signs {
+			resp.Signs = append(resp.Signs, MapSign{X: s.X, Y: s.Y, Text: s.Text})
+		}
+		for _, l := range lv.Links {
+			resp.Links = append(resp.Links, MapLink{
+				X:       l.X,
+				Y:       l.Y,
+				W:       l.Width,
+				H:       l.Height,
+				DestMap: l.DestMap,
+				DestX:   l.DestX,
+				DestY:   l.DestY,
+			})
 		}
 	}
 
@@ -281,6 +317,24 @@ func buildChunkResponse(lv *NWLevel) *MapChunkResponse {
 			X:      npc.X,
 			Y:      npc.Y,
 			Script: GraalScriptToLua(npc.Script),
+		})
+	}
+
+	// Signs.
+	for _, s := range lv.Signs {
+		resp.Signs = append(resp.Signs, MapSign{X: s.X, Y: s.Y, Text: s.Text})
+	}
+
+	// Warp links (doors / exits).
+	for _, l := range lv.Links {
+		resp.Links = append(resp.Links, MapLink{
+			X:       l.X,
+			Y:       l.Y,
+			W:       l.Width,
+			H:       l.Height,
+			DestMap: l.DestMap,
+			DestX:   l.DestX,
+			DestY:   l.DestY,
 		})
 	}
 

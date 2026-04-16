@@ -75,11 +75,29 @@ type NWNPC struct {
 	Script string  // raw GraalScript body
 }
 
+// NWSign represents a readable sign in an NW file.
+type NWSign struct {
+	X, Y int    // tile position
+	Text string // display text (may contain #l/#r for left/right alignment)
+}
+
+// NWLink represents a warp link in an NW file.
+// When the player enters the area (X, Y, Width, Height), they warp to
+// (DestX, DestY) in DestMap.
+type NWLink struct {
+	DestMap        string
+	X, Y           int     // top-left tile of the trigger zone
+	Width, Height  int     // size of the trigger zone (tiles)
+	DestX, DestY   float64 // spawn position in the destination map (tile units)
+}
+
 // NWLevel holds the parsed content of one .nw file.
 type NWLevel struct {
 	Name   string
 	Boards []*NWBoard
 	NPCs   []*NWNPC
+	Signs  []*NWSign
+	Links  []*NWLink
 
 	// Derived: per-layer 64×64 grid (layer index → [row][col] GID)
 	Layers [][][]int
@@ -122,10 +140,63 @@ func ParseNWFile(path string, page int) (*NWLevel, error) {
 		npcImg     string
 		npcX, npcY float64
 		npcLines   []string
+
+		inSign    bool
+		signX     int
+		signY     int
+		signLines []string
 	)
 
 	for scanner.Scan() {
 		line := scanner.Text()
+
+		// ── SIGN parsing ─────────────────────────────────────────────────
+		if inSign {
+			if strings.TrimSpace(line) == "SIGNEND" {
+				text := strings.Join(signLines, "\n")
+				// Strip Graal alignment markers (#l #r)
+				text = strings.ReplaceAll(text, "#l", "")
+				text = strings.ReplaceAll(text, "#r", "")
+				text = strings.TrimSpace(text)
+				if text != "" {
+					lv.Signs = append(lv.Signs, &NWSign{X: signX, Y: signY, Text: text})
+				}
+				inSign = false
+				signLines = nil
+			} else {
+				signLines = append(signLines, line)
+			}
+			continue
+		}
+		if strings.HasPrefix(line, "SIGN ") {
+			parts := strings.Fields(line)
+			if len(parts) >= 3 {
+				inSign = true
+				signX, _ = strconv.Atoi(parts[1])
+				signY, _ = strconv.Atoi(parts[2])
+			}
+			continue
+		}
+
+		// ── LINK parsing ─────────────────────────────────────────────────
+		// Format: LINK destmap x y w h destx desty
+		if strings.HasPrefix(line, "LINK ") {
+			parts := strings.Fields(line)
+			if len(parts) >= 8 {
+				lnk := &NWLink{
+					DestMap: parts[1],
+				}
+				lnk.X, _ = strconv.Atoi(parts[2])
+				lnk.Y, _ = strconv.Atoi(parts[3])
+				lnk.Width, _ = strconv.Atoi(parts[4])
+				lnk.Height, _ = strconv.Atoi(parts[5])
+				lnk.DestX, _ = strconv.ParseFloat(parts[6], 64)
+				lnk.DestY, _ = strconv.ParseFloat(parts[7], 64)
+				lv.Links = append(lv.Links, lnk)
+			}
+			continue
+		}
+
 		// ── NPC parsing ──────────────────────────────────────────────────
 		if inNPC {
 			if strings.TrimSpace(line) == "NPCEND" {
@@ -363,76 +434,302 @@ func parseQuotedCSV(line string) []string {
 // GraalScriptToLua performs a best-effort conversion of a GraalScript NPC
 // body to a Lua script suitable for the server's resource system.
 //
-// Supported conversions:
-//   join <resource>;         → joinResource("<resource>")
-//   this.<prop> = <val>;     → self.<prop> = <val>
-//   if (event == "<e>"){     → if event == "<e>" then
-//   dontblock;               → self.dontblock = true
-//   setcoloreffect r,g,b,a;  → self:setColorEffect(r,g,b,a)
-//   drawaslight;             → self.drawaslight = true
-//   //#CLIENTSIDE            → -- (client-side scripts are no-ops on server)
+// The most common GraalScript constructs are handled:
+//
+//	join <res>;                → joinResource("<res>")
+//	dontblock;                 → self.dontblock = true
+//	drawoverplayer;            → self.drawoverplayer = true
+//	drawunderplayer;           → self.drawunderplayer = true
+//	drawaslight;               → self.drawaslight = true
+//	canbecarried;              → self.canbecarried = true
+//	block;                     → self.block = true
+//	this.<p> = <v>;            → self.<p> = <v>
+//	timeout = N;               → self.timeout = N
+//	say "text";                → self.chat = "text"
+//	if (created) { ... }       → AddEventHandler("onCreated", function(self) ... end)
+//	if (playerenters) { ... }  → AddEventHandler("onPlayerEnters", function(self, player) ... end)
+//	if (timeout) { ... }       → AddEventHandler("onTimeout", function(self) ... end)
+//	if (playertouchsme) { ... }→ AddEventHandler("onPlayerTouch", function(self, player) ... end)
+//	if (playersays <x>)        → AddEventHandler("onPlayerSays", function(self,player,msg) ... end)
+//	function f(args) { ... }   → function f(args) ... end
+//	//#CLIENTSIDE              → everything below becomes a Lua comment
 func GraalScriptToLua(script string) string {
-	lines := strings.Split(script, "\n")
+	if strings.TrimSpace(script) == "" {
+		return ""
+	}
+
+	// Pre-process: expand compound single-line event blocks like
+	// "if (created) { dontblock; drawoverplayer; }" into multiple lines.
+	expanded := expandInlineBlocks(script)
+
+	lines := strings.Split(expanded, "\n")
 	var out []string
 	clientSide := false
+	depth := 0 // brace nesting depth inside an event block
 
 	out = append(out, "-- Auto-converted from GraalScript")
 
 	for _, raw := range lines {
 		trimmed := strings.TrimSpace(raw)
 
-		// Client-side section marker.
-		if trimmed == "//#CLIENTSIDE" {
+		// //#CLIENTSIDE marks the start of a client-only section.
+		if strings.HasPrefix(trimmed, "//#CLIENTSIDE") {
 			clientSide = true
-			out = append(out, "-- [CLIENT-SIDE block below — server no-op]")
+			out = append(out, "-- [CLIENT-SIDE block — server no-op]")
 			continue
 		}
 		if clientSide {
-			out = append(out, "-- "+trimmed)
+			if trimmed != "" {
+				out = append(out, "-- "+trimmed)
+			}
 			continue
 		}
 
-		// Strip trailing semicolons for comparison.
-		stmt := strings.TrimSuffix(trimmed, ";")
-
-		switch {
-		case stmt == "":
+		if trimmed == "" {
 			out = append(out, "")
+			continue
+		}
 
-		case strings.HasPrefix(stmt, "join "):
-			res := strings.TrimPrefix(stmt, "join ")
-			out = append(out, fmt.Sprintf("joinResource(%q)", res))
+		// Strip C-style line comment.
+		if strings.HasPrefix(trimmed, "//") {
+			out = append(out, "--"+trimmed[2:])
+			continue
+		}
 
-		case stmt == "dontblock":
-			out = append(out, "self.dontblock = true")
+		// Strip trailing semicolons.
+		stmt := strings.TrimSuffix(trimmed, ";")
+		stmt = strings.TrimSpace(stmt)
 
-		case stmt == "drawaslight":
-			out = append(out, "self.drawaslight = true")
-
-		case strings.HasPrefix(stmt, "setcoloreffect "):
-			args := strings.TrimPrefix(stmt, "setcoloreffect ")
-			out = append(out, "self:setColorEffect("+args+")")
-
-		case strings.HasPrefix(stmt, "this."):
-			// this.prop = value  →  self.prop = value
-			lua := strings.Replace(stmt, "this.", "self.", 1)
-			lua = strings.TrimSuffix(lua, ";")
-			out = append(out, lua)
-
-		case strings.HasPrefix(stmt, "if (event == "):
-			// if (event == "X"){  →  if event == "X" then
-			inner := strings.TrimPrefix(stmt, "if (")
-			inner = strings.TrimSuffix(inner, "){")
-			inner = strings.TrimSuffix(inner, ")")
-			out = append(out, "if "+inner+" then")
-
-		case trimmed == "}" || trimmed == "}{":
+		// Closing braces (may also open a new block: "}{").
+		if stmt == "}" || stmt == "};" {
+			if depth > 0 {
+				depth--
+			}
 			out = append(out, "end")
+			continue
+		}
+		if stmt == "}{" {
+			// Close previous block, open new one (rare in NPC scripts).
+			if depth > 0 {
+				depth--
+			}
+			out = append(out, "end")
+			depth++
+			out = append(out, "do")
+			continue
+		}
+		// Lone opening brace.
+		if stmt == "{" {
+			depth++
+			out = append(out, "do")
+			continue
+		}
 
-		default:
-			// Emit as a comment so original intent is preserved.
-			out = append(out, "-- "+trimmed)
+		// ── Event blocks ──────────────────────────────────────────────────────
+		if lua, ok := convertEventBlock(stmt); ok {
+			depth++
+			out = append(out, lua)
+			continue
+		}
+
+		// ── function declaration ──────────────────────────────────────────────
+		// function name(args) {  →  function name(args)
+		if strings.HasPrefix(stmt, "function ") {
+			body := strings.TrimPrefix(stmt, "function ")
+			body = strings.TrimSuffix(body, "{")
+			body = strings.TrimSpace(body)
+			out = append(out, "function "+body)
+			if strings.HasSuffix(stmt, "{") {
+				depth++
+			}
+			continue
+		}
+
+		// ── Simple statement conversions ──────────────────────────────────────
+		if lua, ok := convertSimpleStmt(stmt); ok {
+			out = append(out, lua)
+			continue
+		}
+
+		// Unknown — keep as comment so intent is preserved.
+		out = append(out, "-- "+trimmed)
+	}
+
+	return strings.Join(out, "\n")
+}
+
+// expandInlineBlocks rewrites compact single-line GraalScript event bodies to
+// multi-line form so the line-by-line converter can handle them.
+// e.g.  "if (created) { dontblock; drawoverplayer; }"
+//
+//	→  "if (created) {\ndontblock;\ndrawoverplayer;\n}"
+func expandInlineBlocks(s string) string {
+	var sb strings.Builder
+	for _, line := range strings.Split(s, "\n") {
+		t := strings.TrimSpace(line)
+		// Detect patterns like "if (created) { ... }" or "if(created) stmt;"
+		// where the whole block is on one line.
+		openIdx := strings.Index(t, "{")
+		closeIdx := strings.LastIndex(t, "}")
+		if openIdx >= 0 && closeIdx > openIdx {
+			// There's a { ... } on this line — split it up.
+			before := t[:openIdx+1]
+			inner := t[openIdx+1 : closeIdx]
+			after := t[closeIdx+1:]
+			sb.WriteString(before + "\n")
+			// Split inner by semicolons to get individual statements.
+			for _, part := range strings.Split(inner, ";") {
+				part = strings.TrimSpace(part)
+				if part != "" {
+					sb.WriteString(part + ";\n")
+				}
+			}
+			sb.WriteString("}" + after + "\n")
+			continue
+		}
+		sb.WriteString(line + "\n")
+	}
+	return sb.String()
+}
+
+// convertEventBlock matches GraalScript event-if patterns and returns the
+// equivalent Lua AddEventHandler call opening line, plus true.
+func convertEventBlock(stmt string) (string, bool) {
+	// Normalise: remove spaces around parens and strip trailing `{` or `){`.
+	clean := strings.TrimSuffix(stmt, "{")
+	clean = strings.TrimSuffix(strings.TrimSpace(clean), ")")
+	clean = strings.TrimSpace(clean)
+
+	// Map of GraalScript event keyword → (Lua event name, parameter list).
+	type evDef struct {
+		keyword string
+		event   string
+		params  string
+	}
+	events := []evDef{
+		{"if (created)", "onCreated", "self"},
+		{"if(created)", "onCreated", "self"},
+		{"if (playerenters)", "onPlayerEnters", "self, player"},
+		{"if(playerenters)", "onPlayerEnters", "self, player"},
+		{"if (playertouchsme)", "onPlayerTouch", "self, player"},
+		{"if(playertouchsme)", "onPlayerTouch", "self, player"},
+		{"if (timeout)", "onTimeout", "self"},
+		{"if(timeout)", "onTimeout", "self"},
+		{"if (activate)", "onActivate", "self, player"},
+		{"if(activate)", "onActivate", "self, player"},
+		{"if (playerleaves)", "onPlayerLeaves", "self, player"},
+		{"if(playerleaves)", "onPlayerLeaves", "self, player"},
+	}
+	for _, ev := range events {
+		if strings.EqualFold(clean, ev.keyword) || strings.HasPrefix(strings.ToLower(clean), strings.ToLower(ev.keyword)) {
+			return fmt.Sprintf("AddEventHandler(%q, function(%s)", ev.event, ev.params), true
 		}
 	}
-	return strings.Join(out, "\n")
+
+	// if (playersays "text") or if (playersays text)
+	if strings.HasPrefix(strings.ToLower(clean), "if (playersays ") || strings.HasPrefix(strings.ToLower(clean), "if(playersays ") {
+		return `AddEventHandler("onPlayerSays", function(self, player, msg)`, true
+	}
+
+	// Generic if (event == "X") pattern.
+	if strings.HasPrefix(clean, "if (event == ") || strings.HasPrefix(clean, "if(event == ") {
+		inner := clean
+		inner = strings.TrimPrefix(inner, "if (")
+		inner = strings.TrimPrefix(inner, "if(")
+		inner = strings.TrimSpace(inner)
+		return "if " + inner + " then", true
+	}
+
+	return "", false
+}
+
+// convertSimpleStmt maps a single GraalScript statement to Lua.
+// Returns ("", false) when no match is found.
+func convertSimpleStmt(stmt string) (string, bool) {
+	lower := strings.ToLower(stmt)
+
+	// Boolean flags.
+	flags := map[string]string{
+		"dontblock":       "self.dontblock = true",
+		"block":           "self.block = true",
+		"drawoverplayer":  "self.drawoverplayer = true",
+		"drawunderplayer": "self.drawunderplayer = true",
+		"drawaslight":     "self.drawaslight = true",
+		"canbecarried":    "self.canbecarried = true",
+		"nocontrols":      "self.nocontrols = true",
+		"fixedposition":   "self.fixedposition = true",
+	}
+	if lua, ok := flags[lower]; ok {
+		return lua, true
+	}
+
+	// join resource  or  join("resource")
+	if strings.HasPrefix(lower, "join ") {
+		res := strings.TrimPrefix(stmt, "join ")
+		res = strings.Trim(res, `"'()`)
+		return fmt.Sprintf("joinResource(%q)", res), true
+	}
+	if strings.HasPrefix(lower, `join("`) || strings.HasPrefix(lower, `join('`) {
+		res := stmt[5:]
+		res = strings.Trim(res, `"'()`)
+		return fmt.Sprintf("joinResource(%q)", res), true
+	}
+
+	// this.<prop> = <val>  →  self.<prop> = <val>
+	if strings.HasPrefix(stmt, "this.") {
+		return "self." + stmt[5:], true
+	}
+
+	// timeout = N  →  self.timeout = N
+	if strings.HasPrefix(lower, "timeout = ") || strings.HasPrefix(lower, "timeout=") {
+		val := stmt[strings.Index(stmt, "=")+1:]
+		val = strings.TrimSpace(val)
+		return "self.timeout = " + val, true
+	}
+
+	// say "text"  →  self.chat = "text"
+	if strings.HasPrefix(lower, "say ") {
+		txt := strings.TrimPrefix(stmt, "say ")
+		txt = strings.TrimPrefix(stmt, "say ")
+		txt = stmt[4:]
+		// Wrap bare text in quotes if not already quoted.
+		if !strings.HasPrefix(txt, `"`) && !strings.HasPrefix(txt, `'`) {
+			txt = `"` + txt + `"`
+		}
+		return "self.chat = " + txt, true
+	}
+
+	// setcoloreffect r,g,b,a
+	if strings.HasPrefix(lower, "setcoloreffect ") {
+		args := stmt[15:]
+		return "self:setColorEffect(" + args + ")", true
+	}
+
+	// setimgpart img,x,y,w,h
+	if strings.HasPrefix(lower, "setimgpart ") {
+		args := stmt[11:]
+		parts := strings.SplitN(args, ",", 2)
+		if len(parts) == 2 {
+			return fmt.Sprintf("self:setImgPart(%q, %s)", strings.TrimSpace(parts[0]), strings.TrimSpace(parts[1])), true
+		}
+		return "self:setImgPart(" + args + ")", true
+	}
+
+	// warp map x y  →  warpPlayer(player, "map", x, y)
+	if strings.HasPrefix(lower, "warp ") {
+		parts := strings.Fields(stmt[5:])
+		if len(parts) >= 3 {
+			return fmt.Sprintf("warpPlayer(player, %q, %s, %s)", parts[0], parts[1], parts[2]), true
+		}
+	}
+
+	// setmap map x y  →  setMap("map", x, y)
+	if strings.HasPrefix(lower, "setmap ") {
+		parts := strings.Fields(stmt[7:])
+		if len(parts) >= 3 {
+			return fmt.Sprintf("setMap(%q, %s, %s)", parts[0], parts[1], parts[2]), true
+		}
+	}
+
+	return "", false
 }

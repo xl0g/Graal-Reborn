@@ -9,6 +9,7 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+	"sync"
 
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
@@ -85,6 +86,12 @@ type GameMap struct {
 	signs     map[[2]int]string // (col,row) → panneau text
 	switchmap map[[2]int]string // (col,row) → target map filename
 	exitTiles [][2]int          // tiles marked exitmap=true
+
+	// Links come from the server's NW data (not the TMX file itself).
+	// Protected by linksMu; populated asynchronously after loadMap.
+	linksMu sync.Mutex
+	links   []chunkLinkJSON
+	nwSigns []chunkSignJSON // NW-sourced signs (augment TMX panneau layers)
 
 	// Spritesheet tileset
 	tileImg     *ebiten.Image
@@ -419,7 +426,51 @@ func (gm *GameMap) OnExitTile(x, y, w, h float64) bool {
 	return false
 }
 
+// SetServerData stores link and sign data fetched from the server's chunk API.
+// Called asynchronously after LoadTMX; safe for concurrent use.
+func (gm *GameMap) SetServerData(links []chunkLinkJSON, signs []chunkSignJSON) {
+	gm.linksMu.Lock()
+	gm.links = links
+	gm.nwSigns = signs
+	gm.linksMu.Unlock()
+}
+
+// WarpLinkAt returns the first NW-sourced warp link whose trigger zone contains
+// the player's feet.
+//
+// In the original Graal engine, player position = feet (bottom of sprite).
+// LINK coordinates are defined in terms of where the feet land, so we check
+// the bottom-centre of the sprite rather than the bounding-box centre.
+func (gm *GameMap) WarpLinkAt(px, py, w, h float64) (*chunkLinkJSON, bool) {
+	// Horizontal: centre of sprite.
+	tx := (px + w/2) / float64(gm.TileW)
+	// Vertical: feet = bottom of sprite (no margin — the collision wall is at
+	// the same tile row, so c.Y+h lands exactly on the zone boundary).
+	ty := (py + h) / float64(gm.TileH)
+	gm.linksMu.Lock()
+	defer gm.linksMu.Unlock()
+	for i := range gm.links {
+		l := &gm.links[i]
+		if tx >= float64(l.X) && tx < float64(l.X+l.W) &&
+			ty >= float64(l.Y) && ty < float64(l.Y+l.H) {
+			return l, true
+		}
+	}
+	return nil, false
+}
+
+// Links returns a copy of the NW link slice (for debug drawing, safe to call
+// without holding the mutex thanks to the copy).
+func (gm *GameMap) Links() []chunkLinkJSON {
+	gm.linksMu.Lock()
+	defer gm.linksMu.Unlock()
+	cp := make([]chunkLinkJSON, len(gm.links))
+	copy(cp, gm.links)
+	return cp
+}
+
 // NearbySign returns the panneau text if the player centre is within 1 tile of a sign.
+// Checks both TMX-layer panneau signs and NW-sourced signs from the server.
 func (gm *GameMap) NearbySign(px, py float64) string {
 	cx := int(px+float64(frameW)/2) / gm.TileW
 	cy := int(py+float64(frameH)/2) / gm.TileH
@@ -428,6 +479,14 @@ func (gm *GameMap) NearbySign(px, py float64) string {
 			if t, ok := gm.signs[[2]int{cx + dc, cy + dr}]; ok {
 				return t
 			}
+		}
+	}
+	// Also check NW-sourced signs (loaded async from server).
+	gm.linksMu.Lock()
+	defer gm.linksMu.Unlock()
+	for _, s := range gm.nwSigns {
+		if abs(s.X-cx) <= 1 && abs(s.Y-cy) <= 1 {
+			return s.Text
 		}
 	}
 	return ""

@@ -46,6 +46,22 @@ type chunkNPCJSON struct {
 	Script string  `json:"script"`
 }
 
+type chunkSignJSON struct {
+	X    int    `json:"x"`
+	Y    int    `json:"y"`
+	Text string `json:"text"`
+}
+
+type chunkLinkJSON struct {
+	X       int     `json:"x"`
+	Y       int     `json:"y"`
+	W       int     `json:"w"`
+	H       int     `json:"h"`
+	DestMap string  `json:"destMap"`
+	DestX   float64 `json:"destX"`
+	DestY   float64 `json:"destY"`
+}
+
 type chunkJSON struct {
 	Name       string           `json:"name"`
 	Width      int              `json:"width"`
@@ -54,6 +70,8 @@ type chunkJSON struct {
 	TileHeight int              `json:"tileheight"`
 	Layers     []chunkLayerJSON `json:"layers"`
 	NPCs       []chunkNPCJSON   `json:"npcs"`
+	Signs      []chunkSignJSON  `json:"signs"`
+	Links      []chunkLinkJSON  `json:"links"`
 }
 
 type gmapJSON struct {
@@ -80,6 +98,10 @@ type Chunk struct {
 	lava  [][]bool
 	// NPC data (position in tile units).
 	npcs []chunkNPCJSON
+	// Signs keyed by tile [col, row].
+	signs map[[2]int]string
+	// Warp links.
+	links []chunkLinkJSON
 
 	// Spritesheet reference (shared across all chunks).
 	tileImg  *ebiten.Image
@@ -378,7 +400,44 @@ func (cm *ChunkManager) buildChunk(data *chunkJSON, gc, gr int) *Chunk {
 	}
 
 	ch.npcs = data.NPCs
+
+	// Signs.
+	ch.signs = make(map[[2]int]string, len(data.Signs))
+	for _, s := range data.Signs {
+		ch.signs[[2]int{s.X, s.Y}] = s.Text
+	}
+
+	// Warp links.
+	ch.links = make([]chunkLinkJSON, len(data.Links))
+	copy(ch.links, data.Links)
+
 	return ch
+}
+
+// NearbySign returns the sign text at the given tile position (local chunk
+// coordinates), or ("", false) if there is none.
+func (c *Chunk) NearbySign(tileCol, tileRow int) (string, bool) {
+	if c.signs == nil {
+		return "", false
+	}
+	text, ok := c.signs[[2]int{tileCol, tileRow}]
+	return text, ok
+}
+
+// WarpAt returns the first warp link whose trigger rectangle contains the given
+// world-space point (in pixels), or (nil, false) if none.
+func (c *Chunk) WarpAt(worldX, worldY float64) (*chunkLinkJSON, bool) {
+	// Convert world pixels to local tile coordinates.
+	lx := (worldX - c.OriginX) / chunkTileW
+	ly := (worldY - c.OriginY) / chunkTileH
+	for i := range c.links {
+		l := &c.links[i]
+		if lx >= float64(l.X) && lx < float64(l.X+l.W) &&
+			ly >= float64(l.Y) && ly < float64(l.Y+l.H) {
+			return l, true
+		}
+	}
+	return nil, false
 }
 
 // Draw renders all loaded chunks.
@@ -441,6 +500,92 @@ func (cm *ChunkManager) TerrainAt(x, y, w, h float64) string {
 		return "water"
 	}
 	return ""
+}
+
+// NearbySign checks whether there is a sign within 1 tile of the given world-space
+// pixel position (px, py are the top-left of the player sprite, same convention
+// as GameMap.NearbySign).  Returns the text and true when one is found.
+func (cm *ChunkManager) NearbySign(px, py float64) (string, bool) {
+	cx := int(px+float64(frameW)/2) / chunkTileW
+	cy := int(py+float64(frameH)/2) / chunkTileH
+	for dr := -1; dr <= 1; dr++ {
+		for dc := -1; dc <= 1; dc++ {
+			wtc := cx + dc
+			wtr := cy + dr
+			if wtc < 0 || wtr < 0 {
+				continue
+			}
+			gc := wtc / chunkCols
+			gr := wtr / chunkRows
+			lc := wtc % chunkCols
+			lr := wtr % chunkRows
+			cm.mu.Lock()
+			ch, ok := cm.chunks[chunkKey(gc, gr)]
+			cm.mu.Unlock()
+			if !ok {
+				continue
+			}
+			if text, found := ch.NearbySign(lc, lr); found {
+				return text, true
+			}
+		}
+	}
+	return "", false
+}
+
+// WarpAt returns the first warp link at the given world-space pixel point.
+func (cm *ChunkManager) WarpAt(worldX, worldY float64) (*chunkLinkJSON, bool) {
+	gc := int(worldX) / chunkPixelW
+	gr := int(worldY) / chunkPixelH
+	cm.mu.Lock()
+	ch, ok := cm.chunks[chunkKey(gc, gr)]
+	cm.mu.Unlock()
+	if !ok {
+		return nil, false
+	}
+	return ch.WarpAt(worldX, worldY)
+}
+
+// IsPartOfGMap reports whether the given filename is a chunk of the current
+// GMAP (same GMAP grid, just a neighbour chunk). These inter-chunk LINKs
+// should be ignored in GMAP mode — chunk streaming handles transitions
+// automatically, we only want to follow LINKs to *outside* maps (buildings…).
+// IsPartOfGMap reports whether name is a chunk of the current GMAP.
+// Safe to call without holding mu.
+func (cm *ChunkManager) IsPartOfGMap(name string) bool {
+	cm.mu.Lock()
+	defer cm.mu.Unlock()
+	return cm.isPartOfGMapLocked(name)
+}
+
+// isPartOfGMapLocked is the lock-free inner implementation.
+// Caller must hold cm.mu.
+func (cm *ChunkManager) isPartOfGMapLocked(name string) bool {
+	base := mapBase(name)
+	for _, row := range cm.levels {
+		for _, lvl := range row {
+			if mapBase(lvl) == base {
+				return true
+			}
+		}
+	}
+	return false
+}
+
+// mapBase strips the directory and extension from a map filename for comparison.
+func mapBase(name string) string {
+	name = strings.ToLower(name)
+	// Strip path component.
+	if i := strings.LastIndexByte(name, '/'); i >= 0 {
+		name = name[i+1:]
+	}
+	// Strip extension (.nw or .tmx).
+	if strings.HasSuffix(name, ".nw") {
+		name = name[:len(name)-3]
+	} else if strings.HasSuffix(name, ".tmx") {
+		name = name[:len(name)-4]
+	}
+	return name
 }
 
 // WorldW / WorldH return the full world size in pixels.

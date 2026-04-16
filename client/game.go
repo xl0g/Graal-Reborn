@@ -324,8 +324,17 @@ func (g *Game) loadGMap(name string) {
 
 func (g *Game) loadMap(name string, spawnAtExit bool) {
 	filename := name
-	if len(filename) < 4 || filename[len(filename)-4:] != ".tmx" {
+	lower := strings.ToLower(filename)
+	if strings.HasSuffix(lower, ".nw") {
+		filename = filename[:len(filename)-3] + ".tmx"
+	} else if !strings.HasSuffix(lower, ".tmx") {
 		filename += ".tmx"
+	}
+	// If the name has no directory component, look in maps/tmx/.
+	// Bare names come from NW LINK entries; full paths (e.g. maps/GraalRebornMap.tmx)
+	// are passed directly from config or previous loadMap calls.
+	if !strings.Contains(filename, "/") {
+		filename = "maps/tmx/" + filename
 	}
 	gm, err := LoadTMX(filename)
 	if err != nil {
@@ -340,6 +349,20 @@ func (g *Game) loadMap(name string, spawnAtExit bool) {
 	if g.conn != nil {
 		g.conn.SendJSON(map[string]string{"type": "change_map", "map": filename})
 	}
+
+	// Fetch server-side NW data (links, signs) asynchronously.
+	// The TMX file on disk has no switchmap/panneau layers, so we supplement
+	// from the server's chunk API which reads the companion .nw file.
+	go func(m *GameMap, fname string) {
+		data, err := fetchChunk(fname)
+		if err != nil {
+			fmt.Printf("[MAP] server data fetch %s: %v\n", fname, err)
+			return
+		}
+		m.SetServerData(data.Links, data.Signs)
+		fmt.Printf("[MAP] loaded %d links, %d signs from server for %s\n",
+			len(data.Links), len(data.Signs), fname)
+	}(gm, filename)
 
 	if g.localChar == nil {
 		return

@@ -96,7 +96,10 @@ func (g *Game) drawWorld(dst *ebiten.Image, camX, camY float64) {
 	g.drawWorldGralats(dst, camX, camY)
 	g.drawWorldItems(dst, camX, camY)
 
-	onMainMap := g.currentMapName == "maps/GraalRebornMap.tmx" || g.currentMapName == ""
+	// In GMAP chunk mode activeGMap is set and currentMapName is empty; the
+	// server-side NPCs are not sent to GMAP players, so only draw them on the
+	// explicit main-map TMX.
+	onMainMap := g.activeGMap == "" && g.currentMapName == "maps/GraalRebornMap.tmx"
 
 	g.mu.Lock()
 	if onMainMap {
@@ -901,10 +904,61 @@ func (g *Game) drawDebugOverlay(screen *ebiten.Image) {
 		g.chunkMgr.mu.Unlock()
 	}
 
+	// ── Warp link zones (orange) ──────────────────────────────
+	tileW := chunkTileW
+	tileH := chunkTileH
+	if g.activeGMap != "" {
+		g.chunkMgr.mu.Lock()
+		for _, ch := range g.chunkMgr.chunks {
+			for _, lnk := range ch.links {
+				// Only draw active outside-GMAP warps (orange).
+				if g.chunkMgr.isPartOfGMapLocked(lnk.DestMap) {
+					continue
+				}
+				wx := ch.OriginX + float64(lnk.X*tileW)
+				wy := ch.OriginY + float64(lnk.Y*tileH)
+				ww2 := float64(lnk.W * tileW)
+				wh2 := float64(lnk.H * tileH)
+				sx := int((wx-camX)*g.zoom)
+				sy := int((wy-camY)*g.zoom)
+				sw := int(ww2 * g.zoom)
+				sh := int(wh2 * g.zoom)
+				DrawRect(screen, sx, sy, sw, sh, color.RGBA{255, 160, 0, 60})
+				DrawRect(screen, sx, sy, sw, 2, color.RGBA{255, 160, 0, 220})
+				DrawRect(screen, sx, sy+sh-2, sw, 2, color.RGBA{255, 160, 0, 220})
+				DrawRect(screen, sx, sy, 2, sh, color.RGBA{255, 160, 0, 220})
+				DrawRect(screen, sx+sw-2, sy, 2, sh, color.RGBA{255, 160, 0, 220})
+				DrawText(screen, "→"+lnk.DestMap, sx+4, sy+fontH+2, color.RGBA{255, 200, 80, 255})
+			}
+		}
+		g.chunkMgr.mu.Unlock()
+	} else if g.gameMap != nil {
+		links := g.gameMap.Links()
+		for _, lnk := range links {
+			wx := float64(lnk.X * g.gameMap.TileW)
+			wy := float64(lnk.Y * g.gameMap.TileH)
+			ww2 := float64(lnk.W * g.gameMap.TileW)
+			wh2 := float64(lnk.H * g.gameMap.TileH)
+			sx := int((wx-camX)*g.zoom)
+			sy := int((wy-camY)*g.zoom)
+			sw := int(ww2 * g.zoom)
+			sh := int(wh2 * g.zoom)
+			DrawRect(screen, sx, sy, sw, sh, color.RGBA{255, 160, 0, 60})
+			DrawRect(screen, sx, sy, sw, 2, color.RGBA{255, 160, 0, 220})
+			DrawRect(screen, sx, sy+sh-2, sw, 2, color.RGBA{255, 160, 0, 220})
+			DrawRect(screen, sx, sy, 2, sh, color.RGBA{255, 160, 0, 220})
+			DrawRect(screen, sx+sw-2, sy, 2, sh, color.RGBA{255, 160, 0, 220})
+			DrawText(screen, "→"+lnk.DestMap, sx+4, sy+fontH+2, color.RGBA{255, 200, 80, 255})
+		}
+	}
+
 	// ── Info panel ────────────────────────────────────────────
+	c := g.localChar
+	tileCol := int(c.X+float64(frameW)/2) / chunkTileW
+	tileRow := int(c.Y+float64(frameH)/2) / chunkTileH
 	lines := []string{
 		fmt.Sprintf("F3 debug | zoom %.2f×  (scroll=zoom, min %.2f max %.2f)", g.zoom, Cfg.ZoomMin, Cfg.ZoomMax),
-		fmt.Sprintf("pos  X=%.0f  Y=%.0f", g.localChar.X, g.localChar.Y),
+		fmt.Sprintf("pos  px=(%.0f,%.0f)  tile=(%d,%d)", c.X, c.Y, tileCol, tileRow),
 		fmt.Sprintf("cam  X=%.0f  Y=%.0f  vp=%dx%d", camX, camY, int(vw), int(vh)),
 	}
 	if g.activeGMap != "" {
@@ -913,19 +967,45 @@ func (g *Game) drawDebugOverlay(screen *ebiten.Image) {
 		pGRow := int(g.localChar.Y) / chunkPixelH
 		loaded := len(g.chunkMgr.chunks)
 		loading := len(g.chunkMgr.loading)
+		// Count total links loaded across all chunks.
+		totalLinks := 0
+		nearWarp := ""
+		for _, ch := range g.chunkMgr.chunks {
+			totalLinks += len(ch.links)
+		}
 		g.chunkMgr.mu.Unlock()
+		if lnk, ok := g.chunkMgr.WarpAt(c.X+float64(frameW)/2, c.Y+float64(frameH)); ok {
+			if !g.chunkMgr.IsPartOfGMap(lnk.DestMap) {
+				nearWarp = fmt.Sprintf("  *** WARP → %s (%.1f,%.1f) ***", lnk.DestMap, lnk.DestX, lnk.DestY)
+			}
+		}
 		chunksX := int(math.Ceil(vw/float64(chunkPixelW))) + 1
 		chunksY := int(math.Ceil(vh/float64(chunkPixelH))) + 1
 		lines = append(lines,
 			fmt.Sprintf("gmap %s | chunk [%d,%d]", g.activeGMap, pGCol, pGRow),
-			fmt.Sprintf("chunks loaded=%d loading=%d radius=%dx%d", loaded, loading, chunksX, chunksY),
+			fmt.Sprintf("chunks loaded=%d loading=%d  links=%d  radius=%dx%d",
+				loaded, loading, totalLinks, chunksX, chunksY),
 		)
+		if nearWarp != "" {
+			lines = append(lines, nearWarp)
+		}
 	} else if g.gameMap != nil {
-		lines = append(lines, fmt.Sprintf("tmx %s", g.currentMapName))
+		links := g.gameMap.Links()
+		nearWarp := ""
+		if lnk, ok := g.gameMap.WarpLinkAt(c.X, c.Y, float64(frameW), float64(frameH)); ok {
+			nearWarp = fmt.Sprintf("  *** WARP → %s (%.1f,%.1f) ***", lnk.DestMap, lnk.DestX, lnk.DestY)
+		}
+		lines = append(lines,
+			fmt.Sprintf("tmx %s", g.currentMapName),
+			fmt.Sprintf("links=%d (orange=warp zone)", len(links)),
+		)
+		if nearWarp != "" {
+			lines = append(lines, nearWarp)
+		}
 	}
 
 	ph := len(lines)*(fontH+3) + 8
-	DrawRect(screen, 0, screenH-ph-2, 520, ph+4, color.RGBA{0, 0, 0, 180})
+	DrawRect(screen, 0, screenH-ph-2, 560, ph+4, color.RGBA{0, 0, 0, 180})
 	for i, l := range lines {
 		DrawText(screen, l, 6, screenH-ph+(i*(fontH+3))+fontH, color.RGBA{80, 255, 120, 255})
 	}
