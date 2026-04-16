@@ -104,6 +104,10 @@ type GameMap struct {
 
 	// Elapsed time for animated tiles (updated by Update)
 	mapTime float64
+
+	// NoGrassFill disables the procedural grass background fill.
+	// Set for interior/building maps that have their own floor tiles.
+	NoGrassFill bool
 }
 
 // Update advances animated tile timers. Call once per game frame.
@@ -140,8 +144,12 @@ func LoadTMX(path string) (*GameMap, error) {
 				gm.tileCols = img.Bounds().Dx() / gm.TileW
 			}
 		} else {
-			// External TSX — parse to determine type.
-			data, err := ReadGameFile(ts.Source)
+			// External TSX — resolve path relative to the TMX file's directory.
+			tsxPath := ts.Source
+			if !filepath.IsAbs(tsxPath) {
+				tsxPath = filepath.Join(filepath.Dir(path), tsxPath)
+			}
+			data, err := ReadGameFile(tsxPath)
 			if err == nil {
 				var tsx tsxFile
 				if xml.Unmarshal(data, &tsx) == nil {
@@ -403,27 +411,51 @@ func (gm *GameMap) ExitPos() (float64, float64, bool) {
 	return sumX / n, sumY / n, true
 }
 
-// SwitchmapAt returns the target map name if the rect (x,y,w,h) overlaps a switchmap tile,
-// or "" if there is no trigger.
+// SwitchmapAt returns the target map name if the rect (x,y,w,h) overlaps any switchmap tile,
+// or "" if there is no trigger. Checks all tiles covered by the player AABB.
 func (gm *GameMap) SwitchmapAt(x, y, w, h float64) string {
-	cx := int(x+w/2) / gm.TileW
-	cy := int(y+h/2) / gm.TileH
-	if target, ok := gm.switchmap[[2]int{cx, cy}]; ok {
-		return target
+	x1 := int(x) / gm.TileW
+	y1 := int(y) / gm.TileH
+	x2 := int(x+w-1) / gm.TileW
+	y2 := int(y+h-1) / gm.TileH
+	for row := y1; row <= y2; row++ {
+		for col := x1; col <= x2; col++ {
+			if target, ok := gm.switchmap[[2]int{col, row}]; ok {
+				return target
+			}
+		}
 	}
 	return ""
 }
 
-// OnExitTile reports whether the rect centre is on an exitmap tile.
+// OnExitTile reports whether the player AABB overlaps any exitmap tile.
 func (gm *GameMap) OnExitTile(x, y, w, h float64) bool {
-	cx := int(x+w/2) / gm.TileW
-	cy := int(y+h/2) / gm.TileH
+	x1 := int(x) / gm.TileW
+	y1 := int(y) / gm.TileH
+	x2 := int(x+w-1) / gm.TileW
+	y2 := int(y+h-1) / gm.TileH
 	for _, t := range gm.exitTiles {
-		if t[0] == cx && t[1] == cy {
+		if t[0] >= x1 && t[0] <= x2 && t[1] >= y1 && t[1] <= y2 {
 			return true
 		}
 	}
 	return false
+}
+
+// SwitchmapTiles returns a copy of the switchmap tile map (col,row → target) for debug use.
+func (gm *GameMap) SwitchmapTiles() map[[2]int]string {
+	cp := make(map[[2]int]string, len(gm.switchmap))
+	for k, v := range gm.switchmap {
+		cp[k] = v
+	}
+	return cp
+}
+
+// ExitTileList returns a copy of the exitmap tile positions for debug use.
+func (gm *GameMap) ExitTileList() [][2]int {
+	cp := make([][2]int, len(gm.exitTiles))
+	copy(cp, gm.exitTiles)
+	return cp
 }
 
 // SetServerData stores link and sign data fetched from the server's chunk API.
@@ -493,10 +525,13 @@ func (gm *GameMap) NearbySign(px, py float64) string {
 }
 
 // Draw renders all tile layers (frustum-culled).
-// Empty tiles (GID=0 across all layers) are filled with a procedural grass pattern.
+// Empty tiles (GID=0 across all layers) are filled with a procedural grass pattern
+// unless NoGrassFill is set (interior/building maps).
 func (gm *GameMap) Draw(screen *ebiten.Image, camX, camY float64) {
-	// First pass: fill "hole" tiles with grass
-	gm.drawGrassFill(screen, camX, camY)
+	// First pass: fill "hole" tiles with grass (overworld chunks only)
+	if !gm.NoGrassFill {
+		gm.drawGrassFill(screen, camX, camY)
+	}
 
 	// Second pass: draw actual tiles
 	for _, layer := range gm.layers {

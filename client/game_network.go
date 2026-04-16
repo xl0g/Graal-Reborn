@@ -236,13 +236,11 @@ func (g *Game) handleServerMsg(data []byte) {
 		g.worldGralats = msg.Gralats
 		g.grMu.Unlock()
 
-		// World items
-		if msg.WorldItems != nil {
-			g.mu.Lock()
-			g.worldItems = msg.WorldItems
-			g.mu.Unlock()
-			g.adminMenu.SetWorldItems(msg.WorldItems)
-		}
+		// World items — always update (nil clears the list when off main map)
+		g.mu.Lock()
+		g.worldItems = msg.WorldItems
+		g.mu.Unlock()
+		g.adminMenu.SetWorldItems(msg.WorldItems)
 
 	case "chat":
 		g.chat.AddMessage(msg.From, msg.Msg, false)

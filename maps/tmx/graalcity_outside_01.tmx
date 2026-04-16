@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="37">
- <tileset firstgid="1" source="../../classiciphone_pics4.tsx"/>
+ <tileset firstgid="1" source="../classiciphone_pics4.tsx"/>
  <layer id="1" name="base" width="64" height="64">
   <data encoding="csv">
 1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2318,1291,2306,2307,2308,4000,4000,4000,4000,4000,4000,576,1466,1467,1340,0,0,0,0,0,4000,3984,1795,1796,1797,1291,1292,2060,2441,1670,951,953,1805,2441,1291,1291,1292,1291,1291,1291,1291,

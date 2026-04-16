@@ -69,8 +69,12 @@ type Game struct {
 	mapSwitchCooldown float64
 
 	// GMAP chunk-based world (used when a .gmap is active)
-	chunkMgr    *ChunkManager
-	activeGMap  string // "" when not in chunk mode
+	chunkMgr     *ChunkManager
+	activeGMap   string        // "" when not in chunk mode
+	prevGMap     string        // saved GMAP name when entering a building
+	prevChunkMgr *ChunkManager // saved ChunkManager (restored on exit)
+	prevGMapX    float64       // saved player X in the GMAP
+	prevGMapY    float64       // saved player Y in the GMAP
 
 	// World gralat pickups (replicated from server)
 	worldGralats []GralatPickup
@@ -330,11 +334,17 @@ func (g *Game) loadMap(name string, spawnAtExit bool) {
 	} else if !strings.HasSuffix(lower, ".tmx") {
 		filename += ".tmx"
 	}
-	// If the name has no directory component, look in maps/tmx/.
-	// Bare names come from NW LINK entries; full paths (e.g. maps/GraalRebornMap.tmx)
-	// are passed directly from config or previous loadMap calls.
+	// If the name has no directory component, probe both candidate directories.
+	// Use ReadGameFile (works on native + WASM) to avoid os.Stat which is
+	// broken in WASM. maps/tmx/ takes priority (NW-converted chunk files);
+	// maps/ is the fallback for hand-authored TMX maps.
 	if !strings.Contains(filename, "/") {
-		filename = "maps/tmx/" + filename
+		primary := "maps/tmx/" + filename
+		if d, err := ReadGameFile(primary); err == nil && len(d) > 0 {
+			filename = primary
+		} else {
+			filename = "maps/" + filename
+		}
 	}
 	gm, err := LoadTMX(filename)
 	if err != nil {
@@ -344,6 +354,10 @@ func (g *Game) loadMap(name string, spawnAtExit bool) {
 	g.prevMapName = g.currentMapName
 	g.currentMapName = filename
 	g.gameMap = gm
+	// Disable grass fill for interior/building maps.
+	// A map loaded while prevGMap is set is always a building interior.
+	// Maps not in maps/tmx/ are also hand-authored interiors.
+	gm.NoGrassFill = g.prevGMap != "" || !strings.HasPrefix(filename, "maps/tmx/")
 	g.mapSwitchCooldown = 1.0
 
 	if g.conn != nil {
@@ -436,6 +450,30 @@ func (g *Game) startGame(token, name string) {
 		g.conn = conn
 		conn.SendJSON(map[string]string{"type": "auth", "token": token})
 	}()
+}
+
+// restorePrevGMap returns to the GMAP that was active before entering a building.
+// Restores the saved ChunkManager so all previously loaded chunks are immediately available.
+func (g *Game) restorePrevGMap() {
+	savedX := g.prevGMapX
+	savedY := g.prevGMapY
+	g.activeGMap = g.prevGMap
+	g.gameMap = nil
+	if g.prevChunkMgr != nil {
+		g.chunkMgr = g.prevChunkMgr
+	}
+	g.prevGMap = ""
+	g.prevChunkMgr = nil
+	g.mapSwitchCooldown = 1.0
+	if g.conn != nil {
+		g.conn.SendJSON(map[string]string{"type": "change_map", "map": g.activeGMap})
+	}
+	if g.localChar != nil {
+		g.localChar.X = savedX
+		g.localChar.Y = savedY
+		g.localChar.TargetX = savedX
+		g.localChar.TargetY = savedY
+	}
 }
 
 func (g *Game) disconnect() {

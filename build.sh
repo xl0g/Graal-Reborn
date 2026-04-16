@@ -18,7 +18,7 @@ echo "    OK: game-server"
 echo ""
 echo "=== Converting NW maps to TMX ==="
 cd tools/nw2tmx
-go run . 2>&1 | grep -v "^$" || true
+go run . -tsx ../classiciphone_pics4.tsx 2>&1 | grep -v "^$" || true
 cd "$PROJECT_ROOT"
 echo "    OK: maps/tmx/"
 

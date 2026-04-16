@@ -5,6 +5,7 @@ import (
 	"image"
 	"image/color"
 	"math"
+	"strings"
 	"time"
 
 	"github.com/hajimehoshi/ebiten/v2"
@@ -855,6 +856,15 @@ func (g *Game) drawNPCPrompt(screen *ebiten.Image, camX, camY float64) {
 // Utility
 // ──────────────────────────────────────────────────────────────
 
+// nwToTmxName converts a bare NW map name (e.g. "foo.nw") to its TMX
+// equivalent ("foo.tmx") for display purposes.
+func nwToTmxName(name string) string {
+	if strings.HasSuffix(strings.ToLower(name), ".nw") {
+		return name[:len(name)-3] + ".tmx"
+	}
+	return name
+}
+
 // ──────────────────────────────────────────────────────────────
 // Debug overlay (F3)
 // ──────────────────────────────────────────────────────────────
@@ -904,17 +914,14 @@ func (g *Game) drawDebugOverlay(screen *ebiten.Image) {
 		g.chunkMgr.mu.Unlock()
 	}
 
-	// ── Warp link zones (orange) ──────────────────────────────
+	// ── NW warp link zones (orange) ──────────────────────────
 	tileW := chunkTileW
 	tileH := chunkTileH
 	if g.activeGMap != "" {
 		g.chunkMgr.mu.Lock()
 		for _, ch := range g.chunkMgr.chunks {
 			for _, lnk := range ch.links {
-				// Only draw active outside-GMAP warps (orange).
-				if g.chunkMgr.isPartOfGMapLocked(lnk.DestMap) {
-					continue
-				}
+				isNeighbour := g.chunkMgr.isPartOfGMapLocked(lnk.DestMap)
 				wx := ch.OriginX + float64(lnk.X*tileW)
 				wy := ch.OriginY + float64(lnk.Y*tileH)
 				ww2 := float64(lnk.W * tileW)
@@ -923,12 +930,24 @@ func (g *Game) drawDebugOverlay(screen *ebiten.Image) {
 				sy := int((wy-camY)*g.zoom)
 				sw := int(ww2 * g.zoom)
 				sh := int(wh2 * g.zoom)
-				DrawRect(screen, sx, sy, sw, sh, color.RGBA{255, 160, 0, 60})
-				DrawRect(screen, sx, sy, sw, 2, color.RGBA{255, 160, 0, 220})
-				DrawRect(screen, sx, sy+sh-2, sw, 2, color.RGBA{255, 160, 0, 220})
-				DrawRect(screen, sx, sy, 2, sh, color.RGBA{255, 160, 0, 220})
-				DrawRect(screen, sx+sw-2, sy, 2, sh, color.RGBA{255, 160, 0, 220})
-				DrawText(screen, "→"+lnk.DestMap, sx+4, sy+fontH+2, color.RGBA{255, 200, 80, 255})
+				if sx+sw < 0 || sx > screenW || sy+sh < 0 || sy > screenH {
+					continue
+				}
+				if isNeighbour {
+					// grey — neighbour chunk link (handled by chunk streaming)
+					DrawRect(screen, sx, sy, sw, 2, color.RGBA{160, 160, 160, 120})
+					DrawRect(screen, sx, sy+sh-2, sw, 2, color.RGBA{160, 160, 160, 120})
+					DrawRect(screen, sx, sy, 2, sh, color.RGBA{160, 160, 160, 120})
+					DrawRect(screen, sx+sw-2, sy, 2, sh, color.RGBA{160, 160, 160, 120})
+				} else {
+					// orange — building / outside map
+					DrawRect(screen, sx, sy, sw, sh, color.RGBA{255, 160, 0, 60})
+					DrawRect(screen, sx, sy, sw, 2, color.RGBA{255, 160, 0, 220})
+					DrawRect(screen, sx, sy+sh-2, sw, 2, color.RGBA{255, 160, 0, 220})
+					DrawRect(screen, sx, sy, 2, sh, color.RGBA{255, 160, 0, 220})
+					DrawRect(screen, sx+sw-2, sy, 2, sh, color.RGBA{255, 160, 0, 220})
+					DrawText(screen, "NW→"+nwToTmxName(lnk.DestMap), sx+4, sy+fontH+2, color.RGBA{255, 200, 80, 255})
+				}
 			}
 		}
 		g.chunkMgr.mu.Unlock()
@@ -948,64 +967,182 @@ func (g *Game) drawDebugOverlay(screen *ebiten.Image) {
 			DrawRect(screen, sx, sy+sh-2, sw, 2, color.RGBA{255, 160, 0, 220})
 			DrawRect(screen, sx, sy, 2, sh, color.RGBA{255, 160, 0, 220})
 			DrawRect(screen, sx+sw-2, sy, 2, sh, color.RGBA{255, 160, 0, 220})
-			DrawText(screen, "→"+lnk.DestMap, sx+4, sy+fontH+2, color.RGBA{255, 200, 80, 255})
+			DrawText(screen, "NW→"+nwToTmxName(lnk.DestMap), sx+4, sy+fontH+2, color.RGBA{255, 200, 80, 255})
 		}
 	}
 
-	// ── Info panel ────────────────────────────────────────────
+	// ── TMX switchmap tiles (yellow) and exitmap tiles (cyan) ──
+	if g.gameMap != nil {
+		tw := float64(g.gameMap.TileW)
+		th := float64(g.gameMap.TileH)
+		swTile := int(tw * g.zoom)
+		shTile := int(th * g.zoom)
+		if swTile < 2 {
+			swTile = 2
+		}
+		if shTile < 2 {
+			shTile = 2
+		}
+		for pos, target := range g.gameMap.SwitchmapTiles() {
+			wx := float64(pos[0]) * tw
+			wy := float64(pos[1]) * th
+			sx := int((wx-camX)*g.zoom)
+			sy := int((wy-camY)*g.zoom)
+			if sx+swTile < 0 || sx > screenW || sy+shTile < 0 || sy > screenH {
+				continue
+			}
+			DrawRect(screen, sx, sy, swTile, shTile, color.RGBA{255, 255, 0, 50})
+			DrawRect(screen, sx, sy, swTile, 2, color.RGBA{255, 255, 0, 220})
+			DrawRect(screen, sx, sy+shTile-2, swTile, 2, color.RGBA{255, 255, 0, 220})
+			DrawRect(screen, sx, sy, 2, shTile, color.RGBA{255, 255, 0, 220})
+			DrawRect(screen, sx+swTile-2, sy, 2, shTile, color.RGBA{255, 255, 0, 220})
+			DrawText(screen, "→"+target, sx+2, sy+fontH+1, color.RGBA{255, 255, 80, 220})
+		}
+		for _, pos := range g.gameMap.ExitTileList() {
+			wx := float64(pos[0]) * tw
+			wy := float64(pos[1]) * th
+			sx := int((wx-camX)*g.zoom)
+			sy := int((wy-camY)*g.zoom)
+			if sx+swTile < 0 || sx > screenW || sy+shTile < 0 || sy > screenH {
+				continue
+			}
+			DrawRect(screen, sx, sy, swTile, shTile, color.RGBA{0, 255, 255, 50})
+			DrawRect(screen, sx, sy, swTile, 2, color.RGBA{0, 255, 255, 200})
+			DrawRect(screen, sx, sy+shTile-2, swTile, 2, color.RGBA{0, 255, 255, 200})
+			DrawRect(screen, sx, sy, 2, shTile, color.RGBA{0, 255, 255, 200})
+			DrawRect(screen, sx+swTile-2, sy, 2, shTile, color.RGBA{0, 255, 255, 200})
+		}
+	}
+
+	// ── Player hitboxes ──────────────────────────────────────────
 	c := g.localChar
+	{
+		// Collision hitbox (red) — what IsBlocked uses (32×32 body with 2px margin)
+		hx := int((c.X-camX)*g.zoom)
+		hy := int((c.Y-camY)*g.zoom)
+		hw := int(float64(frameW) * g.zoom)
+		hh := int(float64(frameH) * g.zoom)
+		DrawRect(screen, hx, hy, hw, 2, color.RGBA{255, 60, 60, 220})
+		DrawRect(screen, hx, hy+hh-2, hw, 2, color.RGBA{255, 60, 60, 220})
+		DrawRect(screen, hx, hy, 2, hh, color.RGBA{255, 60, 60, 220})
+		DrawRect(screen, hx+hw-2, hy, 2, hh, color.RGBA{255, 60, 60, 220})
+
+		// Warp detection box (magenta) — 80×80 centred on body
+		gx := int((c.X-24-camX)*g.zoom)
+		gy := int((c.Y-24-camY)*g.zoom)
+		gw := int(80 * g.zoom)
+		gh := int(80 * g.zoom)
+		DrawRect(screen, gx, gy, gw, 2, color.RGBA{255, 0, 255, 200})
+		DrawRect(screen, gx, gy+gh-2, gw, 2, color.RGBA{255, 0, 255, 200})
+		DrawRect(screen, gx, gy, 2, gh, color.RGBA{255, 0, 255, 200})
+		DrawRect(screen, gx+gw-2, gy, 2, gh, color.RGBA{255, 0, 255, 200})
+
+		// Centre cross (white)
+		cx := int((c.X+float64(frameW)/2-camX)*g.zoom)
+		cy := int((c.Y+float64(frameH)/2-camY)*g.zoom)
+		DrawRect(screen, cx-4, cy-1, 9, 3, color.RGBA{255, 255, 255, 220})
+		DrawRect(screen, cx-1, cy-4, 3, 9, color.RGBA{255, 255, 255, 220})
+	}
+
+	// ── Info panel ────────────────────────────────────────────
 	tileCol := int(c.X+float64(frameW)/2) / chunkTileW
 	tileRow := int(c.Y+float64(frameH)/2) / chunkTileH
+
+	// Terrain at player position
+	terrain := g.terrainAt(c.X, c.Y, float64(frameW), float64(frameH))
+	terrainLabel := "ground"
+	switch terrain {
+	case "water":
+		terrainLabel = "WATER"
+	case "lava":
+		terrainLabel = "LAVA"
+	}
+
 	lines := []string{
 		fmt.Sprintf("F3 debug | zoom %.2f×  (scroll=zoom, min %.2f max %.2f)", g.zoom, Cfg.ZoomMin, Cfg.ZoomMax),
-		fmt.Sprintf("pos  px=(%.0f,%.0f)  tile=(%d,%d)", c.X, c.Y, tileCol, tileRow),
+		fmt.Sprintf("pos  px=(%.0f,%.0f)  tile=(%d,%d)  terrain=%s  anim=%s", c.X, c.Y, tileCol, tileRow, terrainLabel, c.AnimState),
 		fmt.Sprintf("cam  X=%.0f  Y=%.0f  vp=%dx%d", camX, camY, int(vw), int(vh)),
 	}
+
+	cooldownStr := "ready"
+	if g.mapSwitchCooldown > 0 {
+		cooldownStr = fmt.Sprintf("%.2fs", g.mapSwitchCooldown)
+	}
+
 	if g.activeGMap != "" {
 		g.chunkMgr.mu.Lock()
 		pGCol := int(g.localChar.X) / chunkPixelW
 		pGRow := int(g.localChar.Y) / chunkPixelH
 		loaded := len(g.chunkMgr.chunks)
 		loading := len(g.chunkMgr.loading)
-		// Count total links loaded across all chunks.
 		totalLinks := 0
+		buildingLinks := 0
 		nearWarp := ""
 		for _, ch := range g.chunkMgr.chunks {
 			totalLinks += len(ch.links)
-		}
-		g.chunkMgr.mu.Unlock()
-		if lnk, ok := g.chunkMgr.WarpAt(c.X+float64(frameW)/2, c.Y+float64(frameH)); ok {
-			if !g.chunkMgr.IsPartOfGMap(lnk.DestMap) {
-				nearWarp = fmt.Sprintf("  *** WARP → %s (%.1f,%.1f) ***", lnk.DestMap, lnk.DestX, lnk.DestY)
+			for _, lnk := range ch.links {
+				if !g.chunkMgr.isPartOfGMapLocked(lnk.DestMap) {
+					buildingLinks++
+				}
 			}
 		}
+		g.chunkMgr.mu.Unlock()
+		if lnk, ok := g.chunkMgr.WarpAt(c.X-24, c.Y-24, 80, 80); ok {
+			if !g.chunkMgr.IsPartOfGMap(lnk.DestMap) {
+				nearWarp = fmt.Sprintf("  *** NW WARP → %s (%.1f,%.1f) ***", nwToTmxName(lnk.DestMap), lnk.DestX, lnk.DestY)
+			}
+		}
+		warpCheckX := c.X - 24
+		warpCheckY := c.Y - 24
 		chunksX := int(math.Ceil(vw/float64(chunkPixelW))) + 1
 		chunksY := int(math.Ceil(vh/float64(chunkPixelH))) + 1
 		lines = append(lines,
 			fmt.Sprintf("gmap %s | chunk [%d,%d]", g.activeGMap, pGCol, pGRow),
-			fmt.Sprintf("chunks loaded=%d loading=%d  links=%d  radius=%dx%d",
-				loaded, loading, totalLinks, chunksX, chunksY),
+			fmt.Sprintf("chunks loaded=%d loading=%d  links=%d (buildings=%d grey=neighbour)  radius=%dx%d", loaded, loading, totalLinks, buildingLinks, chunksX, chunksY),
+			fmt.Sprintf("switch cooldown=%s  warp_box=(%.0f,%.0f,80,80)", cooldownStr, warpCheckX, warpCheckY),
 		)
 		if nearWarp != "" {
 			lines = append(lines, nearWarp)
 		}
 	} else if g.gameMap != nil {
 		links := g.gameMap.Links()
-		nearWarp := ""
-		if lnk, ok := g.gameMap.WarpLinkAt(c.X, c.Y, float64(frameW), float64(frameH)); ok {
-			nearWarp = fmt.Sprintf("  *** WARP → %s (%.1f,%.1f) ***", lnk.DestMap, lnk.DestX, lnk.DestY)
+
+		// Switchmap AABB check — use full gani visual box (48×48), origin = (c.X-8, c.Y-16)
+		gaX := c.X - 24
+		gaY := c.Y - 24
+		tx1 := int(gaX) / g.gameMap.TileW
+		ty1 := int(gaY) / g.gameMap.TileH
+		tx2 := int(gaX+79) / g.gameMap.TileW
+		ty2 := int(gaY+79) / g.gameMap.TileH
+		switchHere := g.gameMap.SwitchmapAt(gaX, gaY, 80, 80)
+		exitHere := g.gameMap.OnExitTile(gaX, gaY, 80, 80)
+
+		switchStatus := "none"
+		if switchHere != "" {
+			switchStatus = "→" + switchHere
+		} else if exitHere {
+			switchStatus = "EXIT (back to prev map)"
 		}
+
+		nwWarp := ""
+		if lnk, ok := g.gameMap.WarpLinkAt(c.X, c.Y, float64(frameW), float64(frameH)); ok {
+			nwWarp = fmt.Sprintf("  *** NW WARP → %s (%.1f,%.1f) ***", nwToTmxName(lnk.DestMap), lnk.DestX, lnk.DestY)
+		}
+
 		lines = append(lines,
 			fmt.Sprintf("tmx %s", g.currentMapName),
-			fmt.Sprintf("links=%d (orange=warp zone)", len(links)),
+			fmt.Sprintf("nw_links=%d (orange)  tmx_switchmap=%d (yellow)  exitmap=%d (cyan)",
+				len(links), len(g.gameMap.SwitchmapTiles()), len(g.gameMap.ExitTileList())),
+			fmt.Sprintf("aabb_tiles=(%d,%d)→(%d,%d)  switchmap_here=%s  cooldown=%s",
+				tx1, ty1, tx2, ty2, switchStatus, cooldownStr),
 		)
-		if nearWarp != "" {
-			lines = append(lines, nearWarp)
+		if nwWarp != "" {
+			lines = append(lines, nwWarp)
 		}
 	}
 
 	ph := len(lines)*(fontH+3) + 8
-	DrawRect(screen, 0, screenH-ph-2, 560, ph+4, color.RGBA{0, 0, 0, 180})
+	DrawRect(screen, 0, screenH-ph-2, 620, ph+4, color.RGBA{0, 0, 0, 180})
 	for i, l := range lines {
 		DrawText(screen, l, 6, screenH-ph+(i*(fontH+3))+fontH, color.RGBA{80, 255, 120, 255})
 	}

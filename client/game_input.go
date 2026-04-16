@@ -455,12 +455,8 @@ func (g *Game) updatePlaying(dt float64) error {
 		c := g.localChar
 		if g.activeGMap != "" {
 			// Warp links from chunk NW data (doors, exits).
-			// Use horizontal centre + vertical feet (bottom of sprite) —
-			// NW LINK zones are defined at the player's feet position,
-			// not the sprite centre.
-			cx := c.X + float64(frameW)/2
-			cy := c.Y + float64(frameH) // feet
-			if lnk, ok := g.chunkMgr.WarpAt(cx, cy); ok {
+			// Use same 80×80 detection box centred on body.
+			if lnk, ok := g.chunkMgr.WarpAt(c.X-24, c.Y-24, 80, 80); ok {
 				dest := lnk.DestMap
 				// Ignore inter-chunk LINKs — in the original Graal engine each
 				// .nw file had explicit LINK entries to its neighbours.  In GMAP
@@ -475,6 +471,11 @@ func (g *Game) updatePlaying(dt float64) error {
 					if strings.HasSuffix(strings.ToLower(dest), ".gmap") {
 						g.loadGMap(dest)
 					} else {
+						// Save GMAP context (with loaded chunks) to restore on exit.
+						g.prevGMap = g.activeGMap
+						g.prevChunkMgr = g.chunkMgr
+						g.prevGMapX = c.X
+						g.prevGMapY = c.Y
 						g.activeGMap = ""
 						g.loadMap(dest, false)
 					}
@@ -487,31 +488,49 @@ func (g *Game) updatePlaying(dt float64) error {
 				}
 			}
 		} else if g.gameMap != nil {
-			if target := g.gameMap.SwitchmapAt(c.X, c.Y, float64(frameW), float64(frameH)); target != "" {
-				if strings.HasSuffix(strings.ToLower(target), ".gmap") {
+			// Warp detection box (80×80) centred on body centre (c.X+16, c.Y+16).
+			gaX := c.X - 24
+			gaY := c.Y - 24
+
+			// isGMapChunk reports whether a destination belongs to the saved GMAP.
+			isGMapChunk := func(dest string) bool {
+				return g.prevGMap != "" && g.prevChunkMgr != nil && g.prevChunkMgr.IsPartOfGMap(dest)
+			}
+
+			if target := g.gameMap.SwitchmapAt(gaX, gaY, 80, 80); target != "" {
+				if isGMapChunk(target) {
+					g.restorePrevGMap()
+				} else if strings.HasSuffix(strings.ToLower(target), ".gmap") {
 					g.loadGMap(target)
 				} else {
 					g.loadMap(target, true)
 				}
 			} else if lnk, ok := g.gameMap.WarpLinkAt(c.X, c.Y, float64(frameW), float64(frameH)); ok {
-				// NW-sourced warp link (doors, inter-level portals).
 				dest := lnk.DestMap
-				destX := lnk.DestX*float64(g.gameMap.TileW) - float64(frameW)/2
-				destY := lnk.DestY*float64(g.gameMap.TileH) - float64(frameH)/2
-				fmt.Printf("[WARP] %s → %s  dest=(%.1f,%.1f)\n", g.currentMapName, dest, destX, destY)
-				if strings.HasSuffix(strings.ToLower(dest), ".gmap") {
-					g.loadGMap(dest)
+				if isGMapChunk(dest) {
+					g.restorePrevGMap()
 				} else {
-					g.loadMap(dest, false)
+					destX := lnk.DestX*float64(g.gameMap.TileW) - float64(frameW)/2
+					destY := lnk.DestY*float64(g.gameMap.TileH) - float64(frameH)/2
+					fmt.Printf("[WARP] %s → %s  dest=(%.1f,%.1f)\n", g.currentMapName, dest, destX, destY)
+					if strings.HasSuffix(strings.ToLower(dest), ".gmap") {
+						g.loadGMap(dest)
+					} else {
+						g.loadMap(dest, false)
+					}
+					if g.localChar != nil {
+						g.localChar.X = destX
+						g.localChar.Y = destY
+						g.localChar.TargetX = destX
+						g.localChar.TargetY = destY
+					}
 				}
-				if g.localChar != nil {
-					g.localChar.X = destX
-					g.localChar.Y = destY
-					g.localChar.TargetX = destX
-					g.localChar.TargetY = destY
+			} else if g.gameMap.OnExitTile(gaX, gaY, 80, 80) {
+				if g.prevGMap != "" {
+					g.restorePrevGMap()
+				} else if g.prevMapName != "" {
+					g.loadMap(g.prevMapName, true)
 				}
-			} else if g.gameMap.OnExitTile(c.X, c.Y, float64(frameW), float64(frameH)) && g.prevMapName != "" {
-				g.loadMap(g.prevMapName, true)
 			}
 		}
 	}

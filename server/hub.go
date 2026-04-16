@@ -384,9 +384,17 @@ func (h *Hub) runGameLoop() {
 		}
 
 		h.mu.Lock()
-		// Build player snapshot for NPC AI
+		// Build player snapshot for NPC AI — only players on the main map.
+		// Players inside buildings (different currentMap) are invisible to NPCs.
 		players := make([]playerPos, 0, len(h.clients))
 		for c := range h.clients {
+			cm := c.currentMap
+			if cm == "" {
+				cm = defaultMap
+			}
+			if cm != defaultMap {
+				continue
+			}
 			players = append(players, playerPos{
 				id:    c.playerID,
 				x:     c.state.X,

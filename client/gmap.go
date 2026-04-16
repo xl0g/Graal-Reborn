@@ -424,16 +424,19 @@ func (c *Chunk) NearbySign(tileCol, tileRow int) (string, bool) {
 	return text, ok
 }
 
-// WarpAt returns the first warp link whose trigger rectangle contains the given
-// world-space point (in pixels), or (nil, false) if none.
-func (c *Chunk) WarpAt(worldX, worldY float64) (*chunkLinkJSON, bool) {
-	// Convert world pixels to local tile coordinates.
-	lx := (worldX - c.OriginX) / chunkTileW
-	ly := (worldY - c.OriginY) / chunkTileH
+// WarpAt returns the first warp link whose trigger rectangle overlaps the given
+// world-space AABB (x, y, w, h in pixels), or (nil, false) if none.
+func (c *Chunk) WarpAt(wx, wy, ww, wh float64) (*chunkLinkJSON, bool) {
+	// Convert world-space AABB to local tile coordinates.
+	lx1 := (wx - c.OriginX) / chunkTileW
+	ly1 := (wy - c.OriginY) / chunkTileH
+	lx2 := (wx + ww - c.OriginX) / chunkTileW
+	ly2 := (wy + wh - c.OriginY) / chunkTileH
 	for i := range c.links {
 		l := &c.links[i]
-		if lx >= float64(l.X) && lx < float64(l.X+l.W) &&
-			ly >= float64(l.Y) && ly < float64(l.Y+l.H) {
+		lrx1, lry1 := float64(l.X), float64(l.Y)
+		lrx2, lry2 := float64(l.X+l.W), float64(l.Y+l.H)
+		if lx2 > lrx1 && lx1 < lrx2 && ly2 > lry1 && ly1 < lry2 {
 			return l, true
 		}
 	}
@@ -533,17 +536,27 @@ func (cm *ChunkManager) NearbySign(px, py float64) (string, bool) {
 	return "", false
 }
 
-// WarpAt returns the first warp link at the given world-space pixel point.
-func (cm *ChunkManager) WarpAt(worldX, worldY float64) (*chunkLinkJSON, bool) {
-	gc := int(worldX) / chunkPixelW
-	gr := int(worldY) / chunkPixelH
+// WarpAt returns the first warp link whose zone overlaps the world-space AABB (x,y,w,h).
+// Checks all chunks that the AABB could touch.
+func (cm *ChunkManager) WarpAt(wx, wy, ww, wh float64) (*chunkLinkJSON, bool) {
+	gc1 := int(wx) / chunkPixelW
+	gr1 := int(wy) / chunkPixelH
+	gc2 := int(wx+ww) / chunkPixelW
+	gr2 := int(wy+wh) / chunkPixelH
 	cm.mu.Lock()
-	ch, ok := cm.chunks[chunkKey(gc, gr)]
-	cm.mu.Unlock()
-	if !ok {
-		return nil, false
+	defer cm.mu.Unlock()
+	for gr := gr1; gr <= gr2; gr++ {
+		for gc := gc1; gc <= gc2; gc++ {
+			ch, ok := cm.chunks[chunkKey(gc, gr)]
+			if !ok {
+				continue
+			}
+			if lnk, ok := ch.WarpAt(wx, wy, ww, wh); ok {
+				return lnk, true
+			}
+		}
 	}
-	return ch.WarpAt(worldX, worldY)
+	return nil, false
 }
 
 // IsPartOfGMap reports whether the given filename is a chunk of the current

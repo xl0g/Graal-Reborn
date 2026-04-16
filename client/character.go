@@ -509,6 +509,10 @@ func (c *Character) Update(dt float64) {
 		targetGani = "push.gani"
 	case c.AnimState == AnimRide:
 		targetGani = "mount.gani"
+	case c.AnimState == AnimSwim:
+		targetGani = "swim.gani"
+	case c.AnimState == AnimLava:
+		targetGani = "swim.gani" // reuse swim.gani for lava
 	case c.Moving:
 		targetGani = "walk.gani"
 	default:
