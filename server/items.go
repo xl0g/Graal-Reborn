@@ -1,17 +1,14 @@
 package main
 
 // ItemDef defines a usable inventory item that plays a .gani animation.
-// To add a new item: append an entry to allItemDefs with a unique ID.
 type ItemDef struct {
 	ID          string
 	Name        string
-	Gani        string // .gani filename (relative to GANITEMPLATE/res/ganis/)
-	AnimState   string // animation state name broadcast to clients
+	Gani        string
+	AnimState   string
 	Description string
 }
 
-// allItemDefs is the master list of usable items.
-// Easy to extend: just add a new entry here.
 var allItemDefs = map[string]*ItemDef{
 	"juggle": {
 		ID:          "juggle",
@@ -36,7 +33,6 @@ var allItemDefs = map[string]*ItemDef{
 	},
 }
 
-// inventoryItemFromDef builds an InventoryItem DTO from an ItemDef + quantity.
 func inventoryItemFromDef(def *ItemDef, qty int) InventoryItem {
 	return InventoryItem{
 		ID:       def.ID,
@@ -45,3 +41,4 @@ func inventoryItemFromDef(def *ItemDef, qty int) InventoryItem {
 		Quantity: qty,
 	}
 }
+

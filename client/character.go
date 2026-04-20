@@ -21,9 +21,10 @@ const (
 	frameH = 32
 
 	// NPC type for horse (must match server constant)
-	NPCTypeHorse      = 5
-	NPCTypeAggressive = 6
-	NPCTypePassive    = 7
+	NPCTypeHorse         = 5
+	NPCTypeAggressive    = 6
+	NPCTypePassive       = 7
+	NPCTypeSpawnedEnemy  = 8
 )
 
 // Gani animation states
@@ -65,6 +66,7 @@ var npcTints = []color.RGBA{
 	{220, 190, 130, 255}, // 5 horse
 	{255, 80, 80, 255},   // 6 aggressive (red)
 	{200, 255, 200, 255}, // 7 passive (light green)
+	{255, 40, 40, 255},   // 8 spawned enemy (bright red)
 }
 
 const interpK = 20.0
@@ -95,9 +97,10 @@ type Character struct {
 	Dir     int
 	Moving  bool
 	Name    string
-	IsNPC    bool
-	NPCType  int
-	IsLocal  bool
+	IsNPC       bool
+	NPCType     int
+	IsLocal     bool
+	missedTicks int // ticks since last seen in server state (NPC grace period)
 	Gralats  int
 	Playtime int // total seconds played (from server)
 
@@ -606,8 +609,8 @@ func (c *Character) Draw(screen *ebiten.Image, camX, camY float64) {
 	sx := c.X - camX
 	sy := c.Y - camY
 
-	// Frustum cull with generous margin
-	if sx < -96 || sx > float64(screenW)+96 || sy < -96 || sy > float64(screenH)+96 {
+	// Frustum cull — use worldBuf dimensions so entities remain visible when zoomed out.
+	if sx < -96 || sx > float64(worldBufW)+96 || sy < -96 || sy > float64(worldBufH)+96 {
 		return
 	}
 

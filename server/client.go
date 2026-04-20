@@ -1,6 +1,7 @@
 package main
 
 import (
+	"darkzone/MultiTestServer/internal/db"
 	"encoding/json"
 	"fmt"
 	"log"
@@ -23,6 +24,7 @@ type Client struct {
 	name          string
 	playerID      string
 	state         PlayerState
+	combat        CombatEntity      // shared HP/damage logic — same as NPC
 	npcCooldowns  map[string]time.Time
 	mountedNPCID  string    // ID of the horse this client is riding, or ""
 	sessionStart  time.Time // when the player connected
@@ -59,7 +61,7 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 	}
 	conn.SetReadDeadline(time.Time{})
 
-	user, err := dbValidateSession(authMsg.Token)
+	user, err := db.ValidateSession(authMsg.Token)
 	if err != nil {
 		conn.WriteJSON(map[string]string{"type": "auth_error", "msg": err.Error()})
 		conn.Close()
@@ -70,6 +72,9 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 	spawnY := clamp(user.LastY, 0, mapHeight-32)
 	playerID := fmt.Sprintf("player_%d", user.ID)
 
+	playerCombat := newCombat(playerMaxHP)
+	playerCombat.noRespawn = true // players respawn client-side, not by server timer
+
 	client := &Client{
 		conn:          conn,
 		send:          make(chan []byte, 512),
@@ -77,11 +82,12 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 		userID:        user.ID,
 		name:          user.Name,
 		playerID:      playerID,
+		combat:        playerCombat,
 		npcCooldowns:  make(map[string]time.Time),
 		sessionStart:  time.Now(),
 		savedPlaytime: user.Playtime,
 		currentMap:    defaultMap,
-		isAdmin:       dbIsAdmin(user.ID),
+		isAdmin:       db.IsAdmin(user.ID),
 		state: PlayerState{
 			ID:       playerID,
 			Name:     user.Name,
@@ -259,7 +265,7 @@ func handleFriendAdd(c *Client, raw []byte) {
 	if json.Unmarshal(raw, &msg) != nil || msg.TargetName == "" {
 		return
 	}
-	targetID, err := dbGetPlayerIDByName(msg.TargetName)
+	targetID, err := db.GetPlayerIDByName(msg.TargetName)
 	if err != nil {
 		sendJSON(c, map[string]interface{}{
 			"type": "friend_result", "success": false, "msg": "Player not found",
@@ -272,7 +278,7 @@ func handleFriendAdd(c *Client, raw []byte) {
 		})
 		return
 	}
-	dbSendFriendRequest(c.userID, targetID)
+	db.SendFriendRequest(c.userID, targetID)
 	sendJSON(c, map[string]interface{}{
 		"type": "friend_result", "success": true, "msg": "Friend request sent to " + msg.TargetName,
 	})
@@ -296,11 +302,11 @@ func handleFriendAccept(c *Client, raw []byte) {
 	if json.Unmarshal(raw, &msg) != nil || msg.FromName == "" {
 		return
 	}
-	fromID, err := dbGetPlayerIDByName(msg.FromName)
+	fromID, err := db.GetPlayerIDByName(msg.FromName)
 	if err != nil {
 		return
 	}
-	dbAcceptFriend(c.userID, fromID)
+	db.AcceptFriend(c.userID, fromID)
 	// Send updated lists to both parties
 	handleFriendList(c)
 	globalHub.mu.RLock()
@@ -320,17 +326,17 @@ func handleFriendRemove(c *Client, raw []byte) {
 	if json.Unmarshal(raw, &msg) != nil {
 		return
 	}
-	targetID, err := dbGetPlayerIDByName(msg.TargetName)
+	targetID, err := db.GetPlayerIDByName(msg.TargetName)
 	if err != nil {
 		return
 	}
-	dbRemoveFriend(c.userID, targetID)
+	db.RemoveFriend(c.userID, targetID)
 	handleFriendList(c)
 }
 
 func handleFriendList(c *Client) {
-	friends := dbGetFriends(c.userID)
-	pending := dbGetPendingRequests(c.userID)
+	friends := db.GetFriends(c.userID)
+	pending := db.GetPendingRequests(c.userID)
 
 	type friendEntry struct {
 		Name   string `json:"name"`
@@ -376,7 +382,7 @@ func handleGuildCreate(c *Client, raw []byte) {
 	if json.Unmarshal(raw, &msg) != nil {
 		return
 	}
-	guildID, err := dbCreateGuild(msg.Name, msg.Tag, msg.Description, c.userID)
+	guildID, err := db.CreateGuild(msg.Name, msg.Tag, msg.Description, c.userID)
 	if err != nil {
 		sendJSON(c, map[string]interface{}{"type": "guild_result", "success": false, "msg": err.Error()})
 		return
@@ -393,12 +399,12 @@ func handleGuildJoin(c *Client, raw []byte) {
 	if json.Unmarshal(raw, &msg) != nil {
 		return
 	}
-	g, err := dbGetGuildByName(msg.Name)
+	g, err := db.GetGuildByName(msg.Name)
 	if err != nil {
 		sendJSON(c, map[string]interface{}{"type": "guild_result", "success": false, "msg": "Guild not found"})
 		return
 	}
-	if err2 := dbJoinGuild(g.ID, c.userID); err2 != nil {
+	if err2 := db.JoinGuild(g.ID, c.userID); err2 != nil {
 		sendJSON(c, map[string]interface{}{"type": "guild_result", "success": false, "msg": err2.Error()})
 		return
 	}
@@ -407,7 +413,7 @@ func handleGuildJoin(c *Client, raw []byte) {
 }
 
 func handleGuildLeave(c *Client) {
-	if err := dbLeaveGuild(c.userID); err != nil {
+	if err := db.LeaveGuild(c.userID); err != nil {
 		sendJSON(c, map[string]interface{}{"type": "guild_result", "success": false, "msg": err.Error()})
 		return
 	}
@@ -416,17 +422,17 @@ func handleGuildLeave(c *Client) {
 }
 
 func handleGuildInfo(c *Client) {
-	guildID := dbGetUserGuildID(c.userID)
+	guildID := db.GetUserGuildID(c.userID)
 	if guildID == 0 {
 		sendJSON(c, map[string]interface{}{"type": "guild_info", "guild": nil})
 		return
 	}
-	g, err := dbGetGuild(guildID)
+	g, err := db.GetGuild(guildID)
 	if err != nil {
 		sendJSON(c, map[string]interface{}{"type": "guild_info", "guild": nil})
 		return
 	}
-	members := dbGetGuildMembers(guildID)
+	members := db.GetGuildMembers(guildID)
 	type memberEntry struct {
 		Name   string `json:"name"`
 		Rank   string `json:"rank"`
@@ -457,7 +463,7 @@ func handleGuildInfo(c *Client) {
 }
 
 func handleGuildList(c *Client) {
-	guilds := dbListGuilds()
+	guilds := db.ListGuilds()
 	type guildEntry struct {
 		ID      int64  `json:"id"`
 		Name    string `json:"name"`
@@ -475,8 +481,8 @@ func handleGuildList(c *Client) {
 // ── Quest handlers ────────────────────────────────────────────────────────────
 
 func handleQuestList(c *Client) {
-	playerQuests := dbGetPlayerQuests(c.userID)
-	progressMap := make(map[string]PlayerQuestRow)
+	playerQuests := db.GetPlayerQuests(c.userID)
+	progressMap := make(map[string]db.PlayerQuestRow)
 	for _, pq := range playerQuests {
 		progressMap[pq.QuestID] = pq
 	}
@@ -493,7 +499,7 @@ func handleQuestList(c *Client) {
 	}
 
 	var list []questEntry
-	for _, def := range questDefs {
+	for _, def := range db.QuestDefs {
 		pq := progressMap[def.ID]
 		list = append(list, questEntry{
 			ID:          def.ID,
@@ -516,7 +522,7 @@ func handleQuestStart(c *Client, raw []byte) {
 	if json.Unmarshal(raw, &msg) != nil {
 		return
 	}
-	if err := dbStartQuest(c.userID, msg.QuestID); err != nil {
+	if err := db.StartQuest(c.userID, msg.QuestID); err != nil {
 		sendJSON(c, map[string]interface{}{"type": "quest_result", "success": false, "msg": err.Error()})
 		return
 	}
@@ -526,9 +532,9 @@ func handleQuestStart(c *Client, raw []byte) {
 
 // advanceKillQuest is called when the player kills an aggressive NPC.
 func advanceKillQuest(c *Client) {
-	for _, def := range questDefs {
+	for _, def := range db.QuestDefs {
 		if def.ObjectiveType == "kill_npc" && def.ObjectiveTarget == "aggressive" {
-			prog, completed, reward := dbUpdateQuestProgress(c.userID, def.ID, 1)
+			prog, completed, reward := db.UpdateQuestProgress(c.userID, def.ID, 1)
 			if completed {
 				sendJSON(c, map[string]interface{}{
 					"type": "quest_complete",
@@ -537,7 +543,7 @@ func advanceKillQuest(c *Client) {
 					"reward":   reward,
 				})
 				newTotal := 0
-				database.QueryRow(`SELECT gralats FROM users WHERE id=?`, c.userID).Scan(&newTotal)
+				db.DB().QueryRow(`SELECT gralats FROM users WHERE id=$1`, c.userID).Scan(&newTotal)
 				sendJSON(c, map[string]interface{}{"type": "gralat_update", "gralat_n": newTotal})
 			} else if prog > 0 {
 				sendJSON(c, map[string]interface{}{
@@ -553,9 +559,9 @@ func advanceKillQuest(c *Client) {
 
 // advanceTalkQuest is called when the player talks to an NPC of a given type.
 func advanceTalkQuest(c *Client, npcTypeName string) {
-	for _, def := range questDefs {
+	for _, def := range db.QuestDefs {
 		if def.ObjectiveType == "talk_npc" && def.ObjectiveTarget == npcTypeName {
-			prog, completed, reward := dbUpdateQuestProgress(c.userID, def.ID, 1)
+			prog, completed, reward := db.UpdateQuestProgress(c.userID, def.ID, 1)
 			if completed {
 				sendJSON(c, map[string]interface{}{
 					"type": "quest_complete",
@@ -572,16 +578,16 @@ func advanceTalkQuest(c *Client, npcTypeName string) {
 
 // advanceGralatQuest updates gralat-collection quests.
 func advanceGralatQuest(c *Client, totalGralats int) {
-	for _, def := range questDefs {
+	for _, def := range db.QuestDefs {
 		if def.ObjectiveType == "collect_gralats" {
-			pq := dbGetPlayerQuests(c.userID)
+			pq := db.GetPlayerQuests(c.userID)
 			for _, pqr := range pq {
 				if pqr.QuestID == def.ID && pqr.Completed {
 					goto next
 				}
 			}
 			if totalGralats >= def.ObjectiveCount {
-				_, completed, reward := dbUpdateQuestProgress(c.userID, def.ID, def.ObjectiveCount)
+				_, completed, reward := db.UpdateQuestProgress(c.userID, def.ID, def.ObjectiveCount)
 				if completed {
 					sendJSON(c, map[string]interface{}{
 						"type":     "quest_complete",
@@ -613,8 +619,8 @@ func handleMove(c *Client, raw []byte) {
 		return
 	}
 	globalHub.mu.Lock()
-	c.state.X = clamp(msg.X, 0, mapWidth-32)
-	c.state.Y = clamp(msg.Y, 0, mapHeight-32)
+	c.state.X = clamp(msg.X, 0, globalHub.worldW-32)
+	c.state.Y = clamp(msg.Y, 0, globalHub.worldH-32)
 	c.state.Dir = msg.Dir
 	c.state.Moving = msg.Moving
 	c.state.AnimState = msg.AnimState
@@ -656,7 +662,7 @@ func handleCosmetic(c *Client, raw []byte) {
 	c.state.Shield = msg.Shield
 	c.state.Sword = msg.Sword
 	globalHub.mu.Unlock()
-	dbSaveCosmetics(c.userID, msg.Body, msg.Head, msg.Hat, msg.Shield, msg.Sword)
+	db.SaveCosmetics(c.userID, msg.Body, msg.Head, msg.Hat, msg.Shield, msg.Sword)
 }
 
 func handleChat(c *Client, raw []byte) {
@@ -689,6 +695,11 @@ func handleChat(c *Client, raw []byte) {
 		sendDirectMsg(c, "Items disponibles: "+strings.Join(names, ", "))
 		return
 	}
+	// /spawnenemy [name] — admin only
+	if strings.HasPrefix(lower, "/spawnenemy") {
+		handleSpawnEnemyCommand(c, txt)
+		return
+	}
 	// Lua resource management commands (admin only).
 	if lower == "/resources" ||
 		strings.HasPrefix(lower, "/start ") ||
@@ -698,7 +709,7 @@ func handleChat(c *Client, raw []byte) {
 		return
 	}
 
-	dbSaveChat(c.name, txt)
+	db.SaveChat(c.name, txt)
 	globalHub.broadcast(map[string]interface{}{
 		"type": "chat",
 		"from": c.name,
@@ -708,6 +719,26 @@ func handleChat(c *Client, raw []byte) {
 	if globalLuaManager != nil {
 		globalLuaManager.TriggerEvent("onPlayerChat", c.playerID, c.name, txt)
 	}
+}
+
+// handleSpawnEnemyCommand spawns an aggressive NPC on the player's current map.
+// Usage: /spawnenemy [name]   (admin only)
+func handleSpawnEnemyCommand(c *Client, txt string) {
+	if !c.isAdmin {
+		sendDirectMsg(c, "Permission denied.")
+		return
+	}
+	parts := strings.SplitN(txt, " ", 2)
+	name := "Ennemi"
+	if len(parts) == 2 && strings.TrimSpace(parts[1]) != "" {
+		name = strings.TrimSpace(parts[1])
+	}
+	mapID := c.currentMap
+	if mapID == "" {
+		mapID = defaultMap
+	}
+	globalHub.spawnEnemyAt(name, mapID, c.state.X, c.state.Y)
+	sendDirectMsg(c, fmt.Sprintf("[SPAWN] %q spawné à (%.0f, %.0f) sur %s", name, c.state.X, c.state.Y, mapID))
 }
 
 // handleLuaCommand processes /start, /stop, /restart, /resources (admin only).
@@ -767,7 +798,7 @@ func handleCollectGralat(c *Client, raw []byte) {
 	if value <= 0 {
 		return
 	}
-	newTotal, _ := dbAddGralats(c.userID, value)
+	newTotal, _ := db.AddGralats(c.userID, value)
 	globalHub.mu.Lock()
 	c.state.Gralats = newTotal
 	globalHub.mu.Unlock()
@@ -839,7 +870,7 @@ func handleTalkNPC(c *Client, raw []byte) {
 		gralatN = gMin + mrand.Intn(gMax-gMin+1)
 	}
 
-	newTotal, _ := dbAddGralats(c.userID, gralatN)
+	newTotal, _ := db.AddGralats(c.userID, gralatN)
 
 	globalHub.mu.Lock()
 	c.state.Gralats = newTotal
@@ -884,7 +915,7 @@ func handleSwordHit(c *Client, raw []byte) {
 	var found bool
 	globalHub.mu.RLock()
 	for _, n := range globalHub.npcs {
-		if n.state.ID == msg.NPCID && n.alive {
+		if n.state.ID == msg.NPCID && n.combat.IsAlive() {
 			npcX, npcY = n.state.X, n.state.Y
 			found = true
 			break
@@ -962,13 +993,21 @@ func handlePvPHit(attacker *Client, raw []byte) {
 		return
 	}
 
-	// Apply damage server-side.
+	// Apply damage via shared CombatEntity — same rules as NPC attacks.
 	globalHub.mu.Lock()
-	if target.state.HP > 0 {
-		target.state.HP--
+	newHP, killed := target.combat.Damage(1)
+	if newHP >= 0 {
+		target.state.HP = newHP
 	}
 	targetHP := target.state.HP
+	if killed {
+		target.state.AnimState = "dead"
+	}
 	globalHub.mu.Unlock()
+
+	if newHP < 0 {
+		return // immune (invulnerability window)
+	}
 
 	data, _ := json.Marshal(map[string]interface{}{
 		"type":   "pvp_damage",
@@ -1065,8 +1104,10 @@ func handleAnimState(c *Client, raw []byte) {
 		return
 	}
 	globalHub.mu.Lock()
-	// Respawn: restore HP when transitioning out of dead state.
 	if c.state.AnimState == "dead" && msg.Anim != "dead" {
+		// Client-side respawn: reset combat state so hits land correctly.
+		c.combat = newCombat(playerMaxHP)
+		c.combat.noRespawn = true
 		c.state.HP = playerMaxHP
 	}
 	c.state.AnimState = msg.Anim
@@ -1088,7 +1129,7 @@ func sendDirectMsg(c *Client, msg string) {
 
 // sendInventoryTo builds and sends the player's current inventory.
 func sendInventoryTo(c *Client) {
-	rows := dbGetInventory(c.userID)
+	rows := db.GetInventory(c.userID)
 	items := make([]InventoryItem, 0, len(rows))
 	for _, r := range rows {
 		if def, ok := allItemDefs[r.ItemID]; ok {
@@ -1124,12 +1165,12 @@ func handleGiveItemCommand(c *Client, txt string) {
 		sendDirectMsg(c, "Item inconnu: "+itemID)
 		return
 	}
-	targetUserID, err := dbGetPlayerIDByName(targetName)
+	targetUserID, err := db.GetPlayerIDByName(targetName)
 	if err != nil {
 		sendDirectMsg(c, "Joueur introuvable: "+targetName)
 		return
 	}
-	dbGiveItem(targetUserID, itemID, 1)
+	db.GiveItem(targetUserID, itemID, 1)
 
 	// Refresh inventory for target if online.
 	globalHub.mu.RLock()
@@ -1164,12 +1205,12 @@ func handleRemoveItemCommand(c *Client, txt string) {
 		sendDirectMsg(c, "Unknown item: "+itemID)
 		return
 	}
-	targetUserID, err := dbGetPlayerIDByName(targetName)
+	targetUserID, err := db.GetPlayerIDByName(targetName)
 	if err != nil {
 		sendDirectMsg(c, "Player not found: "+targetName)
 		return
 	}
-	if !dbRemoveItem(targetUserID, itemID) {
+	if !db.RemoveItem(targetUserID, itemID) {
 		sendDirectMsg(c, targetName+" does not have item: "+itemID)
 		return
 	}
@@ -1204,7 +1245,7 @@ func handleUseItem(c *Client, raw []byte) {
 		return
 	}
 	// Verify the player actually owns the item.
-	rows := dbGetInventory(c.userID)
+	rows := db.GetInventory(c.userID)
 	hasItem := false
 	for _, r := range rows {
 		if r.ItemID == msg.ItemID && r.Quantity > 0 {
@@ -1257,7 +1298,7 @@ func handleBuyWorldItem(c *Client, raw []byte) {
 		return
 	}
 
-	newTotal, err := dbDeductGralats(c.userID, item.Price)
+	newTotal, err := db.DeductGralats(c.userID, item.Price)
 	if err != nil {
 		data, _ := json.Marshal(map[string]interface{}{
 			"type":    "buy_result",
@@ -1276,7 +1317,7 @@ func handleBuyWorldItem(c *Client, raw []byte) {
 	globalHub.mu.Unlock()
 
 	if item.ItemID != "" {
-		dbGiveItem(c.userID, item.ItemID, 1)
+		db.GiveItem(c.userID, item.ItemID, 1)
 		go sendInventoryTo(c)
 	}
 
@@ -1321,7 +1362,7 @@ func handleAdminSpawnWorldItem(c *Client, raw []byte) {
 		ItemID:     msg.ItemID,
 	}
 	globalHub.addWorldItem(wi)
-	dbSaveWorldItem(worldItemDB{
+	db.SaveWorldItem(db.WorldItemRow{
 		ID: id, Name: wi.Name, SpritePath: wi.SpritePath,
 		X: wi.X, Y: wi.Y, Price: wi.Price, ItemID: wi.ItemID,
 		MapName: defaultMap,
@@ -1340,6 +1381,6 @@ func handleAdminRemoveWorldItem(c *Client, raw []byte) {
 		return
 	}
 	globalHub.removeWorldItem(msg.ID)
-	dbRemoveWorldItem(msg.ID)
+	db.RemoveWorldItem(msg.ID)
 	log.Printf("[ADMIN] %s removed world item %s", c.name, msg.ID)
 }

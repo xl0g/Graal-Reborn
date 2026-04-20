@@ -1,6 +1,7 @@
 package main
 
 import (
+	"darkzone/MultiTestServer/internal/db"
 	"flag"
 	"fmt"
 	"log"
@@ -16,19 +17,19 @@ func main() {
 	if port == "" {
 		port = "8080"
 	}
-	dbPath := "game.db"
-	if p := os.Getenv("DB_PATH"); p != "" {
-		dbPath = p
+	dsn := os.Getenv("DATABASE_URL")
+	if dsn == "" {
+		dsn = "postgres://postgres:postgres@localhost:5432/graalreborn?sslmode=disable"
 	}
 
-	if err := initDB(dbPath); err != nil {
+	if err := db.Init(dsn); err != nil {
 		log.Fatalf("[DB] Initialization error: %v", err)
 	}
-	log.Println("[DB] Database initialized:", dbPath)
+	log.Println("[DB] PostgreSQL connected")
 
 	// -setadmin: grant admin rights to a user and exit immediately.
 	if *setAdmin != "" {
-		res, err := database.Exec(`UPDATE users SET is_admin=1 WHERE username=?`, *setAdmin)
+		res, err := db.DB().Exec(`UPDATE users SET is_admin=1 WHERE LOWER(username)=LOWER($1)`, *setAdmin)
 		if err != nil {
 			log.Fatalf("[setadmin] DB error: %v", err)
 		}

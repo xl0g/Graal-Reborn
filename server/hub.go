@@ -1,9 +1,12 @@
 package main
 
 import (
+	"darkzone/MultiTestServer/internal/db"
 	"encoding/json"
 	"fmt"
 	"log"
+	"math"
+	mrand "math/rand"
 	"sync"
 	"time"
 )
@@ -14,8 +17,9 @@ type Hub struct {
 	clients map[*Client]bool
 	npcs    []*NPC
 
-	// Tile collision map (loaded from TMX at startup)
-	collMap *CollisionMap
+	// World collision — either a CollisionMap (TMX) or a GMapWorld (GMAP).
+	worldColl        WorldCollider
+	worldW, worldH   float64 // cached from worldColl.Bounds(); never changes after init
 
 	// World gralat pickups
 	gralats     []*GralatPickup
@@ -33,13 +37,8 @@ func newHub() *Hub {
 		gralatTimer: make(map[string]time.Time),
 	}
 
-	// Load tile collision map (path relative to server working directory).
-	if cm, err := LoadCollisionMap("maps/GraalRebornMap.tmx"); err == nil {
-		h.collMap = cm
-		log.Println("[MAP] Collision map loaded from maps/GraalRebornMap.tmx")
-	} else {
-		log.Printf("[MAP] Could not load collision map: %v — NPCs will ignore walls", err)
-	}
+	// Load world collision from the same spawn map as the client (config.json → spawnMap).
+	h.worldColl = loadWorldCollider("config.json")
 
 	npcDefs := []struct {
 		name    string
@@ -62,19 +61,24 @@ func newHub() *Hub {
 		{"Bat", 900, 300, NPCTypeAggressive},
 	}
 
+	if h.worldColl != nil {
+		h.worldW, h.worldH = h.worldColl.Bounds()
+	} else {
+		h.worldW, h.worldH = mapWidth, mapHeight
+	}
+
 	for i, def := range npcDefs {
 		x, y := def.x, def.y
-		if h.collMap != nil && !h.collMap.IsFreePoint(x+8, y+8) {
-			x, y = findFreeGralatPos(h.collMap, x, y)
+		if h.worldColl != nil && !h.worldColl.IsFreePoint(x+8, y+8) {
+			x, y = findFreePos(h.worldColl, x, y, h.worldW, h.worldH)
 		}
-		h.npcs = append(h.npcs, newNPC(
-			fmt.Sprintf("npc_%d", i),
-			def.name, x, y, def.npcType,
-		))
+		n := newNPC(fmt.Sprintf("npc_%d", i), def.name, x, y, def.npcType)
+		n.worldW, n.worldH = h.worldW, h.worldH
+		h.npcs = append(h.npcs, n)
 	}
 
 	// Load persisted world items from DB.
-	for _, w := range dbLoadWorldItems() {
+	for _, w := range db.LoadWorldItems() {
 		h.worldItems = append(h.worldItems, &WorldSpawnItem{
 			ID: w.ID, Name: w.Name, SpritePath: w.SpritePath,
 			X: w.X, Y: w.Y, Price: w.Price, ItemID: w.ItemID,
@@ -84,9 +88,8 @@ func newHub() *Hub {
 	for i := range gralatSpawnDefs {
 		d := gralatSpawnDefs[i]
 		x, y := d.x, d.y
-		// If the hardcoded position is in a wall, nudge it to a free tile.
-		if h.collMap != nil && !h.collMap.IsFreePoint(x+8, y+8) {
-			x, y = findFreeGralatPos(h.collMap, x, y)
+		if h.worldColl != nil && !h.worldColl.IsFreePoint(x+8, y+8) {
+			x, y = findFreePos(h.worldColl, x, y, h.worldW, h.worldH)
 		}
 		h.gralats = append(h.gralats, &GralatPickup{
 			ID: d.id, X: x, Y: y, Value: d.value,
@@ -119,8 +122,8 @@ func (h *Hub) unregister(c *Client) {
 	}
 	h.mu.Unlock()
 	elapsed := int(time.Since(c.sessionStart).Seconds())
-	dbUpdatePosition(c.userID, c.state.X, c.state.Y)
-	dbAddPlaytime(c.userID, elapsed)
+	db.UpdatePosition(c.userID, c.state.X, c.state.Y)
+	db.AddPlaytime(c.userID, elapsed)
 	h.broadcastSystem(fmt.Sprintf("%s left the world.", c.name))
 	log.Printf("[HUB] %s disconnected (session: %ds)", c.name, elapsed)
 }
@@ -148,18 +151,21 @@ func (h *Hub) broadcastSystem(msg string) {
 	h.broadcast(map[string]string{"type": "system", "msg": msg})
 }
 
-// sendPerClientState sends each client a state snapshot containing only the
-// players/NPCs/gralats that are on the same map as that client.
+// sendPerClientState sends each client a state snapshot filtered by:
+//  1. Same map as the receiver.
+//  2. Within viewRadius world-px of the receiver (interest management).
+//
+// A tempGrid is rebuilt each tick — O(n) to construct, O(1) per cell lookup.
 func (h *Hub) sendPerClientState() {
 	h.mu.RLock()
 	defer h.mu.RUnlock()
 
-	// Snapshot all player states and their current maps.
-	type playerEntry struct {
+	// Build a flat snapshot of every online player.
+	type playerSnap struct {
 		state PlayerState
-		cmap  string
+		mapID string
 	}
-	allPlayers := make([]playerEntry, 0, len(h.clients))
+	snaps := make([]playerSnap, 0, len(h.clients))
 	for c := range h.clients {
 		ps := c.state
 		ps.Playtime = c.savedPlaytime + int(time.Since(c.sessionStart).Seconds())
@@ -167,56 +173,88 @@ func (h *Hub) sendPerClientState() {
 		if m == "" {
 			m = defaultMap
 		}
-		allPlayers = append(allPlayers, playerEntry{ps, m})
+		snaps = append(snaps, playerSnap{ps, m})
 	}
 
-	// Snapshot NPCs (main map only).
-	mainNPCs := make([]NPCState, 0, len(h.npcs))
+	// Build spatial grid from snapshot positions.
+	xs := make([]float64, len(snaps))
+	ys := make([]float64, len(snaps))
+	for i, s := range snaps {
+		xs[i] = s.state.X
+		ys[i] = s.state.Y
+	}
+	grid := buildSpatialGrid(xs, ys)
+
+	// Snapshot NPCs grouped by map.
+	npcsByMap := make(map[string][]NPCState)
 	for _, n := range h.npcs {
-		if n.alive || n.respawnTimer > npcRespawnTime-2.0 {
-			mainNPCs = append(mainNPCs, n.state)
+		if n.combat.IsAlive() || n.combat.RecentlyDied() {
+			mid := n.mapID
+			if mid == "" {
+				mid = defaultMap
+			}
+			npcsByMap[mid] = append(npcsByMap[mid], n.state)
 		}
 	}
 
-	// Snapshot gralats (main map only).
+	// Snapshot gralats / world items (main map only).
 	gralats := make([]GralatPickup, len(h.gralats))
 	for i, g := range h.gralats {
 		gralats[i] = *g
 	}
-
-	// Snapshot world items (main map only).
 	worldItems := make([]WorldSpawnItem, len(h.worldItems))
 	for i, wi := range h.worldItems {
 		worldItems[i] = *wi
 	}
+
+	radiusSq := viewRadius * viewRadius
 
 	for c := range h.clients {
 		myMap := c.currentMap
 		if myMap == "" {
 			myMap = defaultMap
 		}
+		cx, cy := c.state.X, c.state.Y
 
-		// Only include players on the same map.
-		filtered := make([]PlayerState, 0)
-		for _, pe := range allPlayers {
-			if pe.cmap == myMap {
-				filtered = append(filtered, pe.state)
+		// Nearby players: same map + within viewRadius.
+		nearIdx := grid.nearby(cx, cy)
+		players := make([]PlayerState, 0, len(nearIdx))
+		for _, idx := range nearIdx {
+			if snaps[idx].mapID == myMap {
+				players = append(players, snaps[idx].state)
 			}
 		}
 
-		// NPCs, gralats and world items only exist on the main map.
+		// NPCs: same map, radius-filtered.
 		var sendNPCs []NPCState
+		for _, n := range npcsByMap[myMap] {
+			dx, dy := n.X-cx, n.Y-cy
+			if dx*dx+dy*dy <= radiusSq {
+				sendNPCs = append(sendNPCs, n)
+			}
+		}
+
+		// Gralats / world items: main map only, radius-filtered.
 		var sendGralats []GralatPickup
 		var sendWorldItems []WorldSpawnItem
 		if myMap == defaultMap {
-			sendNPCs = mainNPCs
-			sendGralats = gralats
-			sendWorldItems = worldItems
+			for _, g := range gralats {
+				dx, dy := g.X-cx, g.Y-cy
+				if dx*dx+dy*dy <= radiusSq {
+					sendGralats = append(sendGralats, g)
+				}
+			}
+			for _, wi := range worldItems {
+				dx, dy := wi.X-cx, wi.Y-cy
+				if dx*dx+dy*dy <= radiusSq {
+					sendWorldItems = append(sendWorldItems, wi)
+				}
+			}
 		}
 
 		data, err := json.Marshal(map[string]interface{}{
 			"type":        "state",
-			"players":     filtered,
+			"players":     players,
 			"npcs":        sendNPCs,
 			"gralats":     sendGralats,
 			"world_items": sendWorldItems,
@@ -244,19 +282,11 @@ func (h *Hub) damageNPC(npcID string, dmg int) (newHP int, killed bool) {
 		if n.state.ID != npcID {
 			continue
 		}
-		if !n.alive || n.state.MaxHP == 0 || n.hitCooldown > 0 {
-			return -1, false // immortal, dead, or invulnerable
+		newHP, killed = n.combat.Damage(dmg)
+		if newHP >= 0 {
+			n.syncState()
 		}
-		n.state.HP -= dmg
-		n.hitCooldown = hitInvincibleDt
-		if n.state.HP <= 0 {
-			n.state.HP = 0
-			n.alive = false
-			n.respawnTimer = npcRespawnTime
-			n.state.AnimState = "dead"
-			return 0, true
-		}
-		return n.state.HP, false
+		return
 	}
 	return -1, false
 }
@@ -272,7 +302,7 @@ func (h *Hub) mountNPC(npcID, playerID string) bool {
 	defer h.mu.Unlock()
 	for _, n := range h.npcs {
 		if n.state.ID == npcID && n.state.NPCType == NPCTypeHorse &&
-			n.mountedBy == "" && n.alive {
+			n.mountedBy == "" && n.combat.IsAlive() {
 			n.mountedBy = playerID
 			n.state.MountedBy = playerID
 			return true
@@ -384,53 +414,70 @@ func (h *Hub) runGameLoop() {
 		}
 
 		h.mu.Lock()
-		// Build player snapshot for NPC AI — only players on the main map.
-		// Players inside buildings (different currentMap) are invisible to NPCs.
-		players := make([]playerPos, 0, len(h.clients))
+		// Build player snapshots per map for NPC AI.
+		playersByMap := make(map[string][]playerPos, 4)
 		for c := range h.clients {
 			cm := c.currentMap
 			if cm == "" {
 				cm = defaultMap
 			}
-			if cm != defaultMap {
-				continue
-			}
-			players = append(players, playerPos{
+			playersByMap[cm] = append(playersByMap[cm], playerPos{
 				id:    c.playerID,
 				x:     c.state.X,
 				y:     c.state.Y,
 				alive: c.state.HP > 0,
 			})
 		}
-		// Update NPCs and collect attacks
+
+		// Update NPCs; each NPC only sees players on its own map.
 		type npcAttack struct {
 			playerID string
+			mapID    string
 		}
 		var attacks []npcAttack
 		for _, n := range h.npcs {
-			if attackedID := n.update(dt, h.collMap, players); attackedID != "" {
-				attacks = append(attacks, npcAttack{playerID: attackedID})
+			mid := n.mapID
+			if mid == "" {
+				mid = defaultMap
+			}
+			if attackedID := n.update(dt, h.worldColl, playersByMap[mid]); attackedID != "" {
+				attacks = append(attacks, npcAttack{playerID: attackedID, mapID: mid})
 			}
 		}
-		// Apply NPC attacks to players
+		// Remove noRespawn NPCs that have died.
+		for i := len(h.npcs) - 1; i >= 0; i-- {
+			n := h.npcs[i]
+			if !n.combat.IsAlive() && n.combat.noRespawn {
+				h.npcs = append(h.npcs[:i], h.npcs[i+1:]...)
+			}
+		}
+
+		// Apply NPC attacks using the shared CombatEntity — same rules as PvP.
 		for _, atk := range attacks {
 			for c := range h.clients {
-				if c.playerID == atk.playerID && c.state.HP > 0 {
-					c.state.HP -= aggroDamage
-					if c.state.HP < 0 {
-						c.state.HP = 0
-					}
-					// Notify attacked player
-					data, _ := json.Marshal(map[string]interface{}{
-						"type": "pvp_damage",
-						"hp":   c.state.HP,
-					})
-					select {
-					case c.send <- data:
-					default:
-					}
-					break
+				cm := c.currentMap
+				if cm == "" {
+					cm = defaultMap
 				}
+				if c.playerID != atk.playerID || cm != atk.mapID {
+					continue
+				}
+				newHP, killed := c.combat.Damage(aggroDamage)
+				if newHP < 0 {
+					break // immune (hit cooldown)
+				}
+				c.state.HP = newHP
+				msg := map[string]interface{}{"type": "pvp_damage", "hp": newHP}
+				if killed {
+					c.state.AnimState = "dead"
+					msg["killed"] = true
+				}
+				data, _ := json.Marshal(msg)
+				select {
+				case c.send <- data:
+				default:
+				}
+				break
 			}
 		}
 		h.mu.Unlock()
@@ -448,6 +495,34 @@ func (h *Hub) runGameLoop() {
 
 		h.sendPerClientState()
 	}
+}
+
+// ── Spawned enemy (admin command) ─────────────────────────────────────────────
+
+// spawnEnemyAt creates a temporary aggressive NPC near (x, y) on mapID.
+// The enemy has 6 HP, moves at spawnedEnemySpeed, and is permanently removed on death.
+func (h *Hub) spawnEnemyAt(name, mapID string, x, y float64) {
+	id := fmt.Sprintf("enemy_%d", time.Now().UnixNano())
+
+	// Spawn 100 px away in a random direction at a free (non-wall) position.
+	angle := mrand.Float64() * 2 * math.Pi
+	sx := x + math.Cos(angle)*100
+	sy := y + math.Sin(angle)*100
+	if h.worldColl != nil {
+		sx, sy = findFreePos(h.worldColl, sx, sy, h.worldW, h.worldH)
+	}
+	sx = clamp(sx, 0, h.worldW-32)
+	sy = clamp(sy, 0, h.worldH-32)
+
+	npc := newNPC(id, name, sx, sy, NPCTypeSpawnedEnemy)
+	npc.mapID = mapID
+	npc.combat.noRespawn = true
+	npc.worldW, npc.worldH = h.worldW, h.worldH
+	npc.combat.atkCD = aggroAttackCD // no immediate first strike
+
+	h.mu.Lock()
+	h.npcs = append(h.npcs, npc)
+	h.mu.Unlock()
 }
 
 // ── Lua NPC helpers ──────────────────────────────────────────────────────────

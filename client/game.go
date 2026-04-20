@@ -56,8 +56,8 @@ type Game struct {
 	// World state
 	localChar    *Character
 	otherPlayers map[string]*Character
-	npcs         map[string]*Character
-	mu           sync.Mutex
+	npcs map[string]*Character
+	mu   sync.Mutex
 
 	// Chat
 	chat *Chat
@@ -164,8 +164,8 @@ func NewGame(bodyImg, headImg, tilesImg *ebiten.Image) *Game {
 		cosmeticMenu:  NewCosmeticMenu(),
 		inventoryMenu: NewInventoryMenu(),
 		adminMenu:     NewAdminMenu(),
-		otherPlayers:  make(map[string]*Character),
-		npcs:          make(map[string]*Character),
+		otherPlayers: make(map[string]*Character),
+		npcs:         make(map[string]*Character),
 		chat:          NewChat(),
 		lastUpdate:    time.Now(),
 		wiSpriteCache: make(map[string]*ebiten.Image),

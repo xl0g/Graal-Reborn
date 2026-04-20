@@ -97,16 +97,9 @@ func (g *Game) drawWorld(dst *ebiten.Image, camX, camY float64) {
 	g.drawWorldGralats(dst, camX, camY)
 	g.drawWorldItems(dst, camX, camY)
 
-	// In GMAP chunk mode activeGMap is set and currentMapName is empty; the
-	// server-side NPCs are not sent to GMAP players, so only draw them on the
-	// explicit main-map TMX.
-	onMainMap := g.activeGMap == "" && g.currentMapName == "maps/GraalRebornMap.tmx"
-
 	g.mu.Lock()
-	if onMainMap {
-		for _, n := range g.npcs {
-			n.Draw(dst, camX, camY)
-		}
+	for _, n := range g.npcs {
+		n.Draw(dst, camX, camY)
 	}
 	for _, p := range g.otherPlayers {
 		p.Draw(dst, camX, camY)
@@ -119,9 +112,7 @@ func (g *Game) drawWorld(dst *ebiten.Image, camX, camY float64) {
 		if g.gameMap != nil {
 			g.gameMap.DrawSignPrompts(dst, camX, camY)
 		}
-		if onMainMap {
-			g.drawNPCPrompt(dst, camX, camY)
-		}
+		g.drawNPCPrompt(dst, camX, camY)
 	}
 }
 

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"darkzone/MultiTestServer/internal/db"
 	"encoding/json"
 	"fmt"
 	"log"
@@ -256,7 +257,7 @@ func (lm *LuaManager) registerBindings(r *Resource) {
 		if target == nil {
 			return 0
 		}
-		newTotal, _ := dbAddGralats(target.userID, amount)
+		newTotal, _ := db.AddGralats(target.userID, amount)
 		lm.hub.mu.Lock()
 		target.state.Gralats = newTotal
 		lm.hub.mu.Unlock()
@@ -292,7 +293,7 @@ func (lm *LuaManager) registerBindings(r *Resource) {
 			L.Push(lua.LFalse)
 			return 1
 		}
-		newTotal, err := dbDeductGralats(target.userID, amount)
+		newTotal, err := db.DeductGralats(target.userID, amount)
 		if err != nil {
 			L.Push(lua.LFalse)
 			return 1

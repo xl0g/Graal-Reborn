@@ -1,6 +1,7 @@
 package main
 
 import (
+	"darkzone/MultiTestServer/internal/db"
 	"encoding/json"
 	"log"
 	"net/http"
@@ -45,18 +46,18 @@ func handleRegister(w http.ResponseWriter, r *http.Request) {
 		writeJSON(w, http.StatusBadRequest, map[string]string{"error": "Password: minimum 6 characters"})
 		return
 	}
-	if err := dbCreateUser(body.Username, body.Password, body.Email); err != nil {
+	if err := db.CreateUser(body.Username, body.Password, body.Email); err != nil {
 		writeJSON(w, http.StatusConflict, map[string]string{"error": "Username already taken"})
 		return
 	}
 	log.Printf("[AUTH] New user: %s", body.Username)
 
-	user, err := dbAuthenticate(body.Username, body.Password)
+	user, err := db.Authenticate(body.Username, body.Password)
 	if err != nil {
 		writeJSON(w, http.StatusInternalServerError, map[string]string{"error": "Internal error"})
 		return
 	}
-	token, err := dbCreateSession(user.ID, user.Name)
+	token, err := db.CreateSession(user.ID, user.Name)
 	if err != nil {
 		writeJSON(w, http.StatusInternalServerError, map[string]string{"error": "Internal error"})
 		return
@@ -77,12 +78,12 @@ func handleLogin(w http.ResponseWriter, r *http.Request) {
 		writeJSON(w, http.StatusBadRequest, map[string]string{"error": "Invalid JSON"})
 		return
 	}
-	user, err := dbAuthenticate(strings.TrimSpace(body.Username), body.Password)
+	user, err := db.Authenticate(strings.TrimSpace(body.Username), body.Password)
 	if err != nil {
 		writeJSON(w, http.StatusUnauthorized, map[string]string{"error": err.Error()})
 		return
 	}
-	token, err := dbCreateSession(user.ID, user.Name)
+	token, err := db.CreateSession(user.ID, user.Name)
 	if err != nil {
 		writeJSON(w, http.StatusInternalServerError, map[string]string{"error": "Internal error"})
 		return

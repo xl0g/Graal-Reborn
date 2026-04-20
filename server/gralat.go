@@ -25,14 +25,15 @@ var gralatSpawnDefs = []struct {
 	{"g7", 650, 750, 5},
 }
 
-// findFreeGralatPos searches outward from (x,y) in a spiral for a non-blocked tile.
-func findFreeGralatPos(cm *CollisionMap, x, y float64) (float64, float64) {
+// findFreePos searches outward from (x,y) in a spiral for a non-blocked tile.
+// worldW/worldH are the actual world bounds (may exceed the TMX mapWidth/mapHeight).
+func findFreePos(cm WorldCollider, x, y, worldW, worldH float64) (float64, float64) {
 	step := 16.0
 	for radius := step; radius <= 200; radius += step {
 		for angle := 0.0; angle < 2*math.Pi; angle += math.Pi / 8 {
 			nx := x + math.Cos(angle)*radius
 			ny := y + math.Sin(angle)*radius
-			if nx < 0 || ny < 0 || nx >= mapWidth || ny >= mapHeight {
+			if nx < 0 || ny < 0 || nx >= worldW || ny >= worldH {
 				continue
 			}
 			if cm.IsFreePoint(nx+8, ny+8) {
@@ -40,5 +41,5 @@ func findFreeGralatPos(cm *CollisionMap, x, y float64) (float64, float64) {
 			}
 		}
 	}
-	return x, y // fallback: original position
+	return x, y
 }

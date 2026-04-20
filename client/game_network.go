@@ -27,6 +27,21 @@ func remoteVel(dir int, moving bool, speed float64) (vx, vy float64) {
 	return 0, 0
 }
 
+// npcDeadReckonSpeed returns the dead-reckoning speed for an NPC type.
+// Chasing NPCs (aggressive/spawned) move diagonally toward the player, so
+// cardinal-direction dead-reckoning would overshoot — they use 0 (pure
+// interpolation toward the last known position instead).
+func npcDeadReckonSpeed(npcType int) float64 {
+	switch npcType {
+	case NPCTypeSpawnedEnemy, NPCTypeAggressive:
+		return 0 // pure interpolation: no cardinal-direction prediction
+	case NPCTypePassive:
+		return 120.0
+	default:
+		return 95.0
+	}
+}
+
 // ──────────────────────────────────────────────────────────────
 // Network message processing
 // ──────────────────────────────────────────────────────────────
@@ -196,16 +211,16 @@ func (g *Game) handleServerMsg(data []byte) {
 		}
 
 		// NPCs
-		// Mid-range NPC wander speed estimate (server: 70–120 px/s).
-		const npcDRSpeed = 95.0
 		seenNPC := make(map[string]bool)
 		for _, n := range msg.NPCs {
 			seenNPC[n.ID] = true
+			drSpeed := npcDeadReckonSpeed(n.NPCType)
 			if ch, ok := g.npcs[n.ID]; ok {
+				ch.missedTicks = 0
 				ch.TargetX, ch.TargetY = n.X, n.Y
 				ch.Dir = n.Dir
 				ch.Moving = n.Moving
-				ch.velX, ch.velY = remoteVel(n.Dir, n.Moving, npcDRSpeed)
+				ch.velX, ch.velY = remoteVel(n.Dir, n.Moving, drSpeed)
 				ch.HP = n.HP
 				ch.MaxHP = n.MaxHP
 				if n.AnimState == "dead" && ch.AnimState != AnimDead {
@@ -220,13 +235,17 @@ func (g *Game) handleServerMsg(data []byte) {
 				if n.AnimState == "dead" {
 					ch.AnimState = AnimDead
 				}
-				ch.velX, ch.velY = remoteVel(n.Dir, n.Moving, npcDRSpeed)
+				ch.velX, ch.velY = remoteVel(n.Dir, n.Moving, drSpeed)
 				g.npcs[n.ID] = ch
 			}
 		}
-		for id := range g.npcs {
+		// Keep NPCs alive for up to 30 missed ticks (~500ms) to absorb dropped packets.
+		for id, ch := range g.npcs {
 			if !seenNPC[id] {
-				delete(g.npcs, id)
+				ch.missedTicks++
+				if ch.missedTicks > 30 {
+					delete(g.npcs, id)
+				}
 			}
 		}
 		g.mu.Unlock()
