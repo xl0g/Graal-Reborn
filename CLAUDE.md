@@ -45,6 +45,8 @@ Key flow:
 
 Sprite sheet layout: body frames are 32×32 px, arranged as `[col=direction][row=animFrame]`; head frames are 32×32 px per direction; hat frames are 48×48 px per direction.
 
+**Camera zoom:** Mouse wheel zooms the viewport in/out (clamped to `Cfg.ZoomMin`–`Cfg.ZoomMax`). The world is rendered into an offscreen `worldBuf` then scaled; UI is always drawn at native resolution on top.
+
 ### Server (`server/` package `darkzone/MultiTestServer`)
 
 Single-file server (`server/server.go`) combining:
@@ -53,6 +55,7 @@ Single-file server (`server/server.go`) combining:
 - **WebSocket hub** — `Hub` manages connected `Client`s under an `sync.RWMutex`
 - **Game loop** — `Hub.runGameLoop()` ticks at 60 Hz, updates NPC AI, broadcasts full world state to all clients
 - **NPC AI** — 7 hard-coded NPCs wander randomly within a radius around their home position
+- **Map chunk API** — serves `.gmap` metadata and NW chunk data (layers, NPCs, signs, warp links) for the GMAP chunk streaming system
 
 WebSocket lifecycle: first message must be `{"type":"auth","token":"..."}` within 10 s, then the client is registered in the hub. A writer goroutine drains `client.send` and sends WebSocket pings every 54 s. Read deadline resets on each message or pong.
 
@@ -63,14 +66,93 @@ The server also serves `server/static/` as the web root (WASM client after `./bu
 | Direction | `type` | Key fields |
 |-----------|--------|------------|
 | C → S | `auth` | `token` |
-| C → S | `move` | `x`, `y`, `dir`, `moving` |
+| C → S | `move` | `x`, `y`, `dir`, `moving`, `mounted` |
 | C → S | `chat` | `msg` |
 | C → S | `cosmetic` | `body`, `head`, `hat` (filenames) |
+| C → S | `collect_gralat` | `id` |
+| C → S | `talk_npc` | `id` |
+| C → S | `mount_npc` | `id` |
+| C → S | `dismount` | — |
+| C → S | `sword_hit` | target player/NPC id |
+| C → S | `admin_spawn_world_item` | `name`, `sprite`, `item_id`, `price`, `x`, `y` |
+| C → S | `admin_remove_world_item` | `id` |
 | S → C | `auth_ok` | `id`, `name`, `x`, `y` |
 | S → C | `auth_error` | `msg` |
-| S → C | `state` | `players[]`, `npcs[]` (full world, 60 Hz) |
+| S → C | `state` | `players[]`, `npcs[]`, `gralats[]`, `worldItems[]` (60 Hz) |
 | S → C | `chat` | `from`, `msg` |
 | S → C | `system` | `msg` |
+| S → C | `gralat_update` | `gralats` |
+| S → C | `npc_dialog` | `npc_id`, `text` |
+| S → C | `friend_list` | `friends[]`, `requests[]` |
+| S → C | `friend_request` | `from` |
+| S → C | `friend_result` | `msg` |
+| S → C | `guild_info` | `guild` |
+| S → C | `guild_list` | `guilds[]` |
+| S → C | `guild_result` | `ok`, `msg` |
+| S → C | `quest_list` | `quests[]` |
+| S → C | `quest_update` | `quest_id`, `progress` |
+| S → C | `inventory` | `items[]` |
+
+### Config System (`config.go` / `config.json`)
+
+`config.json` in the repo root is loaded at startup into the global `Cfg` (`GameConfig`). Missing keys fall back to compiled-in defaults.
+
+| Field | Default | Description |
+|-------|---------|-------------|
+| `serverURL` | `localhost:8080` | Server address |
+| `chunkRadius` | `2` | Minimum chunk load radius around player |
+| `playerSpeed` | `700` | Movement speed in px/s |
+| `mountedSpeed` | `320` | Speed while mounted |
+| `zoomMin` / `zoomMax` | `0.35` / `2.5` | Camera zoom limits |
+| `spawnMap` | `maps/GraalRebornMap.tmx` | Map file loaded on startup (`.tmx` or `.gmap`) |
+| `spawnX` / `spawnY` | `0` / `0` | World-pixel spawn position |
+
+### GMAP Chunk-Based World (`gmap.go`)
+
+When `Cfg.SpawnMap` ends in `.gmap`, the client enters **chunk-streaming mode** via `ChunkManager`:
+- The server is queried for GMAP metadata (`/api/gmap/<name>`) which provides a grid of NW chunk filenames.
+- Chunks within `viewRadius` of the player are fetched asynchronously (`/api/chunk/<name>`); chunks outside are evicted.
+- `viewRadius` is the larger of `Cfg.ChunkRadius` and half the screen coverage at the current zoom level.
+- Each chunk is **64×64 tiles × 16 px** = 1024×1024 px. Tiles use `classiciphone_pics4.png` (128-col tileset, 16×16 px tiles, 1-based GID).
+- Chunk layers carry `collision`, `terrain` (`"water"` / `"lava"`), NPCs, signs, and warp links.
+- `ChunkManager.WarpAt()` returns the first warp link overlapping a world-space AABB; `game_input.go` triggers a map transition on overlap (with 2 s cooldown).
+- Map transitions: `switchMap()` replaces the active `ChunkManager`; the previous one is kept as `prevChunkMgr` for instant rollback if the switch fails.
+
+### TMX Map System (`tilemap.go`)
+
+When `Cfg.SpawnMap` ends in `.tmx`, a single-file map is parsed. Tile IDs reference `classiciphone_pics4.png` (64-col 32×32 tileset, 1-based GID). Layer properties drive behavior:
+- `collision=true` → non-zero tiles become solid (`GameMap.IsBlocked()`)
+- `panneau="<text>"` → non-zero tiles become readable signs (F key when adjacent)
+- `terrain=water` / `terrain=lava` → swim/lava animation triggers
+
+`handleMovement()` in `game.go` splits X/Y movement and calls `IsBlocked()` independently for wall-sliding.
+
+### Gani Animation System (`gani.go`)
+
+Full parser and player for the `.gani` format (Graal Online animations). Key details:
+- Base framerate 20 fps (0.05 s/tick); `WAIT N` holds a frame for `(1+N)*0.05 s`.
+- ANI section: 4 consecutive non-blank lines = 1 frame (up / left / down / right).
+- Each dir-line: comma-separated `spriteIdx dx dy` tokens.
+- `ATTACHSPRITE` / `ATTACHSPRITE2` (draw-under) for layered sprites.
+- Gani origin is top-left of 48×48 bounding box; body sprite at offset `(8,16)`.
+- Active gani is selected per frame based on player state: `idle`, `walk`, `swim`, `lava`, `sword`, `grab`, `sit`, `mount`…
+- Sources: `sprites.png` (shadow), `body.png`, `head.png`, `hat.png`, `sword1.png`, `ride.png`, `shield1.png`.
+
+### Terrain System
+
+`Game.terrainAt(x, y, w, h)` queries the active map (GMAP or TMX) for the terrain type at a world-space rect. Returns `"water"`, `"lava"`, or `""`. Called each frame for the local player's hitbox to switch swim/lava ganis and adjust movement behaviour.
+
+### Mount System
+
+- `R` key: mount the nearest rideable NPC → sends `mount_npc`; dismounts with another `R` → sends `dismount`.
+- While mounted, `Character.Mounted = true`; speed uses `Cfg.MountedSpeed`; the `ride` gani plays.
+- Server broadcasts mount state in `PlayerState`.
+
+### Sword & Grab
+
+- `X` key: triggers sword swing → plays sword gani; when the hit frame activates, sends `sword_hit` with target id.
+- `Q` key (AZERTY physical A) / on-screen glove button: grab — held continuously; releases on key-up.
+- Both actions block movement while active.
 
 ### Gralat Currency System
 
@@ -78,35 +160,92 @@ The server also serves `server/static/` as the web root (WASM client after `./bu
 
 Sprite sheet `Assets/offline/levels/images/downloads/gralats.png` is 64×64 (2×2 grid of 32×32): top-left=1, top-right=5, bottom-left=30, bottom-right=100. Loading and sprite selection is in `gralat.go`.
 
-### TMX Map System
+### Inventory System (`inventory.go`)
 
-`tilemap.go` parses `test2.tmx` (loaded in `NewGame()`). Tile IDs reference the tileset `Assets/offline/levels/tiles/classiciphone_pics4.png` (2048×512, 64 columns, 32×32 tiles, 1-based GID). Layer properties drive behavior:
-- Layer property `collision=true` → non-zero tiles become solid (checked in `GameMap.IsBlocked()`)
-- Layer property `panneau="<text>"` → non-zero tiles become readable signs (F key when adjacent)
+`InventoryMenu` shows the player's usable items in a 5-column grid. Items are synced from the server via `inventory` messages. The player selects a slot and presses Enter / clicks to use it; `InventoryMenu.UsedItem` is consumed by `game.go` which sends the appropriate action. Open with `I`.
 
-`handleMovement()` in `game.go` splits X/Y movement and calls `IsBlocked()` independently for wall-sliding. World size is now 30×20 tiles × 32 px = **960×640**.
+### Social Panel (`social_panel.go` + `panel_menu.go`)
+
+`SocialPanel` is a unified bottom panel with three sub-tabs:
+- **Friends** — list, pending requests, add-friend text box.
+- **Guilds** — own guild info, member list, global guild search, create/join/leave.
+- **Quests** — scrollable quest log with progress bars.
+
+`PanelMenu` is the icon strip at the top of screen (Maps, News, Shop, Friends, Guilds, Quests, Settings…). Clicking an icon opens the corresponding sub-panel or action.
+
+### Admin Menu (`admin.go`)
+
+Accessible via `Tab` key for admin accounts only (`g.isAdmin`). Lets admins:
+- Spawn world items (name, sprite path, item id, price) at the local player's position.
+- Remove existing world items by id (shown in a list synced from server).
+
+Signals `SpawnReq` / `RemoveID` are set on the struct and consumed by `game.go` each frame.
+
+### Emoji / Emoticons (`emoji.go`)
+
+When a player sends chat text matching a shortcode (`:)`, `:(`, etc.) an emoticon bubble is displayed above their head for `emojiBubbleDuration` seconds. Images are loaded from `assets/offline/levels/emoticons/`.
+
+### AnimImage (`animimage.go`)
+
+`AnimImage` wraps either a static PNG or an animated GIF. Raw frames are decoded in a background goroutine; Ebiten textures are lazily created on the main thread on first access. Used for cosmetic icons and panel images.
+
+### F3 Debug Overlay
+
+`F3` toggles `g.debugOverlay`. Draws:
+- Loaded chunk borders (green) and loading chunks (red) scaled to screen-space.
+- Chunk grid labels (`col,row`).
+- NW warp link zones (orange).
+- Player world-pixel coordinates and current chunk.
+- Minimap placeholder region.
 
 ### Controls (in-game)
 
 | Key | Action |
 |-----|--------|
 | `ZQSD` / Arrows | Move (with tile collision) |
+| `X` | Sword swing |
+| `Q` / on-screen glove | Grab (hold) |
+| `R` | Mount / dismount nearest NPC |
 | `F` | Read adjacent sign / talk to nearby NPC / close dialog |
+| `I` | Toggle inventory |
 | `P` | Toggle profile panel (gralat count) |
 | `T` | Open chat |
 | `C` | Open cosmetic picker |
-| `Esc` | Close dialog / close profile / back to menu |
+| `Tab` | Toggle admin menu (admin only) |
+| `F3` | Toggle debug overlay |
+| Mouse wheel | Camera zoom in/out |
+| `Esc` | Close dialog / close panel / back to menu |
 
-### Key Types
+### Key Files
 
 - `types.go` — `PlayerState`, `NPCState`, `ServerMessage` (client-side deserialization)
 - `character.go` — `Character` (both local and remote entities, rendering + interpolation)
+- `config.go` — `GameConfig`, `LoadConfig`, global `Cfg`
+- `gmap.go` — `ChunkManager`, `Chunk`, GMAP streaming
+- `tilemap.go` — TMX parser, `GameMap`
+- `gani.go` — `.gani` format parser and frame player
+- `animimage.go` — static PNG / animated GIF wrapper
+- `emoji.go` — emoticon bubble system
+- `inventory.go` — `InventoryMenu`
+- `admin.go` — `AdminMenu`
+- `social_panel.go` — `SocialPanel` (friends / guilds / quests)
+- `panel_menu.go` — `PanelMenu` top icon strip
 - `ui.go` — primitive drawing helpers (`DrawRect`, `DrawText`) and reusable widgets
 - `menu.go` — login/register menus; perform HTTP calls to `/api/login` and `/api/register`
 - `chat.go` — in-game chat overlay
 - `cosmetic.go` — cosmetic picker menu (`CosmeticMenu`)
+- `gralat.go` — gralat pickup rendering and sprite selection
+- `game.go` — `Game` struct, state machine, map switching
+- `game_draw.go` — all rendering logic
+- `game_input.go` — keyboard/mouse input, movement, interactions
+- `game_network.go` — `handleServerMsg()`, all server message handlers
 
 ### Asset Paths
 
 - `assets/character.png`, `assets/head.png`, `assets/tiles.png` — default sprites (missing files are tolerated)
 - `Assets/offline/levels/bodies/`, `heads/`, `hats/` — cosmetic sprites loaded at runtime
+- `GANITEMPLATE/res/ganis/` — gani animation files
+- `GANITEMPLATE/res/images/` — sprite images used by gani (`sprites.png`, `sword1.png`, `ride.png`, `shield1.png`)
+- `assets/offline/levels/emoticons/` — emoticon images
+- `maps/tmx/` — collection of TMX map files
+- `config.json` — runtime configuration (repo root)
